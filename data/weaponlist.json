@@ -1,0 +1,439 @@
+{
+  "weaponlist": [
+    "standard knife",
+    "levitator",
+    "standard pistol",
+    "combat knife",
+    "semi-auto turret",
+    "practice bow",
+    "chainsaw",
+    "greatsword",
+    "bazooka",
+    "machete",
+    "standard scythe",
+    "tokarev",
+    "unbranded blade",
+    "fish mount",
+    "pulley bow",
+    "noise",
+    "suppressor",
+    "rifled gun",
+    "hunter knife",
+    "bleak scythe",
+    "astray explorer",
+    "armor break type ix",
+    "genesis",
+    "bullet ant",
+    "standard gunblade",
+    "collaborator",
+    "fringe",
+    "apocalypse",
+    "standard mode",
+    "rage",
+    "blast hammer prototype",
+    "dusk mirage",
+    "heartless blades",
+    "composite armaments prototype",
+    "'paintbrush' prototype",
+    "swiftplume",
+    "severed rain",
+    "lightning devourer",
+    "heart of gold",
+    "atoll",
+    "photophage",
+    "iron star type vi",
+    "overture",
+    "pioneer",
+    "gray iron",
+    "hope of the village",
+    "gloomlight",
+    "kuji no sada",
+    "guardian mount",
+    "falcon e-3320",
+    "lightning spark",
+    "dynamo greatsword",
+    "star of bethlehem",
+    "magma pillar",
+    "firecrackers",
+    "stone heart",
+    "yuan night",
+    "faded color",
+    "rl-03c black spike",
+    "white qilin",
+    "solar ring",
+    "virtuous contract",
+    "type-4o lance",
+    "cruel oath",
+    "fa2d-ap",
+    "kara type i gunblade",
+    "animus",
+    "glorious knight",
+    "bipolar star rift",
+    "neapolitan solo",
+    "red shift",
+    "despair breaker",
+    "polar night",
+    "comet's edge",
+    "nuclear meltdown",
+    "dual rainbows",
+    "red sprite",
+    "returning wind",
+    "trio-claws",
+    "fpt-ii - mod",
+    "reversal node",
+    "glimpse",
+    "guiyun",
+    "odette",
+    "blooming rose",
+    "whitefrost ruler",
+    "progressive knife",
+    "lotus berserker",
+    "type zero",
+    "inverse chimera",
+    "inverse shadow",
+    "benediction",
+    "wolf fang",
+    "soul ripper",
+    "ramiel",
+    "berserk fusion",
+    "dragon wind",
+    "zero scale",
+    "fusion dragon",
+    "hydro heat",
+    "darkness",
+    "sakura",
+    "big kamui",
+    "peacemaker",
+    "purple peony",
+    "tonitrus",
+    "scion",
+    "st. elmo",
+    "crimson birch",
+    "sariel",
+    "thanatos",
+    "gungnir",
+    "baji",
+    "qinghe",
+    "ozma",
+    "virtuous contract - mod",
+    "cruel oath - mod",
+    "type-4o lance - mod",
+    "scale",
+    "waldmeister",
+    "apollo",
+    "snore",
+    "phoenix",
+    "durendal",
+    "hestia",
+    "sarastro",
+    "infinity",
+    "implosion",
+    "galatea",
+    "illuminare",
+    "prometheus",
+    "hecate",
+    "sound of silence",
+    "stokes",
+    "star voyager",
+    "nightblaze",
+    "perpetuity",
+    "managarm",
+    "crimson howl",
+    "astraea",
+    "metis",
+    "black rock cannon",
+    "night falcon",
+    "dwelling will of inscription's key",
+    "hacker's tune",
+    "reconstruction of law",
+    "cestus",
+    "dreamer roamer",
+    "hemera's gaze",
+    "dawn's flaming feathers"
+  ],
+  "weaponlist_categorised": [
+    {
+      "name": "Katanas",
+      "list": [
+        "Lotus Berserker ######",
+        "Inverse Shadow ######",
+        "Sakura ######",
+        "Crimson Birch ######",
+        "Sariel ######",
+        "Kuji no Sada #####",
+        "Unbranded Blade ####",
+        "Combat Knife ###",
+        "Standard Knife ##"
+      ]
+    },
+    {
+      "name": "Levi Guns",
+      "list": [
+        "Dragon Wind ######",
+        "Benediction ######",
+        "Type Zero ######",
+        "Guardian Mount #####",
+        "Fish Mount ####",
+        "Semi-Auto Turret ###",
+        "Levitator ##"
+      ]
+    },
+    {
+      "name": "Dual Guns",
+      "list": [
+        "Scion ######",
+        "Zero Scale ######",
+        "Wolf Fang ######",
+        "Gloomlight #####",
+        "Tokarev ####",
+        "Standard Pistol ###"
+      ]
+    },
+    {
+      "name": "Bows",
+      "list": [
+        "Astraea ######",
+        "Tonitrus ######",
+        "Ramiel ######",
+        "Falcon E-3320 #####",
+        "Pulley Bow ####",
+        "Practice Bow ###"
+      ]
+    },
+    {
+      "name": "Saws",
+      "list": [
+        "Hydro Heat ######",
+        "Inverse Chimera ######",
+        "Lightning Spark #####",
+        "Noise ####",
+        "Chainsaw ###"
+      ]
+    },
+    {
+      "name": "Greatswords",
+      "list": [
+        "Big Kamui ######",
+        "Darkness ######",
+        "Dynamo Greatsword #####",
+        "Suppressor ####",
+        "Greatsword ###"
+      ]
+    },
+    {
+      "name": "Cannons",
+      "list": [
+        "Fusion Dragon ######",
+        "Berserk Fusion ######",
+        "Magma Pillar #####",
+        "Rifled Gun ####",
+        "Bazooka ###"
+      ]
+    },
+    {
+      "name": "Daggers",
+      "list": [
+        "Peacemaker ######",
+        "Soul Ripper ######",
+        "Stone Heart #####",
+        "Hunter Knife ####",
+        "Machete ###"
+      ]
+    },
+    {
+      "name": "Scythes",
+      "list": [
+        "Galatea ######",
+        "St. Elmo ######",
+        "Purple Peony ######",
+        "Faded Color #####",
+        "Bleak Scythe ####",
+        "Standard Scythe ###"
+      ]
+    },
+    {
+      "name": "Spear Shields",
+      "list": [
+        "Gungnir ######",
+        "RL-03C Black Spike #####",
+        "Astray Explorer ####"
+      ]
+    },
+    {
+      "name": "Gauntlets",
+      "list": ["Baji ######", "White Qilin #####", "Armor Break Type IX ####"]
+    },
+    {
+      "name": "Amplifiers",
+      "list": ["Ozma ######", "Solar Ring #####", "Genesis ####"]
+    },
+    {
+      "name": "Gun Sets",
+      "list": ["Scale ######", "FA2D-AP #####", "Bullet Ant ####"]
+    },
+    {
+      "name": "Gunblades",
+      "list": [
+        "Apollo ######",
+        "Kara Type I Gunblade #####",
+        "Standard Gunblade ####"
+      ]
+    },
+    {
+      "name": "Co-Bots",
+      "list": ["Snore ######", "Animus #####", "Collaborator ####"]
+    },
+    {
+      "name": "Banner Spears",
+      "list": ["Phoenix ######", "Glorious Knight #####", "Fringe ####"]
+    },
+    {
+      "name": "Scepters",
+      "list": ["Hestia ######", "Bipolar Star Rift #####", "Apocalypse ####"]
+    },
+    {
+      "name": "Flute Swords",
+      "list": ["Sarastro ######", "Neapolitan Solo #####", "Standard Mode ####"]
+    },
+    {
+      "name": "Mega Saws",
+      "list": ["Implosion ######", "Red Shift #####", "Rage ####"]
+    },
+    {
+      "name": "Blast Hammers",
+      "list": [
+        "Illuminare ######",
+        "Despair Breaker #####",
+        "Blast Hammer Prototype ####"
+      ]
+    },
+    {
+      "name": "Swordstaffs",
+      "list": ["Hecate ######", "Polar Night #####", "Dusk Mirage ####"]
+    },
+    {
+      "name": "Mantis Blades",
+      "list": [
+        "Sound of Silence ######",
+        "Comet's Edge #####",
+        "Heartless Blades ####"
+      ]
+    },
+    {
+      "name": "Composite Armaments",
+      "list": [
+        "Key of Tempus Gate - Stokes ######",
+        "Nuclear Meltdown #####",
+        "Composite Armaments Prototype ####"
+      ]
+    },
+    {
+      "name": "Beam Gunlances",
+      "list": [
+        "Star Voyager ######",
+        "Dual Rainbows #####",
+        "'Paintbrush' Prototype ####"
+      ]
+    },
+    {
+      "name": "Daishos",
+      "list": ["Nightblaze ######", "Red Sprite #####", "Swiftplume ####"]
+    },
+    {
+      "name": "Folding Fans",
+      "list": ["Perpetuity ######", "Returning Wind #####", "Severed Rain ####"]
+    },
+    {
+      "name": "Claw Blades",
+      "list": ["Managarm ######", "Trio-Claws #####", "Lightning Devourer ####"]
+    },
+    {
+      "name": "Robotic Arms",
+      "list": [
+        "Crimson Howl ######",
+        "FPT-II - Mod #####",
+        "Heart of Gold ####"
+      ]
+    },
+    {
+      "name": "Halberd Blades",
+      "list": ["Metis ######", "Reversal Node #####", "Atoll ####"]
+    },
+    {
+      "name": "Pioneer's Blades",
+      "list": ["Night Falcon ######"]
+    },
+    {
+      "name": "Longswords",
+      "list": ["Dwelling Will of Inscription's Key ######"]
+    },
+    {
+      "name": "Tactical Headphones'",
+      "list": ["Hacker's Tune ######"]
+    },
+    {
+      "name": "Chakrams",
+      "list": ["Reconstruction of Law ######"]
+    },
+    {
+      "name": "Tactical Tonfas",
+      "list": ["Cestus ######"]
+    },
+    {
+      "name": "Pipas",
+      "list": ["Dreamer Roamer ######"]
+    },
+    {
+      "name": "Revolvers",
+      "list": ["Hemera's Gaze ######"]
+    },
+    {
+      "name": "Lustrous Katanas",
+      "list": ["Dawn's Flaming Feathers ######"]
+    },
+    {
+      "name": "Uniframe: Greatswords",
+      "list": ["Thanatos ######", "Glimpse #####", "Photophage ####"]
+    },
+    {
+      "name": "Uniframe: Glaives",
+      "list": ["Qinghe ######", "Guiyun #####", "Iron Star Type VI ####"]
+    },
+    {
+      "name": "Uniframe: Cello Blades",
+      "list": ["Waldmeister ######", "Odette #####", "Overture ####"]
+    },
+    {
+      "name": "Uniframe: Chain Blades",
+      "list": ["Durendal ######", "Blooming Rose #####", "Pioneer ####"]
+    },
+    {
+      "name": "Uniframe: Dragon Axes",
+      "list": ["Infinity ######", "Whitefrost Ruler #####", "Gray Iron ####"]
+    },
+    {
+      "name": "Uniframe: Rev Blades",
+      "list": [
+        "Prometheus ######",
+        "Progressive Knife #####",
+        "Hope of the Village ####"
+      ]
+    },
+    {
+      "name": "Katanas & Greatswords",
+      "list": ["Virtuous Contract - Mod ######", "Virtuous Contract #####"]
+    },
+    {
+      "name": "Tactical Lances",
+      "list": ["Type-4O Lance - Mod ######", "Type-4O Lance #####"]
+    },
+    {
+      "name": "Katanas",
+      "list": ["Cruel Oath - Mod ######", "Cruel Oath #####"]
+    },
+    {
+      "name": "Blade Cannons",
+      "list": ["Black Rock Cannon ######"]
+    }
+  ]
+}
