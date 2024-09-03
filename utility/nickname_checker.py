@@ -315,6 +315,11 @@ def check_nickname(nickname, caller):
             weapon = ""
             cub = ""
             memory = ""
+        case "fulgor":
+            character = "fulgor"
+            weapon = ""
+            cub = "n/a"
+            memory = "n/a"
         
         case _:
             if(caller == "character"):

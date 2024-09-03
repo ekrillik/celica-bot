@@ -1479,6 +1479,188 @@
       ]
     }
   },
+  "ember": {
+    "basic_attack": [
+      {
+        "name": "Pressure Unleashed",
+        "button_press": "Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Launches consecutive attacks at the target, dealing Physical DMG. ",
+          "result": ["- Deals 720% Physical DMG in total."]
+        }
+      },
+      {
+        "name": "Pressure Unleashed",
+        "button_press": "Enhanced Form + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Launches consecutive attacks at the target, dealing Fire DMG.",
+          "result": ["- Deals 720% Fire DMG in total. "]
+        }
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Lightblade Strike",
+        "button_press": "Ping Red Orb",
+        "switch_in": "yes",
+        "description": {
+          "desc": "Swings the cannon twice to attack the targets ahead, dealing Physical DMG. Gains Super Armor while using this skill.",
+          "result": [
+            "- Deals 100%/200%/300% Physical DMG based on the number of orbs pinged."
+          ]
+        }
+      },
+      {
+        "name": "Lightblade Strike",
+        "button_press": "Enhanced Form + Ping Red Orb",
+        "switch_in": "yes",
+        "description": {
+          "desc": "In Enhanced Form, swings the cannon twice to attack the targets ahead, dealing Fire DMG. Gains Super Armor while using this skill. ",
+          "result": [
+            "- Deals 150% / 300% / 450% Fire DMG based on the number of orbs pinged. "
+          ]
+        }
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Covering Barrage",
+        "button_press": "Ping Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Leaps forward and slams the target with her cannon. Takes reduced damage from all attacks while casting this skill and deals Physical DMG to nearby targets.",
+          "result": [
+            "- Deals 180% / 360% / 540% Physical DMG based on the number of orbs pinged.",
+            "- Takes 30% less damage from all attacks."
+          ]
+        }
+      },
+      {
+        "name": "Covering Barrage",
+        "button_press": "Ping Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "In Enhanced Form, leaps forward and slams the target with her cannon. Takes reduced damage from all attacks while casting this skill and deals Fire DMG to nearby targets.",
+          "result": [
+            "- Deals 270% / 540% / 810% Fire DMG based on the number of orbs pinged. ",
+            "- Takes 30% less damage from all attacks. "
+          ]
+        }
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Wingman Support",
+        "button_press": "Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Summons flying laser drones and deals Physical DMG instantly. Drones deal Physical DMG with every attack. If multiple drones are present, the one with the highest level take priority. ",
+          "result": [
+            "- Based on the number of orbs pinged, the drones deal 6% / 12% / 18% Physical DMG instantly upon summoning and deal 20% / 40% / 60% Physical DMG with every attack."
+          ]
+        }
+      },
+      {
+        "name": "Wingman Support",
+        "button_press": "Enhanced Form + Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "In Enhanced Form, summons flying laser drones and deals Physical DMG instantly. Drones deal Fire DMG with every attack. If multiple drones are present, the one with the highest level take priority.",
+          "result": [
+            "- Based on the number of orbs pinged, the drones deal 6% / 12% / 18% Physical DMG instantly upon summoning and deal 30% / 60% / 90% Fire DMG with every attack. "
+          ]
+        }
+      }
+    ],
+    "core_passive": {
+      "name": "Thermal Armament",
+      "skills": [
+        {
+          "name": "Core Passive",
+          "button_press": "Any 3-Ping / Cast Signature",
+          "description": {
+            "desc": [
+              "Gains Thermal Energy upon entering battle. Thermal Energy can be gained via 3-Pings and Signature move. "
+            ],
+            "result": ["- Increases Thermal Energy gained when entering battle by 3% per skill level."]
+          }
+        },
+        {
+          "name": "Core Passive",
+          "button_press": "Thermal Energy reaches 50%",
+          "description": {
+            "desc": [
+              "Enters Enhanced Form once Thermal Energy reaches 50%, gaining Fire DMG Bonus and granting additional effects to Signal Orb skills and Basic Attacks. Thermal Energy decreases over time in Enhanced Form.- Gains 20% Fire DMG Bonus in Enhanced Form."
+            ],
+            "result": ["- Thermal Energy decreases by 5% per second in Enhanced Form. "]
+          }
+        }
+      ]
+    },
+    "signature": {
+      "name": "Signature - Scar of Earth ",
+      "skills": [
+        {
+          "name": "Signature Move",
+          "button_press": "100 Energy + Tap Signature",
+          "description": {
+            "desc": "Shoots a laser at the ground by 200% Fire DMG and leaves a path of fire for 5 seconds in the end.",
+            "result": ["All enemies in the path take 200% Fire DMG per second. "]
+          }
+        }
+      ]
+    },
+    "qte": {
+      "name": "Gravity Fall",
+      "description": {
+        "desc": "Karenina deals 720% Fire DMG to the target.",
+        "result": [""]
+      }
+    },
+    "leader": {
+      "name": "Leader - Complete Destruction",
+      "description": {
+        "desc": "Increases ATK by 10% when there are 3 different classes in the team. Increases ATK of all Attacker Omniframes in the team by 5%. ",
+        "result": []
+      }
+    },
+    "class": {
+      "name": "Attacker",
+      "description": {
+        "desc": "Extra DMG Bonus increases by 20%.",
+        "result": []
+      }
+    },
+    "ss_rank": {
+      "name": "Thermal Radiation",
+      "levels": [
+        {
+          "rank": "SS",
+          "desc": "Extra Fire DMG Bonus increases by 10% after entering Thermal mode. "
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Infinite Potential",
+      "levels": [
+        {
+          "rank": "SSS",
+          "desc": "Extra DMG Bonus of Enhanced skills increases by 10%. "
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Elimination Duty ",
+      "levels": [
+        {
+          "rank": "SSS+",
+          "desc": "Reduces Fire DMG Resistance of enemies that took burning damage from a Signature Move by 15% for 5 seconds. "
+        }
+      ]
+    }
+  },
   "pulse": {
     "basic_attack": [
       {

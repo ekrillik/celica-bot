@@ -208,9 +208,7 @@ class EmbedClass:
 
     def create_skills_embed(self, skill, skill_type):
         match skill_type:
-            case "basic" | "red" | "blue" | "yellow" | "signature":
-                print(skill)
-
+            case "basic" | "red" | "blue" | "yellow":
                 for i in skill:
                     embed = discord.Embed(
                         title=f"{i['name']}",
@@ -233,6 +231,32 @@ class EmbedClass:
                         name="",
                         value=f"{description['result']}",
                         inline=False)
+            case "signature":
+                embed = discord.Embed(
+                        title=f"{skill['name']}",
+                        description=f""
+                    )
+                
+                for item in skill['skills']:
+                    embed.add_field(name=f"{item['name']}", value="", inline=False)
+
+                    embed.add_field(
+                        name="Trigger",
+                        value=f"{item['button_press']}",
+                        inline=False
+                    )
+
+                    description = item['description']
+                    embed.add_field(
+                        name="",
+                        value=f"{description['desc']}",
+                        inline=False
+                    )
+                    for j in description['result']:
+                        embed.add_field(
+                            name="",
+                            value=f"{j}",
+                            inline=False)
             case "qte" | "leader" | "class":
                 embed = discord.Embed(
                     title=f"{skill['name']}",
