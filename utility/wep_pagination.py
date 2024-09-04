@@ -45,14 +45,12 @@ class WeaponPageView(discord.ui.View):
         return False
     
     # do stuff on timeout
-    # async def on_timeout(self) -> None:
-    #     # this method is called when the period mentioned in timeout kwarg passes.
-    #     # we can do tasks like disabling buttons here.
-    #     for button in self.children:
-    #         button.disabled = True  # type: ignore
-    #     # and update the message with the update View.
-    #     if self.message:
-    #         await self.message.edit(view=self)
+    async def on_timeout(self) -> None:
+        self.two_star.disabled = True
+        self.three_star.disabled = True
+        self.four_star.disabled = True
+        self.five_star.disabled = True
+        self.six_star.disabled = True
 
     def create_embed(self, rarity):
         embed = {}

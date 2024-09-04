@@ -42,3 +42,8 @@ class DropdownView(discord.ui.View):
         await interaction.response.send_message(f"The command was initiated by {self.user.mention}", ephemeral=True)
         return False
     
+    # do stuff on timeout
+    async def on_timeout(self) -> None:
+        # this method is called when the period mentioned in timeout kwarg passes.
+        # we can do tasks like disabling buttons here.
+        self.menu.disabled = True

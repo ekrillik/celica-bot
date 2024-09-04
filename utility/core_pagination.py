@@ -34,14 +34,14 @@ class CorePaginationView(discord.ui.View):
         return False
     
     # do stuff on timeout
-    # async def on_timeout(self) -> None:
-    #     # this method is called when the period mentioned in timeout kwarg passes.
-    #     # we can do tasks like disabling buttons here.
-    #     for button in self.children:
-    #         button.disabled = True  # type: ignore
-    #     # and update the message with the update View.
-    #     if self.message:
-    #         await self.message.edit(view=self)
+    async def on_timeout(self) -> None:
+        # this method is called when the period mentioned in timeout kwarg passes.
+        # we can do tasks like disabling buttons here.
+        self.first_page_button.disabled = True
+        self.prev_button.disabled = True
+        self.next_button.disabled = True
+        self.last_page_button.disabled = True
+        
 
     def create_embed(self, part):
         embed = {}
@@ -112,19 +112,6 @@ class CorePaginationView(discord.ui.View):
             self.last_page_button.disabled = False
             self.last_page_button.style = discord.ButtonStyle.green
             self.next_button.style = discord.ButtonStyle.primary
-
-    # def get_current_page_data(self):
-    #     until_item = self.current_page * self.sep
-    #     from_item = until_item - self.sep
-    #     if not self.current_page == 1:
-    #         from_item = 0
-    #         until_item = self.sep
-    #     if self.current_page == int(len(self.data) / self.sep) + 1:
-    #         from_item = self.current_page * self.sep - self.sep
-    #         until_item = len(self.data)
-    #     return self.data[from_item:until_item]
-
-
 
     # error handler for the view
     async def on_error(

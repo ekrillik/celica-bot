@@ -33,14 +33,11 @@ class PaginationView(discord.ui.View):
         return False
     
     # do stuff on timeout
-    # async def on_timeout(self) -> None:
-    #     # this method is called when the period mentioned in timeout kwarg passes.
-    #     # we can do tasks like disabling buttons here.
-    #     for button in self.children:
-    #         button.disabled = True  # type: ignore
-    #     # and update the message with the update View.
-    #     if self.message:
-    #         await self.message.edit(view=self)
+    async def on_timeout(self) -> None:
+        self.first_page_button.disabled = True
+        self.prev_button.disabled = True
+        self.next_button.disabled = True
+        self.last_page_button.disabled = True
 
     def create_embed(self):
         embed = discord.Embed(title=f"Data")
