@@ -18,15 +18,16 @@ class TestCog(commands.Cog):
     async def test(self, ctx):
         message = "I'm alive"
         title = "Test Message"
-        embed = EmbedClass(message, title)
-        await ctx.channel.send(embed=embed.embed)
+        embed = discord.Embed(title=title, description=message)
+        await ctx.channel.send(embed=embed)
 
     @commands.command()
     async def ping(self, ctx):
         message = f'⏱|** {round(self.bot.latency * 1000)} ms** Latency!'
         title = "Ping"
-        embed = EmbedClass(message, title)
-        await ctx.send(embed=embed.embed)
+        embed = discord.Embed(title=title, description=message)
+        await ctx.send(embed=embed)
+
 
     @commands.command()
     async def paginate(self, ctx: commands.Context) -> None:

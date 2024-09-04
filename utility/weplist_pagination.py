@@ -32,6 +32,7 @@ class WeaponListPaginationView(discord.ui.View):
         await interaction.response.send_message(f"The command was initiated by {self.user.mention}", ephemeral=True)
         return False
     
+    
     # do stuff on timeout
     async def on_timeout(self) -> None:
         self.first_page_button.disabled = True

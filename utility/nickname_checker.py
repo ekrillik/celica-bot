@@ -260,7 +260,7 @@ def check_nickname(nickname, caller):
             weapon = "crimson howl"
             cub = "n/a"
             memory = "n/a"
-        case "alisa" :
+        case "alisa" | "echo":
             character = "alisa"
             weapon = "astraea"
             cub = "dawn chorus"
