@@ -46,11 +46,8 @@ class WeaponPageView(discord.ui.View):
     
     # do stuff on timeout
     async def on_timeout(self) -> None:
-        self.two_star.disabled = True
-        self.three_star.disabled = True
-        self.four_star.disabled = True
-        self.five_star.disabled = True
-        self.six_star.disabled = True
+        self.clear_items()
+        await self.message.edit(view=self)
 
     def create_embed(self, rarity):
         embed = {}
@@ -110,6 +107,11 @@ class WeaponPageView(discord.ui.View):
         # self.update_buttons()
         # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
+
+    @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
+    async def deleteView(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
+        self.clear_items()
+        await interaction.response.edit_message(view=self)
 
     def update_buttons(self):
         match self.current_page:

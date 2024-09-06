@@ -35,10 +35,8 @@ class WeaponListPaginationView(discord.ui.View):
     
     # do stuff on timeout
     async def on_timeout(self) -> None:
-        self.first_page_button.disabled = True
-        self.prev_button.disabled = True
-        self.next_button.disabled = True
-        self.last_page_button.disabled = True
+        self.clear_items()
+        await self.message.edit(view=self)
 
     def create_embed(self):
         embed = {}
@@ -74,6 +72,10 @@ class WeaponListPaginationView(discord.ui.View):
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
         
+    @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
+    async def deleteView(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
+        self.clear_items()
+        await interaction.response.edit_message(view=self)
 
     def update_buttons(self):
         if self.current_page == 0:

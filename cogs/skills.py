@@ -87,7 +87,7 @@ class Skills(commands.Cog):
                 # print(skill)
                 embed = self.embedconf.create_corepassive_embed(skill, 0)
                 corepageview = CorePaginationView(ctx.author, data=skill)
-                await ctx.send(embed=embed, view=corepageview)
+                corepageview.message = await ctx.send(embed=embed, view=corepageview)
             else:
                 embed = self.embedconf.create_skills_embed(skill, skill_type)
                 await ctx.send(embed=embed)

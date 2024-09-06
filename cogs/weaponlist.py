@@ -32,7 +32,7 @@ class WeaponList(commands.Cog):
         weplistview = WeaponListPaginationView(ctx.author, data=categories)
 
         embed = self.embedconf.create_list_embed(name=categories[0]['name'], items=categories[0]['list'], curpage=1, maxlistcount=len(categories))
-        await ctx.send(embed=embed, view=weplistview)
+        weplistview.message = await ctx.send(embed=embed, view=weplistview)
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(WeaponList(bot))

@@ -47,6 +47,10 @@ class CUBDropdownView(discord.ui.View):
 
         # do stuff on timeout
     async def on_timeout(self) -> None:
-        # this method is called when the period mentioned in timeout kwarg passes.
-        # we can do tasks like disabling buttons here.
-        self.menu.disabled = True
+        self.clear_items()
+        await self.message.edit(view=self)
+
+    @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
+    async def deleteView(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
+        self.clear_items()
+        await interaction.response.edit_message(view=self)

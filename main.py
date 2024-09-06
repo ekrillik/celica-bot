@@ -4,6 +4,8 @@ import typing
 
 import logging
 import os
+import time
+import asyncio
 
 import discord
 import aiohttp
@@ -49,10 +51,28 @@ class MyBot(commands.Bot):
     async def setup_hook(self) -> None:
         self.client = aiohttp.ClientSession()
         await self._load_extensions()
+        self._watcher = self.loop.create_task(self._cog_watcher())
         if not self.synced:
             await self.tree.sync()
             self.synced = not self.synced
             self.logger.info("Synced command tree")
+
+    async def _cog_watcher(self):
+        print("Watching for changes...")
+        last = time.time()
+        while True:
+            extensions: set[str] = set()
+            for name, module in self.extensions.items():
+                if module.__file__ and os.stat(module.__file__).st_mtime > last:
+                    extensions.add(name)
+            for ext in extensions:
+                try:
+                    await self.reload_extension(ext)
+                    print(f"Reloaded {ext}")
+                except commands.ExtensionError as e:
+                    print(f"Failed to reload {ext}: {e}")
+            last = time.time()
+            await asyncio.sleep(1)
 
     
 
@@ -60,11 +80,6 @@ def main() -> None:
     logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
     bot = MyBot(prefix="?", ext_dir="cogs")
     bot.run(TOKEN, log_handler=handler, log_level=logging.ERROR)
-
-    @bot.command()
-    async def reload(ctx: commands.Context, extension: str):
-        await bot.reload_extension(f"cogs.{extension}")
-        await ctx.send(f"Reloaded {extension}!")
 
 
 if __name__ == "__main__":

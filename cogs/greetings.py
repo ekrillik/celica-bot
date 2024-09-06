@@ -29,14 +29,6 @@ class TestCog(commands.Cog):
         await ctx.send(embed=embed)
 
 
-    @commands.command()
-    async def paginate(self, ctx: commands.Context) -> None:
-        view = PaginationView(ctx.author)
-        # print(view.children)
-        embed = discord.Embed(title="Pagination Test", description="Pagination Test")
-        await ctx.send(view=view, embed=embed)
-
-
 async def setup(bot: commands.Bot):
     await bot.add_cog(TestCog(bot))
 

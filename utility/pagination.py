@@ -33,11 +33,10 @@ class PaginationView(discord.ui.View):
         return False
     
     # do stuff on timeout
+    # do stuff on timeout
     async def on_timeout(self) -> None:
-        self.first_page_button.disabled = True
-        self.prev_button.disabled = True
-        self.next_button.disabled = True
-        self.last_page_button.disabled = True
+        self.clear_items()
+        await self.message.edit(view=self)
 
     def create_embed(self):
         embed = discord.Embed(title=f"Data")
@@ -84,6 +83,10 @@ class PaginationView(discord.ui.View):
         # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
         
+    @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
+    async def deleteView(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
+        self.clear_items()
+        await interaction.response.edit_message(view=self)
 
     def update_buttons(self):
         if self.current_page == 1:
@@ -108,16 +111,6 @@ class PaginationView(discord.ui.View):
             self.last_page_button.style = discord.ButtonStyle.green
             self.next_button.style = discord.ButtonStyle.primary
 
-    # def get_current_page_data(self):
-    #     until_item = self.current_page * self.sep
-    #     from_item = until_item - self.sep
-    #     if not self.current_page == 1:
-    #         from_item = 0
-    #         until_item = self.sep
-    #     if self.current_page == int(len(self.data) / self.sep) + 1:
-    #         from_item = self.current_page * self.sep - self.sep
-    #         until_item = len(self.data)
-    #     return self.data[from_item:until_item]
 
 
 

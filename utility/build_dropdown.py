@@ -69,7 +69,10 @@ class DropdownView(discord.ui.View):
     
     # do stuff on timeout
     async def on_timeout(self) -> None:
-        # disable all components
-        self._disable_all()
-        # edit the message with the new view
-        await self._edit(view=self)
+        self.clear_items()
+        await self.message.edit(view=self)
+
+    @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
+    async def deleteView(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
+        self.clear_items()
+        await interaction.response.edit_message(view=self)

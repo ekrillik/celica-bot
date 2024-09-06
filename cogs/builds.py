@@ -76,7 +76,7 @@ class Builds(commands.Cog):
             if len(data) == 1:
                 await ctx.send(embed=embed)
             else:
-                await ctx.send(view=view, embed=embed)
+                view.message = await ctx.send(view=view, embed=embed)
         else:
             content = "This character does not exist. Please try again."
             await ctx.send(content=content)

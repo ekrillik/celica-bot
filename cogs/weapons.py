@@ -80,7 +80,7 @@ class Weapons(commands.Cog):
                 view = WeaponPageView(ctx.author, weapon_box=weapon_box)
                 view.current_page = "6★"
                 view.update_buttons()
-                await ctx.send(view=view, embed=embed)
+                view.message = await ctx.send(view=view, embed=embed)
             else:
                 content = "This weapon does not exist. Please try again. If there is a capital letter in the weapon that you are searching for, you will need to make it lower case when running the command."
                 await ctx.send(content=content)

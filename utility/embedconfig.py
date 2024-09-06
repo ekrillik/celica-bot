@@ -423,6 +423,8 @@ class EmbedClass:
                     CryoZero
                     Frustal
                     
+                Thanks to Ko for the CN translations that went into some of the skills before global release.
+
                 (This list is not limited btw. If your name is not on here and you have helped with this please send me a DM and I'll add you here. Otherwise if you helped but don't want to be mentioned thank you as well.)
 
                 Huge thanks to Nova(Creator of the Huaxu site) for letting me reference his assets(images) for everything on this bot.

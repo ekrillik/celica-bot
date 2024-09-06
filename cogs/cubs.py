@@ -58,7 +58,7 @@ class CUBs(commands.Cog):
             cub = self.retrieve_cub(cub_name)
             view = CUBDropdownView(ctx.author, cub=cub)
             embed = self.embedconf.create_cub_embed(cub, "active")
-            await ctx.send(embed=embed, view=view)
+            view.message = await ctx.send(embed=embed, view=view)
         else:
             content = "This CUB does not exist. Please try again."
             await ctx.send(content=content)
