@@ -20,8 +20,11 @@ class CUBDropdownView(discord.ui.View):
             max_values=1,
             options=[discord.SelectOption(label=f"Active Skills"), discord.SelectOption(label=f"Passive Skills")],
         )
+        self.clear_button = discord.ui.Button(label="Delete", style=discord.ButtonStyle.red)
         self.menu.callback = self.callback
+        self.clear_button.callback = self.deleteView
         self.add_item(self.menu)
+        self.add_item(self.clear_button)
         self.embedconf = EmbedClass()
 
     async def callback(self, interaction: discord.Interaction) -> None:
@@ -50,7 +53,6 @@ class CUBDropdownView(discord.ui.View):
         self.clear_items()
         await self.message.edit(view=self)
 
-    @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
-    async def deleteView(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
+    async def deleteView(self, interaction: discord.Interaction) -> None:
         self.clear_items()
         await interaction.response.edit_message(view=self)

@@ -25,8 +25,11 @@ class DropdownView(discord.ui.View):
             max_values=1,
             options=[discord.SelectOption(label=f"{i}") for i in data],
         )
+        self.clear_button = discord.ui.Button(label="Delete", style=discord.ButtonStyle.red)
         self.menu.callback = self.callback
+        self.clear_button.callback = self.deleteView
         self.add_item(self.menu)
+        self.add_item(self.clear_button)
         self.embedconf = EmbedClass()
 
     async def callback(self, interaction: discord.Interaction) -> None:
@@ -72,7 +75,6 @@ class DropdownView(discord.ui.View):
         self.clear_items()
         await self.message.edit(view=self)
 
-    @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
-    async def deleteView(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
+    async def deleteView(self, interaction: discord.Interaction) -> None:
         self.clear_items()
         await interaction.response.edit_message(view=self)
