@@ -85,9 +85,8 @@ class PaginationView(discord.ui.View):
         
     @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
     async def deleteView(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
-        self.clear_items()
-        await interaction.response.edit_message(view=self)
-
+        await self.message.delete()
+        
     def update_buttons(self):
         if self.current_page == 1:
             self.first_page_button.disabled = True

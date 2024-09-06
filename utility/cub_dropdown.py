@@ -54,5 +54,4 @@ class CUBDropdownView(discord.ui.View):
         await self.message.edit(view=self)
 
     async def deleteView(self, interaction: discord.Interaction) -> None:
-        self.clear_items()
-        await interaction.response.edit_message(view=self)
+        await self.message.delete()
