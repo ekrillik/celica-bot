@@ -206,9 +206,7 @@ class EmbedClass:
             )
         return embed
 
-    def skillsEmbed(skill, selection, cur_page = 0):
-        print(skill)
-        print(cur_page)
+    def skillsEmbed(self, skill, selection, cur_page = 0):
         match selection:
             case "Basic Attack" | "Red Orb" | "Blue Orb" | "Yellow Orb" :
                 embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**")
