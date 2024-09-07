@@ -206,6 +206,136 @@ class EmbedClass:
             )
         return embed
 
+    def skillsEmbed(skill, selection, cur_page = 0):
+        print(skill)
+        print(cur_page)
+        match selection:
+            case "Basic Attack" | "Red Orb" | "Blue Orb" | "Yellow Orb" :
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**")
+                embed.add_field(
+                    name="",
+                    value=f"**Trigger - {skill[cur_page]['button_press']}**",
+                    inline=False
+                )
+                description = skill[cur_page]['description']
+                embed.add_field(
+                    name="",
+                    value=f"{description['desc']}",
+                    inline=False
+                )
+                results = description['result']
+                if len(results) > 0:
+                    for result in results:
+                        embed.add_field(
+                            name="",
+                            value=f"{result}",
+                            inline=False
+                        )
+                embed.set_footer(text=f"{cur_page + 1}/{len(skill)}")
+            case "Core Passive":
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**")
+                embed.add_field(
+                    name="",
+                    value=f"**Trigger - {skill['skills'][cur_page]['button_press']}**",
+                    inline=False
+                )
+                descriptions = skill['skills'][cur_page]['description']
+                if len(descriptions) > 0:
+                    for description in descriptions:
+                        embed.add_field(
+                            name="",
+                            value=f"{description}",
+                            inline=False
+                        )
+                results = skill['skills'][cur_page]['result']
+                if len(results) > 0:
+                    for result in results:
+                        embed.add_field(
+                            name="",
+                            value=f"{result}",
+                            inline=False
+                        )
+                embed.set_footer(text=f"{cur_page + 1}/{len(skill['skills'])}")
+            case "Signature/Ultimate":
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**")
+                embed.add_field(
+                    name="",
+                    value=f"**Trigger - {skill['skills'][cur_page]['button_press']}**",
+                    inline=False
+                )
+                description = skill['skills'][cur_page]['description']
+                embed.add_field(
+                    name="",
+                    value=f"{description['desc']}",
+                    inline=False
+                )
+                results = description['result']
+                if len(results) > 0:
+                    for result in results:
+                        embed.add_field(
+                            name="",
+                            value=f"{result}",
+                            inline=False
+                        )
+                embed.set_footer(text=f"{cur_page + 1}/{len(skill['skills'])}")
+            case "Leader Passive" | "Class Passive":
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**")
+                description = skill['description']
+                embed.add_field(
+                    name="",
+                    value=f"{description['desc']}",
+                    inline=False
+                )
+            case "QTE":
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**")
+                embed.add_field(
+                    name="",
+                    value=f"{skill['description']}",
+                    inline=False
+                )
+                for result in skill['results']:
+                    embed.add_field(
+                        name="",
+                        value=f"{result}",
+                        inline=False
+                    )
+            case "SS" | "SSS" | "S+":
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**")
+                levels = skill['levels']
+                for level in levels:
+                    embed.add_field(
+                        name=f"{level['rank']}",
+                        value=f"{level['desc']}",
+                        inline=False
+                    )
+            case "Leap":
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**")
+                embed.add_field(
+                    name="",
+                    value=f"{skill[cur_page]['description']}",
+                    inline=False
+                )
+                embed.add_field(
+                    name="",
+                    value=f"{skill[cur_page]['level9']}",
+                    inline=False
+                )
+                level18 = skill[cur_page]['level18']
+                embed.add_field(
+                    name="",
+                    value=f"{skill[cur_page]['level18'][0]}",
+                    inline=False
+                )
+                for idx, result in enumerate(level18):
+                    if idx == 0:
+                        continue
+                    embed.add_field(
+                        name="",
+                        value=f"{result}",
+                        inline=False
+                    )
+        return embed
+
     def create_skills_embed(self, skill, skill_type):
         match skill_type:
             case "basic" | "red" | "blue" | "yellow":

@@ -11,6 +11,7 @@ from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
 from utility.build_dropdown import DropdownView
 from utility.nickname_checker import check_nickname
+from utility.skills_menu import SkillsView
 from utility.core_pagination import CorePaginationView
 
 from discord.ui.select import BaseSelect
@@ -99,6 +100,21 @@ class Skills(commands.Cog):
     @commands.Cog.listener()
     async def on_ready(self):
         print('Skills loaded.')
+
+    @commands.command()
+    async def skill(self, ctx: commands.Context, *args) -> None:
+        if len(args) > 1:
+            character = args[0] + " " + args[1]
+        else:
+            character = args[0]
+
+        print(character)
+        character = check_nickname(character, "character")
+
+        skills = self.retrieve_skills(character)
+        embed = self.embedconf.skillsEmbed(skills['basic_attack'], "Basic Attack")
+        view = SkillsView(ctx.author, skills=skills)
+        view.message = await ctx.send(embed=embed, view=view)
 
     @commands.command()
     async def basic(self, ctx: commands.Context, *args) -> None:
