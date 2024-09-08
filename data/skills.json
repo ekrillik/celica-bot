@@ -8921,28 +8921,32 @@
         }
       }
     ],
-    "yellow_orb": {
-      "name": "Cosmic Descent",
-      "button_press": "Ping Yellow Orb",
-      "switch_in": "no",
-      "description": {
-        "desc": "Leaps up and turns around, shooting arrows at the enemy in mid-air and dealing Physical DMG. Gains Super Armor while using this skill.",
-        "result": [
-          "Deals 190%/380%/560% Physical DMG in total based on the number of orbs pinged."
-        ]
+    "yellow_orb": [
+      {
+        "name": "Cosmic Descent",
+        "button_press": "Ping Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Leaps up and turns around, shooting arrows at the enemy in mid-air and dealing Physical DMG. Gains Super Armor while using this skill.",
+          "result": [
+            "Deals 190%/380%/560% Physical DMG in total based on the number of orbs pinged."
+          ]
+        }
       }
-    },
-    "blue_orb": {
-      "name": "Swift Verdict",
-      "button_press": "Ping Blue Orb",
-      "switch_in": "no",
-      "description": {
-        "desc": "Crouches down to shoot multiple arrows upward, dealing Physical DMG to targets in a small area ahead.",
-        "result": [
-          "Deals 180%/360%/540% Physical DMG in total based on the number of orbs pinged."
-        ]
+    ],
+    "blue_orb": [
+      {
+        "name": "Swift Verdict",
+        "button_press": "Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Crouches down to shoot multiple arrows upward, dealing Physical DMG to targets in a small area ahead.",
+          "result": [
+            "Deals 180%/360%/540% Physical DMG in total based on the number of orbs pinged."
+          ]
+        }
       }
-    },
+    ],
     "core_passive": {
       "name": "Echoing Twins",
       "skills": [
@@ -9007,16 +9011,22 @@
           "description": [
             "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered."
           ],
-          "result": [""]
+          "result": []
         }
       ]
     },
     "signature": {
       "name": "Celestial Edge",
-      "description": {
-        "desc": "Echo and Cecily attack at the same time, dealing Physical DMG and triggering Time Lag Calculation. Afterward, Echo gains Soul Shatter Mark.",
-        "result": ["- Deal 2660% Physical DMG in total."]
-      }
+      "skills": [
+        {
+          "name": "Signature Move",
+          "button_press": "90 Energy + Tap Signature",
+          "description": {
+            "desc": "Echo and Cecily attack at the same time, dealing Physical DMG and triggering Time Lag Calculation. Afterward, Echo gains Soul Shatter Mark.",
+            "result": ["- Deal 2660% Physical DMG in total."]
+          }
+        }
+      ]
     },
     "qte": {
       "name": "Advent of Justice",
