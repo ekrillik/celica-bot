@@ -1,0 +1,48 @@
+{
+  "credits": [
+    {
+      "title": "Bot Volunteers",
+      "description": "Those who helped gather data for the bot/made direct contributions to this bot:",
+      "people": [
+        "Hyperbrick",
+        "FabioJo40",
+        "Miku (Yes that includes you Ms. Misinfo)"
+      ]
+    },
+    {
+      "title": "Bot Assets",
+      "description": "Huge thanks to Nova(Creator of the Huaxu site) for letting me reference his assets(images) for everything on this bot."
+    },
+    {
+      "title": "Dalaos",
+      "description": "The dalaos for their build expertise:",
+      "people": [
+        "Aethervoid",
+        "trs",
+        "pwowq",
+        "MstrPikachu",
+        "KURAIMAKSU",
+        "Queso",
+        "sNazz"
+      ]
+    },
+    {
+      "title": "EXPPC Score Equation",
+      "description": "The ones who helped with figuring out the EXPPC score equation:",
+      "people": ["Nova(blacknovatech)", "CryoZero", "Frustal"]
+    },
+    {
+      "title": "Translations",
+      "description": "Thanks to Ko for the CN translations that went into some of the skills before global release."
+    },
+    {
+      "title": "Miscellaneous",
+      "description": "Indirect thanks to Doomy for creating Cogs for me to create this bot."
+    },
+    {
+      "title": "Nicknames",
+      "description": "The ones who came up with the nicknames for builds:",
+      "people": ["Aurora", "Miku", "MstrPikachu", "trs"]
+    }
+  ]
+}

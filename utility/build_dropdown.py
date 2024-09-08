@@ -36,30 +36,6 @@ class DropdownView(discord.ui.View):
         embed = self.embedconf.create_build_embed(self.build, self.menu.values[0])
         await interaction.response.edit_message(embed=embed, view=self)
 
-    
-    def _disable_all(self) -> None:
-        # disable all components
-        # so components that can be disabled are buttons and select menus
-        for item in self.children:
-            if isinstance(item, discord.ui.Button):
-                item.disabled = True
-
-    # after disabling all components we need to edit the message with the new view
-    # now when editing the message there are two scenarios:
-    # 1. the view was never interacted with i.e in case of plain timeout here message attribute will come in handy
-    # 2. the view was interacted with and the interaction was processed and we have the latest interaction stored in the interaction attribute
-    async def _edit(self, **kwargs: typing.Any) -> None:
-        if self.interaction is None:
-            # if the view was never interacted with and the message attribute is not None, edit the message
-            await self.message.edit(**kwargs)
-        elif self.interaction is not None:
-            try:
-                # if not already responded to, respond to the interaction
-                await self.interaction.response.edit_message(**kwargs)
-            except discord.InteractionResponded:
-                # if already responded to, edit the response
-                await self.interaction.edit_original_response(**kwargs)
-
     # checks for the view's interactions
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
 
@@ -73,7 +49,6 @@ class DropdownView(discord.ui.View):
     # do stuff on timeout
     async def on_timeout(self) -> None:
         self.clear_items()
-        
         await self.message.edit(view=self)
 
     async def deleteView(self, interaction: discord.Interaction) -> None:

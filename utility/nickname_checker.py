@@ -285,12 +285,12 @@ def check_nickname(nickname, caller):
             weapon = ""
             cub = ""
             memory = ""
-        case "teddy":
+        case "teddy" | "decryptor":
             character = "teddy"
             weapon = ""
             cub = ""
             memory = ""
-        case "oblivion":
+        case "oblivion" | "void luna":
             character = "oblivion"
             weapon = ""
             cub = ""
@@ -310,12 +310,12 @@ def check_nickname(nickname, caller):
             weapon = ""
             cub = ""
             memory = ""
-        case "pyroath":
+        case "pyroath" | "hyperdawn":
             character = "pyroath"
             weapon = ""
             cub = ""
             memory = ""
-        case "fulgor":
+        case "fulgor" | "yata" | "tomboy":
             character = "fulgor"
             weapon = ""
             cub = "n/a"

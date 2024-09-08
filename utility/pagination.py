@@ -8,14 +8,22 @@ from utility.embedconfig import EmbedClass
 
 class PaginationView(discord.ui.View):
     message: discord.Message | None = None
-    # sep : int = 3
-    current_page = 1
+    current_page = 0
 
-    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, data = []) -> None:
+    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, data = [], pagination_type = "", skill_type = "") -> None:
         super().__init__(timeout=timeout)
         self.user = user
         self.data = data
-        self.embedconfig = EmbedClass()
+        self.skill_type = skill_type
+        self.max_len = 0
+        self.embedconf = EmbedClass()
+        self.pagination_type = pagination_type
+
+        if(skill_type == "Core Passive" or skill_type == "Signature/Ultimate"):
+            self.max_len == len(self.data['skills'])
+        else:
+            self.max_len == len(self.data)
+
         self.update_buttons()
 
     # checks for the view's interactions
@@ -33,62 +41,60 @@ class PaginationView(discord.ui.View):
         return False
     
     # do stuff on timeout
-    # do stuff on timeout
     async def on_timeout(self) -> None:
         self.clear_items()
         await self.message.edit(view=self)
 
-    def create_embed(self):
-        embed = discord.Embed(title=f"Data")
-        # for item in data:
-        #     embed.add_field(name=item, value=item, inline=False)
-        return embed
-
-    # async def update_message(self,data):
-    #     self.update_buttons()
-    #     await self.message.edit(embed=self.create_embed(data), view=self)
     @discord.ui.button(label="|<", style=discord.ButtonStyle.green)
     async def first_page_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
-        self.current_page=1
+        self.current_page=0
         print(self.current_page)
-        embed = self.create_embed()
+        if (self.pagination_type == "skills"):
+            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page)
+        elif(self.pagination_type == "credits"):
+            embed = self.embedconf.credits_embed(self.data[0], cur_page=self.current_page, max_len=len(self.data))
         self.update_buttons()
-        # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
 
     @discord.ui.button(label="<", style=discord.ButtonStyle.blurple)
     async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
         self.current_page-=1
         print(self.current_page)
-        embed = self.create_embed()
+        if (self.pagination_type == "skills"):
+            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page)
+        elif(self.pagination_type == "credits"):
+            embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
         self.update_buttons()
-        # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
         
     @discord.ui.button(label=">", style=discord.ButtonStyle.blurple)
     async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
         self.current_page+=1
         print(self.current_page)
-        embed = self.create_embed()
+        if (self.pagination_type == "skills"):
+            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page)
+        elif(self.pagination_type == "credits"):
+            embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
         self.update_buttons()
-        # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
         
     @discord.ui.button(label=">|", style=discord.ButtonStyle.green)
     async def last_page_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
-        self.current_page = int(len(self.data)) + 1
+        self.current_page = self.max_len - 1
         print(self.current_page)
-        embed = self.create_embed()
+        if (self.pagination_type == "skills"):
+            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page)
+        elif(self.pagination_type == "credits"):
+            embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
         self.update_buttons()
-        # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
         
     @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
     async def deleteView(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
         await self.message.delete()
-        
+
     def update_buttons(self):
-        if self.current_page == 1:
+        if self.current_page == 0:
             self.first_page_button.disabled = True
             self.prev_button.disabled = True
             self.first_page_button.style = discord.ButtonStyle.gray
@@ -99,7 +105,7 @@ class PaginationView(discord.ui.View):
             self.first_page_button.style = discord.ButtonStyle.green
             self.prev_button.style = discord.ButtonStyle.primary
 
-        if self.current_page == int(len(self.data) / self.sep) + 1:
+        if self.current_page == self.max_len - 1:
             self.next_button.disabled = True
             self.last_page_button.disabled = True
             self.last_page_button.style = discord.ButtonStyle.gray
@@ -109,9 +115,6 @@ class PaginationView(discord.ui.View):
             self.last_page_button.disabled = False
             self.last_page_button.style = discord.ButtonStyle.green
             self.next_button.style = discord.ButtonStyle.primary
-
-
-
 
     # error handler for the view
     async def on_error(

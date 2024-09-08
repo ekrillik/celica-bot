@@ -144,21 +144,6 @@ class WeaponPageView(discord.ui.View):
                 self.four_star.style = discord.ButtonStyle.gray
                 self.five_star.style = discord.ButtonStyle.gray
                 self.six_star.style = discord.ButtonStyle.blurple
-            # case _:
-
-
-    # def get_current_page_data(self):
-    #     until_item = self.current_page * self.sep
-    #     from_item = until_item - self.sep
-    #     if not self.current_page == 1:
-    #         from_item = 0
-    #         until_item = self.sep
-    #     if self.current_page == int(len(self.data) / self.sep) + 1:
-    #         from_item = self.current_page * self.sep - self.sep
-    #         until_item = len(self.data)
-    #     return self.data[from_item:until_item]
-
-
 
     # error handler for the view
     async def on_error(
