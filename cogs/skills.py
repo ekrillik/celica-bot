@@ -12,7 +12,6 @@ from utility.embedconfig import EmbedClass
 from utility.build_dropdown import DropdownView
 from utility.nickname_checker import check_nickname
 from utility.skills_menu import SkillsView
-from utility.core_pagination import CorePaginationView
 from utility.pagination import PaginationView
 from utility.general_view import GeneralView
 

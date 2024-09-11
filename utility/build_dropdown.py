@@ -26,6 +26,8 @@ class DropdownView(discord.ui.View):
             options=[discord.SelectOption(label=f"{i}") for i in data],
         )
         self.clear_button = discord.ui.Button(label="Delete", style=discord.ButtonStyle.red)
+        self.image_view = discord.ui.Button(label="Image View", style=discord.ButtonStyle.gray)
+        self.text_view = discord.ui.Button(label="Text View", style=discord.ButtonStyle.gray)
         self.menu.callback = self.callback
         self.clear_button.callback = self.deleteView
         self.add_item(self.menu)

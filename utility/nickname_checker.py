@@ -15,7 +15,7 @@ def check_nickname(nickname, caller):
             weapon = "inverse chimera"
             cub = "n/a"
             memory = "n/a"
-        case "dawn":
+        case "dawn" | "dumbdawn":
             character = "dawn"
             weapon = "inverse shadow"
             cub = "n/a"
@@ -386,3 +386,201 @@ def abbreviation_checker(nickname):
                 memory = "n/a"
             
         return memory
+
+def character_theme(nickname):
+    match nickname:
+        case "lotus":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "eclipse":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "storm":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "dawn" | "dumbdawn":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "evil liv" | "seggs" | "green jumper" | "<:evilliv:1272415890453041223>" | "lux":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "palefire" | "firegod":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "nightblade":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "zero":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "blast":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "lumi" | "luminance":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "entropy" | "entrobrick":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "ember":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "pulse":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "tenebrion" | "teneb" | "terb":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "crimson abyss" | "abyss" | "crimson brick":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "bastion" | "kimochiyokatta" | "kimochi yokatta":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "astral" | "asstral":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "brilliance":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "veritas" | "veritrash":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "sophia" | "s*phia" | "silverfang":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "arclight":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "plume" | "ploom":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "rozen":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "camu" | "crocotta":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "rosetta" | "juan" | "rigor":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "changyu" | "changwho" | "qilin":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "pavo":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "laurel" | "dark luna":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "2b" | "2B":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "9s" | "9S":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "a2" | "A2":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "hypnos" | "sleepyboi" | "sleepyhead" | "sleepyboy" | "time to sleep" | "sleepytime":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "tempest":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "glory":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "xxi" | "21":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "garnet" | "flare":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "roland" | "kuraimaksu" | "clown" | "theatre" | "curtain call":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "empy" | "solaeter" | "empyrea" | "flashbang":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "pulao":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "starfarer" | "nanamech" | "nanamecha":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "haicma" | "hag" | "haicmama" | "nanny":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "daren" | "bonka" | "tsundere" | "radiant daybreak" | "trs" | "<:trs:1275701510293946482>" | "bunny" | "bnnuy" | "scire" | "best girl" | "bestgirl":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "noan" | "deadweight":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "balter" | "stigmata":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "bambinata" | "bambi" | "bombi":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "supercar" | "car" | "hyper" | "hyperreal":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "cow" | "kale" | "kaleido":
+            colour = 0x333333
+            chibi_portrait = ""     
+        case "weave" | "motivation" | "vergil's daughter" | "crimson weave" | "cw":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "zitherwoe":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "awoo" | "furry" | "feral" | "feral: 21" | "feral:21":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "indomitus" | "noctis":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "alisa" | "echo":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "brs" | "brick rock shooter":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "shukra":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "teddy" | "decryptor":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "oblivion" | "void luna":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "bridget":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "solacetune":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "lucid dreamer":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "pyroath" | "hyperdawn":
+            colour = 0x333333
+            chibi_portrait = ""
+        case "fulgor" | "yata" | "tomboy":
+            colour = 0x333333
+            chibi_portrait = ""
+
+
+    return
