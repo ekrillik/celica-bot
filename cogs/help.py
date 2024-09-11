@@ -58,8 +58,9 @@ class Help(commands.Cog):
             description=f""
         )
         embed.add_field(name="General Content", value=f"[Rexlent](https://www.youtube.com/@Rexlent)\n[Narushio](https://www.youtube.com/@narushio)\n[Moteyaba](https://www.youtube.com/@Moteyaba)\n[Spider2B](https://www.youtube.com/@Spider2B)")
-        embed.add_field(name="PPC", value=f"[Windbell](https://www.youtube.com/@10thwindbell)")
-        embed.add_field(name="Warzone", value=f"[sNazz](https://www.youtube.com/@sNazzkun)\n[Empress](https://www.youtube.com/@Oksohee)")
+        embed.add_field(name="PPC", value=f"[Windbell](https://www.youtube.com/@10thwindbell)\n[Fel](https://www.youtube.com/@FelPGR)\n[Acaxi](https://www.youtube.com/@notacaxi)\n[GlobalGlory](https://m.youtube.com/@GlobalGlorypgr)\n[Yor Forger](https://m.youtube.com/@yorforgerpgr)")
+        embed.add_field(name="Warzone", value=f"[sNazz](https://www.youtube.com/@sNazzkun)\n[Empress](https://www.youtube.com/@Oksohee)\n[Setsu](https://www.youtube.com/@Setsugekwa)")
+        embed.add_field(name="MMD", value="[KGEzre](https://www.youtube.com/channel/UCsv1LorzuEEqFoL08cEn61A)")
         await ctx.send(embed=embed)
 
 

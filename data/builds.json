@@ -457,7 +457,7 @@
       }
     ]
   },
-  "sophia": {
+  "silverfang": {
     "unit_name": "Sophia",
     "frame_name": "Silverfang",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadsufeiya2.256.webp",
@@ -589,7 +589,7 @@
       }
     ]
   },
-  "changyu": {
+  "crocotta": {
     "unit_name": "Changyu",
     "frame_name": "Qilin",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadchangyu2.256.webp",
@@ -904,7 +904,7 @@
       }
     ]
   },
-  "roland": {
+  "flambeau": {
     "unit_name": "Roland",
     "frame_name": "Flambeau",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluolan2.256.webp",
@@ -1172,7 +1172,7 @@
       }
     ]
   },
-  "haicma": {
+  "starveil": {
     "unit_name": "Haicma",
     "frame_name": "Starveil",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadhakama2.256.webp",
@@ -1279,7 +1279,7 @@
       }
     ]
   },
-  "noan": {
+  "arca": {
     "unit_name": "Noan",
     "frame_name": "Arca",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadnuoan2.256.webp",
@@ -1356,7 +1356,7 @@
       }
     ]
   },
-  "bambinata": {
+  "vitrum": {
     "unit_name": "Bambinata",
     "frame_name": "Vitrum",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr2bangbinata3.256.webp",
@@ -1697,7 +1697,7 @@
       }
     ]
   },
-  "noctis": {
+  "indomitus": {
     "unit_name": "Noctis",
     "frame_name": "Indomitus",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr2nuoketi3.256.webp",
@@ -1717,7 +1717,7 @@
       }
     ]
   },
-  "alisa": {
+  "echo": {
     "unit_name": "Alisa",
     "frame_name": "Echo",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3yalisha3.256.webp",
@@ -1774,7 +1774,7 @@
       }
     ]
   },
-  "lamia": {
+  "lost lullaby": {
     "unit_name": "Lamia",
     "frame_name": "Lost Lullaby",
     "thumbnail_url": "https://media.discordapp.net/attachments/1275421020949446748/1275455316409978931/Dialogue-LostLullaby-Awaken-Icon.png?ex=66c5f3d4&is=66c4a254&hm=5d0f8f1fc851ec3e059b29178d5e1f6b5803fb494253c4762f11de5cae94af37&=&format=webp&quality=lossless&width=530&height=530",

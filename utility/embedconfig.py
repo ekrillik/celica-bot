@@ -13,7 +13,7 @@ class EmbedClass:
         else:
             return passive
 
-    def create_build_embed(self, build, choice): 
+    def create_build_embed(self, build, choice, colour=0xffffff, chibi_avatar=""): 
         name = build['unit_name']
         frame = build['frame_name']
         thumbnail_url = build['thumbnail_url']
@@ -122,7 +122,7 @@ class EmbedClass:
         embed.set_thumbnail(url=memory['thumbnail'])
         return embed
 
-    def create_weapon_embed(self, weapon):
+    def create_weapon_embed(self, weapon, chibi_avatar=""):
         effect = weapon['effect']
         stars = weapon['rarity']
         
@@ -164,7 +164,7 @@ class EmbedClass:
         embed.set_thumbnail(url=weapon['thumbnail'])
         return embed
 
-    def create_cub_embed(self, cub, choice):
+    def create_cub_embed(self, cub, choice, colour=0xffffff, chibi_avatar=""):
         
         active_skills = cub['active_skills']
         passive_skills = cub['passive_skills']
@@ -195,7 +195,7 @@ class EmbedClass:
             )
         return embed
 
-    def skillsEmbed(self, skill, selection, cur_page = 0):
+    def skillsEmbed(self, skill, selection, cur_page = 0, colour=0xffffff, chibi_avatar=""):
         match selection:
             case "Basic Attack" | "Red Orb" | "Blue Orb" | "Yellow Orb" :
                 embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**")
