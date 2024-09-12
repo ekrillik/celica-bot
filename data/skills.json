@@ -2746,7 +2746,7 @@
       ]
     }
   },
-  "sophia": {
+  "silverfang": {
     "basic_attack": [
       {
         "name": "Rapid Shot",
@@ -3380,7 +3380,7 @@
       ]
     }
   },
-  "camu": {
+  "crocotta": {
     "basic_attack": [
       {
         "name": "Phantom",
@@ -3724,7 +3724,7 @@
       ]
     }
   },
-  "changyu": {
+  "qilin": {
     "basic_attack": [
       {
         "name": "Sea Serpent Thrash",
@@ -5566,7 +5566,7 @@
       ]
     }
   },
-  "roland": {
+  "flambeau": {
     "basic_attack": [
       {
         "name": "Deceptive Performance",
@@ -6145,7 +6145,7 @@
       ]
     }
   },
-  "pulao": {
+  "dragontoll": {
     "basic_attack": [
       {
         "name": "Dragon Strike",
@@ -6580,7 +6580,7 @@
       ]
     }
   },
-  "haicma": {
+  "starveil": {
     "basic_attack": [
       {
         "name": "Sinusoidal Blade",
@@ -6946,7 +6946,7 @@
       ]
     }
   },
-  "noan": {
+  "arca": {
     "basic_attack": [
       {
         "name": "Musou Blades",
@@ -7348,7 +7348,7 @@
       ]
     }
   },
-  "bambinata": {
+  "vitrum": {
     "basic_attack": [
       {
         "name": "Battement Frappe",
@@ -8645,7 +8645,7 @@
       ]
     }
   },
-  "noctis": {
+  "indomitus": {
     "basic_attack": [
       {
         "name": "Engine Vortex",
@@ -8896,7 +8896,7 @@
       ]
     }
   },
-  "alisa": {
+  "echo": {
     "basic_attack": [
       {
         "name": "Darting Pursuit",
@@ -9095,7 +9095,7 @@
       ]
     }
   },
-  "lamia": {
+  "lost lullaby": {
     "basic_attack": [
       {
         "name": "Stygian Waves",

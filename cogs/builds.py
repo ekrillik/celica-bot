@@ -10,7 +10,7 @@ from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
 from utility.build_dropdown import DropdownView
-from utility.nickname_checker import check_nickname
+from utility.nickname_checker import check_nickname, character_theme
 
 from discord.ui.select import BaseSelect
 
@@ -70,9 +70,10 @@ class Builds(commands.Cog):
 
         if(self.does_character_exist(character)):
             build = self.retrieve_build(character)
+            theme = character_theme(character)
             data = build['set_list']
             view = DropdownView(ctx.author, data=data, build=build)
-            embed = self.embedconf.create_build_embed(build, data[0])
+            embed = self.embedconf.create_build_embed(build, data[0], colour=theme[0], chibi_avatar=theme[1])
             if len(data) == 1:
                 await ctx.send(embed=embed)
             else:

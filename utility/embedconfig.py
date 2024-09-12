@@ -26,8 +26,10 @@ class EmbedClass:
 
         embed = discord.Embed(
             title=f"{name}: {frame}",
-            description=f"{selection['set_type'] + " " + "Set"}"
+            description=f"{selection['set_type'] + " " + "Set"}",
+            color=discord.Color(colour)
         )
+        embed.set_author(name=f"{name}: {frame}", icon_url=chibi_avatar)
         embed.add_field(name="Usage", value=selection['set_type'])
         embed.add_field(name="Game Modes", value=selection['game_modes'])
         embed.add_field(
