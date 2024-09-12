@@ -1778,11 +1778,7 @@
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051> Lamia",
     "frame_name": "Lost Lullaby",
     "thumbnail_url": "https://media.discordapp.net/attachments/1275421020949446748/1275455316409978931/Dialogue-LostLullaby-Awaken-Icon.png?ex=66c5f3d4&is=66c4a254&hm=5d0f8f1fc851ec3e059b29178d5e1f6b5803fb494253c4762f11de5cae94af37&=&format=webp&quality=lossless&width=530&height=530",
-    "set_list": [
-      "4 Derketo 2 Cottie Harmo",
-      "4 Derketo 2 Cottie",
-      "4 Derketo 2 Frederick"
-    ],
+    "set_list": ["4 Derketo 2 Cottie Harmo", "4 Derketo 2 Cottie"],
     "builds": [
       {
         "set_name": "4 Derketo 2 Cottie Harmo",
@@ -1811,18 +1807,6 @@
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "N/A"
-      },
-      {
-        "set_name": "4 Derketo 2 Frederick",
-        "set_type": "Niche",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": ["Niche DPS set"],
-        "memories": ["4x Derketo", "2x Frederick"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
-        ],
-        "harmony_rec": "Cottie"
       }
     ]
   },
