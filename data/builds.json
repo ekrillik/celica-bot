@@ -1,6 +1,6 @@
 {
   "lotus": {
-    "unit_name": "Lucia",
+    "unit_name": "<:B_:1283759795232571485><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lucia",
     "frame_name": "Lotus",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluxiya2.256.webp",
     "set_list": ["2 Patton 2 Leeuwenhoek 2 Signa"],
@@ -20,7 +20,7 @@
     ]
   },
   "eclipse": {
-    "unit_name": "Liv",
+    "unit_name": "<:B_:1283759795232571485><:support:1283760217540132905><:physical_element:1283760180386861096> Liv",
     "frame_name": "Eclipse",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/lifunormal01.256.webp",
     "set_list": [
@@ -58,7 +58,7 @@
     ]
   },
   "storm": {
-    "unit_name": "Nanami",
+    "unit_name": "<:B_:1283759795232571485><:tank:1283760248980770889><:physical_element:1283760180386861096> Nanami",
     "frame_name": "Storm",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadyongyechao2.256.webp",
     "set_list": ["4 Da Vinci 2 Catherine"],
@@ -78,7 +78,7 @@
     ]
   },
   "dawn": {
-    "unit_name": "Lucia",
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Lucia",
     "frame_name": "Dawn",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluxiya2s.256.webp",
     "set_list": ["4 Heisen 2 Darwin"],
@@ -98,7 +98,7 @@
     ]
   },
   "lux": {
-    "unit_name": "Liv",
+    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:lightning_element:1283760149755990056> Liv",
     "frame_name": "Lux",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadlifu2s.256.webp",
     "set_list": ["4 Da Vinci 2 Guinevere", "4 Guinevere 2 Gloria"],
@@ -139,7 +139,7 @@
     ]
   },
   "palefire": {
-    "unit_name": "Lee",
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lee",
     "frame_name": "Palefire",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadli2.256.webp",
     "set_list": ["4 Shakespeare 2 Darwin"],
@@ -159,7 +159,7 @@
     ]
   },
   "nightblade": {
-    "unit_name": "Watanabe",
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> Watanabe",
     "frame_name": "Nightblade",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheaddubian2.256.webp",
     "set_list": ["2 Leeuwenhoek 2 Signa 2 Darwin"],
@@ -179,7 +179,7 @@
     ]
   },
   "zero": {
-    "unit_name": "Bianca",
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> Bianca",
     "frame_name": "Zero",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadaolisuo2.256.webp",
     "set_list": ["2 Cottie 2 Signa 2 Darwin"],
@@ -199,7 +199,7 @@
     ]
   },
   "blast": {
-    "unit_name": "Karenina",
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> Karenina",
     "frame_name": "Blast",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadkalienina2.256.webp",
     "set_list": ["4 Hanna 2 Darwin"],
@@ -219,7 +219,7 @@
     ]
   },
   "luminance": {
-    "unit_name": "Liv",
+    "unit_name": "<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096> Liv",
     "frame_name": "Luminance",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/lifuyongzhuangnormal01.256.webp",
     "set_list": ["4 Da Vinci 2 Philip II"],
@@ -243,7 +243,7 @@
     ]
   },
   "entropy": {
-    "unit_name": "Lee",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Lee",
     "frame_name": "Entropy",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadli2ss.256.webp",
     "set_list": ["2 Leeuwenhoek 2 Signa 2 Darwin"],
@@ -263,7 +263,7 @@
     ]
   },
   "ember": {
-    "unit_name": "Karenina",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Karenina",
     "frame_name": "Ember",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadkalienina2ss.256.webp",
     "set_list": ["4 Hanna 2 Darwin"],
@@ -283,7 +283,7 @@
     ]
   },
   "pulse": {
-    "unit_name": "Nanami",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096> Nanami",
     "frame_name": "Pulse",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadyongyechao2ss.256.webp",
     "set_list": ["4 Da Vinci 2 Einsteina", "4 Shakespeare 2 Einsteina"],
@@ -318,7 +318,7 @@
     ]
   },
   "tenebrion": {
-    "unit_name": "Kamui",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Kamui",
     "frame_name": "Tenebrion",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadshenwei2ss.256.webp",
     "set_list": ["4 Da Vinci 2 Einsteina"],
@@ -342,7 +342,7 @@
     ]
   },
   "crimson abyss": {
-    "unit_name": "Lucia",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Lucia",
     "frame_name": "Crimson Abyss",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluxiyaaerfa2ss.256.webp",
     "set_list": ["4 Frederick 2 Darwin"],
@@ -366,7 +366,7 @@
     ]
   },
   "bastion": {
-    "unit_name": "Kamui",
+    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096> Kamui",
     "frame_name": "Bastion",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadshenwei2.256.webp",
     "set_list": ["4 Hanna 2 Darwin", "4 Da Vinci 2 Catherine"],
@@ -398,7 +398,7 @@
     ]
   },
   "astral": {
-    "unit_name": "Watanabe",
+    "unit_name": "<:attacker:1283760012274958346><:attacker:1283760012274958346><:dark_element:1283760052225835051> Watanabe",
     "frame_name": "Astral",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheaddubian2ss.256.webp",
     "set_list": ["4 Bathlon 2 Cottie"],
@@ -418,7 +418,7 @@
     ]
   },
   "brilliance": {
-    "unit_name": "Ayla",
+    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096> Ayla",
     "frame_name": "Brilliance",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadaila2.256.webp",
     "set_list": ["4 Da Vinci 2 Catherine"],
@@ -438,7 +438,7 @@
     ]
   },
   "veritas": {
-    "unit_name": "Bianca",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Bianca",
     "frame_name": "Veritas",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadbianka2ss.256.webp",
     "set_list": ["4 Heisen 2 Frederick"],
@@ -458,7 +458,7 @@
     ]
   },
   "silverfang": {
-    "unit_name": "Sophia",
+    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:fire_element:1283760089119064096> Sophia",
     "frame_name": "Silverfang",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadsufeiya2.256.webp",
     "set_list": ["4 Da Vinci 2 Guinevere"],
@@ -478,7 +478,7 @@
     ]
   },
   "arclight": {
-    "unit_name": "Chrome",
+    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:lightning_element:1283760149755990056> Chrome",
     "frame_name": "Arclight",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadkuluomu2.256.webp",
     "set_list": ["4 Da Vinci 2 Einsteina"],
@@ -498,7 +498,7 @@
     ]
   },
   "plume": {
-    "unit_name": "Lucia",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946> Lucia",
     "frame_name": "Plume",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr4luxiya2.256.webp",
     "set_list": ["4 Hanna 2 Darwin"],
@@ -518,7 +518,7 @@
     ]
   },
   "rozen": {
-    "unit_name": "Vera",
+    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051> Vera",
     "frame_name": "Rozen",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadweila2.256.webp",
     "set_list": ["4 Da Vinci 2 Guinevere"],
@@ -537,8 +537,8 @@
       }
     ]
   },
-  "camu": {
-    "unit_name": "Camu",
+  "crocotta": {
+    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:dark_element:1283760052225835051> Camu",
     "frame_name": "Crocotta",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadkamu2.256.webp",
     "set_list": ["6 Koya"],
@@ -558,7 +558,7 @@
     ]
   },
   "rigor": {
-    "unit_name": "Rosetta",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Rosetta",
     "frame_name": "Rigor",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluosaita2.256.webp",
     "set_list": ["4 Leeuwenhoek 2 Catherine", "4 Da Vinci 2 Catherine"],
@@ -589,8 +589,8 @@
       }
     ]
   },
-  "crocotta": {
-    "unit_name": "Changyu",
+  "qilin": {
+    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:ice_element:1283760120270032946> Changyu",
     "frame_name": "Qilin",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadchangyu2.256.webp",
     "set_list": ["4 Da Vinci 2 Einsteina"],
@@ -610,7 +610,7 @@
     ]
   },
   "pavo": {
-    "unit_name": "Qu",
+    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096> Qu",
     "frame_name": "Pavo",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadqu2.256.webp",
     "set_list": ["6 Wu'an"],
@@ -630,7 +630,7 @@
     ]
   },
   "laurel": {
-    "unit_name": "Luna",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051> Luna",
     "frame_name": "Laurel",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluna2.256.webp",
     "set_list": ["4 Flamel 2 Darwin"],
@@ -647,7 +647,7 @@
     ]
   },
   "2b": {
-    "unit_name": "2B",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> 2B",
     "frame_name": "2B",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadtwob2.256.webp",
     "set_list": ["4 Cottie 2 Darwin", "4 Patton 2 Cottie"],
@@ -682,7 +682,7 @@
     ]
   },
   "9s": {
-    "unit_name": "9S",
+    "unit_name": "<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096> 9S",
     "frame_name": "9S",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadnines2.256.webp",
     "set_list": ["4 Da Vinci 2 Philip II"],
@@ -705,7 +705,7 @@
     ]
   },
   "a2": {
-    "unit_name": "A2",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> A2",
     "frame_name": "A2",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadatwo3.256.webp",
     "set_list": ["4 Patton 2 Catherine"],
@@ -727,7 +727,7 @@
     ]
   },
   "hypnos": {
-    "unit_name": "Wanshi",
+    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:ice_element:1283760120270032946> Wanshi",
     "frame_name": "Hypnos",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadwanshi2.webp",
     "set_list": ["4 Da Vinci 2 Guinevere", "2 Guinevere, 2 Gloria, 2 Samantha"],
@@ -763,7 +763,7 @@
     ]
   },
   "tempest": {
-    "unit_name": "Selena",
+    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056> Selena",
     "frame_name": "Tempest",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadsailinna2.256.webp",
     "set_list": ["6 Lucrezia"],
@@ -783,7 +783,7 @@
     ]
   },
   "glory": {
-    "unit_name": "Chrome",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> Chrome",
     "frame_name": "Glory",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3kuluomu2.256.webp",
     "set_list": ["4 Da Vinci 2 Einsteina", "4 Chen JiYuan 2 Einsteina"],
@@ -818,7 +818,7 @@
     ]
   },
   "xxi": {
-    "unit_name": "No. 21",
+    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:dark_element:1283760052225835051> No. 21",
     "frame_name": "XXI",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadtwentyone2.256.webp",
     "set_list": ["4 Da Vinci 2 Einsteina", "4 Bathlon 2 Einstina"],
@@ -853,7 +853,7 @@
     ]
   },
   "garnet": {
-    "unit_name": "Vera",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056> Vera",
     "frame_name": "Garnet",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3weila2.256.webp",
     "set_list": [
@@ -905,7 +905,7 @@
     ]
   },
   "flambeau": {
-    "unit_name": "Roland",
+    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:fire_element:1283760089119064096> Roland",
     "frame_name": "Flambeau",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluolan2.256.webp",
     "set_list": ["6 Jack"],
@@ -925,7 +925,7 @@
     ]
   },
   "empyrea": {
-    "unit_name": "Liv",
+    "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:fire_element:1283760089119064096> Liv",
     "frame_name": "Empyrea",
     "thumbnail_url": "https://assets.huaxu.app/browse/glb/image/rolecharacter/roleheadr4lifu2.256.webp",
     "set_list": [
@@ -1049,7 +1049,7 @@
     ]
   },
   "capriccio": {
-    "unit_name": "Selena",
+    "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:dark_element:1283760052225835051> Selena",
     "frame_name": "Capriccio",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3sailinna2.256.webp",
     "set_list": [
@@ -1120,8 +1120,8 @@
       }
     ]
   },
-  "pulao": {
-    "unit_name": "Pulao",
+  "dragontoll": {
+    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096> Pulao",
     "frame_name": "Dragontoll",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadpulao2.256.webp",
     "set_list": ["6 Marco"],
@@ -1141,7 +1141,7 @@
     ]
   },
   "starfarer": {
-    "unit_name": "Nanami",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096> Nanami",
     "frame_name": "Starfarer",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr5yongyechao2.256.webp",
     "set_list": ["4 Unimate 2 Einsteina", "4 Da Vinci 2 Einsteina"],
@@ -1173,7 +1173,7 @@
     ]
   },
   "starveil": {
-    "unit_name": "Haicma",
+    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:ice_element:1283760120270032946> Haicma",
     "frame_name": "Starveil",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadhakama2.256.webp",
     "set_list": ["6 Isabel"],
@@ -1193,7 +1193,7 @@
     ]
   },
   "scire": {
-    "unit_name": "Karenina",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051> Karenina",
     "frame_name": "Scire",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr4kalienina2.256.webp",
     "set_list": [
@@ -1280,7 +1280,7 @@
     ]
   },
   "arca": {
-    "unit_name": "Noan",
+    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056> Noan",
     "frame_name": "Arca",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadnuoan2.256.webp",
     "set_list": ["6 Shelley"],
@@ -1300,12 +1300,12 @@
     ]
   },
   "stigmata": {
-    "unit_name": "Bianca",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Bianca",
     "frame_name": "Stigmata",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr4bianka2.256.webp",
     "set_list": [
       "4 Charlotte 2 Cottie Harmo",
-      "4 Charlotte 2 Signa/Leeuwenhoek",
+      "4 Charlotte 2 Signa",
       "4 Charlotte 2 Cottie"
     ],
     "builds": [
@@ -1326,11 +1326,11 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "4 Charlotte 2 Signa/Leeuwenhoek",
+        "set_name": "4 Charlotte 2 Signa",
         "set_type": "Main",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Main Set", "For SS0 and below", "No Harmo"],
-        "memories": ["4x Charlotte", "2x Signa/Leeuwenhoek"],
+        "memories": ["4x Charlotte", "2x Signa"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
@@ -1357,7 +1357,7 @@
     ]
   },
   "vitrum": {
-    "unit_name": "Bambinata",
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:ice_element:1283760120270032946> Bambinata",
     "frame_name": "Vitrum",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr2bangbinata3.256.webp",
     "set_list": [
@@ -1431,7 +1431,7 @@
     ]
   },
   "hyperreal": {
-    "unit_name": "Lee",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lee",
     "frame_name": "Hyperreal",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr4li3.256.webp",
     "set_list": ["4 Turing 2 Darwin", "4 Turing 2 Cottie"],
@@ -1440,7 +1440,7 @@
         "set_name": "4 Turing 2 Cottie",
         "set_type": "Main",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": ["Used at SSO or below", "General DPS set"],
+        "description": ["Used at SS0 or below", "General DPS set"],
         "memories": ["4x Turing", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1463,7 +1463,7 @@
     ]
   },
   "kaleido": {
-    "unit_name": "Ayla",
+    "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:ice_element:1283760120270032946> Ayla",
     "frame_name": "Kaleido",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3aila3.256.webp",
     "set_list": ["4 Aline 2 Cottie", "4 Aline 2 Darwin"],
@@ -1506,7 +1506,7 @@
     ]
   },
   "crimson weave": {
-    "unit_name": "Lucia",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Lucia",
     "frame_name": "Crimson Weave",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr5luxiya3.256.webp",
     "set_list": [
@@ -1566,7 +1566,7 @@
     ]
   },
   "zitherwoe": {
-    "unit_name": "Hanying",
+    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:physical_element:1283760180386861096> Hanying",
     "frame_name": "Zitherwoe",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr2hanying3.256.webp",
     "set_list": ["4 Da Vinci 2 Philip II", "4 Hanna 2 Darwin"],
@@ -1600,8 +1600,8 @@
     ]
   },
   "feral": {
-    "unit_name": "No. 21",
-    "frame_name": "Feral Scent",
+    "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:lightning_element:1283760149755990056> No. 21",
+    "frame_name": "Feral",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3twentyone3.256.webp",
     "set_list": [
       "4 Fran 2 Guinevere Harmo",
@@ -1698,7 +1698,7 @@
     ]
   },
   "indomitus": {
-    "unit_name": "Noctis",
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Noctis",
     "frame_name": "Indomitus",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr2nuoketi3.256.webp",
     "set_list": ["4 Heisen 2 Cottie"],
@@ -1718,7 +1718,7 @@
     ]
   },
   "echo": {
-    "unit_name": "Alisa",
+    "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:physical_element:1283760180386861096> Alisa",
     "frame_name": "Echo",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3yalisha3.256.webp",
     "set_list": [
@@ -1775,7 +1775,7 @@
     ]
   },
   "lost lullaby": {
-    "unit_name": "Lamia",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051> Lamia",
     "frame_name": "Lost Lullaby",
     "thumbnail_url": "https://media.discordapp.net/attachments/1275421020949446748/1275455316409978931/Dialogue-LostLullaby-Awaken-Icon.png?ex=66c5f3d4&is=66c4a254&hm=5d0f8f1fc851ec3e059b29178d5e1f6b5803fb494253c4762f11de5cae94af37&=&format=webp&quality=lossless&width=530&height=530",
     "set_list": [
@@ -1827,7 +1827,7 @@
     ]
   },
   "brs": {
-    "unit_name": "BRS",
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> BRS",
     "frame_name": "BRS",
     "thumbnail_url": "https://patchwiki.biligame.com/images/zspms/thumb/d/d7/0w81iqz15uqzo2l1st6x7bxbqmhwkzc.png/100px-%E8%A7%92%E8%89%B2_BRS_BRS_%E7%BB%88%E8%A7%A3.png",
     "set_list": ["4 Shakespeare 2 Darwin"],
@@ -1851,7 +1851,7 @@
     ]
   },
   "epitaph": {
-    "unit_name": "Watanabe",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096> Watanabe",
     "frame_name": "Epitaph",
     "thumbnail_url": "https://patchwiki.biligame.com/images/zspms/thumb/6/64/4jvc7di9eh9bvpqlof5m45gxw5d2f83.png/100px-%E8%A7%92%E8%89%B2_%E6%B8%A1%E8%BE%B9_%E5%B0%98%E9%93%AD_%E7%BB%88%E8%A7%A3.png",
     "set_list": [

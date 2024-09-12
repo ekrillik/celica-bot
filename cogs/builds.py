@@ -72,8 +72,8 @@ class Builds(commands.Cog):
             build = self.retrieve_build(character)
             theme = character_theme(character)
             data = build['set_list']
-            view = DropdownView(ctx.author, data=data, build=build)
-            embed = self.embedconf.create_build_embed(build, data[0], colour=theme[0], chibi_avatar=theme[1])
+            view = DropdownView(ctx.author, data=data, build=build, theme=theme)
+            embed = self.embedconf.create_build_embed(build, data[0], colour=theme[0])
             if len(data) == 1:
                 await ctx.send(embed=embed)
             else:

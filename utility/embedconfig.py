@@ -13,7 +13,7 @@ class EmbedClass:
         else:
             return passive
 
-    def create_build_embed(self, build, choice, colour=0xffffff, chibi_avatar=""): 
+    def create_build_embed(self, build, choice, colour=0xffffff): 
         name = build['unit_name']
         frame = build['frame_name']
         thumbnail_url = build['thumbnail_url']
@@ -29,7 +29,6 @@ class EmbedClass:
             description=f"{selection['set_type'] + " " + "Set"}",
             color=discord.Color(colour)
         )
-        embed.set_author(name=f"{name}: {frame}", icon_url=chibi_avatar)
         embed.add_field(name="Usage", value=selection['set_type'])
         embed.add_field(name="Game Modes", value=selection['game_modes'])
         embed.add_field(
@@ -124,10 +123,10 @@ class EmbedClass:
         embed.set_thumbnail(url=memory['thumbnail'])
         return embed
 
-    def create_weapon_embed(self, weapon, chibi_avatar=""):
+    def create_weapon_embed(self, weapon, user="", chibi_avatar=""):
         effect = weapon['effect']
         stars = weapon['rarity']
-        
+
         match stars:
             case 2:
                 stars = "★★"
@@ -150,6 +149,7 @@ class EmbedClass:
             description=f"{weapon['weapon_type']}",
             color=discord.Color(colour)
         )
+        embed.set_author(name=user, icon_url=chibi_avatar)
         embed.add_field(
             name=f"{effect['effect_name']}",
             value=f"{effect['effect_desc']}",
@@ -171,6 +171,11 @@ class EmbedClass:
         active_skills = cub['active_skills']
         passive_skills = cub['passive_skills']
 
+        if(cub['base_rank'] == "A"):
+            colour = 0xd667f0
+        elif(cub['base_rank'] == "S"):
+            colour = 0xfc5f21
+
         if(choice == "active"):
             name = "**Active Skills**"
         else:
@@ -181,7 +186,7 @@ class EmbedClass:
         embed = discord.Embed(
             title=f"{cub['name']}",
             description=f"{cub['cub_type']}",
-            # color=discord.colour(value=0xfc5f21)
+            color=discord.Color(colour)
         )
         embed.set_thumbnail(url=cub['thumbnail'])
         embed.add_field(
@@ -365,13 +370,15 @@ class EmbedClass:
     def create_about_embed(self):
         embed = discord.Embed(
             title=f"About this Bot",
-            description=f"Hi Commandant! I'm Celica, your guide to Babylonia and the world of Punishing: Gray Raven."
+            description=f"Hi Commandant! I'm Celica, your guide to Babylonia and the world of Punishing: Gray Raven.",
+            color=discord.Color(0xf3dfa8)
         )
         embed.add_field(
             name="Disclaimer",
             value=f"This bot is a community project initiated by Ek(#ek3970). It is not in any way affiliated with Kuro Games or their staff. If you would like to ask questions about the bot, please send me a DM or ping me on the Punishing: Gray Raven Official Discord. (Also Scire is not best girl. I was just held at gunpoint to give her that nickname.)",
             inline=False
         )
+        embed.set_thumbnail(url="https://assets.huaxu.app/glb/image/rolecharacter/sailikanomal01.256.webp")
         return embed
     
     def credits_embed(self, credits, cur_page, max_len):

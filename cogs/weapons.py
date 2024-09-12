@@ -4,7 +4,7 @@ import json
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
-from utility.nickname_checker import check_nickname
+from utility.nickname_checker import check_nickname, character_theme
 from utility.wep_pagination import WeaponPageView
 
 class Weapons(commands.Cog):
@@ -64,7 +64,9 @@ class Weapons(commands.Cog):
             embed = self.embedconf.create_weapon_embed(weapon)
             await ctx.send(embed=embed)
         elif(not(self.does_weapon_exist(weapon_name))):
-            weapon_name = check_nickname(weapon_name, "weapon")  
+            character_name = check_nickname(weapon_name, "character")
+            theme = character_theme(character_name)
+            weapon_name = check_nickname(weapon_name, "weapon")
             if(self.does_weapon_exist(weapon_name)):
                 weapon = self.retrieve_weapon(weapon_name)
                 weapontype = weapon['weapon_type']
@@ -76,8 +78,8 @@ class Weapons(commands.Cog):
 
                 weapon_box.append(weapon)
 
-                embed = self.embedconf.create_weapon_embed(weapon)
-                view = WeaponPageView(ctx.author, weapon_box=weapon_box)
+                embed = self.embedconf.create_weapon_embed(weapon, user=theme[2], chibi_avatar=theme[1])
+                view = WeaponPageView(ctx.author, weapon_box=weapon_box, theme=theme)
                 view.current_page = "6★"
                 view.update_buttons()
                 view.message = await ctx.send(view=view, embed=embed)

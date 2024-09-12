@@ -7,11 +7,12 @@ import traceback
 from utility.embedconfig import EmbedClass
 
 class WeaponPageView(discord.ui.View):
-    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, weapon_box = []) -> None:
+    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, weapon_box = [], theme = []) -> None:
         super().__init__(timeout=timeout)
         self.user = user
         self.embedconfig = EmbedClass()
         self.weapon_box = weapon_box
+        self.theme = theme
         self.remove_item(self.two_star)
         self.remove_item(self.three_star)
         self.remove_item(self.four_star)
@@ -54,7 +55,7 @@ class WeaponPageView(discord.ui.View):
 
         for weapon in self.weapon_box:
             if weapon['rarity'] == rarity:
-                embed = self.embedconfig.create_weapon_embed(weapon)
+                embed = self.embedconfig.create_weapon_embed(weapon, user=self.theme[2], chibi_avatar=self.theme[1])
         # for item in data:
         #     embed.add_field(name=item, value=item, inline=False)
         return embed

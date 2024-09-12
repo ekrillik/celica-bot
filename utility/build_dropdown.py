@@ -13,11 +13,12 @@ class DropdownView(discord.ui.View):
     sep : int = 5
     current_page = 1
 
-    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, data = [], build = {}) -> None:
+    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, data = [], build = {}, theme = []) -> None:
         super().__init__(timeout=timeout)
         self.user = user
         self.data = data
         self.build = build
+        self.theme = theme
         self.menu = discord.ui.Select[DropdownView](
             custom_id="persistent_menu",
             placeholder="Select a build",
@@ -35,7 +36,7 @@ class DropdownView(discord.ui.View):
         self.embedconf = EmbedClass()
 
     async def callback(self, interaction: discord.Interaction) -> None:
-        embed = self.embedconf.create_build_embed(self.build, self.menu.values[0])
+        embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], colour=self.theme[0])
         await interaction.response.edit_message(embed=embed, view=self)
 
     # checks for the view's interactions
