@@ -1,34 +1,65 @@
 import discord
 import os
+import json
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
+from utility.help_dropdown import HelpView
+from utility.general_view import GeneralView
 
 class Help(commands.Cog):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
+        self.embedconf = EmbedClass()
 
     @commands.Cog.listener()
     async def on_ready(self):
         print('Help loaded.')
 
     @commands.command()
-    async def help(self, ctx: commands.Context):
-        commands = ["**?build**", "**?weapon/wep/weap/sig**", "**?skill, ?basic, ?red, ?yellow, ?blue, ?core, ?signature/ult, ?leader, ?qte, ?class, ?ss, ?sss, ?s+, ?leap**", "**?cub/pet**", "**?time/ppc**", "**?weaponlist**", "**?cublist**", "**?help**", "**?about**", "**?credits**"]
-        # content="List of commands"
-        embed = discord.Embed(
-            title=f"Celica Bot Command List",
-            description=f""
-        )
-        for i in commands:
+    async def help(self, ctx: commands.Context, command = ""):
+        if(command == ""):
+            with open('data/help.json') as file:
+                parsed_json = json.load(file)
+
+            bot_related = parsed_json['bot_related']
+            information = parsed_json['information']
+
+            embed = discord.Embed(title="Celica's Help Menu", description="I'm an informational bot for the game **Punishing: Gray Raven**", color=discord.Color(0x2e6a80))
             embed.add_field(
-                name="",
-                value=f"{i}",
+                name="", 
+                value=f"""
+                    My prefix is: ?
+                    Use the dropdown to view a list of commands by category.
+                    Use `?help [command]` for more information on a specific command.
+                """
+            )
+            embed.add_field(
+                name="**Changelog**",
+                value="```This is a new PGR bot with updated information, taking aspects of the Cogs bot made by Doomy. Please stay tuned for more updates.```",
                 inline=False
             )
+            view = HelpView(ctx.author, bot_related=bot_related, informational_commands=information)
+            view.message = await ctx.send(embed=embed, view=view)
+        else:
+            with open('data/help.json') as file:
+                parsed_json = json.load(file)
 
-        await ctx.send(embed=embed)
+            view = GeneralView(ctx.author)
+
+            command_help = parsed_json[command]
+            if 'examples' not in command_help and 'aliases' not in command_help:
+                embed = self.embedconf.help_commands_embed(title=command_help['syntax'], description=command_help['description'])
+            elif 'examples' not in command_help:
+                embed = self.embedconf.help_commands_embed(title=command_help['syntax'], aliases=command_help['aliases'], description=command_help['description'])
+            elif 'aliases' not in command_help:
+                embed = self.embedconf.help_commands_embed(title=command_help['syntax'], description=command_help['description'], examples=command_help['examples'])
+            else:
+                embed = self.embedconf.help_commands_embed(title=command_help['syntax'], aliases=command_help['aliases'], description=command_help['description'], examples=command_help['examples'])
+
+            view.message = await ctx.send(embed=embed, view=view)
+
 
     @commands.command()
     async def links(self, ctx: commands.Context):

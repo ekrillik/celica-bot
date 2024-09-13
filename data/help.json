@@ -1,0 +1,190 @@
+{
+  "bot_related": [
+    {
+      "command": "help",
+      "description": "Displays the help menu with a summarised list of commands."
+    },
+    {
+      "command": "about",
+      "description": "Displays information about this bot."
+    },
+    {
+      "command": "credits",
+      "description": "Displays names of people who have helped contribute to the making of this bot."
+    }
+  ],
+  "information": [
+    { "command": "links", "description": "Links for useful PGR resources" },
+    {
+      "command": "build",
+      "description": "Provides a list of builds for any character."
+    },
+    {
+      "command": "buildnotation",
+      "description": "Displays an image with the numbering notation used to describe builds in the PGR community."
+    },
+    {
+      "command": "skill",
+      "description": "Provides a view of all the skills for a particular character with a dropdown menu."
+    },
+    {
+      "command": "basic, red, yellow, blue, core, ult, leader, qte, class, ss, sss, s+, leap",
+      "description": "Displays a particular skill for a character."
+    },
+    {
+      "command": "weapon",
+      "description": "Displays details for a particular weapon."
+    },
+    { "command": "cub", "description": "Displays details for a CUB." },
+    {
+      "command": "minmax",
+      "description": "Compares the stats between 2 memories and recommends the top/bottom position for both memories."
+    },
+    {
+      "command": "memorylist",
+      "description": "Displays a comprehensive list of all available memories."
+    },
+    {
+      "command": "characterlist",
+      "description": "Displays a comprehensive list of all available characters."
+    },
+    {
+      "command": "cublist",
+      "description": "Displays a comprehensive list of all available CUBs."
+    },
+    {
+      "command": "weaponlist",
+      "description": "Displays a comprehensive list of all available weapons."
+    },
+    {
+      "command": "ppc",
+      "description": "Calculates the Ultimate PPC score of a particular time and difficulty."
+    }
+  ],
+  "links": {
+    "syntax": "?links",
+    "description": "Links for useful PGR resources"
+  },
+  "build": {
+    "syntax": "?build [character name]",
+    "description": "Provides a list of builds for any character.",
+    "examples": ["?build alisa", "?build lamia"]
+  },
+  "buildnotation": {
+    "syntax": "?buildnotation",
+    "description": "Displays an image with the numbering notation used to describe builds in the PGR community."
+  },
+  "skill": {
+    "syntax": "?skill [character name]",
+    "description": "Provides a view of all the skills for a particular character with a dropdown menu.",
+    "examples": ["?skill alisa", "?skill lamia"]
+  },
+  "basic": {
+    "syntax": "?basic [character name]",
+    "description": "Displays the Basic Attack skill for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?basic alisa", "?basic fish"]
+  },
+  "red": {
+    "syntax": "?red [character name]",
+    "description": "Displays the Red Orb skill for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?red alisa", "?red fish"]
+  },
+  "yellow": {
+    "syntax": "?yellow [character name]",
+    "description": "Displays the Yellow Orb skill for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?yellow alisa", "?yellow fish"]
+  },
+  "blue": {
+    "syntax": "?blue [character name]",
+    "description": "Displays the Blue Orb skill for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?blue alisa", "?blue fish"]
+  },
+  "core": {
+    "syntax": "?core [character name]",
+    "description": "Displays the Core Passive for a particular character. The given input in the square brackets can be a character name/nickname. As Core Passive descriptions are getting longer as the game progresses, they have been set up to be paginated rather than be presented in one big wall of text.",
+    "examples": ["?core alisa", "?core best girl"]
+  },
+  "ult": {
+    "syntax": "?signature [character name]",
+    "aliases": "?ult, ?ultimate",
+    "description": "Displays the Signature Move for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?signature alisa", "?ult lamia", "?ultimate best daughter"]
+  },
+  "leader": {
+    "syntax": "?leader [character name]",
+    "description": "Displays the Leader passive for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?leader alisa", "?leader lamia"]
+  },
+  "qte": {
+    "syntax": "?qte [character name]",
+    "description": "Displays the QTE skill for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?qte alisa", "?qte lamia"]
+  },
+  "class": {
+    "syntax": "?class [character name]",
+    "description": "Displays the Class passive for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?class alisa", "?class lamia"]
+  },
+  "ss": {
+    "syntax": "?ss [character name]",
+    "aliases": "?SS, ?2S, ?2s, ?s5, ?S5",
+    "description": "Displays the SS and S5 rank up buffs for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?ss alisa", "?SS lamia"]
+  },
+  "sss": {
+    "syntax": "?sss [character name]",
+    "aliases": "SSS, 3S, 3s, SS3, ss3",
+    "description": "Displays the SSS and SS3 rank up buffs for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?sss alisa", "?SSS lamia"]
+  },
+  "s+": {
+    "syntax": "?s+ [character name]",
+    "aliases": "s+, SSS+, S+, 3S+, 3s+",
+    "description": "Displays the SSS3, SSS6 and S+ rank up buffs for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?s+ alisa", "?3s+ lamia"]
+  },
+  "leap": {
+    "syntax": "?leap [character name]",
+    "description": "Displays the Leap skills for a particular character. The given input in the square brackets can be a character name/nickname.",
+    "examples": ["?leap alisa", "?leap fish"]
+  },
+  "weapon": {
+    "syntax": "?weapon [weapon or character name]",
+    "aliases": "?weap, ?wep, ?sig",
+    "description": "Displays details for a particular weapon. The given input in the square brackets can be a character name/nickname or actual pet name. If a character name/nickname is used, all usable weapons for that particular character will be displayed in a pagination format with each button having each usable weapon of every rarity present in the game.",
+    "examples": ["?weapon scire", "?weap alisa", "?wep fish", "?sig hyperreal"]
+  },
+  "cub": {
+    "syntax": "?cub [cub or character name]",
+    "aliases": "?pet, ?CUB",
+    "description": "Displays details for a CUB. The given input in the square brackets can be a character name/nickname or actual pet name.",
+    "examples": ["?cub hyperreal", "?cub fish", "?pet crimson weave"]
+  },
+  "minmax": {
+    "syntax": "?minmax [memory1], [memory2] or ?minmax [memory1],[memory2]",
+    "description": "Compares the stats between 2 memories and recommends the top/bottom position for both memories.",
+    "examples": ["?minmax dv,eins", "?minmax derketto, cottie"]
+  },
+  "memorylist": {
+    "syntax": "?memorylist",
+    "description": "Displays a comprehensive list of all available memories."
+  },
+  "characterlist": {
+    "syntax": "?characterlist",
+    "description": "Displays a comprehensive list of all available characters."
+  },
+  "cublist": {
+    "syntax": "?cublist",
+    "description": "Displays a comprehensive list of all available CUBs."
+  },
+  "weaponlist": {
+    "syntax": "?weaponlist",
+    "description": "Displays a comprehensive list of all available weapons."
+  },
+  "ppc": {
+    "syntax": "?ppc [difficulty] [time]",
+    "aliases": "?time",
+    "description": "Calculates the Ultimate PPC score of a particular time and difficulty.",
+    "examples": ["?ppc chaos 20", "?ppc hell 30", "?time hell 25"]
+  }
+}

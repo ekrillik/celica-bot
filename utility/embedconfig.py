@@ -352,7 +352,6 @@ class EmbedClass:
         return embed
 
     def create_list_embed(self, name, items, curpage, maxlistcount):
-
         embed = discord.Embed(
             title=f"List of {name}",
             description="",
@@ -392,4 +391,28 @@ class EmbedClass:
             for name in credits['people']:
                 embed.add_field(name="", value=f"{name}", inline=False)
         embed.set_footer(text=f"Page {cur_page + 1}/{max_len} ")
+        return embed
+    
+    def help_commands_embed(self, title, description, aliases = "", examples = []):
+        embed = discord.Embed(title=title, description=f"{description}", color=discord.Color(0x2e6a80))
+
+        if aliases != "":
+            embed.add_field(name="Aliases", value=aliases, inline=False)
+        if len(examples) != 0:
+            embed.add_field(name="Examples", value="", inline=False)
+            for example in examples:
+                embed.add_field(name="", value=example, inline=False)
+        
+            
+        return embed
+
+    def helplist_embed(self, title, list):
+        embed = discord.Embed(
+            title=title,
+            description="",
+            color=discord.Color(0x2e6a80)
+        )
+        for item in list:
+            embed.add_field(name=f"**{item['command']}**", value=f"{item['description']}", inline=False)
+        embed.set_footer(text="Use '?help [commands]' for more info.")
         return embed
