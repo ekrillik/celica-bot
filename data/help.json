@@ -28,7 +28,7 @@
       "description": "Displays an image with the numbering notation used to describe builds in the PGR community."
     },
     {
-      "command": "skill",
+      "command": "skills",
       "description": "Provides a view of all the skills for a particular character with a dropdown menu."
     },
     {
@@ -83,8 +83,9 @@
     "syntax": "?buildnotation",
     "description": "Displays an image with the numbering notation used to describe builds in the PGR community."
   },
-  "skill": {
-    "syntax": "?skill [character name]",
+  "skills": {
+    "syntax": "?skills [character name]",
+    "aliases": "?skill",
     "description": "Provides a view of all the skills for a particular character with a dropdown menu.",
     "examples": ["?skill alisa", "?skill lamia"]
   },

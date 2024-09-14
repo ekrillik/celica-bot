@@ -125,7 +125,7 @@ class Skills(commands.Cog):
     async def on_ready(self):
         print('Skills loaded.')
 
-    @commands.command()
+    @commands.command(aliases=["skills"])
     async def skill(self, ctx: commands.Context, *args) -> None:
         if len(args) > 1:
             character = args[0] + " " + args[1]
