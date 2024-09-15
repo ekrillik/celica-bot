@@ -36,7 +36,7 @@ class DropdownView(discord.ui.View):
         self.embedconf = EmbedClass()
 
     async def callback(self, interaction: discord.Interaction) -> None:
-        embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], colour=self.theme[0])
+        embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], colour=self.theme[0], thumbnail_url=self.theme[3])
         await interaction.response.edit_message(embed=embed, view=self)
 
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
