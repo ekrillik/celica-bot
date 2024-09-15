@@ -10,7 +10,7 @@ class SkillsView(discord.ui.View):
     message: discord.Message | None = None
     current_page = 0
 
-    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, skills = {}) -> None:
+    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, skills = {}, theme = []) -> None:
         super().__init__(timeout=timeout)
         if 'leap' in skills:
             options = ["Basic Attack", "Red Orb", "Blue Orb", "Yellow Orb", "Core Passive", "Signature/Ultimate", "QTE", "Leader Passive", "Class Passive", "SS", "SSS", "S+", "Leap"]
@@ -20,6 +20,8 @@ class SkillsView(discord.ui.View):
         self.user = user
         self.skills = skills
         self.embedconf = EmbedClass()
+        # [colour, chibi_portrait, name]
+        self.theme = theme
 
         self.menu = discord.ui.Select[SkillsView](
             custom_id="menu",
@@ -45,7 +47,6 @@ class SkillsView(discord.ui.View):
         self.skill_len = len(self.skills['basic_attack'])
         self.add_item(self.menu)
         
-        print(self.current_page)
         if(self.skill_len > 1):
             self.add_item(self.first)
             self.add_item(self.prev)
@@ -66,7 +67,7 @@ class SkillsView(discord.ui.View):
             self.update_buttons()
 
         self.add_item(self.clear_button)
-        embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, self.current_page)
+        embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
         return embed
         
     async def callback(self, interaction: discord.Interaction) -> None:
@@ -157,58 +158,39 @@ class SkillsView(discord.ui.View):
                 self.skill_len = len(self.skill)
                 embed = self.spawn_items()
         
-        # embed = self.embedconf.create_build_embed(self.build, self.menu.values[0])
         await interaction.response.edit_message(embed=embed, view=self)
 
-    # checks for the view's interactions
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
-        
-        # view: PaginationView = self.view
-
-        # print(interaction)
         if interaction.user == self.user:
-            content = "Test"
-            # await self.update_message(self.data[:self.sep])
-            # await interaction.response.edit_message(content=content, view=view)
             return True
-        # else send a message and return False
         await interaction.response.send_message(f"The command was initiated by {self.user.mention}", ephemeral=True)
         return False
-    
-    # do stuff on timeout
+
     async def on_timeout(self) -> None:
         self.clear_items()
         await self.message.edit(view=self)
 
     async def first_callback(self, interaction: discord.Interaction) -> None:
         self.current_page=0
-        print(self.current_page)
-        # print(self.skill)
-        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page)
+        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
         self.update_buttons()
         await interaction.response.edit_message(embed=self.embed, view=self)
 
     async def prev_callback(self, interaction: discord.Interaction) -> None:
         self.current_page-=1
-        print(self.current_page)
-        # print(self.skill)
-        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page)
+        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
         self.update_buttons()
         await interaction.response.edit_message(embed=self.embed, view=self)
         
     async def next_callback(self, interaction: discord.Interaction) -> None:
         self.current_page+=1
-        print(self.current_page)
-        # print(self.skill)
-        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page)
+        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
         self.update_buttons()
         await interaction.response.edit_message(embed=self.embed, view=self)
         
     async def last_callback(self, interaction: discord.Interaction) -> None:
         self.current_page = int(self.skill_len) + 1
-        print(self.current_page)
-        # print(self.skill)
-        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page)
+        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
         self.update_buttons()
         await interaction.response.edit_message(embed=self.embed, view=self)
         
@@ -238,7 +220,6 @@ class SkillsView(discord.ui.View):
             self.last.style = discord.ButtonStyle.green
             self.next.style = discord.ButtonStyle.primary
 
-    # error handler for the view
     async def on_error(
         self, interaction: discord.Interaction[discord.Client], error: Exception, item: discord.ui.Item[typing.Any]
     ) -> None:

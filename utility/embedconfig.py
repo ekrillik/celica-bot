@@ -13,10 +13,10 @@ class EmbedClass:
         else:
             return passive
 
-    def create_build_embed(self, build, choice, colour=0xffffff): 
+    def create_build_embed(self, build, choice, colour=0xffffff, thumbnail_url = ""): 
         name = build['unit_name']
         frame = build['frame_name']
-        thumbnail_url = build['thumbnail_url']
+        thumbnail_url = thumbnail_url
         builds = build['builds']
 
         selection = self.choose_build(builds, choice)
@@ -202,15 +202,18 @@ class EmbedClass:
             )
         return embed
 
-    def skillsEmbed(self, skill, selection, cur_page = 0, colour=0xffffff, chibi_avatar=""):
+    def skillsEmbed(self, skill, selection, cur_page = 0, colour=0xffffff, chibi_avatar="", user="", thumbnail = ""):
         match selection:
             case "Basic Attack" | "Red Orb" | "Blue Orb" | "Yellow Orb" :
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**")
-                embed.add_field(
-                    name="",
-                    value=f"**Trigger - {skill[cur_page]['button_press']}**",
-                    inline=False
-                )
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**", color=colour)
+                embed.set_thumbnail(url=thumbnail)
+                embed.set_author(name=user, icon_url=chibi_avatar)
+                if(skill[cur_page]['button_press'] != ""):
+                    embed.add_field(
+                        name="",
+                        value=f"**Trigger:** {skill[cur_page]['button_press']}",
+                        inline=False
+                    )
                 description = skill[cur_page]['description']
                 embed.add_field(
                     name="",
@@ -227,12 +230,15 @@ class EmbedClass:
                         )
                 embed.set_footer(text=f"{cur_page + 1}/{len(skill)}")
             case "Core Passive":
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**")
-                embed.add_field(
-                    name="",
-                    value=f"**Trigger - {skill['skills'][cur_page]['button_press']}**",
-                    inline=False
-                )
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**", color=colour)
+                embed.set_thumbnail(url=thumbnail)
+                embed.set_author(name=user, icon_url=chibi_avatar)
+                if(skill['skills'][cur_page]['button_press'] != ""):
+                    embed.add_field(
+                        name="",
+                        value=f"**Trigger:** {skill['skills'][cur_page]['button_press']}",
+                        inline=False
+                    )
                 descriptions = skill['skills'][cur_page]['description']
                 if len(descriptions) > 0:
                     for description in descriptions:
@@ -251,12 +257,15 @@ class EmbedClass:
                         )
                 embed.set_footer(text=f"{cur_page + 1}/{len(skill['skills'])}")
             case "Signature/Ultimate":
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**")
-                embed.add_field(
-                    name="",
-                    value=f"**Trigger - {skill['skills'][cur_page]['button_press']}**",
-                    inline=False
-                )
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**", color=colour)
+                embed.set_thumbnail(url=thumbnail)
+                embed.set_author(name=user, icon_url=chibi_avatar)
+                if(skill['skills'][cur_page]['button_press'] != ""):
+                    embed.add_field(
+                        name="",
+                        value=f"**Trigger:** {skill['skills'][cur_page]['button_press']}",
+                        inline=False
+                    )
                 description = skill['skills'][cur_page]['description']
                 embed.add_field(
                     name="",
@@ -273,7 +282,9 @@ class EmbedClass:
                         )
                 embed.set_footer(text=f"{cur_page + 1}/{len(skill['skills'])}")
             case "Leader Passive" | "Class Passive":
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**")
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**", color=colour)
+                embed.set_thumbnail(url=thumbnail)
+                embed.set_author(name=user, icon_url=chibi_avatar)
                 description = skill['description']
                 embed.add_field(
                     name="",
@@ -281,7 +292,9 @@ class EmbedClass:
                     inline=False
                 )
             case "QTE":
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**")
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**", color=colour)
+                embed.set_thumbnail(url=thumbnail)
+                embed.set_author(name=user, icon_url=chibi_avatar)
                 embed.add_field(
                     name="",
                     value=f"{skill['description']}",
@@ -294,7 +307,9 @@ class EmbedClass:
                         inline=False
                     )
             case "SS" | "SSS" | "S+":
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**")
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**", color=colour)
+                embed.set_thumbnail(url=thumbnail)
+                embed.set_author(name=user, icon_url=chibi_avatar)
                 levels = skill['levels']
                 for level in levels:
                     embed.add_field(
@@ -303,7 +318,9 @@ class EmbedClass:
                         inline=False
                     )
             case "Leap":
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**")
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**", color=colour)
+                embed.set_thumbnail(url=thumbnail)
+                embed.set_author(name=user, icon_url=chibi_avatar)
                 embed.add_field(
                     name="",
                     value=f"{skill[cur_page]['description']}",

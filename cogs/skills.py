@@ -10,7 +10,7 @@ from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
 from utility.build_dropdown import DropdownView
-from utility.nickname_checker import check_nickname
+from utility.nickname_checker import check_nickname, character_theme
 from utility.skills_menu import SkillsView
 from utility.pagination import PaginationView
 from utility.general_view import GeneralView
@@ -101,19 +101,22 @@ class Skills(commands.Cog):
                         skill_len = len(skillset['leap'])
                     else:
                         await ctx.send("This character does not have Leap skills.")
-        
+
+            theme = character_theme(character)
+            print(theme)
+
             if skill_type == 'Leap' or skill_type == 'Core Passive' or skill_type == 'Basic Attack' or skill_type == 'Red Orb' or skill_type == 'Yellow Orb' or skill_type == 'Blue Orb' or skill_type == 'Signature/Ultimate':
                 if len(skill) > 1:
                     print(skill_len)
-                    embed = self.embedconf.skillsEmbed(skill, skill_type)
-                    view = PaginationView(ctx.author, data=skill, pagination_type="skills", skill_type=skill_type)
+                    embed = self.embedconf.skillsEmbed(skill, skill_type, colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3])
+                    view = PaginationView(ctx.author, data=skill, pagination_type="skills", skill_type=skill_type, theme=theme)
                     view.message = await ctx.send(embed=embed, view=view)
                 else:
-                    embed = self.embedconf.skillsEmbed(skill, skill_type)
+                    embed = self.embedconf.skillsEmbed(skill, skill_type, colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3])
                     view = GeneralView(ctx.author)
                     view.message = await ctx.send(embed=embed, view=view)
             else:
-                embed = self.embedconf.skillsEmbed(skill, skill_type)
+                embed = self.embedconf.skillsEmbed(skill, skill_type, colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3])
                 view = GeneralView(ctx.author)
                 view.message = await ctx.send(embed=embed, view=view)
         else:
@@ -135,9 +138,11 @@ class Skills(commands.Cog):
         print(character)
         character = check_nickname(character, "character")
 
+        theme = character_theme(character)
+
         skills = self.retrieve_skills(character)
-        embed = self.embedconf.skillsEmbed(skills['basic_attack'], "Basic Attack")
-        view = SkillsView(ctx.author, skills=skills)
+        embed = self.embedconf.skillsEmbed(skills['basic_attack'], "Basic Attack", colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3])
+        view = SkillsView(ctx.author, skills=skills, theme=theme)
         view.message = await ctx.send(embed=embed, view=view)
 
     @commands.command()

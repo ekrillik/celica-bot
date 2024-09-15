@@ -253,8 +253,8 @@
       "name": "Mounting Fury",
       "levels": [
         {
-          "rank": "Extra DMG Bonus increases after casting  Signature - Azure Starfall.",
-          "desc": "- Extra DMG Bonus increases by  20% for  8s."
+          "rank": "",
+          "desc": "Extra DMG Bonus increases after casting Signature - Azure Starfall.\n- Extra DMG Bonus increases by 20% for 8s."
         }
       ]
     }
@@ -608,9 +608,8 @@
         {
           "name": "Core Passive",
           "button_press": "Ping Red Orb (chance to trigger) / Ping Blue Orb + Tap Basic Attack (chance to trigger)",
-
           "description": [
-            "When Basic Attacks hit marked enemies, there is a chance to trigger  Lightning Lure and deal Lightning DMG. Pinging Red Orbs also has a chance to trigger  Lightning Lure. After triggering  Lightning Lure for  4 times, the next  Lightning Lure will summon  EX Lightning Lure, dealing Lightning DMG and healing allies in the area."
+            "When Basic Attacks hit marked enemies, there is a chance to trigger Lightning Lure and deal Lightning DMG. Pinging Red Orbs also has a chance to trigger  Lightning Lure. After triggering Lightning Lure for 4 times, the next Lightning Lure will summon EX Lightning Lure, dealing Lightning DMG and healing allies in the area."
           ],
           "result": [
             "- Basic Attacks have a 30% chance to trigger Lightning Lure when they hit marked enemies.",
@@ -641,7 +640,7 @@
     "qte": {
       "name": "Neo-Nanofield Blossom",
       "description": {
-        "desc": "Liv: Lux enters the battlefield and summons  EX Lightning Lure to strike the enemies within the area, dealing Lightning DMG and leaving an ion field behind that heals the allies within.",
+        "desc": "Liv: Lux enters the battlefield and summons EX Lightning Lure to strike the enemies within the area, dealing Lightning DMG and leaving an ion field behind that heals the allies within.",
         "result": [
           "- Deals 200% Lightning DMG to the enemies in the area.",
           "- Heals allies for 25% of Lux's ATK every second."
@@ -666,8 +665,8 @@
       "name": "Field Controller",
       "levels": [
         {
-          "rank": "Allies within the ion field created by  Ex Lightning gain  Lightning Surge that increases their Lightning DMG.",
-          "desc": "-  Lightning Surge increases Lightning DMG of allies by  20%."
+          "rank": "",
+          "desc": "Allies within the ion field created by EX Lightning Lure gain Lightning Surge that increases their Lightning DMG.\n- Lightning Surge increases Lightning DMG of allies by 20%."
         }
       ]
     },
@@ -676,7 +675,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of  Lightning Lure increases by  25%."
+          "desc": "Extra DMG Bonus of Lightning Lure increases by 25%."
         }
       ]
     },
@@ -684,8 +683,8 @@
       "name": "Energy Sanctum",
       "levels": [
         {
-          "rank": "Reduces the Lightning resistance of targets within  Sanctum by  15%.",
-          "desc": "Sanctum refers to enemies affected by Lux's Yellow Orb."
+          "rank": "",
+          "desc": "Reduces the Lightning resistance of targets within Sanctum by 15%. Sanctum refers to enemies affected by Lux's Yellow Orb."
         }
       ]
     }
@@ -1041,7 +1040,8 @@
             "Stores 1 energy arrow in the quiver after every 3-Ping. All arrows will be released when casting the next Signature Move, each dealing Extra Physical DMG to the target."
           ],
           "result": [
-            "- Each energy arrow deals 100% Extra Physical DMG twice. - Each 3-Ping stores 1 energy arrow (max 3)."
+            "- Each energy arrow deals 100% Extra Physical DMG twice.",
+            "- Each 3-Ping stores 1 energy arrow (max 3)."
           ]
         }
       ]
@@ -1700,7 +1700,7 @@
       "name": "Thermal Radiation",
       "levels": [
         {
-          "rank": "SS",
+          "rank": "",
           "desc": "Extra Fire DMG Bonus increases by 10% after entering Thermal mode. "
         }
       ]
@@ -1709,7 +1709,7 @@
       "name": "Infinite Potential",
       "levels": [
         {
-          "rank": "SSS",
+          "rank": "",
           "desc": "Extra DMG Bonus of Enhanced skills increases by 10%. "
         }
       ]
@@ -1718,7 +1718,7 @@
       "name": "Elimination Duty ",
       "levels": [
         {
-          "rank": "SSS+",
+          "rank": "",
           "desc": "Reduces Fire DMG Resistance of enemies that took burning damage from a Signature Move by 15% for 5 seconds. "
         }
       ]
@@ -3324,8 +3324,8 @@
       "name": "Stone Freeze",
       "levels": [
         {
-          "rank": "After Frigid Roundabout hits a target, Plume's attacks deal extra DMG to the target.",
-          "desc": "- Deals  10% more DMG to the target for  8s."
+          "rank": "",
+          "desc": "After Frigid Roundabout hits a target, Plume's attacks deal extra DMG to the target.\n- Deals 10% more DMG to the target for 8s."
         }
       ]
     },
@@ -3333,12 +3333,8 @@
       "name": "Raven Zero",
       "levels": [
         {
-          "rank": "Gains max Energy and  2 Signature Points at the start of battle. While Plume still has Energy in Arctic Form, Extra DMG Bonus of Signal Orb skills increases by  5%.",
-          "desc": "Or:"
-        },
-        {
           "rank": "",
-          "desc": "Gain max Energy at the start of battle. While you still have Energy in Arctic Form, Extra DMG Bonus of Signal Orb Skills increases by  10%."
+          "desc": "Gains max Energy and 2 Signature Points at the start of battle. While Plume still has Energy in Arctic Form, Extra DMG Bonus of Signal Orb skills increases by 5%.\n\nOr:\n\nGain max Energy at the start of battle. While you still have Energy in Arctic Form, Extra DMG Bonus of Signal Orb Skills increases by  10%."
         }
       ]
     },
@@ -3347,7 +3343,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Ice DMG increases by  20% while Core Passive is active."
+          "desc": "Ice DMG increases by 20% while Core Passive is active."
         }
       ]
     }
@@ -3989,14 +3985,10 @@
         {
           "name": "Core Passive",
           "button_press": "Yellow 3-Ping + Ping Follow-Up Orb",
-          "description": ["Automatically uses this attack upon switch-in."],
-          "result": []
-        },
-        {
-          "name": "Yellow Follow-Up",
-          "button_press": "Leaps backward and conjures ice pieces to pull nearby enemies together. The ice pieces then explode to deal AOE Ice DMG.",
-          "description": ["- Deals 400% AOE Ice DMG."],
-          "result": []
+          "description": [
+            "Automatically uses this attack upon switch-in.\nYellow Follow-Up: Leaps backward and conjures ice pieces to pull nearby enemies together. The ice pieces then explode to deal AOE Ice DMG."
+          ],
+          "result": ["- Deals 400% AOE Ice DMG."]
         }
       ]
     },
@@ -7254,30 +7246,24 @@
   "stigmata": {
     "basic_attack": [
       {
-        "name": "Tri",
-        "button_press": "Candela Staffsword",
+        "name": "Tri-Candela Staffsword - Basic Attack",
+        "button_press": "Basic Attack - Staff Form + Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Basic Attack - Staff Form + Tap Basic Attack",
-          "result": []
+          "desc": "Unleashes 5 hits of attack toward the target with the Swordstaff.",
+          "result": ["- Deals 380% Physical DMG in total."]
         }
       },
       {
-        "name": "Unleashes 5 hits of attack toward the target with the Swordstaff.",
-        "button_press": "- Deals 380% Physical DMG in total.",
+        "name": "Tri-Candela Staffsword - Basic Attack",
+        "button_press": "Basic Attack - Sword Form + Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Basic Attack - Sword Form+Tap Basic Attack",
-          "result": []
-        }
-      },
-      {
-        "name": "Unleashes 5 hits of attack toward the target with the Swordstaff.",
-        "button_press": "- Deals 480% Physical DMG in total.",
-        "switch_in": "no",
-        "description": {
-          "desc": "- Every hit of Basic Attack in Sword Form generates 4 Signature Energy.",
-          "result": []
+          "desc": "Unleashes 5 hits of attack toward the target with the Swordstaff.",
+          "result": [
+            "- Deals 480% Physical DMG in total.",
+            "- Every hit of Basic Attack in Sword Form generates 4 Signature Energy."
+          ]
         }
       },
       {
@@ -7757,8 +7743,8 @@
         }
       },
       {
-        "name": "Hypermatrix Strike",
-        "button_press": "Shadow - Hypermatrix Space + Yellow 3-ping",
+        "name": "Hypermatrix Strike: Shadow",
+        "button_press": "Hypermatrix Space + Yellow 3-ping",
         "switch_in": "no",
         "description": {
           "desc": "While in Hypermatrix, Lee performs a quick strafe with his alternate selves from other worldlines, dealing Fire DMG and granting a stack of Sight Point.",
@@ -7954,13 +7940,13 @@
           "name": "Converging Expression",
           "button_press": "Any 3-Ping",
           "description": [
-            "The  Main Color is filled in with a Signal Orb color by default. Upon a 3-Ping, Coolant in the 3-Ping color will fill the  Secondary Color (max  1 type of Coolant). Subsequent Coolant will replace the previous Coolant."
+            "The Main Color is filled in with a Signal Orb color by default. Upon a 3-Ping, Coolant in the 3-Ping color will fill the Secondary Color (max 1 type of Coolant). Subsequent Coolant will replace the previous Coolant."
           ],
           "result": []
         },
         {
-          "name": "Color Mix",
-          "button_press": "Clash of Concepts -  Main Color is different from Secondary Color + Press and Hold Basic Attack",
+          "name": "Color Mix: Clash of Concepts",
+          "button_press": "Main Color is different from Secondary Color + Press and Hold Basic Attack",
           "description": [
             "Performs 2 consecutive sweep attacks, dealing Ice DMG and gaining an extra buff. Gains Super Armor in the skill duration."
           ],
@@ -7971,8 +7957,8 @@
           ]
         },
         {
-          "name": "Pure Color",
-          "button_press": "Theme Emphasis -  Main Color is the same as Secondary Color + Press and Hold Basic Attack",
+          "name": "Pure Color: Theme Emphasis",
+          "button_press": "Main Color is the same as Secondary Color + Press and Hold Basic Attack",
           "description": [
             "Dashes forward before turning around for a sweep attack, dealing Ice DMG and gaining an extra buff. Gains Super Armor in the skill duration."
           ],
@@ -7986,7 +7972,7 @@
           "name": "Vibrant Brushstroke",
           "button_press": "Painter's Realm + Any Orb Ping",
           "description": [
-            "Rides the Beam Gunlance and draws a colorful trail, causing an explosion upon hitting the enemy for the first time and dealing Ice DMG to enemies within the area. Gains  30% DMG Reduction and Super Armor in the skill duration."
+            "Rides the Beam Gunlance and draws a colorful trail, causing an explosion upon hitting the enemy for the first time and dealing Ice DMG to enemies within the area. Gains 30% DMG Reduction and Super Armor in the skill duration."
           ],
           "result": [
             "- Deals 220% / 440% / 660% Ice DMG based on the number of orbs pinged.",
@@ -7995,10 +7981,10 @@
           ]
         },
         {
-          "name": "Hued Splash -  Pure Color",
-          "button_press": "Theme Emphasis / Color Mix: Clash of Concepts",
+          "name": "Hued Splash",
+          "button_press": "Pure Color: Theme Emphasis / Color Mix: Clash of Concepts",
           "description": [
-            "Ayla: Kaleido restores  15 Signature Energy to herself and heals her allies within the area every time she casts  Pure Color: Theme Emphasis or  Color Mix: Clash of Concepts, storing  1 \"Backup Paint\" of the  Main Color (max  3). When  Vibrant Brushstroke deals DMG, spends 1  \"Backup Paint\" to gain 1 set of 3-Ping Orbs in the same color as the  \"Backup Paint\"."
+            "Ayla: Kaleido restores 15 Signature Energy to herself and heals her allies within the area every time she casts Pure Color: Theme Emphasis or Color Mix: Clash of Concepts, storing 1 \"Backup Paint\" of the Main Color (max 3). When Vibrant Brushstroke deals DMG, spends 1 \"Backup Paint\" to gain 1 set of 3-Ping Orbs in the same color as the \"Backup Paint\"."
           ],
           "result": [
             "- All allies within the area restore HP equal to 20% of her ATK."
@@ -8008,7 +7994,7 @@
           "name": "Art Influence",
           "button_press": "Receive Healing",
           "description": [
-            "Healed allies gain  Frost Crystal, which increases Ice DMG by  10% for  8s. The duration resets every time it is triggered."
+            "Healed allies gain Frost Crystal, which increases Ice DMG by 10% for 8s. The duration resets every time it is triggered."
           ],
           "result": []
         }
@@ -8111,16 +8097,16 @@
   "crimson weave": {
     "basic_attack": [
       {
-        "name": "Crimson Slash",
-        "button_press": "Slash: Dispel Shadow - Kodachi in Hand + Tap Basic Attack",
+        "name": "Crimson Slash - Slash: Dispel Shadow",
+        "button_press": "Kodachi in Hand + Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Unleashes 5 hits of attack toward the target using the kodachi and techniques .",
+          "desc": "Unleashes 5 hits of attack toward the target using the kodachi and techniques.",
           "result": ["- Deals 540% Lightning DMG in total."]
         }
       },
       {
-        "name": "Slash: Annihilate",
+        "name": "Crimson Slash - Slash: Annihilate",
         "button_press": "Odachi in Hand + Tap Basic Attack",
         "switch_in": "no",
         "description": {
@@ -8129,7 +8115,7 @@
         }
       },
       {
-        "name": "Blading Radiance",
+        "name": "Crimson Slash - Blading Radiance",
         "button_press": "After the 4th Basic Attack/Dodge + Blade Lights Up + Tap Basic Attack",
         "switch_in": "no",
         "description": {
@@ -8141,8 +8127,8 @@
         }
       },
       {
-        "name": "Unquenchable Flare",
-        "button_press": "Odachi in Hand+ activate Selfless Stance + Press and Hold Basic Attack",
+        "name": "Crimson Slash - Unquenchable Flare",
+        "button_press": "Odachi in Hand + activate Selfless Stance + Press and Hold Basic Attack",
         "switch_in": "no",
         "description": {
           "desc": "When Alpha is holding the odachi with Selfless Stance activated, press and hold Basic Attack to launch Leaping Thrust, and jump up to perform Thunderous Bash in midair, pulling enemies in the area and dealing Lightning DMG. When casting Unquenchable Flare, Alpha becomes invincible but is unable to cast Signature - Weave: Karmic Inferno.",
@@ -8153,7 +8139,7 @@
         }
       },
       {
-        "name": "Shatter All Scourges",
+        "name": "Crimson Slash - Shatter All Scourges",
         "button_press": "Red/Yellow Orb 3-ping + tap Basic Attack",
         "switch_in": "no",
         "description": {
@@ -8192,21 +8178,15 @@
     ],
     "blue_orb": [
       {
-        "name": "Whirling Thrash",
-        "button_press": "Automatically uses a 3-Ping version of this attack upon switch-in.",
-        "switch_in": "no",
+        "name": "Whirling Thrash - Blue Orb",
+        "button_press": "Kodachi in Hand + Ping Blue Orb",
+        "switch_in": "yes",
         "description": {
-          "desc": "Blue Orb - Kodachi in Hand + Ping Blue Orb",
-          "result": []
-        }
-      },
-      {
-        "name": "Slashes the enemy rapidly and deals Lightning DMG.",
-        "button_press": "- Deals 150% / 300% / 450% Lighting DMG based on the number of orbs pinged.",
-        "switch_in": "no",
-        "description": {
-          "desc": "- Performing a Blue Orb 2/3-Ping again will change Alpha's move into jumping up before slashing the enemy, dealing 320% / 480% Lightning DMG.",
-          "result": []
+          "desc": "Slashes the enemy rapidly and deals Lightning DMG.",
+          "result": [
+            "- Deals 150% / 300% / 450% Lighting DMG based on the number of orbs pinged.",
+            "- Performing a Blue Orb 2/3-Ping again will change Alpha's move into jumping up before slashing the enemy, dealing 320% / 480% Lightning DMG."
+          ]
         }
       }
     ],
@@ -8266,16 +8246,16 @@
       "name": "Weave of Voidness",
       "skills": [
         {
-          "name": "Weave",
-          "button_press": "Splashing Thunder-  20 Energy + tap Signature Move",
+          "name": "Weave: Splashing Thunder",
+          "button_press": "20 Energy + tap Signature Move",
           "description": {
             "desc": "Slowly pulls the odachi and summons thunder to deal Lightning DMG to nearby targets in a large area, then holds the odachi in hand. Triggers Time Lag Calculation when casting the skill.",
             "result": ["- Deals 500% Lightning DMG in total."]
           }
         },
         {
-          "name": "Weave",
-          "button_press": "Karmic Inferno -  70 energy + tap Signature Move",
+          "name": "Weave: Karmic Inferno",
+          "button_press": "70 energy + tap Signature Move",
           "description": {
             "desc": "When Alpha is holding the odachi, tap Signature to consume Signature Energy and deal Lightning DMG in a large area. Alpha then puts the odachi away and holds the kodachi in hand. Triggers Time Lag Calculation when casting the skill.",
             "result": ["- Deals a total of 2600% Lightning DMG."]
@@ -8286,7 +8266,7 @@
     "qte": {
       "name": "Flashes of Steel",
       "description": {
-        "desc": "Slashes multiple times to deal  460% Lightning DMG.",
+        "desc": "Slashes multiple times to deal 460% Lightning DMG.",
         "result": []
       }
     },
@@ -8356,29 +8336,20 @@
     "basic_attack": [
       {
         "name": "Flight of Clouds",
-        "button_press": "",
+        "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Tap Basic Attack",
-          "result": []
+          "desc": "Swings the fans and dances, dealing multiple hits to the enemy. Basic Attacks recover Signal Orbs faster in Dancer Stance.",
+          "result": ["- Deals 840% Physical DMG in total."]
         }
       },
       {
-        "name": "Swings the fans and dances, dealing multiple hits to the enemy. Basic Attacks recover Signal Orbs faster in  Dancer Stance.",
-        "button_press": "- Deals 840% Physical DMG in total.",
+        "name": "Enchanting Emergence",
+        "button_press": "Tap Basic Attack after dodging",
         "switch_in": "no",
         "description": {
-          "desc": "Enchanting Emergence -",
-          "result": []
-        }
-      },
-      {
-        "name": "Tap Basic Attack after dodging",
-        "button_press": "Leaps into the air to unleash multiple fans that orbit around her and deal DMG.",
-        "switch_in": "no",
-        "description": {
-          "desc": "- Deals 180% Physical DMG in total.",
-          "result": []
+          "desc": "Leaps into the air to unleash multiple fans that orbit around her and deal DMG.",
+          "result": ["- Deals 180% Physical DMG in total."]
         }
       }
     ],
@@ -8428,62 +8399,47 @@
       "skills": [
         {
           "name": "Spring of Emerald Flow",
-          "button_press": "",
-          "description": ["Any 3-Ping"],
-          "result": []
-        },
-        {
-          "name": "Hanying gains  1 Dancer Point after any 3",
-          "button_press": "Ping, up to  4 Points.",
+          "button_press": "Any 3-Ping",
           "description": [
-            "Dance of Emerald Flow -  At least 1 Dancer Point + Tap Dodge"
+            "Hanying gains 1 Dancer Point after any 3-Ping, up to 4 Points."
           ],
           "result": []
         },
         {
-          "name": "After spending  1 Dancer Point, Hanying will perform a  Choreography, entering  Dancer Stance, recovering  16 Signature Energy, and gaining  1 stack of  Emerald Flow. In  Dancer Stance, all Signal Orbs will be converted into  Dance Orbs (with color unchanged) that cast  Poise of Emerald Flow when pinged, and Hanying can only perform 1",
-          "button_press": "Pings. Hanying gains Super Armor and  50% DMG Reduction while casting  Poise of Emerald Flow. Each stack of  Emerald Flow will increase the Base DMG of  Poise of Emerald Flow or  Vision of Mountains by  20% (max 4 stacks). Exiting  Dancer Stance will reset  Emerald Flow to  0. Performing 4 consecutive  Choreographies will leave behind a healing zone that restores the HP of allies in the area and grants  Ultralimit Torque, which increases Physical DMG.",
-          "description": ["-  Choreography deals  440% Physical DMG."],
+          "name": "Dance of Emerald Flow",
+          "button_press": "At least 1 Dancer Point + Tap Dodge",
+          "description": [
+            "After spending  1 Dancer Point, Hanying will perform a Choreography, entering Dancer Stance, recovering 16 Signature Energy, and gaining 1 stack of Emerald Flow. In Dancer Stance, all Signal Orbs will be converted into Dance Orbs (with color unchanged) that cast Poise of Emerald Flow when pinged, and Hanying can only perform 1-Pings.\n\nHanying gains Super Armor and 50% DMG Reduction while casting Poise of Emerald Flow. Each stack of Emerald Flow will increase the Base DMG of  Poise of Emerald Flow or Vision of Mountains by 20% (max 4 stacks). Exiting Dancer Stance will reset Emerald Flow to 0.\n\nPerforming 4 consecutive Choreographies will leave behind a healing zone that restores the HP of allies in the area and grants Ultralimit Torque, which increases Physical DMG."
+          ],
           "result": [
+            "- Choreography deals 440% Physical DMG.",
             "- The healing zone restores allies' HP equal to 20% of Hanying's ATK for 4s.",
             "- Ultralimit Torque: Increases Physical DMG by 10% for 8s. Recasting will refresh the duration."
           ]
         },
         {
           "name": "Ballad of Wilting Bamboos",
-          "button_press": "",
-          "description": ["Dancer Stance + Ping Red Orb"],
-          "result": []
-        },
-        {
-          "name": "Poise of Emerald Flow - Red",
-          "button_press": "Swings the fan to deal DMG, exiting Dancer Stance afterward.",
-          "description": ["- Deals a total of  600% Physical DMG."],
-          "result": []
+          "button_press": "Dancer Stance + Ping Red Orb",
+          "description": [
+            "Poise of Emerald Flow - Red: Swings the fan to deal DMG, exiting Dancer Stance afterward."
+          ],
+          "result": ["- Deals a total of 600% Physical DMG."]
         },
         {
           "name": "Coda of Scattering Butterflies",
-          "button_press": "",
-          "description": ["Dancer Stance + Ping Yellow Orb"],
-          "result": []
-        },
-        {
-          "name": "Poise of Emerald Flow - Yellow",
-          "button_press": "Steps on the airborne fan and dashes forward, gathering surrounding enemies and dealing DMG. Exits  Dancer Stance afterward.",
-          "desc": ["- Deals a total of  600% Physical DMG."],
-          "result": []
+          "button_press": "Dancer Stance + Ping Yellow Orb",
+          "description": [
+            "Poise of Emerald Flow - Yellow: Steps on the airborne fan and dashes forward, gathering surrounding enemies and dealing DMG. Exits  Dancer Stance afterward."
+          ],
+          "result": ["- Deals a total of 600% Physical DMG."]
         },
         {
           "name": "Verse of Singing Breeze",
-          "button_press": "",
-          "description": ["Dancer Stance + Ping Blue Orb"],
-          "result": []
-        },
-        {
-          "name": "Poise of Emerald Flow - Blue",
-          "button_press": "Dances at her location, gathering surrounding enemies and dealing DMG. Exits  Dancer Stance afterward.",
-          "description": ["- Deals a total of  600% Physical DMG."],
-          "result": []
+          "button_press": "Dancer Stance + Ping Blue Orb",
+          "description": [
+            "Poise of Emerald Flow - Blue: Dances at her location, gathering surrounding enemies and dealing DMG. Exits  Dancer Stance afterward."
+          ],
+          "result": ["- Deals a total of  600% Physical DMG."]
         }
       ]
     },
@@ -8581,11 +8537,11 @@
     "basic_attack": [
       {
         "name": "Bare Fangs",
-        "button_press": "Quickly swings her claws to perform a multi-hit attack against the target.",
+        "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "- Deals 760% Lightning DMG in total.",
-          "result": []
+          "desc": "Quickly swings her claws to perform a multi-hit attack against the target.",
+          "result": ["- Deals 760% Lightning DMG in total."]
         }
       }
     ],
@@ -8890,11 +8846,10 @@
       "name": "Powered Roar",
       "skills": [
         {
-          "name": "Cipher of Synergy",
+          "name": "Impact Nullification",
           "button_press": "Tap Dodge",
           "description": [
-            "Noctis enters a defense stance and can dodge attacks in this state. Dodging successfully will trigger Arm Block.",
-            "When performing a precise dodge, Noctis will trigger Perfect Arm Block to counterattack."
+            "Noctis enters a defense stance and can dodge attacks in this state. Dodging successfully will trigger Arm Block. When performing a precise dodge, Noctis will trigger Perfect Arm Block to counterattack."
           ],
           "result": [
             "- Restores 60 Energy after triggering Arm Block.",
@@ -8904,16 +8859,15 @@
         },
         {
           "name": "Heat Blast",
-          "button_press": "Thunder Burst Form + A Single Orb",
+          "button_press": "Thunder Burst Form + Any Signal Orb",
           "description": [
-            "In the Thunder Burst Form, the rightmost single orb will be converted into an Overload Orb.",
-            "The Overload Orb will be converted into a Blast Orb 2.5s later."
+            "In the Thunder Burst Form, the rightmost single orb will be converted into an Overload Orb. The Overload Orb will be converted into a Blast Orb 2.5s later."
           ],
           "result": []
         },
         {
           "name": "Energy Overload",
-          "button_press": "Thunder Burst Form + A Single Orb + Ping Overload Orb",
+          "button_press": "Thunder Burst Form + Any Signal Orb + Ping Overload Orb",
           "description": [
             "The Overload Orb will mark a single orb. Pinging the Overload Orb will ping the marked orb as well and cast Thunderous Fury afterward, dealing Lightning DMG."
           ],
@@ -8931,7 +8885,7 @@
           "name": "Thunderclap Strike",
           "button_press": "During Thunderous Fury + Press and hold Basic Attack",
           "description": [
-            "Press and hold Basic Attack while casting Thunderous Fury to perform Thunderclap Strike, gaining Super Armor, dealing Lightning DMG, and receiving 1 Engine Point. Engine Points will amplify the Base DMG of Skull Crush."
+            "Press and hold Basic Attack while casting Thunderous Fury to perform Thunderclap Strike, gaining Super Armor, dealing Lightning DMG, and receive 1 Engine Point. Engine Points will amplify the Base DMG of Skull Crush."
           ],
           "result": [
             "- Each stack of Engine Points amplifies Base DMG of Skull Crush by 80%. Stacks up to 3 times.",
@@ -9052,7 +9006,7 @@
         "description": {
           "desc": "Shoots an arrow forward, dealing Physical DMG.",
           "result": [
-            "Deals 200%/390%/590% Physical DMG in total based on the number of orbs pinged."
+            "Deals 200% / 390% / 590% Physical DMG in total based on the number of orbs pinged."
           ]
         }
       }
@@ -9065,7 +9019,7 @@
         "description": {
           "desc": "Leaps up and turns around, shooting arrows at the enemy in mid-air and dealing Physical DMG. Gains Super Armor while using this skill.",
           "result": [
-            "Deals 190%/380%/560% Physical DMG in total based on the number of orbs pinged."
+            "Deals 190% / 380% / 560% Physical DMG in total based on the number of orbs pinged."
           ]
         }
       }
@@ -9078,7 +9032,7 @@
         "description": {
           "desc": "Crouches down to shoot multiple arrows upward, dealing Physical DMG to targets in a small area ahead.",
           "result": [
-            "Deals 180%/360%/540% Physical DMG in total based on the number of orbs pinged."
+            "Deals 180% / 360% / 540% Physical DMG in total based on the number of orbs pinged."
           ]
         }
       }
@@ -9337,7 +9291,7 @@
       "skills": [
         {
           "name": "Antimony",
-          "button_press": "N/A",
+          "button_press": "",
           "description": [
             "When Lamia is in Primary Form, she can only cast Yellow or Blue Orb skills, and her Basic Attacks only generate Yellow or Blue Orbs.",
             "When she is in Dark Tide Form, she can only cast Red or Blue Orb skills, and her Basic Attacks only generate Red or Blue Orbs. Yellow Orbs will be randomly converted into Red or Blue Orbs."
@@ -9346,7 +9300,7 @@
         },
         {
           "name": "Wave Illusions",
-          "button_press": "N/A",
+          "button_press": "",
           "description": [
             "When Lamia casts a 3-Ping skill in Primary Form, there is a short window of time in which she can consecutively cast another 3-Ping, Torrent Orb, or Tidal Orb skill. After Lamia casts a Red Orb skill in Dark Tide Form, consecutively pinging Red Orbs allows her to cast the skill again directly during the skill action.",
             "After Lamia casts a Blue Orb skill in Dark Tide Form, she will start swimming in water, during which she can cast the skill again to rapidly fire water spheres to attack the target."
@@ -9481,8 +9435,8 @@
   "brs": {
     "basic_attack": [
       {
-        "name": "Annihilation Meteor Shower",
-        "button_press": "Photon Hurricane - Tap Basic Attack",
+        "name": "Annihilation Meteor Shower - Photon Hurricane",
+        "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": {
           "desc": "Uses the Blade Cannon to attack the enemy, dealing Fire DMG and gaining Blazing Heart.",
@@ -9493,7 +9447,7 @@
         }
       },
       {
-        "name": "Photon Strike",
+        "name": "Annihilation Meteor Shower - Photon Strike",
         "button_press": "Blazing Heart + Hold Basic Attack",
         "switch_in": "no",
         "description": {
@@ -9505,7 +9459,7 @@
         }
       },
       {
-        "name": "Photon Cannon",
+        "name": "Annihilation Meteor Shower - Photon Cannon",
         "button_press": "Upon landing after firing the cannon in Photon Strike + Release Basic Attack / After finishing the third move of the Basic Attack sequence + Tap Basic Attack",
         "switch_in": "no",
         "description": {
@@ -9518,7 +9472,7 @@
         }
       },
       {
-        "name": "Skyfall Blade",
+        "name": "Annihilation Meteor Shower - Skyfall Blade",
         "button_press": "During the animation delay after Burst Drive + Tap Basic Attack",
         "switch_in": "no",
         "description": {
@@ -9608,7 +9562,7 @@
           "name": "Enhanced Strike",
           "button_press": "",
           "description": [
-            "BRS accumulates Strike Energy upon performing  Photon Hurricane,  Photon Strike,  Photon Cannon,  Starblaze Edge, or  Stella Cross. When Strike Energy is fully charged, performing  Flare Strike or  Starstream Bayonet increases their Base DMG."
+            "BRS accumulates Strike Energy upon performing Photon Hurricane, Photon Strike, Photon Cannon, Starblaze Edge or Stella Cross. When Strike Energy is fully charged, performing Flare Strike or Starstream Bayonet increases their Base DMG."
           ],
           "result": [
             "- Strike Energy requires 1,000 points to be fully charged.",
@@ -9672,12 +9626,12 @@
       "name": "Azure Flame",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "Upon using a Signature Move, trigger all available QTEs."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
-          "desc": "BRS's Fire DMG increases by  25%. Performing  Burst Drive rearranges all Signal Orbs into 3-Pings."
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "BRS's Fire DMG increases by 25%. Performing Burst Drive rearranges all Signal Orbs into 3-Pings."
         }
       ]
     },
@@ -9685,12 +9639,12 @@
       "name": "Miracle Star",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
-          "desc": "While charging power in  Skyfall Blade, BRS can trigger  Reflection Nebula through Red or Yellow 3-Pings and gain Blue Orbs upon drawing the blade based on the number or orbs pinged. Each Signal Orb pinged while BRS is charging power increases the Base DMG when drawing the blade in the current cast of  Skyfall Blade by  20%. If BRS successfully performs a 3-Ping while charging power in  Skyfall Blade, Base DMG of drawing the blade in the current cast of  Skyfall Blade can be increased by  100% by consuming the buff granted by  Enhanced Strike."
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "While charging power in  Skyfall Blade, BRS can trigger Reflection Nebula through Red or Yellow 3-Pings and gain Blue Orbs upon drawing the blade based on the number or orbs pinged. Each Signal Orb pinged while BRS is charging power increases the Base DMG when drawing the blade in the current cast of Skyfall Blade by  20%. If BRS successfully performs a 3-Ping while charging power in Skyfall Blade, Base DMG of drawing the blade in the current cast of Skyfall Blade can be increased by 100% by consuming the buff granted by Enhanced Strike."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
-          "desc": "Base DMG of  Starblaze Edge,  Stella Cross, and  Bound Heart increases by  70%. Upon using  Photon Cannon, gain a Signal Orb of a random color."
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "Base DMG of Starblaze Edge, Stella Cross, and Bound Heart increases by 70%. Upon using Photon Cannon, gain a Signal Orb of a random color."
         }
       ]
     },
@@ -9698,15 +9652,15 @@
       "name": "Absolute Zero",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "When performing  Flare Strike,  Starstream Bayonet,  Limitless, and  Skyfall Blade, Fire DMG increases by  30%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6",
+          "rank": "Level 2 - Unlocked at SSS6",
           "desc": "While  Cerulean Eclosion is active, BRS's ATK increases by  15%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of  Otherworldly Eosphorus and  Bound Heart increases by  20%."
         }
       ]
@@ -9791,9 +9745,8 @@
         {
           "name": "Composite Structure",
           "button_press": "",
-
           "description": [
-            "While  Paradigm: Patrol is active, Watanabe can only ping Yellow or Blue Orbs and Basic Attacks only generate Yellow or Blue Orbs. After activating  Paradigm: Assault, Watananbe can only ping Red Orbs or  Blaze Orbs and Basic Attacks only generate Red Orbs."
+            "While Paradigm: Patrol is active, Watanabe can only ping Yellow or Blue Orbs and Basic Attacks only generate Yellow or Blue Orbs. After activating  Paradigm: Assault, Watananbe can only ping Red Orbs or  Blaze Orbs and Basic Attacks only generate Red Orbs."
           ],
           "result": []
         },
@@ -9806,12 +9759,12 @@
           "result": []
         },
         {
-          "name": "Firewalker -  Paradigm",
-          "button_press": "Assault is active + Hold Dodge",
+          "name": "Firewalker",
+          "button_press": "Paradigm: Assault is active + Hold Dodge",
           "description": [
             "Watanabe uses the hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be grabbed, Watanabe himself will rush towards them instead. Gains Super Armor and  40% DMG Reduction while performing this skill. Using Basic Attack or the Red Orb skill while pulling in the enemy can immediately trigger  parry."
           ],
-          "result": ["-Deals a total of 40% Fire DMG."]
+          "result": ["- Deals a total of 40% Fire DMG."]
         },
         {
           "name": "Reprisal",
@@ -9824,8 +9777,8 @@
           ]
         },
         {
-          "name": "Infernal Eruption -  Paradigm",
-          "button_press": "Assault is active + Possess 3 points of Live Ammunition + Hold Basic Attack",
+          "name": "Infernal Eruption",
+          "button_press": "Paradigm: Assault is active + Possess 3 points of Live Ammunition + Hold Basic Attack",
           "description": [
             "Uses the hook to hover in the air, then dive downwards to attack, pulling in nearby enemies and dealing Fire DMG. This will consume  3 points of  Live Ammunition. While performing  Infernal Eruption, Watanabe is invincible, but cannot use  Flaming Purgation. Gains  12 Energy upon performing this skill."
           ],
@@ -9928,8 +9881,8 @@
   "shukra": {
     "basic_attack": [
       {
-        "name": "Tabula Akasha",
-        "button_press": "Tabula Akasha - Indite - Tap Basic Attack",
+        "name": "Tabula Akasha - Indite",
+        "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": {
           "desc": "Attacks the enemy using the Longsword, dealing Ice DMG.",
@@ -9937,8 +9890,8 @@
         }
       },
       {
-        "name": "Tabula Akasha",
-        "button_press": "Inscribe - Enter the Fray + After Performing Any 3-Ping + Tap Basic Attack",
+        "name": "Tabula Akasha - Inscribe",
+        "button_press": "Enter the Fray + After Performing Any 3-Ping + Tap Basic Attack",
         "switch_in": "no",
         "description": {
           "desc": "Additionally performs a follow-up attack, dealing Ice DMG, gaining Energy, and extending the duration of Enter the Fray.",
@@ -10135,6 +10088,299 @@
         {
           "rank": "Level 3 -  Unlocked at SSS+",
           "desc": "Extra DMG Bonus of  Ascended Sovereign, Quell Their Spirits increases by  45%."
+        }
+      ]
+    }
+  },
+  "decryptor": {
+    "basic_attack": [
+      {
+        "name": "Antiphase Waves - Basic Attack",
+        "button_press": "Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "While in Unanalyzed Mode, alternates between using the left and right paw to perform a 2-part attack against the target. The third move of the Basic Attack sequence creates a soundwave that pushes back the target, dealing 250% Dark DMG.\nWhile in Analyzed Mode, the third move of the Basic Attack sequence is strengthened. It instead creates a pulse that briefly imprisons the target, additionally dealing 300% Dark DMG.",
+          "result": []
+        }
+      },
+      {
+        "name": "Antiphase Waves - Basic Attack",
+        "button_press": "When the bear head is flying towards Teddy + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "When the bear head is flying towards Teddy, swipes the area ahead horizontally with the paw, dealing 36% Dark DMG.",
+          "result": []
+        }
+      },
+      {
+        "name": "Antiphase Waves - Coupling",
+        "button_press": "3 or more Computation Points + Hold Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "When Teddy has 3 or more Computation Points, hold Basic Attack to consume all Computation Points and perform Coupling against the target, dealing Dark DMG, healing Teddy, and granting her 10 Energy. Gains Super Armor and 25% DMG Reduction while performing Coupling.",
+          "result": [
+            "- Consuming 3-5 Computation Points triggers Coupling: Low Frequency, dealing 200% Dark DMG and healing Teddy for 20% of her ATK.",
+            "- Consuming 6-8 Computation Points triggers Coupling: Medium Frequency, dealing 300% Dark DMG and healing Teddy for 40% of her ATK.",
+            "- Consuming 9 Computation Points triggers Coupling: High Frequency, dealing 400% Dark DMG and healing Teddy for 60% of her ATK."
+          ]
+        }
+      },
+      {
+        "name": "Antiphase Waves - Overconstrue",
+        "button_press": "During Coupling + Release Basic Attack / Automatically triggered by holding Basic Attack until Coupling ends",
+        "switch_in": "no",
+        "description": {
+          "desc": "Teddy can dodge by releasing Basic Attack early during Coupling. Overconstrue is automatically triggered if she performs an Extreme Dodge; Overconstrue can also be triggered by releasing Basic Attack at the precise time during Coupling or holding Basic Attack until Coupling ends. Gains Super Armor and 50% DMG Reduction while performing Overconstrue.",
+          "result": [
+            "- Overconstrue shares the same Frequency as Coupling. In addition, each Computation Point increases the Base DMG of Overconstrue triggered by an Extreme Dodge or releasing Basic Attack at the precise time during Coupling by 20%.",
+            "- Overconstrue: Low Frequency throws an uppercut with the bear's paw, dealing 300% Dark DMG.",
+            "- Overconstrue: Medium Frequency smashes the enemy down with the bear's paw, dealing 500% Dark DMG and granting Teddy 10 Energy.",
+            "- Overconstrue: High Frequency smashes the enemy down with the enhanced bear's paw, dealing 500% Dark DMG, granting Teddy 30 Energy, and activating Overflow Zone that lasts for 8s.",
+            "- Overflow Zone heals the allies inside for 80% of Teddy: Decryptor's ATK and grants them Dark Radiation and Homeostasis Dissociation every 4s. Dark Radiation increases Dark DMG by 10% for 4s. While Homeostasis Dissociation is active, Teddy: Decryptor deals 100% Extra DMG against enemies' Homeostatic Forcefield, and other allies deal 30% Extra DMG against enemies' Homeostatic Forcefield."
+          ]
+        }
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Chromatic Ambush - Red Orb",
+        "button_press": "Have NOT started any Orb Combo + Ping Red Orb",
+        "switch_in": "yes",
+        "description": {
+          "desc": "Orb Combo 1: Swings the bear's paw to slap the target, immediately followed by the bear kicking the target towards Teddy, dealing Dark DMG",
+          "result": [
+            "- Deals a total of 120% / 240% / 360% Dark DMG based on the number of orbs pinged."
+          ]
+        }
+      },
+      {
+        "name": "Chromatic Ambush - Red Orb",
+        "button_press": "Have NOT started any Orb Combo 1 + Ping Red Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Orb Combo 2: Pulls in the targets ahead, then immediately rides the bear paw and throws musical notes, dealing Dark DMG.",
+          "result": [
+            "- Deals a total of 160% / 320% / 480% Dark DMG based on the number of orbs pinged."
+          ]
+        }
+      },
+      {
+        "name": "Chromatic Ambush - Red Orb",
+        "button_press": "Have completed an Orb Combo 2 + Ping Red Orb",
+        "switch_in": "yes",
+        "description": {
+          "desc": "Orb Combo 3: Leaps into the air, activating the acoustic wave cable to summon the bear head. Teddy then throws the bear head downwards to smash the target.",
+          "result": [
+            "- Deals a total of 120% / 240% / 360% Dark DMG based on the number of orbs pinged."
+          ]
+        }
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "High-Frequency Concerto - Yellow Orb",
+        "button_press": "Have NOT started any Orb Combo + Ping Yellow Orb",
+        "switch_in": "yes",
+        "description": {
+          "desc": "Orb Combo 1: Swings the bear's paw to slap the target, immediately followed by the bear kicking the target towards Teddy, dealing Dark DMG.",
+          "result": [
+            "- Deals a total of 120% / 240% / 360% Dark DMG based on the number of orbs pinged."
+          ]
+        }
+      },
+      {
+        "name": "High-Frequency Concerto - Yellow Orb",
+        "button_press": "Have completed an Orb Combo 1 + Ping Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Orb Combo 2: Pulls in the targets ahead, then immediately rides the bear paw and throws musical notes, dealing Dark DMG.",
+          "result": [
+            "- Deals a total of 160% / 320% / 480% Dark DMG based on the number of orbs pinged."
+          ]
+        }
+      },
+      {
+        "name": "High-Frequency Concerto - Yellow Orb",
+        "button_press": "Have completed an Orb Combo 2 + Ping Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Orb Combo 3: Leaps into the air, activating the acoustic wave cable to summon the bear head. Teddy then throws the bear head downwards to smash the target.",
+          "result": [
+            "- Deals a total of 120% / 240% / 360% Dark DMG based on the number of orbs pinged."
+          ]
+        }
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Pursuit Order - Blue Orb",
+        "button_press": "Have NOT started any orb combo + Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Orb Combo 1: Crosses both paws to pierce the target, dealing Dark DMG",
+          "result": []
+        }
+      },
+      {
+        "name": "Pursuit Order - Blue Orb",
+        "button_press": "Have completed an Orb Combo 1 + Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Orb Combo 2: Claps both paws together to crush the target, dealing 240% Dark DMG.",
+          "result": []
+        }
+      },
+      {
+        "name": "Pursuit Order - Blue Orb",
+        "button_press": "Have completed an Orb Combo 2 + Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Orb Combo 3: Rotates both paws to create a cyber cyclone while continuously kicking the target, dealing 240% Dark DMG. Immediately afterwards, summons the bear head that comes flying towards Teddy, dealing 60% Dark DMG to targets in its trajectory.",
+          "result": []
+        }
+      }
+    ],
+    "core_passive": {
+      "name": "Source Infiltration",
+      "skills": [
+        {
+          "name": "Frequency Band Manipulation",
+          "button_press": "",
+          "description": [
+            "While Teddy is in Unanalyzed Mode, she can only gain and ping Red or Yellow Signal Orbs. While Teddy is in Analyzed Mode, she gains an unlimited amount of Blue Signal Orbs and can only ping Blue Signal Orbs."
+          ],
+          "result": []
+        },
+        {
+          "name": "Hacking",
+          "button_press": "Any 3-Ping or QTE",
+          "description": [
+            "Performing a 3-Ping or QTE inflicts Hacker's Mark onto the first target hit, lasting 10s. When the Hacked target receives DMG, Teddy: Decryptor recovers 30 Energy every second."
+          ],
+          "result": [
+            "- Only 1 Hacker's Mark can exist on the battlefield at any time. When the hacked target is defeated, Hacker's Mark spreads to another nearby target and its duration is reset."
+          ]
+        },
+        {
+          "name": "Computation Stack",
+          "button_press": "Ping Signal Orbs",
+          "description": [
+            "Every Signal Orb pinged grants 1 Computation Point. Maximum Computation Points: 9."
+          ],
+          "result": [
+            "- After a 3-Ping, Teddy: Decryptor's computing power will be briefly overloaded. This allows her to tap Signature Move during the next cast of a 1- or 2-Ping to consume 15 Energy, upgrading the DMG of the skill to that of a 3-Ping and additionally granting 3 Computation Points."
+          ]
+        },
+        {
+          "name": "Cadence Integration",
+          "button_press": "Ping Cadence Orb",
+          "description": [
+            "When Teddy has 9 Computation Points, she will gain 1 Cadence Orb. Maximum no. of Cadence Orb: 1."
+          ],
+          "result": [
+            "- Upon pinging Cadence Orb, Teddy: Decryptor will leap into the air and use the chance to throw the bear head, which explodes when it hits the ground and deals 1000% Dark DMG. This attack deals 150% extra DMG against Homeostatic Forcefield. Gains Super Armor and 50% DMG Reduction during this.",
+            "- Pinging Cadence Orb while in Unanalyzed Mode also grants 75 Energy to Teddy: Decryptor."
+          ]
+        },
+        {
+          "name": "Vulnerability Shift",
+          "button_press": "When the bear head is flying towards Teddy + Tap Basic Attack / Tap Signature Move",
+          "description": [
+            "Orb Combo 3 summons the bear head that comes flying towards Teddy. Teddy can use it to perform an Extreme Dodge and trigger Matrix, or knock it away with the bear’s paw or leg to perform an additional combination attack."
+          ],
+          "result": [
+            "- Knocking the head away with the paw deals 200% Dark DMG.",
+            "- While in Unanalyzed Mode, knocking the head away with the leg deals 50% Dark DMG and grants 60 Energy to Teddy: Decryptor. While in Analyzed Mode, it deals 50% Dark DMG and extends the duration of Analyzed Mode by 2s."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Audiovisual Cipher",
+      "skills": [
+        {
+          "name": "Omni-Analysis",
+          "button_press": "Unanalyzed Mode + 200 or more Energy + Hold Signature Move",
+          "description": {
+            "desc": "Teddy: Decryptor releases all her computing power to enter Analyzed Mode and deal 600% Dark DMG. While in Analyzed Mode, she can gain up to 150 Analysis Points based on her actions.",
+            "result": [
+              "- Teddy: Decryptor cannot gain Energy while in Analyzed Mode and consumes 30 Energy every second (she will stop consuming Energy once she is switched out and exits the battlefield)."
+            ]
+          }
+        },
+        {
+          "name": "Clamorous Tuplet ",
+          "button_press": "Analyzed Mode + Hold Signature Move / Automatically triggered when Energy runs out",
+          "description": {
+            "desc": "When her Energy runs out, Teddy: Decryptor will exit Analyzed Mode and perform Clamorous Tuplet, dealing 520% Dark DMG. When she accumulates 150 Analysis Points, she can replay Clamorous Tuplet, dealing 520% Dark DMG one more time. Each Analysis Point increases the Base DMG of Clamorous Tuplet and its replay by 1%.",
+            "result": [
+              "- Clamorous Tuplet will make Hacker's Mark explode, dealing 600% Dark DMG to the Hacked target. "
+            ]
+          }
+        }
+      ]
+    },
+    "qte": {
+      "name": "Intrusion Protocol",
+      "description": {
+        "desc": "Teddy: Decryptor rides the bear paw and throws musical notes, dealing 400% Dark DMG.\nAfterwards, activates Overflow Zone that lasts for 4s.",
+        "result": []
+      }
+    },
+    "leader": {
+      "name": "\"Safe Domain Name\"",
+      "description": {
+        "desc": "HP of all party members increases by 10%.",
+        "result": []
+      }
+    },
+    "class": {
+      "name": "Support",
+      "description": {
+        "desc": "Healing amount increases by 20%.",
+        "result": []
+      }
+    },
+    "ss_rank": {
+      "name": "Origin Equation",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Base DMG of Coupling increases by 150%.\nUpon using Clamorous Tuplet, rearrange all Red and Yellow Signal Orbs into 3-Pings."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "Every time Teddy: Decryptor enters the battlefield, gain 3 Computation Points.\nDark DMG of Teddy: Decryptor increases by 20% while she is in Analyzed Mode. "
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Eschatological Paradox",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Pinging Cadence Orb also activates Overflow Zone that lasts for 8s.\nDark DMG increase effect of Dark Radiation doubles."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "Each Analysis Point additionally increases the Base DMG of Clamorous Tuplet and its replay by 0.4%. When Teddy accumulates 150 Analysis Points, the Base DMG of Clamorous Tuplet and its replay additionally increases by 150%, and she gains 3 Signal Orbs of a random color upon performing Clamorous Tuplet."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Absolute Zero",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of Omni-Analysis and Clamorous Tuplet increases by 30%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of 3-Pings increases by 100%."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of Coupling and Overconstrue increases by 50%.\nDark Radiation granted by Teddy: Decryptor will additionally increase Karenina: Scire's ATK by 10%. "
         }
       ]
     }
@@ -10420,11 +10666,278 @@
       ]
     }
   },
+  "ardeo": {
+    "basic_attack": [
+      {
+        "name": "Whirling Brawl - Combo 1",
+        "button_press": "Not in any Whirling Brawl Combo + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Spins and strikes the target, dealing 40% Fire DMG.",
+          "result": []
+        }
+      },
+      {
+        "name": "Whirling Brawl - Combo 2",
+        "button_press": "Complete Combo 1 + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Throws a powerful criss-cross at the target, dealing 60% Fire DMG. Can be followed up by Starry Impulse Combo 2.",
+          "result": []
+        }
+      },
+      {
+        "name": "Whirling Brawl - Combo 3",
+        "button_press": "Complete Combo 2 + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Leaps and throws an uppercut, dealing 100% Fire DMG.",
+          "result": []
+        }
+      },
+      {
+        "name": "Whirling Brawl - Combo 4",
+        "button_press": "During the animation delay after Burst Drive + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Swings the Tonfas continuously to pull in and strike enemies, dealing 140% Fire DMG. Can be followed up by Starry Impulse Combo Finisher.",
+          "result": []
+        }
+      },
+      {
+        "name": "Whirling Brawl - Combo Finisher",
+        "button_press": "Complete Combo 4 + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Pierces the target with the Tonfas, dealing 200% Fire DMG. Gains Super Armor and 30% DMG Reduction.",
+          "result": ["- Special Effect: Gains 3 Red Orbs. "]
+        }
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Ironflame Strike - Dauntless Fighter",
+        "button_press": "At least 1 Red Orb + Hold Red Orb + Release Red Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Hold Red Orb to begin charging. Release Red Orb to stop charging and thrust with the shield, consuming up to 1 / 2 / 3 Red Orbs to deal 140% / 180% / 240% Fire DMG based on the time spent charging and inflict Scorching Invasion that reduces the target's Fire Resistance.",
+          "result": [
+            "- Dauntless Fighter will convert a maximum of 50 Fortification Points to Ignition Points for each Red Orb pinged, and Bridget can possess a maximum of 300 Ignition Points. Each Fortification Point converted increases the Base DMG of Dauntless Fighter by 1.5% and grants 0.6 Signature Energy to Bridget: Ardeo. ",
+            "- Scorching Invasion reduces the target's Fire Resistance by 10% for 8s."
+          ]
+        }
+      },
+      {
+        "name": "Ironflame Strike - Targeted Counterattack",
+        "button_press": "Get hit during Dauntless Fighter",
+        "switch_in": "no",
+        "description": {
+          "desc": "Bridget automatically performs a follow-up with Poised Grab if she gets hit while charging, leaping into the air then slamming the ground. This consumes up to 3 Red Orbs, recovers 90 Signature Energy, deals 180% Fire DMG, and inflicts Scorching Invasion that reduces the target's Fire Resistance. Gains Super Armor and 50% DMG Reduction during this.\nGetting hit during the charging windup will upgrade Poised Grab to Swift Assault, during which Bridget dashes forward while engulfed in flames, additionally dealing 60% Fire DMG. During this, Bridget is invincible.",
+          "result": [
+            "- Targeted Counterattack will convert up to 150 Fortification Points to an equal amount of Ignition Points, and Bridget can possess a maximum of 300 Ignition Points. Each Fortification Point converted increases the Base DMG of Targeted Counterattack by 1.5%.",
+            "- Targeted Counterattack is always considered a 3-Ping.",
+            "- Scorching Invasion reduces the target's Fire Resistance by 10% for 8s."
+          ]
+        }
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Starry Impulse - Tempest Drop",
+        "button_press": "Ping Yellow Orb",
+        "switch_in": "yes",
+        "description": {
+          "desc": "All Starry Impulse combos are considered 1-Pings. They do not consume Yellow Orbs and cannot recover Signature Energy.",
+          "result": [
+            "- Yellow Orbs obtained by Bridget: Ardeo will be randomly converted into Red or Blue Orbs."
+          ]
+        }
+      },
+      {
+        "name": "Starry Impulse - Combo 1",
+        "button_press": "Not in any Starry Impulse combo + Tap Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Kicks the target, dealing 160% Fire DMG. Can be followed up by Whirling Brawl Combo 3.",
+          "result": []
+        }
+      },
+      {
+        "name": "Starry Impulse - Combo 2",
+        "button_press": "Complete Combo 1 + Tap Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Leaps and rapid-kicks the target, dealing 200% Fire DMG. Can be followed up by Whirling Brawl Combo Finisher.",
+          "result": []
+        }
+      },
+      {
+        "name": "Starry Impulse - Combo Finisher",
+        "button_press": "Complete Combo 2 + Tap Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Throw a powerful uppercut that pulls in targets, dealing 300% Fire DMG and activating QTE on the Yellow slot if available. Gains Super Armor and 30% DMG Reduction during this.",
+          "result": ["- Special effect: Convert all Red Orbs into Blue Orbs."]
+        }
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Steeled Drive - Molten Release",
+        "button_press": "Possess at least 1 Blue Orb + Energy Shield on hand + Ping Blue orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Hurls the Energy Shield that pulls in enemies in its trajectory, consuming up to 3 Blue Orbs and dealing 120% / 240% / 360% Fire DMG.",
+          "result": []
+        }
+      },
+      {
+        "name": "Steeled Drive - Molten Merge",
+        "button_press": "Energy shield on field + Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Calls back the Energy Shield, dealing 120% / 240% / 360% Fire DMG based on the number of Blue Orbs consumed when Energy Shield was thrown.",
+          "result": []
+        }
+      },
+      {
+        "name": "Steeled Drive - Crimson Ignition",
+        "button_press": " Possess at least 8 Blue Orbs (including Molten Release) + Press and Hold Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Consume all Blue Orbs to discharge combustion power. For each Blue Orb consumed, deals 50% Fire DMG, recovers 25 Signature Energy, and gains 250 Incendiary Points. Gains Super Armor during this.",
+          "result": []
+        }
+      }
+    ],
+    "core_passive": {
+      "name": "Nimble Posture",
+      "skills": [
+        {
+          "name": "Fortification",
+          "button_press": "Not in movement + Hold Dodge",
+          "description": [
+            "Uses the Tonfas to block attacks, during which Bridget cannot move nor restore the Dodge Gauge. When attacked, consume the Dodge Gauge based on the amount of damage received and Bridget's maximum HP (Precise Block does not consume the Dodge Gauge)."
+          ],
+          "result": [
+            "- Upon a successful block, the damage taken is nullified if Bridget has sufficient Dodge Gauge; otherwise she gains 50% DMG Reduction against this attack.",
+            "- Recover 100 Fortification Points after a successful Block; additionally recover 50 Fortification Points after a Precise Block. Maximum Fortification Points: 300.",
+            "-If Bridget enters battle with less than 150 Fortification Points, it will be restored to 150 Fortification Points."
+          ]
+        },
+        {
+          "name": "Unleash",
+          "button_press": "",
+          "description": [
+            "The Energy Shield remains on the battlefield once hurled and possesses 6 Durability."
+          ],
+          "result": [
+            "- Starry Impulse and Whirling Brawl can launch the Energy Shield, recovering 50 Fortification Points and consuming 1 Durability.",
+            "- The Energy Shield can trigger Targeted Counterattack and Fortification by consuming 1 Durability.",
+            "- Performing an EX Dodge on the Energy Shield will trigger Matrix if available.",
+            "- When Bridget: Ardeo retrieves the Energy Shield, she gains a shield equal to 30% of her maximum HP and gains 1 Blue Orb."
+          ]
+        },
+        {
+          "name": "Effect: Combustion",
+          "button_press": "",
+          "description": [
+            "Flammable: Every 250 Incendiary Points increases Flammable stack by 1. Maximum Flammable stacks: 20.\nCombustion: When a target is inflicted with the Combustion effect, they will receive Combustion DMG equal to the no. of Combustion Stacks*30% every second for 10s. This does not trigger Tank Class Skill."
+          ],
+          "result": [
+            "- When the last enemy on the battlefield dies, subsequent incoming enemies will inherit its Flammable/Combustion status."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Blazing Sky",
+      "skills": [
+        {
+          "name": "Signature Move",
+          "button_press": "Consume 200 Energy + Tap Signature Move",
+          "description": {
+            "desc": "Thrusts the Tonfas into the ground, consuming Ignition Points and triggering a firestorm, dealing 300% Fire DMG. During this, Bridget: Ardeo is invincible. Triggers all available QTEs.",
+            "result": [
+              "- Each Ignition Point increases Base DMG of Blazing Sky by 1.5%.",
+              "- Blazing Sky will convert the Flammable state into the Combustion state with an equal number of stacks. "
+            ]
+          }
+        }
+      ]
+    },
+    "qte": {
+      "name": "Powerful Fist ",
+      "description": {
+        "desc": "Rushes and pulls in targets, dealing 600% Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance.",
+        "result": [
+          "- Scorching Invasion reduces the target's Fire Resistance by 10% for 8s."
+        ]
+      }
+    },
+    "leader": {
+      "name": "Wholehearted Synergy ",
+      "description": {
+        "desc": "Increases DEF of all members by 10%. Increases DMG of Tank Omniframes by 5%.",
+        "result": []
+      }
+    },
+    "class": {
+      "name": "Tank",
+      "description": {
+        "desc": "Attacks reduce the target's Extra DMG Reduction by 20% for 5s. ",
+        "result": []
+      }
+    },
+    "ss_rank": {
+      "name": "Dissipating Uncertainty",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Base DMG of Starry Impulse and Whirling Brawl increases by 100%.\nUpon entering battle, additionally gain 2 Red Orbs and 2 Blue Orbs."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "Each Fortification Point will increase the Base DMG of Ironflame Strike by 1%.\nAfter a successful block under any circumstance, recover 150 Fortification Points and upon entering battle additionally recover 150 Fortification Points. "
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Pursuit of Truth",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Base DMG of Steeled Drive increases by 80%.\nThe Combo Finisher of Starry Impulse and Whirling Brawl will additionally inflict Scorching Invasion that reduces the target's Fire Resistance for 8s."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "Each Ignition Point will increase the Base DMG of Blazing Sky by 1%.\nCombustion DMG inflicted by Bridget: Ardeo increases by 30%.\nThe Scorching Invasion effect inflicted by Bridget: Ardeo additionally reduces enemies' Fire Resistance by 5%."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "The Weight of Life",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of Ironflame Strike increases by 40%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of Steeled Drive increases by 60%."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of Blazing Sky increases by 40%. Combustion DMG inflicted by Bridget: Ardeo increases by 30%."
+        }
+      ]
+    }
+  },
   "solacetune": {
     "basic_attack": [
       {
-        "name": "Splendorous Tone",
-        "button_press": "Exquisite Rhyme - Way of the Strings + Tap Basic Attack",
+        "name": "Splendorous Tone - Exquisite Rhyme",
+        "button_press": "Way of the Strings + Tap Basic Attack",
         "switch_in": "no",
         "description": {
           "desc": "Uses the Pipa's melody in conjunction with dance moves to attack the target, dealing Physical DMG and gaining Complex Time.",
@@ -10435,7 +10948,7 @@
         }
       },
       {
-        "name": "Rippling Reflection",
+        "name": "Splendorous Tone - Rippling Reflection",
         "button_press": "Way of the Strings + Hold Basic Attack",
         "switch_in": "no",
         "description": {
@@ -10447,7 +10960,7 @@
         }
       },
       {
-        "name": "Keen Inflection",
+        "name": "Splendorous Tone - Keen Inflection",
         "button_press": "Way of Strife + Tap Basic Attack",
         "switch_in": "no",
         "description": {
@@ -10533,7 +11046,7 @@
           "name": "Azure Allure",
           "button_press": "Way of Strife + 30 Complex Time + Tap Signature Move",
           "description": [
-            "Basic Attacks and Signal Orb skills grant  Complex Time. Maximum points of  Complex Time:  120. Tap Signature Move while in  Way of Strife to consume  30 points of  Complex Time to unleash  Azure Allure and deal Physical DMG to the target. This skill can trigger  Trueslash when it hits the target. While performing this skill, Hanying: Solacetune gains Super Armor and can evade incoming attacks. When performed consecutively, the Base DMG of  Azure Allure increases by  50% every cast. This effect can stack up to twice, and subsequent casts of  Azure Allure will retain the maximum multiplier after the Base DMG increase effect reaches the maximum value. Gain  5 Signature Energy upon performing this skill. When performed consecutively, the amount of Signature Energy granted by this skill doubles every cast. The maximum value of Signature Energy granted by a single cast of this skill is  40."
+            "Basic Attacks and Signal Orb skills grant  Complex Time. Maximum points of  Complex Time: 120. Tap Signature Move while in Way of Strife to consume 30 points of  Complex Time to unleash Azure Allure and deal Physical DMG to the target. This skill can trigger Trueslash when it hits the target.\n\nWhile performing this skill, Hanying: Solacetune gains Super Armor and can evade incoming attacks. When performed consecutively, the Base DMG of Azure Allure increases by 50% every cast. This effect can stack up to twice, and subsequent casts of Azure Allure will retain the maximum multiplier after the Base DMG increase effect reaches the maximum value.\n\nGain 5 Signature Energy upon performing this skill. When performed consecutively, the amount of Signature Energy granted by this skill doubles every cast. The maximum value of Signature Energy granted by a single cast of this skill is 40."
           ],
           "result": [
             "- Azure Allure deals 300% Physical DMG; triggers Trueslash when this skill hits the target.",
@@ -10545,7 +11058,7 @@
           "name": "Phoenix Down",
           "button_press": "Moonsong Realm + Lavish Azure Allure",
           "description": [
-            "Performing  Lavish Azure Allure inside  Moonsong Realm triggers  Phoenix Down. The realm reverberates, releasing sound waves that travel to the realm's edge and pulling in enemies in the area. Deals Trueslash DMG and inflicts 1 stack of the Mark of Evanescence on enemies; one enemy can be inflicted with up to 3 stacks of the  Mark of Evanescence. At the same time, Hanying: Solacetune gains 1 stack of  Relentless. Maximum number of  Relentless stacks:  3. Hanying: Solacetune can enter Matrix by dodging  Phoenix Down."
+            "Performing Lavish Azure Allure inside Moonsong Realm triggers Phoenix Down. The realm reverberates, releasing sound waves that travel to the realm's edge and pulling in enemies in the area. Deals Trueslash DMG and inflicts 1 stack of the Mark of Evanescence on enemies; one enemy can be inflicted with up to 3 stacks of the Mark of Evanescence. At the same time, Hanying: Solacetune gains 1 stack of Relentless. Maximum number of Relentless stacks: 3. Hanying: Solacetune can enter Matrix by dodging with Phoenix Down."
           ],
           "result": ["- Deals 200% Trueslash DMG."]
         },
@@ -10562,10 +11075,10 @@
           ]
         },
         {
-          "name": "Effect",
-          "button_press": "Trueslash",
+          "name": "Effect: Trueslash",
+          "button_press": "",
           "description": [
-            "Certain skills can accumulate  Veiled Edge points.  Veiled Edge points can be inherited by the next character with the Trueslash Effect. Maximum points of  Veiled Edge: 999."
+            "Certain skills can accumulate Veiled Edge points. Veiled Edge points can be inherited by the next character with the Trueslash Effect. Maximum points of Veiled Edge: 999."
           ],
           "result": [
             "- When Veiled Edge points reach 100, perform Trueslash by consuming 100 Veiled Edge points upon hitting the enemy with the next cast of a skill that can trigger Trueslash, dealing 400% Trueslash DMG.",
@@ -10666,8 +11179,8 @@
   "lucid dreamer": {
     "basic_attack": [
       {
-        "name": "Hawk's Flutter",
-        "button_press": "Quick Draw - Tap Basic Attack",
+        "name": "Hawk's Flutter - Quick Draw",
+        "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": {
           "desc": "Uses the Revolver to perform consecutive attacks against the enemy and summons lightweight drones to aid in the battle.",
@@ -10675,7 +11188,7 @@
         }
       },
       {
-        "name": "Bullet Hail",
+        "name": "Hawk's Flutter - Bullet Hail",
         "button_press": "Calibration Mode + Cylinder is not empty + Hold Basic Attack",
         "switch_in": "no",
         "description": {
@@ -10691,8 +11204,8 @@
     ],
     "red_orb": [
       {
-        "name": "Hyperborean Current",
-        "button_press": "Gale Strike - Calibration Mode + Ping Red Orb",
+        "name": "Hyperborean Current - Gale Strike",
+        "button_press": "Calibration Mode + Ping Red Orb",
         "switch_in": "no",
         "description": {
           "desc": "Consumes 1 Condensation Round to fire at the enemy, dealing Ice or Hiemal DMG depending on the current Calibration Mode. When this skill is performed consecutively, Wanshi enters Burst Mode, during which he gains Super Armor, 50% DMG Reduction, Wounding buff, and additional Signature Energy.",
@@ -10706,7 +11219,7 @@
         }
       },
       {
-        "name": "Airdropped Revolver",
+        "name": "Hyperborean Current - Airdropped Revolver",
         "button_press": "Ancillary Revolver + Calibration Mode + Empty Cylinder + Tap Red Orb",
         "switch_in": "no",
         "description": {
@@ -10717,7 +11230,7 @@
         }
       },
       {
-        "name": "Effulgent Shatter",
+        "name": "Hyperborean Current - Effulgent Shatter",
         "button_press": "Ancillary Revolver + Calibration Mode + During Bullet Hail + Empty Cylinder + Tap Red Orb",
         "switch_in": "no",
         "description": {
@@ -10729,7 +11242,7 @@
         }
       },
       {
-        "name": "Swift Phantom",
+        "name": "Hyperborean Current - Swift Phantom",
         "button_press": "Not in Calibration Mode + When dodging + Ping Red Orb",
         "switch_in": "no",
         "description": {
@@ -10740,8 +11253,8 @@
     ],
     "yellow_orb": [
       {
-        "name": "Strix Dash",
-        "button_press": "Keen-Sighted Strike - Ping Yellow Orb",
+        "name": "Strix Dash - Keen-Sighted Strike",
+        "button_press": "Ping Yellow Orb",
         "switch_in": "no",
         "description": {
           "desc": "Draws the gun and charges forward, dealing Ice DMG, gaining Calibration Points, and accumulating Glaciation Points. Gains additional Signature Energy upon a 3-Ping.",
@@ -10752,7 +11265,7 @@
         }
       },
       {
-        "name": "Pinion Volley",
+        "name": "Strix Dash - Pinion Volley",
         "button_press": "Yellow Orb + Yellow Orb",
         "switch_in": "no",
         "description": {
@@ -10764,7 +11277,7 @@
         }
       },
       {
-        "name": "Rending Plume",
+        "name": "Strix Dash - Rending Plume",
         "button_press": "Yellow Orb + Red Orb",
         "switch_in": "no",
         "description": {
@@ -10779,8 +11292,8 @@
     ],
     "blue_orb": [
       {
-        "name": "Skytearing Frost",
-        "button_press": "Gelid Burst - Ping Blue Orb",
+        "name": "Skytearing Frost - Gelid Burst",
+        "button_press": "Ping Blue Orb",
         "switch_in": "no",
         "description": {
           "desc": "Steps back and throws a tactical grenade that explodes after a short delay, dealing Ice DMG to enemies, gaining Calibration Points, and accumulating Glaciation Points. If Wanshi: Lucid Dreamer is within the area of the explosion, it will be considered as dealing DMG to himself. Gains additional Signature Energy upon a 3-Ping.",
@@ -10791,7 +11304,7 @@
         }
       },
       {
-        "name": "Suppressing Airstrike",
+        "name": "Skytearing Frost - Suppressing Airstrike",
         "button_press": "Blue Orb + Blue Orb",
         "switch_in": "no",
         "description": {
@@ -10803,7 +11316,7 @@
         }
       },
       {
-        "name": "Targeted Explosion",
+        "name": "Skytearing Frost - Targeted Explosion",
         "button_press": "Blue Orb + Red Orb",
         "switch_in": "no",
         "description": {
@@ -10823,7 +11336,7 @@
           "name": "Silence in the Snow",
           "button_press": "Hold Red Orb or Hold Dodge",
           "description": [
-            "Enters the charging state, continuously accumulating  Calibration Points. During this, gains Super Armor and  90% DMG Reduction."
+            "Enters the charging state, continuously accumulating Calibration Points. During this, gains Super Armor and 90% DMG Reduction."
           ],
           "result": [
             "- When the current value of Calibration Points is less than 80, gains 20 Calibration Points every second; when the current value of Calibration Points is 80 or more but less than 160, gains 40 Calibration Points every second; when the current value of Calibration Points is 160 or more, gains 80 Calibration Points every second.",
@@ -10835,7 +11348,7 @@
           "name": "Cryonic Explosion",
           "button_press": "Calibration Meter full + Release Red Orb or Release Dodge",
           "description": [
-            "Depending on whether Red Orb or Dodge was held to begin charging, enter different  Calibration Modes. This move pulls in and debuffs enemies, deals DMG, grants  3 Signature Energy and an  Ancillary Revolver, and triggers Matrix if available. Gains a shield when performing  Gale Strike or  Bullet Hail in  Calibration Mode."
+            "Depending on whether Red Orb or Dodge was held to begin charging, enter different Calibration Modes. This move pulls in and debuffs enemies, deals DMG, grants 3 Signature Energy and an  Ancillary Revolver, and triggers Matrix if available. Gains a shield when performing Gale Strike or Bullet Hail in Calibration Mode."
           ],
           "result": [
             "- Hold and release Red Orb to enter Calibration Mode: Quiescence, dealing 500% Ice DMG.",
@@ -10858,7 +11371,7 @@
           "name": "Shot Correction",
           "button_press": "",
           "description": [
-            "Every time Wanshi consumes  Condensation Rounds, gains  Correcting Rounds and charges the CUB."
+            "Every time Wanshi consumes Condensation Rounds, gains Correcting Rounds and charges the CUB."
           ],
           "result": [
             "- When charging the CUB, every Condensation Round consumed is considered 1 Signal Orb pinged.",
@@ -10870,17 +11383,17 @@
           "name": "Hollow Fracture",
           "button_press": "",
           "description": [
-            "Wanshi can debuff enemies when damaging them with  Condensation Rounds."
+            "Wanshi can debuff enemies when damaging them with Condensation Rounds."
           ],
           "result": [
             "- Inflicts enemies with the Frost Corrosion effect that reduces Ice Resistance by 25% for 8s when damaging them with Condensation Rounds."
           ]
         },
         {
-          "name": "Effect",
-          "button_press": "Glaciation",
+          "name": "Effect: Glaciation",
+          "button_press": "",
           "description": [
-            "Certain skills can accumulate  Glaciation Points. When  Glaciation Points reach the maximum value,  Diamond Dust is triggered, dealing Hiemal DMG and accumulating  Diamond Dust Stacks. Certain skills can consume all  Diamond Dust Stacks to generate an  Ice Spike, which deals Hiemal DMG in the surrounding area. The  Ice Spike lasts for a period of time; when it deals Hiemal DMG during this period, it will trigger  Crystallization, dealing additional Hiemal DMG and accumulating  Crystalline Points. When the duration of the  Ice Spike expires, it will trigger  Icebreak, which deals Hiemal DMG based on the current  Crystalline Points value.  Glaciation Points, Diamond Dust Stacks, Ice Spike, and  Crystalline Points can be inherited by the next character with the  Glaciation Effect."
+            "Certain skills can accumulate  Glaciation Points. When Glaciation Points reach the maximum value, Diamond Dust is triggered, dealing Hiemal DMG and accumulating  Diamond Dust Stacks. Certain skills can consume all Diamond Dust Stacks to generate an Ice Spike, which deals Hiemal DMG in the surrounding area.\n\nThe Ice Spike lasts for a period of time; when it deals Hiemal DMG during this period, it will trigger Crystallization, dealing additional Hiemal DMG and accumulating  Crystalline Points.\n\nWhen the duration of the Ice Spike expires, it will trigger Icebreak, which deals Hiemal DMG based on the current Crystalline Points value.  Glaciation Points, Diamond Dust Stacks, Ice Spike, and Crystalline Points can be inherited by the next character with the Glaciation Effect."
           ],
           "result": [
             "- When Glaciation Points reach 100, Diamond Dust is triggered once, dealing 100% Hiemal DMG and accumulating 1 Diamond Dust Stack. Maximum number of Diamond Dust Stacks: 10.",

@@ -31,21 +31,12 @@ class WeaponPageView(discord.ui.View):
             else:
                 self.add_item(self.six_star)
 
-    # checks for the view's interactions
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
-        
-        # view: PaginationView = self.view
-
         if interaction.user == self.user:
-            content = "Test"
-            # await self.update_message(self.data[:self.sep])
-            # await interaction.response.edit_message(content=content, view=view)
             return True
-        # else send a message and return False
         await interaction.response.send_message(f"The command was initiated by {self.user.mention}", ephemeral=True)
         return False
-    
-    # do stuff on timeout
+
     async def on_timeout(self) -> None:
         self.clear_items()
         await self.message.edit(view=self)
@@ -56,8 +47,6 @@ class WeaponPageView(discord.ui.View):
         for weapon in self.weapon_box:
             if weapon['rarity'] == rarity:
                 embed = self.embedconfig.create_weapon_embed(weapon, user=self.theme[2], chibi_avatar=self.theme[1])
-        # for item in data:
-        #     embed.add_field(name=item, value=item, inline=False)
         return embed
 
 
@@ -67,7 +56,6 @@ class WeaponPageView(discord.ui.View):
         self.current_page="2★"
         self.update_buttons()
         embed = self.create_embed(2)
-        # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
 
     @discord.ui.button(label="3★", style=discord.ButtonStyle.gray)
@@ -76,7 +64,6 @@ class WeaponPageView(discord.ui.View):
         self.current_page="3★"
         self.update_buttons()
         embed = self.create_embed(3)
-        # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
 
     @discord.ui.button(label="4★", style=discord.ButtonStyle.gray)
@@ -85,8 +72,6 @@ class WeaponPageView(discord.ui.View):
         self.current_page="4★"
         self.update_buttons()
         embed = self.create_embed(4)
-        # self.update_buttons()
-        # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
         
     @discord.ui.button(label="5★", style=discord.ButtonStyle.gray)
@@ -95,8 +80,6 @@ class WeaponPageView(discord.ui.View):
         self.current_page="5★"
         self.update_buttons()
         embed = self.create_embed(5)
-        # self.update_buttons()
-        # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
         
     @discord.ui.button(label="6★", style=discord.ButtonStyle.gray)
@@ -105,8 +88,6 @@ class WeaponPageView(discord.ui.View):
         self.current_page="6★"
         self.update_buttons()
         embed = self.create_embed(6)
-        # self.update_buttons()
-        # print(dir(self))
         await interaction.response.edit_message(embed=embed, view=self)
 
     @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
@@ -146,7 +127,6 @@ class WeaponPageView(discord.ui.View):
                 self.five_star.style = discord.ButtonStyle.gray
                 self.six_star.style = discord.ButtonStyle.blurple
 
-    # error handler for the view
     async def on_error(
         self, interaction: discord.Interaction[discord.Client], error: Exception, item: discord.ui.Item[typing.Any]
     ) -> None:

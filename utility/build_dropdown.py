@@ -39,17 +39,12 @@ class DropdownView(discord.ui.View):
         embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], colour=self.theme[0])
         await interaction.response.edit_message(embed=embed, view=self)
 
-    # checks for the view's interactions
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
-
         if interaction.user == self.user:
-            content = "Test"
             return True
-        # else send a message and return False
         await interaction.response.send_message(f"The command was initiated by {self.user.mention}", ephemeral=True)
         return False
     
-    # do stuff on timeout
     async def on_timeout(self) -> None:
         self.clear_items()
         await self.message.edit(view=self)

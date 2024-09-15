@@ -18,29 +18,18 @@ class WeaponListPaginationView(discord.ui.View):
         self.embedconf = EmbedClass()
         self.update_buttons()
 
-    # checks for the view's interactions
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
-        
-        # view: PaginationView = self.view
-
         if interaction.user == self.user:
-            content = "Test"
-            # await self.update_message(self.data[:self.sep])
-            # await interaction.response.edit_message(content=content, view=view)
             return True
-        # else send a message and return False
         await interaction.response.send_message(f"The command was initiated by {self.user.mention}", ephemeral=True)
         return False
     
-    
-    # do stuff on timeout
     async def on_timeout(self) -> None:
         self.clear_items()
         await self.message.edit(view=self)
 
     def create_embed(self):
-        embed = {}
-        
+        embed = {} 
         embed = self.embedconf.create_list_embed(name=self.data[self.current_page]['name'], items=self.data[self.current_page]['list'], curpage=self.current_page + 1, maxlistcount=len(self.data))
         return embed
 
@@ -99,7 +88,6 @@ class WeaponListPaginationView(discord.ui.View):
             self.last_page_button.style = discord.ButtonStyle.green
             self.next_button.style = discord.ButtonStyle.primary
 
-    # error handler for the view
     async def on_error(
         self, interaction: discord.Interaction[discord.Client], error: Exception, item: discord.ui.Item[typing.Any]
     ) -> None:

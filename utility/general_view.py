@@ -16,19 +16,12 @@ class GeneralView(discord.ui.View):
         self.clear_button.callback = self.deleteView
         self.add_item(self.clear_button)
 
-    # checks for the view's interactions
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
-        # print(interaction)
         if interaction.user == self.user:
-            content = "Test"
-            # await self.update_message(self.data[:self.sep])
-            # await interaction.response.edit_message(content=content, view=view)
             return True
-        # else send a message and return False
         await interaction.response.send_message(f"The command was initiated by {self.user.mention}", ephemeral=True)
         return False
     
-    # do stuff on timeout
     async def on_timeout(self) -> None:
         self.clear_items()
         await self.message.edit(view=self)
@@ -36,7 +29,6 @@ class GeneralView(discord.ui.View):
     async def deleteView(self, interaction: discord.Interaction) -> None:
         await self.message.delete()
 
-    # error handler for the view
     async def on_error(
         self, interaction: discord.Interaction[discord.Client], error: Exception, item: discord.ui.Item[typing.Any]
     ) -> None:
