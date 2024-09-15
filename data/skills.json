@@ -6701,7 +6701,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "After casting Gigabyte Star Strike, switch Nanami: Starfarer out of battle to trigger Missile Support, dealing Fire DMG. \"Oops! Missed it!\"/\"Perfect\"/Burning Blow will come with the Scorching Invasion effect that reduces the enemy's Fire Resistance. Casting  Burning Blow will trigger the QTEs that are not in cooldown yet.\n- Missile Support fires 4 missiles every 3s for 12s, dealing 800% Fire DMG in total.\n- Scorching Invasion reduces the enemy's Fire Resistance by 15% for 8s."
+          "desc": "After casting Gigabyte Star Strike, switch Nanami: Starfarer out of battle to trigger Missile Support, dealing Fire DMG. \"Oops! Missed it!\" / \"Perfect\"/Burning Blow will come with the Scorching Invasion effect that reduces the enemy's Fire Resistance. Casting Burning Blow will trigger the QTEs that are not in cooldown yet.\n- Missile Support fires 4 missiles every 3s for 12s, dealing 800% Fire DMG in total.\n- Scorching Invasion reduces the enemy's Fire Resistance by 15% for 8s."
         }
       ]
     },
@@ -6710,7 +6710,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Nanami: Starfarer's  Scorching Invasion effect increases. The Extra DMG Bonuses Of  Burning Blow and  Signature - Ace Star increase. When Nanami is in the  \"Bzzz\" Mode, press and hold until the charge limit to automatically trigger  \"Perfect!\". When Nanami is in the  Slide Mode or the  \"Bzzz\" Mode, she restores Shield.\n- Scorching Invasion's effect increases by 10%.\n- The Extra DMG Bonus of Burning Blow increases by 25%.\n- The Extra DMG Bonus of Signature - Ace Star increases by 25%.\n- When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores shield equal to 10% of max HP per second, up to 50%."
+          "desc": "Nanami: Starfarer's Scorching Invasion effect increases. The Extra DMG Bonuses of Burning Blow and Signature - Ace Star increase. When Nanami is in the  \"Bzzz\" Mode, press and hold until the charge limit to automatically trigger \"Perfect!\". When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores Shield.\n- Scorching Invasion's effect increases by 10%.\n- The Extra DMG Bonus of Burning Blow increases by 25%.\n- The Extra DMG Bonus of Signature - Ace Star increases by 25%.\n- When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores shield equal to 10% of max HP per second, up to 50%."
         }
       ]
     },
@@ -6719,7 +6719,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The damage recorded by  Soul of Molten Steel increases. Max Pressure increases. The  \"Rumbling\" Mode grants pressure every second.  \"Oops! Missed it!\" /  \"Perfect!\" grants bonus Pressure.\n- The damage recorded by Soul of Molten Steel increases to 100%.\n- Max Pressure increases to 999.\n- The \"Rumbling\" Mode grants 50 Pressure every second. \"Oops! Missed it!\" grants 80 more Pressure."
+          "desc": "The damage recorded by Soul of Molten Steel increases. Max Pressure increases. The \"Rumbling\" Mode grants pressure every second. \"Oops! Missed it!\" /  \"Perfect!\" grants bonus Pressure.\n- The damage recorded by Soul of Molten Steel increases to 100%.\n- Max Pressure increases to 999.\n- The \"Rumbling\" Mode grants 50 Pressure every second. \"Oops! Missed it!\" grants 80 more Pressure."
         }
       ]
     }
@@ -6954,8 +6954,8 @@
           ]
         },
         {
-          "name": "Anti",
-          "button_press": "gravity Status -  Cast Leap Attack",
+          "name": "Anti-gravity Status",
+          "button_press": "Cast Leap Attack",
           "desc": [
             "Gains Super Armor and  50% Extra DMG Reduction while in the Anti-gravity status."
           ],
@@ -6985,7 +6985,7 @@
           "name": "Kinetic Energy",
           "button_press": "Automatically accumulated when casting Radiant Whirlwind / Basic Attack speed-up",
           "description": [
-            "Each  Radiant Whirlwind cast and Basic Attack speed-up will grant Kinetic Energy. Casting  Starshatter Horizon will consume all the Kinetic Energy with each point consumed granting bonus Base DMG."
+            "Each  Radiant Whirlwind cast and Basic Attack speed-up will grant Kinetic Energy. Casting Starshatter Horizon will consume all the Kinetic Energy with each point consumed granting bonus Base DMG."
           ],
           "result": [
             "- Every Radiant Whirlwind cast grants 7 Kinetic Energy.",
@@ -6998,7 +6998,7 @@
           "name": "Airborne Spin",
           "button_press": "Anti-gravity status + Tap Dodge",
           "description": [
-            "When the Anti-gravity status is activated, tapping Dodge casts  Airborne Spin by consuming double Dodge Gauge to pull and knock nearby enemies into the air, dealing Dark DMG while restoring Anti-gravity Energy and Signature Energy. Upon a successful dodge,  Returning Repulsion will be cast to pull and knock nearby enemies into the air, dealing Dark DMG and restoring additional Dodge Gauge."
+            "When the Anti-gravity status is activated, tapping Dodge casts Airborne Spin by consuming double Dodge Gauge to pull and knock nearby enemies into the air, dealing Dark DMG while restoring Anti-gravity Energy and Signature Energy. Upon a successful dodge, Returning Repulsion will be cast to pull and knock nearby enemies into the air, dealing Dark DMG and restoring additional Dodge Gauge."
           ],
           "result": [
             "- Deals 200% Dark DMG.",
@@ -7148,7 +7148,7 @@
           "name": "Charge Engine",
           "button_press": "Any 3-Ping + Tap Basic Attack repeatedly",
           "description": [
-            "After casting a 3-Ping, tap Basic Attack repeatedly to charge up the Rising Engine. When the tapping stops or goes over a certain period of time, Noan: Arca will perform  Gear-Break Combo based on the color of Signal Orbs pinged, and its DMG will depend on the current  Gear Level. Triggering a Combo Strike also consumes all  Rising Energy charged to increase its DMG dealt. The  Rising Energy consumed will be converted into  Rotational Speed."
+            "After casting a 3-Ping, tap Basic Attack repeatedly to charge up the Rising Engine. When the tapping stops or goes over a certain period of time, Noan: Arca will perform  Gear-Break Combo based on the color of Signal Orbs pinged, and its DMG will depend on the current Gear Level. Triggering a Combo Strike also consumes all  Rising Energy charged to increase its DMG dealt. The Rising Energy consumed will be converted into Rotational Speed."
           ],
           "result": [
             "- Deals 150% / 300% / 450% / 600% Lightning DMG based on the current Gear Level.",
@@ -7156,28 +7156,20 @@
           ]
         },
         {
-          "name": "Gear",
-          "button_press": "Break Combo -  Tap Basic Attack repeatedly to trigger a Combo Strike",
+          "name": "Gear-Break Combo",
+          "button_press": "Tap Basic Attack repeatedly to trigger a Combo Strike",
           "description": [
-            "The next time  Gear-Break Combo is triggered, if the current  Rising Energy exceeds  Rotational Speed,  Gear Level will go up by 1."
+            "The next time Gear-Break Combo is triggered, if the current Rising Energy exceeds Rotational Speed, Gear Level will go up by 1.\n\nWhen Exceed Deduction is triggered, if the progress of sublimation energy is greater than the target speed bar, Gear level will increase by 1."
           ],
           "result": []
         },
         {
-          "name": "When Exceed Deduction is triggered, if the progress of  sublimation energy is greater than the  target speed bar,  Gear level will increase by 1.",
-          "button_press": "",
+          "name": "Assault-Rising Combo ",
+          "button_press": "Gear Lv.3 + Trigger Combo Strike",
           "description": [
-            "Assault-Rising Combo -  Gear Lv.3 + Trigger Combo Strike"
+            "If Gear-Break Combo is triggered at Gear Lv. 3, Noan: Arca will perform Assault-Rising Combo instead with an increased Extra DMG Bonus. Rotational Speed and Gear Level will be reset afterward."
           ],
-          "result": []
-        },
-        {
-          "name": "If  Gear-Break Combo is triggered at Gear Lv. 3, Noan",
-          "button_press": "Arca will perform  Assault-Rising Combo instead with an increased Extra DMG Bonus.  Rotational Speed and  Gear Level will be reset afterward.",
-          "description": [
-            "- The Base DMG of  Assault-Rising Combo increases by  50%."
-          ],
-          "result": []
+          "result": ["- The Base DMG of Assault-Rising Combo increases by 50%."]
         }
       ]
     },
