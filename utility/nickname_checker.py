@@ -206,7 +206,7 @@ def check_nickname(nickname, caller):
             cub = "jet jaeger"
             memory = "unimate"
         case "haicma" | "hag" | "haicmama" | "nanny":
-            character = "starfarer"
+            character = "starveil"
             weapon = "galatea"
             cub = "n/a"
             memory = "isabel"
@@ -593,7 +593,7 @@ def character_theme(nickname):
             name = "Nanami: Starfarer"
             colour = 0x606973
             chibi_portrait = "https://assets.huaxu.app/glb/image/role/roleheadr5yongyechao3q.webp"
-            thumbnail_url = "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr5yongyechao2.256.webp",
+            thumbnail_url = "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr5yongyechao2.256.webp"
         case "starveil":
             name = "Haicma: Starveil"
             colour = 0x3f454e

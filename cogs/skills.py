@@ -103,7 +103,6 @@ class Skills(commands.Cog):
                         await ctx.send("This character does not have Leap skills.")
 
             theme = character_theme(character)
-            print(theme)
 
             if skill_type == 'Leap' or skill_type == 'Core Passive' or skill_type == 'Basic Attack' or skill_type == 'Red Orb' or skill_type == 'Yellow Orb' or skill_type == 'Blue Orb' or skill_type == 'Signature/Ultimate':
                 if len(skill) > 1:
@@ -339,6 +338,12 @@ class Skills(commands.Cog):
         print(character)
 
         await self.grab_skill(ctx, character, 'leap')
+
+    @commands.command()
+    async def leaplist(self, ctx: commands.Context) -> None:
+
+        
+        await ctx.send(content="Leap List")
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Skills(bot))

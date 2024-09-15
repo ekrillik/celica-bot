@@ -291,7 +291,7 @@ class EmbedClass:
                     value=f"{skill['description']}",
                     inline=False
                 )
-                for result in skill['results']:
+                for result in skill['result']:
                     embed.add_field(
                         name="",
                         value=f"{result}",

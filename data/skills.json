@@ -82,10 +82,8 @@
     },
     "qte": {
       "name": "Lotus Quick Slash",
-      "description": {
-        "desc": "Lucia: Lotus enters the battlefield and attacks the enemy with her  Dual Blades, dealing Physical DMG.",
-        "result": ["- Deals 1110% Physical DMG in total."]
-      }
+      "description": "Lucia: Lotus enters the battlefield and attacks the enemy with her  Dual Blades, dealing Physical DMG.",
+      "result": ["- Deals 1110% Physical DMG in total."]
     },
     "leader": {
       "name": "Fearless Warrior",
@@ -209,13 +207,11 @@
     },
     "qte": {
       "name": "Nanofield Blossom",
-      "description": {
-        "desc": "Unleashes an energy wave upon entering the battlefield, restoring the HP of nearby allies and dealing Physical DMG to nearby enemies.",
-        "result": [
-          "- Restores HP equal to 20% of Liv: Eclipse's max HP.",
-          "- Deals 200% Physical DMG."
-        ]
-      }
+      "description": "Unleashes an energy wave upon entering the battlefield, restoring the HP of nearby allies and dealing Physical DMG to nearby enemies.",
+      "result": [
+        "- Restores HP equal to 20% of Liv: Eclipse's max HP.",
+        "- Deals 200% Physical DMG."
+      ]
     },
     "leader": {
       "name": "Leader - Trust Building",
@@ -342,10 +338,8 @@
     },
     "qte": {
       "name": "Nanami Beam",
-      "description": {
-        "desc": "Nanami: Storm spins and slices the target upon entering the battlefield, dealing Physical DMG while knocking the target down.",
-        "result": ["- Deals 770% Physical DMG in total."]
-      }
+      "description": "Nanami: Storm spins and slices the target upon entering the battlefield, dealing Physical DMG while knocking the target down.",
+      "result": ["- Deals 770% Physical DMG in total."]
     },
     "leader": {
       "name": "Leader - Alternation Harmony",
@@ -475,10 +469,8 @@
     },
     "qte": {
       "name": "Scattering Petals",
-      "description": {
-        "desc": "Lucia: Dawn spins and slashes the target, dealing Physical DMG and Lightning DMG.",
-        "result": ["- Deals 210% Physical DMG and 570% Lightning DMG in total."]
-      }
+      "description": "Lucia: Dawn spins and slashes the target, dealing Physical DMG and Lightning DMG.",
+      "result": ["- Deals 210% Physical DMG and 570% Lightning DMG in total."]
     },
     "leader": {
       "name": "Leader - Dawn Leader",
@@ -639,13 +631,11 @@
     },
     "qte": {
       "name": "Neo-Nanofield Blossom",
-      "description": {
-        "desc": "Liv: Lux enters the battlefield and summons EX Lightning Lure to strike the enemies within the area, dealing Lightning DMG and leaving an ion field behind that heals the allies within.",
-        "result": [
-          "- Deals 200% Lightning DMG to the enemies in the area.",
-          "- Heals allies for 25% of Lux's ATK every second."
-        ]
-      }
+      "description": "Liv: Lux enters the battlefield and summons EX Lightning Lure to strike the enemies within the area, dealing Lightning DMG and leaving an ion field behind that heals the allies within.",
+      "result": [
+        "- Deals 200% Lightning DMG to the enemies in the area.",
+        "- Heals allies for 25% of Lux's ATK every second."
+      ]
     },
     "leader": {
       "name": "Leader - Mighty Heart",
@@ -771,13 +761,11 @@
     },
     "qte": {
       "name": "360o Shooting - Rapid Fire",
-      "description": {
-        "desc": "Lee: Palefire enters the battlefield and shoots the target with his Dual Guns, dealing Physical DMG and inflicting the target with  Electrocute, causing the target to take Extra Physical DMG when being attacked.",
-        "result": [
-          "- The shots deal 330% Physical DMG.",
-          "- Electrocuted targets take 20% Extra Physical DMG when being attacked over the next 5s. This effect can be triggered up to 15 times while it lasts."
-        ]
-      }
+      "description": "Lee: Palefire enters the battlefield and shoots the target with his Dual Guns, dealing Physical DMG and inflicting the target with  Electrocute, causing the target to take Extra Physical DMG when being attacked.",
+      "result": [
+        "- The shots deal 330% Physical DMG.",
+        "- Electrocuted targets take 20% Extra Physical DMG when being attacked over the next 5s. This effect can be triggered up to 15 times while it lasts."
+      ]
     },
     "leader": {
       "name": "Leader - Riot of Color",
@@ -931,10 +919,8 @@
     },
     "qte": {
       "name": "Flash Fall",
-      "description": {
-        "desc": "Watanabe: Nightblade enters the battlefield and thrusts downward, dealing Physical DMG to the target.",
-        "result": ["- Deals 600% Physical DMG in total."]
-      }
+      "description": "Watanabe: Nightblade enters the battlefield and thrusts downward, dealing Physical DMG to the target.",
+      "result": ["- Deals 600% Physical DMG in total."]
     },
     "leader": {
       "name": "Leader - Integrated Management",
@@ -1034,7 +1020,7 @@
       "name": "Quiver of Mercy",
       "skills": [
         {
-          "name": "Signature Move",
+          "name": "Core Passive",
           "button_press": "Any 3-Ping + Tap Signature",
           "description": [
             "Stores 1 energy arrow in the quiver after every 3-Ping. All arrows will be released when casting the next Signature Move, each dealing Extra Physical DMG to the target."
@@ -1061,12 +1047,10 @@
     },
     "qte": {
       "name": "Rain of Hunt",
-      "description": {
-        "desc": "Bianca: Zero leaps into the air upon entering the battlefield, shooting consecutive arrows at the target. Each arrow deals Physical DMG and is guaranteed to be a critical hit.",
-        "result": [
-          "- Shoots 5 times at the target, each shot dealing 60% Physical DMG."
-        ]
-      }
+      "description": "Bianca: Zero leaps into the air upon entering the battlefield, shooting consecutive arrows at the target. Each arrow deals Physical DMG and is guaranteed to be a critical hit.",
+      "result": [
+        "- Shoots 5 times at the target, each shot dealing 60% Physical DMG."
+      ]
     },
     "leader": {
       "name": "Leader - Eliminator",
@@ -1193,10 +1177,8 @@
     },
     "qte": {
       "name": "Annihilation Projectile",
-      "description": {
-        "desc": "Karenina: Blast enters the battlefield and fires a Spinning Projectile, dealing Physical DMG to the target.",
-        "result": ["- Deals up to 500% Physical DMG."]
-      }
+      "description": "Karenina: Blast enters the battlefield and fires a Spinning Projectile, dealing Physical DMG to the target.",
+      "result": ["- Deals up to 500% Physical DMG."]
     },
     "leader": {
       "name": "Leader - Solitary",
@@ -1335,13 +1317,11 @@
     },
     "qte": {
       "name": "Heroic Dance",
-      "description": {
-        "desc": "Enters the battlefield to heal nearby allies and grants Shield.",
-        "result": [
-          "- Heals allies for 100% of Luminance's ATK.",
-          "- Grants allies Shield equal to 100% of Luminance's ATK for 2s."
-        ]
-      }
+      "description": "Enters the battlefield to heal nearby allies and grants Shield.",
+      "result": [
+        "- Heals allies for 100% of Luminance's ATK.",
+        "- Grants allies Shield equal to 100% of Luminance's ATK for 2s."
+      ]
     },
     "leader": {
       "name": "Leader - Devoted Heart",
@@ -1493,10 +1473,8 @@
     },
     "qte": {
       "name": "Blindspot Ambush",
-      "description": {
-        "desc": "Lee shoots in mid-air, dealing Physical DMG to the target.",
-        "result": ["- Deals 675% Physical DMG in total."]
-      }
+      "description": "Lee shoots in mid-air, dealing Physical DMG to the target.",
+      "result": ["- Deals 675% Physical DMG in total."]
     },
     "leader": {
       "name": "Captain - Tactical Operation",
@@ -1677,10 +1655,8 @@
     },
     "qte": {
       "name": "Gravity Fall",
-      "description": {
-        "desc": "Karenina deals 720% Fire DMG to the target.",
-        "result": [""]
-      }
+      "description": "Karenina deals 720% Fire DMG to the target.",
+      "result": [""]
     },
     "leader": {
       "name": "Leader - Complete Destruction",
@@ -1805,13 +1781,11 @@
     },
     "qte": {
       "name": "Molten Roundslash",
-      "description": {
-        "desc": "Moves and marks a circle of fire on the ground, dealing Fire DMG to nearby targets and inflicting them with  Scorching Invasion, reducing their Fire Resistance.",
-        "result": [
-          "- Deals 480% Fire DMG in total.",
-          "- Scorching Invasion reduces the target's Fire Resistance by 10% for 6s."
-        ]
-      }
+      "description": "Moves and marks a circle of fire on the ground, dealing Fire DMG to nearby targets and inflicting them with  Scorching Invasion, reducing their Fire Resistance.",
+      "result": [
+        "- Deals 480% Fire DMG in total.",
+        "- Scorching Invasion reduces the target's Fire Resistance by 10% for 6s."
+      ]
     },
     "leader": {
       "name": "Leader - Protective Pulse",
@@ -2019,13 +1993,11 @@
     },
     "qte": {
       "name": "Chain Spin",
-      "description": {
-        "desc": "Spins and cuts the targets as he enters the battlefield, dealing Dark DMG and inflicting them with  Chain Fusion, reducing their Dark Resistance.",
-        "result": [
-          "- Deals 580% Dark DMG in total.",
-          "- Chain Fusion reduces the target's Dark Resistance by 10% for 6s."
-        ]
-      }
+      "description": "Spins and cuts the targets as he enters the battlefield, dealing Dark DMG and inflicting them with  Chain Fusion, reducing their Dark Resistance.",
+      "result": [
+        "- Deals 580% Dark DMG in total.",
+        "- Chain Fusion reduces the target's Dark Resistance by 10% for 6s."
+      ]
     },
     "leader": {
       "name": "Leader - Alternation Harmony",
@@ -2183,7 +2155,7 @@
     "qte": {
       "name": "Falling Petals",
       "description": "Enters the battlefield and performs consecutive Rising Slashes, dealing Physical DMG and sending the target airborne.",
-      "results": ["- Deals 600% Physical DMG in total."]
+      "result": ["- Deals 600% Physical DMG in total."]
     },
     "leader": {
       "name": "Abyssal Resonance",
@@ -2366,13 +2338,11 @@
     },
     "qte": {
       "name": "Obliterating Wind",
-      "description": {
-        "desc": "Kamui: Bastion slashes the target with his greatsword, dealing Physical DMG, stunning the target, and reducing the target's DEF.",
-        "result": [
-          "- Deals 500% Physical DMG in total.",
-          "- Stuns the target for 3s. Reduces the target's DEF by 10% for 6s."
-        ]
-      }
+      "description": "Kamui: Bastion slashes the target with his greatsword, dealing Physical DMG, stunning the target, and reducing the target's DEF.",
+      "result": [
+        "- Deals 500% Physical DMG in total.",
+        "- Stuns the target for 3s. Reduces the target's DEF by 10% for 6s."
+      ]
     },
     "leader": {
       "name": "Leader - Unshakeable Formation",
@@ -2510,10 +2480,8 @@
     },
     "qte": {
       "name": "Shadow Cross",
-      "description": {
-        "desc": "Dives at the target, splitting into shadows upon landing and attacks again, dealing Dark DMG.",
-        "result": ["- Each attack deals 300% Dark DMG."]
-      }
+      "description": "Dives at the target, splitting into shadows upon landing and attacks again, dealing Dark DMG.",
+      "result": ["- Each attack deals 300% Dark DMG."]
     },
     "leader": {
       "name": "Leader - Nameless Shadow",
@@ -2668,13 +2636,11 @@
     },
     "qte": {
       "name": "Spiral Reaper",
-      "description": {
-        "desc": "Deals Physical DMG continuously to the target, reducing their DEF. The last hit will knock the target airborne.",
-        "result": [
-          "- The attacks deal 600% Physical DMG.",
-          "- The attacks reduce the target's DEF by 10% for 6s."
-        ]
-      }
+      "description": "Deals Physical DMG continuously to the target, reducing their DEF. The last hit will knock the target airborne.",
+      "result": [
+        "- The attacks deal 600% Physical DMG.",
+        "- The attacks reduce the target's DEF by 10% for 6s."
+      ]
     },
     "leader": {
       "name": "Leader - Muse Ritual",
@@ -2830,10 +2796,8 @@
     },
     "qte": {
       "name": "BlitzBolt",
-      "description": {
-        "desc": "Bianca: Veritas enters the battlefield from the air, shooting 4 waves of arrows at the target, dealing Lightning DMG.",
-        "result": ["- Each wave deals 160% Lightning DMG."]
-      }
+      "description": "Bianca: Veritas enters the battlefield from the air, shooting 4 waves of arrows at the target, dealing Lightning DMG.",
+      "result": ["- Each wave deals 160% Lightning DMG."]
     },
     "leader": {
       "name": "Leader - Blood and Thunder",
@@ -2965,10 +2929,8 @@
     },
     "qte": {
       "name": "Fire Support",
-      "description": {
-        "desc": "Silverfang appears and shoots in front, dealing Fire DMG and dropping an Energy Ball. Drops an extra Energy Ball if the skill level is at 10 or above.",
-        "result": ["- Deals 400% Fire DMG in total."]
-      }
+      "description": "Silverfang appears and shoots in front, dealing Fire DMG and dropping an Energy Ball. Drops an extra Energy Ball if the skill level is at 10 or above.",
+      "result": ["- Deals 400% Fire DMG in total."]
     },
     "leader": {
       "name": "Well Prepared",
@@ -3107,14 +3069,12 @@
     },
     "qte": {
       "name": "Blue Bolt",
-      "description": {
-        "desc": "Upon entering the battlefield, blasts nearby targets to deal Lightning DMG and inflict them with  Turbulent Interference that reduces their Lightning Resistance, then slams the Scythe to blast nearby targets, dealing Lightning DMG.",
-        "result": [
-          "- The initial blast deals 250% Lightning DMG to the targets.",
-          "- The slam blast deals 250% Lightning DMG to nearby targets.",
-          "- Turbulent Interference reduces the target's Lightning Resistance by 10% for 6s."
-        ]
-      }
+      "description": "Upon entering the battlefield, blasts nearby targets to deal Lightning DMG and inflict them with  Turbulent Interference that reduces their Lightning Resistance, then slams the Scythe to blast nearby targets, dealing Lightning DMG.",
+      "result": [
+        "- The initial blast deals 250% Lightning DMG to the targets.",
+        "- The slam blast deals 250% Lightning DMG to nearby targets.",
+        "- Turbulent Interference reduces the target's Lightning Resistance by 10% for 6s."
+      ]
     },
     "leader": {
       "name": "Vanguard Warsong",
@@ -3301,10 +3261,8 @@
     },
     "qte": {
       "name": "Frost Blade - Icebreak",
-      "description": {
-        "desc": "Dashes at the enemy, dealing Physical DMG and Ice DMG.",
-        "result": ["- Deals 320% Physical DMG and 320% Ice DMG."]
-      }
+      "description": "Dashes at the enemy, dealing Physical DMG and Ice DMG.",
+      "result": ["- Deals 320% Physical DMG and 320% Ice DMG."]
     },
     "leader": {
       "name": "Leader - Blade of Raven",
@@ -3451,13 +3409,11 @@
     },
     "qte": {
       "name": "Black Rose Impact",
-      "description": {
-        "desc": "Upon entering the battlefield, deals Dark DMG to nearby enemies and heals the ally units within range. Also grants them the  Dark Radiation effect that increases their Dark DMG.",
-        "result": [
-          "- Deals 400% Dark DMG to nearby enemies and heals the ally units within range for HP equal to 100% of Vera: Rozen's ATK.",
-          "- Dark Radiation increases Dark DMG by 10% for 5s."
-        ]
-      }
+      "description": "Upon entering the battlefield, deals Dark DMG to nearby enemies and heals the ally units within range. Also grants them the  Dark Radiation effect that increases their Dark DMG.",
+      "result": [
+        "- Deals 400% Dark DMG to nearby enemies and heals the ally units within range for HP equal to 100% of Vera: Rozen's ATK.",
+        "- Dark Radiation increases Dark DMG by 10% for 5s."
+      ]
     },
     "leader": {
       "name": "Medical Optimization",
@@ -3660,10 +3616,8 @@
     },
     "qte": {
       "name": "Deadly Claw",
-      "description": {
-        "desc": "Charges at the enemy and claws them for Dark DMG.",
-        "result": ["- Deals 640% Dark DMG in total."]
-      }
+      "description": "Charges at the enemy and claws them for Dark DMG.",
+      "result": ["- Deals 640% Dark DMG in total."]
     },
     "leader": {
       "name": "Striking Rhythm",
@@ -3824,10 +3778,8 @@
     },
     "qte": {
       "name": "Wings of Destiny",
-      "description": {
-        "desc": "Rosetta: Rigor spins with her lance, dealing Physical DMG to nearby enemies.",
-        "result": ["- Deals 720% Physical DMG in total."]
-      }
+      "description": "Rosetta: Rigor spins with her lance, dealing Physical DMG to nearby enemies.",
+      "result": ["- Deals 720% Physical DMG in total."]
     },
     "leader": {
       "name": "Mutual Succor",
@@ -4043,10 +3995,8 @@
     },
     "qte": {
       "name": "Flashing Breaker",
-      "description": {
-        "desc": "Appears above the target and smashes the ground with a charged-up punch, dealing 5 hits of Ice DMG in total and slowing the target temporarily.",
-        "result": ["- Deals 510% Ice DMG in total."]
-      }
+      "description": "Appears above the target and smashes the ground with a charged-up punch, dealing 5 hits of Ice DMG in total and slowing the target temporarily.",
+      "result": ["- Deals 510% Ice DMG in total."]
     },
     "leader": {
       "name": "Leader - Will of Protection",
@@ -4209,10 +4159,8 @@
     },
     "qte": {
       "name": "Blazing Dragon",
-      "description": {
-        "desc": "Appears in the air and unleashes 2 quick shockwaves in the target's direction, dealing Physical DMG. Deals  640% Physical DMG in total.",
-        "result": []
-      }
+      "description": "Appears in the air and unleashes 2 quick shockwaves in the target's direction, dealing Physical DMG. Deals  640% Physical DMG in total.",
+      "result": []
     },
     "leader": {
       "name": "Leader - Baptism of War",
@@ -4361,10 +4309,8 @@
     },
     "qte": {
       "name": "Speedy Sanction",
-      "description": {
-        "desc": "Delivers an attack forward with a spear in the air, dealing Dark DMG.",
-        "result": ["- Deals 640% Dark DMG in total."]
-      }
+      "description": "Delivers an attack forward with a spear in the air, dealing Dark DMG.",
+      "result": ["- Deals 640% Dark DMG in total."]
     },
     "leader": {
       "name": "Leader - Silver Bloom",
@@ -4531,10 +4477,8 @@
     },
     "qte": {
       "name": "Greatsword",
-      "description": {
-        "desc": "Uses the heavy weapon to perform consecutive attacks, dealing Physical DMG.",
-        "result": ["- Deals 640% Physical DMG in total."]
-      }
+      "description": "Uses the heavy weapon to perform consecutive attacks, dealing Physical DMG.",
+      "result": ["- Deals 640% Physical DMG in total."]
     },
     "leader": {
       "name": "Automaton",
@@ -4686,10 +4630,8 @@
     },
     "qte": {
       "name": "Tactical Hacking",
-      "description": {
-        "desc": "Hacks into an ally target on the battlefield to heal and repair, restoring the ally's HP.",
-        "result": ["- Restores HP equal to 100% of 9S's ATK."]
-      }
+      "description": "Hacks into an ally target on the battlefield to heal and repair, restoring the ally's HP.",
+      "result": ["- Restores HP equal to 100% of 9S's ATK."]
     },
     "leader": {
       "name": "Scan Domain",
@@ -4844,10 +4786,8 @@
     },
     "qte": {
       "name": "Trigram Assault",
-      "description": {
-        "desc": "Unleashes a series of attacks, dealing Physical DMG.",
-        "result": ["- Deals 600% Physical DMG in total."]
-      }
+      "description": "Unleashes a series of attacks, dealing Physical DMG.",
+      "result": ["- Deals 600% Physical DMG in total."]
     },
     "leader": {
       "name": "Growth",
@@ -4990,15 +4930,13 @@
     },
     "qte": {
       "name": "Hypnotic Gift",
-      "description": {
-        "desc": "Hurls a frost grenade to slow enemies in the area briefly. Upon explosion, it deals Ice DMG and continuous Ice DMG afterward, while healing",
-        "result": [
-          "allies in a large area and granting them Frost Crystal that increases their Ice DMG.",
-          "- Grenade deals 360% Ice DMG upon explosion and 200% continuous Ice DMG in total.",
-          "- Heals allies in a large area for HP equal to 100% of Wanshi: Hypnos' ATK.",
-          "- Frost Crystal: Increases Ice DMG by 10% for 8s."
-        ]
-      }
+      "description": "Hurls a frost grenade to slow enemies in the area briefly. Upon explosion, it deals Ice DMG and continuous Ice DMG afterward, while healing",
+      "result": [
+        "allies in a large area and granting them Frost Crystal that increases their Ice DMG.",
+        "- Grenade deals 360% Ice DMG upon explosion and 200% continuous Ice DMG in total.",
+        "- Heals allies in a large area for HP equal to 100% of Wanshi: Hypnos' ATK.",
+        "- Frost Crystal: Increases Ice DMG by 10% for 8s."
+      ]
     },
     "leader": {
       "name": "Resonance of Clarity",
@@ -5152,10 +5090,8 @@
     },
     "qte": {
       "name": "Nightingale Strike",
-      "description": {
-        "desc": "QTE: Launches a swift attack at the target, dealing Lightning DMG.",
-        "result": ["- Deals 640% Lightning DMG in total."]
-      }
+      "description": "QTE: Launches a swift attack at the target, dealing Lightning DMG.",
+      "result": ["- Deals 640% Lightning DMG in total."]
     },
     "leader": {
       "name": "Conductor",
@@ -5329,10 +5265,8 @@
     },
     "qte": {
       "name": "Chilling Dawn",
-      "description": {
-        "desc": "Jumps down from above and smashes the ground, dealing Ice DMG to enemies hit.",
-        "result": ["- Deals 640% Ice DMG."]
-      }
+      "description": "Jumps down from above and smashes the ground, dealing Ice DMG to enemies hit.",
+      "result": ["- Deals 640% Ice DMG."]
     },
     "leader": {
       "name": "Leader - Navigator",
@@ -5528,10 +5462,8 @@
     },
     "qte": {
       "name": "Twilight Shackles",
-      "description": {
-        "desc": "Expands a  Duskglow Realm on the target's location to deal Dark DMG, creates  3 Twilight Matrices, and triggers a realm collapse.",
-        "result": ["- Deals 200% Dark DMG."]
-      }
+      "description": "Expands a  Duskglow Realm on the target's location to deal Dark DMG, creates  3 Twilight Matrices, and triggers a realm collapse.",
+      "result": ["- Deals 200% Dark DMG."]
     },
     "leader": {
       "name": "Faded Camouflage",
@@ -5604,7 +5536,7 @@
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
         "description": {
-          "desc": "Garnet spins her spear, gaining Shield and dealing Physical DMG (Lightning DMG instead on a 3-Ping) to nearby enemies based on the number of orbs pinged.",
+          "desc": "Vera: Garnet spins her spear, gaining Shield and dealing Physical DMG (Lightning DMG instead on a 3-Ping) to nearby enemies based on the number of orbs pinged.",
           "result": [
             "- Gains Shield equal to 10% of her max HP.",
             "- Deals 230% / 460% / 690% Physical DMG based on the number of orbs pinged."
@@ -5677,13 +5609,11 @@
     },
     "qte": {
       "name": "Victorious War Flag",
-      "description": {
-        "desc": "Plunges the spear into the ground and unfurls the war flag, dealing Lightning DMG followed by Lightning DMG over time to enemies within range.",
-        "result": [
-          "- Deals 600% Lightning DMG upon the first hit.",
-          "- Deals 200% Lightning DMG in total over 8s."
-        ]
-      }
+      "description": "Plunges the spear into the ground and unfurls the war flag, dealing Lightning DMG followed by Lightning DMG over time to enemies within range.",
+      "result": [
+        "- Deals 600% Lightning DMG upon the first hit.",
+        "- Deals 200% Lightning DMG in total over 8s."
+      ]
     },
     "leader": {
       "name": "Rumbling Advance",
@@ -5927,10 +5857,8 @@
     },
     "qte": {
       "name": "Astounding Fireworks",
-      "description": {
-        "desc": "Hangs on the Chain Blade and swings across the battlefield, launching 4 incendiary bombs toward the ground that deal Fire DMG.",
-        "result": ["- Deals 640% Fire DMG in total."]
-      }
+      "description": "Hangs on the Chain Blade and swings across the battlefield, launching 4 incendiary bombs toward the ground that deal Fire DMG.",
+      "result": ["- Deals 640% Fire DMG in total."]
     },
     "leader": {
       "name": "Grinning Trickster",
@@ -6086,12 +6014,10 @@
     },
     "qte": {
       "name": "Hymn to Guidance",
-      "description": {
-        "desc": "Dives into battle and releases an energy blast in the air, dealing Fire DMG and restoring HP.",
-        "result": [
-          "- Deals a total of 600% Fire DMG and restores HP equal to 60% of her ATK."
-        ]
-      }
+      "description": "Dives into battle and releases an energy blast in the air, dealing Fire DMG and restoring HP.",
+      "result": [
+        "- Deals a total of 600% Fire DMG and restores HP equal to 60% of her ATK."
+      ]
     },
     "leader": {
       "name": "Leader - Oath in Silence",
@@ -6248,12 +6174,10 @@
     },
     "qte": {
       "name": "Lingering Bladesong",
-      "description": {
-        "desc": "Selena: Capriccio leaps into battle and plays her Flute Sword, dealing Dark DMG and restoring HP.",
-        "result": [
-          "- Deals 600% Dark DMG and heals for HP equal to 60% of her ATK."
-        ]
-      }
+      "description": "Selena: Capriccio leaps into battle and plays her Flute Sword, dealing Dark DMG and restoring HP.",
+      "result": [
+        "- Deals 600% Dark DMG and heals for HP equal to 60% of her ATK."
+      ]
     },
     "leader": {
       "name": "Famed Concertmaster",
@@ -6450,16 +6374,14 @@
     },
     "qte": {
       "name": "Blade Summon",
-      "description": {
-        "desc": "QTE -  Dragon Axe present + Tap QTE",
-        "result": [
-          "When Dragon Axe is on the field, orders Dragon Axe to deal Physical DMG.",
-          "- Deals 640% Physical DMG.",
-          "QTE - Tap QTE",
-          "When Dragon Axe is not on the field, summons Dragon Axe to deal Physical DMG.",
-          "- Deals 640% Physical DMG."
-        ]
-      }
+      "description": "QTE -  Dragon Axe present + Tap QTE",
+      "result": [
+        "When Dragon Axe is on the field, orders Dragon Axe to deal Physical DMG.",
+        "- Deals 640% Physical DMG.",
+        "QTE - Tap QTE",
+        "When Dragon Axe is not on the field, summons Dragon Axe to deal Physical DMG.",
+        "- Deals 640% Physical DMG."
+      ]
     },
     "leader": {
       "name": "Child of Kowloong",
@@ -6669,10 +6591,8 @@
     },
     "qte": {
       "name": "Haven-Shaking Power",
-      "description": {
-        "desc": "Nanami: Starfarer comes down from above and smashes the ground, dealing AOE Fire DMG.",
-        "result": ["- Deals 640% AOE Fire DMG."]
-      }
+      "description": "Nanami: Starfarer comes down from above and smashes the ground, dealing AOE Fire DMG.",
+      "result": ["- Deals 640% AOE Fire DMG."]
     },
     "leader": {
       "name": "Leader - Sagemachina",
@@ -6789,7 +6709,7 @@
       "name": "Frost-Treated Blade",
       "skills": [
         {
-          "name": "Frost-Treated Blade -  Critical Point",
+          "name": "Frost-Treated Blade - Critical Point",
           "button_press": "30 Energy + Tap Signature",
           "description": {
             "desc": "Casts Frost-Treated Blade: Critical Point, imbuing her weapon and turning all DMG she deals into Ice DMG. In this state, Signature Energy does not recover, but all attacks increase the Froststream Level.",
@@ -6797,8 +6717,8 @@
           }
         },
         {
-          "name": "Frost-Treated Blade",
-          "button_press": "Quench -  Has Froststream Level + Tap Signature",
+          "name": "Frost-Treated Blade - Quench",
+          "button_press": "Has Froststream Level + Tap Signature",
           "description": {
             "desc": "Tap the Signature button again to cast Frost-Treated Blade: Quench, dealing DMG and giving all enemies Frozen Status for a period of time based on the Froststream Level. Remove Frozen Status from enemies when damaging affected enemies with Bitter Frost.",
             "result": [
@@ -6811,10 +6731,8 @@
     },
     "qte": {
       "name": "Rimefall",
-      "description": {
-        "desc": "Comes down from above and creates a Frost Terrain, dealing Ice DMG.",
-        "result": ["- Deals 900% Ice DMG."]
-      }
+      "description": "Comes down from above and creates a Frost Terrain, dealing Ice DMG.",
+      "result": ["- Deals 900% Ice DMG."]
     },
     "leader": {
       "name": "Leader - Hidden Star",
@@ -6948,7 +6866,7 @@
         {
           "name": "Anti-gravity Status",
           "button_press": "Cast Leap Attack",
-          "desc": [
+          "description": [
             "Gains Super Armor and  50% Extra DMG Reduction while in the Anti-gravity status."
           ],
           "result": []
@@ -6956,7 +6874,7 @@
         {
           "name": "Radiant Whirlwind",
           "button_press": "Character is airborne + Tap Basic Attack repeatedly",
-          "desc": [
+          "description": [
             "While in the Anti-gravity status, tapping the Basic Attack button repeatedly will cast  Radiant Whirlwind that deals Dark DMG (each Basic Attack increases Karenina: Scire's airborne duration and spin speed)."
           ],
           "result": ["- Deals 10% Dark DMG."]
@@ -7016,13 +6934,11 @@
     },
     "qte": {
       "name": "Dawn Fall",
-      "description": {
-        "desc": "Karenina: Scire hammers the ground, dealing Dark DMG to enemies within the area and inflicting the  Chain Fusion effect on them to reduce their Dark Resistance.",
-        "result": [
-          "- Deals 600% Dark DMG.",
-          "- Chain Fusion reduces the target's Dark Resistance by 15% for 12s."
-        ]
-      }
+      "description": "Karenina: Scire hammers the ground, dealing Dark DMG to enemies within the area and inflicting the  Chain Fusion effect on them to reduce their Dark Resistance.",
+      "result": [
+        "- Deals 600% Dark DMG.",
+        "- Chain Fusion reduces the target's Dark Resistance by 15% for 12s."
+      ]
     },
     "leader": {
       "name": "Leader - Visionary",
@@ -7180,10 +7096,8 @@
     },
     "qte": {
       "name": "Photon Firefly",
-      "description": {
-        "desc": "Plunges from the air and slashes enemies at high speed, dealing Lightning DMG to enemies within range.",
-        "result": ["- Deals 900% Lightning DMG in total."]
-      }
+      "description": "Plunges from the air and slashes enemies at high speed, dealing Lightning DMG to enemies within range.",
+      "result": ["- Deals 900% Lightning DMG in total."]
     },
     "leader": {
       "name": "Aurora Traveler",
@@ -7247,7 +7161,7 @@
     "basic_attack": [
       {
         "name": "Tri-Candela Staffsword - Basic Attack",
-        "button_press": "Basic Attack - Staff Form + Tap Basic Attack",
+        "button_press": "Staff Form + Tap Basic Attack",
         "switch_in": "no",
         "description": {
           "desc": "Unleashes 5 hits of attack toward the target with the Swordstaff.",
@@ -7256,7 +7170,7 @@
       },
       {
         "name": "Tri-Candela Staffsword - Basic Attack",
-        "button_press": "Basic Attack - Sword Form + Tap Basic Attack",
+        "button_press": "Sword Form + Tap Basic Attack",
         "switch_in": "no",
         "description": {
           "desc": "Unleashes 5 hits of attack toward the target with the Swordstaff.",
@@ -7399,14 +7313,12 @@
     },
     "qte": {
       "name": "Divine Judgment",
-      "description": {
-        "desc": "QTE -  Staff Form + Tap QTE",
-        "result": [
-          "Leaps into the air and hurls the Swordstaff to the ground, dealing 480% Physical DMG.",
-          "QTE - Sword Form + Tap QTE",
-          "Slashes the target twice to deal 480% Physical DMG."
-        ]
-      }
+      "description": "QTE -  Staff Form + Tap QTE",
+      "result": [
+        "Leaps into the air and hurls the Swordstaff to the ground, dealing 480% Physical DMG.",
+        "QTE - Sword Form + Tap QTE",
+        "Slashes the target twice to deal 480% Physical DMG."
+      ]
     },
     "leader": {
       "name": "Shadowless Beacon",
@@ -7603,10 +7515,8 @@
     },
     "qte": {
       "name": "Balance",
-      "description": {
-        "desc": "Bambinata: Vitrum spins and dances to deal Ice DMG to enemies within range.",
-        "result": ["- Deals 600% Ice DMG in total."]
-      }
+      "description": "Bambinata: Vitrum spins and dances to deal Ice DMG to enemies within range.",
+      "result": ["- Deals 600% Ice DMG in total."]
     },
     "leader": {
       "name": "Doll Dance",
@@ -7717,8 +7627,8 @@
         }
       },
       {
-        "name": "Hypermatrix Strike",
-        "button_press": "Explosion - Hypermatrix + Red 3-ping",
+        "name": "Hypermatrix Strike: Explosion",
+        "button_press": "Hypermatrix + Red 3-ping",
         "switch_in": "no",
         "description": {
           "desc": "While in Hypermatrix, Lee slams his firearm case down during a leap and summons his alternative selves from other worldlines to create a blast, dealing Fire DMG and gaining Sight Points.",
@@ -7819,10 +7729,8 @@
     },
     "qte": {
       "name": "Stealth Annihilation",
-      "description": {
-        "desc": "Fires a sniping shot, dealing  420% Fire DMG.",
-        "result": []
-      }
+      "description": "Fires a sniping shot, dealing  420% Fire DMG.",
+      "result": []
     },
     "leader": {
       "name": "Azure Flames",
@@ -8029,12 +7937,10 @@
     },
     "qte": {
       "name": "Prismatic Ribbon",
-      "description": {
-        "desc": "Ayla paints around the target with beautiful colors, dealing Ice DMG and restoring HP for teammates on the field.",
-        "result": [
-          "- Deals 600% Ice DMG and heals for HP equal to 90% of her ATK."
-        ]
-      }
+      "description": "Ayla paints around the target with beautiful colors, dealing Ice DMG and restoring HP for teammates on the field.",
+      "result": [
+        "- Deals 600% Ice DMG and heals for HP equal to 90% of her ATK."
+      ]
     },
     "leader": {
       "name": "Source of Inspiration",
@@ -8265,10 +8171,8 @@
     },
     "qte": {
       "name": "Flashes of Steel",
-      "description": {
-        "desc": "Slashes multiple times to deal 460% Lightning DMG.",
-        "result": []
-      }
+      "description": "Slashes multiple times to deal 460% Lightning DMG.",
+      "result": []
     },
     "leader": {
       "name": "Valorous Thunderclaps",
@@ -8466,14 +8370,12 @@
     },
     "qte": {
       "name": "Whirl of Stars",
-      "description": {
-        "desc": "Leaps into the air and spins, dealing DMG to the surrounding enemies and restoring the HP of nearby allies. Activates the  Ultralimit Torque effect that increases Physical DMG.",
-        "result": [
-          "- Deals 420% Physical DMG in total.",
-          "- Restores HP of allies in a large area equal to 100% of Hanying's ATK.",
-          "- Ultralimit Torque: Increases Physical DMG by 10% for 8s. Duration refreshes when stacks overlap."
-        ]
-      }
+      "description": "Leaps into the air and spins, dealing DMG to the surrounding enemies and restoring the HP of nearby allies. Activates the  Ultralimit Torque effect that increases Physical DMG.",
+      "result": [
+        "- Deals 420% Physical DMG in total.",
+        "- Restores HP of allies in a large area equal to 100% of Hanying's ATK.",
+        "- Ultralimit Torque: Increases Physical DMG by 10% for 8s. Duration refreshes when stacks overlap."
+      ]
     },
     "leader": {
       "name": "Principal Dancer",
@@ -8672,12 +8574,10 @@
     },
     "qte": {
       "name": "Feral Echo",
-      "description": {
-        "desc": "No. 21: Feral launches a descending attack on the target, dealing Lightning DMG and restoring HP.",
-        "result": [
-          "- Deals 600% Lightning DMG and heals for HP equal to 100% of her ATK."
-        ]
-      }
+      "description": "No. 21: Feral launches a descending attack on the target, dealing Lightning DMG and restoring HP.",
+      "result": [
+        "- Deals 600% Lightning DMG and heals for HP equal to 100% of her ATK."
+      ]
     },
     "leader": {
       "name": "Wolf Pack Vanguard",
@@ -8923,10 +8823,8 @@
     },
     "qte": {
       "name": "Swift Blow",
-      "description": {
-        "desc": "Punches the target that knocks them airborne, dealing Lightning DMG.",
-        "result": ["-Deals a total of 600% Lightning DMG. "]
-      }
+      "description": "Punches the target that knocks them airborne, dealing Lightning DMG.",
+      "result": ["-Deals a total of 600% Lightning DMG. "]
     },
     "leader": {
       "name": "Thrill of Violence",
@@ -9120,12 +9018,10 @@
     },
     "qte": {
       "name": "Advent of Justice",
-      "description": {
-        "desc": "Fires multiple arrows at the enemy, dealing Physical DMG and healing HP.",
-        "result": [
-          "- Deals 600% Physical DMG and heals for 100% of ATK in total. "
-        ]
-      }
+      "description": "Fires multiple arrows at the enemy, dealing Physical DMG and healing HP.",
+      "result": [
+        "- Deals 600% Physical DMG and heals for 100% of ATK in total. "
+      ]
     },
     "leader": {
       "name": "Harbinger of Law",
@@ -9372,7 +9268,7 @@
     "qte": {
       "name": "Tidal Phantom",
       "description": "Swings Halberd Blade at the target, dealing Dark DMG.",
-      "results": ["- Deals 600% Dark DMG in total."]
+      "result": ["- Deals 600% Dark DMG in total."]
     },
     "leader": {
       "name": "Cornflower's Shadow",
@@ -9603,10 +9499,8 @@
     },
     "qte": {
       "name": "Starry Mirage",
-      "description": {
-        "desc": "Rapidly performs powerful slashes at the target, dealing Fire DMG.",
-        "result": ["- Deals a total of 300% Fire DMG."]
-      }
+      "description": "Rapidly performs powerful slashes at the target, dealing Fire DMG.",
+      "result": ["- Deals a total of 300% Fire DMG."]
     },
     "leader": {
       "name": "Alter Ego",
@@ -9813,12 +9707,10 @@
     },
     "qte": {
       "name": "Pincer Besiegement",
-      "description": {
-        "desc": "Consecutively spins and slashes to pull in nearby enemies, dealing Fire DMG, and inflicting them with  Scorching Invasion which reduces the target's Fire Resistance.",
-        "result": [
-          "- Deals 600% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
-        ]
-      }
+      "description": "Consecutively spins and slashes to pull in nearby enemies, dealing Fire DMG, and inflicting them with  Scorching Invasion which reduces the target's Fire Resistance.",
+      "result": [
+        "- Deals 600% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
+      ]
     },
     "leader": {
       "name": "Guardian's Aegis",
@@ -10029,10 +9921,8 @@
     },
     "qte": {
       "name": "Peafowl's Luster",
-      "description": {
-        "desc": "Performs a powerful slash, dealing Ice DMG.",
-        "result": ["- Deals a total of 600% Ice DMG."]
-      }
+      "description": "Performs a powerful slash, dealing Ice DMG.",
+      "result": ["- Deals a total of 600% Ice DMG."]
     },
     "leader": {
       "name": "Tabula Manushya-Loka",
@@ -10322,10 +10212,8 @@
     },
     "qte": {
       "name": "Intrusion Protocol",
-      "description": {
-        "desc": "Teddy: Decryptor rides the bear paw and throws musical notes, dealing 400% Dark DMG.\nAfterwards, activates Overflow Zone that lasts for 4s.",
-        "result": []
-      }
+      "description": "Teddy: Decryptor rides the bear paw and throws musical notes, dealing 400% Dark DMG.\nAfterwards, activates Overflow Zone that lasts for 4s.",
+      "result": []
     },
     "leader": {
       "name": "\"Safe Domain Name\"",
@@ -10599,10 +10487,8 @@
     },
     "qte": {
       "name": "Cataclysmic Advent",
-      "description": {
-        "desc": "Slashes with the Bladed Wing, dealing Void DMG.",
-        "result": ["- Deals a total of 600% Void DMG."]
-      }
+      "description": "Slashes with the Bladed Wing, dealing Void DMG.",
+      "result": ["- Deals a total of 600% Void DMG."]
     },
     "leader": {
       "name": "Red Moon in the Empty Sky",
@@ -10868,12 +10754,10 @@
     },
     "qte": {
       "name": "Powerful Fist ",
-      "description": {
-        "desc": "Rushes and pulls in targets, dealing 600% Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance.",
-        "result": [
-          "- Scorching Invasion reduces the target's Fire Resistance by 10% for 8s."
-        ]
-      }
+      "description": "Rushes and pulls in targets, dealing 600% Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance.",
+      "result": [
+        "- Scorching Invasion reduces the target's Fire Resistance by 10% for 8s."
+      ]
     },
     "leader": {
       "name": "Wholehearted Synergy ",
@@ -11110,13 +10994,11 @@
     },
     "qte": {
       "name": "Hegemon's Fall",
-      "description": {
-        "desc": "Gathers the surrounding enemy units while dealing Physical DMG, inflicting the targets with the  Piercing Strike effect that reduces Physical Defense and the  Penetrating Pivot effect that reduces Physical Resistance.",
-        "result": [
-          "- Piercing Strike reduces the target's Physical Defense by 20% for 8s.",
-          "- Penetrating Pivot reduces the target's Physical Resistance by 10% for 8s."
-        ]
-      }
+      "description": "Gathers the surrounding enemy units while dealing Physical DMG, inflicting the targets with the  Piercing Strike effect that reduces Physical Defense and the  Penetrating Pivot effect that reduces Physical Resistance.",
+      "result": [
+        "- Piercing Strike reduces the target's Physical Defense by 20% for 8s.",
+        "- Penetrating Pivot reduces the target's Physical Resistance by 10% for 8s."
+      ]
     },
     "leader": {
       "name": "Jolted From a Dream",
@@ -11454,12 +11336,10 @@
     },
     "qte": {
       "name": "Point-blank Shooting",
-      "description": {
-        "desc": "Rushes and strikes forward, firing at close range. Deals Ice DMG and debuffs enemies.",
-        "result": [
-          "- Deals 600% Ice DMG and inflicts enemies with the Frost Corrosion effect that reduces Ice Resistance by 25% for 8s."
-        ]
-      }
+      "description": "Rushes and strikes forward, firing at close range. Deals Ice DMG and debuffs enemies.",
+      "result": [
+        "- Deals 600% Ice DMG and inflicts enemies with the Frost Corrosion effect that reduces Ice Resistance by 25% for 8s."
+      ]
     },
     "leader": {
       "name": "A Clear Heart Drowned in Illusions",
