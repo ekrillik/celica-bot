@@ -3230,24 +3230,18 @@
     "blue_orb": [
       {
         "name": "Frigid Roundabout",
-        "button_press": "Automatically uses a 3-Ping version of this attack upon switch-in. Switch-in triggers this character's SS-Rank Passive.",
-        "switch_in": "no",
+        "button_press": "Ping Blue Orb",
+        "switch_in": "yes",
         "description": {
-          "desc": "Blue Orb - Ping Blue Orb",
-          "result": []
+          "desc": "Whirls vertically while moving, then smashes downward to deal Physical DMG.\n**Switch-in triggers this character's SS-Rank Passive.**",
+          "result": [
+            "- Each hit deals 30% / 60% / 90% Physical DMG based on the number of orbs pinged.",
+            "- The downward slash deals 70% / 160% / 250% Physical DMG based on the number of orbs pinged."
+          ]
         }
       },
       {
-        "name": "Whirls vertically while moving, then smashes downward to deal Physical DMG.",
-        "button_press": "- Each hit deals 30% / 60% / 90% Physical DMG based on the number of orbs pinged.",
-        "switch_in": "no",
-        "description": {
-          "desc": "- The downward slash deals 70% / 160% / 250% Physical DMG based on the number of orbs pinged.",
-          "result": []
-        }
-      },
-      {
-        "name": "Whirls vertically while moving, then smashes downward to deal Physical DMG.",
+        "name": "Frigid Roundabout",
         "button_press": "Arctic Form + Ping Blue Orb",
         "switch_in": "no",
         "description": {
@@ -5616,19 +5610,11 @@
       {
         "name": "Reaper Sweep",
         "button_press": "Ping Red Orb",
-        "switch_in": "no",
+        "switch_in": "yes",
         "description": {
-          "desc": "Automatically uses this attack upon switch-in.",
-          "result": []
-        }
-      },
-      {
-        "name": "Vera",
-        "button_press": "Garnet spins her spear, gaining Shield and dealing Physical DMG (Lightning DMG instead on a 3-Ping) to nearby enemies based on the number of orbs pinged.",
-        "switch_in": "no",
-        "description": {
-          "desc": "- Gains Shield equal to 10% of her max HP.",
+          "desc": "Garnet spins her spear, gaining Shield and dealing Physical DMG (Lightning DMG instead on a 3-Ping) to nearby enemies based on the number of orbs pinged.",
           "result": [
+            "- Gains Shield equal to 10% of her max HP.",
             "- Deals 230% / 460% / 690% Physical DMG based on the number of orbs pinged."
           ]
         }
@@ -5761,8 +5747,8 @@
         }
       },
       {
-        "name": "Combo 1",
-        "button_press": "Frenzied Dance - Before the end of the 2nd hit of Basic Attack + Tap white Signal Orb",
+        "name": "Combo 1 - Frenzied Dance",
+        "button_press": "Before the end of the 2nd hit of Basic Attack + Tap white Signal Orb",
         "switch_in": "no",
         "description": {
           "desc": "Turns around and kicks the target up, dealing Physical DMG and generating Deception Points.",
@@ -5773,8 +5759,8 @@
         }
       },
       {
-        "name": "Combo 2",
-        "button_press": "Dazzling Blade - Before the end of the 3rd hit of Basic Attack + Tap white Signal Orb",
+        "name": "Combo 2 - Dazzling Blade",
+        "button_press": "Before the end of the 3rd hit of Basic Attack + Tap white Signal Orb",
         "switch_in": "no",
         "description": {
           "desc": "Dashes forward and spins multiple times, dealing Physical DMG and generating Deception Points. Gains Super Armor while casting this combo.",
@@ -5785,8 +5771,8 @@
         }
       },
       {
-        "name": "Combo 3",
-        "button_press": "Quenched Chain - Before the end of the 4th hit of Basic Attack + Tap white Signal Orb",
+        "name": "Combo 3 - Quenched Chain",
+        "button_press": "Before the end of the 4th hit of Basic Attack + Tap white Signal Orb",
         "switch_in": "no",
         "description": {
           "desc": "Leaps up to launch multiple attacks with the gun and Chain Blade, dealing Fire DMG and generating Deception Points.",
@@ -5797,19 +5783,19 @@
         }
       },
       {
-        "name": "Combo 3",
+        "name": "Basic Attack",
         "button_press": "Apex of Trickery state + Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "While in the Apex of Trickery state, attacks multiple times with the ignited blade, dealing Fire DMG with Trickery Points.- Deals 900% Fire DMG with 25 Trickery Points.",
-          "result": []
+          "desc": "While in the Apex of Trickery state, attacks multiple times with the ignited blade, dealing Fire DMG with Trickery Points.",
+          "result": ["- Deals 900% Fire DMG with 25 Trickery Points."]
         }
       }
     ],
     "red_orb": [
       {
-        "name": "Swirling Flames",
-        "button_press": "Red Orb 1st Hit - Tap Red Orb",
+        "name": "Swirling Flames - Red Orb 1st Hit",
+        "button_press": "Tap Red Orb",
         "switch_in": "no",
         "description": {
           "desc": "Quickly slashes and swipes, dealing Fire DMG.",
@@ -5817,7 +5803,7 @@
         }
       },
       {
-        "name": "Red Orb 2nd Hit",
+        "name": "Swirling Flames - Red Orb 2nd Hit",
         "button_press": "Before Red Orb 1st hit ends + At least 30 Deception Points + Tap Red Orb",
         "switch_in": "no",
         "description": {
@@ -5826,7 +5812,7 @@
         }
       },
       {
-        "name": "Red Orb 2nd Hit",
+        "name": "Swirling Flames - Red Orb",
         "button_press": "Apex of Trickery state + Tap Red Orb",
         "switch_in": "no",
         "description": {
@@ -5837,34 +5823,25 @@
     ],
     "yellow_orb": [
       {
-        "name": "Smoldering Kick",
-        "button_press": "Yellow Orb 1st Hit - Tap Yellow Orb",
-        "switch_in": "no",
+        "name": "Smoldering Kick - Yellow Orb 1st Hit",
+        "button_press": "Tap Yellow Orb",
+        "switch_in": "yes",
         "description": {
-          "desc": "Automatically uses this attack upon switch-in.",
-          "result": []
+          "desc": "Dashes forward and hits the target with knee, dealing Fire DMG. Gains Super Armor while casting this move.",
+          "result": ["- Deals 400% Fire DMG."]
         }
       },
       {
-        "name": "Dashes forward and hits the target with knee, dealing Fire DMG. Gains Super Armor while casting this move.",
-        "button_press": "- Deals 400% Fire DMG.",
+        "name": "Smoldering Kick - Yellow Orb 2nd Hit",
+        "button_press": "Before Yellow Orb 1st hit ends + At least 30 Deception Points + Tap Yellow Orb",
         "switch_in": "no",
         "description": {
-          "desc": "Yellow Orb 2nd Hit - Before Yellow Orb 1st hit ends + At least 30 Deception Points + Tap Yellow Orb",
-          "result": []
+          "desc": "Charges and kicks forward a shockwave, dealing Fire DMG and stunning the target.",
+          "result": ["- Deals 410% Fire DMG.", "- Stun lasts 2s."]
         }
       },
       {
-        "name": "Charges and kicks forward a shockwave, dealing Fire DMG and stunning the target.",
-        "button_press": "- Deals 410% Fire DMG.",
-        "switch_in": "no",
-        "description": {
-          "desc": "- Stun lasts 2s.",
-          "result": []
-        }
-      },
-      {
-        "name": "Charges and kicks forward a shockwave, dealing Fire DMG and stunning the target.",
+        "name": "Smoldering Kick - Yellow Orb",
         "button_press": "Apex of Trickery state + Tap Yellow Orb",
         "switch_in": "no",
         "description": {
@@ -5875,8 +5852,8 @@
     ],
     "blue_orb": [
       {
-        "name": "Hot Pursuit",
-        "button_press": "Blue Orb 1st Hit - Tap Blue Orb",
+        "name": "Hot Pursuit - Blue Orb 1st Hit",
+        "button_press": "Tap Blue Orb",
         "switch_in": "no",
         "description": {
           "desc": "Launches an incendiary bomb that explodes upon hitting the target, dealing AOE Fire DMG.",
@@ -5884,7 +5861,7 @@
         }
       },
       {
-        "name": "Blue Orb 2nd Hit",
+        "name": "Hot Pursuit - Blue Orb 2nd Hit",
         "button_press": "Before Blue Orb 1st hit ends + At least 30 Deception Points + Tap Blue Orb",
         "switch_in": "no",
         "description": {
@@ -5893,7 +5870,7 @@
         }
       },
       {
-        "name": "Blue Orb 2nd Hit",
+        "name": "Hot Pursuit - Blue Orb",
         "button_press": "Apex of Trickery state + Tap Blue Orb",
         "switch_in": "no",
         "description": {
@@ -6723,12 +6700,8 @@
       "name": "Missile Circus",
       "levels": [
         {
-          "rank": "After casting  Gigabyte Star Strike, switch Nanami: Starfarer out of battle to trigger  Missile Support, dealing Fire DMG.  \"Oops! Missed it!\" /  \"Perfect\" /  Burning Blow will come with the  Scorching Invasion effect that reduces the enemy's Fire Resistance. Casting  Burning Blow will trigger the QTEs that are not in cooldown yet.",
-          "desc": "-  Missile Support fires  4 missiles every  3s for  12s, dealing  800% Fire DMG in total."
-        },
-        {
           "rank": "",
-          "desc": "-  Scorching Invasion reduces the enemy's Fire Resistance by  15% for  8s."
+          "desc": "After casting Gigabyte Star Strike, switch Nanami: Starfarer out of battle to trigger Missile Support, dealing Fire DMG. \"Oops! Missed it!\"/\"Perfect\"/Burning Blow will come with the Scorching Invasion effect that reduces the enemy's Fire Resistance. Casting  Burning Blow will trigger the QTEs that are not in cooldown yet.\n- Missile Support fires 4 missiles every 3s for 12s, dealing 800% Fire DMG in total.\n- Scorching Invasion reduces the enemy's Fire Resistance by 15% for 8s."
         }
       ]
     },
@@ -6736,16 +6709,8 @@
       "name": "Flame Roaring for Victory",
       "levels": [
         {
-          "rank": "Nanani: Starfarer's  Scorching Invasion effect increases. The Extra DMG Bonuses Of  Burning Blow and  Signature - Ace Star increase. When Nanami is in the  \"Bzzz\" Mode, press and hold until the charge limit to automatically trigger  \"Perfect!\". When Nanami is in the  Slide Mode or the  \"Bzzz\" Mode, she restores Shield.",
-          "desc": "-  Scorching Invasion's effect increases by  10%."
-        },
-        {
-          "rank": "- The Extra DMG Bonus of  Burning Blow increases by  25%,",
-          "desc": "- The Extra DMG Bonus of  Signature - Ace Star increases by  25%."
-        },
-        {
           "rank": "",
-          "desc": "- When Nanami is in the  Slide Mode or the  \"Bzzz\" Mode, she restores shield equal to  10% of max HP per second, up to  50%."
+          "desc": "Nanami: Starfarer's  Scorching Invasion effect increases. The Extra DMG Bonuses Of  Burning Blow and  Signature - Ace Star increase. When Nanami is in the  \"Bzzz\" Mode, press and hold until the charge limit to automatically trigger  \"Perfect!\". When Nanami is in the  Slide Mode or the  \"Bzzz\" Mode, she restores Shield.\n- Scorching Invasion's effect increases by 10%.\n- The Extra DMG Bonus of Burning Blow increases by 25%.\n- The Extra DMG Bonus of Signature - Ace Star increases by 25%.\n- When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores shield equal to 10% of max HP per second, up to 50%."
         }
       ]
     },
@@ -6753,12 +6718,8 @@
       "name": "Mecha Drive",
       "levels": [
         {
-          "rank": "The damage recorded by  Soul of Molten Steel increases. Max Pressure increases. The  \"Rumbling\" Mode grants pressure every second.  \"Oops! Missed it!\" /  \"Perfect!\" grants bonus Pressure.",
-          "desc": "- The damage recorded by  Soul of Molten Steel increases to  100%."
-        },
-        {
-          "rank": "- Max Pressure increases to  999.",
-          "desc": "- The  \"Rumbling\" Mode grants  50 Pressure every second.  \"Oops! Missed it!\" grants  80 more Pressure."
+          "rank": "",
+          "desc": "The damage recorded by  Soul of Molten Steel increases. Max Pressure increases. The  \"Rumbling\" Mode grants pressure every second.  \"Oops! Missed it!\" /  \"Perfect!\" grants bonus Pressure.\n- The damage recorded by Soul of Molten Steel increases to 100%.\n- Max Pressure increases to 999.\n- The \"Rumbling\" Mode grants 50 Pressure every second. \"Oops! Missed it!\" grants 80 more Pressure."
         }
       ]
     }
