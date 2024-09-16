@@ -106,7 +106,6 @@ class Skills(commands.Cog):
 
             if skill_type == 'Leap' or skill_type == 'Core Passive' or skill_type == 'Basic Attack' or skill_type == 'Red Orb' or skill_type == 'Yellow Orb' or skill_type == 'Blue Orb' or skill_type == 'Signature/Ultimate':
                 if len(skill) > 1:
-                    print(skill_len)
                     embed = self.embedconf.skillsEmbed(skill, skill_type, colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3])
                     view = PaginationView(ctx.author, data=skill, pagination_type="skills", skill_type=skill_type, theme=theme)
                     view.message = await ctx.send(embed=embed, view=view)
@@ -342,7 +341,7 @@ class Skills(commands.Cog):
     @commands.command()
     async def leaplist(self, ctx: commands.Context) -> None:
 
-        
+
         await ctx.send(content="Leap List")
 
 async def setup(bot: commands.Bot):

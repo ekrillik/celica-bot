@@ -110,49 +110,41 @@ class SkillsView(discord.ui.View):
                 embed = self.spawn_items()
             # Done
             case "QTE":
-                print(self.current_page)
                 self.skill_type = "QTE"
                 self.skill = self.skills['qte']
                 self.skill_len = 0
-                print(self.skill_len)
                 embed = self.spawn_items()
             # Done
             case "Leader Passive":
-                print(self.current_page)
                 self.skill_type = "Leader Passive"
                 self.skill = self.skills['leader']
                 self.skill_len = 0
                 embed = self.spawn_items()
             # Done
             case "Class Passive":
-                print(self.current_page)
                 self.skill_type = "Class Passive"
                 self.skill = self.skills['class']
                 self.skill_len = 0
                 embed = self.spawn_items()
             # Done
             case "SS":
-                print(self.current_page)
                 self.skill_type = "SS"
                 self.skill = self.skills['ss_rank']
                 self.skill_len = 0
                 embed = self.spawn_items()
             # Done
             case "SSS":
-                print(self.current_page)
                 self.skill_type = "SSS"
                 self.skill = self.skills['sss_rank']
                 self.skill_len = 0
                 embed = self.spawn_items()
             # Done
             case "S+":
-                print(self.current_page)
                 self.skill_type = "S+"
                 self.skill = self.skills['s+_rank']
                 self.skill_len = 0
                 embed = self.spawn_items()
             case "Leap":
-                print(self.current_page)
                 self.skill_type = "Leap"
                 self.skill = self.skills['leap']
                 self.skill_len = len(self.skill)

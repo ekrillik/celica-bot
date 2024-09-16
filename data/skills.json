@@ -3193,7 +3193,7 @@
         "button_press": "Ping Blue Orb",
         "switch_in": "yes",
         "description": {
-          "desc": "Whirls vertically while moving, then smashes downward to deal Physical DMG.\n**Switch-in triggers this character's SS-Rank Passive.**",
+          "desc": "Whirls vertically while moving, then smashes downward to deal Physical DMG.",
           "result": [
             "- Each hit deals 30% / 60% / 90% Physical DMG based on the number of orbs pinged.",
             "- The downward slash deals 70% / 160% / 250% Physical DMG based on the number of orbs pinged."
@@ -3938,7 +3938,7 @@
           "name": "Core Passive",
           "button_press": "Yellow 3-Ping + Ping Follow-Up Orb",
           "description": [
-            "Automatically uses this attack upon switch-in.\nYellow Follow-Up: Leaps backward and conjures ice pieces to pull nearby enemies together. The ice pieces then explode to deal AOE Ice DMG."
+            "Yellow Follow-Up: Leaps backward and conjures ice pieces to pull nearby enemies together. The ice pieces then explode to deal AOE Ice DMG."
           ],
           "result": ["- Deals 400% AOE Ice DMG."]
         }
@@ -6695,7 +6695,7 @@
           "name": "Bitter Frost",
           "button_press": "Press and hold Dodge",
           "description": [
-            "Press and hold Dodge to activate and charge  Bitterfrost Level. Release Dodge when  Bitterfrost Level is fully charged to release  Bitter Frost, dealing Ice DMG. Releasing Dodge before fully charged will result in no attacks, and  Bitterfrost Level will gradually decrease. Getting hit while charging will deduct Dodge Gauge and performs Flash if there is enough Dodge Gauge available. Gains Super Armor and bonus Extra DMG Reduction when  Bitterfrost Level is activated."
+            "Press and hold Dodge to activate and charge Bitterfrost Level. Release Dodge when Bitterfrost Level is fully charged to release Bitter Frost, dealing Ice DMG. Releasing Dodge before fully charged will result in no attacks, and Bitterfrost Level will gradually decrease. Getting hit while charging will deduct Dodge Gauge and performs Flash if there is enough Dodge Gauge available. Gains Super Armor and bonus Extra DMG Reduction when Bitterfrost Level is activated."
           ],
           "result": [
             "- Deals 1400% Ice DMG.",
@@ -6709,7 +6709,7 @@
       "name": "Frost-Treated Blade",
       "skills": [
         {
-          "name": "Frost-Treated Blade - Critical Point",
+          "name": "Frost-Treated Blade: Critical Point",
           "button_press": "30 Energy + Tap Signature",
           "description": {
             "desc": "Casts Frost-Treated Blade: Critical Point, imbuing her weapon and turning all DMG she deals into Ice DMG. In this state, Signature Energy does not recover, but all attacks increase the Froststream Level.",
@@ -6717,7 +6717,7 @@
           }
         },
         {
-          "name": "Frost-Treated Blade - Quench",
+          "name": "Frost-Treated Blade: Quench",
           "button_press": "Has Froststream Level + Tap Signature",
           "description": {
             "desc": "Tap the Signature button again to cast Frost-Treated Blade: Quench, dealing DMG and giving all enemies Frozen Status for a period of time based on the Froststream Level. Remove Frozen Status from enemies when damaging affected enemies with Bitter Frost.",
@@ -8776,7 +8776,7 @@
         {
           "name": "Thunderous Fury",
           "button_press": "Thunder Burst Form + Ping Blast Orb",
-          "desc": [
+          "description": [
             "Launches a violent attack at the target in front, dealing Lightning DMG."
           ],
           "result": ["- Deals 380% Lightning DMG in total."]
@@ -10583,7 +10583,7 @@
       },
       {
         "name": "Whirling Brawl - Combo 4",
-        "button_press": "During the animation delay after Burst Drive + Tap Basic Attack",
+        "button_press": "Complete Combo 3 + Tap Basic Attack",
         "switch_in": "no",
         "description": {
           "desc": "Swings the Tonfas continuously to pull in and strike enemies, dealing 140% Fire DMG. Can be followed up by Starry Impulse Combo Finisher.",
@@ -10630,7 +10630,7 @@
     "yellow_orb": [
       {
         "name": "Starry Impulse - Tempest Drop",
-        "button_press": "Ping Yellow Orb",
+        "button_press": "",
         "switch_in": "yes",
         "description": {
           "desc": "All Starry Impulse combos are considered 1-Pings. They do not consume Yellow Orbs and cannot recover Signature Energy.",
