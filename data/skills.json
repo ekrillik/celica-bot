@@ -9547,15 +9547,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "When performing  Flare Strike,  Starstream Bayonet,  Limitless, and  Skyfall Blade, Fire DMG increases by  30%."
+          "desc": "When performing Flare Strike, Starstream Bayonet, Limitless, and Skyfall Blade, Fire DMG increases by 30%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "While  Cerulean Eclosion is active, BRS's ATK increases by  15%."
+          "desc": "While  Cerulean Eclosion is active, BRS's ATK increases by 15%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of  Otherworldly Eosphorus and  Bound Heart increases by  20%."
+          "desc": "Extra DMG Bonus of Otherworldly Eosphorus and Bound Heart increases by 20%."
         }
       ]
     }
@@ -10045,7 +10045,7 @@
       },
       {
         "name": "Chromatic Ambush - Red Orb",
-        "button_press": "Have NOT started any Orb Combo 1 + Ping Red Orb",
+        "button_press": "Have completed an Orb Combo 1 + Ping Red Orb",
         "switch_in": "no",
         "description": {
           "desc": "Orb Combo 2: Pulls in the targets ahead, then immediately rides the bear paw and throws musical notes, dealing Dark DMG.",
@@ -10256,7 +10256,7 @@
       ]
     },
     "s+_rank": {
-      "name": "Absolute Zero",
+      "name": "Scion's Rainbow",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
@@ -10753,7 +10753,7 @@
       ]
     },
     "qte": {
-      "name": "Powerful Fist ",
+      "name": "Powerful Fist",
       "description": "Rushes and pulls in targets, dealing 600% Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance.",
       "result": [
         "- Scorching Invasion reduces the target's Fire Resistance by 10% for 8s."
