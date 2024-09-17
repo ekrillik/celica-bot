@@ -79,7 +79,7 @@ class Builds(commands.Cog):
             else:
                 view.message = await ctx.send(view=view, embed=embed)
         else:
-            content = "This character does not exist. Please try again."
+            content = "This character does not exist. Please try again.\nYou may be searching for a character with multiple frames as well. The bot is currently not able to return builds for multiple frames based on a character search. Please use the specific frame name of the character instead.\n(For example, search \"?build oblivion\" or \"?build laurel\" instead of \"?build Luna/luna\")"
             await ctx.send(content=content)
     
         
