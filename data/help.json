@@ -16,10 +16,6 @@
   "information": [
     { "command": "links", "description": "Links for useful PGR resources" },
     {
-      "command": "cc",
-      "description": "Links to various content creators and guide makers listed by category."
-    },
-    {
       "command": "build",
       "description": "Provides a list of builds for any character."
     },
@@ -68,11 +64,6 @@
   "links": {
     "syntax": "?links",
     "description": "Links for useful PGR resources"
-  },
-  "cc": {
-    "syntax": "?cc",
-    "aliases": "?contentcreators",
-    "description": "Links to various content creators and guide makers listed by category."
   },
   "build": {
     "syntax": "?build [character name]",
