@@ -300,7 +300,7 @@ def check_nickname(nickname, caller):
             weapon = "cestus"
             cub = "n/a"
             memory = "n/a"
-        case "solacetune":
+        case "solacetune" | "yor" | "yor forger":
             character = "solacetune"
             weapon = "dreamer roamer"
             cub = ""
