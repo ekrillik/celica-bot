@@ -479,6 +479,102 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
+  "midnight raven": {
+    "name": "Midnight Raven",
+    "weapon_type": "Pioneer's Blade",
+    "rarity": 4,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/7/78/1xm6b3e49n52d7x0tkgtl5aefftkq6j.png/60px-%E6%AD%A6%E5%99%A8_%E6%BC%86%E8%89%B2%E6%B8%A1%E9%B8%A6.png",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Heat Resonance",
+      "effect_description": "ATK increases by 5%."
+    }
+  },
+  "rising wings of emerald ink": {
+    "name": "Rising Wings of Emerald Ink",
+    "weapon_type": "Longsword",
+    "rarity": 4,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/7/7c/4ulhhqj8cf0z93lyzfqthwib01t2hke.png/60px-%E6%AD%A6%E5%99%A8_%E7%BF%A0%E5%A2%A8%E9%9B%80%E5%87%8C.png",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Night Pulse",
+      "effect_description": "ATK increases by 5%."
+    }
+  },
+  "pesw ii mod": {
+    "name": "PESW-II Mod",
+    "weapon_type": "Tactical Headphones",
+    "rarity": 4,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/d/da/t1v8y9dhroiheb6awzctgtxf5b69hi7.png/60px-%E6%AD%A6%E5%99%A8_PESW-%E2%85%A1%E6%94%B9.png",
+    "atk": 224,
+    "crit": 128,
+    "effect": {
+      "effect_name": "Forced Seal",
+      "effect_description": "ATK increases by 5%."
+    }
+  },
+  "second coming": {
+    "name": "Second Coming",
+    "weapon_type": "Chakram",
+    "rarity": 4,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/4/40/puqnd1xucguunife6sjhzfe4ze1temu.png/60px-%E6%AD%A6%E5%99%A8_%E5%86%8D%E4%B8%B4.png",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Under the Crimson",
+      "effect_description": "ATK increases by 5%."
+    }
+  },
+  "standard tactical tonfas": {
+    "name": "Standard Tactical Tonfas",
+    "weapon_type": "Tactical Tonfas",
+    "rarity": 4,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/4/4c/6lv1xnu0712w45vt8t825q317afwfx5.png/60px-%E6%AD%A6%E5%99%A8_%E6%A0%87%E5%87%86%E5%9E%8B%E6%88%98%E6%9C%AF%E6%97%8B%E6%A3%8D.png",
+    "atk": 224,
+    "crit": 129,
+    "effect": {
+      "effect_name": "Gravitational Shock",
+      "effect_description": "ATK increases by 5%."
+    }
+  },
+  "autumn fringe": {
+    "name": "Autumn Fringe",
+    "weapon_type": "Pipa",
+    "rarity": 4,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/9/9c/eehimao6ftwc0lamtvbqdonpatxnxaz.png/60px-%E6%AD%A6%E5%99%A8_%E5%A1%9E%E4%B8%8A%E7%A7%8B.png",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Lone Light",
+      "effect_description": "ATK increases by 5%."
+    }
+  },
+  "locked and loaded": {
+    "name": "Locked and Loaded",
+    "weapon_type": "Revolver",
+    "rarity": 4,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/0/01/bri43phx5ztxhi6ugiozr6tpvf3suaj.png/60px-%E6%AD%A6%E5%99%A8_%E8%90%BD%E8%86%9B%E4%B9%8B%E6%97%B6.png",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Dust to Dust",
+      "effect_description": "ATK increases by 5%."
+    }
+  },
+  "prototype lb lightspeed": {
+    "name": "Prototype LB-Lightspeed",
+    "weapon_type": "Lustrous Katana",
+    "rarity": 4,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/6/6a/kxd4slpxr4g4j06083agkcr6w5bcveh.png/60px-%E6%AD%A6%E5%99%A8_%E8%AF%95%E4%BD%9C%E5%9E%8BLB-%E7%96%BE%E5%85%89.png",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Breaking the Limit",
+      "effect_description": "ATK increases by 5%."
+    }
+  },
   "photophage": {
     "name": "Photophage",
     "weapon_type": "Uniframe: Greatsword",
@@ -969,6 +1065,114 @@
     "effect": {
       "effect_name": "Raging Tide",
       "effect_desc": "Dark DMG increases by 10%."
+    }
+  },
+  "rock cannon": {
+    "name": "Rock Cannon",
+    "weapon_type": "Blade Cannon",
+    "rarity": 5,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/7/71/rait6f8d1lcnkx9rybad5s2clvucs4s.png/60px-%E6%AD%A6%E5%99%A8_%E9%BB%91%E5%B2%A9%E5%B7%A8%E7%82%AE.png",
+    "atk": 365,
+    "crit": 203,
+    "effect": {
+      "effect_name": "Skipping Star",
+      "effect_description": "Fire DMG increases by 10%."
+    }
+  },
+  "pale feather": {
+    "name": "Pale Feather",
+    "weapon_type": "Pioneer's Blade",
+    "rarity": 5,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/d/d0/ajxrjkp27vcob5z8l8z3is0cqbh3qu9.png/60px-%E6%AD%A6%E5%99%A8_%E8%8B%8D%E7%99%BD%E7%BE%BD%E8%B5%AB.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Rapid Eruption",
+      "effect_description": "Fire DMG increases by 10%."
+    }
+  },
+  "grand blessings of razor crest": {
+    "name": "Grand Blessings of Razor Crest",
+    "weapon_type": "Longsword",
+    "rarity": 5,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/3/3d/js8ax9cbr5wuesk4km0kpj8wg6zr9wt.png/60px-%E6%AD%A6%E5%99%A8_%E9%B8%BF%E6%B5%A9%E9%94%8B%E7%BE%BD.png",
+    "atk": 379,
+    "crit": 195,
+    "effect": {
+      "effect_name": "Surveying the Dawn",
+      "effect_description": "Ice DMG increases by 10%."
+    }
+  },
+  "white night jam point": {
+    "name": "White Night Jam Point",
+    "weapon_type": "Tactical Headphones",
+    "rarity": 5,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/2/27/kc0wqvhnwxgvb3qa13fx4no07uj6wmm.png/60px-%E6%AD%A6%E5%99%A8_%E7%99%BD%E5%A4%9C%E5%99%AA%E7%82%B9.png",
+    "atk": 354,
+    "crit": 195,
+    "effect": {
+      "effect_name": "Mimesis Interference",
+      "effect_description": "Dark DMG increases by 10%."
+    }
+  },
+  "darkmoon decay": {
+    "name": "Darkmoon Decay",
+    "weapon_type": "Chakram",
+    "rarity": 5,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/3/32/9ypxusg6ykjnena54wpys2hz11vnqf6.png/60px-%E6%AD%A6%E5%99%A8_%E9%BB%AF%E6%9C%88%E6%91%A7%E6%9C%BD.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Structural Collapse",
+      "effect_description": "Void DMG increases by 10%."
+    }
+  },
+  "undying gleam": {
+    "name": "Undying Gleam",
+    "weapon_type": "Tactical Tonfas",
+    "rarity": 5,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/5/5f/0zn5139tmxqrmg8ed5nh4038vjwn4aa.png/60px-%E6%AD%A6%E5%99%A8_%E4%B8%8D%E6%AF%81%E7%8E%93%E5%85%89.png",
+    "atk": 354,
+    "crit": 197,
+    "effect": {
+      "effect_name": "Passover Forbiddance",
+      "effect_description": "Fire DMG increases by 10%."
+    }
+  },
+  "moon upon begonia": {
+    "name": "Moon Upon Begonia",
+    "weapon_type": "Pipa",
+    "rarity": 5,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/2/2b/ck1k8wypykia6ap2mz2m8iv10y7jpsh.png/60px-%E6%AD%A6%E5%99%A8_%E6%9C%88%E4%B8%8A%E6%B5%B7%E6%A3%A0.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Fallacy",
+      "effect_description": "Physical DMG increases by 10%."
+    }
+  },
+  "eternal rest": {
+    "name": "Eternal Rest",
+    "weapon_type": "Revolver",
+    "rarity": 5,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/e/ec/jezhpg79lb3fimnxpwktesbh5ecb2aw.png/100px-%E6%AD%A6%E5%99%A8_%E6%95%85%E9%AD%82%E6%B0%B8%E6%81%AF.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Eye of Horus",
+      "effect_description": "Ice DMG increases by 10%."
+    }
+  },
+  "fogged glow": {
+    "name": "Fogged Glow",
+    "weapon_type": "Lustrous Katana",
+    "rarity": 5,
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/d/d4/o478srhpm590j1pojwendt63nq7xx3x.png/60px-%E6%AD%A6%E5%99%A8_%E9%9B%BE%E9%9A%90%E5%86%A5%E5%85%89.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Abyssal Spirit",
+      "effect_description": "Fire DMG increases by 10%."
     }
   },
   "glimpse": {

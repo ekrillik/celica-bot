@@ -95,14 +95,26 @@
   "claw blades": ["lightning devourer", "trio-claws", "managarm"],
   "robotic arm": ["heart of gold", "fpt-ii - mod", "crimson howl"],
   "halberd blade": ["atoll", "reversal node", "metis"],
-  "pioneer's blade": ["night falcon"],
-  "longsword": ["dwelling will of inscription's key"],
-  "tactical headphones": ["hacker's tune"],
-  "chakram": ["reconstruction of law"],
-  "tactical tonfas": ["cestus"],
-  "pipa": ["dreamer roamer"],
-  "revolver": ["hemera's gaze"],
-  "lustrous katana": ["dawn's flaming feathers"],
+  "pioneer's blade": ["midnight raven", "pale feather", "night falcon"],
+  "longsword": [
+    "rising wings of emerald ink",
+    "grand blessings of razor crest",
+    "dwelling will of inscription's key"
+  ],
+  "tactical headphones": [
+    "pesw ii mod",
+    "white night jam point",
+    "hacker's tune"
+  ],
+  "chakram": ["second coming", "darkmoon decay", "reconstruction of law"],
+  "tactical tonfas": ["standard tactical tonfas", "undying gleam", "cestus"],
+  "pipa": ["autumn fringe", "moon upon begonia", "dreamer roamer"],
+  "revolver": ["locked and loaded", "eternal rest", "hemera's gaze"],
+  "lustrous katana": [
+    "prototype lb lightspeed",
+    "fogged glow",
+    "dawn's flaming feathers"
+  ],
   "uniframe: greatsword": ["photophage", "glimpse", "thanatos"],
   "uniframe: glaive": ["iron star type vi", "guiyun", "qinghe"],
   "uniframe: cello blade": ["overture", "odette", "waldmeister"],
@@ -116,5 +128,5 @@
   "katana & greatsword": ["virtuous contract", "virtuous contract - mod"],
   "tactical lance": ["type-4o lance", "type-4o lance - mod"],
   "collab katana": ["cruel oath", "cruel oath - mod"],
-  "blade cannon": ["black rock cannon"]
+  "blade cannon": ["rock cannon", "black rock cannon"]
 }

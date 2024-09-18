@@ -361,35 +361,67 @@
     },
     {
       "name": "Pioneer's Blades",
-      "list": ["Night Falcon ######"]
+      "list": [
+        "Night Falcon ######",
+        "Pale Feather #####",
+        "Midnight Raven ####"
+      ]
     },
     {
       "name": "Longswords",
-      "list": ["Dwelling Will of Inscription's Key ######"]
+      "list": [
+        "Dwelling Will of Inscription's Key ######",
+        "Grand Blessings of Razor Crest #####",
+        "Rising Wings of Emerald Ink ####"
+      ]
     },
     {
       "name": "Tactical Headphones'",
-      "list": ["Hacker's Tune ######"]
+      "list": [
+        "Hacker's Tune ######",
+        "White Night Jam Point #####",
+        "PESW-II Mod ####"
+      ]
     },
     {
       "name": "Chakrams",
-      "list": ["Reconstruction of Law ######"]
+      "list": [
+        "Reconstruction of Law ######",
+        "Darkmoon Decay #####",
+        "Second Coming ####"
+      ]
     },
     {
       "name": "Tactical Tonfas",
-      "list": ["Cestus ######"]
+      "list": [
+        "Cestus ######",
+        "Undying Gleam #####",
+        "Standard Tactical Tonfas ####"
+      ]
     },
     {
       "name": "Pipas",
-      "list": ["Dreamer Roamer ######"]
+      "list": [
+        "Dreamer Roamer ######",
+        "Moon Upon Begonia #####",
+        "Autumn Fringe ####"
+      ]
     },
     {
       "name": "Revolvers",
-      "list": ["Hemera's Gaze ######"]
+      "list": [
+        "Hemera's Gaze ######",
+        "Eternal Rest #####",
+        "Locked and Loaded ####"
+      ]
     },
     {
       "name": "Lustrous Katanas",
-      "list": ["Dawn's Flaming Feathers ######"]
+      "list": [
+        "Dawn's Flaming Feathers ######",
+        "Fogged Glow #####",
+        "Prototype LB-Lightspeed ####"
+      ]
     },
     {
       "name": "Uniframe: Greatswords",
@@ -433,7 +465,7 @@
     },
     {
       "name": "Blade Cannons",
-      "list": ["Black Rock Cannon ######"]
+      "list": ["Black Rock Cannon ######", "Rock Cannon #####"]
     }
   ]
 }
