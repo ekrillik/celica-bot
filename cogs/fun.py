@@ -19,9 +19,9 @@ class Fun(commands.Cog):
         self.last_pasta_command_ran = 0.00
         self.last_bubblewrap_command_ran = 0.00
 
-
-
     # The following commands are restricted to specific servers/not usable within PGR:O
+    # Disallowed Servers: Dud bot testing server, PGR:O, Personal Discord Server 
+    # Allowed Servers: Celica's Office, Nnin's Corner 
 
     @commands.Cog.listener()
     async def on_ready(self):
