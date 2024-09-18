@@ -1,4 +1,4 @@
-TERMS OF SERVICE AGREEMENT
+# Terms of Service Agreement
 
 This Terms of Service Agreement (the "Agreement") is entered into between [Ek] ("Bot Owner") and the user ("User") of Celica (the "Bot").
 
