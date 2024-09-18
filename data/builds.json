@@ -1859,7 +1859,7 @@
     ]
   },
   "oblivion": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051> Luna",
+    "unit_name": "<:S_:1283759845995974727><:annihilator:1285900128489701436><:void_element:1285900049909284864> Luna",
     "frame_name": "Oblivion",
     "set_list": ["4 Cleopatra 2 Cottie Harmo"],
     "builds": [

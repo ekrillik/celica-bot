@@ -359,6 +359,20 @@ class EmbedClass:
                 )
         return embed
 
+    def create_characterlist_embed(self, characterlist):
+        embed = discord.Embed(
+            title=f"List of Characters",
+            description="",
+            color=discord.Color(0x3d6e41)
+        )
+        for character in characterlist:
+            embed.add_field(
+                name="",
+                value=f"`{character}`",
+                inline=False
+            )
+        return embed
+
     def create_list_embed(self, name, items, curpage, maxlistcount):
         embed = discord.Embed(
             title=f"List of {name}",
