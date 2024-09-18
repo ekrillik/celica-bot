@@ -14,8 +14,10 @@ class Fun(commands.Cog):
         self.embedconf = EmbedClass()
         self.disallowed_server_ids = [1285561465537040384, 595893569609269251, 361043659107467264]
         self.allowed_server_ids = [1280331315115327488, 1272185726699573358]
-        self.spam_command_ran = False
-        self.last_command_ran = 0.00
+        self.pasta_command_ran = False
+        self.bubblewrap_command_ran = False
+        self.last_pasta_command_ran = 0.00
+        self.last_bubblewrap_command_ran = 0.00
 
 
 
@@ -35,17 +37,17 @@ class Fun(commands.Cog):
     async def pasta(self, ctx: commands.Context) -> None:
         if ctx.guild.id in self.allowed_server_ids:
             start = time.time()
-            if(self.spam_command_ran == True):
-                if((start - self.last_command_ran) > 30 ):
-                    self.spam_command_ran = False
+            if(self.pasta_command_ran == True):
+                if((start - self.last_pasta_command_ran) > 5 ):
+                    self.pasta_command_ran = False
 
-            if(self.spam_command_ran == False):
-                self.spam_command_ran = True
-                self.last_command_ran = start
+            if(self.pasta_command_ran == False):
+                self.pasta_command_ran = True
+                self.last_pasta_command_ran = start
                 embed = discord.Embed(title="This is a pasta.", description="This is a pasta")
                 await ctx.send(embed=embed)
             else:
-                await ctx.send(content="This command has been ran recently. Please wait.")
+                await ctx.send(content="A pasta has been spawned recently. Please wait.")
             
     @commands.command()
     async def dalaos(self, ctx: commands.Context) -> None:
@@ -61,9 +63,19 @@ class Fun(commands.Cog):
     @commands.command()
     async def bubblewrap(self, ctx: commands.Context) -> None:
         if ctx.guild.id in self.allowed_server_ids:
-            embed = discord.Embed(title="Free Bubble Wrap", description="")
-            embed.add_field(name="", value=f"||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||")
-            await ctx.send(embed=embed)
+            start = time.time()
+            if(self.spam_command_ran == True):
+                if((start - self.last_bubblewrap_command_ran) > 30 ):
+                    self.spam_command_ran = False
+
+            if(self.spam_command_ran == False):
+                self.spam_command_ran = True
+                self.last_bubblewrap_command_ran = start
+                embed = discord.Embed(title="Free Bubble Wrap", description="")
+                embed.add_field(name="", value=f"||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||")
+                await ctx.send(embed=embed)
+            else:
+                await ctx.send(content="We have apparently ran out of bubble wraps! Please kindly wait for a moment until we get another one.")
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Fun(bot))
