@@ -60,7 +60,7 @@ class Fun(commands.Cog):
             embed.add_field(name="Warzone", value=f"[sNazz](https://www.youtube.com/@sNazzkun)\n[Empress](https://www.youtube.com/@Oksohee)\n[Setsu](https://www.youtube.com/@Setsugekwa)")
             await ctx.send(embed=embed)
 
-    @commands.command()
+    @commands.command(aliases=['bubble'])
     async def bubblewrap(self, ctx: commands.Context) -> None:
         if ctx.guild.id in self.allowed_server_ids:
             start = time.time()
