@@ -68,95 +68,283 @@
     {
       "type": "Attackers",
       "constructs": [
-        "<:B_:1283759795232571485><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lucia: Lotus",
-        "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Lucia: Dawn",
-        "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lee: Palefire",
-        "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> Watanabe: Nightblade",
-        "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> Bianca: Zero",
-        "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> Karenina: Blast",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Lee: Entropy",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Karenina: Ember",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Lucia: Crimson Abyss",
-        "<:A_:1283759728979349580><:attacker:1283760012274958346><:dark_element:1283760052225835051> Watanabe: Astral",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Bianca: Veritas",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946> Lucia: Plume",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051> Luna: Laurel",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> 2B: 2B",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Bianca: Stigmata",
-        "<:A_:1283759728979349580><:attacker:1283760012274958346><:ice_element:1283760120270032946> Bambinata: Vitrum",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lee: Hyperreal",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Lucia: Crimson Weave",
-        "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Noctis: Indomitus",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051> Lamia: Lost Lullaby",
-        "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> BRS: BRS",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946> Qu: Shukra",
-        "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lucia: Pyroath",
-        "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Yata: Fulgor"
+        {
+          "emojis": "<:B_:1283759795232571485><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
+          "full_name": "Lucia: Lotus"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056>",
+          "full_name": "Lucia: Dawn"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> ",
+          "full_name": "Lee: Palefire"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096>",
+          "full_name": "Watanabe: Nightblade"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096>",
+          "full_name": "Bianca: Zero"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
+          "full_name": "Karenina: Blast"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096>",
+          "full_name": "Lee: Entropy"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
+          "full_name": "Karenina: Ember"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096>",
+          "full_name": "Lucia: Crimson Abyss"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:dark_element:1283760052225835051>",
+          "full_name": "Watanabe: Astral"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056>",
+          "full_name": "Bianca: Veritas"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051>",
+          "full_name": "Luna: Laurel"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096>",
+          "full_name": "2B: 2B"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096>",
+          "full_name": "Bianca: Stigmata"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:ice_element:1283760120270032946>",
+          "full_name": "Bambinata: Vitrum"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
+          "full_name": "Lee: Hyperreal"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056>",
+          "full_name": "Lucia: Crimson Weave"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056>",
+          "full_name": "Noctis: Indomitus"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051>",
+          "full_name": "Lamia: Lost Lullaby"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
+          "full_name": "BRS: BRS"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946>",
+          "full_name": "Qu: Shukra"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
+          "full_name": "Lucia: Pyroath"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> ",
+          "full_name": "Yata: Fulgor"
+        }
       ]
     },
     {
       "type": "Tanks",
       "constructs": [
-        "<:B_:1283759795232571485><:tank:1283760248980770889><:physical_element:1283760180386861096> Nanami: Storm",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096> Nanami: Pulse",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051> Kamui: Tenebrion",
-        "<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096> Kamui: Bastion",
-        "<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096> Ayla: Brilliance",
-        "<:A_:1283759728979349580><:tank:1283760248980770889><:lightning_element:1283760149755990056> Chrome: Arclight",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Rosetta: Rigor",
-        "<:A_:1283759728979349580><:tank:1283760248980770889><:ice_element:1283760120270032946> Changyu: Qilin",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> A2: A2",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> Chrome: Glory",
-        "<:A_:1283759728979349580><:tank:1283760248980770889><:dark_element:1283760052225835051> No. 21: XXI",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056> Vera: Garnet",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096 Nanami: Starfarer",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051> Karenina: Scire",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096 Watanabe: Epitaph",
-        "<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096 Bridget: Ardeo",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Hanying: Solacetune",
-        "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> Wanshi: Lucid Dreamer"
+        {
+          "emojis": "<:B_:1283759795232571485><:tank:1283760248980770889><:physical_element:1283760180386861096>",
+          "full_name": "Nanami: Storm"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096>",
+          "full_name": "Nanami: Pulse"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051>",
+          "full_name": "Kamui: Tenebrion"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096>",
+          "full_name": "Kamui: Bastion"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096>",
+          "full_name": "Ayla: Brilliance"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:tank:1283760248980770889><:lightning_element:1283760149755990056>",
+          "full_name": "Chrome: Arclight"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096>",
+          "full_name": "Rosetta: Rigor"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:tank:1283760248980770889><:ice_element:1283760120270032946>",
+          "full_name": "Changyu: Qilin"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096>",
+          "full_name": "A2: A2"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946>",
+          "full_name": "Chrome: Glory"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:tank:1283760248980770889><:dark_element:1283760052225835051>",
+          "full_name": "No. 21: XXI"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056>",
+          "full_name": "Vera: Garnet"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096>",
+          "full_name": "Nanami: Starfarer"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051>",
+          "full_name": "Karenina: Scire"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096>",
+          "full_name": "Watanabe: Epitaph"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096>",
+          "full_name": "Bridget: Ardeo"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096>",
+          "full_name": "Hanying: Solacetune"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946>",
+          "full_name": "Wanshi: Lucid Dreamer"
+        }
       ]
     },
     {
       "type": "Supporters",
       "constructs": [
-        "<:B_:1283759795232571485><:support:1283760217540132905><:physical_element:1283760180386861096> Liv: Eclipse",
-        "<:A_:1283759728979349580><:support:1283760217540132905><:lightning_element:1283760149755990056> Liv: Lux",
-        "<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096> Liv: Luminance",
-        "<:A_:1283759728979349580><:support:1283760217540132905><:fire_element:1283760089119064096> Sophia: Silverfang",
-        "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051> Vera: Rozen",
-        "<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096> 9S: 9S",
-        "<:A_:1283759728979349580><:support:1283760217540132905><:ice_element:1283760120270032946> Wanshi: Hypnos",
-        "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051> Teddy: Decryptor",
-        "<:A_:1283759728979349580><:support:1283760217540132905><:physical_element:1283760180386861096> Hanying: Zitherwoe"
+        {
+          "emojis": "<:B_:1283759795232571485><:support:1283760217540132905><:physical_element:1283760180386861096>",
+          "full_name": "Liv: Eclipse"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:support:1283760217540132905><:lightning_element:1283760149755990056>",
+          "full_name": "Liv: Lux"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096>",
+          "full_name": "Liv: Luminance"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:support:1283760217540132905><:fire_element:1283760089119064096>",
+          "full_name": "Sophia: Silverfang"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051>",
+          "full_name": "Vera: Rozen"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096>",
+          "full_name": "9S: 9S"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:support:1283760217540132905><:ice_element:1283760120270032946>",
+          "full_name": "Wanshi: Hypnos"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:support:1283760217540132905><:physical_element:1283760180386861096>",
+          "full_name": "Hanying: Zitherwoe"
+        },
+        {
+          "emojis": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051>",
+          "full_name": "Teddy: Decryptor"
+        }
       ]
     },
     {
       "type": "Amplifiers",
       "constructs": [
-        "<:S_:1283759845995974727><:amplifier:1283759979689545748><:fire_element:1283760089119064096> Liv: Empyrea",
-        "<:S_:1283759845995974727><:amplifier:1283759979689545748><:dark_element:1283760052225835051> Selena: Capriccio",
-        "<:S_:1283759845995974727><:amplifier:1283759979689545748><:ice_element:1283760120270032946> Ayla: Kaleido",
-        "<:S_:1283759845995974727><:amplifier:1283759979689545748><:lightning_element:1283760149755990056> No. 21: Feral",
-        "<:S_:1283759845995974727><:amplifier:1283759979689545748><:physical_element:1283760180386861096> Alisa: Echo"
+        {
+          "emojis": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:fire_element:1283760089119064096>",
+          "full_name": "Liv: Empyrea"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:dark_element:1283760052225835051>",
+          "full_name": "Selena: Capriccio"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:ice_element:1283760120270032946>",
+          "full_name": "Ayla: Kaleido"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:lightning_element:1283760149755990056>",
+          "full_name": "No. 21: Feral"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:physical_element:1283760180386861096>",
+          "full_name": "Alisa: Echo"
+        }
       ]
     },
     {
       "type": "Annihilators",
       "constructs": [
-        "<:S_:1283759845995974727><:annihilator:1285900128489701436><:void_element:1285900049909284864> Luna: Oblivion"
+        {
+          "emojis": "<:S_:1283759845995974727><:annihilator:1285900128489701436><:void_element:1285900049909284864>",
+          "full_name": "Luna: Oblivion"
+        }
       ]
     },
     {
       "type": "Uniframes",
       "constructs": [
-        "<:S_:1283759845995974727><:vanguard:1283760278630305793><:dark_element:1283760052225835051> Camu: Crocotta",
-        "<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096> Qu: Pavo",
-        "<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056> Selena: Tempest",
-        "<:S_:1283759845995974727><:vanguard:1283760278630305793><:fire_element:1283760089119064096> Roland: Flambeau",
-        "<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096> Pulao: Dragontoll",
-        "<:S_:1283759845995974727><:vanguard:1283760278630305793><:ice_element:1283760120270032946> Haicma: Starveil",
-        "<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056> Noan: Arca"
+        {
+          "emojis": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:dark_element:1283760052225835051>",
+          "full_name": "Camu: Crocotta"
+        }
+        {
+          "emojis": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096>",
+          "full_name":  "Qu: Pavo"
+        }
+        {
+          "emojis": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056>",
+          "full_name": "Selena: Tempest"
+        }
+        {
+          "emojis": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:fire_element:1283760089119064096>",
+          "full_name": "Roland: Flambeau"
+        }
+        {
+          "emojis": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096>",
+          "full_name": "Pulao: Dragontoll"
+        }
+        {
+          "emojis": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:ice_element:1283760120270032946>",
+          "full_name": "Haicma: Starveil"
+        }
+        {
+          "emojis": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056>",
+          "full_name": "Noan: Arca"
+        },
       ]
     }
   ]

@@ -368,7 +368,7 @@ class EmbedClass:
         for character in characterlist['constructs']:
             embed.add_field(
                 name="",
-                value=f"`{character}`",
+                value=f"{character['emojis']}`{character['full_name']}`",
                 inline=False
             )
         return embed
