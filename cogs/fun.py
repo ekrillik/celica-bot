@@ -64,12 +64,12 @@ class Fun(commands.Cog):
     async def bubblewrap(self, ctx: commands.Context) -> None:
         if ctx.guild.id in self.allowed_server_ids:
             start = time.time()
-            if(self.spam_command_ran == True):
+            if(self.bubblewrap_command_ran == True):
                 if((start - self.last_bubblewrap_command_ran) > 30 ):
-                    self.spam_command_ran = False
+                    self.bubblewrap_command_ran = False
 
-            if(self.spam_command_ran == False):
-                self.spam_command_ran = True
+            if(self.bubblewrap_command_ran == False):
+                self.bubblewrap_command_ran = True
                 self.last_bubblewrap_command_ran = start
                 embed = discord.Embed(title="Free Bubble Wrap", description="")
                 embed.add_field(name="", value=f"||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||\n||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop|| ||pop||")
