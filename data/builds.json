@@ -1881,5 +1881,85 @@
         "harmony_rec": "Cottie"
       }
     ]
+  },
+  "ardeo": {
+    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096> Bridget",
+    "frame_name": "Ardeo",
+    "set_list": ["Placeholder"],
+    "builds": [
+      {
+        "set_name": "Placeholder",
+        "set_type": "N/A",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["N/A"],
+        "memory_resonance": ["Top Slot   : N/A", "Bottom Slot: N/A"],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "solacetune": {
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Hanying",
+    "frame_name": "Solacetune",
+    "set_list": ["Placeholder"],
+    "builds": [
+      {
+        "set_name": "Placeholder",
+        "set_type": "N/A",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["N/A"],
+        "memory_resonance": ["Top Slot   : N/A", "Bottom Slot: N/A"],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "lucid dreamer": {
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> Wanshi",
+    "frame_name": "Lucid Dreamer",
+    "set_list": ["Placeholder"],
+    "builds": [
+      {
+        "set_name": "Placeholder",
+        "set_type": "N/A",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["N/A"],
+        "memory_resonance": ["Top Slot   : N/A", "Bottom Slot: N/A"],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "pyroath": {
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lucia",
+    "frame_name": "Pyroath",
+    "set_list": ["Placeholder"],
+    "builds": [
+      {
+        "set_name": "Placeholder",
+        "set_type": "N/A",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["N/A"],
+        "memory_resonance": ["Top Slot   : N/A", "Bottom Slot: N/A"],
+        "harmony_rec": "N/A"
+      }
+    ]
   }
 }
