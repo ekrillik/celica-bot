@@ -69,7 +69,7 @@ class Help(commands.Cog):
         )
         embed.add_field(name="Officials", value=f"[Website](https://pgr.kurogame.net/)\n[Youtube](https://www.youtube.com/@PunishingGrayRaven)\n[BiliBili](https://space.bilibili.com/382651856)")
         embed.add_field(name="Wikis", value=f"[Gray Ravens](https://grayravens.com/wiki/GRAY_RAVENS)\n[Bili Wiki](https://wiki.biligame.com/zspms/%E9%A6%96%E9%A1%B5)")
-        embed.add_field(name="Competitive Info", value=f"[Huaxu](https://huaxu.app/)\n[Setsu's Experimental Spreadsheet](https://docs.google.com/spreadsheets/d/1t7TXDtfZdpHQy8SZAeIMpxcSi1pheSUVgDwkhicCw6s)")
+        embed.add_field(name="Competitive Info", value=f"[Huaxu](https://huaxu.app/)\n[Setsu's Harmo Spreadsheet](https://docs.google.com/spreadsheets/d/1t7TXDtfZdpHQy8SZAeIMpxcSi1pheSUVgDwkhicCw6s)")
 
         embed.add_field(name="Planning", value=f"[BC Planner](https://docs.google.com/spreadsheets/d/1nNauBXGcHv_7AepLWBLo4ykl3V_EhxpK)")
 
