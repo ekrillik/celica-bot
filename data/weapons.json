@@ -488,7 +488,7 @@
     "crit": 131,
     "effect": {
       "effect_name": "Heat Resonance",
-      "effect_description": "ATK increases by 5%."
+      "effect_desc": "ATK increases by 5%."
     }
   },
   "rising wings of emerald ink": {
@@ -500,7 +500,7 @@
     "crit": 131,
     "effect": {
       "effect_name": "Night Pulse",
-      "effect_description": "ATK increases by 5%."
+      "effect_desc": "ATK increases by 5%."
     }
   },
   "pesw ii mod": {
@@ -512,7 +512,7 @@
     "crit": 128,
     "effect": {
       "effect_name": "Forced Seal",
-      "effect_description": "ATK increases by 5%."
+      "effect_desc": "ATK increases by 5%."
     }
   },
   "second coming": {
@@ -524,7 +524,7 @@
     "crit": 131,
     "effect": {
       "effect_name": "Under the Crimson",
-      "effect_description": "ATK increases by 5%."
+      "effect_desc": "ATK increases by 5%."
     }
   },
   "standard tactical tonfas": {
@@ -536,7 +536,7 @@
     "crit": 129,
     "effect": {
       "effect_name": "Gravitational Shock",
-      "effect_description": "ATK increases by 5%."
+      "effect_desc": "ATK increases by 5%."
     }
   },
   "autumn fringe": {
@@ -548,7 +548,7 @@
     "crit": 131,
     "effect": {
       "effect_name": "Lone Light",
-      "effect_description": "ATK increases by 5%."
+      "effect_desc": "ATK increases by 5%."
     }
   },
   "locked and loaded": {
@@ -560,7 +560,7 @@
     "crit": 131,
     "effect": {
       "effect_name": "Dust to Dust",
-      "effect_description": "ATK increases by 5%."
+      "effect_desc": "ATK increases by 5%."
     }
   },
   "prototype lb lightspeed": {
@@ -572,7 +572,7 @@
     "crit": 131,
     "effect": {
       "effect_name": "Breaking the Limit",
-      "effect_description": "ATK increases by 5%."
+      "effect_desc": "ATK increases by 5%."
     }
   },
   "photophage": {
@@ -1076,7 +1076,7 @@
     "crit": 203,
     "effect": {
       "effect_name": "Skipping Star",
-      "effect_description": "Fire DMG increases by 10%."
+      "effect_desc": "Fire DMG increases by 10%."
     }
   },
   "pale feather": {
@@ -1088,7 +1088,7 @@
     "crit": 201,
     "effect": {
       "effect_name": "Rapid Eruption",
-      "effect_description": "Fire DMG increases by 10%."
+      "effect_desc": "Fire DMG increases by 10%."
     }
   },
   "grand blessings of razor crest": {
@@ -1100,7 +1100,7 @@
     "crit": 195,
     "effect": {
       "effect_name": "Surveying the Dawn",
-      "effect_description": "Ice DMG increases by 10%."
+      "effect_desc": "Ice DMG increases by 10%."
     }
   },
   "white night jam point": {
@@ -1112,7 +1112,7 @@
     "crit": 195,
     "effect": {
       "effect_name": "Mimesis Interference",
-      "effect_description": "Dark DMG increases by 10%."
+      "effect_desc": "Dark DMG increases by 10%."
     }
   },
   "darkmoon decay": {
@@ -1124,7 +1124,7 @@
     "crit": 201,
     "effect": {
       "effect_name": "Structural Collapse",
-      "effect_description": "Void DMG increases by 10%."
+      "effect_desc": "Void DMG increases by 10%."
     }
   },
   "undying gleam": {
@@ -1136,7 +1136,7 @@
     "crit": 197,
     "effect": {
       "effect_name": "Passover Forbiddance",
-      "effect_description": "Fire DMG increases by 10%."
+      "effect_desc": "Fire DMG increases by 10%."
     }
   },
   "moon upon begonia": {
@@ -1148,7 +1148,7 @@
     "crit": 201,
     "effect": {
       "effect_name": "Fallacy",
-      "effect_description": "Physical DMG increases by 10%."
+      "effect_desc": "Physical DMG increases by 10%."
     }
   },
   "eternal rest": {
@@ -1160,7 +1160,7 @@
     "crit": 201,
     "effect": {
       "effect_name": "Eye of Horus",
-      "effect_description": "Ice DMG increases by 10%."
+      "effect_desc": "Ice DMG increases by 10%."
     }
   },
   "fogged glow": {
@@ -1172,7 +1172,7 @@
     "crit": 201,
     "effect": {
       "effect_name": "Abyssal Spirit",
-      "effect_description": "Fire DMG increases by 10%."
+      "effect_desc": "Fire DMG increases by 10%."
     }
   },
   "glimpse": {
