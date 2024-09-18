@@ -14,6 +14,8 @@ class Fun(commands.Cog):
         self.disallowed_server_ids = [1285561465537040384, 595893569609269251, 361043659107467264]
         self.allowed_server_ids = [1280331315115327488, 1272185726699573358]
 
+    # The following commands are restricted to specific servers/not usable within PGR:O
+
     @commands.Cog.listener()
     async def on_ready(self):
         print('Fun loaded.')
@@ -39,6 +41,13 @@ class Fun(commands.Cog):
             )
             embed.add_field(name="PPC", value=f"[Windbell](https://www.youtube.com/@10thwindbell)\n[Fel](https://www.youtube.com/@FelPGR)\n[Acaxi](https://www.youtube.com/@notacaxi)\n[GlobalGlory](https://m.youtube.com/@GlobalGlorypgr)\n[Yor Forger](https://m.youtube.com/@yorforgerpgr)")
             embed.add_field(name="Warzone", value=f"[sNazz](https://www.youtube.com/@sNazzkun)\n[Empress](https://www.youtube.com/@Oksohee)\n[Setsu](https://www.youtube.com/@Setsugekwa)")
+            await ctx.send(embed=embed)
+
+    @commands.command()
+    async def bubblewrap(self, ctx: commands.Context) -> None:
+        if ctx.guild.id in self.allowed_server_ids:
+            embed = discord.Embed(title="Free Bubble Wrap", description="")
+            embed.add_field(name="", value=f"||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||||pop||")
             await ctx.send(embed=embed)
 
 async def setup(bot: commands.Bot):

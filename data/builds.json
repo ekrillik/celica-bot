@@ -823,7 +823,7 @@
     "set_list": [
       "4 Tifa 2 Einsteina",
       "4 Da Vinci 2 Einsteina",
-      "4 Tifa 4 Heisen Harmo"
+      "4 Tifa 4 Heisen"
     ],
     "builds": [
       {
@@ -855,7 +855,7 @@
         "harmony_rec": "N/A"
       },
       {
-        "set_name": "4 Tifa 4 Heisen Harmo",
+        "set_name": "4 Tifa 4 Heisen",
         "set_type": "Main Harmony",
         "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
         "description": ["Harmony Set", "Used at all ranks."],
@@ -891,13 +891,13 @@
     "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:fire_element:1283760089119064096> Liv",
     "frame_name": "Empyrea",
     "set_list": [
-      "4 Elizabeth 2 Cottie Harmo",
+      "4 Elizabeth 2 Cottie",
       "4 Da Vinci 2 Guinevere Harmo",
       "4 Guinevere 2 Gloria"
     ],
     "builds": [
       {
-        "set_name": "4 Elizabeth 2 Cottie Harmo",
+        "set_name": "4 Elizabeth 2 Cottie",
         "set_type": "Main",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Norman, Clash Reflection",
         "description": ["SSS or lower", "General DPS/sub-DPS set"],
@@ -962,19 +962,18 @@
     "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:dark_element:1283760052225835051> Selena",
     "frame_name": "Capriccio",
     "set_list": [
-      "4 Seraphine 2 Cottie Harmo",
+      "4 Seraphine 2 Cottie",
       "4 Seraphine 2 Guinevere Harmo PPC",
       "4 Seraphine 2 Guinevere Harmo"
     ],
     "builds": [
       {
-        "set_name": "4 Seraphine 2 Cottie Harmo",
+        "set_name": "4 Seraphine 2 Cottie",
         "set_type": "Main",
         "game_modes": "High Difficulty, PPC, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "General Dark Support Set",
-          "Usable without Harmo"
+          "General Dark Support Set"
         ],
         "memories": ["4x Seraphine", "2x Cottie"],
         "memory_resonance": [
@@ -1002,7 +1001,7 @@
         "harmony_rec": "Einsteina"
       },
       {
-        "set_name": "4 Seraphine 2 Guinevere",
+        "set_name": "4 Seraphine 2 Guinevere Harmo",
         "set_type": "Niche",
         "game_modes": "Pain Cage",
         "description": [
@@ -1117,7 +1116,7 @@
         "set_name": "4 Boone 2 Bathlon Harmo",
         "set_type": "Main Harmony",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": ["Used at SS3 or higher"],
+        "description": ["Used at SS3 or higher", "Requires Harmony"],
         "memories": ["4x Boone", "2x Bathlon"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1131,7 +1130,7 @@
         "game_modes": "Pain Cage",
         "description": [
           "PPC nuke set",
-          "Requires Harmo",
+          "Requires Harmony",
           "Recommended to use this set post-Shukra patch."
         ],
         "memories": ["4x Da Vinci", "2x Bathlon"],
@@ -1195,21 +1194,17 @@
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Bianca",
     "frame_name": "Stigmata",
     "set_list": [
-      "4 Charlotte 2 Leeuwenhoek Harmo",
+      "4 Charlotte 2 Leeuwenhoek",
       "4 Charlotte 2 Cottie Harmo",
       "4 Charlotte 2 Darwin Harmo",
       "4 Charlotte 2 Cottie"
     ],
     "builds": [
       {
-        "set_name": "4 Charlotte 2 Leeuwenhoek Harmo",
+        "set_name": "4 Charlotte 2 Leeuwenhoek",
         "set_type": "Main",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Main Set",
-          "For SS0 and below",
-          "Usable without Harmo"
-        ],
+        "description": ["Main Set", "For SS0 and below"],
         "memories": ["4x Charlotte", "2x Leeuwenhoek"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
