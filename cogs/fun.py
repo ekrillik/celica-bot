@@ -12,6 +12,7 @@ class Fun(commands.Cog):
         self.bot = bot
         self.embedconf = EmbedClass()
         self.disallowed_server_ids = [1285561465537040384, 595893569609269251, 361043659107467264]
+        self.allowed_server_ids = [1280331315115327488, 1272185726699573358]
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -21,6 +22,12 @@ class Fun(commands.Cog):
     async def fun(self, ctx: commands.Context) -> None:
         if ctx.guild.id not in self.disallowed_server_ids:
             embed = discord.Embed(title="This is a fun command.", description="This is a fun command description")
+            await ctx.send(embed=embed)
+
+    @commands.command()
+    async def pasta(self, ctx: commands.Context) -> None:
+        if ctx.guild.id in self.allowed_server_ids:
+            embed = discord.Embed(title="This is a pasta.", description="This is a pasta")
             await ctx.send(embed=embed)
 
 
