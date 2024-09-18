@@ -37,7 +37,7 @@ class Fun(commands.Cog):
             start = time.time()
             if(self.spam_command_ran == True):
                 if((start - self.last_command_ran) > 30 ):
-                    self.spam_command_ran == False
+                    self.spam_command_ran = False
 
             if(self.spam_command_ran == False):
                 self.spam_command_ran = True
