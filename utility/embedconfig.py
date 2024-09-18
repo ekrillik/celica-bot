@@ -361,11 +361,11 @@ class EmbedClass:
 
     def create_characterlist_embed(self, characterlist):
         embed = discord.Embed(
-            title=f"List of Characters",
+            title=f"List of {characterlist['type']}",
             description="",
             color=discord.Color(0x3d6e41)
         )
-        for character in characterlist:
+        for character in characterlist['constructs']:
             embed.add_field(
                 name="",
                 value=f"`{character}`",

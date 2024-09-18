@@ -43,6 +43,8 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
         elif(self.pagination_type == "credits"):
             embed = self.embedconf.credits_embed(self.data[0], cur_page=self.current_page, max_len=len(self.data))
+        elif(self.pagination_type == "characters"):
+            embed = self.embedconf.create_characterlist_embed(self.data[self.current_page])
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
 
@@ -53,6 +55,8 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
         elif(self.pagination_type == "credits"):
             embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
+        elif(self.pagination_type == "characters"):
+            embed = self.embedconf.create_characterlist_embed(self.data[self.current_page])
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
         
@@ -63,6 +67,8 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
         elif(self.pagination_type == "credits"):
             embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
+        elif(self.pagination_type == "characters"):
+            embed = self.embedconf.create_characterlist_embed(self.data[self.current_page])
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
         
@@ -73,6 +79,8 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
         elif(self.pagination_type == "credits"):
             embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
+        elif(self.pagination_type == "characters"):
+            embed = self.embedconf.create_characterlist_embed(self.data[self.current_page])
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
         
