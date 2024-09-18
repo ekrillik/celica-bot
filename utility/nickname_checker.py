@@ -20,7 +20,7 @@ def check_nickname(nickname, caller):
             weapon = "inverse shadow"
             cub = "n/a"
             memory = "n/a"
-        case "evil liv" | "seggs" | "green jumper" | "<:evilliv:1272415890453041223>" | "lux":
+        case "evil liv" | "green jumper" | "<:evilliv:1272415890453041223>" | "lux":
             character = "lux"
             weapon = "benediction"
             cub = "n/a"
@@ -210,7 +210,7 @@ def check_nickname(nickname, caller):
             weapon = "galatea"
             cub = "n/a"
             memory = "isabel"
-        case "daren" | "bonka" | "tsundere" | "radiant daybreak" | "trs" | "<:trs:1275701510293946482>" | "bunny" | "bnnuy" | "scire" | "best girl" | "bestgirl" | "flat tsundere is not waifu":
+        case "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "best girl" | "bestgirl" | "flat tsundere is not waifu":
             character = "scire"
             weapon = "illuminare"
             cub = "moonhopper"
