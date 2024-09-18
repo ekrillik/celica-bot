@@ -1,6 +1,7 @@
 import discord
 import os
 import json
+import time
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
@@ -13,6 +14,10 @@ class Fun(commands.Cog):
         self.embedconf = EmbedClass()
         self.disallowed_server_ids = [1285561465537040384, 595893569609269251, 361043659107467264]
         self.allowed_server_ids = [1280331315115327488, 1272185726699573358]
+        self.spam_command_ran = False
+        self.last_command_ran = 0.00
+
+
 
     # The following commands are restricted to specific servers/not usable within PGR:O
 
@@ -29,9 +34,19 @@ class Fun(commands.Cog):
     @commands.command()
     async def pasta(self, ctx: commands.Context) -> None:
         if ctx.guild.id in self.allowed_server_ids:
-            embed = discord.Embed(title="This is a pasta.", description="This is a pasta")
-            await ctx.send(embed=embed)
+            start = time.time()
+            if(self.command_ran == True):
+                if((start - self.last_command_ran) > 30 ):
+                    self.command_ran == False
 
+            if(self.command_ran == False):
+                self.command_ran = True
+                self.last_command_ran = start
+                embed = discord.Embed(title="This is a pasta.", description="This is a pasta")
+                await ctx.send(embed=embed)
+            else:
+                await ctx.send(content="This command has been ran recently. Please wait.")
+            
     @commands.command()
     async def dalaos(self, ctx: commands.Context) -> None:
         if ctx.guild.id not in self.disallowed_server_ids:
