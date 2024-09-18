@@ -6,7 +6,7 @@ from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
 from utility.pagination import PaginationView
 
-class About(commands.Cog): 
+class Fun(commands.Cog): 
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
@@ -25,7 +25,7 @@ class About(commands.Cog):
 
 
 async def setup(bot: commands.Bot):
-    await bot.add_cog(About(bot))
+    await bot.add_cog(Fun(bot))
 
 async def teardown(bot):
     print("Extension unloaded!")
