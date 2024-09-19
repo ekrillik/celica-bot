@@ -61,6 +61,10 @@
       "description": "Displays a comprehensive list of all available weapons."
     },
     {
+      "command": "leaplist",
+      "description": "Displays a comprehensive list of all available leaps."
+    },
+    {
       "command": "ppc",
       "description": "Calculates the Ultimate PPC score of a particular time and difficulty."
     }
@@ -190,6 +194,10 @@
   "weaponlist": {
     "syntax": "?weaponlist",
     "description": "Displays a comprehensive list of all available weapons."
+  },
+  "leaplist": {
+    "syntax": "?leaplist",
+    "description": "Displays a comprehensive list of all available leaps."
   },
   "ppc": {
     "syntax": "?ppc [difficulty] [time]",
