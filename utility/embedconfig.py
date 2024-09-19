@@ -373,18 +373,26 @@ class EmbedClass:
             )
         return embed
 
-    def create_list_embed(self, name, items, curpage, maxlistcount):
+    def create_list_embed(self, name, type, items, curpage = 1, maxlistcount = 1):
         embed = discord.Embed(
             title=f"List of {name}",
             description="",
             color=discord.Color(0xb8f2e4)
         )
-        for i in items:
-            embed.add_field(
-                name = "",
-                value = i.replace('#', '★'),
-                inline=False
-            )
+        if type == "weapons":
+            for i in items:
+                embed.add_field(
+                    name = "",
+                    value = i.replace('#', '★'),
+                    inline=False
+                )
+        else:
+            for i in items:
+                embed.add_field(
+                    name = "",
+                    value = f"`{i}`",
+                    inline=False
+                )
         embed.set_footer(text=f"Page {curpage}/{maxlistcount}")
         return embed
 
@@ -425,7 +433,6 @@ class EmbedClass:
             for example in examples:
                 embed.add_field(name="", value=example, inline=False)
         
-            
         return embed
 
     def helplist_embed(self, title, list):

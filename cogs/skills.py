@@ -340,9 +340,10 @@ class Skills(commands.Cog):
 
     @commands.command()
     async def leaplist(self, ctx: commands.Context) -> None:
-
-
-        await ctx.send(content="Leap List")
+        with open('data/leaplist.json') as file:
+            parsed_json = json.load(file)
+        embed = self.embedconf.create_list_embed("Leapable Units", "leaps", parsed_json['leaplist'], 1, 1)
+        await ctx.send(embed=embed)
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Skills(bot))
