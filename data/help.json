@@ -176,27 +176,33 @@
   },
   "minmax": {
     "syntax": "?minmax [memory1], [memory2] or ?minmax [memory1],[memory2]",
+    "aliases": "?mm, ?min",
     "description": "Compares the stats between 2 memories and recommends the top/bottom position for both memories.",
     "examples": ["?minmax dv,eins", "?minmax derketto, cottie"]
   },
   "memorylist": {
     "syntax": "?memorylist",
+    "aliases": "?ml",
     "description": "Displays a comprehensive list of all available memories."
   },
   "characterlist": {
     "syntax": "?characterlist",
+    "aliases": "?chl",
     "description": "Displays a comprehensive list of all available characters."
   },
   "cublist": {
     "syntax": "?cublist",
+    "aliases": "?cbl",
     "description": "Displays a comprehensive list of all available CUBs."
   },
   "weaponlist": {
     "syntax": "?weaponlist",
+    "aliases": "?wl",
     "description": "Displays a comprehensive list of all available weapons."
   },
   "leaplist": {
     "syntax": "?leaplist",
+    "aliases": "?ll",
     "description": "Displays a comprehensive list of all available leaps."
   },
   "ppc": {

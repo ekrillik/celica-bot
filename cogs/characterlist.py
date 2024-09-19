@@ -26,7 +26,7 @@ class CharacterList(commands.Cog):
     async def on_ready(self):
         print('CharacterList loaded.')
 
-    @commands.command()
+    @commands.command(aliases=['chl'])
     async def characterlist(self, ctx: commands.Context) -> None:
         constructs = self.retrieve_characterlist()
         self.view = PaginationView(ctx.author, data=constructs, pagination_type="characters")

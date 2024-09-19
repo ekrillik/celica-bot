@@ -61,7 +61,7 @@ class Minmax(commands.Cog):
                 return memory
                 
 
-    @commands.command()
+    @commands.command(aliases=['mm', 'min'])
     async def minmax(self, ctx: commands.Context, *args):
         focus = ""
         compare_with = ""

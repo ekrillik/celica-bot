@@ -338,7 +338,7 @@ class Skills(commands.Cog):
 
         await self.grab_skill(ctx, character, 'leap')
 
-    @commands.command()
+    @commands.command(aliases=['ll'])
     async def leaplist(self, ctx: commands.Context) -> None:
         with open('data/leaplist.json') as file:
             parsed_json = json.load(file)

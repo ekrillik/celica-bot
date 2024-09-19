@@ -26,7 +26,7 @@ class WeaponList(commands.Cog):
     async def on_ready(self):
         print('WeaponList loaded.')
 
-    @commands.command()
+    @commands.command(aliases=['wl'])
     async def weaponlist(self, ctx: commands.Context) -> None:
         categories = self.retrieve_weaponlist()
         weplistview = WeaponListPaginationView(ctx.author, data=categories)

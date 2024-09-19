@@ -26,7 +26,7 @@ class MemoryList(commands.Cog):
     async def on_ready(self):
         print('MemoryList loaded.')
 
-    @commands.command()
+    @commands.command(aliases=['ml'])
     async def memorylist(self, ctx: commands.Context) -> None:
         list = self.retrieve_memorylist()
 

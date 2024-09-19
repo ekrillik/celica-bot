@@ -26,7 +26,7 @@ class CUBList(commands.Cog):
     async def on_ready(self):
         print('CUBList loaded.')
 
-    @commands.command()
+    @commands.command(aliases=['cbl'])
     async def cublist(self, ctx: commands.Context) -> None:
         cubs = self.retrieve_cublist()
         embed = self.embedconf.create_cublist_embed(cubs=cubs)
