@@ -45,6 +45,8 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.credits_embed(self.data[0], cur_page=self.current_page, max_len=len(self.data))
         elif(self.pagination_type == "characters"):
             embed = self.embedconf.create_characterlist_embed(self.data[self.current_page])
+        elif(self.pagination_type == "memories"):
+            embed = self.embedconf.create_list_embed(name="Memories", type="memories", items = self.data[0], curpage=self.current_page+1, maxlistcount=len(self.data))
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
 
@@ -57,6 +59,8 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
         elif(self.pagination_type == "characters"):
             embed = self.embedconf.create_characterlist_embed(self.data[self.current_page])
+        elif(self.pagination_type == "memories"):
+            embed = self.embedconf.create_list_embed(name="Memories", type="memories", items = self.data[self.current_page], curpage=self.current_page+1, maxlistcount=len(self.data))
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
         
@@ -69,6 +73,8 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
         elif(self.pagination_type == "characters"):
             embed = self.embedconf.create_characterlist_embed(self.data[self.current_page])
+        elif(self.pagination_type == "memories"):
+            embed = self.embedconf.create_list_embed(name="Memories", type="memories", items = self.data[self.current_page], curpage=self.current_page+1, maxlistcount=len(self.data))
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
         
@@ -81,6 +87,8 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
         elif(self.pagination_type == "characters"):
             embed = self.embedconf.create_characterlist_embed(self.data[self.current_page])
+        elif(self.pagination_type == "memories"):
+            embed = self.embedconf.create_list_embed(name="Memories", type="memories", items = self.data[self.current_page], curpage=self.current_page+1, maxlistcount=len(self.data))
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
         

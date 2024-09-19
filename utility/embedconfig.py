@@ -386,25 +386,39 @@ class EmbedClass:
         return embed
 
     def create_list_embed(self, name, type, items, curpage = 1, maxlistcount = 1):
-        embed = discord.Embed(
-            title=f"List of {name}",
-            description="",
-            color=discord.Color(0xb8f2e4)
-        )
-        if type == "weapons":
-            for i in items:
+        if type == "memories":
+            embed = discord.Embed(
+                title=f"List of {items['type']}",
+                description="",
+                color=discord.Color(0xb8f2e4)
+            )
+            memories = items['memories']
+            for memory in memories:
                 embed.add_field(
-                    name = "",
-                    value = i.replace('#', '★'),
-                    inline=False
-                )
+                        name = "",
+                        value = memory.replace('#', '★'),
+                        inline=False
+                    )
         else:
-            for i in items:
-                embed.add_field(
-                    name = "",
-                    value = f"`{i}`",
-                    inline=False
-                )
+            embed = discord.Embed(
+                title=f"List of {name}",
+                description="",
+                color=discord.Color(0xb8f2e4)
+            )
+            if type == "weapons":
+                for i in items:
+                    embed.add_field(
+                        name = "",
+                        value = i.replace('#', '★'),
+                        inline=False
+                    )
+            else:
+                for i in items:
+                    embed.add_field(
+                        name = "",
+                        value = f"`{i}`",
+                        inline=False
+                    )
         embed.set_footer(text=f"Page {curpage}/{maxlistcount}")
         return embed
 

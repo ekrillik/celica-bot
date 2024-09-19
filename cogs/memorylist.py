@@ -20,7 +20,7 @@ class MemoryList(commands.Cog):
     def retrieve_memorylist(self):
         with open('data/memorylist.json') as file:
             parsed_json = json.load(file)
-        return parsed_json['memories']
+        return parsed_json['memories_categorised']
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -28,10 +28,11 @@ class MemoryList(commands.Cog):
 
     @commands.command(aliases=['ml'])
     async def memorylist(self, ctx: commands.Context) -> None:
-        list = self.retrieve_memorylist()
+        memorylist = self.retrieve_memorylist()
+        self.view = PaginationView(ctx.author, data=memorylist, pagination_type="memories")
 
-        embed = self.embedconf.create_list_embed(list, "memories")
-        await ctx.send(embed=embed)
+        embed = self.embedconf.create_list_embed(name="Memories", type="memories", items=memorylist[0])
+        self.view.message = await ctx.send(embed=embed, view=self.view)
         
 async def setup(bot: commands.Bot):
     await bot.add_cog(MemoryList(bot))

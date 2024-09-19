@@ -73,80 +73,100 @@
     "heraclitus",
     "wilde"
   ],
-  "memories_categorized": {
-    "two_star": ["Merli ★★"],
-    "three_star": ["Pinoff ★★★", "Pavrey ★★★"],
-    "four_star": [
-      "Archimedes ★★★★",
-      "Edison ★★★★",
-      "Alice ★★★★",
-      "Cunningham ★★★★"
-    ],
-    "five_star": [
-      "Carrielynn ★★★★★",
-      "Aife ★★★★★",
-      "Ike ★★★★★",
-      "Voltaire ★★★★★",
-      "Gloria ★★★★★",
-      "Richelieu ★★★★★",
-      "Samantha ★★★★★",
-      "Mozart ★★★★★"
-    ],
-    "event": [
-      "Lucia - Summer Daze ★★★★★",
-      "Vera - Scarlet Summers ★★★★★",
-      "Ceremony - Liv ★★★★★",
-      "Luna: Fullmoon Laurel ★★★★★",
-      "Bianca: Tipsy Night ★★★★★",
-      "Chrome: Banquet ★★★★★",
-      "Liv: United ★★★★★",
-      "Lee - Celebration under the Moon ★★★★★",
-      "Lantern Festival: Reunion ★★★★★",
-      "New Year Fireworks ★★★★★",
-      "Liv: Reindeer ★★★★★",
-      "Kuriko - Eternal ★★★★★"
-    ],
-    "uniframe": [
-      "Shelley ★★★★★★",
-      "Isabel ★★★★★★",
-      "Marco ★★★★★★",
-      "Jack ★★★★★★",
-      "Lucrezia ★★★★★★",
-      "Wu'an ★★★★★★",
-      "Koya ★★★★★★",
-      "Boudica ★★★★★",
-      "Nimitz ★★★★"
-    ],
-    "six_star": [
-      "Condelina ★★★★★★",
-      "Shakespeare ★★★★★★",
-      "Heisen ★★★★★★",
-      "Darwin ★★★★★★",
-      "Hanna ★★★★★★",
-      "Cottie ★★★★★★",
-      "Da Vinci ★★★★★★",
-      "Catherine ★★★★★★",
-      "Einsteina ★★★★★★",
-      "Philip II ★★★★★★",
-      "Guinevere ★★★★★★",
-      "Frederick ★★★★★★",
-      "Bathlon ★★★★★★",
-      "Patton ★★★★★★",
-      "Chen Jiyuan ★★★★★★",
-      "Leeuwenhoek ★★★★★★",
-      "Flamel ★★★★★★",
-      "Tifa ★★★★★★",
-      "Elizabeth ★★★★★★",
-      "Seraphine ★★★★★★",
-      "Unimate ★★★★★★",
-      "Boone ★★★★★★",
-      "Charlotte ★★★★★★",
-      "Turing ★★★★★★",
-      "Aline ★★★★★★",
-      "Diesel ★★★★★★",
-      "Fran ★★★★★★",
-      "Signa ★★★★★★",
-      "Derketo ★★★★★★"
-    ]
-  }
+  "memories_categorised": [
+    { "type": "Two Star Memories", "memories": ["Merli ##"] },
+    { "type": "Three Star Memories", "memories": ["Pinoff ###", "Pavrey ###"] },
+    {
+      "type": "Four Star Memories",
+      "memories": [
+        "Archimedes ####",
+        "Edison ####",
+        "Alice ####",
+        "Cunningham ####"
+      ]
+    },
+    {
+      "type": "Five Star Memories",
+      "memories": [
+        "Carrielynn #####",
+        "Aife #####",
+        "Ike #####",
+        "Voltaire #####",
+        "Gloria #####",
+        "Richelieu #####",
+        "Samantha #####",
+        "Mozart #####"
+      ]
+    },
+    {
+      "type": "Event Memories",
+      "memories": [
+        "Lucia - Summer Daze #####",
+        "Vera - Scarlet Summers #####",
+        "Ceremony - Liv #####",
+        "Luna: Fullmoon Laurel #####",
+        "Bianca: Tipsy Night #####",
+        "Chrome: Banquet #####",
+        "Liv: United #####",
+        "Lee - Celebration under the Moon #####",
+        "Lantern Festival: Reunion #####",
+        "New Year Fireworks #####",
+        "Liv: Reindeer #####",
+        "Kuriko - Eternal #####"
+      ]
+    },
+    {
+      "type": "Unifame Memories",
+      "memories": [
+        "Shelley ######",
+        "Isabel ######",
+        "Marco ######",
+        "Jack ######",
+        "Lucrezia ######",
+        "Wu'an ######",
+        "Koya ######",
+        "Boudica #####",
+        "Nimitz ####"
+      ]
+    },
+    {
+      "type": "Six Star Memories - 1/2",
+      "memories": [
+        "Condelina ######",
+        "Shakespeare ######",
+        "Heisen ######",
+        "Darwin ######",
+        "Hanna ######",
+        "Cottie ######",
+        "Da Vinci ######",
+        "Catherine ######",
+        "Einsteina ######",
+        "Philip II ######",
+        "Guinevere ######",
+        "Frederick ######",
+        "Bathlon ######",
+        "Patton ######"
+      ]
+    },
+    {
+      "type": "Six Star Memories - 2/2",
+      "memories": [
+        "Chen Jiyuan ######",
+        "Leeuwenhoek ######",
+        "Flamel ######",
+        "Tifa ######",
+        "Elizabeth ######",
+        "Seraphine ######",
+        "Unimate ######",
+        "Boone ######",
+        "Charlotte ######",
+        "Turing ######",
+        "Aline ######",
+        "Diesel ######",
+        "Fran ######",
+        "Signa ######",
+        "Derketo ######"
+      ]
+    }
+  ]
 }
