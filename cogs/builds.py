@@ -51,6 +51,12 @@ class Builds(commands.Cog):
         embed = discord.Embed(title="",description="")
         embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/cnnotationguide4.png')
         await ctx.send(embed=embed)
+    
+    @commands.command()
+    async def affixguide(self, ctx: commands.Context):
+        embed = discord.Embed(title="",description="")
+        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Affix+Infographic.jpg')
+        await ctx.send(embed=embed)
 
     @commands.command()
     async def build(self, ctx: commands.Context, *args) -> None:

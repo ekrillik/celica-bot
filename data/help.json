@@ -24,6 +24,10 @@
       "description": "Displays an image with the numbering notation used to describe builds in the PGR community."
     },
     {
+      "command": "affixguide",
+      "description": "Displays Ko's infographic for how affixes work in PGR."
+    },
+    {
       "command": "skills",
       "description": "Provides a view of all the skills for a particular character with a dropdown menu."
     },
@@ -73,6 +77,11 @@
   "buildnotation": {
     "syntax": "?buildnotation",
     "description": "Displays an image with the numbering notation used to describe builds in the PGR community."
+  },
+  "affixguide": {
+    "syntax": "?affixguide",
+    "aliases": "?affix",
+    "description": "Displays Ko's infographic for how affixes work in PGR."
   },
   "skills": {
     "syntax": "?skills [character name]",
