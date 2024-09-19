@@ -516,24 +516,36 @@
     "leap": [
       {
         "name": "Vortex Flurry",
-        "description": "Upon a 3-Ping, Extra DMG Bonus of [Lotus - Flurry] increases by 10%.",
-        "level9": "**Level 9**: [Lotus - Flurry] pulls in surrounding enemies upon a 3-Ping.",
+        "description": [
+          "Upon a 3-Ping, Extra DMG Bonus of [Lotus - Flurry] increases by 10%."
+        ],
+        "level9": [
+          "**Level 9**: [Lotus - Flurry] pulls in surrounding enemies upon a 3-Ping."
+        ],
         "level18": [
           "**Level 18**: When casting [Lotus - Flurry] with a 3-Ping while the Signature is active, pressing and holding the Basic Attack button triggers Iaido - Deadly Slash, dealing 360% Lightning DMG."
         ]
       },
       {
         "name": "Thunder Kill Realm",
-        "description": "Extra DMG Bonus of lightning bolt attacks triggered by [Lotus - Lightning Dance] increases by 10%",
-        "level9": "**Level 9**: The chance of triggering lightning bolt attacks by [Lotus - Lightning Dance] increases to 50%/75%/100%.",
+        "description": [
+          "Extra DMG Bonus of lightning bolt attacks triggered by [Lotus - Lightning Dance] increases by 10%"
+        ],
+        "level9": [
+          "**Level 9**: The chance of triggering lightning bolt attacks by [Lotus - Lightning Dance] increases to 50%/75%/100%."
+        ],
         "level18": [
           "**Level 18**: [Lotus - Lightning Dance] triggers heavenly bolt attacks instead, increasing Lightning DMG Bonus by 10%."
         ]
       },
       {
         "name": "Glow Lotus Blade",
-        "description": "When casting [Signature - Lotus Blade], Lucia: Dawn's Extra DMG Bonus increases by 10% for 10s. Its duration will reset every time it is triggered.",
-        "level9": "**Level 9**: Automatically recovers Signature Energy for 10s after casting the Signature.",
+        "description": [
+          "When casting [Signature - Lotus Blade], Lucia: Dawn's Extra DMG Bonus increases by 10% for 10s. Its duration will reset every time it is triggered."
+        ],
+        "level9": [
+          "**Level 9**: Automatically recovers Signature Energy for 10s after casting the Signature."
+        ],
         "level18": [
           "**Level 18**: Energy of Lotus Blade will not be reduced when Lucia: Dawn is on standby."
         ]
@@ -811,24 +823,39 @@
     "leap": [
       {
         "name": "Bipolar Expansion",
-        "description": "Explosion DMG from [Infernal Shot]'s blasting round increases by 10%. The burning area created by [Infernal Shot] will inflict Burn on enemies for 3s. Enemies inflicted with Burn are considered to be in the burning area.",
-        "level9": "**Level 9**: When [Magnetic Shot] hits a target with Burn, extends the Burn status for 3s.",
+        "description": [
+          "Explosion DMG from [Infernal Shot]'s blasting round increases by 10%. The burning area created by [Infernal Shot] will inflict Burn on enemies for 3s. Enemies inflicted with Burn are considered to be in the burning area."
+        ],
+        "level9": [
+          "**Level 9**: When [Magnetic Shot] hits a target with Burn, extends the Burn status for 3s."
+        ],
         "level18": [
           "**Level 18**: When Lee: Palefire attacks an enemy inflicted with Burn, the Base DMG of [Infernal Shot]'s additional Extra DMG increases by 100%."
         ]
       },
       {
         "name": "Center Axis Relock",
-        "description": "After casting [Controlling Bullet], Lee: Palefire's movement speed increases, and he enters Blasting Mode for 5s, performing Continuous Fire with his Dual Guns at the target. DMG dealt by each shot is based on the number of Red Orbs pinged when casting [Controlling Bullet]. In this mode, Lee: Palefire deals Fire DMG instead of Physical DMG, and Fire DMG increases by 10%.\n\nPinging orbs will grant extra effects:\n- Red Orbs: Extends Blasting Mode by 0.5/1/1.5s based on the number of orbs pinged. Each shot deals DMG equal to the DMG dealt by the corresponding number of orbs pinged by [Precise Shots].\n- Yellow and Blue Orbs: Lee: Palefire dodges to the side when pinged, and Blasting Mode extends by 0.3s.",
-        "level9": "**Level 9**: In Blasting Mode, each successful shot during Continuous Fire will grant 1 Energy. Energy gained from pinging orbs is doubled.",
+        "description": [
+          "After casting [Controlling Bullet], Lee: Palefire's movement speed increases, and he enters Blasting Mode for 5s, performing Continuous Fire with his Dual Guns at the target. DMG dealt by each shot is based on the number of Red Orbs pinged when casting [Controlling Bullet]. In this mode, Lee: Palefire deals Fire DMG instead of Physical DMG, and Fire DMG increases by 10%.",
+          "Pinging orbs will grant extra effects:",
+          "- Red Orbs: Extends Blasting Mode by 0.5/1/1.5s based on the number of orbs pinged. Each shot deals DMG equal to the DMG dealt by the corresponding number of orbs pinged by [Precise Shots].",
+          "- Yellow and Blue Orbs: Lee: Palefire dodges to the side when pinged, and Blasting Mode extends by 0.3s."
+        ],
+        "level9": [
+          "**Level 9**: In Blasting Mode, each successful shot during Continuous Fire will grant 1 Energy. Energy gained from pinging orbs is doubled."
+        ],
         "level18": [
           "**Level 18**: In Blasting Mode, dodging will consume twice the amount of Dodge and trigger Evasive Shot: Lee: Palefire leaps into the air and quickly fires 11 times, gaining 21 Energy and dealing 45% Fire DMG with each shot. Gains Invincible during Evasive Shot. Successfully dodging with Evasive Shot will recover the extra Dodge consumed."
         ]
       },
       {
         "name": "Flaming Cyclone",
-        "description": "Deals Fire DMG with [Signature - 360\u00B0 Shooting] instead. While casting [Signature - 360\u00B0 Shooting], Fire DMG dealt by Lee: Palefire increases by 10%.",
-        "level9": "**Level 9**: Casting [Signature - 360\u00B0 Shooting] will pull in surrounding enemies continuously.",
+        "description": [
+          "Deals Fire DMG with [Signature - 360\u00B0 Shooting] instead. While casting [Signature - 360\u00B0 Shooting], Fire DMG dealt by Lee: Palefire increases by 10%."
+        ],
+        "level9": [
+          "**Level 9**: Casting [Signature - 360\u00B0 Shooting] will pull in surrounding enemies continuously."
+        ],
         "level18": [
           "**Level 18**: Hitting an enemy with [Signature - 360\u00B0 Shooting] will inflict Burn for 3s, dealing Fire DMG based on the level of [Infernal Shot] every 0.5s. In Blasting Mode, the Base DMG of [Signature - 360\u00B0 Shooting] increases by 40%."
         ]
@@ -1367,24 +1394,36 @@
     "leap": [
       {
         "name": "Spiritual Prayer Dance",
-        "description": "[QTE - Heroic Dance] heals 20% more HP and grants Ultralimit Torque to the targets healed, increasing their Physical DMG Bonus by 10% for 8s. Its duration will reset every time it is triggered.",
-        "level9": "**Level 9**: [QTE - Heroic Dance] triggers an additional Light Penalty of Core Passive's level",
+        "description": [
+          "[QTE - Heroic Dance] heals 20% more HP and grants Ultralimit Torque to the targets healed, increasing their Physical DMG Bonus by 10% for 8s. Its duration will reset every time it is triggered."
+        ],
+        "level9": [
+          "**Level 9**: [QTE - Heroic Dance] triggers an additional Light Penalty of Core Passive's level"
+        ],
         "level18": [
           "**Level 18**: [QTE - Heroic Dance] grants 12 Energy after triggering Light Penalty. [Passive - Field Reinforcement] New Effect: The effect of Ultralimit Torque increases to 20%."
         ]
       },
       {
         "name": "Sacred Chain",
-        "description": "[Goddess Connection System] will trigger an additional Light Penalty upon a 3-Ping. After Light Penalty has been triggered 4 times, the next Light Penalty triggered will become Divine Penalty, dealing 400% DMG. [Passive - Pioneer of Glory] also increases Divine Penalty's DMG as it does to Light Penalty.",
-        "level9": "**Level 9**: [Goddess Connection System] has a 50% chance to trigger Light Penalty and the targets healed will be granted Ultralimit Torque.",
+        "description": [
+          "[Goddess Connection System] will trigger an additional Light Penalty upon a 3-Ping. After Light Penalty has been triggered 4 times, the next Light Penalty triggered will become Divine Penalty, dealing 400% DMG. [Passive - Pioneer of Glory] also increases Divine Penalty's DMG as it does to Light Penalty."
+        ],
+        "level9": [
+          "**Level 9**: [Goddess Connection System] has a 50% chance to trigger Light Penalty and the targets healed will be granted Ultralimit Torque."
+        ],
         "level18": [
           "**Level 18**: Liv: Luminance increases the CRIT DMG of the targets healed by 20%. Triggering Light Penalty and Divine Penalty will increase the next deployed character's CRIT Rate by 5% and 25% respectively for 10s until it reaches its maximum at 75%. [Passive - Pioneer of Glory] New Effect: Liv: Luminance gains 100 Energy upon entering the battlefield for the first time."
         ]
       },
       {
         "name": "Divine Rage Field",
-        "description": "When [Signature - Arcadia Gate] is active, pinging orbs will trigger Light Penalty1/2/3 times based on the number of Orbs pinged and it deals 30% more Physical DMG.",
-        "level9": "**Level 9**: When [Signature - Arcadia Gate] is activated, nearby enemies will be pulled continuously and Divine Penalty's Base DMG increases by 10%.",
+        "description": [
+          "When [Signature - Arcadia Gate] is active, pinging orbs will trigger Light Penalty1/2/3 times based on the number of Orbs pinged and it deals 30% more Physical DMG."
+        ],
+        "level9": [
+          "**Level 9**: When [Signature - Arcadia Gate] is activated, nearby enemies will be pulled continuously and Divine Penalty's Base DMG increases by 10%."
+        ],
         "level18": [
           "**Level 18**: [Signature - Arcadia Gate] Liv: Luminance gains 40 Energy every time she enters the battlefield. When her Signature Move is active, she can be switched to other characters and exit the Signature Move state.",
           "- [Passive - Consciousness Encouragement] New Effect: It lasts 15s and also applies to standby characters. Divine Penalty deals 25% more DMG."
@@ -1831,24 +1870,32 @@
     "leap": [
       {
         "name": "Burning Hearts",
-        "description": "[Dancing Ring]'s Base DMG increases by 10%.",
-        "level9": "**Level 9**: [QTE - Molten Roundslash] also pulls in nearby enemies.",
+        "description": ["[Dancing Ring]'s Base DMG increases by 10%."],
+        "level9": [
+          "**Level 9**: [QTE - Molten Roundslash] also pulls in nearby enemies."
+        ],
         "level18": [
           "**Level 18**: [QTE - Molten Roundslash] also recovers 20 Signature Energy. New Effect of [Passive - Overload Outburst]: Grants Nanami: Pulse's Overload Outburst effect to characters on the field after casting [QTE - Molten Roundslash] for 8s. (The DMG dealt by that effect is based on Nanami: Pulse.)"
         ]
       },
       {
         "name": "Primordial Blast",
-        "description": "[Sawblade Storm]'s Base DMG increases by 15%.",
-        "level9": "**Level 9**: [Sawblade Storm] also pulls in nearby enemies and allows movement while performing this skill.",
+        "description": ["[Sawblade Storm]'s Base DMG increases by 15%."],
+        "level9": [
+          "**Level 9**: [Sawblade Storm] also pulls in nearby enemies and allows movement while performing this skill."
+        ],
         "level18": [
           "**Level 18**: After casting [Signature - Pulse], entering Overclocking State will not recover Signal Orbs. Nanami: Pulse gains Pulse Energy based on the level her Signature Move is cast to a maximum of 3. Press and hold Basic Attack to spend all Pulse Energy to unleash Fire Whirl, dealing 500%/1000%/1500% Fire DMG based on the number of Pulse Energy spent, during which Nanami: Pulse gains Super Armor. New Effect of [Passive - Thermal Growth]: DMG dealt by Fire Whirl increases by 10%. Nanami: Pulse gains 20 Signature Energy every time she is switched in."
         ]
       },
       {
         "name": "Searing Flames",
-        "description": "[Signature - Pulse]'s Base DMG increases by 10% and pulls in nearby enemies.",
-        "level9": "**Level 9**: Nanami: Pulse recovers an extra 9 Signature Energy with every Basic Attack for 5s every time she is switched in.",
+        "description": [
+          "[Signature - Pulse]'s Base DMG increases by 10% and pulls in nearby enemies."
+        ],
+        "level9": [
+          "**Level 9**: Nanami: Pulse recovers an extra 9 Signature Energy with every Basic Attack for 5s every time she is switched in."
+        ],
         "level18": [
           "**Level 18**: When there is more than 1 Signature Point, tap Signature Move repeatedly to cast Charging Phoenix, dealing 1150%/3550% Fire DMG based on the level it is cast. New Effect of [Passive - Pulse Synchronization]: Base DMG Bonus of [Signature - Pulse] granted by Searing Flames increases to 15% instead."
         ]
@@ -2201,8 +2248,12 @@
     "leap": [
       {
         "name": "Crimson Flow",
-        "description": "Gains 1 stack of Sword Heart when performing a 3-Ping, max 2 stacks. When there is at least 1 stack of Sword Heart, press and hold Basic Attack to consume 1 stack of Sword Heart to cast Reverse Flash, dealing 300% Physical DMG in total. Casting it outside Blade Will State will give 1 random Signal Orb and re-arrange all the existing Signal Orbs in 3-Ping order.",
-        "level9": "**Level 9**: The Enhanced Form of Blue Orb Pings lasts 10s instead.",
+        "description": [
+          "Gains 1 stack of Sword Heart when performing a 3-Ping, max 2 stacks. When there is at least 1 stack of Sword Heart, press and hold Basic Attack to consume 1 stack of Sword Heart to cast Reverse Flash, dealing 300% Physical DMG in total. Casting it outside Blade Will State will give 1 random Signal Orb and re-arrange all the existing Signal Orbs in 3-Ping order."
+        ],
+        "level9": [
+          "**Level 9**: The Enhanced Form of Blue Orb Pings lasts 10s instead."
+        ],
         "level18": [
           "**Level 18**: Base DMG of Reverse Flash increases by 100%.",
           "- New Effect of [Passive - Crimson Scabbard]: Physical DMG increases for 8s instead. Yellow Orb 3-Pings will also trigger [Passive - Crimson Scabbard].",
@@ -2211,8 +2262,12 @@
       },
       {
         "name": "Will of Anatta",
-        "description": "While in Blade Will State, press and hold Basic Attack to consume 1 stack of Sword Heart to cast Reverse Flash, during which a red glow will appear briefly. Release Basic Attack when the red glow appears to consume the remaining stacks of Sword Heart and cast Sheathing Slash to deal 600% Physical DMG. Becomes invincible when casting Sheathing Slash.",
-        "level9": "**Level 9**: Activates all available QTEs and recovers 15 Signature Energy when entering Blade Will State.",
+        "description": [
+          "While in Blade Will State, press and hold Basic Attack to consume 1 stack of Sword Heart to cast Reverse Flash, during which a red glow will appear briefly. Release Basic Attack when the red glow appears to consume the remaining stacks of Sword Heart and cast Sheathing Slash to deal 600% Physical DMG. Becomes invincible when casting Sheathing Slash."
+        ],
+        "level9": [
+          "**Level 9**: Activates all available QTEs and recovers 15 Signature Energy when entering Blade Will State."
+        ],
         "level18": [
           "**Level 18**: Base DMG of Sheathing Slash increases by 100%.",
           "- New Effect of [Passive - Crimson Will]: Exiting Blade Will State will give 2 additional Blue Orbs instead of 2 random ones.",
@@ -2221,8 +2276,12 @@
       },
       {
         "name": "Abyssal Slash: Shredstorm ",
-        "description": "While in Blade Will State, press and hold Basic Attack after tapping Signature Move to consume 2 stacks of Sword Heart and continuously consume Blade Will Orbs (at least 1 Blade Will Orb). When sheathing during the Signature Move, casts Wave Blast, dealing 350% Physical DMG. Each extra Blade Will Orb pinged will increase the Base DMG of Wave Blast by 50%.",
-        "level9": "**Level 9**: Each extra Blade Will Orb consumed increases the Base DMG of Wave Blast by 100% instead.",
+        "description": [
+          "While in Blade Will State, press and hold Basic Attack after tapping Signature Move to consume 2 stacks of Sword Heart and continuously consume Blade Will Orbs (at least 1 Blade Will Orb). When sheathing during the Signature Move, casts Wave Blast, dealing 350% Physical DMG. Each extra Blade Will Orb pinged will increase the Base DMG of Wave Blast by 50%."
+        ],
+        "level9": [
+          "**Level 9**: Each extra Blade Will Orb consumed increases the Base DMG of Wave Blast by 100% instead."
+        ],
         "level18": [
           "**Level 18**: Blade Will Orbs are consumed faster when pressing and holding Basic Attack after tapping Signature Move in the Blade Will State.",
           "- New Effect of [Passive - Abyssal Echo]: Physical DMG increases by 30% instead while under the Blue Orb's effect."
@@ -2527,24 +2586,34 @@
     "leap": [
       {
         "name": "Meteor Reverberation",
-        "description": "Base DMG of [Meteor Strike] increases by 20%.",
-        "level9": "**Level 9**: Pulls in nearby enemies during a Blue 3-Ping.",
+        "description": ["Base DMG of [Meteor Strike] increases by 20%."],
+        "level9": [
+          "**Level 9**: Pulls in nearby enemies during a Blue 3-Ping."
+        ],
         "level18": [
           "**Level 18**: After a Blue 3-Ping, the Extra DMG Bonus of Shadow Blade increases by 20% for 4s. Using [Meteor Strike] in the Enhanced Shadow Form extends its duration by 1s."
         ]
       },
       {
         "name": "Satellite Blade",
-        "description": "When Trailblade hits the target in Enhanced Shadow Form, it will leave two Shadow Blades on the target and restore 100 Dodge Gauge. Each Shadow Blade deals 120% Dark DMG (up to 6 Shadow Blades can stack on each target).",
-        "level9": "**Level 9**: When [Cosmic Wave] is triggered, its Base DMG increases by 50% for each additional Red Orb pinged. Base DMG of Trailblade increases by 20% in Enhanced Shadow Form.",
+        "description": [
+          "When Trailblade hits the target in Enhanced Shadow Form, it will leave two Shadow Blades on the target and restore 100 Dodge Gauge. Each Shadow Blade deals 120% Dark DMG (up to 6 Shadow Blades can stack on each target)."
+        ],
+        "level9": [
+          "**Level 9**: When [Cosmic Wave] is triggered, its Base DMG increases by 50% for each additional Red Orb pinged. Base DMG of Trailblade increases by 20% in Enhanced Shadow Form."
+        ],
         "level18": [
           "**Level 18**: After dodging or pinging a Red Orb in Enhanced Shadow Form, press and hold Basic Attack to unleash Dark Blade that deals 150% Dark DMG for each Shadow Blade on the target. When the 6th hit of Dark Blade is triggered, its DMG increases to 300% and the duration of Enhanced Shadow Form extends by 2s."
         ]
       },
       {
         "name": "Collapsed Origin",
-        "description": "Dark DMG increases by 10% during [Signature - Supernova Burst].",
-        "level9": "**Level 9**: Freezes the duration of Enhanced Shadow Form while casting [Signature - Supernova Burst]. Signature Move's Base DMG increases by 15%.",
+        "description": [
+          "Dark DMG increases by 10% during [Signature - Supernova Burst]."
+        ],
+        "level9": [
+          "**Level 9**: Freezes the duration of Enhanced Shadow Form while casting [Signature - Supernova Burst]. Signature Move's Base DMG increases by 15%."
+        ],
         "level18": [
           "**Level 18**: When [Signature - Supernova Burst] is unleashed in Enhanced Shadow Form, each time it deals DMG, an additional hit that deals 150% Dark DMG will be triggered."
         ]
@@ -2843,8 +2912,8 @@
     "leap": [
       {
         "name": "Overclocked Magnetic Storm",
-        "description": "Base DMG of Lightning Flash increases by 30%.",
-        "level9": "**Level 9**: Lightning Flash pulls in nearby enemies.",
+        "description": ["Base DMG of Lightning Flash increases by 30%."],
+        "level9": ["**Level 9**: Lightning Flash pulls in nearby enemies."],
         "level18": [
           "**Level 18**: Bianca: Veritas can also enter Sniping Mode by pinging Yellow Orbs after a Red 3-Ping.",
           "Passive: Light Trail's Flash added: Bianca: Veritas can quickly ping Yellow Orbs after a Red 3-Ping. This action is able to evade enemy attacks.",
@@ -2853,8 +2922,14 @@
       },
       {
         "name": "Instant Spike",
-        "description": "Base DMG of lightning arrows fired while in Sniping Mode increases by 20%. Base DMG of lightning arrows fired while Bianca: Veritas has Electro Charge increases by 20%.",
-        "level9": "**Level 9**: After entering Sniping Mode and firing three lightning arrows, hold Basic Attack to charge power and fire Finale Arrows, exiting Sniping Mode early. Fires 1 / 2 / 3 Finale Arrows based on the time spent charging. Each Finale Arrow deals 725% Lightning DMG. While charging, Bianca: Veritas gains Super Armor.\nPassive: Thunderbolt Mirage added: Bianca: Veritas can quickly ping Blue Signal Orbs after a Red 3-Ping. This action is able to evade enemy attacks.\nPassive: Chain Magnetism added: The first target to be hit by Bianca: Veritas' lightning arrow will be marked and immobilized (except Bosses) until Bianca: Veritas exits Sniping Mode or the target is defeated. If another lightning arrow hits the marked target, the immobilization effect will be spread to nearby unaffected targets (except Bosses). This effect lasts for 2.5s. Triggering this effect again refreshes the duration.",
+        "description": [
+          "Base DMG of lightning arrows fired while in Sniping Mode increases by 20%. Base DMG of lightning arrows fired while Bianca: Veritas has Electro Charge increases by 20%."
+        ],
+        "level9": [
+          "**Level 9**: After entering Sniping Mode and firing three lightning arrows, hold Basic Attack to charge power and fire Finale Arrows, exiting Sniping Mode early. Fires 1 / 2 / 3 Finale Arrows based on the time spent charging. Each Finale Arrow deals 725% Lightning DMG. While charging, Bianca: Veritas gains Super Armor.",
+          "Passive: Thunderbolt Mirage added: Bianca: Veritas can quickly ping Blue Signal Orbs after a Red 3-Ping. This action is able to evade enemy attacks.",
+          "Passive: Chain Magnetism added: The first target to be hit by Bianca: Veritas' lightning arrow will be marked and immobilized (except Bosses) until Bianca: Veritas exits Sniping Mode or the target is defeated. If another lightning arrow hits the marked target, the immobilization effect will be spread to nearby unaffected targets (except Bosses). This effect lasts for 2.5s. Triggering this effect again refreshes the duration."
+        ],
         "level18": [
           "**Level 18**: Exiting Sniper Mode by firing either 6 lightning arrows or Finale Arrows is followed up by Resounding Grace, a 6-hit AOE attack that locks on to the target's position and deals 600% DMG in total. Bianca: Veritas is immune to all incoming attacks and DMG while performing Resounding Grace.",
           "Passive: Fulmination's Awe added: Effect of Fulminology increases to 20%."
@@ -2862,8 +2937,10 @@
       },
       {
         "name": "Indignant Bolt",
-        "description": "Base DMG of Ire of Lightning increases by 15%.",
-        "level9": "**Level 9**: Every lightning arrow fired while in Sniping Mode additionally grants 4 Energy. Furthermore, every lightning arrow grants one Red Signal Orb. Bianca: Veritas can gain up to 3 Red Signal Orbs this way every time she enters the battlefield.",
+        "description": ["Base DMG of Ire of Lightning increases by 15%."],
+        "level9": [
+          "**Level 9**: Every lightning arrow fired while in Sniping Mode additionally grants 4 Energy. Furthermore, every lightning arrow grants one Red Signal Orb. Bianca: Veritas can gain up to 3 Red Signal Orbs this way every time she enters the battlefield."
+        ],
         "level18": [
           "**Level 18**: Performing Ire of Lightning rearranges Bianca: Veritas' Signal Orbs so that Red Signal Orbs will be pushed to the front (up to 3 Red Signal Orbs).",
           "Passive: Reverse Surge added: Bianca: Veritas gains 76 Energy when she enters the battlefield for the first time. Every subsequent entry grants 18 Energy.",
@@ -3490,24 +3567,36 @@
     "leap": [
       {
         "name": "Scorching Peril",
-        "description": "Base DMG and Healing of [Infernal Scorchmark] increase by 20%.",
-        "level9": "**Level 9**: After Vera is switched out, she performs Core Attack once to a random target within Night Field/Dark Field every 1.5s",
+        "description": [
+          "Base DMG and Healing of [Infernal Scorchmark] increase by 20%."
+        ],
+        "level9": [
+          "**Level 9**: After Vera is switched out, she performs Core Attack once to a random target within Night Field/Dark Field every 1.5s"
+        ],
         "level18": [
           "**Level 18**: Whenever Vera's Core Attack/Dark Night Slash hits an enemy marked by [Infernal Scorchmark] while Night Field/Dark Field is present, the mark will be removed, dealing Explosion DMG and performing Healing both equal to the full amount of the [Infernal Scorchmark] effect. [Infernal Scorchmark] spreads to another random enemy within range afterward."
         ]
       },
       {
         "name": "Void of Darkness",
-        "description": "Upon casting the Signature Move with maximum Overclocking Points, Vera enters the Darkness Form, dealing 480% Dark DMG to the surrounding area and creating a Night Field afterward, which deals 120% Dark DMG per second for 6s. She cannot gain Signature Energy and Overclocking Points while in Darkness Form. Unleashing all Core Attacks/Dark Night Slashes in Darkness Form will activate [Signature - Dark Night's End], dealing 800% Dark DMG and ending the Darkness Form.",
-        "level9": "**Level 9**: Vera gains 80 Energy and a random Signal Orb when she enters the battle. Upon casting [Signature - Dark Night's End], all remaining Darkness Orbs are converted to Blue Orbs (max 3).",
+        "description": [
+          "Upon casting the Signature Move with maximum Overclocking Points, Vera enters the Darkness Form, dealing 480% Dark DMG to the surrounding area and creating a Night Field afterward, which deals 120% Dark DMG per second for 6s. She cannot gain Signature Energy and Overclocking Points while in Darkness Form. Unleashing all Core Attacks/Dark Night Slashes in Darkness Form will activate [Signature - Dark Night's End], dealing 800% Dark DMG and ending the Darkness Form."
+        ],
+        "level9": [
+          "**Level 9**: Vera gains 80 Energy and a random Signal Orb when she enters the battle. Upon casting [Signature - Dark Night's End], all remaining Darkness Orbs are converted to Blue Orbs (max 3)."
+        ],
         "level18": [
           "**Level 18**: Creates a Dark Field immediately after casting [Signature - Dark Night's End]."
         ]
       },
       {
         "name": "Illusive Disruption",
-        "description": "Vera can perform Core Attacks anytime while she is in Darkness Form, and all Orbs are converted to Darkness Orbs. Pings Darkness Orbs to perform Dark Night Slash, dealing 600% Dark DMG. Dark Night Slashes come with additional Dodge Calculation. Triggering the Matrix will grant 2 Darkness Orbs, and exiting Core Attacks will turn Darkness Orbs back to normal Signal Orbs.",
-        "level9": "**Level 9**: Consecutive Dark Night Slashes deal increasing DMG, the Base DMG increasing by 0%/25%/50%/75% respectively.",
+        "description": [
+          "Vera can perform Core Attacks anytime while she is in Darkness Form, and all Orbs are converted to Darkness Orbs. Pings Darkness Orbs to perform Dark Night Slash, dealing 600% Dark DMG. Dark Night Slashes come with additional Dodge Calculation. Triggering the Matrix will grant 2 Darkness Orbs, and exiting Core Attacks will turn Darkness Orbs back to normal Signal Orbs."
+        ],
+        "level9": [
+          "**Level 9**: Consecutive Dark Night Slashes deal increasing DMG, the Base DMG increasing by 0%/25%/50%/75% respectively."
+        ],
         "level18": [
           "**Level 18**: In Darkness Form, pinging a Signal Orb/Darkness Orb will increase the Base DMG of [Signature - Dark Night's End] by 50% (max 200%)."
         ]
@@ -3856,24 +3945,34 @@
     "leap": [
       {
         "name": "Shining Wings",
-        "description": "[Hunter of Sin]'s Base DMG increases by 10%.",
-        "level9": "**Level 9**: [QTE - Wings of Destiny] also pulls in nearby enemies.",
+        "description": ["[Hunter of Sin]'s Base DMG increases by 10%."],
+        "level9": [
+          "**Level 9**: [QTE - Wings of Destiny] also pulls in nearby enemies."
+        ],
         "level18": [
           "**Level 18**: [QTE - Wings of Destiny] also recovers 15 Signature Energy. New effect of [Passive - Lance of Redemption] added: After hitting a target with [Hunter of Sin], Rosetta: Rigor gains 10% Extra DMG Bonus against this target for 8s. (This effect does not stack with the Extra DMG Bonus triggered by [Frozen Wind] from [Passive - Lance of Redemption].)"
         ]
       },
       {
         "name": "Raging Surge",
-        "description": "Wide-area Electromagnetic Cannon</color>'s Base DMG increases by 10%.",
-        "level9": "**Level 9**: Wide-area Electromagnetic Cannon also pulls in nearby enemies. After casting [Signature - Absolving Spear], the next low/mid-power electromagnetic cannon's Base DMG increases by 100%.",
+        "description": [
+          "Wide-area Electromagnetic Cannon</color>'s Base DMG increases by 10%."
+        ],
+        "level9": [
+          "**Level 9**: Wide-area Electromagnetic Cannon also pulls in nearby enemies. After casting [Signature - Absolving Spear], the next low/mid-power electromagnetic cannon's Base DMG increases by 100%."
+        ],
         "level18": [
           "**Level 18**: Low/Mid-power/Wide-area Electromagnetic Cannon generates an extra 3 Signature Energy. After casting Wide-area Electromagnetic Cannon, Rosetta: Rigor becomes Overloaded for 4s, during which all 3-Pings and Signature Move will receive the maximum Energy Point bonus. New effect of [Passive - Lance of Eternity] added: Lance of Perception inflicts Penetrating Pivot that reduces target's Physical Resistance by 5%."
         ]
       },
       {
         "name": "Eradication of Sins",
-        "description": "[Signature - Absolving Spear] has its Base DMG increased by 10% and also activates all available QTEs when cast.",
-        "level9": "**Level 9**: Rosetta: Rigor recovers 10 Signature Energy each time she enters battle.",
+        "description": [
+          "[Signature - Absolving Spear] has its Base DMG increased by 10% and also activates all available QTEs when cast."
+        ],
+        "level9": [
+          "**Level 9**: Rosetta: Rigor recovers 10 Signature Energy each time she enters battle."
+        ],
         "level18": [
           "**Level 18**: When [Signature - Absolving Spear] is cast, press and hold Basic Attack to start charging. Rosetta: Rigor becomes invincible while charging and will fire a Low/Mid-power/Wide-area Electromagnetic Cannon based on the charging time and whether she is in Full Burst Form. New effect of [Passive - Hyper-Burst] added: The Penetrating Pivot effect from Lance of Perception increases to 10%."
         ]
@@ -5690,8 +5789,12 @@
     "leap": [
       {
         "name": "Channeling Pursuit",
-        "description": "Before the animation of a Red or Yellow 3-Ping ends, Signal Orbs can be additionally input once to add Thunderbolt to the final hit of the current Red or Yellow 3-Ping. During the animation of a Blue 3-Ping, Signal Orbs can be additionally input once to immediately use [Spear Lunge] and add Thunderbolt. Thunderbolt deals 300% / 600% / 900% Lightning DMG based on the number of orbs pinged during the additional input.",
-        "level9": "**Level 9**: Upon the additional input of a 3-Ping during the animation of a 3-Ping, gain 1 stack of Lightning Conduit. Maximum Lightning Conduit stacks: 2. When performing [Spear Lunge], Lightning Conduit stacks are consumed to grant additional [Electric Charge].",
+        "description": [
+          "Before the animation of a Red or Yellow 3-Ping ends, Signal Orbs can be additionally input once to add Thunderbolt to the final hit of the current Red or Yellow 3-Ping. During the animation of a Blue 3-Ping, Signal Orbs can be additionally input once to immediately use [Spear Lunge] and add Thunderbolt. Thunderbolt deals 300% / 600% / 900% Lightning DMG based on the number of orbs pinged during the additional input."
+        ],
+        "level9": [
+          "**Level 9**: Upon the additional input of a 3-Ping during the animation of a 3-Ping, gain 1 stack of Lightning Conduit. Maximum Lightning Conduit stacks: 2. When performing [Spear Lunge], Lightning Conduit stacks are consumed to grant additional [Electric Charge]."
+        ],
         "level18": [
           "**Level 18**: Upon consuming Lightning Conduit stacks, each stack of Lightning Conduit recovers 2 Signal Orbs of the same random color.",
           "[Passive: Eternal Battlefield] added effect: Upon consuming Lightning Conduit stacks, each stack of Lightning Conduit recovers 16 Energy."
@@ -5699,8 +5802,12 @@
       },
       {
         "name": "Rumbling Might",
-        "description": "When performed with maximum [Electric Charge] stacks, Base DMG of [Lightning Fall] increases by 30%.",
-        "level9": "**Level 9**: Upon switch-in, the first cast of [Lightning Fall] grants 20 Energy. Performing [Lightning Fall] with maximum [Electric Charge] stacks rearranges Signal Orbs into 3-Pings.",
+        "description": [
+          "When performed with maximum [Electric Charge] stacks, Base DMG of [Lightning Fall] increases by 30%."
+        ],
+        "level9": [
+          "**Level 9**: Upon switch-in, the first cast of [Lightning Fall] grants 20 Energy. Performing [Lightning Fall] with maximum [Electric Charge] stacks rearranges Signal Orbs into 3-Pings."
+        ],
         "level18": [
           "**Level 18**: When performed with maximum [Electric Charge] stacks, Extra DMG Bonus of [Lightning Fall] increases by 30%.",
           "[Passive: Unyielding Breacher] added effect: Lightning Resistance Reduction effect of Turbulence Interference inflicted by Vera: Garnet increases by 10%."
@@ -5708,8 +5815,13 @@
       },
       {
         "name": "Refulgent Piercer",
-        "description": "While performing [Shining Piercer], a 3-Ping can be additionally input to end the animation early and perform Refulgent Piercer that pierces the enemy, dealing 2500% Lightning DMG, and gaining a stack of [Electric Charge]. Vera: Garnet then smites the enemy with thunderbolt, dealing 600% Lightning DMG.\n[Passive: Eternal Battlefield] added effect: [Lightning Fall] can be cast immediately after Refulgent Piercer.",
-        "level9": "**Level 9**: Upon performing QTE, recover Energy to 20 if Vera: Garnet has less than 20 Energy. Upon using [Shining Piercer], trigger all available QTEs.",
+        "description": [
+          "While performing [Shining Piercer], a 3-Ping can be additionally input to end the animation early and perform Refulgent Piercer that pierces the enemy, dealing 2500% Lightning DMG, and gaining a stack of [Electric Charge]. Vera: Garnet then smites the enemy with thunderbolt, dealing 600% Lightning DMG.",
+          "[Passive: Eternal Battlefield] added effect: [Lightning Fall] can be cast immediately after Refulgent Piercer."
+        ],
+        "level9": [
+          "**Level 9**: Upon performing QTE, recover Energy to 20 if Vera: Garnet has less than 20 Energy. Upon using [Shining Piercer], trigger all available QTEs."
+        ],
         "level18": [
           "**Level 18**: While performing Refulgent Piercer, a 3-Ping can be additionally input to increase the skill's Extra DMG Bonus by 50%.",
           "[Passive: Goddess of War] added effect: When performing Refulgent Piercer, Base DMG of Refulgent Piercer increases by 30% for every stack of [Electric Charge] Vera: Garnet currently has."
@@ -6123,16 +6235,24 @@
     "leap": [
       {
         "name": "Illustrious Ceremony",
-        "description": "Base DMG of Signal Orbs increases by 30%. Another set of Signal Orbs can be immediately pinged while using any Orb Skill, but cannot be performed consecutively.",
-        "level9": "**Level 9**: When entering battle, rearrange all Signal Orbs into 3-Pings upon the first activation of Divine Prayer.",
+        "description": [
+          "Base DMG of Signal Orbs increases by 30%. Another set of Signal Orbs can be immediately pinged while using any Orb Skill, but cannot be performed consecutively."
+        ],
+        "level9": [
+          "**Level 9**: When entering battle, rearrange all Signal Orbs into 3-Pings upon the first activation of Divine Prayer."
+        ],
         "level18": [
           "**Level 18**: Upon swapping in, immediately activate [Chaos Oath], gaining 12 Signature Energy and 12 Prayer. [Passive:Hierophany] added effect: Upon activating [Chaos Oath] or [Purity Oath], if Prayer is full, automatically activate [Divine Prayer]."
         ]
       },
       {
         "name": "Pious Promise",
-        "description": "Increase the Extra DMG Bonus of [Chaos Oath] and [Purity Oath] by 20%. [Signature - Sea of Sangharama] can be immediately activated after performing [Chaos Oath] or [Purity Oath].",
-        "level9": "**Level 9**: Upon activating [Purity Oath], gather surrounding enemies.",
+        "description": [
+          "Increase the Extra DMG Bonus of [Chaos Oath] and [Purity Oath] by 20%. [Signature - Sea of Sangharama] can be immediately activated after performing [Chaos Oath] or [Purity Oath]."
+        ],
+        "level9": [
+          "**Level 9**: Upon activating [Purity Oath], gather surrounding enemies."
+        ],
         "level18": [
           "**Level 18**: When entering battle, gain a set of 3-Ping upon the first activation of Divine Prayer. After casting any type of [Oath] with maximum stacks of amplification, obtain 24 Energy.",
           "[Passive: Martyrdom] added effect: After pinging the 3rd set of orbs during [Empyreal Prayer], if there are any remaining Signal Orbs of the same color as the 3rd set of orbs pinged, consume up to 3 Signal Orbs of the same color and increase the Extra DMG Bonus of [Empyreal Prayer] by 5% / 10% / 15% based on the number of orbs consumed. "
@@ -6140,8 +6260,12 @@
       },
       {
         "name": "Conjunction of Grace and Might",
-        "description": "The activation of [Empyreal Oath] will generate Purifying Blaze that heals allies for 20% of Emyprea's ATK and deals 60% Fire DMG every 0.5s in a large area. Purifying Blaze lasts for 5s.",
-        "level9": "**Level 9**: The 6 Signal Orbs gained upon activation of [Signature - Sea of Sangharama] will be 2 sets of 3-Pings and will be placed at the front of the Signal Orb bar.",
+        "description": [
+          "The activation of [Empyreal Oath] will generate Purifying Blaze that heals allies for 20% of Emyprea's ATK and deals 60% Fire DMG every 0.5s in a large area. Purifying Blaze lasts for 5s."
+        ],
+        "level9": [
+          "**Level 9**: The 6 Signal Orbs gained upon activation of [Signature - Sea of Sangharama] will be 2 sets of 3-Pings and will be placed at the front of the Signal Orb bar."
+        ],
         "level18": [
           "**Level 18**: The activation speed of Empyreal Prayer is increased, and the activation will trigger all available QTEs.",
           "[Passive: Revelation] added effect: Base DMG of [Prayer Ripple] during [Empyreal Prayer] increases by 100%."
@@ -7088,17 +7212,33 @@
     "leap": [
       {
         "name": "Phosphorescent Dawn",
-        "description": "Base DMG of Signal Orbs increases by 50%.\nUpon performing [Comet Propulsion], Scire becomes combo-ready. Pinging Signal Orbs in this state will be considered as Comet Combos, during which Scire gains Super Armor.\nComet Combo 1: Deals 200% / 400% / 600% Dark DMG, rearranges Signal Orbs into 3-Pings, and triggers Matrix if available (gains 1 Signal Orb upon successfully triggering Matrix).\nComet Combo 2: Deals 240% / 480% / 720% Dark DMG.\nComet Combo Finisher: Deals 300% / 600% / 900% Dark DMG.",
-        "level9": "**Level 9**: When pinging orbs during the Comet Combo, Scire grants 120 / 240 / 360 points of Ampere Accumulation to the party. Comet Combo Finisher additionally grants 24 / 48 / 72 points of Ampere Accumulation.\n[Core Passive-Space Walk] added effect: Effect: Electroconvergence\n- Effect Resource: Maximum points of Ampere Accumulation: 1000.\n- When the Effect is triggered: Character with the Electroconvergence Effect enters the Electronic Blast state and causes lightning to fall around themselves, dealing 800% Electroconvergence DMG every 2s for 12s (this cannot trigger the Tank Class passive).\n[QTE-Dawn Fall] added effect: Deals 100% Electroconvergence DMG.",
+        "description": [
+          "Base DMG of Signal Orbs increases by 50%.",
+          "Upon performing [Comet Propulsion], Scire becomes combo-ready. Pinging Signal Orbs in this state will be considered as Comet Combos, during which Scire gains Super Armor.",
+          "Comet Combo 1: Deals 200% / 400% / 600% Dark DMG, rearranges Signal Orbs into 3-Pings, and triggers Matrix if available (gains 1 Signal Orb upon successfully triggering Matrix).",
+          "Comet Combo 2: Deals 240% / 480% / 720% Dark DMG.",
+          "Comet Combo Finisher: Deals 300% / 600% / 900% Dark DMG."
+        ],
+        "level9": [
+          "**Level 9**: When pinging orbs during the Comet Combo, Scire grants 120 / 240 / 360 points of Ampere Accumulation to the party. Comet Combo Finisher additionally grants 24 / 48 / 72 points of Ampere Accumulation.",
+          "[Core Passive-Space Walk] added effect: Effect: Electroconvergence",
+          "- Effect Resource: Maximum points of Ampere Accumulation: 1000.",
+          "- When the Effect is triggered: Character with the Electroconvergence Effect enters the Electronic Blast state and causes lightning to fall around themselves, dealing 800% Electroconvergence DMG every 2s for 12s (this cannot trigger the Tank Class passive).",
+          "[QTE-Dawn Fall] added effect: Deals 100% Electroconvergence DMG."
+        ],
         "level18": [
           "**Level 18**: When pinging Red Signal Orbs, Scire gains an Anti-Gravity Shield equal to 3% / 6% / 10% of max HP.",
-          "[Passive-Faint Light Level 2] added effect: When Scire has an Anti-Gravity Shield, her ATK increases by 15%. "
+          "[Passive-Faint Light Level 2] added effect: When Scire has an Anti-Gravity Shield, her ATK increases by 15%."
         ]
       },
       {
         "name": "Mass-Energy Conversion",
-        "description": "Every 3-Ping consumed in charging [Leap Attack] increases Extra DMG Bonus of the current cast of the skill by 8%.",
-        "level9": "**Level 9**: Pulls in nearby enemies while charging [Leap Attack]. Trigger Matrix if available.",
+        "description": [
+          "Every 3-Ping consumed in charging [Leap Attack] increases Extra DMG Bonus of the current cast of the skill by 8%."
+        ],
+        "level9": [
+          "**Level 9**: Pulls in nearby enemies while charging [Leap Attack]. Trigger Matrix if available."
+        ],
         "level18": [
           "**Level 18**: Every 3-Ping consumed in charging [Leap Attack] increases Extra DMG Bonus of the next cast of [Signature-Starshatter Horizon] by 10%.",
           "[Passive-Banishing Sunglow Level 2] added effect: Dark Resistance Reduction effect of Chain Fusion inflicted by Scire increases by 10%. "
@@ -7106,8 +7246,16 @@
       },
       {
         "name": "Edge of Perception",
-        "description": "While in Anti-gravity Status or performing Comet Combos, hold Basic Attack to exit the current status and perform [Disintegration Strike], dealing 480% Dark DMG and recovering 88 Signature Energy. During this, gains Super Armor and 30% DMG Reduction.\n- Performing [Disintegration Strike] while in Anti-gravity Status additionally grants 12 Signature Energy and 999 Kinetic Energy. In addition, every 3-Ping consumed in charging [Leap Attack] increases Base DMG of [Disintegration Strike] by 50%.\n- While performing [Disintegration Strike] and subsequent [Signature-Starshatter Horizon], Scire is considered to be in Anti-gravity Status.",
-        "level9": "**Level 9**: When Ampere Accumulation of the party reaches the maximum value, [Disintegration Strike] will trigger the Electronic Blast state and activate the Electrodissociation Field that lasts for 14s.\n- The Electrodissociation Field inflicts enemies inside with Turbulence Interference that reduces Lightning Resistance every 2s. Turbulence Interference reduces Lightning Resistance by 15% for 2s.\n- While in the Electronic Blast state, performing [Signature-Starshatter Horizon] additionally triggers [Signature-Meteoric Thunderbolt], dealing 900% Electroconvergence DMG.",
+        "description": [
+          "While in Anti-gravity Status or performing Comet Combos, hold Basic Attack to exit the current status and perform [Disintegration Strike], dealing 480% Dark DMG and recovering 88 Signature Energy. During this, gains Super Armor and 30% DMG Reduction.",
+          "- Performing [Disintegration Strike] while in Anti-gravity Status additionally grants 12 Signature Energy and 999 Kinetic Energy. In addition, every 3-Ping consumed in charging [Leap Attack] increases Base DMG of [Disintegration Strike] by 50%.",
+          "- While performing [Disintegration Strike] and subsequent [Signature-Starshatter Horizon], Scire is considered to be in Anti-gravity Status."
+        ],
+        "level9": [
+          "**Level 9**: When Ampere Accumulation of the party reaches the maximum value, [Disintegration Strike] will trigger the Electronic Blast state and activate the Electrodissociation Field that lasts for 14s.",
+          "- The Electrodissociation Field inflicts enemies inside with Turbulence Interference that reduces Lightning Resistance every 2s. Turbulence Interference reduces Lightning Resistance by 15% for 2s.",
+          "- While in the Electronic Blast state, performing [Signature-Starshatter Horizon] additionally triggers [Signature-Meteoric Thunderbolt], dealing 900% Electroconvergence DMG."
+        ],
         "level18": [
           "**Level 18**: An additional 3-Ping can be consumed while charging [Disintegration Strike] to increase Extra DMG Bous of the cast by 200%, trigger all available QTEs, and grant 240 points of Ampere Accumulation to the party.",
           "[Passive-Unquenchable Willpower Level 3] added effect: Extra DMG Bonus of [Disintegration Strike] increases by 50%. The additional 3-Ping consumed while charging [Disintegration Strike] will also double the DMG dealt by the next cast of [Signature-Meteoric Thunderbolt]."
@@ -7501,8 +7649,18 @@
     "leap": [
       {
         "name": "Nightblade Vortex",
-        "description": "After performing Basic Attack Combo 5 while in Sword Form, tap Basic Attack to follow up with 5 combos of [Stormlight Chaos]. Stigmata is invincible during [Stormlight Chaos]. Unleashing [Stormlight Chaos] will transform all stacks of Stigmata Will into Mark of Shadow, up to a maximum of 150 stacks. All stacks of Mark of Shadow will be cleared when Stigmata exits Sword Form.\n- [Stormlight Chaos] deals a total of 800% Physical DMG. Each combo grants an additional 3 Energy.\n- While Afterglow Enhancement is active, hits from [Stormlight Chaos] can trigger Trueslash.\n- While Stigmata is performing [Stormlight Chaos], each stack of Mark of Shadow will increase the Base DMG of Trueslash triggered by 1.2%.\n- While Resolution is active, dodge and tap Basic Attack in succession to directly perform Basic Attack Combo 5.\n- After unleashing [Stormlight Chaos], Stigmata's attacks will not be able to activate the Afterglow Shadow effect.\n- Effect: Trueslash: Certain skills can accumulate Veiled Edge points. Veiled Edge points can be inherited by the next character with the Trueslash Effect. Maximum points of Veiled Edge: 999. When Veiled Edge points reach 100, perform Trueslash by consuming 100 Veiled Edge points upon hitting the enemy with the next cast of a skill that can trigger Trueslash, dealing 400% Trueslash DMG. Gains 1 point of Veracity every time Trueslash is triggered. Maximum points of Veracity: 90.",
-        "level9": "**Level 9**: Activating Sword Form when Afterglow Points is at least half full increases CRIT DMG by 10% while Afterglow Enhancement is active.",
+        "description": [
+          "After performing Basic Attack Combo 5 while in Sword Form, tap Basic Attack to follow up with 5 combos of [Stormlight Chaos]. Stigmata is invincible during [Stormlight Chaos]. Unleashing [Stormlight Chaos] will transform all stacks of Stigmata Will into Mark of Shadow, up to a maximum of 150 stacks. All stacks of Mark of Shadow will be cleared when Stigmata exits Sword Form.",
+          "- [Stormlight Chaos] deals a total of 800% Physical DMG. Each combo grants an additional 3 Energy.",
+          "- While Afterglow Enhancement is active, hits from [Stormlight Chaos] can trigger Trueslash.",
+          "- While Stigmata is performing [Stormlight Chaos], each stack of Mark of Shadow will increase the Base DMG of Trueslash triggered by 1.2%.",
+          "- While Resolution is active, dodge and tap Basic Attack in succession to directly perform Basic Attack Combo 5.",
+          "- After unleashing [Stormlight Chaos], Stigmata's attacks will not be able to activate the Afterglow Shadow effect.",
+          "- Effect: Trueslash: Certain skills can accumulate Veiled Edge points. Veiled Edge points can be inherited by the next character with the Trueslash Effect. Maximum points of Veiled Edge: 999. When Veiled Edge points reach 100, perform Trueslash by consuming 100 Veiled Edge points upon hitting the enemy with the next cast of a skill that can trigger Trueslash, dealing 400% Trueslash DMG. Gains 1 point of Veracity every time Trueslash is triggered. Maximum points of Veracity: 90."
+        ],
+        "level9": [
+          "**Level 9**: Activating Sword Form when Afterglow Points is at least half full increases CRIT DMG by 10% while Afterglow Enhancement is active."
+        ],
         "level18": [
           "**Level 18**: While unleashing [Sword Dance], move the joystick to leave an afterimage that continues to attack, dealing Physical DMG at 80% of Stigmata's ATK stat.",
           "[Passive - Severed Light Lv.2] added effect: Every time [Stormlight Chaos] triggers Trueslash, grant 10 Signature Energy. "
@@ -7510,8 +7668,12 @@
       },
       {
         "name": "Piercing Splendor",
-        "description": "After unleashing [Stormlight Chaos], the next activation of [Signature Move: Illuminated Abyss] will consume up to 10 Veracity to follow up with [Shatter Dark], dealing 450% / 500% / 550% / 600% / 650% / 700% / 750% / 800% / 850% / 900% Trueslash DMG according to the amount of consumed Veracity. When Stigmata unleashes [Shatter Dark], consume all Mark of Shadow, with each stack increasing the Base DMG of [Shatter Dark] by 3.5%.",
-        "level9": "**Level 9**: When [Stormlight Chaos] triggers Trueslash, gains 18 stacks of Mark of Shadow.",
+        "description": [
+          "After unleashing [Stormlight Chaos], the next activation of [Signature Move: Illuminated Abyss] will consume up to 10 Veracity to follow up with [Shatter Dark], dealing 450% / 500% / 550% / 600% / 650% / 700% / 750% / 800% / 850% / 900% Trueslash DMG according to the amount of consumed Veracity. When Stigmata unleashes [Shatter Dark], consume all Mark of Shadow, with each stack increasing the Base DMG of [Shatter Dark] by 3.5%."
+        ],
+        "level9": [
+          "**Level 9**: When [Stormlight Chaos] triggers Trueslash, gains 18 stacks of Mark of Shadow."
+        ],
         "level18": [
           "**Level 18**: Activates all available QTEs when activating Luminous Realm.",
           "[Mass Decree Lv.3] added effect: The Base DMG increase effect of each stack of Stigmata Will towards [Blade Abyss: Illuminated Abyss] is increased to 7.5%. The Base DMG increase of each stack of Mark of Shadow towards Trueslash while performing [Stormlight Chaos] and towards [Shatter Dark] is increased to 2.0% and 4.5% respectively."
@@ -7519,8 +7681,12 @@
       },
       {
         "name": "Cleansing Light of Dawn",
-        "description": "Base DMG of Signal Orb skills increases by 20%. When performing Signal Orb skills in Luminous Realm, gains 17 / 34 / 50 Veiled Edge points based on the number of orbs pinged.",
-        "level9": "**Level 9**: Extra DMG of [Glowing Lanternlight] increases by 15%. Upon hitting the opponent with this, gains 100 Veiled Edge points.",
+        "description": [
+          "Base DMG of Signal Orb skills increases by 20%. When performing Signal Orb skills in Luminous Realm, gains 17 / 34 / 50 Veiled Edge points based on the number of orbs pinged."
+        ],
+        "level9": [
+          "**Level 9**: Extra DMG of [Glowing Lanternlight] increases by 15%. Upon hitting the opponent with this, gains 100 Veiled Edge points."
+        ],
         "level18": [
           "**Level 18**: When performing [Glowing Lanternlight] or 3-Pings in Luminous Realm, the Extra DMG of the next use of [Signature Move: Bright Candle] increases by 25%. This effect can be stacked 3 times.",
           "[Carved Darkness Lv.2] added effect: The recorded damage multiplier of [Signature Move: Bright Candle] increases to 110%. Extra DMG Bonus of [Shatter Dark] increases by 30%."

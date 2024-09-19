@@ -55,8 +55,6 @@ class EmbedClass:
         return embed
 
     def create_memory_embed(self, memory):
-        
-        # print(memory['rarity'])
         stars = memory['rarity']
         
         match stars:
@@ -312,20 +310,34 @@ class EmbedClass:
                 embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)
                 embed.set_author(name=user, icon_url=chibi_avatar)
+                
+                leap_desc = skill[cur_page]['description']
+                for line in leap_desc:
+                    embed.add_field(
+                        name="",
+                        value=f"{line}",
+                        inline=False
+                    )
+
+                level9 = skill[cur_page]['level9']
                 embed.add_field(
                     name="",
-                    value=f"{skill[cur_page]['description']}",
+                    value=f"{level9[0]}",
                     inline=False
                 )
-                embed.add_field(
-                    name="",
-                    value=f"{skill[cur_page]['level9']}",
-                    inline=False
-                )
+                for idx, result in enumerate(level9):
+                    if idx == 0:
+                        continue
+                    embed.add_field(
+                        name="",
+                        value=f"{result}",
+                        inline=False
+                    )
+
                 level18 = skill[cur_page]['level18']
                 embed.add_field(
                     name="",
-                    value=f"{skill[cur_page]['level18'][0]}",
+                    value=f"{level18[0]}",
                     inline=False
                 )
                 for idx, result in enumerate(level18):
