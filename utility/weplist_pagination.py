@@ -30,7 +30,7 @@ class WeaponListPaginationView(discord.ui.View):
 
     def create_embed(self):
         embed = {} 
-        embed = self.embedconf.create_list_embed(name=self.data[self.current_page]['name'], items=self.data[self.current_page]['list'], curpage=self.current_page + 1, maxlistcount=len(self.data))
+        embed = self.embedconf.create_list_embed(name=self.data[self.current_page]['name'], type="weapons", items=self.data[self.current_page]['list'], curpage=self.current_page + 1, maxlistcount=len(self.data))
         return embed
 
     @discord.ui.button(label="|<", style=discord.ButtonStyle.green)
