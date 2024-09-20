@@ -108,9 +108,9 @@ class Fun(commands.Cog):
             self.pasta_command_ran = True
             self.last_pasta_command_ran = start
 
-            number = random.randrange(0, len(self.bricks['bricks']))
+            brick_image = random.choice(self.bricks['bricks'])
             embed = discord.Embed(title="", description="")
-            embed.set_image(url=self.bricks['bricks'][number])
+            embed.set_image(url=brick_image)
             await ctx.send(embed=embed)
         else:
             await ctx.send(content="A pasta or brick has been spawned recently. Please wait.")
