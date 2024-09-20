@@ -23,7 +23,7 @@ class MyBot(commands.Bot):
         intents = discord.Intents.default()
         intents.members = True
         intents.message_content = True
-        super().__init__(*args, **kwargs, command_prefix='?', intents=intents, help_command=None)
+        super().__init__(*args, **kwargs, command_prefix=prefix, intents=intents, help_command=None)
         self.logger = logging.getLogger(self.__class__.__name__)
         self.ext_dir = ext_dir
         self.synced = False
@@ -74,7 +74,7 @@ class MyBot(commands.Bot):
             last = time.time()
             await asyncio.sleep(1)
 
-    
+
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")

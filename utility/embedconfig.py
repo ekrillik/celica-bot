@@ -330,39 +330,25 @@ class EmbedClass:
         return embed
 
     def create_cublist_embed(self, cubs):
-        embed = discord.Embed(
+        fields = []
+        for cub in cubs:
+            suffix = "" if cub['sig_character'] == "N/A" else f" ({cub['sig_character']})"
+            fields.append(f"`{cub['base_rank']}・{cub['name']}{suffix}`")
+
+        return discord.Embed(
             title=f"List of CUBs",
-            description="",
+            description="\n".join(fields),
             color=discord.Color(0x3d6e41)
         )
-        for cub in cubs:
-            if(cub['sig_character'] != "N/A"):
-                embed.add_field(
-                    name="",
-                    value=f"`{cub['base_rank']}・{cub['name']}  ({cub['sig_character']})`",
-                    inline=False
-                )
-            else:
-                embed.add_field(
-                    name="",
-                    value=f"`{cub['base_rank']}・{cub['name']}`",
-                    inline=False
-                )
-        return embed
 
     def create_characterlist_embed(self, characterlist):
-        embed = discord.Embed(
+        names = "\n".join(f"{character['emojis']}`{character['full_name']}`" for character in characterlist['constructs'])
+
+        return discord.Embed(
             title=f"List of {characterlist['type']}",
-            description="",
+            description=names,
             color=discord.Color(0x3d6e41)
         )
-        for character in characterlist['constructs']:
-            embed.add_field(
-                name="",
-                value=f"{character['emojis']}`{character['full_name']}`",
-                inline=False
-            )
-        return embed
 
     def create_list_embed(self, name, type, items, curpage = 1, maxlistcount = 1):
         if type == "memories":
@@ -423,8 +409,7 @@ class EmbedClass:
         embed.add_field(name=credits['title'], value=credits['description'], inline=False)
 
         if 'people' in credits:
-            for name in credits['people']:
-                embed.add_field(name="", value=f"{name}", inline=False)
+            embed.add_field(name="", value="\n".join(credits['people']), inline=False)
         embed.set_footer(text=f"Page {cur_page + 1}/{max_len} ")
         return embed
 
