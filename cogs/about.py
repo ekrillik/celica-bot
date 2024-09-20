@@ -20,6 +20,13 @@ class About(commands.Cog):
     # async def about(self, ctx: commands.Context[commands.Bot]) -> None:
     #     pass
 
+    @commands.command()
+    @commands.is_owner()
+    async def sync(ctx: commands.Context) -> None:
+        """Sync commands"""
+        synced = await ctx.bot.tree.sync()
+        await ctx.send(f"Synced {len(synced)} commands globally")
+
     @commands.hybrid_command()
     async def about(self, ctx: commands.Context[commands.Bot]):
         embed = self.embedconf.create_about_embed()

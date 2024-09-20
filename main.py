@@ -81,13 +81,6 @@ def main() -> None:
     bot = MyBot(prefix="?", ext_dir="cogs")
     bot.run(TOKEN, log_handler=handler, log_level=logging.ERROR)
 
-    @bot.command()
-    @commands.is_owner()
-    async def sync(ctx: commands.Context) -> None:
-        """Sync commands"""
-        synced = await ctx.bot.tree.sync()
-        await ctx.send(f"Synced {len(synced)} commands globally")
-
 
 if __name__ == "__main__":
     main()
