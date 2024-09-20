@@ -39,6 +39,10 @@
       "command": "weapon",
       "description": "Displays details for a particular weapon."
     },
+    {
+      "command": "memory",
+      "description": "Displays details for a particular memory."
+    },
     { "command": "cub", "description": "Displays details for a CUB." },
     {
       "command": "minmax",
@@ -165,8 +169,14 @@
   "weapon": {
     "syntax": "?weapon [weapon or character name]",
     "aliases": "?weap, ?wep, ?sig",
-    "description": "Displays details for a particular weapon. The given input in the square brackets can be a character name/nickname or actual pet name. If a character name/nickname is used, all usable weapons for that particular character will be displayed in a pagination format with each button having each usable weapon of every rarity present in the game.",
+    "description": "Displays details for a particular weapon. The given input in the square brackets can be a character name/nickname or weapon name. If a character name/nickname is used, all usable weapons for that particular character will be displayed in a pagination format with each button having each usable weapon of every rarity present in the game.",
     "examples": ["?weapon scire", "?weap alisa", "?wep fish", "?sig hyperreal"]
+  },
+  "memory": {
+    "syntax": "?memory [memory name]",
+    "aliases": "?mem, ?memo",
+    "description": "Displays details for a particular memory. The given input in the square brackets should be a memory name",
+    "examples": ["?memory da vinci", "?mem eins", "?memo signa"]
   },
   "cub": {
     "syntax": "?cub [cub or character name]",
