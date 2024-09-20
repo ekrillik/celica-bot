@@ -20,12 +20,12 @@ class About(commands.Cog):
     async def about(self, ctx: commands.Context[commands.Bot]) -> None:
         pass
 
-    @about.command(name='about')
+    @about.command(name="about")
     async def about(self, ctx: commands.Context[commands.Bot]):
         embed = self.embedconf.create_about_embed()
         await ctx.send(embed=embed)
 
-    @about.command(name='credits')
+    @about.command(name="credits")
     async def credits(self, ctx: commands.Context[commands.Bot]):
         with open('data/credits.json') as file:
             parsed_json = json.load(file)
