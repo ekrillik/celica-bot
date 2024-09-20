@@ -1,9 +1,6 @@
 import discord
-import os
 from discord.ext import commands
-from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
-from utility.embedconfig import EmbedClass
-from utility.pagination import PaginationView
+
 
 class TestCog(commands.Cog):
 
@@ -31,6 +28,3 @@ class TestCog(commands.Cog):
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(TestCog(bot))
-
-async def teardown(bot):
-    print("Extension unloaded!")

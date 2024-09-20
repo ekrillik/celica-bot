@@ -1,4 +1,6 @@
 import json
+
+import discord
 from discord.ext import commands
 from utility.embedconfig import EmbedClass
 from utility.nickname_checker import check_nickname, abbreviation_checker
@@ -42,6 +44,42 @@ class Memories(commands.Cog):
             return
 
         embed = self.embedconf.create_memory_embed(memory)
+        await ctx.send(embed=embed)
+
+    @commands.command(aliases=['mm', 'min'])
+    async def minmax(self, ctx: commands.Context, *args):
+        names = " ".join(args).split(",")
+        memories = [self.resolve_memory(s.strip()) for s in names]
+        if len(memories) != 2 or None in memories:
+            await ctx.send(content="Either one of these memories are not valid! Please enter 2 valid memories to be compared.")
+            return
+
+        top_mem, bot_mem = sorted(memories, key=lambda x: x['atk'])
+
+        embed = discord.Embed(
+            title="Minmax",
+            description="",
+            color=discord.Color(value=0xc3d8fa)
+        )
+
+        embed.add_field(
+            name=f"{top_mem['name']} goes Top",
+            value=f"""
+                `ATK  : {top_mem['atk']}   `
+                `DEF  : {top_mem['def']}   `
+                `CRIT : {top_mem['crit']}    `
+                `HP   : {top_mem['hp']}  `
+                """)
+
+        embed.add_field(
+            name=f"{bot_mem['name']} goes Bottom",
+            value=f"""
+                `ATK : {bot_mem['atk']}   `
+                `DEF : {bot_mem['def']}   `
+                `CRIT: {bot_mem['crit']}    `
+                `HP  : {bot_mem['hp']}  `
+                """)
+
         await ctx.send(embed=embed)
 
 

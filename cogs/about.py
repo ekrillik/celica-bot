@@ -1,16 +1,18 @@
-import discord
-import os
 import json
 from discord.ext import commands
-from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
 from utility.pagination import PaginationView
 
+
 class About(commands.Cog):
+    credits = {}
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.embedconf = EmbedClass()
+
+        with open('data/credits.json') as file:
+            self.credits = json.load(file)['credits']
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -23,16 +25,10 @@ class About(commands.Cog):
 
     @commands.command()
     async def credits(self, ctx: commands.Context):
-        with open('data/credits.json') as file:
-            parsed_json = json.load(file)
-        credits = parsed_json['credits']
-
-        embed = self.embedconf.credits_embed(credits=credits[0], cur_page=0, max_len=len(credits))
-        view = PaginationView(ctx.author, data=credits, pagination_type="credits")
+        embed = self.embedconf.credits_embed(credits=self.credits[0], cur_page=0, max_len=len(self.credits))
+        view = PaginationView(ctx.author, data=self.credits, pagination_type="credits")
         view.message = await ctx.send(embed=embed, view=view)
+
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(About(bot))
-
-async def teardown(bot):
-    print("Extension unloaded!")
