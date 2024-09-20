@@ -31,11 +31,12 @@ class DropdownView(discord.ui.View):
         self.text_view = discord.ui.Button(label="Text View", style=discord.ButtonStyle.gray)
         self.menu.callback = self.callback
         self.clear_button.callback = self.deleteView
+        self.image_view.callback = self.imageView
         self.add_item(self.menu)
         self.add_item(self.clear_button)
-        selection = self.choose_build(self.build['builds'], self.menu.values[0])    
+        selection = self.choose_build(self.build['builds'], data[0])    
         if 'infographic' in selection:
-            self.add_item()
+            self.add_item(self.image_view)
         self.embedconf = EmbedClass()
 
     def choose_build(self, build_array, choice):
