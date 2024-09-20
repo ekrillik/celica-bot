@@ -31,10 +31,16 @@ class PaginationView(discord.ui.View):
             return True
         await interaction.response.send_message(f"The command was initiated by {self.user.mention}", ephemeral=True)
         return False
-    
+
+
     async def on_timeout(self) -> None:
-        self.clear_items()
-        await self.message.edit(view=self)
+        try:
+            self.clear_items()
+            await self.message.edit(view=self)
+        except discord.NotFound:
+            # Message was deleted, nothing to do here
+            pass
+
 
     @discord.ui.button(label="|<", style=discord.ButtonStyle.green)
     async def first_page_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
@@ -63,7 +69,7 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.create_list_embed(name="Memories", type="memories", items = self.data[self.current_page], curpage=self.current_page+1, maxlistcount=len(self.data))
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
-        
+
     @discord.ui.button(label=">", style=discord.ButtonStyle.blurple)
     async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
         self.current_page+=1
@@ -77,7 +83,7 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.create_list_embed(name="Memories", type="memories", items = self.data[self.current_page], curpage=self.current_page+1, maxlistcount=len(self.data))
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
-        
+
     @discord.ui.button(label=">|", style=discord.ButtonStyle.green)
     async def last_page_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
         self.current_page = self.max_len - 1
@@ -91,7 +97,7 @@ class PaginationView(discord.ui.View):
             embed = self.embedconf.create_list_embed(name="Memories", type="memories", items = self.data[self.current_page], curpage=self.current_page+1, maxlistcount=len(self.data))
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
-        
+
     @discord.ui.button(label="Delete", style=discord.ButtonStyle.red)
     async def deleteView(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
         await self.message.delete()

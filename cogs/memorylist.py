@@ -1,26 +1,21 @@
 from __future__ import annotations
 
-import typing
-import traceback
-import discord
-import os
 import json
 from discord.ext import commands
-from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
 from utility.pagination import PaginationView
 
-from discord.ui.select import BaseSelect
 
 class MemoryList(commands.Cog):
+    memory_list = {}
+
     def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.embedconf = EmbedClass()
 
-    def retrieve_memorylist(self):
         with open('data/memorylist.json') as file:
             parsed_json = json.load(file)
-        return parsed_json['memories_categorised']
+            self.memory_list = parsed_json['memories_categorised']
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -28,14 +23,10 @@ class MemoryList(commands.Cog):
 
     @commands.command(aliases=['ml'])
     async def memorylist(self, ctx: commands.Context) -> None:
-        memorylist = self.retrieve_memorylist()
-        self.view = PaginationView(ctx.author, data=memorylist, pagination_type="memories")
+        view = PaginationView(ctx.author, data=self.memory_list, pagination_type="memories")
+        embed = self.embedconf.create_list_embed(name="Memories", type="memories", items=self.memory_list[0])
+        view.message = await ctx.send(embed=embed, view=view)
 
-        embed = self.embedconf.create_list_embed(name="Memories", type="memories", items=memorylist[0])
-        self.view.message = await ctx.send(embed=embed, view=self.view)
-        
+
 async def setup(bot: commands.Bot):
     await bot.add_cog(MemoryList(bot))
-
-async def teardown(bot):
-    print("Extension unloaded!")
