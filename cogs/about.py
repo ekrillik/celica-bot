@@ -20,8 +20,8 @@ class About(commands.Cog):
     # async def about(self, ctx: commands.Context[commands.Bot]) -> None:
     #     pass
 
-    @commands.command()
-    @commands.is_owner()
+    # @commands.is_owner()
+    @commands.command()    
     async def sync(ctx: commands.Context) -> None:
         """Sync commands"""
         synced = await ctx.bot.tree.sync()
