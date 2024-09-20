@@ -16,12 +16,12 @@ class About(commands.Cog):
     async def on_ready(self):
         print('About loaded.')
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(name='about')
     async def about(self, ctx: commands.Context):
         embed = self.embedconf.create_about_embed()
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(name='credits')
     async def credits(self, ctx: commands.Context):
         with open('data/credits.json') as file:
             parsed_json = json.load(file)
