@@ -578,7 +578,7 @@ def character_theme(nickname):
             name = "Liv: Empyrea"
             colour = 0xd7d8da
             chibi_portrait = "https://assets.huaxu.app/glb/image/role/roleheadr4lifu3q.webp"
-            thumbnail_url= "https://assets.huaxu.app/browse/glb/image/rolecharacter/roleheadr4lifu2.256.webp"
+            thumbnail_url= "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr4lifu2.256.webp"
         case "capriccio":
             name = "Selena: Capriccio"
             colour = 0x4e74c8
