@@ -33,10 +33,26 @@ class DropdownView(discord.ui.View):
         self.clear_button.callback = self.deleteView
         self.add_item(self.menu)
         self.add_item(self.clear_button)
+        selection = self.choose_build(self.build['builds'], self.menu.values[0])    
+        if 'infographic' in selection:
+            self.add_item()
         self.embedconf = EmbedClass()
+
+    def choose_build(self, build_array, choice):
+        for i in build_array:
+            if choice == i['set_name']:
+                build = i
+        return build
 
     async def callback(self, interaction: discord.Interaction) -> None:
         embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], colour=self.theme[0], thumbnail_url=self.theme[3])
+        selection = self.choose_build(self.build['builds'], self.menu.values[0])    
+        if 'infographic' in selection:
+            self.add_item()
+        await interaction.response.edit_message(embed=embed, view=self)
+
+    async def imageView(self, interaction: discord.Interaction) -> None:
+        embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], imageView=True, colour=self.theme[0], thumbnail_url=self.theme[3])
         await interaction.response.edit_message(embed=embed, view=self)
 
     async def interaction_check(self, interaction: discord.Interaction) -> bool:

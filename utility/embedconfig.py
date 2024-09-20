@@ -13,7 +13,7 @@ class EmbedClass:
         else:
             return passive
 
-    def create_build_embed(self, build, choice, colour=0xffffff, thumbnail_url = ""):
+    def create_build_embed(self, build, choice, imageView = False, colour=0xffffff, thumbnail_url = ""):
         name = build['unit_name']
         frame = build['frame_name']
         thumbnail_url = thumbnail_url
@@ -23,34 +23,38 @@ class EmbedClass:
         description = "\n".join(selection['description'])
         memories = "\n".join(selection['memories'])
         memory_resonance = "\n".join(selection['memory_resonance'])
+        image_url = selection['infographic']
 
         embed = discord.Embed(
             title=f"{name}: {frame}",
             description=f"{selection['set_type'] + " " + "Set"}",
             color=discord.Color(colour)
         )
-        embed.add_field(name="Usage", value=selection['set_type'])
-        embed.add_field(name="Game Modes", value=selection['game_modes'])
-        embed.add_field(
-            name="Description",
-            value=description,
-            inline=False
-        )
-        embed.add_field(
-            name="Memories",
-            value=memories,
-            inline=False
-        )
-        embed.add_field(
-            name="Memory Resonances",
-            value=memory_resonance,
-            inline=False
-        )
-        embed.add_field(
-            name="Harmony Recommendation",
-            value=f"{selection['harmony_rec']}",
-            inline=False
-        )
+        if not imageView:
+            embed.add_field(name="Usage", value=selection['set_type'])
+            embed.add_field(name="Game Modes", value=selection['game_modes'])
+            embed.add_field(
+                name="Description",
+                value=description,
+                inline=False
+            )
+            embed.add_field(
+                name="Memories",
+                value=memories,
+                inline=False
+            )
+            embed.add_field(
+                name="Memory Resonances",
+                value=memory_resonance,
+                inline=False
+            )
+            embed.add_field(
+                name="Harmony Recommendation",
+                value=f"{selection['harmony_rec']}",
+                inline=False
+            )
+        else:
+            embed.set_image(url=image_url)
         embed.set_thumbnail(url=thumbnail_url)
         return embed
 
