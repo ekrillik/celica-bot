@@ -74,11 +74,11 @@ class Help(commands.Cog):
 
         embed.add_field(name="Planning", value=f"[BC Planner](https://docs.google.com/spreadsheets/d/1nNauBXGcHv_7AepLWBLo4ykl3V_EhxpK)")
         
-        embed.add_field(name="Phantom Pain Cage", value=f"[SS Ultimate](https://docs.google.com/spreadsheets/d/16z8o9xw3NUhSAymJIRtsWyQsxqEndpgYS4OCb1GYyAQ)\n[SSS Ultimate](https://docs.google.com/spreadsheets/d/1p3-_Bqp4NEpqEVEFUqthxeVlvwu5uXzJSoHa8ZoN5yk)\n[S+ Ultimate](https://docs.google.com/spreadsheets/d/1YzOGbhTKaGTzfGbQJDdI6PSw8lXxcDpEQeeVLF4u2Dw)")
+        embed.add_field(name="Phantom Pain Cage", value=f"[SS Ultimate](https://docs.google.com/spreadsheets/d/16z8o9xw3NUhSAymJIRtsWyQsxqEndpgYS4OCb1GYyAQ)\n[SSS Ultimate](https://docs.google.com/spreadsheets/d/1p3-_Bqp4NEpqEVEFUqthxeVlvwu5uXzJSoHa8ZoN5yk)\n[S+ Ultimate](https://docs.google.com/spreadsheets/d/1YzOGbhTKaGTzfGbQJDdI6PSw8lXxcDpEQeeVLF4u2Dw)\n[Outdated Advanced PPC Spreadsheet](https://docs.google.com/spreadsheets/d/1_2Jg37FIxK7bqqaSYT9G2qirShdsC3G-ZdYQSeYIlmA)")
 
         embed.add_field(name="Warzone", value=f"[Advanced Warzone Tips](https://docs.google.com/document/d/1nJeLR5qIrq7SvueCGPDFz5KsMmYGVxUgqmxoRHZJ0GM)\n")
 
-        embed.add_field(name="Outdated Resources", value=f"[Character 'Tier List by Doomy'](https://docs.google.com/spreadsheets/d/1nCmBq7NstZovPWs9cymAXNyakVXJ4lKvNGbVmtPbcUc)\n[Outdated Advanced PPC Spreadsheet](https://docs.google.com/spreadsheets/d/1_2Jg37FIxK7bqqaSYT9G2qirShdsC3G-ZdYQSeYIlmA)\n[Comprehensive Character Builds](https://docs.google.com/spreadsheets/d/1_NAHdVouSp2T6AwStpz9ZMLZ_ca5EzcuHde5obIlero)\n[Resource Calculator](https://docs.google.com/spreadsheets/d/1rfS6P1UOcZFj_ru2dqLzRkTE39Z0Phjbi5XDsOoNYRs)\n[Coatings Acquisition](https://docs.google.com/spreadsheets/d/1uIWrtp3mZEZgQseY788WHGp7_0mZBE8zSkpVOVCWtP8)")
+        embed.add_field(name="Outdated Resources", value=f"[Character 'Tier List by Doomy'](https://docs.google.com/spreadsheets/d/1nCmBq7NstZovPWs9cymAXNyakVXJ4lKvNGbVmtPbcUc)\n[Comprehensive Character Builds](https://docs.google.com/spreadsheets/d/1_NAHdVouSp2T6AwStpz9ZMLZ_ca5EzcuHde5obIlero)\n[Resource Calculator](https://docs.google.com/spreadsheets/d/1rfS6P1UOcZFj_ru2dqLzRkTE39Z0Phjbi5XDsOoNYRs)\n[Coatings Acquisition](https://docs.google.com/spreadsheets/d/1uIWrtp3mZEZgQseY788WHGp7_0mZBE8zSkpVOVCWtP8)")
         await ctx.send(embed=embed)
 
 async def setup(bot: commands.Bot):
