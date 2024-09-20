@@ -39,9 +39,8 @@ class Builds(commands.Cog):
         embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Affix+Infographic.jpg')
         await ctx.send(embed=embed)
 
-    @commands.command()
-    async def build(self, ctx: commands.Context, *args) -> None:
-        character = " ".join(args)
+    @commands.hybrid_command()
+    async def build(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
 
         build = self.builds.get(character, None)

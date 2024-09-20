@@ -19,9 +19,9 @@ class CUBs(commands.Cog):
     async def on_ready(self):
         print('CUBs loaded.')
 
-    @commands.command(aliases=["pet"])
-    async def cub(self, ctx: commands.Context, *args) -> None:
-        cub_name = check_nickname(" ".join(args), "cub")
+    @commands.hybrid_command(aliases=["pet"])
+    async def cub(self, ctx: commands.Context, *, cub_name) -> None:
+        cub_name = check_nickname(cub_name, "cub")
 
         cub = self.cubs.get(cub_name)
         if cub is None:

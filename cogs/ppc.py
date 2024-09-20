@@ -1,14 +1,10 @@
 import discord
-from aiohttp.web_routedef import static
 from discord.ext import commands
 
 class Ppc(commands.Cog):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
-
-    def check_difficulty(self, difficulty):
-        return difficulty in ["test", "elite", "knight", "chaos", "hell"]
 
     @commands.Cog.listener()
     async def on_ready(self):
