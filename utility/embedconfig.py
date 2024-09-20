@@ -13,7 +13,7 @@ class EmbedClass:
         else:
             return passive
 
-    def create_build_embed(self, build, choice, colour=0xffffff, thumbnail_url = ""): 
+    def create_build_embed(self, build, choice, colour=0xffffff, thumbnail_url = ""):
         name = build['unit_name']
         frame = build['frame_name']
         thumbnail_url = thumbnail_url
@@ -32,32 +32,33 @@ class EmbedClass:
         embed.add_field(name="Usage", value=selection['set_type'])
         embed.add_field(name="Game Modes", value=selection['game_modes'])
         embed.add_field(
-            name="Description", 
+            name="Description",
             value=description,
             inline=False
         )
         embed.add_field(
-            name="Memories", 
+            name="Memories",
             value=memories,
             inline=False
         )
         embed.add_field(
-            name="Memory Resonances", 
+            name="Memory Resonances",
             value=memory_resonance,
             inline=False
         )
         embed.add_field(
-            name="Harmony Recommendation", 
+            name="Harmony Recommendation",
             value=f"{selection['harmony_rec']}",
             inline=False
         )
         embed.set_thumbnail(url=thumbnail_url)
         return embed
 
-    def create_memory_embed(self, memory):
-        stars = memory['rarity']
-        
-        match stars:
+    @staticmethod
+    def create_rarity_embed(name: str, rarity: int) -> discord.Embed:
+        stars = ""
+        colour = 0xffffff
+        match rarity:
             case 2:
                 stars = "★★"
                 colour = 0x75d17d
@@ -74,34 +75,34 @@ class EmbedClass:
                 stars = "★★★★★★"
                 colour = 0xfc5f21
 
-        embed = discord.Embed(
-            title=f"{memory['name']} {stars}",
+        return discord.Embed(
+            title=f"{name} {stars}",
             description="",
             color=discord.Color(colour)
         )
+
+    def create_memory_embed(self, memory):
+        embed = self.create_rarity_embed(memory['name'], memory['rarity'])
         embed.add_field(
             name=f"2pc Set Bonus",
             value=f"{memory['2pc']}",
             inline=False
         )
-        if (memory['4pc'] == ""):
-            a = ""
-        else:
+
+        if memory['4pc'] != "":
             embed.add_field(
                 name=f"4pc Set Bonus",
                 value=f"{memory['4pc']}",
                 inline=False
             )
 
-        if ('6pc' in memory):
+        if '6pc' in memory:
             embed.add_field(
                 name=f"6pc Set Bonus",
                 value=f"{memory['6pc']}",
                 inline=False
             )
-        else:
-            a = ""
-        
+
         embed.add_field(
             name="ATK",
             value=f"{memory['atk']}",
@@ -122,32 +123,10 @@ class EmbedClass:
         return embed
 
     def create_weapon_embed(self, weapon, user="", chibi_avatar=""):
-        effect = weapon['effect']
-        stars = weapon['rarity']
-
-        match stars:
-            case 2:
-                stars = "★★"
-                colour = 0x75d17d
-            case 3:
-                stars = "★★★"
-                colour = 0x3c76bd
-            case 4:
-                stars = "★★★★"
-                colour = 0xd667f0
-            case 5:
-                stars = "★★★★★"
-                colour = 0xf79514
-            case 6:
-                stars = "★★★★★★"
-                colour = 0xfc5f21
-
-        embed = discord.Embed(
-            title=f"{weapon['name']} {stars}",
-            description=f"{weapon['weapon_type']}",
-            color=discord.Color(colour)
-        )
+        embed = self.create_rarity_embed(weapon['name'], weapon['rarity'])
         embed.set_author(name=user, icon_url=chibi_avatar)
+
+        effect = weapon['effect']
         embed.add_field(
             name=f"{effect['effect_name']}",
             value=f"{effect['effect_desc']}",
@@ -165,7 +144,7 @@ class EmbedClass:
         return embed
 
     def create_cub_embed(self, cub, choice, colour=0xffffff, chibi_avatar=""):
-        
+
         active_skills = cub['active_skills']
         passive_skills = cub['passive_skills']
 
@@ -194,7 +173,7 @@ class EmbedClass:
             )
         for i in skills:
             embed.add_field(
-                name=i['skill_name'], 
+                name=i['skill_name'],
                 value=i['skill_desc'],
                 inline=False
             )
@@ -310,7 +289,7 @@ class EmbedClass:
                 embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)
                 embed.set_author(name=user, icon_url=chibi_avatar)
-                
+
                 leap_desc = skill[cur_page]['description']
                 for line in leap_desc:
                     embed.add_field(
@@ -435,7 +414,7 @@ class EmbedClass:
         )
         embed.set_thumbnail(url="https://assets.huaxu.app/glb/image/rolecharacter/sailikanomal01.256.webp")
         return embed
-    
+
     def credits_embed(self, credits, cur_page, max_len):
         embed = discord.Embed(
             title=f"Credits",
@@ -448,7 +427,7 @@ class EmbedClass:
                 embed.add_field(name="", value=f"{name}", inline=False)
         embed.set_footer(text=f"Page {cur_page + 1}/{max_len} ")
         return embed
-    
+
     def help_commands_embed(self, title, description, aliases = "", examples = []):
         embed = discord.Embed(title=title, description=f"{description}", color=discord.Color(0x2e6a80))
 
@@ -458,7 +437,7 @@ class EmbedClass:
             embed.add_field(name="Examples", value="", inline=False)
             for example in examples:
                 embed.add_field(name="", value=example, inline=False)
-        
+
         return embed
 
     def helplist_embed(self, title, list):
