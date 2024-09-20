@@ -1348,6 +1348,7 @@
       {
         "set_name": "4 Turing 2 Cottie",
         "set_type": "Main",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BTurning+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at SS0 or below", "General DPS set"],
         "memories": ["4x Turing", "2x Cottie"],
@@ -1360,6 +1361,7 @@
       {
         "set_name": "4 Turing 2 Darwin",
         "set_type": "Main",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BTuring+Darwin%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at SS3 or above", "General DPS set"],
         "memories": ["4x Turing", "2x Darwin"],
@@ -1372,6 +1374,7 @@
       {
         "set_name": "4 Turing 2 Shakespeare Harmo",
         "set_type": "Alternate Harmony",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BShakespeare+harmo%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at SS3 or above", "Used as sub-DPS for Epitaph"],
         "memories": ["4x Turing", "2x Shakespeare"],
