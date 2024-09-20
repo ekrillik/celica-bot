@@ -18,17 +18,6 @@ class About(commands.Cog):
     async def on_ready(self):
         print('About loaded.')
 
-    # @commands.hybrid_group()
-    # async def about(self, ctx: commands.Context[commands.Bot]) -> None:
-    #     pass
-
-    # @commands.is_owner()
-    @commands.command()
-    async def sync(ctx: commands.Context) -> None:
-        """Sync commands"""
-        synced = await ctx.bot.tree.sync()
-        await ctx.send(f"Synced {len(synced)} commands globally")
-
     @commands.hybrid_command()
     async def about(self, ctx: commands.Context[commands.Bot]):
         embed = self.embedconf.create_about_embed()

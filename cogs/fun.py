@@ -1,5 +1,7 @@
 import discord
 import time
+import json
+import random
 from discord.ext import commands
 from utility.embedconfig import EmbedClass
 
@@ -23,6 +25,9 @@ class Fun(commands.Cog):
         self.last_pasta_command_ran = 0.00
         self.last_bubblewrap_command_ran = 0.00
 
+        with open('data/bricks.json') as file:
+            self.bricks = json.load(file)
+
     # The following commands are restricted to specific servers/not usable within PGR:O
 
     @commands.Cog.listener()
@@ -37,7 +42,7 @@ class Fun(commands.Cog):
         embed = discord.Embed(title="This is a fun command.", description="This is a fun command description")
         await ctx.send(embed=embed)
 
-    @commands.command()
+    @commands.hybrid_command()
     async def pasta(self, ctx: commands.Context) -> None:
         if ctx.guild.id not in self.allowed_server_ids:
             return
@@ -53,9 +58,9 @@ class Fun(commands.Cog):
             embed = discord.Embed(title="This is a pasta.", description="This is a pasta")
             await ctx.send(embed=embed)
         else:
-            await ctx.send(content="A pasta has been spawned recently. Please wait.")
+            await ctx.send(content="A pasta or brick has been spawned recently. Please wait.")
 
-    @commands.command()
+    @commands.hybrid_command()
     async def dalaos(self, ctx: commands.Context) -> None:
         if ctx.guild.id in self.disallowed_server_ids:
             return
@@ -89,6 +94,26 @@ class Fun(commands.Cog):
         embed.add_field(name="", value=bubble_wrap)
         await ctx.send(embed=embed)
 
+    @commands.hybrid_command(aliases=['brick'])
+    async def brickistan(self, ctx: commands.Context) -> None:
+        if ctx.guild.id not in self.allowed_server_ids:
+            return
+
+        start = time.time()
+        if self.pasta_command_ran:
+            if (start - self.last_pasta_command_ran) > 5:
+                self.pasta_command_ran = False
+
+        if not self.pasta_command_ran:
+            self.pasta_command_ran = True
+            self.last_pasta_command_ran = start
+
+            number = random.randrange(0, len(self.bricks['bricks']))
+            embed = discord.Embed(title="", description="")
+            embed.set_image(url=self.bricks['bricks'][number])
+            await ctx.send(embed=embed)
+        else:
+            await ctx.send(content="A pasta or brick has been spawned recently. Please wait.")
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Fun(bot))

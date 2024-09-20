@@ -21,7 +21,7 @@ class Help(commands.Cog):
     async def on_ready(self):
         print('Help loaded.')
 
-    @commands.command()
+    @commands.hybrid_command()
     async def help(self, ctx: commands.Context, command=""):
         prefix = self.bot.command_prefix
         if command == "":
@@ -69,7 +69,7 @@ class Help(commands.Cog):
 
             view.message = await ctx.send(embed=embed, view=view)
 
-    @commands.command()
+    @commands.hybrid_command()
     async def links(self, ctx: commands.Context):
         embed = discord.Embed(
             title=f"Useful Links",

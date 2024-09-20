@@ -47,6 +47,8 @@ class MyBot(commands.Bot):
     async def on_ready(self):
         print(f'Logged in as {self.user} (ID: {self.user.id})')
         print('------')
+        synced = await self.tree.sync()
+        print(f"Synced {len(synced)} commands globally")
 
     async def setup_hook(self) -> None:
         self.client = aiohttp.ClientSession()

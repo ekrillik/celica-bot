@@ -11,14 +11,14 @@ class TestCog(commands.Cog):
     async def on_ready(self):
         print('TestCog loaded.')
 
-    @commands.command()
+    @commands.hybrid_command()
     async def test(self, ctx):
         message = "I'm alive"
         title = "Test Message"
         embed = discord.Embed(title=title, description=message)
         await ctx.channel.send(embed=embed)
 
-    @commands.command()
+    @commands.hybrid_command()
     async def ping(self, ctx):
         message = f'⏱|** {round(self.bot.latency * 1000)} ms** Latency!'
         title = "Ping"

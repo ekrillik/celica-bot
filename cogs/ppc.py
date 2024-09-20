@@ -14,7 +14,7 @@ class Ppc(commands.Cog):
     async def on_ready(self):
         print('PPC loaded.')
 
-    @commands.command(pass_context=True, aliases=["ppc"])
+    @commands.hybrid_command(pass_context=True, aliases=["ppc"])
     async def time(self, ctx, difficulty, time_str):
         max_seconds = 300
         difficulties = ["test", "elite", "knight", "chaos", "hell"]
