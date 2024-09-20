@@ -19,6 +19,7 @@ class DropdownView(discord.ui.View):
         self.data = data
         self.build = build
         self.theme = theme
+        self.selection = data[0]
         self.menu = discord.ui.Select[DropdownView](
             custom_id="persistent_menu",
             placeholder="Select a build",
@@ -32,6 +33,7 @@ class DropdownView(discord.ui.View):
         self.menu.callback = self.callback
         self.clear_button.callback = self.deleteView
         self.image_view.callback = self.imageView
+        self.text_view.callback = self.textView
         self.add_item(self.menu)
         self.add_item(self.clear_button)
         selection = self.choose_build(self.build['builds'], data[0])    
@@ -47,13 +49,22 @@ class DropdownView(discord.ui.View):
 
     async def callback(self, interaction: discord.Interaction) -> None:
         embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], colour=self.theme[0], thumbnail_url=self.theme[3])
-        selection = self.choose_build(self.build['builds'], self.menu.values[0])    
+        self.selection = self.menu.values[0]
+        selection = self.choose_build(self.build['builds'], self.menu.values[0])
         if 'infographic' in selection:
-            self.add_item()
+            self.add_item(self.image_view)
         await interaction.response.edit_message(embed=embed, view=self)
 
     async def imageView(self, interaction: discord.Interaction) -> None:
-        embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], imageView=True, colour=self.theme[0], thumbnail_url=self.theme[3])
+        self.remove_item(self.image_view)
+        self.add_item(self.text_view)
+        embed = self.embedconf.create_build_embed(self.build, self.selection, imageView=True, colour=self.theme[0], thumbnail_url=self.theme[3])
+        await interaction.response.edit_message(embed=embed, view=self)
+
+    async def textView(self, interaction: discord.Interaction) -> None:
+        self.remove_item(self.text_view)
+        self.add_item(self.image_view)
+        embed = self.embedconf.create_build_embed(self.build, self.selection, colour=self.theme[0], thumbnail_url=self.theme[3])
         await interaction.response.edit_message(embed=embed, view=self)
 
     async def interaction_check(self, interaction: discord.Interaction) -> bool:

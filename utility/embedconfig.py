@@ -23,7 +23,8 @@ class EmbedClass:
         description = "\n".join(selection['description'])
         memories = "\n".join(selection['memories'])
         memory_resonance = "\n".join(selection['memory_resonance'])
-        image_url = selection['infographic']
+
+        
 
         embed = discord.Embed(
             title=f"{name}: {frame}",
@@ -54,6 +55,7 @@ class EmbedClass:
                 inline=False
             )
         else:
+            image_url = selection['infographic']
             embed.set_image(url=image_url)
         embed.set_thumbnail(url=thumbnail_url)
         return embed
