@@ -6,7 +6,8 @@
     "builds": [
       {
         "set_name": "4 Patton 2 Signa",
-        "set_type": "Main",
+        "set_type": "Main Attacker",
+        "usage": "Main Attacker",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at all ranks", "General DPS set"],
         "memories": ["4x Patton", "2x Signa"],
@@ -28,8 +29,9 @@
     "builds": [
       {
         "set_name": "4 Da Vinci 2 Philip II",
-        "set_type": "Main",
-        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "set_type": "Main Support",
+        "usage": "Main QTE Support",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Recommended for all ranks", "QTE support set."],
         "memories": ["4x Da Vinci", "2x Philip II"],
         "memory_resonance": [
@@ -40,8 +42,9 @@
       },
       {
         "set_name": "2 Philip II 2 Voltaire 2 Richelieu",
-        "set_type": "Alternative QTE Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "set_type": "Alternative Support",
+        "usage": "Alternative QTE Support",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Alternate Set",
           "Used if physical tank is already holding Da Vinci"
@@ -62,8 +65,9 @@
     "builds": [
       {
         "set_name": "4 Da Vinci 2 Catherine",
-        "set_type": "Main",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "set_type": "Main Tank",
+        "usage": "Main QTE Tank",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at all ranks", "General QTE Bot set"],
         "memories": ["4x Da Vinci", "2x Catherine"],
         "memory_resonance": [
@@ -81,7 +85,8 @@
     "builds": [
       {
         "set_name": "4 Heisen 2 Darwin",
-        "set_type": "Main",
+        "set_type": "Main Attacker",
+        "usage": "Main Attacker",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General DPS/sub-DPS set"],
         "memories": ["4x Heisen", "2x Darwin"],

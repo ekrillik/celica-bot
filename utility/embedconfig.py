@@ -22,9 +22,7 @@ class EmbedClass:
         selection = self.choose_build(builds, choice)
         description = "\n".join(selection['description'])
         memories = "\n".join(selection['memories'])
-        memory_resonance = "\n".join(selection['memory_resonance'])
-
-        
+        memory_resonance = "\n".join(selection['memory_resonance'])        
 
         embed = discord.Embed(
             title=f"{name}: {frame}",
@@ -32,7 +30,10 @@ class EmbedClass:
             color=discord.Color(colour)
         )
         if not imageView:
-            embed.add_field(name="Usage", value=selection['set_type'])
+            if 'usage' not in selection:
+                embed.add_field(name="Usage", value=selection['set_type'])
+            else:
+                embed.add_field(name="Usage", value=selection['usage'])
             embed.add_field(name="Game Modes", value=selection['game_modes'])
             embed.add_field(
                 name="Description",
