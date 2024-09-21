@@ -402,7 +402,7 @@
     ]
   },
   "astral": {
-    "unit_name": "<:attacker:1283760012274958346><:attacker:1283760012274958346><:dark_element:1283760052225835051> Watanabe",
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:dark_element:1283760052225835051> Watanabe",
     "frame_name": "Astral",
     "set_list": ["4 Bathlon 2 Cottie"],
     "builds": [
@@ -892,7 +892,7 @@
       {
         "set_name": "4 Tifa 4 Heisen",
         "set_type": "Harmony",
-        "usage": "Harmony Tank/SubDPS",
+        "usage": "Harmony Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Harmony Set",
@@ -1031,9 +1031,8 @@
         "usage": "Alternative Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
-          "Recommended for all ranks",
           "Alternate Support Set",
-          "Capriccio cannot proc the 4PC Guinevere set bonus on her own and will therefore take 2PC Einsteina as her harmo memory set.",
+          "Capriccio cannot proc the 4PC Guinevere set bonus in one QTE activation and will therefore take 2PC Einsteina as her harmo memory set.",
           "Recommended on-field set for SSS+",
           "Requires higher mechanical skill input if using at SSS0 or lower."
         ],
@@ -1234,7 +1233,7 @@
     "frame_name": "Stigmata",
     "set_list": [
       "4 Charlotte 2 Leeuwenhoek",
-      "4 Charlotte 2 Cottie",
+      "4 Charlotte 2 Cottie SS3",
       "4 Charlotte 2 Darwin",
       "4 Charlotte 2 Cottie"
     ],
@@ -1253,7 +1252,7 @@
         "harmony_rec": "Signa"
       },
       {
-        "set_name": "4 Charlotte 2 Cottie",
+        "set_name": "4 Charlotte 2 Cottie SS3",
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1304,7 +1303,7 @@
   "vitrum": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:ice_element:1283760120270032946> Bambinata",
     "frame_name": "Vitrum",
-    "set_list": ["4 Hanna 2 Darwin", "4 Chen JiYuan 2 Hanna"],
+    "set_list": ["4 Hanna 2 Darwin", "4 Chen Jiyuan 2 Hanna"],
     "builds": [
       {
         "set_name": "4 Hanna 2 Darwin",
@@ -1320,7 +1319,7 @@
         "harmony_rec": "Aline"
       },
       {
-        "set_name": "4 Chen JiYuan 2 Hanna",
+        "set_name": "4 Chen Jiyuan 2 Hanna",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
@@ -1329,7 +1328,7 @@
           "Used for oneshot kills with the red orb in test/elite difficulties.",
           "High rank build (requires SSS3 and beyond)"
         ],
-        "memories": ["4x Chen JiYuan", "2x Hanna"],
+        "memories": ["4x Chen Jiyuan", "2x Hanna"],
         "memory_resonance": [
           "Top Slot   : 6x Red Orb",
           "Bottom Slot: 6x Any ATK+15 Variant"
@@ -1393,7 +1392,7 @@
   "kaleido": {
     "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:ice_element:1283760120270032946> Ayla",
     "frame_name": "Kaleido",
-    "set_list": ["4 Aline 2 Cottie", "4 Aline 2 Darwin"],
+    "set_list": ["4 Aline 2 Darwin", "4 Aline 2 Cottie"],
     "builds": [
       {
         "set_name": "4 Aline 2 Darwin",
@@ -1414,8 +1413,8 @@
         "usage": "Alternative DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
-          "Alternative DPS set",
-          "Alternative DPS set for faster build up on Core Passive, used in faster Pain Cage kills and double ult rotation in Warzone with a minimum of SS rank. Requires higher mechanical skill."
+          "Alternative DPS set for faster build up on Core Passive, used in faster Pain Cage kills and double ult rotation in Warzone with a minimum of SS rank.",
+          "Requires higher mechanical skill."
         ],
         "memories": ["4x Aline", "2x Cottie"],
         "memory_resonance": [
@@ -1599,13 +1598,13 @@
     "set_list": [
       "4 Signa 2 Da Vinci",
       "4 Da Vinci 4 Guinevere",
-      "4 Signa 2 Philip Harmo"
+      "4 Signa 4 Philip II"
     ],
     "builds": [
       {
         "set_name": "4 Signa 2 Da Vinci",
         "set_type": "Main Support",
-        "usage": "Main Support",
+        "usage": "Main Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Recommended for all ranks", "Physical Support set"],
         "memories": ["4x Signa", "2x Da Vinci"],
@@ -1662,11 +1661,7 @@
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lamia+Lost+Lullaby+%5B1+build%5D/Lamia+%5BDerketo+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": [
-          "Recommended for all ranks",
-          "General DPS set",
-          "Usable without Harmo"
-        ],
+        "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Derketo", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1757,7 +1752,6 @@
         "description": [
           "Recommended for all ranks",
           "General DPS set",
-          "Usable without Harmo",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Alphonse", "2x Cottie"],
@@ -1768,7 +1762,7 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "4 Alphonse 2 Shakespeare Harmo",
+        "set_name": "4 Alphonse 4 Shakespeare",
         "set_type": "Harmony Tank",
         "usage": "Harmony Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",

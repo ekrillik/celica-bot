@@ -226,7 +226,7 @@ def check_nickname(nickname, caller):
             cub = "shimmer"
             memory = "charlotte"
         case "bambinata" | "bambi" | "bombi":
-            character = "bambinata"
+            character = "vitrum"
             weapon = "sound of silence"
             cub = "n/a"
             memory = "n/a"
@@ -518,7 +518,7 @@ def character_theme(nickname):
             name = "Changyu: Qilin"
             colour = 0x9c7b58
             chibi_portrait = "https://assets.huaxu.app/glb/image/role/roleheadchangyu3q.webp"
-            thumbnail_url = "https://assets.huaxu.app/glb/image/rolecharacter/roleheadchangyu2.256.webp"
+            thumbnail_url = "https://assets.huaxu.app/glb/image/rolecharacter/roleheadchangyu2.webp"
         case "pavo":
             name = "Qu: Pavo"
             colour = 0x0d834a
