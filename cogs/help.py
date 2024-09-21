@@ -33,11 +33,7 @@ class Help(commands.Cog):
                                   color=discord.Color(0x2e6a80))
             embed.add_field(
                 name="",
-                value=f"""
-                    My prefix is: {prefix}
-                    Use the dropdown to view a list of commands by category.
-                    Use `{prefix}help [command]` for more information on a specific command.
-                """
+                value=f"My prefix is: {prefix}\nUse the dropdown to view a list of commands by category.\nUse `{prefix}help [command]` for more information on a specific command.\nAlso note that slash commands do work on this bot and so if you would like to use those, please use the '/' prefix instead to see that menu. If you do not see slash commands appearing when hitting '/', make sure to restart your Discord client."
             )
             embed.add_field(
                 name="**Changelog**",
