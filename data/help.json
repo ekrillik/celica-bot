@@ -32,7 +32,7 @@
       "description": "Provides a view of all the skills for a particular character with a dropdown menu."
     },
     {
-      "command": "basic, red, yellow, blue, core, ult, leader, qte, class, ss, sss, s+, leap",
+      "command": "basic, red, yellow, blue, core, signature, leader, qte, class, ss, sss, s+, leap",
       "description": "Displays a particular skill for a character."
     },
     {
@@ -122,7 +122,7 @@
     "description": "Displays the Core Passive for a particular character. The given input in the square brackets can be a character name/nickname. As Core Passive descriptions are getting longer as the game progresses, they have been set up to be paginated rather than be presented in one big wall of text.",
     "examples": ["?core alisa", "?core best girl"]
   },
-  "ult": {
+  "signature": {
     "syntax": "?signature [character name]",
     "aliases": "?ult, ?ultimate",
     "description": "Displays the Signature Move for a particular character. The given input in the square brackets can be a character name/nickname.",
