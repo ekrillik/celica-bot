@@ -4,20 +4,22 @@
       "title": "Bot Volunteers",
       "description": "Those who helped gather data for the bot/made direct contributions to this bot:",
       "people": [
-        "Hyperbrick",
         "FabioJo40",
+        "Hyperbrick",
+        "Nova(blacknovatech)",
         "Miku (Yes that includes you Ms. Misinfo)",
         "Ezra (Shi-yori, Cottie and whatever other names you use)",
-        "KURAIMAKSU"
+        "KURAIMAKSU",
+        "Dragonkevyu"
       ]
     },
     {
       "title": "Bot Development",
-      "description": "Huge thanks to Nova(Creator of the Huaxu site) for giving advice on how to go about grabbing images and assets for this bot."
+      "description": "Huge thanks to Nova(Creator of the Huaxu site) for helping me with making this bot be what it is today."
     },
     {
       "title": "Build Images",
-      "description": "Thanks to Ezra for putting his hand up in order to make the fancy build images."
+      "description": "Thanks to Ezra for putting his hand up in order to make the fancy build infographics."
     },
     {
       "title": "Dalaos",
@@ -39,20 +41,25 @@
     },
     {
       "title": "Translations",
-      "description": "Thanks to Ko for the CN translations that went into some of the skills before global release."
+      "description": "Thanks to Ko for the CN translations that went into some of the skills/infographics used on the bot before global release."
     },
     {
       "title": "Existing In-Game Info",
       "description": "Thanks to Gray Ravens for having the in-game information already listed on their website for me to refer to."
     },
     {
-      "title": "Miscellaneous",
-      "description": "Indirect thanks to Doomy for creating Cogs for me to create this bot."
+      "title": "Blueprint for Celica",
+      "description": "Thanks to Doomy for creating Cogs for me to create this bot."
     },
     {
       "title": "Nicknames",
       "description": "The ones who came up with the nicknames for builds:",
       "people": ["Aurora", "Miku", "MstrPikachu", "trs"]
+    },
+    {
+      "title": "Agents of Fun",
+      "description": "Having you guys around made the process of making the bot so much fun and enjoyable",
+      "people": ["Jambu", "Ew (Gingerbread)", "Mycledra"]
     }
   ]
 }

@@ -410,7 +410,7 @@ class EmbedClass:
     def credits_embed(self, credits, cur_page, max_len):
         embed = discord.Embed(
             title=f"Credits",
-            description="Thanks to all of you who have helped out in the making of this bot. Without you it would have taken me much longer to get this off the ground."
+            description="Thanks to all of you who have helped out in the making of this bot. Without you it would have taken me much longer to get this off the ground. If you've helped with the bot but you do not see your name on any of these lists, please let me know and I'll add you here."
         )
         embed.add_field(name=credits['title'], value=credits['description'], inline=False)
 
