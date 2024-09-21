@@ -95,7 +95,7 @@ class Skills(commands.Cog):
 
         theme = character_theme(character)
 
-        skills = self.retrieve_skills(character)
+        skills = self.skills.get(character)
         embed = self.embedconf.skillsEmbed(skills['basic_attack'], "Basic Attack", colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3])
         view = SkillsView(ctx.author, skills=skills, theme=theme)
         view.message = await ctx.send(embed=embed, view=view)
@@ -145,17 +145,17 @@ class Skills(commands.Cog):
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'class')
 
-    @commands.command(aliases=["SS", "2S", "2s", "s5", "S5"])
+    @commands.hybrid_command(aliases=["SS", "2S", "2s", "s5", "S5"])
     async def ss(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'ss')
 
-    @commands.command(aliases=["SSS", "3S", "3s", "SS3", "ss3"])
+    @commands.hybrid_command(aliases=["SSS", "3S", "3s", "SS3", "ss3"])
     async def sss(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'sss')
 
-    @commands.command(name="s+", aliases=["s+", "SSS+", "S+", "3S+", "3s+"])
+    @commands.hybrid_command(name="splus", aliases=["s+", "SSS+", "S+", "3S+", "3s+"])
     async def splus(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 's+')
