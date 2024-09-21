@@ -1429,10 +1429,7 @@
   "crimson weave": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Lucia",
     "frame_name": "Crimson Weave",
-    "set_list": [
-      "4 Diesel 2 Cottie",
-      "4 Diesel 4 Frederick"
-    ],
+    "set_list": ["4 Diesel 2 Cottie", "4 Diesel 4 Frederick"],
     "builds": [
       {
         "set_name": "4 Diesel 2 Cottie",
@@ -1450,7 +1447,7 @@
           "Bottom Slot: 6x Any ATK+15 Variant"
         ],
         "harmony_rec": "Cottie"
-      }
+      },
       {
         "set_name": "4 Diesel 4 Frederick",
         "set_type": "Pain Cage",
