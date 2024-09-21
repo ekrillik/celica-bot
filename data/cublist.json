@@ -1,5 +1,11 @@
 {
   "cublist": [
+    "yi kong",
+    "rui xue",
+    "mei wu",
+    "su e",
+    "huiyu",
+    "shadow wing",
     "cetus",
     "seeshell",
     "thorny",
@@ -97,19 +103,29 @@
       "base_rank": "S"
     },
     {
-      "name": "Hades' Fangs",
-      "sig_character": "Feral Scent",
+      "name": "Hades Fangs",
+      "sig_character": "Feral",
       "base_rank": "S"
     },
     {
       "name": "Dawn Chorus",
-      "sig_character": "Alisa",
+      "sig_character": "Echo",
       "base_rank": "S"
     },
     {
       "name": "Cetus",
-      "sig_character": "Lamia",
+      "sig_character": "Lost Lullaby",
       "base_rank": "S"
-    }
+    },
+    {
+      "name": "Shadow Wing",
+      "sig_character": "Epitaph",
+      "base_rank": "S"
+    },
+    { "name": "Huiyu", "sig_character": "Shukra", "base_rank": "S" },
+    { "name": "Su E", "sig_character": "Oblivion", "base_rank": "S" },
+    { "name": "Mei Wu", "sig_character": "Solacetune", "base_rank": "S" },
+    { "name": "Rui Xue", "sig_character": "Lucid Dreamer", "base_rank": "S" },
+    { "name": "Yi Kong", "sig_character": "Pyroath", "base_rank": "S" }
   ]
 }

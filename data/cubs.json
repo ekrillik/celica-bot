@@ -192,7 +192,7 @@
     "name": "<:A_:1283759728979349580><:lightning_element:1283760149755990056> Lingya",
     "sig_character": "N/A",
     "base_rank": "A",
-    "cub_type": "DMG",
+    "cub_type": "Damage",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet2yang1.webp",
     "skills_list": [
       "Precise Volt Charge",
@@ -398,22 +398,22 @@
       {
         "skill_name": "Landing Stomp",
         "skill_number": "Active Skill 1",
-        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will stomp from above, dealing 750% DMG and applying Rigidness to the target and generate a Snowthorn Forest field, dealing 125% Physical DMG for 4s. Adds Data ATK. Rigidness: Enemies will be snared for 2s."
+        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will stomp from above, dealing 750% DMG and applying Rigidness to the target and generate a Snowthorn Forest field, dealing 125% Physical DMG for 4s. Adds Data ATK.\n- Rigidness: Enemies will be snared for 2s."
       },
       {
         "skill_name": "Landing Stomp - Physical",
         "skill_number": "Active Skill 1",
-        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will stomp from above, dealing 750% Physical DMG and applying Rigidness to the target and generate a Snowthorn Forest field, dealing 125% DMG for 4s. Adds Advanced Data ATK. Rigidness: Enemies will be snared for 2s."
+        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will stomp from above, dealing 750% Physical DMG and applying Rigidness to the target and generate a Snowthorn Forest field, dealing 125% DMG for 4s. Adds Advanced Data ATK.\n- Rigidness: Enemies will be snared for 2s."
       },
       {
         "skill_name": "Empowered Strike",
         "skill_number": "Active Skill 2",
-        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will defend the active character, blocking attacks for 0.3s and stomping the enemy, dealing 500% DMG and 1000% DMG upon a successful block. Applies Rigidness to the target and generate a Snowthorn Forest field, dealing 125% DMG for 8s. Adds Data ATK. Rigidness: Enemies will be snared for 2s."
+        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will defend the active character, blocking attacks for 0.3s and stomping the enemy, dealing 500% DMG and 1000% DMG upon a successful block. Applies Rigidness to the target and generate a Snowthorn Forest field, dealing 125% DMG for 8s. Adds Data ATK.\n- Rigidness: Enemies will be snared for 2s."
       },
       {
         "skill_name": "Empowered Strike - Physical",
         "skill_number": "Active Skill 2",
-        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will defend the active character, blocking attacks for 0.3s and stomping the enemy, dealing 500% Physical DMG and 1000% Physical DMG upon a successful block. Applies Rigidness to the target and generate a Snowthorn Forest field, dealing 125% Physical DMG for 8s. Adds Advanced Data ATK. Rigidness: Enemies will be snared for 2s."
+        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will defend the active character, blocking attacks for 0.3s and stomping the enemy, dealing 500% Physical DMG and 1000% Physical DMG upon a successful block. Applies Rigidness to the target and generate a Snowthorn Forest field, dealing 125% Physical DMG for 8s. Adds Advanced Data ATK.\n- Rigidness: Enemies will be snared for 2s."
       }
     ],
     "passive_skills": [
@@ -912,7 +912,7 @@
     "name": "<:S_:1283759845995974727><:lightning_element:1283760149755990056> Hades Fangs",
     "sig_character": "Feral",
     "base_rank": "S",
-    "cub_type": "Control, Damage",
+    "cub_type": "Crowd Control, Damage",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3wolf1.webp",
     "skills_list": [
       "Fangs Crash",
@@ -965,9 +965,9 @@
   },
   "dawn chorus": {
     "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Dawn Chorus",
-    "sig_character": "Alisa",
+    "sig_character": "Echo",
     "base_rank": "S",
-    "cub_type": "DMG",
+    "cub_type": "Damage, Super Armor",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3griffon1.webp",
     "skills_list": [
       "Night Laser",
@@ -1020,7 +1020,7 @@
   },
   "cetus": {
     "name": "<:S_:1283759845995974727><:dark_element:1283760052225835051> Cetus",
-    "sig_character": "Lamia",
+    "sig_character": "Lost Lullaby",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3dolphin1.webp",
@@ -1070,6 +1070,336 @@
         "skill_name": "Old Illusions",
         "skill_number": "Passive Skill 5",
         "skill_desc": "When Lamia: Lost Lullaby casts Signature - Sunken finale with Cetus equipped, base DMG will increase by 80%. Casting Blue Orb Skill - Ocean Break and Basic Attack - Abyssal Currents will summon Cetus to launch a joint attack dealing 2500% Dark DMG. "
+      }
+    ]
+  },
+  "shadow wing": {
+    "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Shadow Wing",
+    "sig_character": "Epitaph",
+    "base_rank": "S",
+    "cub_type": "Damage, Crowd Control",
+    "thumbnail": "https://assets.huaxu.app/browse/cn/image/rolepartner/pet3bat1.webp",
+    "skills_list": [
+      "Areal Soundwave",
+      "Close-Range Interference",
+      "Overlooking Envoy",
+      "Mirage Defender",
+      "Output Synchronization",
+      "Flame Engine",
+      "Fire-Forged Chains"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Areal Soundwave",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Shadow Wing will release sound waves, pulling in enemies and dealing 1650% DMG."
+      },
+      {
+        "skill_name": "Close-Range Interference",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Shadow Wing will fly around the carrier and grant them a shield equal to 200% of its ATK. After flying around, Shadow Wing spreads its wings and deals 750% DMG twice in the area around the enemy."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Overlooking Envoy",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Shadow Wing's Active Skills deal 70% more DMG."
+      },
+      {
+        "skill_name": "Mirage Defender",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the ATK of Shadow Wing's carrier by 100."
+      },
+      {
+        "skill_name": "Output Synchronization",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Upon activating Shadow Wing's Active Skills, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time it is triggered."
+      },
+      {
+        "skill_name": "Flame Engine",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Fire DMG by 10%."
+      },
+      {
+        "skill_name": "Fire-Forged Chains",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Watanabe: Epitaph uses Infernal Eruption, he will launch the hook to link himself with Shadow Wing and perform a coordinated attack mid-air, during which Shadow Wing will deal 2500% Fire DMG. Increases the Base DMG of Thermal Erosion by 75%."
+      }
+    ]
+  },
+  "huiyu": {
+    "name": "<:S_:1283759845995974727><:ice_element:1283760120270032946> Huiyu",
+    "sig_character": "Shukra",
+    "base_rank": "S",
+    "cub_type": "Damage, Crowd Control",
+    "thumbnail": "https://assets.huaxu.app/browse/cn/image/rolepartner/pet3peacock1.webp",
+    "skills_list": [
+      "Flight of Azure",
+      "Feathers of Rime",
+      "Wings of Mortality",
+      "Wings of Grace",
+      "Frosty Beak",
+      "Soul Enters the Gate",
+      "The Song of the Dragon's Child in Battle"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Flight of Azure",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Huiyu will rapidly dive close to the target and circle around them, dealing 1500% DMG and pulling in nearby enemies."
+      },
+      {
+        "skill_name": "Feathers of Rime",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Huiyu will teleport above the target, then spread its wings and create ice spikes in front of the target. Afterwards, Huiyu flaps its wings to launch ice spikes at the target, dealing 600% DMG 3 times."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Wings of Mortality",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Huiyu's Active Skills deal 70% more DMG."
+      },
+      {
+        "skill_name": "Wings of Grace",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the ATK of Huiyu's carrier by 100."
+      },
+      {
+        "skill_name": "Frosty Beak",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Upon activating Huiyu's Active Skills, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time it is triggered."
+      },
+      {
+        "skill_name": "Soul Enters the Gate",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Ice DMG by 10%."
+      },
+      {
+        "skill_name": "The Song of the Dragon's Child in Battle",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Qu: Shukra performs Rimy Valediction or Tor Invocation while carrying Huiyu, ATK increases by 30% for 5s. When Qu: Shukra begins Sovereign's Accession, Huiyu is summoned to perform coordinated attack, dealing 2500% Ice DMG."
+      }
+    ]
+  },
+  "su e": {
+    "name": "<:S_:1283759845995974727><:void_element:1286663256206741516> Su E",
+    "sig_character": "Oblivion",
+    "base_rank": "S",
+    "cub_type": "Damage, Crowd Control",
+    "thumbnail": "https://assets.huaxu.app/browse/cn/image/rolepartner/pet3dragon1.webp",
+    "skills_list": [
+      "Malefic Exhalation",
+      "Obliterating Ire",
+      "Dread Incarnate",
+      "Ruinous Fire",
+      "Incinerated Sky",
+      "Sunless Void",
+      "Apokálypsis Selenes Eskhátes"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Malefic Exhalation",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Su E will breathe draconic flame from above, dealing 750% DMG, slowing the target for 3s, and dealing 250% DMG every second."
+      },
+      {
+        "skill_name": "Obliterating Ire",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Su E will dive towards the target, dealing 1800% DMG."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Dread Incarnate",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Su E's Active Skills deal 70% more DMG."
+      },
+      {
+        "skill_name": "Ruinous Fire",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the ATK of Su E's carrier by 100."
+      },
+      {
+        "skill_name": "Incinerated Sky",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Upon activating Su E's Active Skills, the carrier's Extra DMG Bonus will increase by 5% for 8s. Duration resets every time it is triggered."
+      },
+      {
+        "skill_name": "Sunless Void",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Void DMG by 10%."
+      },
+      {
+        "skill_name": "Apokálypsis Selenes Eskhátes",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Luna: Oblivion performs Original Retribution or Final Retribution while carrying Su E, the CUB is summoned to perform a coordinated attack, dealing 2500% Void DMG and increasing all amplification effects granted by Apocalyptic Moonlight by 25%."
+      }
+    ]
+  },
+  "mei wu": {
+    "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Mei Wu",
+    "sig_character": "Solacetune",
+    "base_rank": "S",
+    "cub_type": "Damage, Crowd Control",
+    "thumbnail": "https://assets.huaxu.app/browse/cn/image/rolepartner/pet3die1.webp",
+    "skills_list": [
+      "Lunar Footfalls",
+      "Lonesome Phoenix",
+      "Spring Steps",
+      "Fragrant Verse",
+      "Intoxicated by Flowers",
+      "Daffodil's Song",
+      "Moonlight Upon Thy Visage"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Lunar Footfalls",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Mei Wu will fire energy waves, inflicting enemies in the area with Rigidness and dealing 250% DMG 6 times.\n- Rigidness: Enemies will be rooted for 2s."
+      },
+      {
+        "skill_name": "Lonesome Phoenix",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Mei Wu will fly towards the target and strike the ground, dealing 450% DMG 4 Times."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Spring Steps",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Mei Wu's Active Skills deal 70% more DMG."
+      },
+      {
+        "skill_name": "Fragrant verse",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the ATK of Mei Wu's carrier by 100."
+      },
+      {
+        "skill_name": "Intoxicated by Flowers",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Upon activating Mei Wu's Active Skills, the carrier's Extra DMG Bonus will increase by 5% for 8s. Duration resets every time it is triggered."
+      },
+      {
+        "skill_name": "Daffodil's Song",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Physical DMG by 10%."
+      },
+      {
+        "skill_name": "Moonlight Upon Thy Visage",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Hanying: Solacetune activates Moonsong Realm or triggers Phoenix Down while carrying Mei Wu, Mei Wu is summoned to perform a coordinated attack, dealing 1250% Physical DMG twice. CRIT DMG of Azure Allure and Sublimity increases by 75%."
+      }
+    ]
+  },
+  "rui xue": {
+    "name": "<:S_:1283759845995974727><:ice_element:1283760120270032946> Rui Xue",
+    "sig_character": "Lucid Dreamer",
+    "base_rank": "S",
+    "cub_type": "Damage, Crowd Control",
+    "thumbnail": "https://assets.huaxu.app/browse/cn/image/rolepartner/pet3fox1.webp",
+    "skills_list": [
+      "Footsteps in the Snow",
+      "Snow Crystals",
+      "Glistening Fortuity",
+      "Niveous Prosperity",
+      "Glacial Grace",
+      "Light-hearted",
+      "Oneiro's Ward"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Footsteps in the Snow",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Rui Xue will leap toward the target, slamming the ground and dealing 1800% DMG once."
+      },
+      {
+        "skill_name": "Snow Crystals",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Rui Xue will flick its tail to fire crystal shards, inflicting enemies in the area with Rigidness and dealing 200% DMG 7 times.\n- Rigidness: Enemies will be rooted for 2s."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Glistening Fortuity",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Rui Xue's Active Skills deal 70% more DMG."
+      },
+      {
+        "skill_name": "Niveous Prosperity",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the ATK of Rui Xue's carrier by 100."
+      },
+      {
+        "skill_name": "Glacial Grace",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Upon activating Rui Xue's Active Skills, the carrier's Extra DMG Bonus will increase by 5% for 8s. Duration resets every time it is triggered."
+      },
+      {
+        "skill_name": "Light-hearted",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Ice DMG by 10%."
+      },
+      {
+        "skill_name": "Oneiro's Ward",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Wanshi: Lucid Dreamer enters Calibration Mode while carrying Rui Xue, Rui Xue is summoned to perform a coordinated attack, dealing 250% Ice DMG 10 times. Base DMG of Hyperlinked Flight increases by 60%; if Wanshi: Lucid Dreamer has the maximum no. of Wounding stacks when performing Hyperlinked Flight, Base DMG additionally increases by 90%. Base DMG of Ruinous Blizzard increases by 75%; if 30 Correcting Rounds have been consumed, Base DMG additionally increases by 175%."
+      }
+    ]
+  },
+  "yi kong": {
+    "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Yi Kong",
+    "sig_character": "Pyroath",
+    "base_rank": "S",
+    "cub_type": "Damage, Crowd Control",
+    "thumbnail": "https://assets.huaxu.app/browse/cn/image/rolepartner/pet3raven1.webp",
+    "skills_list": [
+      "Swiping Pound",
+      "Pouring Flames",
+      "Shiny Flight",
+      "Magnificent Grip",
+      "Brilliant Radiance",
+      "Devouring Conflagration",
+      "Apricity of Tomorrow"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Swiping Pound",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Yi Kong will circle around the target before slamming down, grouping surrounding enemies and dealing 1800% DMG once."
+      },
+      {
+        "skill_name": "Pouring Flames",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Yi Kong will breathe flames at the target from the sky, dealing 500% DMG 4 times."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Shiny FLight",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Yi Kong's Active Skills deal 70% more DMG."
+      },
+      {
+        "skill_name": "Magnificent Grip",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the ATK of Yi Kong's carrier by 100."
+      },
+      {
+        "skill_name": "Brilliant Radiance",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Upon activating Yi Kong's Active Skills, the carrier's Extra DMG Bonus will increase by 5% for 8s. Duration resets every time it is triggered."
+      },
+      {
+        "skill_name": "Devouring Conflagration",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Fire DMG by 10% and the carrier's Lightning DMG during Electronic Blast state by 10%."
+      },
+      {
+        "skill_name": "Apricity of Tomorrow",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Lucia: Pyroath casts Basic Attack - Air-splitting Rays with Yi Kong equipped, summon Yi Kong to assist, dealing 2500% Fire DMG once. Base DMG increase effect of Radiant Engraving towards Signature Move – Auxiliary Precision Slash and Signature Move – Endless Eclipse increases by 20%"
       }
     ]
   }
