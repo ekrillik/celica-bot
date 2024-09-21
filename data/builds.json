@@ -2,14 +2,14 @@
   "lotus": {
     "unit_name": "<:B_:1283759795232571485><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lucia",
     "frame_name": "Lotus",
-    "set_list": ["2 Patton 2 Leeuwenhoek 2 Signa"],
+    "set_list": ["4 Patton 2 Signa"],
     "builds": [
       {
-        "set_name": "2 Patton 2 Leeuwenhoek 2 Signa",
+        "set_name": "4 Patton 2 Signa",
         "set_type": "Main",
-        "game_modes": "Story Mode",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at all ranks", "General DPS set"],
-        "memories": ["2X Patton", "2x Leeuwenhoek", "2x Signa"],
+        "memories": ["4x Patton", "2x Signa"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Core"
@@ -40,10 +40,10 @@
       },
       {
         "set_name": "2 Philip II 2 Voltaire 2 Richelieu",
-        "set_type": "Alternate",
+        "set_type": "Alternative QTE Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
-          "Niche build",
+          "Alternate Set",
           "Used if physical tank is already holding Da Vinci"
         ],
         "memories": ["2x Philip II", "2x Voltaire", "2x Richelieu"],
