@@ -3,7 +3,7 @@
     "name": "Standard Knife",
     "weapon_type": "Katana",
     "rarity": 2,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1swordmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1swordmd020011.webp",
     "atk": 37,
     "crit": 19,
     "effect": {
@@ -15,7 +15,7 @@
     "name": "Levitator",
     "weapon_type": "Levi-Gun",
     "rarity": 2,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1floatmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1floatmd020011.webp",
     "atk": 35,
     "crit": 21,
     "effect": {
@@ -27,7 +27,7 @@
     "name": "Standard Pistol",
     "weapon_type": "Dual Guns",
     "rarity": 3,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1gunmd030011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1gunmd030011.webp",
     "atk": 109,
     "crit": 61,
     "effect": {
@@ -39,7 +39,7 @@
     "name": "Combat Knife",
     "weapon_type": "Katana",
     "rarity": 3,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1swordmd030011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1swordmd030011.webp",
     "atk": 104,
     "crit": 55,
     "effect": {
@@ -51,7 +51,7 @@
     "name": "Semi-Auto Turret",
     "weapon_type": "Levi-Gun",
     "rarity": 3,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1floatmd030011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1floatmd030011.webp",
     "atk": 99,
     "crit": 61,
     "effect": {
@@ -63,7 +63,7 @@
     "name": "Practice Bow",
     "weapon_type": "Bow",
     "rarity": 3,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1bowmd030011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1bowmd030011.webp",
     "atk": 112,
     "crit": 64,
     "effect": {
@@ -75,7 +75,7 @@
     "name": "Chainsaw",
     "weapon_type": "Saw",
     "rarity": 3,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1sawmd030011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1sawmd030011.webp",
     "atk": 101,
     "crit": 55,
     "effect": {
@@ -87,7 +87,7 @@
     "name": "Greatsword",
     "weapon_type": "Greatsword",
     "rarity": 3,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1claymoremd030011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1claymoremd030011.webp",
     "atk": 104,
     "crit": 55,
     "effect": {
@@ -99,7 +99,7 @@
     "name": "Bazooka",
     "weapon_type": "Cannon",
     "rarity": 3,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1sleevemd030011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1sleevemd030011.webp",
     "atk": 109,
     "crit": 61,
     "effect": {
@@ -111,7 +111,7 @@
     "name": "Machete",
     "weapon_type": "Dagger",
     "rarity": 3,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1daggermd030011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1daggermd030011.webp",
     "atk": 109,
     "crit": 64,
     "effect": {
@@ -123,7 +123,7 @@
     "name": "Standard Scythe",
     "weapon_type": "Scythe",
     "rarity": 3,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1sickmd030011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e1sickmd030011.webp",
     "atk": 101,
     "crit": 61,
     "effect": {
@@ -135,7 +135,7 @@
     "name": "Tokarev",
     "weapon_type": "Dual Guns",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2gunmd040011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2gunmd040011.webp",
     "atk": 235,
     "crit": 131,
     "effect": {
@@ -147,7 +147,7 @@
     "name": "Unbranded Blade",
     "weapon_type": "Katana",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2swordmd040011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2swordmd040011.webp",
     "atk": 224,
     "crit": 121,
     "effect": {
@@ -159,7 +159,7 @@
     "name": "Fish Mount",
     "weapon_type": "Levi-Gun",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2floatmd040011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2floatmd040011.webp",
     "atk": 213,
     "crit": 131,
     "effect": {
@@ -171,7 +171,7 @@
     "name": "Pulley Bow",
     "weapon_type": "Bow",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2bowmd040011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2bowmd040011.webp",
     "atk": 242,
     "crit": 135,
     "effect": {
@@ -183,7 +183,7 @@
     "name": "Noise",
     "weapon_type": "Saw",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sawmd100011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2sawmd100011.webp",
     "atk": 218,
     "crit": 124,
     "effect": {
@@ -195,7 +195,7 @@
     "name": "Suppressor",
     "weapon_type": "Greatsword",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2claymoremd040011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2claymoremd040011.webp",
     "atk": 224,
     "crit": 121,
     "effect": {
@@ -207,7 +207,7 @@
     "name": "Rifled Gun",
     "weapon_type": "Cannon",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sleevemd040011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2sleevemd040011.webp",
     "atk": 235,
     "crit": 131,
     "effect": {
@@ -219,7 +219,7 @@
     "name": "Hunter Knife",
     "weapon_type": "Dagger",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2daggermd040011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2daggermd040011.webp",
     "atk": 235,
     "crit": 135,
     "effect": {
@@ -231,7 +231,7 @@
     "name": "Bleak Scythe",
     "weapon_type": "Scythe",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sickmd040011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2sickmd040011.webp",
     "atk": 218,
     "crit": 131,
     "effect": {
@@ -243,7 +243,7 @@
     "name": "Astray Explorer",
     "weapon_type": "Spear Shield",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2spearmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2spearmd010011.webp",
     "atk": 235,
     "crit": 121,
     "effect": {
@@ -255,7 +255,7 @@
     "name": "Armor Break Type IX",
     "weapon_type": "Gauntlets",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2glovemd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2glovemd010011.webp",
     "atk": 240,
     "crit": 124,
     "effect": {
@@ -267,7 +267,7 @@
     "name": "Genesis",
     "weapon_type": "Amplifier",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2ringmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2ringmd010011.webp",
     "atk": 247,
     "crit": 135,
     "effect": {
@@ -279,7 +279,7 @@
     "name": "Bullet Ant",
     "weapon_type": "Gun Set",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2riflemd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2riflemd010011.webp",
     "atk": 233,
     "crit": 131,
     "effect": {
@@ -291,7 +291,7 @@
     "name": "Standard Gunblade",
     "weapon_type": "Gunblade",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2gunblademd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2gunblademd010011.webp",
     "atk": 229,
     "crit": 133,
     "effect": {
@@ -303,7 +303,7 @@
     "name": "Collaborator",
     "weapon_type": "Co-Bot",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2ballrobotmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2ballrobotmd010011.webp",
     "atk": 233,
     "crit": 132,
     "effect": {
@@ -315,7 +315,7 @@
     "name": "Fringe",
     "weapon_type": "Banner Spear",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2lancemd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2lancemd010011.webp",
     "atk": 231,
     "crit": 133,
     "effect": {
@@ -327,7 +327,7 @@
     "name": "Apocalypse",
     "weapon_type": "Scepter",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2wandmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2wandmd010011.webp",
     "atk": 244,
     "crit": 131,
     "effect": {
@@ -339,7 +339,7 @@
     "name": "Standard Mode",
     "weapon_type": "Flute Sword",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2fluntmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2fluntmd010011.webp",
     "atk": 238,
     "crit": 133,
     "effect": {
@@ -351,7 +351,7 @@
     "name": "Rage",
     "weapon_type": "Mega Saw",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2cuttingmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2cuttingmd010011.webp",
     "atk": 240,
     "crit": 126,
     "effect": {
@@ -363,7 +363,7 @@
     "name": "Blast Hammer Prototype",
     "weapon_type": "Blast Hammer",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2hammermd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2hammermd010011.webp",
     "atk": 235,
     "crit": 131,
     "effect": {
@@ -375,7 +375,7 @@
     "name": "Dusk Mirage",
     "weapon_type": "Swordstaff",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2beamlancemd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2beamlancemd010011.webp",
     "atk": 242,
     "crit": 131,
     "effect": {
@@ -387,7 +387,7 @@
     "name": "Heartless Blades",
     "weapon_type": "Mantis Blades",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2bangbinatamd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2bangbinatamd010011.webp",
     "atk": 233,
     "crit": 131,
     "effect": {
@@ -399,7 +399,7 @@
     "name": "Composite Armaments Prototype",
     "weapon_type": "Composite Armaments",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2superlimd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2superlimd010011.webp",
     "atk": 249,
     "crit": 128,
     "effect": {
@@ -411,7 +411,7 @@
     "name": "'Paintbrush' Prototype",
     "weapon_type": "Beam Gunlance",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2beamlancemd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2beamlancemd010011.webp",
     "atk": 247,
     "crit": 131,
     "effect": {
@@ -423,7 +423,7 @@
     "name": "Swiftplume",
     "weapon_type": "Daisho",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2alphamd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2alphamd010011.webp",
     "atk": 249,
     "crit": 128,
     "effect": {
@@ -435,7 +435,7 @@
     "name": "Severed Rain",
     "weapon_type": "Folding Fan",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2fanmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2fanmd010011.webp",
     "atk": 213,
     "crit": 131,
     "effect": {
@@ -447,7 +447,7 @@
     "name": "Lightning Devourer",
     "weapon_type": "Claw Blades",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2clawmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2clawmd010011.webp",
     "atk": 235,
     "crit": 131,
     "effect": {
@@ -459,7 +459,7 @@
     "name": "Heart of Gold",
     "weapon_type": "Robotic Arm",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2armmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2armmd010011.webp",
     "atk": 224,
     "crit": 131,
     "effect": {
@@ -471,7 +471,7 @@
     "name": "Atoll",
     "weapon_type": "Halberd Blade",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2lamiyamd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2lamiyamd010011.webp",
     "atk": 235,
     "crit": 131,
     "effect": {
@@ -579,7 +579,7 @@
     "name": "Photophage",
     "weapon_type": "Uniframe: Greatsword",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2kamumd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2kamumd010011.webp",
     "atk": 253,
     "crit": 131,
     "effect": {
@@ -591,7 +591,7 @@
     "name": "Iron Star Type VI",
     "weapon_type": "Uniframe: Glaive",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2qumd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2qumd010011.webp",
     "atk": 260,
     "crit": 137,
     "effect": {
@@ -603,7 +603,7 @@
     "name": "Overture",
     "weapon_type": "Uniframe: Cello Blade",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2cellomd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2cellomd010011.webp",
     "atk": 242,
     "crit": 137,
     "effect": {
@@ -615,7 +615,7 @@
     "name": "Pioneer",
     "weapon_type": "Uniframe: Chain Blade",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2luolanmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2luolanmd010011.webp",
     "atk": 240,
     "crit": 131,
     "effect": {
@@ -627,7 +627,7 @@
     "name": "Gray Iron",
     "weapon_type": "Uniframe: Dragon Axe",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2boomerangmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2boomerangmd010011.webp",
     "atk": 238,
     "crit": 138,
     "effect": {
@@ -639,7 +639,7 @@
     "name": "Hope of the Village",
     "weapon_type": "Uniframe: Rev Blade",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2nuoanmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2nuoanmd010011.webp",
     "atk": 247,
     "crit": 126,
     "effect": {
@@ -651,7 +651,7 @@
     "name": "Gloomlight",
     "weapon_type": "Dual Guns",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2gunmd050011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2gunmd050011.webp",
     "atk": 372,
     "crit": 201,
     "effect": {
@@ -663,7 +663,7 @@
     "name": "Kuji no Sada",
     "weapon_type": "Katana",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2swordmd050011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2swordmd050011.webp",
     "atk": 354,
     "crit": 186,
     "effect": {
@@ -675,7 +675,7 @@
     "name": "Guardian Mount",
     "weapon_type": "Levi-Gun",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2floatmd050011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2floatmd050011.webp",
     "atk": 336,
     "crit": 201,
     "effect": {
@@ -687,7 +687,7 @@
     "name": "Falcon E-3320",
     "weapon_type": "Bow",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2bowmd050011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2bowmd050011.webp",
     "atk": 382,
     "crit": 206,
     "effect": {
@@ -699,7 +699,7 @@
     "name": "Lightning Spark",
     "weapon_type": "Saw",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sawmd050011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2sawmd050011.webp",
     "atk": 345,
     "crit": 190,
     "effect": {
@@ -711,7 +711,7 @@
     "name": "Dynamo Greatsword",
     "weapon_type": "Greatsword",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2claymoremd050011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2claymoremd050011.webp",
     "atk": 354,
     "crit": 186,
     "effect": {
@@ -723,7 +723,7 @@
     "name": "Star of Bethlehem",
     "weapon_type": "Greatsword",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2claymoremd110011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2claymoremd110011.webp",
     "atk": 363,
     "crit": 183,
     "effect": {
@@ -735,7 +735,7 @@
     "name": "Magma Pillar",
     "weapon_type": "Cannon",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sleevemd050011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2sleevemd050011.webp",
     "atk": 372,
     "crit": 201,
     "effect": {
@@ -747,7 +747,7 @@
     "name": "Firecrackers",
     "weapon_type": "Cannon",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sleevemd110011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2sleevemd110011.webp",
     "atk": 365,
     "crit": 205,
     "effect": {
@@ -759,7 +759,7 @@
     "name": "stone heart",
     "weapon_type": "Dagger",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2daggermd050011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2daggermd050011.webp",
     "atk": 372,
     "crit": 209,
     "effect": {
@@ -771,7 +771,7 @@
     "name": "Yuan Night",
     "weapon_type": "Dagger",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2daggermd090011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2daggermd090011.webp",
     "atk": 368,
     "crit": 213,
     "effect": {
@@ -783,7 +783,7 @@
     "name": "Faded Color",
     "weapon_type": "Scythe",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sickmd050011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2sickmd050011.webp",
     "atk": 345,
     "crit": 201,
     "effect": {
@@ -795,7 +795,7 @@
     "name": "RL-03C Spike",
     "weapon_type": "Spear Shield",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2spearmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2spearmd020011.webp",
     "atk": 372,
     "crit": 186,
     "effect": {
@@ -807,7 +807,7 @@
     "name": "White Qilin",
     "weapon_type": "Gauntlets",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2glovemd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2glovemd020011.webp",
     "atk": 379,
     "crit": 191,
     "effect": {
@@ -819,7 +819,7 @@
     "name": "Solar Ring",
     "weapon_type": "Amplifier",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2ringmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2ringmd020011.webp",
     "atk": 390,
     "crit": 211,
     "effect": {
@@ -831,7 +831,7 @@
     "name": "Virtuous Contract",
     "weapon_type": "Katana & Greatsword",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e22bmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e22bmd010011.webp",
     "atk": 379,
     "crit": 211,
     "effect": {
@@ -843,7 +843,7 @@
     "name": "Type-4O Lance",
     "weapon_type": "Tactical Lance",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e3a2md010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3a2md010011.webp",
     "atk": 372,
     "crit": 201,
     "effect": {
@@ -855,7 +855,7 @@
     "name": "Cruel Oath",
     "weapon_type": "Collab Katana",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e39smd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e39smd010011.webp",
     "atk": 361,
     "crit": 205,
     "effect": {
@@ -867,7 +867,7 @@
     "name": "FA2D-AP",
     "weapon_type": "Gun Set",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2riflemd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2riflemd020011.webp",
     "atk": 368,
     "crit": 201,
     "effect": {
@@ -879,7 +879,7 @@
     "name": "Kara Type I Gunblade",
     "weapon_type": "Gunblade",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2gunblademd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2gunblademd020011.webp",
     "atk": 361,
     "crit": 205,
     "effect": {
@@ -891,7 +891,7 @@
     "name": "Animus",
     "weapon_type": "Co-Bot",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2ballrobotmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2ballrobotmd020011.webp",
     "atk": 368,
     "crit": 203,
     "effect": {
@@ -903,7 +903,7 @@
     "name": "Glorious Knight",
     "weapon_type": "Banner Spear",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2lancemd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2lancemd020011.webp",
     "atk": 365,
     "crit": 205,
     "effect": {
@@ -915,7 +915,7 @@
     "name": "Bipolar Star Rift",
     "weapon_type": "Scepter",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2wandmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2wandmd020011.webp",
     "atk": 386,
     "crit": 201,
     "effect": {
@@ -927,7 +927,7 @@
     "name": "Neapolitan Solo",
     "weapon_type": "Flute Sword",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2fluntmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2fluntmd020011.webp",
     "atk": 375,
     "crit": 205,
     "effect": {
@@ -939,7 +939,7 @@
     "name": "Red Shift",
     "weapon_type": "Mega Saw",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2cuttingmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2cuttingmd020011.webp",
     "atk": 379,
     "crit": 191,
     "effect": {
@@ -951,7 +951,7 @@
     "name": "Despair Breaker",
     "weapon_type": "Blast Hammer",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2hammermd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2hammermd020011.webp",
     "atk": 372,
     "crit": 201,
     "effect": {
@@ -963,7 +963,7 @@
     "name": "Polar Night",
     "weapon_type": "Swordstaff",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2bigswordmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2bigswordmd020011.webp",
     "atk": 382,
     "crit": 201,
     "effect": {
@@ -975,7 +975,7 @@
     "name": "Comet's Edge",
     "weapon_type": "Mantis Blades",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2bangbinatamd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2bangbinatamd020011.webp",
     "atk": 368,
     "crit": 201,
     "effect": {
@@ -987,7 +987,7 @@
     "name": "Nuclear Meltdown",
     "weapon_type": "Composite Armaments",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2superlimd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2superlimd020011.webp",
     "atk": 393,
     "crit": 195,
     "effect": {
@@ -999,7 +999,7 @@
     "name": "Dual Rainbows",
     "weapon_type": "Beam Gunlance",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2beamlancemd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2beamlancemd020011.webp",
     "atk": 390,
     "crit": 201,
     "effect": {
@@ -1011,7 +1011,7 @@
     "name": "Red Sprite",
     "weapon_type": "Daisho",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2alphamd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2alphamd020011.webp",
     "atk": 393,
     "crit": 195,
     "effect": {
@@ -1023,7 +1023,7 @@
     "name": "Returning Wind",
     "weapon_type": "Folding Fan",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2fanmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2fanmd020011.webp",
     "atk": 336,
     "crit": 201,
     "effect": {
@@ -1035,7 +1035,7 @@
     "name": "Trio-Claws",
     "weapon_type": "Claw Blades",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2clawmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2clawmd020011.webp",
     "atk": 372,
     "crit": 201,
     "effect": {
@@ -1047,7 +1047,7 @@
     "name": "FPT-II - Mod",
     "weapon_type": "Robotic Arm",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2armmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2armmd020011.webp",
     "atk": 354,
     "crit": 201,
     "effect": {
@@ -1059,7 +1059,7 @@
     "name": "Reversal Node",
     "weapon_type": "Halberd Blade",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2lamiyamd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2lamiyamd020011.webp",
     "atk": 372,
     "crit": 201,
     "effect": {
@@ -1179,7 +1179,7 @@
     "name": "Glimpse",
     "weapon_type": "Uniframe: Greatsword",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2kamumd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2kamumd020011.webp",
     "atk": 400,
     "crit": 201,
     "effect": {
@@ -1191,7 +1191,7 @@
     "name": "Guiyun",
     "weapon_type": "Uniframe: Glaive",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2qumd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2qumd020011.webp",
     "atk": 411,
     "crit": 211,
     "effect": {
@@ -1203,7 +1203,7 @@
     "name": "Odette",
     "weapon_type": "Uniframe: Cello Blade",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2cellomd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2cellomd020011.webp",
     "atk": 382,
     "crit": 211,
     "effect": {
@@ -1215,7 +1215,7 @@
     "name": "Blooming Rose",
     "weapon_type": "Uniframe: Chain Blade",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2luolanmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2luolanmd020011.webp",
     "atk": 379,
     "crit": 201,
     "effect": {
@@ -1227,7 +1227,7 @@
     "name": "Whitefrosst Ruler",
     "weapon_type": "Uniframe: Dragon Axe",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2boomerangmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2boomerangmd020011.webp",
     "atk": 375,
     "crit": 217,
     "effect": {
@@ -1239,7 +1239,7 @@
     "name": "Progressive Knife",
     "weapon_type": "Uniframe: Rev Blade",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2nuoanmd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2nuoanmd020011.webp",
     "atk": 390,
     "crit": 191,
     "effect": {
