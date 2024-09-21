@@ -284,7 +284,7 @@ def check_nickname(nickname, caller):
             character = "shukra"
             weapon = "dwelling will of inscription's key"
             cub = "huiyu"
-            memory = ""
+            memory = "ji bo'an"
         case "teddy" | "decryptor":
             character = "decryptor"
             weapon = "hacker's tune"
@@ -294,7 +294,7 @@ def check_nickname(nickname, caller):
             character = "oblivion"
             weapon = "reconstruction of law"
             cub = "su e"
-            memory = ""
+            memory = "cleopatra"
         case "bridget" | "ardeo":
             character = "ardeo"
             weapon = "cestus"
@@ -304,17 +304,17 @@ def check_nickname(nickname, caller):
             character = "solacetune"
             weapon = "dreamer roamer"
             cub = "mei wu"
-            memory = ""
+            memory = "changwuzi"
         case "lucid dreamer":
             character = "lucid dreamer"
             weapon = "hemera's gaze"
             cub = "rui xue"
-            memory = ""
+            memory = "liston"
         case "pyroath" | "hyperdawn":
             character = "pyroath"
             weapon = "dawn's flaming feathers"
             cub = "yi kong"
-            memory = ""
+            memory = "heraclitus"
         case "fulgor" | "yata" | "tomboy":
             character = "fulgor"
             weapon = "morrow's executioner"
@@ -382,6 +382,16 @@ def abbreviation_checker(nickname):
                 memory = "philip"
             case "derk":
                 memory = "derketo"
+            case "alph":
+                memory = "alphonse"
+            case "jba":
+                memory = "ji bo'an"
+            case "cleo":
+                memory = "cleopatra"
+            case "cwz":
+                memory = "changwuzi"
+            case "hera":
+                memory = "heraclitus"
             case _:
                 memory = "n/a"
             
