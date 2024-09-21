@@ -155,7 +155,7 @@ class Skills(commands.Cog):
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'sss')
 
-    @commands.hybrid_command(name="sss+", aliases=["s+", "SSS+", "S+", "3S+", "3s+"])
+    @commands.hybrid_command(aliases=["s+", "SSS+", "S+", "3S+", "3s+"])
     async def splus(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 's+')
