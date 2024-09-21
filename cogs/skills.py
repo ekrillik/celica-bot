@@ -145,17 +145,17 @@ class Skills(commands.Cog):
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'class')
 
-    @commands.hybrid_command(aliases=["SS", "2S", "2s", "s5", "S5"])
+    @commands.command(aliases=["SS", "2S", "2s", "s5", "S5"])
     async def ss(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'ss')
 
-    @commands.hybrid_command(aliases=["SSS", "3S", "3s", "SS3", "ss3"])
+    @commands.command(aliases=["SSS", "3S", "3s", "SS3", "ss3"])
     async def sss(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'sss')
 
-    @commands.hybrid_command(aliases=["s+", "SSS+", "S+", "3S+", "3s+"])
+    @commands.command(name="s+", aliases=["s+", "SSS+", "S+", "3S+", "3s+"])
     async def splus(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 's+')
