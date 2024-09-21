@@ -13,12 +13,13 @@ class DropdownView(discord.ui.View):
     sep : int = 5
     current_page = 1
 
-    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, data = [], build = {}, theme = []) -> None:
+    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, data = [], build = {}, theme = [], multibuild = False) -> None:
         super().__init__(timeout=timeout)
         self.user = user
         self.data = data
         self.build = build
         self.theme = theme
+        self.multibuild = multibuild
         self.selection = data[0]
         self.menu = discord.ui.Select[DropdownView](
             custom_id="persistent_menu",
@@ -34,11 +35,16 @@ class DropdownView(discord.ui.View):
         self.clear_button.callback = self.deleteView
         self.image_view.callback = self.imageView
         self.text_view.callback = self.textView
-        self.add_item(self.menu)
-        self.add_item(self.clear_button)
+        
         selection = self.choose_build(self.build['builds'], data[0])    
         if 'infographic' in selection:
             self.add_item(self.image_view)
+
+        if self.multibuild == True:
+            self.add_item(self.menu)
+
+        self.add_item(self.clear_button)
+        
         self.embedconf = EmbedClass()
 
     def choose_build(self, build_array, choice):
@@ -48,6 +54,10 @@ class DropdownView(discord.ui.View):
         return build
 
     async def callback(self, interaction: discord.Interaction) -> None:
+        if self.image_view in self.children:
+            self.remove_item(self.image_view)
+        if self.text_view in self.children:
+            self.remove_item(self.text_view) 
         embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], colour=self.theme[0], thumbnail_url=self.theme[3])
         self.selection = self.menu.values[0]
         selection = self.choose_build(self.build['builds'], self.menu.values[0])
