@@ -11,11 +11,11 @@ class Ppc(commands.Cog):
         print('PPC loaded.')
 
     @commands.hybrid_command(pass_context=True, aliases=["ppc"])
-    async def time(self, ctx, difficulty, time_str):
+    async def time(self, ctx: commands.Context, difficulty, time_str):
         max_seconds = 300
         difficulties = ["test", "elite", "knight", "chaos", "hell"]
         if difficulty not in difficulties:
-            await ctx.channel.send(content=f"{difficulty} is not a valid difficulty!")
+            await ctx.send(content=f"{difficulty} is not a valid difficulty!")
             return
 
         power = difficulties.index(difficulty)
@@ -23,7 +23,7 @@ class Ppc(commands.Cog):
             time_sec = min(abs(int(time_str)), max_seconds)
         except ValueError:
             content = f"The provided time needs to be a valid number of seconds!"
-            await ctx.channel.send(content=content)
+            await ctx.send(content=content)
             return
 
         minutes, seconds = divmod(time_sec, 60)
@@ -37,7 +37,7 @@ class Ppc(commands.Cog):
         embed.add_field(name="", value=f"Final Score: {score}", inline=False)
         if time_sec == max_seconds:
             embed.add_field(name="", value=f"# You must have some skill issue if you even considered going over 5 minutes for EXPPC. :upside_down:", inline=False)
-        await ctx.channel.send(embed=embed)
+        await ctx.send(embed=embed)
 
     @staticmethod
     def calculate_score(power, time):
