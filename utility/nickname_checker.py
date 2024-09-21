@@ -662,53 +662,53 @@ def character_theme(nickname):
         case "brs":
             name = "BRS: BRS"
             colour = 0x2f3743
-            chibi_portrait = "https://patchwiki.biligame.com/images/zspms/thumb/3/3e/t05uf6n6d3vcd06i36fckvjnucfeuo6.png/60px-%E8%A7%92%E8%89%B2_BRS_BRS_Q%E7%89%88%E5%A4%B4%E5%83%8F.png"
-            thumbnail_url = "https://patchwiki.biligame.com/images/zspms/thumb/d/d7/0w81iqz15uqzo2l1st6x7bxbqmhwkzc.png/100px-%E8%A7%92%E8%89%B2_BRS_BRS_%E7%BB%88%E8%A7%A3.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2blackrock2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr2blackrock3.256.webp"
         case "epitaph":
             name = "Watanabe: Epitaph"
             colour = 0x63858a
-            chibi_portrait = "https://patchwiki.biligame.com/images/zspms/thumb/b/bf/pfvsmtgub1e2pmw37wwt5zd3n21mht5.png/60px-%E8%A7%92%E8%89%B2_%E6%B8%A1%E8%BE%B9_%E5%B0%98%E9%93%AD_Q%E7%89%88%E5%A4%B4%E5%83%8F.png"
-            thumbnail_url = "https://patchwiki.biligame.com/images/zspms/thumb/6/64/4jvc7di9eh9bvpqlof5m45gxw5d2f83.png/100px-%E8%A7%92%E8%89%B2_%E6%B8%A1%E8%BE%B9_%E5%B0%98%E9%93%AD_%E7%BB%88%E8%A7%A3.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr4dubian2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr4dubian3.256.webp"
         case "shukra":
             name = "Qu: Shukra"
             colour = 0x827776
-            chibi_portrait = "https://patchwiki.biligame.com/images/zspms/thumb/7/75/5e2lnci312lci9fae9hmz8zxadl7a44.png/60px-%E8%A7%92%E8%89%B2_%E6%9B%B2_%E5%90%AF%E6%98%8E_Q%E7%89%88%E5%A4%B4%E5%83%8F.png"
-            thumbnail_url = "https://patchwiki.biligame.com/images/zspms/thumb/9/96/hqohyer1kx5uk98uuibtgobindsoffh.png/150px-%E8%A7%92%E8%89%B2_%E6%9B%B2_%E5%90%AF%E6%98%8E_%E7%BB%88%E8%A7%A3.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr3qu2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr3qu3.256.webp"
         case "decryptor":
             name = "Teddy: Decryptor"
             colour = 0x6572b6
-            chibi_portrait = "https://patchwiki.biligame.com/images/zspms/thumb/b/b6/nu4avpkis0e1dzsevr8jwqldfeb2wo7.png/60px-%E8%A7%92%E8%89%B2_%E5%B8%83%E5%81%B6%E7%86%8A_%E8%A7%85%E8%AF%AD_Q%E7%89%88%E5%A4%B4%E5%83%8F.png"
-            thumbnail_url = "https://patchwiki.biligame.com/images/zspms/thumb/3/31/83g0tinfz72uoanwmks7v0zva0x2x4o.png/150px-%E8%A7%92%E8%89%B2_%E5%B8%83%E5%81%B6%E7%86%8A_%E8%A7%85%E8%AF%AD_%E7%BB%88%E8%A7%A3.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2buouxiong2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr2buouxiong3.256.webp"
         case "oblivion":
             name = "Luna: Oblivion"
             colour = 0x832223
-            chibi_portrait = "https://patchwiki.biligame.com/images/zspms/thumb/1/1e/7drdgxz5pbk28ujrv4gaqytjav87suc.png/60px-%E8%A7%92%E8%89%B2_%E9%9C%B2%E5%A8%9C_%E7%BB%88%E7%84%89_Q%E7%89%88%E5%A4%B4%E5%83%8F.png"
-            thumbnail_url = "https://patchwiki.biligame.com/images/zspms/9/9f/b5bsod8q9xrgldv2jp5otbp3sh26ugp.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr4luna2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr4luna3.256.webp"
         case "ardeo":
             name = "Bridget: Ardeo"
             colour = 0xc5a36e
-            chibi_portrait = "https://patchwiki.biligame.com/images/zspms/thumb/1/1a/slr0e8scfqvhodvtljjg81q10xh8xak.png/60px-%E8%A7%92%E8%89%B2_%E5%B8%83%E4%B8%BD%E5%A7%AC%E7%89%B9_%E8%80%80%E7%82%8E_Q%E7%89%88%E5%A4%B4%E5%83%8F.png"
-            thumbnail_url = "https://patchwiki.biligame.com/images/zspms/thumb/c/c0/j27wwp6q06336pxetkvwoy0s1xx604d.png/150px-%E8%A7%92%E8%89%B2_%E5%B8%83%E4%B8%BD%E5%A7%AC%E7%89%B9_%E8%80%80%E7%82%8E_%E7%BB%88%E8%A7%A3.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2bulijite2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr2bulijite3.256.webp"
         case "solacetune":
             name = "Hanying: Solacetune"
             colour = 0x557d7b
-            chibi_portrait = "https://patchwiki.biligame.com/images/zspms/thumb/8/85/h0jshiyq0xddk0dty006h337fwtmab7.png/60px-%E8%A7%92%E8%89%B2_%E5%90%AB%E8%8B%B1_%E6%AA%80%E5%BF%83_Q%E7%89%88%E5%A4%B4%E5%83%8F.png"
-            thumbnail_url = "https://patchwiki.biligame.com/images/zspms/thumb/8/81/fl38rgqswh82b65t9eah3v8leweiyxq.png/150px-%E8%A7%92%E8%89%B2_%E5%90%AB%E8%8B%B1_%E6%AA%80%E5%BF%83_%E7%BB%88%E8%A7%A3.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr3hanying2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr3hanying3.256.webp"
         case "lucid dreamer":
             name = "Wanshi: Lucid Dreamer"
             colour = 0x4099a2
-            chibi_portrait = "https://patchwiki.biligame.com/images/zspms/thumb/d/d8/tq4bgip2d7grl9d6e63tyxzoh30w4x5.png/60px-%E8%A7%92%E8%89%B2_%E4%B8%87%E4%BA%8B_%E6%98%8E%E6%99%B0%E6%A2%A6_Q%E7%89%88%E5%A4%B4%E5%83%8F.png"
-            thumbnail_url = "https://patchwiki.biligame.com/images/zspms/thumb/b/be/csmeplhq7miumtf7595efus40hlt86u.png/150px-%E8%A7%92%E8%89%B2_%E4%B8%87%E4%BA%8B_%E6%98%8E%E6%99%B0%E6%A2%A6_%E7%BB%88%E8%A7%A3.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr3wanshi2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr3wanshi3.256.webp"
         case "pyroath":
             name = "Lucia: Pyroath"
             colour = 0xe9a276
-            chibi_portrait = "https://patchwiki.biligame.com/images/zspms/thumb/2/2b/8r1c9925z0z1ngvbwbifvydt5o32jzd.png/60px-%E8%A7%92%E8%89%B2_%E9%9C%B2%E8%A5%BF%E4%BA%9A_%E8%AA%93%E7%84%B0_Q%E7%89%88%E5%A4%B4%E5%83%8F.png"
-            thumbnail_url = "https://patchwiki.biligame.com/images/zspms/a/a0/sodxmic1c3ulorbkz865n9ioq93s4jd.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr6luxiya2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr6luxiya3.256.webp"
         case "fulgor":
             name = "Yata: Fulgor"
             colour = 0xc14d2c
-            chibi_portrait = "https://patchwiki.biligame.com/images/zspms/thumb/7/78/q00xaus0xhks32len61p84dxe9w7ybp.png/60px-%E8%A7%92%E8%89%B2_%E5%85%AB%E5%92%AB_%E5%BE%8A%E9%97%AA_Q%E7%89%88%E5%A4%B4%E5%83%8F.png"
-            thumbnail_url = "https://patchwiki.biligame.com/images/zspms/d/dd/opubztfh9ygo8s6w2w19mounq0chliw.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2bazhi2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr2bazhi3.256.webp"
         case _:
             name = ""
             colour = ""

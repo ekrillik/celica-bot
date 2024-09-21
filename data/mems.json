@@ -828,7 +828,7 @@
   },
   "alphonse": {
     "name": "Alphonse",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/ealphonsei01001.webp",
     "rarity": 6,
     "2pc": "Fire DMG increases by 10%.",
     "4pc": "Base DMG of Infernal Eruption and Thermal Erosion increases by 100%. Enemies hit by Searing Bulwark are inflicted with Scorching Invasion that reduces the target's Fire Resistance for 8s. Repeatedly triggering the effect refreshes its duration.",
@@ -840,7 +840,7 @@
   },
   "ji bo'an": {
     "name": "Ji Bo'an",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/ejiboani01001.webp",
     "rarity": 6,
     "2pc": "ATK increases by 5%. Ice DMG increases by 5%.",
     "4pc": "Base multiplier of Rimy Valediction, Fleeting Frost, and Tor Invocation increases by 100%. Skill multiplier of Ascended Sovereign, Quell Their Spirits doubles.",
@@ -852,7 +852,7 @@
   },
   "cleopatra": {
     "name": "Cleopatra",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/ecleopatrai01001.webp",
     "rarity": 6,
     "2pc": "Void DMG increases by 10%.",
     "4pc": "The obtain rate of Apocalyptic Moonlight increases by 100%. During Main Sequence / Parousía Télous, Luna: Oblivion gains 30% Extra DMG Bonus.",
@@ -863,8 +863,8 @@
     "hp": 1491
   },
   "changwuzi": {
-    "name": "changwuzi",
-    "thumbnail": "",
+    "name": "Changwuzi",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/echangwuzii01001.webp",
     "rarity": 6,
     "2pc": "Physical DMG increases by 10%.",
     "4pc": "Base DMG of Harmonics Orb increases by 100%. Piercing Strike effect applied by Hanying: Solacetune increases by 20%. Upon exiting Moonsong Realm, the area of effect will continue to last for 12s, dealing 50% Physical DMG to enemies once every second.",
@@ -876,7 +876,7 @@
   },
   "liston": {
     "name": "Liston",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/elistoni01001.webp",
     "rarity": 6,
     "2pc": "Ice DMG increases by 10%.",
     "4pc": "Frostbound Zone inflicts enemies inside with the Frost Corrosion effect that lasts for 8s when dealing DMG. Triggering this effect again refreshes its duration. While in Burst Mode, each shot additionally grants 1 stack of Wounding; the maximum number of Wounding stacks increases to 24. When performing Ruinous Blizzard, the Base DMG increase effect granted by each Correcting Round increases to 10%.",
@@ -888,10 +888,10 @@
   },
   "heraclitus": {
     "name": "Heraclitus",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/eheraclitusi01001.webp",
     "rarity": 6,
     "2pc": "ATK increases by 5%, Fire DMG and Electroconvergence DMG increases by 5%.",
-    "4pc": "The efficiency of acquiring Radiant Points increases by 100%. Damage multiplier of Signature Move – Auxiliary Precision Slash and Signature Move – Endless Eclipse doubles.",
+    "4pc": "The efficiency of acquiring Radiant Points increases by 100%. Damage multiplier of Signature Move - Auxiliary Precision Slash and Signature Move - Endless Eclipse doubles.",
     "note": [],
     "atk": 132,
     "def": 223,
@@ -900,7 +900,7 @@
   },
   "wilde": {
     "name": "Wilde",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/ewildei01001.webp",
     "rarity": 6,
     "2pc": "Lightning DMG increases by 5%, Electroconvergence DMG increases by 10%.",
     "4pc": "During Electronic Blast state, ATK increases by 5%, Electroconvergence DMG increases by 10%.",

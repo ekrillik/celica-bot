@@ -130,7 +130,7 @@
       ]
     },
     {
-      "type": "Six Star Memories - 1/2",
+      "type": "Six Star Memories - 1/3",
       "memories": [
         "Condelina ######",
         "Shakespeare ######",
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "type": "Six Star Memories - 2/2",
+      "type": "Six Star Memories - 2/3",
       "memories": [
         "Chen Jiyuan ######",
         "Leeuwenhoek ######",
@@ -166,6 +166,17 @@
         "Fran ######",
         "Signa ######",
         "Derketo ######"
+      ]
+    },
+    {
+      "type": "Six Star Memories - 3/3",
+      "memories": [
+        "Alphonse ######",
+        "Ji Bo'an ######",
+        "Cleopatra ######",
+        "Liston ######",
+        "Heraclitus ######",
+        "Wilde ######"
       ]
     }
   ]

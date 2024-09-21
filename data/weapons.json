@@ -2002,5 +2002,17 @@
       "effect_name": "Everlasting Pyroath",
       "effect_desc": "ATK increases by 10%. After performing Signature Move - Auxiliary Precision Slash, recovers 3 Signal Orbs. Entering Blazing Thunder Form will trigger Matrix if it is not on cooldown."
     }
+  },
+  "morrow's executioner": {
+    "name": "Morrow's Executioner",
+    "weapon_type": "Power Fists",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e3packmd010011.webp",
+    "atk": 436,
+    "crit": 244,
+    "effect": {
+      "effect_name": "Placeholder",
+      "effect_desc": "ATK increases by 10%. During Empty Realm and Instructed Realm, Nocturne Rush: Finisher generates an extra 30 Flow gauge. During Enlightened Realm, Base DMG of Nocturne Rush and Reflective Counter increases by 50%."
+    }
   }
 }

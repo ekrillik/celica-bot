@@ -7170,11 +7170,11 @@
       "name": "Faint Light",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5 Rank",
+          "rank": "Level 1 - Unlocked at S5 Rank",
           "desc": "Karenina: Scire gains an Anti-gravity Shield equal to  10% of max HP for every set of 3-Ping Orbs consumed when charging."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS Rank",
+          "rank": "Level 2 - Unlocked at SS Rank",
           "desc": "Upon dealing damage, inflicts a  Chain Fusion effect that reduces the target's Dark Resistance by  15% for  3s. When Karenina: Scire starts charging, the Signal Orbs will be rearranged in the order of red, blue, and yellow."
         }
       ]
@@ -7183,11 +7183,11 @@
       "name": "Banishing Sunglow",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3 Rank",
+          "rank": "Level 1 - Unlocked at SS3 Rank",
           "desc": "Gains an extra 3-Ping chance triggered by pressing and holding Basic Attack to charge (up to three times). Upon the third 3-Ping, the corresponding Leap Attack will deal  400% more Base DMG, and Radiant Whirlwind will deal  75% more Base DMG. Upon casting  Starshatter Horizon, Karenina: Scire will generate a  15s  Thermal Field, dealing  75% Dark DMG once to targets entering the field and inflicting them with  Chain Fusion that reduces Dark Resistance by  15% for  10s."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS Rank",
+          "rank": "Level 2 - Unlocked at SSS Rank",
           "desc": "When in the Anti-gravity status, Karenina: Scire deals  10% more Dark DMG. Dealing damage will reduce the target's Extra DMG Reduction by  5% for  8s. Triggering this effect again will renew its duration. Press and hold Basic Attack to start charging and immediately activate QTEs that are not in cooldown.  Radiant Whirlwind's spin speed will automatically increase."
         }
       ]
@@ -7196,15 +7196,15 @@
       "name": "Unquenchable Willpower",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3 Rank",
+          "rank": "Level 1 - Unlocked at SSS3 Rank",
           "desc": "When a teammate casts their Signature Move, it will provide a set of 3-Ping Orbs to Karenina: Scire who is on standby. (Each teammate can only trigger this once after entering the field.) Karenina gains an extra 3-Ping chance triggered by pressing and holding Basic Attack to charge (up to four times). Upon the fourth 3-Ping, the Base DMG of  Leap Attack increases by  600% and the Base DMG of  Radiant Whirlwind increases by  200%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6 Rank",
+          "rank": "Level 2 - Unlocked at SSS6 Rank",
           "desc": "Radiant Whirlwind gains  30% Extra DMG Bonus."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+ Rank",
+          "rank": "Level 3 - Unlocked at SSS+ Rank",
           "desc": "Starshatter Horizon gains  40% Extra DMG Bonus. Karenina: Scire will gain 3 Signal Orbs of a random color every time being switched in."
         }
       ]
@@ -7382,11 +7382,11 @@
       "name": "Clocking Up",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5 Rank",
+          "rank": "Level 1 - Unlocked at S5 Rank",
           "desc": "Movement speed increases by  50% for  5s after dodging."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS Rank",
+          "rank": "Level 2 - Unlocked at SS Rank",
           "desc": "ATK increases by  5% and, every time entering battle,  Gear Level goes up by 1."
         }
       ]
@@ -7395,11 +7395,11 @@
       "name": "The First Hope",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3 Rank",
+          "rank": "Level 1 - Unlocked at SS3 Rank",
           "desc": "Gains a set of 3-Ping Orbs of a random color when switched in."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS Rank",
+          "rank": "Level 2 - Unlocked at SSS Rank",
           "desc": "Upon entering battle, Signal Orbs will be returned and rearranged into 3-Pings according to the number of existing orbs. Lightning DMG increases by  20% with each Gear Level. This effect stacks up to  3 times, and each lasts  8s. Triggering this effect again will refresh its duration."
         }
       ]
@@ -7408,15 +7408,15 @@
       "name": "End of War",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3 Rank",
+          "rank": "Level 1 - Unlocked at SSS3 Rank",
           "desc": "Lightning DMG of 3-Ping skills increases by  30%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6 Rank",
+          "rank": "Level 2 - Unlocked at SSS6 Rank",
           "desc": "Lightning DMG of Signature Move increases by  30%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+ Rank",
+          "rank": "Level 3 - Unlocked at SSS+ Rank",
           "desc": "Lightning DMG of  Gear-Break Combo and  Assault-Rising Combo increases by  30%."
         }
       ]
@@ -7874,15 +7874,15 @@
       "name": "Law of Sequence",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocks at SSS3",
+          "rank": "Level 1 - Unlocks at SSS3",
           "desc": "Base DMG of 3-pings increases by  80%."
         },
         {
-          "rank": "Level 2 -  Unlocks at SSS6",
+          "rank": "Level 2 - Unlocks at SSS6",
           "desc": "Base DMG of  Core - Puppet Theater increases by  60%."
         },
         {
-          "rank": "Level 3 -  Unlocks at SSS+",
+          "rank": "Level 3 - Unlocks at SSS+",
           "desc": "Extra DMG Bonus of  Signature - Stringless Cage increases by  20%."
         }
       ]
@@ -8062,11 +8062,11 @@
       "name": "Realm Walk",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "Triggering  Hypermatrix and casting  Signature - End of Time will activate all available QTEs."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
+          "rank": "Level 2 - Unlocked at SS",
           "desc": "Lee: Hyperreal gains a  25% Extra DMG Bonus in  Hypermatrix. Every time he enters  Hypermatrix for the first time after being switched in, his alternative self from another worldline will perform a Red or Yellow 3-Ping and return a set of recorded 3-Ping Orbs. Performing  Signature - Collapsing Realm , restores  10 Signature Energy ( 20 instead if  4 Sight Points were consumed). If he is switched out after performing  Signature - End of Time,  Covering Fire will be triggered (up to  4 times) with  3 sniping shots when other team members performs their Signature Moves, each shot dealing  400% Fire DMG."
         }
       ]
@@ -8075,11 +8075,11 @@
       "name": "Hypermatrix Control",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
+          "rank": "Level 1 - Unlocked at SS3",
           "desc": "Gains  8 additional Signature Energy when performing  Hypermatrix Strike and  1 Sight Point every time he enters  Hypermatrix for the first time after being switched in."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
+          "rank": "Level 2 - Unlocked at SSS",
           "desc": "When casting   Signature - Collapsing Realm, the Base DMG of  Signature - End of Time increases by  15% for each  Sight Point. When SS Rank Passive Skill - Realm Walk is active, casting  Signature - Collapsing Realm will restore double Signature Energy instead."
         }
       ]
@@ -8088,15 +8088,15 @@
       "name": "Knock on the Door",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "Extra Bonus DMG of  Signature - Collapsing Realm increases by  30%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6",
+          "rank": "Level 2 - Unlocked at SSS6",
           "desc": "Extra DMG Bonus of 3-pings skills and  Hypermatrix Strike increases by  20%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of  Signature - End of Time increases by  35%."
         }
       ]
@@ -8272,11 +8272,11 @@
       "name": "Endless Creativity",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "Casting  Signature - Color Rendering will activate all available QTEs."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
+          "rank": "Level 2 - Unlocked at SS",
           "desc": "Increases Extra DMG Bonus by  20% when the  Signature - Painter's Realm is expanded. Gains  30 Signature Energy and 1  \"Backup Paint\" every time upon entering the battlefied."
         }
       ]
@@ -8285,11 +8285,11 @@
       "name": "Color Magic",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
+          "rank": "Level 1 - Unlocked at SS3",
           "desc": "Gains the extra buffs of  Pure Color: Theme Emphasis and  Color Mix: Clash of Concepts when casting either skill. Ice DMG Bonus of 3-Pings,  Pure Color: Theme Emphasis, and  Color Mix: Clash of Concepts increases by  10%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
+          "rank": "Level 2 - Unlocked at SSS",
           "desc": "Increases the effects of Amplifier Class Skill by  100%. Increases the extra buffs of  Pure Color: Theme Emphasis and  Color Mix: Clash of Concepts to  15%."
         }
       ]
@@ -8298,15 +8298,15 @@
       "name": "Masterpiece for the World",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "Extra DMG Bonus of  Vibrant Brushstroke increases by 20%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6",
+          "rank": "Level 2 - Unlocked at SSS6",
           "desc": "Extra DMG Bonus of 3-Pings,  Pure Color: Theme Emphasis, and  Color Mix: Clash of Concepts increases by 50%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of  Signature - Finishing Touch increases by 50%."
         }
       ]
@@ -8504,11 +8504,11 @@
       "name": "Drifting Vain",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "Casting  Resolute Blow at full  Blade Aura will also activate all available QTES."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
+          "rank": "Level 2 - Unlocked at SS",
           "desc": "Aphotic Point limit increases to  600. 3-Ping Skills and  Resolute Blow gain  50 bonus  Aphotic Points. Casting  Signature - Weave: Splashing Thunder will trigger Matrix if it is not on cooldown."
         }
       ]
@@ -8517,11 +8517,11 @@
       "name": "Facets of Delusions",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
+          "rank": "Level 1 - Unlocked at SS3",
           "desc": "Upon entering battle, the first  Resolute Blow cast will restore an addition of  20 Signature Energy. Base DMG of Signal Orb Skills and  Resolute Blow increases by  50%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
+          "rank": "Level 2 - Unlocked at SSS",
           "desc": "When Alpha is  holding the odachi, making a 3-Ping will grant her a  15% Extra DMG Bonus. The Base DMG of  Signature - Weave: Karmic Inferno and  Unquenchable Flare's Leaping Thrust increase by  60% and  50% respectively. Alpha's swordwave becomes enhanced when casting  Blading Radiance for the first time after entering the battlefield."
         },
         {
@@ -8534,15 +8534,15 @@
       "name": "Glimpse Into All",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "Extra DMG Bonus of  Unquenchable Flare's Thunderous Bash and  Resolute Blow increases by  30%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6",
+          "rank": "Level 2 - Unlocked at SSS6",
           "desc": "Extra DMG Bonus of  Unquenchable Flare's Leaping Thrust and 3-Ping Skills increases by  50%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of  Signature - Weave: Karmic Inferno increases by  50%."
         }
       ]
@@ -8707,11 +8707,11 @@
       "name": "Night of Songs",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "CRIT Rate increases by  20%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
+          "rank": "Level 2 - Unlocked at SS",
           "desc": "Gains 1   Dancer Point every time upon entering the battlefield. The Base DMG Increase effect additionally increases by  40% when there are  4 stacks of  Emerald Flow."
         }
       ]
@@ -8720,11 +8720,11 @@
       "name": "Gathering of Dragons",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
+          "rank": "Level 1 - Unlocked at SS3",
           "desc": "Successfully dodging with  Choreography grants 3 Signal Orbs of a random color."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
+          "rank": "Level 2 - Unlocked at SSS",
           "desc": "The Physical DMG Bonus of  Ultralimit Torque increases by  20%. ATK of other Kowloong Uniframes in the team increases by  30%."
         }
       ]
@@ -8733,15 +8733,15 @@
       "name": "Dance of Dreams",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "Extra DMG Bonus of 3-Pings increases by  20%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6",
+          "rank": "Level 2 - Unlocked at SSS6",
           "desc": "DMG Bonus of  Poise of Emerald Flow  increases by  50%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of  Vision of Mountains increases by  50%. When Kowloong Uniframes are under the effect of Hanying's  Ultralimit Torque, they gain a random set of 3-Ping Orbs, CD:  4s. They also gain a shield equal to  50% of Hanying's ATK for  8s."
         }
       ]
@@ -8909,11 +8909,11 @@
       "name": "Night Hunt",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "Casting  Signature - Sky-ripping Arcflash or unleashing  Forest Predator's Deceleration Field will activate QTEs that are not on cooldown."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
+          "rank": "Level 2 - Unlocked at SS",
           "desc": "Gains  10 Signature Energy when casting  Dusk Fluorescence. Each  Critical Arclight point will increase  Signature - Sky-ripping Arcflash's Base DMG by  2% instead."
         }
       ]
@@ -8922,11 +8922,11 @@
       "name": "Cocoon Break",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
+          "rank": "Level 1 - Unlocked at SS3",
           "desc": "After the  Wolfspirit Release, each  Growling Wolfspirit will consume double  Wolfspirit Points, cause damage and healing of the same amount  one more time, and make No. 21 gain Signature Energy and  Critical Arclight 100% faster. Signal Orb Skills' Base DMG increases by  30%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
+          "rank": "Level 2 - Unlocked at SSS",
           "desc": "Increases the effects of the Amplifier Class Skill by  100%.  Each extra Signal Orb pinged in the  Forest Predator Form will make No. 21 deal Lightning DMG  2 times through  Dusk Fluorescence instead."
         }
       ]
@@ -8935,15 +8935,15 @@
       "name": "Moonlit Howl",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "Signature - Sky-ripping Arcflash's Extra DMG Bonus increases by  20%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6",
+          "rank": "Level 2 - Unlocked at SSS6",
           "desc": "Extra DMG Bonus of 3-Pings and  Wolfspirit Release increases by  30%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of  Dusk Fluorescence and  Forest Predator increases by  20%."
         }
       ]
@@ -10042,11 +10042,11 @@
       "name": "Moment of Onslaught",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "Upon using  Infernal Eruption or  Thermal Erosion, trigger all available QTEs."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
+          "rank": "Level 2 - Unlocked at SS",
           "desc": "Every time Watanabe enters the battlefield, accumulating  3 stacks of  Thermal Superconductivity for the first time grants  70 Energy. Extra DMG Bonus increases by  30% while  Paradigm: Assault is active. Gain  3 stacks of  Thermal Superconductivity upon using  Infernal Eruption."
         }
       ]
@@ -10055,11 +10055,11 @@
       "name": "Break the Siege",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
+          "rank": "Level 1 - Unlocked at SS3",
           "desc": "Fire Resistance reduction effect of  Scorching Invasion inflicted by Watanabe increases by  10%. Gain 1  Blaze Orb upon using  Infernal Eruption."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
+          "rank": "Level 2 - Unlocked at SSS",
           "desc": "Increases animation speed while consecutively performing  Thermal Erosion. Maximum stacks of  Thermal Superconductivity increases to  6. Increases the buff effect granted by each stack of  Thermal Superconductivity by  5%. When Watanabe successfully  parries an attack for the first time upon entering the battlefield, additionally gains 1  Blaze Orb. Fire Resistance reduction effect of  Scorching Invasion inflicted by Watanabe: Epitaph increases by  10%. Reduces swap cooldown of all party members by  3s."
         }
       ]
@@ -10068,15 +10068,15 @@
       "name": "Leader's Wings",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "Extra DMG Bonus of  Flaming Purgation increases by  35%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6",
+          "rank": "Level 2 - Unlocked at SSS6",
           "desc": "Extra DMG Bonus of  Infernal Eruption increases by  35%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of  Thermal Erosion and 3-Pings increases by  35%."
         }
       ]
@@ -10254,11 +10254,11 @@
       "name": "To Climb Beyond an Endless World",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "Upon performing  Rimy Valediction,  Tor Invocation, or  Ascended Sovereign,  Quell Their Spirits, trigger all available QTEs. Upon performing the fourth move of the Basic Attack sequence after a successful dodge, Qu: Shukra will immediately activate  Enter the Fray. Activating  Enter the Fray this way does not grant an  Engravement point."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
+          "rank": "Level 2 - Unlocked at SS",
           "desc": "Upon performing  Star of Dawn, Indite Their Souls, immediately gain  1 stack of  Soul Ripple. After performing  Rimy Valediction, Qu: Shukra gains  3 stacks of  Soul Ripple for every 3-Ping performed during  Sovereign's Accession for the next cast of  Star of Dawn, Indite Their Souls. After performing  Tor Invocation, Base DMG increase effect of  Ascended Sovereign, Quell Their Spirits granted by each stack of  Soul Ripple increases to  45%."
         }
       ]
@@ -10267,11 +10267,11 @@
       "name": "To Become Dawn's Star and Vanquish the Evil",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
+          "rank": "Level 1 - Unlocked at SS3",
           "desc": "When Qu: Shukra activates  Enter the Fray, her Extra DMG Bonus increases by  25% for  8s."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
+          "rank": "Level 2 - Unlocked at SSS",
           "desc": "When performing  Rimy Valediction or  Tor Invocation, Base DMG of the current cast of the skill increases by  50% for each point of  Engravement Qu: Shukra currently has. Upon performing  Fleeting Frost, performing  Rimy Valediction or  Tor Invocation during the current  Enter the Fray duration will consume 1 point of  Engravement to grant buffs from both  Rimy Valediction and  Tor Invocation for the next cast of  Star of Dawn, Indite Their Souls and  Ascended Sovereign, Quell Their Spirits."
         }
       ]
@@ -10280,15 +10280,15 @@
       "name": "Mine Accession, Forevermore Etched in History",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "Extra DMG Bonus of  Rimy Valediction, Fleeting Frost, and  Tor Invocation increases by  50%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6",
+          "rank": "Level 2 - Unlocked at SSS6",
           "desc": "Extra DMG Bonus of 3-Pings,  Tabula Akasha - Inscribe, and Star of Dawn, Indite Their Souls increases by  50%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of  Ascended Sovereign, Quell Their Spirits increases by  45%."
         }
       ]
@@ -10820,11 +10820,11 @@
       "name": "Conformational Half-Moon",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "Upon performing  Original Retribution / Final Retribution,  Signature - Parousía Télous, or  Signature - Moonfall, trigger all available QTEs."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
+          "rank": "Level 2 - Unlocked at SS",
           "desc": "Upon performing  Signature - Main Sequence or  Signature - Parousía Télous, trigger Matrix if available. During  Main Sequence, every  10 points of  Apocalyptic Moonlight amplifies Base DMG of  Original Retribution by  4%. If Luna exits the battlefield during  Parousía Télous, the Chakram will perform an attack that deals  2000% Void DMG."
         }
       ]
@@ -10833,11 +10833,11 @@
       "name": "Molding of a Phase Space",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
+          "rank": "Level 1 - Unlocked at SS3",
           "desc": "Base DMG of  Signature - Moonfall increases by  20%. Upon automatically dodging an incoming attack during  Reaping Moon, gain  20 points of  Lingering Moonlight.  Voidal Delamination can evade incoming attacks and grants  6 Telos Orbs upon successfully evading an attack."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
+          "rank": "Level 2 - Unlocked at SSS",
           "desc": "The obtain rate of  Apocalyptic Moonlight doubles. Maximum points of  Apocalyptic Moonlight increases to  600."
         },
         {
@@ -10850,7 +10850,7 @@
       "name": "Moon's Crimson Fetters",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "Extra DMG of  Signature - Moonfall and  Signature - Parousía Télous increases by  40%."
         },
         {
@@ -10858,7 +10858,7 @@
           "desc": "Extra DMG of 3-Pings and  Voidal Delamination increases by  40%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG of  Original Retribution,  Final Retribution, and  Breaking Moon cast with  Lingering Moonlight at the maximum value increases by  40%."
         }
       ]
@@ -11330,11 +11330,11 @@
       "name": "A Butterfly, Smitten by Flowers",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "Upon unleashing  Signature-Viridian Flutter,  Signature-Hymn of the Pale Moon, activate all available QTEs."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
+          "rank": "Level 2 - Unlocked at SS",
           "desc": "Gains  15 Complex Time every time Hanying: Solacetune enters the battlefield. Upon pinging  Harmonics Orb, immediately gain 3 Signal Orbs. If lacking  Complex Time when continuously unleashing  Azure Allure, can consume 3 Signal Orbs to substitute for the consumption of  Complex Time.  Signature-Hymn of the Pale Moon Base DMG increases by  100%.  Piercing Strike effect applied by Hanying: Solacetune increases by  20%."
         }
       ]
@@ -11343,11 +11343,11 @@
       "name": "A Magpie, Perched on the Branch",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
+          "rank": "Level 1 - Unlocked at SS3",
           "desc": "Gains 3 Signal Orbs every time Hanying: Solacetune enters the battlefield. While in  Way of Strife, Extra DMG Bonus increases by  15%.  Mingling Moon and Lantern effect applied by Hanying: Solacetune increases by  50%;  Penetrating Pivot effect increases by  5%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
+          "rank": "Level 2 - Unlocked at SSS",
           "desc": "Base DMG amplifying effect from each consecutive cast of  Azure Allure increases to  100%. While in  Way of Strife, triggers a single cast of  Phoenix Down upon completely filling  Complex Time points inside  Moonsong Realm. Extra DMG of  Trueslash performed by Hanying: Solacetune increases by  100%.  Penetrating Pivot effect applied by Hanying: Solacetune increases by  10%. Reduces swap cooldown of all party members by  3s; this cannot be stacked with other swap cooldown-reducing effects."
         }
       ]
@@ -11356,15 +11356,15 @@
       "name": "We, Enveloped in Longing",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "Extra DMG Bonus of  Signature-Viridian Flutter, Signature-Hymn of the Pale Moon increases by  30%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6",
+          "rank": "Level 2 - Unlocked at SSS6",
           "desc": "Extra DMG Bonus of  Phoenix Down, Harmonics Orb, and  Signal Orbs increase by  30%."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of  Azure Allure and  Sublimity increases by  30%."
         }
       ]
@@ -11605,7 +11605,7 @@
           "name": "Hyperlinked Flight",
           "button_press": "Consume 160 Energy + Not during Bullet Hail/Frosty Ascent + Tap Signature Move",
           "description": {
-            "desc": "Summons a lightweight drone to generate a forcefield, pulling in enemies and firing a strengthened Condensation Round. Deals Ice or Hiemal DMG depending on the current Calibration Mode. Upon performing this skill, immediately gains 1 Signal Orb and rearranges Signal Orbs into 3-Pings. Time Lag Calculation is activated while performing this skill. If Wanshi has the Domain Overlimit effect when performing this skill, its duration is refreshed.",
+            "desc": "Summons a lightweight drone to generate a forcefield, pulling in enemies and firing a strengthened Condensation Round. Deals Ice or Hiemal DMG depending on the current Calibration Mode. Upon performing this skill, immediately gains 1 Signal Orb and rearranges Signal Orbs into 3-Pings. Time Lag Calculation is activated while performing this skill. If Wanshi has the Domain Overlimit effect when performing this skill, its duration is refreshed.\n\nDomain Overlimit: The effect gained when Matrix is triggered that makes the next ping count as a 3-Ping.",
             "result": [
               "- When Wanshi is in Calibration Mode: Quiescence or has not entered Calibration Mode, deals 2400% Ice DMG. If Wanshi is in Calibration Mode: Quiescence when performing this skill, resets the Calibration Meter upon performing this skill and exits Calibration Mode: Quiescence.",
               "- When Wanshi is in Calibration Mode: Desolation, deals 1400% Hiemal DMG instead; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Desolation.",
@@ -11615,19 +11615,12 @@
           }
         },
         {
-          "name": "Domain Overlimit",
-          "button_press": "The effect gained when Matrix is triggered that makes the next ping count as a 3-Ping.",
+          "name": "Ruinous Blizzard",
+          "button_press": "Consume 160 Energy + During Bullet Hail/Frosty Ascent + Tap Signature Move",
           "description": {
-            "desc": "Ruinous Blizzard - Consume 160 Energy + During Bullet Hail/Frosty Ascent + Tap Signature Move",
-            "result": []
-          }
-        },
-        {
-          "name": "The lightweight drone propels Wanshi",
-          "button_press": "Lucid Dreamer into the air, pulling in enemies and strafing the ground. Deals Ice DMG or Hiemal DMG depending on the current  Calibration Mode. Upon performing this skill, immediately gain 1 Signal Orb and rearrange Signal Orbs into 3-Pings.  Time Lag Calculation is activated while performing this skill. If Wanshi has the  Overlimit Domain effect when performing this skill, its duration is refreshed.",
-          "description": {
-            "desc": "- When Wanshi is in Calibration Mode: Quiescence, immediately deals 1850% Ice DMG; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Quiescence. After exiting the battlefield, Wanshi: Lucid Dreamer will additionally deal 900% Ice DMG when performing Point-blank Shooting; this effect can be triggered only once every time he exits the battlefield.",
+            "desc": "The lightweight drone propels Wanshi: Lucid Dreamer into the air, pulling in enemies and strafing the ground. Deals Ice DMG or Hiemal DMG depending on the current  Calibration Mode. Upon performing this skill, immediately gain 1 Signal Orb and rearrange Signal Orbs into 3-Pings.  Time Lag Calculation is activated while performing this skill. If Wanshi has the  Overlimit Domain effect when performing this skill, its duration is refreshed.",
             "result": [
+              "- When Wanshi is in Calibration Mode: Quiescence, immediately deals 1850% Ice DMG; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Quiescence. After exiting the battlefield, Wanshi: Lucid Dreamer will additionally deal 900% Ice DMG when performing Point-blank Shooting; this effect can be triggered only once every time he exits the battlefield.",
               "- When Wanshi is in Calibration Mode: Desolation, deals 1030% Hiemal DMG instead; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Desolation. After exiting the battlefield, Wanshi: Lucid Dreamer will additionally deal 500% Hiemal DMG when performing Point-blank Shooting; this effect can be triggered only once every time he exits the battlefield.",
               "- Performing this skill consumes all Correcting Rounds. Each Correcting Round consumed increases the Base DMG of this cast of Ruinous Blizzard by 5%. If 30 Correcting Rounds have been consumed when performing this skill, additionally gains 100% Base DMG Increase and 1 Signal Orb.",
               "- Generates an Ice Spike upon performing this skill based on the number of Diamond Dust Stacks."
@@ -11671,12 +11664,12 @@
       "name": "Shadows of the Past",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at S5",
-          "desc": "When entering or refreshing  Calibration Mode or performing  Hyperlinked Flight/Ruinous Blizzard, activates all available QTEs."
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "When entering or refreshing Calibration Mode or performing Hyperlinked Flight/Ruinous Blizzard, activates all available QTEs."
         },
         {
-          "rank": "Level 2 -  Unlocked at SS",
-          "desc": "The entry skill is considered a Blue 3-Ping. When entering the battlefield via switch-in, gains 1 Signal Orb. When entering  Calibration Mode, gains  12 Signature Energy. While in  Calibration Mode: Desolation,  Glaciation Point accumulation rate of  Gale Strike and  Bullet Hail doubles. Base DMG of  Gale Strike and  Bullet Hail doubles."
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "The entry skill is considered a Blue 3-Ping. When entering the battlefield via switch-in, gains 1 Signal Orb. When entering Calibration Mode, gains 12 Signature Energy. While in Calibration Mode: Desolation,  Glaciation Point accumulation rate of  Gale Strike and  Bullet Hail doubles. Base DMG of Gale Strike and  Bullet Hail doubles."
         }
       ]
     },
@@ -11684,12 +11677,12 @@
       "name": "Drifting Memories",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SS3",
-          "desc": "Frost Corrosion effect applied by Wanshi: Lucid Dreamer increases by  10%. Signal Orb recovery rate increases by  100% during  Bullet Hail. Base DMG of  Cryonic Explosion increases by  200%. Base DMG of  Airdropped Revolver and  Effulgent Shatter increases by  100%."
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Frost Corrosion effect applied by Wanshi: Lucid Dreamer increases by 10%. Signal Orb recovery rate increases by 100% during Bullet Hail. Base DMG of  Cryonic Explosion increases by 200%. Base DMG of  Airdropped Revolver and  Effulgent Shatter increases by 100%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS",
-          "desc": "Frost Corrosion effect applied by Wanshi: Lucid Dreamer increases by  10%. Base DMG of  Diamond Dust performed by Wanshi: Lucid Dreamer increases by  30%. When performing  Hyperlinked Flight or  Ruinous Blizzard in  Calibration Mode, increases their Base Multiplier by  1.5 times. When Wanshi: Lucid Dreamer has the maximum number of  Wounding stacks, Base DMG of  Hyperlinked Flight additionally increases by  60%. Reduces swap cooldown of all party members by  3s; this cannot be stacked with other swap cooldown-reducing effects."
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "Frost Corrosion effect applied by Wanshi: Lucid Dreamer increases by 10%. Base DMG of Diamond Dust performed by Wanshi: Lucid Dreamer increases by  30%. When performing  Hyperlinked Flight or  Ruinous Blizzard in  Calibration Mode, increases their Base Multiplier by 1.5 times. When Wanshi: Lucid Dreamer has the maximum number of Wounding stacks, Base DMG of  Hyperlinked Flight additionally increases by 60%. Reduces swap cooldown of all party members by  3s; this cannot be stacked with other swap cooldown-reducing effects."
         }
       ]
     },
@@ -11697,16 +11690,397 @@
       "name": "Dreams of Hope",
       "levels": [
         {
-          "rank": "Level 1 -  Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of  Gale Strike, Bullet Hail, and  Frosty Ascent increases by  30%. Extra DMG Bonus of the DMG when generating an  Ice Spike increases by  100%."
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of Gale Strike, Bullet Hail, and Frosty Ascent increases by 30%. Extra DMG Bonus of the DMG when generating an Ice Spike increases by 100%."
         },
         {
-          "rank": "Level 2 -  Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of Wanshi: Lucid Dreamer increases by  10% in  Calibration Mode."
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of Wanshi: Lucid Dreamer increases by 10% in Calibration Mode."
         },
         {
-          "rank": "Level 3 -  Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of  Hyperlinked Flight and  Ruinous Blizzard increases by  35%. Extra DMG Bonus of the DMG dealt by  Diamond Dust increases by  30%."
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of Hyperlinked Flight and Ruinous Blizzard increases by 35%. Extra DMG Bonus of the DMG dealt by Diamond Dust increases by 30%."
+        }
+      ]
+    }
+  },
+  "pyroath": {
+    "basic_attack": [
+      {
+        "name": "Feather Storm - Searing Slash",
+        "button_press": "Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Swings dual blades at the enemy to slash continuously, dealing Fire DMG. While in Levitating Mode, Basic Attacks deal Fire DMG and obtain Radiance Points. Tapping Basic Attack at a certain timing will trigger a special attack.",
+          "result": [
+            "- Deals a total of 760% Fire DMG.",
+            "- While in Levitating Mode, Basic Attacks deal a total of 330% Fire DMG and each Basic Attack obtains 25 Radiance Points.",
+            "- Searing Slash - Shatter: Tapping Basic Attack at the precise timing after performing Basic Attack Combo 5, or tapping Basic Attack after dodging successfully will perform Searing Slash - Shatter, dealing 200% Fire DMG and recovering 30 Radiance Points. During this, gains Super Armor. After performing this skill, using Basic Attack will start from Basic Attack Combo 4."
+          ]
+        }
+      },
+      {
+        "name": "Feather Storm - Air-splitting Rays",
+        "button_press": "Blazing Thunder Form + Radiance Points full + Hold Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Continuously phases and rips through the space, consuming all Radiance Points and dealing Fire DMG. After performing this skill, obtains Radiance Engraving and Signature Energy.",
+          "result": [
+            "- Deals 800% Fire DMG.",
+            "- Gains 32 Signature Energy while performing this skill.",
+            "- While in the Electronic Blast state, deals 1600% Electroconvergence DMG instead of Fire DMG.",
+            "- Lucia: Pyroath is invincible when performing this skill.",
+            "- Radiance Engraving will disappear when exiting Blazing Thunder Form or Levitating Mode."
+          ]
+        }
+      },
+      {
+        "name": "Feather Storm - Radiant Feather Storm",
+        "button_press": "Blazing Thunder Form + After performing Air-splitting Rays + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Turns and slashes the space in a single strike, dealing Fire DMG.",
+          "result": [
+            "- Deals 1500% Fire DMG.",
+            "- While in the Electronic Blast state, deals 3000% Electroconvergence DMG instead of Fire DMG.",
+            "- Lucia is invincible when performing this skill."
+          ]
+        }
+      },
+      {
+        "name": "Feather Storm - Gala Ablaze",
+        "button_press": "Levitating Mode + Possess 30 Radiance Points + Hold / Tap Basic Attack Repeatedly",
+        "switch_in": "no",
+        "description": {
+          "desc": "While in Levitating Mode, hold Basic Attack to shift into a fighting stance. Continue holding onto Basic Attack or tapping Basic Attack repeatedly shall perform Gala Ablaze continuously, slashing and grouping surrounding enemy targets from the air, consuming Radiance Points, granting Signature Energy and dealing Fire DMG.",
+          "result": [
+            "- Gala Ablaze consumes 30 Radiance Points, granting 11 Signature Energy and dealing 2000% Fire DMG.",
+            "- While in the Electronic Blast state, deals 4000% Electroconvergence DMG instead of Fire DMG.",
+            "- While performing this skill, gains Super Armor and 40% DMG Reduction. "
+          ]
+        }
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Scorching Polarizer - Revolving Twister",
+        "button_press": "Tap Red Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Uses dual blades to spin and fly upwards, obtaining Temper Points and dealing Fire DMG.",
+          "result": [
+            "- Gains 20 / 40 / 60 Temper Points while performing the skill based on the number of orbs pinged.",
+            "- Deals 240% / 480% / 720% Fire DMG based on the number of orbs pinged.",
+            "- Performing this skill requires at least 1 White Orb to be consumed, after which Lucia remains in the air momentarily."
+          ]
+        }
+      },
+      {
+        "name": "Scorching Polarizer - Inferno Gust",
+        "button_press": "In the air + Tap Red Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Rotates in the air before rapidly plunging downwards, obtaining Temper Points and dealing Fire DMG.",
+          "result": [
+            "- Gains 20 / 40 / 60 Temper Points while performing the skill based on the number of orbs pinged. Gains Super Armor while performing this skill.",
+            "- Deals 420% / 840% / 1260% Fire DMG based on the number of orbs pinged.",
+            "- Performing this skill requires at least 1 White Orb to be consumed, after which Lucia remains in the air momentarily.",
+            "- Lucia is able to evade attacks when rotating."
+          ]
+        }
+      },
+      {
+        "name": "Scorching Polarizer - Flickering Sparks",
+        "button_press": "After a Red 3-Ping + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "After a 3-Ping that performs the Red Orb skill, tap Basic Attack to follow up with Lightspeed Rend - Flickering Sparks once, coordinating an attack with afterimages of self on the target, dealing Fire DMG. During this, gains Super Armor. After performing this skill, obtains Signature Energy and Radiance Points based on the number of Red Orbs consumed earlier (up to 9 Orbs).",
+          "result": [
+            "- Deals 120% Fire DMG.",
+            "- Obtains 1 / 2 / 5 / 6 / 7 / 10 / 11 / 12 / 15 Signature Energy after landing on the ground based on the number of orbs pinged.",
+            "- Obtains 10 / 20 / 30 / 40 / 50 / 60 / 70 / 80 / 90 Radiance Points immediately based on the number of orbs pinged.",
+            "- After performing this skill, Lucia lands on the ground. "
+          ]
+        }
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Omnidirectional Glare - Soaring Strike ",
+        "button_press": "Ping Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Lunges at the target, obtaining Temper Points and dealing Fire DMG. ",
+          "result": [
+            "- Gains 20 / 40 / 60 Temper Points while performing the skill based on the number of orbs pinged.",
+            "- Deals 160% / 320% / 500% Fire DMG based on the number of orbs pinged.",
+            "- Performing this skill requires at least 1 White Orb to be consumed."
+          ]
+        }
+      },
+      {
+        "name": "Omnidirectional Glare - Return of Lustrous Wings",
+        "button_press": "In the air + Tap Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Spins and dives to slash at the target, obtaining Temper Points and dealing Fire DMG. During this, gains Super Armor.",
+          "result": [
+            "- Gains 20 / 40 / 60 Temper Points while performing the skill based on the number of orbs pinged.",
+            "- Deals 180% / 360% / 540% Fire DMG based on the number of orbs pinged.",
+            "- Performing this skill requires at least 1 White Orb to be consumed, after which Lucia descends to the ground.",
+            "- Gains 30 Radiance Points while performing this skill.",
+            "- After performing this skill, tapping Basic Attack at the precise timing will perform Searing Slash - Shatter."
+          ]
+        }
+      },
+      {
+        "name": "Omnidirectional Glare - Dual-wielding Arcflash",
+        "button_press": "After a Yellow 3-Ping + Tap Basic Attack repeatedly",
+        "switch_in": "no",
+        "description": {
+          "desc": "After a 3-Ping that performs the Yellow Orb skill, tap Basic Attack repeatedly to follow up with Lightspeed Rend - Dual-wielding Arcflash up to four times, dealing Fire DMG and gaining Radiance Points. During this, gains Super Armor.",
+          "result": [
+            "- Gains 20 Radiance Points throughout the first three combos of Lightspeed Rend - Dual-wielding Arcflash.",
+            "- Gains 30 Radiance Points and 5 Signature Energy during the fourth combo of Lightspeed Rend - Dual-wielding Arcflash. After performing this skill, tapping Basic Attack at the precise timing will perform Searing Slash - Shatter.",
+            "- Deals a total of 1250% Fire DMG."
+          ]
+        }
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Roaring Firestorm - Solar Pierce",
+        "button_press": "Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Jumps and knocks the target airborne, dealing Fire DMG.",
+          "result": [
+            "- Deals 120% Fire DMG.",
+            "- After performing this skill, Lucia remains in the air momentarily.",
+            "- Performing this skill does not consume any White Orbs."
+          ]
+        }
+      },
+      {
+        "name": "Roaring Firestorm - Lightcrushing",
+        "button_press": "In the air + Tap Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Rapidly slams down from the air, dealing Fire DMG.",
+          "result": [
+            "- Deals 180% Fire DMG.",
+            "- After performing this skill, Lucia lands on the ground.",
+            "- Performing this skill does not consume any White Orbs."
+          ]
+        }
+      },
+      {
+        "name": "Roaring Firestorm - Tempest Gathering",
+        "button_press": "After Basic Attack Combo 5 + Tap Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "After performing Basic Attack Combo 5, tap Blue Orb to turn and perform a heavy strike, dealing Fire DMG and gaining points of Ampere Accumulation. During this, gains Super Armor. After performing this skill, performing Basic Attack continues from Combo 3.",
+          "result": [
+            "- Deals 240% Electroconvergence DMG.",
+            "- Gains 250 points of Ampere Accumulation while performing this skill."
+          ]
+        }
+      },
+      {
+        "name": "Roaring Firestorm - Tempest Unleash",
+        "button_press": "Ampere Accumulation full + Hold Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "When Ampere Accumulation of the party reaches the maximum value, hold Blue Orb to trigger the Electronic Blast state. During Signature Move - Forged in Molten, Blue Orb can also be held.",
+          "result": []
+        }
+      },
+      {
+        "name": "Roaring Firestorm - Thunderous Trial",
+        "button_press": "Ping Electrofuge Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "When in the Electronic Blast state, all Signal Orbs are converted into Electrofuge Orbs. After pinging Electrofuge Orbs, jumps and slashes at the target from the air, obtaining Radiance Points and dealing Electroconvergence DMG. During this, gains Super Armor. After exiting the Electronic Blast state, all Electrofuge Orbs are converted into White Orbs. ",
+          "result": [
+            "- Gains 20 / 40 / 60 Radiance Points while performing the skill based on the number of orbs pinged.",
+            "- Deals 180% / 360% / 540% Electroconvergence DMG based on the number of orbs pinged."
+          ]
+        }
+      }
+    ],
+    "core_passive": {
+      "name": "Night Irradiance",
+      "skills": [
+        {
+          "name": "Raven Flight",
+          "button_press": "Hold Dodge",
+          "description": [
+            "All of Lucia's Signal Orbs are converted into White Orbs. After performing certain skills, Lucia will stay airborne momentarily. Dodging grants an additional effect."
+          ],
+          "result": [
+            "- When a successful dodge is performed on the ground, hold dodge to counter attack for 400% Fire DMG and obtain 30 Radiance Points.",
+            "- Hold dodge while in the air to perform a spinning slash, dealing 300% Fire DMG."
+          ]
+        },
+        {
+          "name": "Relentless Refinement",
+          "button_press": "Ping Signal Orbs",
+          "description": [
+            "Lucia automatically recovers Temper Points over time and pinging Signal Orbs will obtain additional Temper Points."
+          ],
+          "result": [
+            "- Gains 20 Temper Points each second that continues when switched out. Maximum Temper Points: 120. When Temper Points reach the maximum value, hold Signature Move to enter Blazing Thunder Form.",
+            "- Upon switching in for the first time, gains 120 Temper Points.",
+            "- Temper Points cannot be obtained during Blazing Thunder Form and Levitating Mode."
+          ]
+        },
+        {
+          "name": "Trailing Light",
+          "button_press": "3-Ping + Tap Basic Attack",
+          "description": [
+            "After a 3-Ping, tap Basic Attack to follow up with Lightspeed Rend. Performing Lightspeed Rend will grant Radiance Points."
+          ],
+          "result": [
+            "- Radiance Points can be used to perform Basic Attack - Air-splitting Rays and Basic Attack - Gala Ablaze. Maximum Radiance Points: 240."
+          ]
+        },
+        {
+          "name": "Crimson Blades",
+          "button_press": "Blazing Thunder Form + Basic Attack / Ping Signal Orbs",
+          "description": [
+            "While in Blazing Thunder Form, upon performing Basic Attack - Searing Slash, Signal Orb Skills or Lightspeed Rend, trigger Crimson Blades support attacks, dealing Fire DMG."
+          ],
+          "result": ["- Each follow up of Crimson Blades deals 20% Fire DMG."]
+        },
+        {
+          "name": "Effect: Electroconvergence",
+          "button_press": "",
+          "description": [
+            "Effect Resource: Maximum points of Ampere Accumulation: 1000."
+          ],
+          "result": [
+            "- When the Effect is triggered: Characters with the Electroconvergence Effect enter the Electronic Blast state and causes lightning to fall around themselves, dealing 800% Electroconvergence DMG every 2s for 12s (this cannot trigger the Tank Class passive)."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Glorious Sol",
+      "skills": [
+        {
+          "name": "Jump",
+          "button_press": "Tap Signature Move",
+          "description": {
+            "desc": "Jumps up from the ground, staying in the air momentarily.",
+            "result": ["- Jumping is able to evade attacks."]
+          }
+        },
+        {
+          "name": "Forged in Molten",
+          "button_press": "Temper Points full + Hold Signature Move",
+          "description": {
+            "desc": "Raises the blade to absorb solar energy and enter Blazing Thunder Form, dealing Fire DMG. Triggers Time Lag Calculation when performing this skill. If Lucia has the Domain Overlimit effect when performing this skill, its duration is refreshed. After performing this skill, Lucia remains in the air momentarily. ",
+            "result": [
+              "- Deals 180% Fire DMG.",
+              "- Blazing Thunder Form lasts for 12s, during which Temper Points will be continuously consumed. Exit Blazing Thunder Form when all Temper Points are exhausted."
+            ]
+          }
+        },
+        {
+          "name": "Auxiliary Precision Slash",
+          "button_press": "Blazing Thunder Form + 90 Energy + Hold Signature Move",
+          "description": {
+            "desc": "Flies upwards before slashing at a large area, dealing Fire DMG. If in possession of Radiance Engraving, consume it to amplify the damage of this Signature Move. Triggers Time Lag Calculation when performing this skill. If Lucia has the Domain Overlimit effect when performing this skill, its duration is refreshed. After performing this skill, re-enter Blazing Thunder Form and restore the amount of Temper Points to the maximum.",
+            "result": [
+              "- Deals 2550% Fire DMG.",
+              "- While in the Electronic Blast state, deals 4500% Electroconvergence DMG instead of Fire DMG.",
+              "- When in possession of Radiance Engraving, consume it to increase the Base DMG of this Signature Move by 50%."
+            ]
+          }
+        },
+        {
+          "name": "Over the Flaming Valley",
+          "button_press": "Blazing Thunder Form + 90 Energy + Tap Signature Move",
+          "description": {
+            "desc": "Rises and enters Levitating Mode.",
+            "result": [
+              "- After performing this skill, consumes all Temper Points."
+            ]
+          }
+        },
+        {
+          "name": "Endless Eclipse",
+          "button_press": "Levitating Mode + 90 Energy + Tap Signature Move",
+          "description": {
+            "desc": "Gathers energy after flying upwards, then dives at the enemy target and explodes, dealing Fire DMG. If in possession of Radiance Engraving, consume it to amplify the damage of this Signature Move. Triggers Time Lag Calculation when performing this skill. If Lucia has the Domain Overlimit effect when performing this skill, its duration is refreshed. Exits Levitating Mode after performing this skill.\n\nDomain Overlimit: The effect gained when Matrix is triggered that makes the next ping count as a 3-Ping.",
+            "result": [
+              "- Deals 3500% Fire DMG.",
+              "- While in the Electronic Blast state, deals 5000% Electroconvergence DMG instead of Fire DMG.",
+              "- When in possession of Radiance Engraving, consume it to increase the Base DMG of this Signature Move by 50%."
+            ]
+          }
+        }
+      ]
+    },
+    "qte": {
+      "name": "Haze Erasure",
+      "description": "Quickly slashes at the enemy target, dealing Fire DMG.",
+      "result": ["- Deals 600% Fire DMG."]
+    },
+    "leader": {
+      "name": "Burning Oath",
+      "description": {
+        "desc": "Increases Fire and Electroconvergence DMG of all members by 10%. Increases ATK of Attacker Omniframes by 10%. ",
+        "result": []
+      }
+    },
+    "class": {
+      "name": "Attacker",
+      "description": {
+        "desc": "Extra DMG Bonus increases by 20%. ",
+        "result": []
+      }
+    },
+    "ss_rank": {
+      "name": "Ashen Edge",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Performing Basic Attack - Air-splitting Rays, Basic Attack - Gala Ablaze, Signature Move - Auxiliary Precision Slash or Signature Move - Endless Eclipse activates all available QTEs."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "Gains 25% Extra DMG Bonus when in Blazing Thunder Form or Levitating Mode. Immediately obtains 120 Radiance Points when entering Levitating Mode. When switching out after performing Signature Move - Endless Eclipse, Lucia will enter the Embers of Wildfire state, attacking surrounding enemies once every 2s, dealing 4000% Fire DMG. Exits the Embers of Wildfire state after attacking 4 times."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Fiery Goldburn Plumage",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Base DMG of Basic Attack - Gala Ablaze increases by 100%. The first use of Basic Attack - Radiant Feather Storm after switching in grants 40 Signature Energy. After performing Signature Move - Auxiliary Precision Slash or Signature Move - Endless Eclipse, Base DMG of QTE - Haze Erasure in this battle increases by 1000%. "
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "The first use of Lightspeed Rend - Flickering Sparks after switching in immediately obtains Radiance Engraving. The Base DMG increase effect of Radiance Engraving for Signature Move - Auxiliary Precision Slash and Signature Move - Endless Eclipse doubles. Obtains 6 additional Signature Energy each time Basic Attack - Gala Ablaze is performed. While in the Embers of Wildfire state, Lucia's Extra DMG Bonus increases by 100%."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Silvery Vow",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of Basic Attack - Air-splitting Rays, Basic Attack - Radiant Feather Storm and Basic Attack - Gala Ablaze increases by 40%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of 3-Ping Signal Orb skills and Lightspeed Rend increases by 40%."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of Signature Move - Auxiliary Precision Slash and Signature Move - Endless Eclipse increases by 40%. "
         }
       ]
     }

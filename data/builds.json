@@ -30,7 +30,7 @@
       {
         "set_name": "4 Da Vinci 2 Philip II",
         "set_type": "Main Support",
-        "usage": "Main QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Recommended for all ranks", "QTE support set."],
         "memories": ["4x Da Vinci", "2x Philip II"],
@@ -43,7 +43,7 @@
       {
         "set_name": "2 Philip II 2 Voltaire 2 Richelieu",
         "set_type": "Alternative Support",
-        "usage": "Alternative QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Alternate Set",
@@ -66,7 +66,7 @@
       {
         "set_name": "4 Da Vinci 2 Catherine",
         "set_type": "Main Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at all ranks", "General QTE Bot set"],
         "memories": ["4x Da Vinci", "2x Catherine"],
@@ -106,7 +106,7 @@
       {
         "set_name": "4 Da Vinci 2 Guinevere",
         "set_type": "Main Support",
-        "usage": "Main QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
@@ -123,7 +123,7 @@
       {
         "set_name": "4 Guinevere 2 Gloria",
         "set_type": "Alternative Support",
-        "usage": "Alternative QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "QTE Support, used for supporting a solo DPS",
@@ -228,7 +228,7 @@
       {
         "set_name": "4 Da Vinci 2 Philip II",
         "set_type": "Main Support",
-        "usage": "Main QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
         "description": [
           "Requires Leap",
@@ -292,7 +292,7 @@
       {
         "set_name": "4 Da Vinci 2 Einsteina",
         "set_type": "Main Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Recommended for all ranks", "QTE Bot Tank set."],
         "memories": ["4x Da Vinci", "2x Einsteina"],
@@ -305,7 +305,7 @@
       {
         "set_name": "4 Shakespeare 2 Einsteina",
         "set_type": "Alternative Tank",
-        "usage": "Alternative QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Alternate build",
@@ -328,7 +328,7 @@
       {
         "set_name": "4 Da Vinci 2 Einsteina",
         "set_type": "Main Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "QTE Bot Tank Set.",
@@ -389,7 +389,7 @@
       {
         "set_name": "4 Da Vinci 2 Catherine",
         "set_type": "Main Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Alternate build", "QTE Bot Tank Set."],
         "memories": ["4x Da Vinci", "2x Catherine"],
@@ -429,7 +429,7 @@
       {
         "set_name": "4 Da Vinci 2 Catherine",
         "set_type": "Main Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["QTE Bot Tank Set.", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Catherine"],
@@ -469,7 +469,7 @@
       {
         "set_name": "4 Da Vinci 2 Guinevere",
         "set_type": "Main Support",
-        "usage": "Main QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["General QTE Support Set.", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Guinevere"],
@@ -489,7 +489,7 @@
       {
         "set_name": "4 Da Vinci 2 Einsteina",
         "set_type": "Main Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Tank QTE Bot Set", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Einsteina"],
@@ -529,7 +529,7 @@
       {
         "set_name": "4 Da Vinci 2 Guinevere",
         "set_type": "Main Support",
-        "usage": "Main QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["QTE support set", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Guinevere"],
@@ -586,7 +586,8 @@
         "game_modes": "Pain Cage",
         "description": [
           "Only used in Pain Cage.",
-          "Requires SSS Stigmata or higher"
+          "Requires SSS Stigmata or higher",
+          "Niche PPC set"
         ],
         "memories": ["4x Da Vinci", "2x Catherine"],
         "memory_resonance": [
@@ -605,7 +606,7 @@
       {
         "set_name": "4 Da Vinci 2 Einsteina",
         "set_type": "Main Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at all ranks", "General tank set"],
         "memories": ["4x Da Vinci", "2x Einsteina"],
@@ -700,7 +701,7 @@
       {
         "set_name": "4 Da Vinci 2 Philip II",
         "set_type": "Main Support",
-        "usage": "Main QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "General QTE Support Set.",
@@ -745,7 +746,7 @@
       {
         "set_name": "4 Da Vinci 2 Guinevere",
         "set_type": "Main Support",
-        "usage": "Main QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["General QTE Bot set", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Guinevere"],
@@ -758,7 +759,7 @@
       {
         "set_name": "2 Guinevere, 2 Gloria, 2 Samantha",
         "set_type": "Alternative Support",
-        "usage": "Alternative QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Alternate Set",
@@ -802,7 +803,7 @@
       {
         "set_name": "4 Da Vinci 2 Einsteina",
         "set_type": "Main Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at all ranks", "General tank set"],
         "memories": ["4x Da Vinci", "2x Einsteina"],
@@ -822,7 +823,7 @@
       {
         "set_name": "4 Da Vinci 2 Einsteina",
         "set_type": "Main Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at all ranks", "General tank set"],
         "memories": ["4x Da Vinci", "2x Einsteina"],
@@ -835,7 +836,7 @@
       {
         "set_name": "4 Bathlon 2 Einstina",
         "set_type": "Alternative Tank",
-        "usage": "Alternative QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Alternate Set",
@@ -875,7 +876,7 @@
       {
         "set_name": "4 Da Vinci 2 Einsteina",
         "set_type": "Pain Cage",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "Pain Cage",
         "description": [
           "Used in PPC only",
@@ -1086,7 +1087,7 @@
       {
         "set_name": "4 Da Vinci 2 Einsteina",
         "set_type": "Alternative Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "QTE Bot Tank Set",
@@ -1134,8 +1135,8 @@
     "builds": [
       {
         "set_name": "4 Boone 2 Einsteina",
-        "set_type": "Main DPS",
-        "usage": "Main DPS",
+        "set_type": "Main Tank",
+        "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Main DPS Set"],
         "memories": ["4x Boone", "2x Einsteina"],
@@ -1148,9 +1149,9 @@
       {
         "set_name": "4 Boone 4 Bathlon",
         "set_type": "Main Harmony",
-        "usage": "Main Harmony Tank/DPS",
-        "game_modes": "High Difficulty, Warzone, Clash Reflection, Story Mode, Dailies",
-        "description": ["Used at SS3 or higher", "Requires Harmony"],
+        "usage": "Main Harmony Tank/Sub-DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": ["Requires Harmony"],
         "memories": ["4x Boone", "2x Bathlon"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1196,7 +1197,7 @@
       {
         "set_name": "4 Da Vinci 2 Einsteina",
         "set_type": "Alternative Tank",
-        "usage": "Main QTE Tank",
+        "usage": "QTE Tank Support",
         "game_modes": "Pain Cage",
         "description": ["PPC QTE support set", "For all ranks", "No Harmo"],
         "memories": ["4x Da Vinci", "2x Einsteina"],
@@ -1474,7 +1475,7 @@
       {
         "set_name": "4 Da Vinci 2 Philip II",
         "set_type": "Main Support",
-        "usage": "Main QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "General QTE Support set. Use Catherine instead of Philip if using on Kowloong Team."
@@ -1543,7 +1544,7 @@
       {
         "set_name": "4 Da Vinci 2 Guinevere",
         "set_type": "Main Support",
-        "usage": "Main QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["QTE Bot Set"],
         "memories": ["4x Da Vinci", "2x Guinevere"],
@@ -1556,7 +1557,7 @@
       {
         "set_name": "4 Guinevere 2 Gloria/Lantern Festival",
         "set_type": "Alternative Support",
-        "usage": "Alternative QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "QTE Bot Set",
@@ -1802,7 +1803,7 @@
   "shukra": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946> Qu",
     "frame_name": "Shukra",
-    "set_list": ["4 Ji Bo'an 4 Chen Jiyuan"],
+    "set_list": ["4 Ji Bo'an 4 Chen Jiyuan", "4 Ji Bo'an 2 Darwin"],
     "builds": [
       {
         "set_name": "4 Ji Bo'an 4 Chen Jiyuan",
@@ -1820,6 +1821,23 @@
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "Chen Jiyuan"
+      },
+      {
+        "set_name": "4 Ji Bo'an 2 Darwin",
+        "set_type": "Alternative DPS",
+        "usage": "Alternative DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "Recommended for all ranks",
+          "Alternative DPS Set for non-harmo.",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Ji Bo'an", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "None"
       }
     ]
   },
@@ -1831,7 +1849,7 @@
       {
         "set_name": "4 Da Vinci 2 Guinevere",
         "set_type": "Main Support",
-        "usage": "Main QTE Support",
+        "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "QTE support set",
@@ -1889,78 +1907,230 @@
   "ardeo": {
     "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096> Bridget",
     "frame_name": "Ardeo",
-    "set_list": ["Placeholder"],
+    "set_list": ["4 Shakespeare 2 Einsteina", "4 Shakespeare 2 Elizabeth"],
     "builds": [
       {
-        "set_name": "Placeholder",
-        "set_type": "Placeholder",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "set_name": "4 Shakespeare 2 Einsteina",
+        "set_type": "Main Tank",
+        "usage": "Main Tank/Sub-DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "Recommended for all ranks",
+          "General Tank set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Shakespeare", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Passive"
+        ],
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "4 Shakespeare 2 Elizabeth",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
           "General DPS set",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["N/A"],
-        "memory_resonance": ["Top Slot   : N/A", "Bottom Slot: N/A"],
-        "harmony_rec": "N/A"
+        "memories": ["4x Shakespeare", "2x Elizabeth"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "None"
       }
     ]
   },
   "solacetune": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Hanying",
     "frame_name": "Solacetune",
-    "set_list": ["Placeholder"],
+    "set_list": ["4 Changwuzi 2 Patton"],
     "builds": [
       {
-        "set_name": "Placeholder",
-        "set_type": "Placeholder",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "set_name": "4 Changwuzi 2 Patton",
+        "set_type": "Main Tank",
+        "usage": "Main Tank/Sub-DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
-          "General DPS set",
+          "General Tank set",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["N/A"],
-        "memory_resonance": ["Top Slot   : N/A", "Bottom Slot: N/A"],
-        "harmony_rec": "N/A"
+        "memories": ["4x Changwuzi", "2x Patton"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core Passive"
+        ],
+        "harmony_rec": "Patton"
       }
     ]
   },
   "lucid dreamer": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> Wanshi",
     "frame_name": "Lucid Dreamer",
-    "set_list": ["Placeholder"],
+    "set_list": [
+      "4 Liston 2 Einsteina",
+      "4 Liston 4 Chen Jiyuan",
+      "4 Da Vinci 2 Einsteina",
+      "4 Da Vinci 4 Chen Jiyuan"
+    ],
     "builds": [
       {
-        "set_name": "Placeholder",
-        "set_type": "Placeholder",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "set_name": "4 Liston 2 Einsteina",
+        "set_type": "Main Tank",
+        "usage": "Main Tank/Sub-DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
-          "General DPS set",
+          "General Tank/Sub-DPS set",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["N/A"],
-        "memory_resonance": ["Top Slot   : N/A", "Bottom Slot: N/A"],
-        "harmony_rec": "N/A"
+        "memories": ["4x Liston", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "4 Liston 4 Chen Jiyuan",
+        "set_type": "Harmony Tank",
+        "usage": "Harmony Tank/Sub-DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "Recommended for all ranks",
+          "Harmony Set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Liston", "2x Chen Jiyuan"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Chen Jiyuan"
+      },
+      {
+        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_type": "Pain Cage",
+        "usage": "Pain Cage",
+        "game_modes": "Pain Cage",
+        "description": [
+          "Recommended for all ranks",
+          "QTE support set for solo Qu:Shukra DPS in Pain Cage without swapping.",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Passive"
+        ],
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "4 Da Vinci 4 Chen Jiyuan",
+        "set_type": "Harmony Pain Cage",
+        "usage": "Harmony Pain Cage",
+        "game_modes": "Pain Cage",
+        "description": [
+          "Recommended for all ranks",
+          "Harmony QTE tank support set.",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Da Vinci", "2x Chen Jiyuan"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Passive"
+        ],
+        "harmony_rec": "Chen Jiyuan"
       }
     ]
   },
   "pyroath": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lucia",
     "frame_name": "Pyroath",
-    "set_list": ["Placeholder"],
+    "set_list": ["4 Heraclitus 2 Cottie Normal", "4 Heraclitus 2 Cottie Affix"],
     "builds": [
       {
-        "set_name": "Placeholder",
-        "set_type": "Placeholder",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "set_name": "4 Heraclitus 2 Cottie Normal",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "S0-SS3 rank will take 6x Basic Atk for the top resonance slots and 6x Signature for the bottom resonance slots. SSS rank and higher will replace the top resonance slot with 6x ATK+15.",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Heraclitus", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Basic Atk",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "4 Heraclitus 2 Cottie Affix",
+        "set_type": "Ionization Affix",
+        "usage": "Ionization Affix Warzone Main DPS",
+        "game_modes": "Onslaught Pain Cage, Affix Warzone",
+        "description": [
+          "Recommended for all ranks",
+          "This set will only be used for affix content with the ionization affix enabled.",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Heraclitus", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Basic Atk",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Wilde"
+      }
+    ]
+  },
+  "fulgor": {
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Yata",
+    "frame_name": "Fulgor",
+    "set_list": ["4 Heisen 2 Tifa"],
+    "builds": [
+      {
+        "set_name": "4 Heisen 2 Tifa",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
           "General DPS set",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["N/A"],
+        "memories": ["4x Heisen", "2x Tifa"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "None"
+      }
+    ]
+  },
+  "startrail": {
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056> Nanami",
+    "frame_name": "Startrail",
+    "set_list": ["Placeholder"],
+    "builds": [
+      {
+        "set_name": "Placeholder",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["N/A", "N/A"],
         "memory_resonance": ["Top Slot   : N/A", "Bottom Slot: N/A"],
         "harmony_rec": "N/A"
       }
