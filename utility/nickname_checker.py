@@ -528,7 +528,7 @@ def character_theme(nickname):
             name = "Luna: Laurel"
             colour = 0xe5e4e3
             chibi_portrait = "https://assets.huaxu.app/glb/image/role/roleheadluna3q.webp"
-            thumbnail_url = "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluna2.webp",
+            thumbnail_url = "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluna2.webp"
         case "2b":
             name = "2B: 2B"
             colour = 0x222222
