@@ -278,12 +278,12 @@ def check_nickname(nickname, caller):
         case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph":
             character = "epitaph"
             weapon = "night falcon"
-            cub = "n/a"
+            cub = "shadow wing"
             memory = "alphonse"
         case "shukra":
             character = "shukra"
             weapon = "dwelling will of inscription's key"
-            cub = ""
+            cub = "huiyu"
             memory = ""
         case "teddy" | "decryptor":
             character = "decryptor"
@@ -293,7 +293,7 @@ def check_nickname(nickname, caller):
         case "oblivion" | "void luna":
             character = "oblivion"
             weapon = "reconstruction of law"
-            cub = ""
+            cub = "su e"
             memory = ""
         case "bridget" | "ardeo":
             character = "ardeo"
@@ -303,17 +303,17 @@ def check_nickname(nickname, caller):
         case "solacetune" | "yor" | "yor forger":
             character = "solacetune"
             weapon = "dreamer roamer"
-            cub = ""
+            cub = "mei wu"
             memory = ""
         case "lucid dreamer":
             character = "lucid dreamer"
             weapon = "hemera's gaze"
-            cub = ""
+            cub = "rui xue"
             memory = ""
         case "pyroath" | "hyperdawn":
             character = "pyroath"
             weapon = "dawn's flaming feathers"
-            cub = ""
+            cub = "yi kong"
             memory = ""
         case "fulgor" | "yata" | "tomboy":
             character = "fulgor"
