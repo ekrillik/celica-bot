@@ -39,9 +39,9 @@ class DropdownView(discord.ui.View):
         selection = self.choose_build(self.build['builds'], self.data[0]['name'])    
         if self.multibuild == True:
             self.add_item(self.menu)
+        self.add_item(self.clear_button)
         if 'infographic' in selection:
             self.add_item(self.image_view)
-        self.add_item(self.clear_button)
         self.embedconf = EmbedClass()
 
     def choose_build(self, build_array, choice):
