@@ -27,19 +27,19 @@ class Builds(commands.Cog):
     async def on_ready(self):
         print('Builds loaded.')
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays the build notation diagram to explain the community used build notation.")
     async def buildnotation(self, ctx: commands.Context):
         embed = discord.Embed(title="", description="")
         embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/cnnotationguide4.png')
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(aliases=["affix"])
+    @commands.hybrid_command(aliases=["affix"], description="Displays the affix diagram created by Ko used to explain PGR affixes.")
     async def affixguide(self, ctx: commands.Context):
         embed = discord.Embed(title="", description="")
         embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Affix+Infographic.jpg')
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays a set of builds for any particular character.")
     async def build(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
 

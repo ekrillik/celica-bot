@@ -18,7 +18,7 @@ class CharacterList(commands.Cog):
     async def on_ready(self):
         print('CharacterList loaded.')
 
-    @commands.hybrid_command(aliases=['chl'])
+    @commands.hybrid_command(aliases=['chl'], description="Displays a comprehensive list of all existing characters and their frames.")
     async def characterlist(self, ctx: commands.Context) -> None:
         view = PaginationView(ctx.author, data=self.construct_list, pagination_type="characters")
 

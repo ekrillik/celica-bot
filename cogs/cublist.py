@@ -18,7 +18,7 @@ class CUBList(commands.Cog):
     async def on_ready(self):
         print('CUBList loaded.')
 
-    @commands.hybrid_command(aliases=['cbl'])
+    @commands.hybrid_command(aliases=['cbl'], description="Displays a comprehensive list of all existing CUBs.")
     async def cublist(self, ctx: commands.Context) -> None:
         embed = self.embedconf.create_cublist_embed(cubs=self.cubs)
         await ctx.send(embed=embed)

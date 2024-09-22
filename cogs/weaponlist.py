@@ -19,7 +19,7 @@ class WeaponList(commands.Cog):
     async def on_ready(self):
         print('WeaponList loaded.')
 
-    @commands.hybrid_command(aliases=['wl'])
+    @commands.hybrid_command(aliases=['wl'], description="Displays all lists of weapons based on a particular type.")
     async def weaponlist(self, ctx: commands.Context) -> None:
         weplistview = WeaponListPaginationView(ctx.author, data=self.categories)
 

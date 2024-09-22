@@ -34,7 +34,7 @@ class Fun(commands.Cog):
     async def on_ready(self):
         print('Fun loaded.')
 
-    @commands.command()
+    @commands.hybrid_command(description="Test command for restricting commands to specific servers.")
     async def fun(self, ctx: commands.Context) -> None:
         if ctx.guild.id in self.disallowed_server_ids:
             return
@@ -42,7 +42,7 @@ class Fun(commands.Cog):
         embed = discord.Embed(title="This is a fun command.", description="This is a fun command description")
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays a random pasta. Has a 5s cd. Shares the cd timer with ?brick")
     async def pasta(self, ctx: commands.Context) -> None:
         if ctx.guild.id not in self.allowed_server_ids:
             return
@@ -60,7 +60,7 @@ class Fun(commands.Cog):
         else:
             await ctx.send(content="A pasta or brick has been spawned recently. Please wait.")
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Lists all currently playing dalaos in a comprehensive list.")
     async def dalaos(self, ctx: commands.Context) -> None:
         if ctx.guild.id in self.disallowed_server_ids:
             return
@@ -73,7 +73,7 @@ class Fun(commands.Cog):
         embed.add_field(name="Warzone", value=f"[sNazz](https://www.youtube.com/@sNazzkun)\n[Empress](https://www.youtube.com/@Oksohee)\n[Setsu](https://www.youtube.com/@Setsugekwa)")
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(aliases=['bubble'])
+    @commands.hybrid_command(aliases=['bubble'], description="Spawns some bubble wrap. Has a 30s cd upon each spawn.")
     async def bubblewrap(self, ctx: commands.Context) -> None:
         if ctx.guild.id not in self.allowed_server_ids:
             return
@@ -94,7 +94,7 @@ class Fun(commands.Cog):
         embed.add_field(name="", value=bubble_wrap)
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(aliases=['brick'])
+    @commands.hybrid_command(aliases=['brick'], description="Spawns some bubble wrap. Has a 5s cd. Shares the cd timer with ?pasta")
     async def brickistan(self, ctx: commands.Context) -> None:
         if ctx.guild.id not in self.allowed_server_ids:
             return

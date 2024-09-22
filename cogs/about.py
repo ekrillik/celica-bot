@@ -18,12 +18,12 @@ class About(commands.Cog):
     async def on_ready(self):
         print('About loaded.')
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays basic information about Celica.")
     async def about(self, ctx: commands.Context[commands.Bot]):
         embed = self.embedconf.create_about_embed()
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays the names of people who contributed to Celica's development.")
     async def credits(self, ctx: commands.Context[commands.Bot]):
         embed = self.embedconf.credits_embed(credits=self.credits[0], cur_page=0, max_len=len(self.credits))
         view = PaginationView(ctx.author, data=self.credits, pagination_type="credits")

@@ -89,7 +89,7 @@ class Skills(commands.Cog):
     async def on_ready(self):
         print('Skills loaded.')
 
-    @commands.hybrid_command(aliases=["skills"])
+    @commands.hybrid_command(aliases=["skills"], description="Displays a skill menu for a particular character.")
     async def skill(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
 
@@ -100,72 +100,72 @@ class Skills(commands.Cog):
         view = SkillsView(ctx.author, skills=skills, theme=theme)
         view.message = await ctx.send(embed=embed, view=view)
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays the basic attack skill for a particular character.")
     async def basic(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'basic')
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays the red orb skill for a particular character.")
     async def red(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'red')
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays the yellow orb skill for a particular character.")
     async def yellow(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'yellow')
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays the blue orb skill for a particular character.")
     async def blue(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'blue')
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays the core passive skill for a particular character.")
     async def core(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'core')
 
-    @commands.hybrid_command(aliases=['ult', 'ultimate'])
+    @commands.hybrid_command(aliases=['ult', 'ultimate'], description="Displays the signature skill/ultimate for a particular character.")
     async def signature(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'signature')
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays the QTE skill for a particular character.")
     async def qte(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'qte')
 
-    @commands.hybrid_command()
+    @commands.hybrid_command(description="Displays the leader passive skill for a particular character.")
     async def leader(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'leader')
 
-    @commands.hybrid_command(name="class")
+    @commands.hybrid_command(name="class", description="Displays the class passive skill for a particular character.")
     async def class_passive(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'class')
 
-    @commands.hybrid_command(aliases=["SS", "2S", "2s", "s5", "S5"])
+    @commands.hybrid_command(aliases=["SS", "2S", "2s", "s5", "S5"], description="Displays the SS rank skills for a particular character.")
     async def ss(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'ss')
 
-    @commands.hybrid_command(aliases=["SSS", "3S", "3s", "SS3", "ss3"])
+    @commands.hybrid_command(aliases=["SSS", "3S", "3s", "SS3", "ss3"], description="Displays the SSS rank skills for a particular character.")
     async def sss(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'sss')
 
-    @commands.hybrid_command(name="splus", aliases=["s+", "SSS+", "S+", "3S+", "3s+"])
+    @commands.hybrid_command(name="splus", aliases=["s+", "SSS+", "S+", "3S+", "3s+"], description="Displays the S+ rank skills for a particular character.")
     async def splus(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 's+')
 
-    @commands.hybrid_command(aliases=["Leap"])
+    @commands.hybrid_command(aliases=["Leap"], description="Displays the leap skills for a particular character.")
     async def leap(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'leap')
 
-    @commands.hybrid_command(aliases=['ll'])
+    @commands.hybrid_command(aliases=['ll'], description="Displays a list of existing characters with leap skills.")
     async def leaplist(self, ctx: commands.Context) -> None:
         with open('data/leaplist.json') as file:
             parsed_json = json.load(file)

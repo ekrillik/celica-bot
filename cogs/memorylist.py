@@ -21,7 +21,7 @@ class MemoryList(commands.Cog):
     async def on_ready(self):
         print('MemoryList loaded.')
 
-    @commands.hybrid_command(aliases=['ml'])
+    @commands.hybrid_command(aliases=['ml'], description="Displays a comprehensive list of existing memories.")
     async def memorylist(self, ctx: commands.Context) -> None:
         view = PaginationView(ctx.author, data=self.memory_list, pagination_type="memories")
         embed = self.embedconf.create_list_embed(name="Memories", type="memories", items=self.memory_list[0])
