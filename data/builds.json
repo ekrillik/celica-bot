@@ -2,10 +2,10 @@
   "lotus": {
     "unit_name": "<:B_:1283759795232571485><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lucia",
     "frame_name": "Lotus",
-    "set_list": ["4 Patton 2 Signa"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Patton 2 Signa" }],
     "builds": [
       {
-        "set_name": "4 Patton 2 Signa",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -23,12 +23,15 @@
     "unit_name": "<:B_:1283759795232571485><:support:1283760217540132905><:physical_element:1283760180386861096> Liv",
     "frame_name": "Eclipse",
     "set_list": [
-      "4 Da Vinci 2 Philip II",
-      "2 Philip II 2 Voltaire 2 Richelieu"
+      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Philip II" },
+      {
+        "name": "Alternative Support Set",
+        "memos": "2 Philip II 2 Voltaire 2 Richelieu"
+      }
     ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Philip II",
+        "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -41,7 +44,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "2 Philip II 2 Voltaire 2 Richelieu",
+        "set_name": "Alternative Support Set",
         "set_type": "Alternative Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -61,10 +64,12 @@
   "storm": {
     "unit_name": "<:B_:1283759795232571485><:tank:1283760248980770889><:physical_element:1283760180386861096> Nanami",
     "frame_name": "Storm",
-    "set_list": ["4 Da Vinci 2 Catherine"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Catherine" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Catherine",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -81,10 +86,10 @@
   "dawn": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Lucia",
     "frame_name": "Dawn",
-    "set_list": ["4 Heisen 2 Darwin"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Heisen 2 Darwin" }],
     "builds": [
       {
-        "set_name": "4 Heisen 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -101,10 +106,13 @@
   "lux": {
     "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:lightning_element:1283760149755990056> Liv",
     "frame_name": "Lux",
-    "set_list": ["4 Da Vinci 2 Guinevere", "4 Guinevere 2 Gloria"],
+    "set_list": [
+      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" },
+      { "name": "Alternative Support Set", "memos": "4 Guinevere 2 Gloria" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -121,7 +129,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Guinevere 2 Gloria",
+        "set_name": "Alternative Support Set",
         "set_type": "Alternative Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -143,10 +151,10 @@
   "palefire": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lee",
     "frame_name": "Palefire",
-    "set_list": ["4 Shakespeare 2 Darwin"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Shakespeare 2 Darwin" }],
     "builds": [
       {
-        "set_name": "4 Shakespeare 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -163,10 +171,10 @@
   "nightblade": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> Watanabe",
     "frame_name": "Nightblade",
-    "set_list": ["4 Patton 2 Darwin"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Patton 2 Darwin" }],
     "builds": [
       {
-        "set_name": "4 Patton 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -183,10 +191,10 @@
   "zero": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> Bianca",
     "frame_name": "Zero",
-    "set_list": ["4 Patton 2 Darwin"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Patton 2 Darwin" }],
     "builds": [
       {
-        "set_name": "4 Patton 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -203,10 +211,10 @@
   "blast": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> Karenina",
     "frame_name": "Blast",
-    "set_list": ["4 Hanna 2 Darwin"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" }],
     "builds": [
       {
-        "set_name": "4 Hanna 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -223,10 +231,12 @@
   "luminance": {
     "unit_name": "<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096> Liv",
     "frame_name": "Luminance",
-    "set_list": ["4 Da Vinci 2 Philip II"],
+    "set_list": [
+      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Philip II" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Philip II",
+        "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
@@ -247,10 +257,10 @@
   "entropy": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Lee",
     "frame_name": "Entropy",
-    "set_list": ["4 Patton 2 Darwin"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Patton 2 Darwin" }],
     "builds": [
       {
-        "set_name": "4 Patton 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -267,10 +277,10 @@
   "ember": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Karenina",
     "frame_name": "Ember",
-    "set_list": ["4 Hanna 2 Darwin"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" }],
     "builds": [
       {
-        "set_name": "4 Hanna 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -287,10 +297,13 @@
   "pulse": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096> Nanami",
     "frame_name": "Pulse",
-    "set_list": ["4 Da Vinci 2 Einsteina", "4 Shakespeare 2 Einsteina"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
+      { "name": "Alternative Tank Set", "memos": "4 Shakespeare 2 Einsteina" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -303,7 +316,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Shakespeare 2 Einsteina",
+        "set_name": "Alternative Tank Set",
         "set_type": "Alternative Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -323,10 +336,12 @@
   "tenebrion": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Kamui",
     "frame_name": "Tenebrion",
-    "set_list": ["4 Da Vinci 2 Einsteina"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -347,10 +362,10 @@
   "crimson abyss": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Lucia",
     "frame_name": "Crimson Abyss",
-    "set_list": ["4 Frederick 2 Darwin"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Frederick 2 Darwin" }],
     "builds": [
       {
-        "set_name": "4 Frederick 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -371,10 +386,13 @@
   "bastion": {
     "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096> Kamui",
     "frame_name": "Bastion",
-    "set_list": ["4 Hanna 2 Darwin", "4 Da Vinci 2 Catherine"],
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" },
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Catherine" }
+    ],
     "builds": [
       {
-        "set_name": "4 Hanna 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -387,7 +405,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Da Vinci 2 Catherine",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -404,10 +422,10 @@
   "astral": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:dark_element:1283760052225835051> Watanabe",
     "frame_name": "Astral",
-    "set_list": ["4 Bathlon 2 Cottie"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Bathlon 2 Cottie" }],
     "builds": [
       {
-        "set_name": "4 Bathlon 2 Cottie",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -424,10 +442,12 @@
   "brilliance": {
     "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096> Ayla",
     "frame_name": "Brilliance",
-    "set_list": ["4 Da Vinci 2 Catherine"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Catherine" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Catherine",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -444,10 +464,10 @@
   "veritas": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Bianca",
     "frame_name": "Veritas",
-    "set_list": ["4 Heisen 2 Frederick"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Heisen 2 Frederick" }],
     "builds": [
       {
-        "set_name": "4 Heisen 2 Frederick",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -464,10 +484,12 @@
   "silverfang": {
     "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:fire_element:1283760089119064096> Sophia",
     "frame_name": "Silverfang",
-    "set_list": ["4 Da Vinci 2 Guinevere"],
+    "set_list": [
+      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -484,10 +506,12 @@
   "arclight": {
     "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:lightning_element:1283760149755990056> Chrome",
     "frame_name": "Arclight",
-    "set_list": ["4 Da Vinci 2 Einsteina"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -504,10 +528,10 @@
   "plume": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946> Lucia",
     "frame_name": "Plume",
-    "set_list": ["4 Hanna 2 Darwin"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" }],
     "builds": [
       {
-        "set_name": "4 Hanna 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -524,10 +548,12 @@
   "rozen": {
     "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051> Vera",
     "frame_name": "Rozen",
-    "set_list": ["4 Da Vinci 2 Guinevere"],
+    "set_list": [
+      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -544,10 +570,10 @@
   "crocotta": {
     "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:dark_element:1283760052225835051> Camu",
     "frame_name": "Crocotta",
-    "set_list": ["6 Koya"],
+    "set_list": [{ "name": "Uniframe Set", "memos": "6 Koya" }],
     "builds": [
       {
-        "set_name": "6 Koya",
+        "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -564,10 +590,13 @@
   "rigor": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Rosetta",
     "frame_name": "Rigor",
-    "set_list": ["4 Leeuwenhoek 2 Catherine", "4 Da Vinci 2 Catherine"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Leeuwenhoek 2 Catherine" },
+      { "name": "Pain Cage Speed Kill Set", "memos": "4 Da Vinci 2 Catherine" }
+    ],
     "builds": [
       {
-        "set_name": "4 Leeuwenhoek 2 Catherine",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -580,7 +609,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Da Vinci 2 Catherine",
+        "set_name": "Pain Cage Speed Kill Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
@@ -601,10 +630,12 @@
   "qilin": {
     "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:ice_element:1283760120270032946> Changyu",
     "frame_name": "Qilin",
-    "set_list": ["4 Da Vinci 2 Einsteina"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -621,10 +652,10 @@
   "pavo": {
     "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096> Qu",
     "frame_name": "Pavo",
-    "set_list": ["6 Wu'an"],
+    "set_list": [{ "name": "Uniframe Set", "memos": "6 Wu'an" }],
     "builds": [
       {
-        "set_name": "6 Wu'an",
+        "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -641,10 +672,10 @@
   "laurel": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051> Luna",
     "frame_name": "Laurel",
-    "set_list": ["4 Flamel 2 Darwin"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Flamel 2 Darwin" }],
     "builds": [
       {
-        "set_name": "4 Flamel 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -661,10 +692,13 @@
   "2b": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> 2B",
     "frame_name": "2B",
-    "set_list": ["4 Cottie 2 Darwin", "4 Patton 2 Cottie"],
+    "set_list": [
+      { "name": "Main DPS SSS Set", "memos": "4 Cottie 2 Darwin" },
+      { "name": "Main DPS SS Set", "memos": "4 Patton 2 Cottie" }
+    ],
     "builds": [
       {
-        "set_name": "4 Cottie 2 Darwin",
+        "set_name": "Main DPS SSS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -677,9 +711,9 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Patton 2 Cottie",
-        "set_type": "Main",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "set_name": "Main DPS SS Set",
+        "set_type": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "General DPS/sub-DPS set",
           "Recommended for SS and below"
@@ -696,10 +730,12 @@
   "9s": {
     "unit_name": "<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096> 9S",
     "frame_name": "9S",
-    "set_list": ["4 Da Vinci 2 Philip II"],
+    "set_list": [
+      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Philip II" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Philip II",
+        "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -719,10 +755,10 @@
   "a2": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> A2",
     "frame_name": "A2",
-    "set_list": ["4 Patton 2 Catherine"],
+    "set_list": [{ "name": "Main Tank Set", "memos": "4 Patton 2 Catherine" }],
     "builds": [
       {
-        "set_name": "4 Patton 2 Catherine",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -741,10 +777,16 @@
   "hypnos": {
     "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:ice_element:1283760120270032946> Wanshi",
     "frame_name": "Hypnos",
-    "set_list": ["4 Da Vinci 2 Guinevere", "2 Guinevere, 2 Gloria, 2 Samantha"],
+    "set_list": [
+      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" },
+      {
+        "name": "Alternative Support Set",
+        "memos": "2 Guinevere, 2 Gloria, 2 Samantha"
+      }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -757,7 +799,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "2 Guinevere, 2 Gloria, 2 Samantha",
+        "set_name": "Alternative Support Set",
         "set_type": "Alternative Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -778,10 +820,10 @@
   "tempest": {
     "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056> Selena",
     "frame_name": "Tempest",
-    "set_list": ["6 Lucrezia"],
+    "set_list": [{ "name": "Uniframe Set", "memos": "6 Lucrezia" }],
     "builds": [
       {
-        "set_name": "6 Lucrezia",
+        "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -798,10 +840,12 @@
   "glory": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> Chrome",
     "frame_name": "Glory",
-    "set_list": ["4 Da Vinci 2 Einsteina"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -818,10 +862,13 @@
   "xxi": {
     "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:dark_element:1283760052225835051> No. 21",
     "frame_name": "XXI",
-    "set_list": ["4 Da Vinci 2 Einsteina", "4 Bathlon 2 Einstina"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
+      { "name": "Alternative Tank Set", "memos": "4 Bathlon 2 Einstina" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -834,7 +881,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Bathlon 2 Einstina",
+        "set_name": "Alternative Tank Set",
         "set_type": "Alternative Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -855,13 +902,13 @@
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056> Vera",
     "frame_name": "Garnet",
     "set_list": [
-      "4 Tifa 2 Einsteina",
-      "4 Da Vinci 2 Einsteina",
-      "4 Tifa 4 Heisen"
+      { "name": "Main Tank Set", "memos": "4 Tifa 2 Einsteina" },
+      { "name": "QTE Tank Support Set", "memos": "4 Da Vinci 2 Einsteina" },
+      { "name": "Harmony Set", "memos": "4 Tifa 4 Heisen" }
     ],
     "builds": [
       {
-        "set_name": "4 Tifa 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -874,7 +921,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_name": "QTE Tank Support Set",
         "set_type": "Pain Cage",
         "usage": "QTE Tank Support",
         "game_modes": "Pain Cage",
@@ -891,7 +938,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Tifa 4 Heisen",
+        "set_name": "Harmony Set",
         "set_type": "Harmony",
         "usage": "Harmony Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -912,10 +959,10 @@
   "flambeau": {
     "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:fire_element:1283760089119064096> Roland",
     "frame_name": "Flambeau",
-    "set_list": ["6 Jack"],
+    "set_list": [{ "name": "Uniframe Set", "memos": "6 Jack" }],
     "builds": [
       {
-        "set_name": "6 Jack",
+        "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -933,13 +980,17 @@
     "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:fire_element:1283760089119064096> Liv",
     "frame_name": "Empyrea",
     "set_list": [
-      "4 Elizabeth 2 Cottie",
-      "4 Da Vinci 2 Guinevere",
-      "4 Guinevere 2 Gloria"
+      { "name": "Main DPS Set", "memos": "4 Elizabeth 2 Cottie" },
+      {
+        "name": "Harmony Support Sub-DPS Set",
+        "memos": "4 Da Vinci 2 Guinevere"
+      },
+      { "name": "Main Pain Cage Set", "memos": "4 Da Vinci 2 Guinevere" },
+      { "name": "Alternative Pain Cage Set", "memos": "4 Guinevere 2 Gloria" }
     ],
     "builds": [
       {
-        "set_name": "4 Elizabeth 2 Cottie",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -952,7 +1003,7 @@
         "harmony_rec": "Darwin"
       },
       {
-        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_name": "Harmony Support Sub-DPS Set",
         "set_type": "Harmony",
         "usage": "Harmony Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -969,7 +1020,7 @@
         "harmony_rec": "Einsteina"
       },
       {
-        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_name": "Main Pain Cage Set",
         "set_type": "Main Pain Cage",
         "usage": "Pain Cage",
         "game_modes": "Pain Cage",
@@ -985,7 +1036,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Guinevere 2 Gloria",
+        "set_name": "4 Guinevere 2 Gloria Set",
         "set_type": "Alternative Pain Cage",
         "usage": "Pain Cage",
         "game_modes": "Pain Cage",
@@ -1008,10 +1059,16 @@
   "capriccio": {
     "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:dark_element:1283760052225835051> Selena",
     "frame_name": "Capriccio",
-    "set_list": ["4 Seraphine 2 Cottie", "4 Seraphine 2 Guinevere"],
+    "set_list": [
+      { "name": "Main Support Sub-DPS Set", "memos": "4 Seraphine 2 Cottie" },
+      {
+        "name": "Alternative Support Sub-DPS Set",
+        "memos": "4 Seraphine 2 Guinevere"
+      }
+    ],
     "builds": [
       {
-        "set_name": "4 Seraphine 2 Cottie",
+        "set_name": "Main Support Sub-DPS Set",
         "set_type": "Main Support",
         "usage": "Main Support Sub-DPS",
         "game_modes": "High Difficulty, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1027,7 +1084,7 @@
         "harmony_rec": "Einsteina"
       },
       {
-        "set_name": "4 Seraphine 2 Guinevere",
+        "set_name": "Alternative Support Sub-DPS Set",
         "set_type": "Alternative Support",
         "usage": "Alternative Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1049,10 +1106,10 @@
   "dragontoll": {
     "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096> Pulao",
     "frame_name": "Dragontoll",
-    "set_list": ["6 Marco"],
+    "set_list": [{ "name": "Uniframe Set", "memos": "6 Marco" }],
     "builds": [
       {
-        "set_name": "6 Marco",
+        "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1069,10 +1126,13 @@
   "starfarer": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096> Nanami",
     "frame_name": "Starfarer",
-    "set_list": ["4 Unimate 2 Einsteina", "4 Da Vinci 2 Einsteina"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Unimate 2 Einsteina" },
+      { "name": "Alternative Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
+    ],
     "builds": [
       {
-        "set_name": "4 Unimate 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1085,7 +1145,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_name": "Alternative Tank Set",
         "set_type": "Alternative Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1105,10 +1165,10 @@
   "starveil": {
     "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:ice_element:1283760120270032946> Haicma",
     "frame_name": "Starveil",
-    "set_list": ["6 Isabel"],
+    "set_list": [{ "name": "Uniframe Set", "memos": "6 Isabel" }],
     "builds": [
       {
-        "set_name": "6 Isabel",
+        "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1126,15 +1186,18 @@
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051> Karenina",
     "frame_name": "Scire",
     "set_list": [
-      "4 Boone 2 Einsteina",
-      "4 Boone 4 Bathlon",
-      "4 Da Vinci 4 Bathlon",
-      "4 Boone 2 Condelina",
-      "4 Da Vinci 2 Einsteina"
+      { "name": "Main Tank Set", "memos": "4 Boone 2 Einsteina" },
+      { "name": "Main Harmony Tank/Sub-DPS Set", "memos": "4 Boone 4 Bathlon" },
+      { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Bathlon" },
+      {
+        "name": "Alternative Tank/Sub-DPS Set",
+        "memos": "4 Boone 2 Condelina"
+      },
+      { "name": "Pain Cage QTE Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
     ],
     "builds": [
       {
-        "set_name": "4 Boone 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1147,7 +1210,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Boone 4 Bathlon",
+        "set_name": "Main Harmony Tank/Sub-DPS Set",
         "set_type": "Main Harmony",
         "usage": "Main Harmony Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1160,7 +1223,7 @@
         "harmony_rec": "Bathlon"
       },
       {
-        "set_name": "4 Da Vinci 4 Bathlon",
+        "set_name": "Harmony Pain Cage Set",
         "set_type": "Harmony Pain Cage",
         "usage": "Harmony Pain Cage",
         "game_modes": "Pain Cage",
@@ -1177,7 +1240,7 @@
         "harmony_rec": "Bathlon"
       },
       {
-        "set_name": "4 Boone 2 Condelina",
+        "set_name": "Alternative Tank/Sub-DPS Set",
         "set_type": "Alternative Tank",
         "usage": "Alternative Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1195,7 +1258,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_name": "Pain Cage QTE Tank Set",
         "set_type": "Alternative Tank",
         "usage": "QTE Tank Support",
         "game_modes": "Pain Cage",
@@ -1212,10 +1275,10 @@
   "arca": {
     "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056> Noan",
     "frame_name": "Arca",
-    "set_list": ["6 Shelley"],
+    "set_list": [{ "name": "Uniframe Set", "memos": "6 Shelley" }],
     "builds": [
       {
-        "set_name": "6 Shelley",
+        "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1233,14 +1296,17 @@
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Bianca",
     "frame_name": "Stigmata",
     "set_list": [
-      "4 Charlotte 2 Leeuwenhoek",
-      "4 Charlotte 2 Cottie SS3",
-      "4 Charlotte 2 Darwin",
-      "4 Charlotte 2 Cottie"
+      { "name": "Main DPS Set", "memos": "4 Charlotte 2 Leeuwenhoek" },
+      {
+        "name": "Alternative DPS SS3 Set",
+        "memos": "4 Charlotte 2 Cottie SS3"
+      },
+      { "name": "Pain Cage Speed Kill Set", "memos": "4 Charlotte 2 Darwin" },
+      { "name": "Pain Cage Low Rank Set", "memos": "4 Charlotte 2 Cottie" }
     ],
     "builds": [
       {
-        "set_name": "4 Charlotte 2 Leeuwenhoek",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1253,7 +1319,7 @@
         "harmony_rec": "Signa"
       },
       {
-        "set_name": "4 Charlotte 2 Cottie SS3",
+        "set_name": "Alternative DPS SS3 Set",
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1266,7 +1332,7 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "4 Charlotte 2 Darwin",
+        "set_name": "Pain Cage Speed Kill Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
@@ -1283,7 +1349,7 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "4 Charlotte 2 Cottie",
+        "set_name": "Pain Cage Low Rank Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage",
         "game_modes": "Pain Cage",
@@ -1304,10 +1370,13 @@
   "vitrum": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:ice_element:1283760120270032946> Bambinata",
     "frame_name": "Vitrum",
-    "set_list": ["4 Hanna 2 Darwin", "4 Chen Jiyuan 2 Hanna"],
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" },
+      { "name": "Pain Cage Speed Kill Set", "memos": "4 Chen Jiyuan 2 Hanna" }
+    ],
     "builds": [
       {
-        "set_name": "4 Hanna 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1320,7 +1389,7 @@
         "harmony_rec": "Aline"
       },
       {
-        "set_name": "4 Chen Jiyuan 2 Hanna",
+        "set_name": "Pain Cage Speed Kill Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
@@ -1342,13 +1411,13 @@
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lee",
     "frame_name": "Hyperreal",
     "set_list": [
-      "4 Turing 2 Cottie",
-      "4 Turing 2 Darwin",
-      "4 Turing 4 Shakespeare"
+      { "name": "Main DPS SS Set", "memos": "4 Turing 2 Cottie" },
+      { "name": "Main DPS SS3 Set", "memos": "4 Turing 2 Darwin" },
+      { "name": "Harmony Set", "memos": "4 Turing 4 Shakespeare" }
     ],
     "builds": [
       {
-        "set_name": "4 Turing 2 Cottie",
+        "set_name": "Main DPS SS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BTurning+Cottie%5D.png",
@@ -1362,7 +1431,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Turing 2 Darwin",
+        "set_name": "Main DPS SS3 Set",
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BTuring+Darwin%5D.png",
@@ -1376,7 +1445,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Turing 4 Shakespeare",
+        "set_name": "Harmony Set",
         "set_type": "Harmony",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BShakespeare+harmo%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1393,10 +1462,13 @@
   "kaleido": {
     "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:ice_element:1283760120270032946> Ayla",
     "frame_name": "Kaleido",
-    "set_list": ["4 Aline 2 Darwin", "4 Aline 2 Cottie"],
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "4 Aline 2 Darwin" },
+      { "name": "Alternative DPS Set", "memos": "4 Aline 2 Cottie" }
+    ],
     "builds": [
       {
-        "set_name": "4 Aline 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1409,7 +1481,7 @@
         "harmony_rec": "Chen Jiyuan"
       },
       {
-        "set_name": "4 Aline 2 Cottie",
+        "set_name": "Alternative DPS Set",
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1429,10 +1501,13 @@
   "crimson weave": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Lucia",
     "frame_name": "Crimson Weave",
-    "set_list": ["4 Diesel 2 Cottie", "4 Diesel 4 Frederick"],
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "4 Diesel 2 Cottie" },
+      { "name": "Pain Cage Speed Kill Set", "memos": "4 Diesel 4 Frederick" }
+    ],
     "builds": [
       {
-        "set_name": "4 Diesel 2 Cottie",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1449,7 +1524,7 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "4 Diesel 4 Frederick",
+        "set_name": "Pain Cage Speed Kill Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
@@ -1470,10 +1545,13 @@
   "zitherwoe": {
     "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:physical_element:1283760180386861096> Hanying",
     "frame_name": "Zitherwoe",
-    "set_list": ["4 Da Vinci 2 Philip II", "4 Hanna 2 Darwin"],
+    "set_list": [
+      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Philip II" },
+      { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Philip II",
+        "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1488,7 +1566,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Hanna 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1506,14 +1584,20 @@
     "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:lightning_element:1283760149755990056> No. 21",
     "frame_name": "Feral",
     "set_list": [
-      "4 Fran 2 Guinevere",
-      "4 Fran 2 Cottie",
-      "4 Da Vinci 2 Guinevere",
-      "4 Guinevere 2 Gloria/Lantern Festival"
+      { "name": "Main Support Sub-DPS Set", "memos": "4 Fran 2 Guinevere" },
+      { "name": "Alternative Support Sub-DPS Set", "memos": "4 Fran 2 Cottie" },
+      {
+        "name": "QTE Support Healer/Buffer Set",
+        "memos": "4 Da Vinci 2 Guinevere"
+      },
+      {
+        "name": "Alternative QTE Support Set",
+        "memos": "4 Guinevere 2 Gloria/Lantern Festival"
+      }
     ],
     "builds": [
       {
-        "set_name": "4 Fran 2 Guinevere",
+        "set_name": "Main Support Sub-DPS Set",
         "set_type": "Main Support Sub-DPS",
         "usage": "Main Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1526,7 +1610,7 @@
         "harmony_rec": "Guinevere"
       },
       {
-        "set_name": "4 Fran 2 Cottie",
+        "set_name": "Alternative Support Sub-DPS Set",
         "set_type": "Alternative Support Sub-DPS",
         "usage": "Alternative Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1542,8 +1626,8 @@
         "harmony_rec": "Guinevere"
       },
       {
-        "set_name": "4 Da Vinci 2 Guinevere",
-        "set_type": "Main Support",
+        "set_name": "QTE Support Healer/Buffer Set",
+        "set_type": "Alternative Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["QTE Bot Set"],
@@ -1555,7 +1639,7 @@
         "harmony_rec": "Guinevere"
       },
       {
-        "set_name": "4 Guinevere 2 Gloria/Lantern Festival",
+        "set_name": "Alternative QTE Support Set",
         "set_type": "Alternative Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
@@ -1576,10 +1660,10 @@
   "indomitus": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Noctis",
     "frame_name": "Indomitus",
-    "set_list": ["4 Heisen 2 Tifa"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Heisen 2 Tifa" }],
     "builds": [
       {
-        "set_name": "4 Heisen 2 Tifa",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1597,13 +1681,13 @@
     "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:physical_element:1283760180386861096> Alisa",
     "frame_name": "Echo",
     "set_list": [
-      "4 Signa 2 Da Vinci",
-      "4 Da Vinci 4 Guinevere",
-      "4 Signa 4 Philip II"
+      { "name": "Main Support Sub-DPS Set", "memos": "4 Signa 2 Da Vinci" },
+      { "name": "Off-Element Support Set", "memos": "4 Da Vinci 4 Guinevere" },
+      { "name": "Pain Cage Speed Kill Set", "memos": "4 Signa 4 Philip II" }
     ],
     "builds": [
       {
-        "set_name": "4 Signa 2 Da Vinci",
+        "set_name": "Main Support Sub-DPS Set",
         "set_type": "Main Support",
         "usage": "Main Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1616,7 +1700,7 @@
         "harmony_rec": "Da Vinci"
       },
       {
-        "set_name": "4 Da Vinci 4 Guinevere",
+        "set_name": "Off-Element Support Set",
         "set_type": "Alternative Support",
         "usage": "Off-Element QTE",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1634,7 +1718,7 @@
         "harmony_rec": "Guinevere"
       },
       {
-        "set_name": "4 Signa 4 Philip II",
+        "set_name": "Pain Cage Speed Kill Set",
         "set_type": "Harmony Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
@@ -1654,10 +1738,10 @@
   "lost lullaby": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051> Lamia",
     "frame_name": "Lost Lullaby",
-    "set_list": ["4 Derketo 2 Cottie"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Derketo 2 Cottie" }],
     "builds": [
       {
-        "set_name": "4 Derketo 2 Cottie",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lamia+Lost+Lullaby+%5B1+build%5D/Lamia+%5BDerketo+Cottie%5D.png",
@@ -1676,13 +1760,13 @@
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> BRS",
     "frame_name": "BRS",
     "set_list": [
-      "4 Hanna 2 Darwin",
-      "4 Shakespeare 2 Darwin",
-      "4 Hanna 2 Shakespeare Harmo"
+      { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" },
+      { "name": "Alternative DPS Set", "memos": "4 Shakespeare 2 Darwin" },
+      { "name": "Harmony Set", "memos": "4 Hanna 4 Shakespeare" }
     ],
     "builds": [
       {
-        "set_name": "4 Hanna 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1699,7 +1783,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Shakespeare 2 Darwin",
+        "set_name": "Alternative DPS Set",
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1717,7 +1801,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Hanna 2 Shakespeare Harmo",
+        "set_name": "Harmony Set",
         "set_type": "Harmony",
         "usage": "Harmony DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1740,13 +1824,19 @@
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096> Watanabe",
     "frame_name": "Epitaph",
     "set_list": [
-      "4 Alphonse 2 Cottie",
-      "4 Alphonse 4 Shakespeare",
-      "4 Alphonse 2 Einsteina"
+      { "name": "Main DPS Set", "memos": "4 Alphonse 2 Cottie" },
+      {
+        "name": "Harmony Tank/Sub-DPS Set",
+        "memos": "4 Alphonse 4 Shakespeare"
+      },
+      {
+        "name": "Alternative Tank/Sub-DPS Set",
+        "memos": "4 Alphonse 2 Einsteina"
+      }
     ],
     "builds": [
       {
-        "set_name": "4 Alphonse 2 Cottie",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1763,7 +1853,7 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "4 Alphonse 4 Shakespeare",
+        "set_name": "Harmony Tank/Sub-DPS Set",
         "set_type": "Harmony Tank",
         "usage": "Harmony Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1782,9 +1872,9 @@
         "harmony_rec": "Shakespeare"
       },
       {
-        "set_name": "4 Alphonse 2 Einsteina",
+        "set_name": "Alternative Tank/Sub-DPS Set",
         "set_type": "Alternative Tank",
-        "usage": "Main Tank/Sub-DPS",
+        "usage": "Alternative Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
@@ -1803,10 +1893,13 @@
   "shukra": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946> Qu",
     "frame_name": "Shukra",
-    "set_list": ["4 Ji Bo'an 4 Chen Jiyuan", "4 Ji Bo'an 2 Darwin"],
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "4 Ji Bo'an 4 Chen Jiyuan" },
+      { "name": "Alternative DPS Set", "memos": "4 Ji Bo'an 2 Darwin" }
+    ],
     "builds": [
       {
-        "set_name": "4 Ji Bo'an 4 Chen Jiyuan",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1823,7 +1916,7 @@
         "harmony_rec": "Chen Jiyuan"
       },
       {
-        "set_name": "4 Ji Bo'an 2 Darwin",
+        "set_name": "Alternative DPS Set",
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1844,10 +1937,13 @@
   "decryptor": {
     "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051> Teddy",
     "frame_name": "Decryptor",
-    "set_list": ["4 Da Vinci 2 Guinevere", "4 Bathlon 2 Darwin"],
+    "set_list": [
+      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" },
+      { "name": "Main DPS Set", "memos": "4 Bathlon 2 Darwin" }
+    ],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1863,7 +1959,7 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "4 Bathlon 2 Darwin",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1883,10 +1979,10 @@
   "oblivion": {
     "unit_name": "<:S_:1283759845995974727><:annihilator:1285900128489701436><:void_element:1285900049909284864> Luna",
     "frame_name": "Oblivion",
-    "set_list": ["4 Cleopatra 2 Cottie"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Cleopatra 2 Cottie" }],
     "builds": [
       {
-        "set_name": "4 Cleopatra 2 Cottie",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1907,10 +2003,13 @@
   "ardeo": {
     "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096> Bridget",
     "frame_name": "Ardeo",
-    "set_list": ["4 Shakespeare 2 Einsteina", "4 Shakespeare 2 Elizabeth"],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Shakespeare 2 Einsteina" },
+      { "name": "Main DPS Set", "memos": "4 Shakespeare 2 Elizabeth" }
+    ],
     "builds": [
       {
-        "set_name": "4 Shakespeare 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1927,7 +2026,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Shakespeare 2 Elizabeth",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1948,10 +2047,10 @@
   "solacetune": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Hanying",
     "frame_name": "Solacetune",
-    "set_list": ["4 Changwuzi 2 Patton"],
+    "set_list": [{ "name": "Main Tank Set", "memos": "4 Changwuzi 2 Patton" }],
     "builds": [
       {
-        "set_name": "4 Changwuzi 2 Patton",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1973,14 +2072,14 @@
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> Wanshi",
     "frame_name": "Lucid Dreamer",
     "set_list": [
-      "4 Liston 2 Einsteina",
-      "4 Liston 4 Chen Jiyuan",
-      "4 Da Vinci 2 Einsteina",
-      "4 Da Vinci 4 Chen Jiyuan"
+      { "name": "Main Tank Set", "memos": "4 Liston 2 Einsteina" },
+      { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Liston 4 Chen Jiyuan" },
+      { "name": "Main Pain Cage Set", "memos": "4 Da Vinci 2 Einsteina" },
+      { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Chen Jiyuan" }
     ],
     "builds": [
       {
-        "set_name": "4 Liston 2 Einsteina",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -1989,15 +2088,15 @@
           "General Tank/Sub-DPS set",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["4x Liston", "2x Cottie"],
+        "memories": ["4x Liston", "2x Einsteina"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
         ],
-        "harmony_rec": "Cottie"
+        "harmony_rec": "None"
       },
       {
-        "set_name": "4 Liston 4 Chen Jiyuan",
+        "set_name": "Harmony Tank/Sub-DPS Set",
         "set_type": "Harmony Tank",
         "usage": "Harmony Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -2014,7 +2113,7 @@
         "harmony_rec": "Chen Jiyuan"
       },
       {
-        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_name": "Main Pain Cage Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage",
         "game_modes": "Pain Cage",
@@ -2031,7 +2130,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Da Vinci 4 Chen Jiyuan",
+        "set_name": "Harmony Pain Cage Set",
         "set_type": "Harmony Pain Cage",
         "usage": "Harmony Pain Cage",
         "game_modes": "Pain Cage",
@@ -2052,10 +2151,13 @@
   "pyroath": {
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lucia",
     "frame_name": "Pyroath",
-    "set_list": ["4 Heraclitus 2 Cottie Normal", "4 Heraclitus 2 Cottie Affix"],
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "4 Heraclitus 2 Cottie" },
+      { "name": "Ionization Affix DPS Set", "memos": "4 Heraclitus 2 Cottie" }
+    ],
     "builds": [
       {
-        "set_name": "4 Heraclitus 2 Cottie Normal",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -2073,7 +2175,7 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "4 Heraclitus 2 Cottie Affix",
+        "set_name": "Ionization Affix DPS Set",
         "set_type": "Ionization Affix",
         "usage": "Ionization Affix Warzone Main DPS",
         "game_modes": "Onslaught Pain Cage, Affix Warzone",
@@ -2094,10 +2196,10 @@
   "fulgor": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Yata",
     "frame_name": "Fulgor",
-    "set_list": ["4 Heisen 2 Tifa"],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Heisen 2 Tifa" }],
     "builds": [
       {
-        "set_name": "4 Heisen 2 Tifa",
+        "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
@@ -2118,7 +2220,7 @@
   "startrail": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056> Nanami",
     "frame_name": "Startrail",
-    "set_list": ["Placeholder"],
+    "set_list": [{ "name": "Placeholder", "memos": "Placeholder" }],
     "builds": [
       {
         "set_name": "Placeholder",

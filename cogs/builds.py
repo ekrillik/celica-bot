@@ -54,7 +54,7 @@ class Builds(commands.Cog):
 
         theme = character_theme(character)
         data = build['set_list']
-        embed = self.embedconf.create_build_embed(build, data[0], colour=theme[0], thumbnail_url=theme[3])
+        embed = self.embedconf.create_build_embed(build, data[0]['name'], colour=theme[0], thumbnail_url=theme[3])
         if len(data) == 1:
             view = DropdownView(ctx.author, data=data, build=build, theme=theme)
             view.message = await ctx.send(view=view, embed=embed)

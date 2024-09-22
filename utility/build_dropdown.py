@@ -26,7 +26,7 @@ class DropdownView(discord.ui.View):
             placeholder="Select a build",
             min_values=1,
             max_values=1,
-            options=[discord.SelectOption(label=f"{i}") for i in data],
+            options=[discord.SelectOption(label=f"{item['name']}", description=f"{item['memos']}") for item in data],
         )
         self.clear_button = discord.ui.Button(label="Delete", style=discord.ButtonStyle.red)
         self.image_view = discord.ui.Button(label="Image View", style=discord.ButtonStyle.gray)
@@ -36,15 +36,12 @@ class DropdownView(discord.ui.View):
         self.image_view.callback = self.imageView
         self.text_view.callback = self.textView
         
-        selection = self.choose_build(self.build['builds'], data[0])    
-        if 'infographic' in selection:
-            self.add_item(self.image_view)
-
+        selection = self.choose_build(self.build['builds'], self.data[0]['name'])    
         if self.multibuild == True:
             self.add_item(self.menu)
-
+        if 'infographic' in selection:
+            self.add_item(self.image_view)
         self.add_item(self.clear_button)
-        
         self.embedconf = EmbedClass()
 
     def choose_build(self, build_array, choice):
@@ -57,11 +54,11 @@ class DropdownView(discord.ui.View):
         if self.image_view in self.children:
             self.remove_item(self.image_view)
         if self.text_view in self.children:
-            self.remove_item(self.text_view) 
-        embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], colour=self.theme[0], thumbnail_url=self.theme[3])
+            self.remove_item(self.text_view)
         self.selection = self.menu.values[0]
-        selection = self.choose_build(self.build['builds'], self.menu.values[0])
-        if 'infographic' in selection:
+        selected_build = self.choose_build(self.build['builds'], self.selection)
+        embed = self.embedconf.create_build_embed(self.build, self.menu.values[0], colour=self.theme[0], thumbnail_url=self.theme[3])
+        if 'infographic' in selected_build:
             self.add_item(self.image_view)
         await interaction.response.edit_message(embed=embed, view=self)
 
