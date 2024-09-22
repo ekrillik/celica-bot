@@ -627,7 +627,11 @@
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": ["Used at all ranks", "General tank set"],
+        "description": [
+          "Used at all ranks",
+          "General tank set",
+          "**Requires Leap**"
+        ],
         "memories": ["4x Leeuwenhoek", "2x Catherine"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -643,7 +647,8 @@
         "description": [
           "Only used in Pain Cage.",
           "Requires SSS Rigor or higher",
-          "Niche PPC set"
+          "Niche PPC set",
+          "**Requires Leap**"
         ],
         "memories": ["4x Da Vinci", "2x Catherine"],
         "memory_resonance": [
