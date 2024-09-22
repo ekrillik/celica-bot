@@ -5,7 +5,7 @@ from discord.ext import commands
 from utility.embedconfig import EmbedClass
 from utility.general_view import GeneralView
 from utility.help_dropdown import HelpView
-
+from utility.pagination import PaginationView
 
 class Help(commands.Cog):
     help = {}
@@ -17,6 +17,9 @@ class Help(commands.Cog):
         with open('data/help.json') as file:
             self.help = json.load(file)
 
+        with open('data/nicknames.json') as file:
+            self.nicknamelist = json.load(file)
+    
     @commands.Cog.listener()
     async def on_ready(self):
         print('Help loaded.')
@@ -92,6 +95,12 @@ class Help(commands.Cog):
                         value=f"[Character 'Tier List by Doomy'](https://docs.google.com/spreadsheets/d/1nCmBq7NstZovPWs9cymAXNyakVXJ4lKvNGbVmtPbcUc)\n[Comprehensive Character Builds](https://docs.google.com/spreadsheets/d/1_NAHdVouSp2T6AwStpz9ZMLZ_ca5EzcuHde5obIlero)\n[Resource Calculator](https://docs.google.com/spreadsheets/d/1rfS6P1UOcZFj_ru2dqLzRkTE39Z0Phjbi5XDsOoNYRs)\n[Coatings Acquisition](https://docs.google.com/spreadsheets/d/1uIWrtp3mZEZgQseY788WHGp7_0mZBE8zSkpVOVCWtP8)")
         await ctx.send(embed=embed)
 
+    @commands.hybrid_command(aliases=['nnl'])
+    async def nicknamelist(self, ctx: commands.Context):
+        view = PaginationView(ctx.author, data=self.nicknamelist['nicknames'], pagination_type="nicknames")
+
+        embed = self.embedconf.create_list_embed(name="Nicknames for", type="nicknames", items = self.nicknamelist['nicknames'][0]['nicknames'], character=self.nicknamelist['nicknames'][0]['name'], curpage=1, maxlistcount=len(self.nicknamelist['nicknames']))
+        view.message = await ctx.send(embed=embed, view=view)
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Help(bot))

@@ -11,6 +11,10 @@
     {
       "command": "credits",
       "description": "Displays names of people who have helped contribute to the making of this bot."
+    },
+    {
+      "command": "nicknamelist",
+      "description": "Displays a list of usable nicknames for character related commands (builds, weapons, cubs etc.)."
     }
   ],
   "information": [
@@ -190,6 +194,12 @@
     "description": "Compares the stats between 2 memories and recommends the top/bottom position for both memories.",
     "examples": ["?minmax dv,eins", "?minmax derketto, cottie"]
   },
+  "ppc": {
+    "syntax": "?ppc [difficulty] [time]",
+    "aliases": "?time",
+    "description": "Calculates the Ultimate PPC score of a particular time and difficulty.",
+    "examples": ["?ppc chaos 20", "?ppc hell 30", "?time hell 25"]
+  },
   "memorylist": {
     "syntax": "?memorylist",
     "aliases": "?ml",
@@ -215,10 +225,9 @@
     "aliases": "?ll",
     "description": "Displays a comprehensive list of all available leaps."
   },
-  "ppc": {
-    "syntax": "?ppc [difficulty] [time]",
-    "aliases": "?time",
-    "description": "Calculates the Ultimate PPC score of a particular time and difficulty.",
-    "examples": ["?ppc chaos 20", "?ppc hell 30", "?time hell 25"]
+  "nicknamelist": {
+    "syntax": "?nicknamelist",
+    "aliases": "?nnl",
+    "description": "Displays a list of nicknames for each character. If a character's nickname is not on this list that you would like to see present on this bot, please reach out to Ek to discuss if the nickname is safe to use.\n\nTo use the nicknames, all you will need to do is replace the name of the character/weapon/CUB/build name with the nickname that you would like to search a particular item/skill for."
   }
 }

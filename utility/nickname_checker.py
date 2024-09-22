@@ -50,7 +50,7 @@ def check_nickname(nickname, caller):
             weapon = "dragon wind"
             cub = "n/a"
             memory = "n/a"
-        case "entropy" | "entrobrick":
+        case "entropy" | "entrobrick" | "entropiss" | "entrokek":
             character = "entropy"
             weapon = "zero scale"
             cub = "n/a"
@@ -70,7 +70,7 @@ def check_nickname(nickname, caller):
             weapon = "darkness"
             cub = "n/a"
             memory = "n/a"
-        case "crimson abyss" | "abyss" | "crimson brick" | "ca" | "CA":
+        case "crimson abyss" | "abyss" | "crimson brick" | "ca" | "CA" | "blue rose":
             character = "crimson abyss"
             weapon = "sakura"
             cub = "n/a"
@@ -125,7 +125,7 @@ def check_nickname(nickname, caller):
             weapon = "gungnir"
             cub = "frost oath"
             memory = "leeuwenhoek"
-        case "changyu" | "changwho" | "qilin":
+        case "changyu" | "changwho" | "qilin" | "who?":
             character = "qilin"
             weapon = "baji"
             cub = "n/a"
@@ -135,7 +135,7 @@ def check_nickname(nickname, caller):
             weapon = "qinghe"
             cub = "n/a"
             memory = "wu'an"
-        case "laurel" | "dark luna":
+        case "laurel" | "dark luna" | "cutie pie":
             character = "laurel"
             weapon = "ozma"
             cub = "noctua"
@@ -160,7 +160,7 @@ def check_nickname(nickname, caller):
             weapon = "scale"
             cub = "n/a"
             memory = "n/a"
-        case "tempest":
+        case "tempest" | "shitlena":
             character = "tempest"
             weapon = "waldmeister"
             cub = "n/a"
@@ -170,12 +170,12 @@ def check_nickname(nickname, caller):
             weapon = "apollo"
             cub = "boreas"
             memory = "n/a"
-        case "xxi" | "21":
+        case "xxi" | "21" | "crazy kid":
             character = "xxi"
             weapon = "snore"
             cub = "n/a"
             memory = "n/a"
-        case "garnet" | "flare":
+        case "garnet" | "flare" | "dog owner" | "yinlin":
             character = "garnet"
             weapon = "phoenix"
             cub = "n/a"
@@ -185,107 +185,107 @@ def check_nickname(nickname, caller):
             weapon = "durendal"
             cub = "n/a"
             memory = "jack"
-        case "empy" | "solaeter" | "empyrea" | "flashbang":
+        case "empy" | "solaeter" | "empyrea" | "flashbang" | "sol" | "angel":
             character = "empyrea"
             weapon = "hestia"
             cub = "n/a"
             memory = "elizabeth"
-        case "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq":
+        case "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake":
             character = "capriccio"
             weapon = "sarastro"
             cub = "n/a"
             memory = "seraphine"
         case "pulao":
-            character = "pulao"
+            character = "dragontoll"
             weapon = "infinity"
             cub = "n/a"
             memory = "marco"
-        case "starfarer" | "nanamech" | "nanamecha":
+        case "starfarer" | "nanamech" | "nanamecha" | "sagemachina":
             character = "starfarer"
             weapon = "implosion"
             cub = "jet jaeger"
             memory = "unimate"
-        case "haicma" | "hag" | "haicmama" | "nanny":
+        case "haicma" | "hag" | "haicmama" | "nanny" | "mama":
             character = "starveil"
             weapon = "galatea"
             cub = "n/a"
             memory = "isabel"
-        case "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "best girl" | "bestgirl" | "flat tsundere is not waifu":
+        case "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "best girl" | "bestgirl" | "flat tsundere is not waifu" | "trs" | "idol":
             character = "scire"
             weapon = "illuminare"
             cub = "moonhopper"
             memory = "boone"
-        case "noan" | "deadweight":
+        case "noan" | "deadweight" | "shrek":
             character = "arca"
             weapon = "prometheus"
             cub = "n/a"
             memory = "shelley"
-        case "balter" | "stigmata":
+        case "balter" | "stigmata" | "mommy" | "saber" | "excalibaa":
             character = "stigmata"
             weapon = "hecate"
             cub = "shimmer"
             memory = "charlotte"
-        case "bambinata" | "bambi" | "bombi":
+        case "bambinata" | "bambi" | "bombi" | "doll" | "puppet":
             character = "vitrum"
             weapon = "sound of silence"
             cub = "n/a"
             memory = "n/a"
-        case "supercar" | "car" | "hyper" | "hyperreal" | "xly" | "xiangli yao":
+        case "supercar" | "car" | "hyper" | "hyperreal" | "xly" | "xiangli yao" | "hypertrash" | "hypermonke" | "hypercuck":
             character = "hyperreal"
             weapon = "stokes"
             cub = "punchy"
             memory = "turing"
-        case "cow" | "kale" | "kaleido":
+        case "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi":
             character = "kaleido"
             weapon = "star voyager"
             cub = "rainbow"
             memory = "aline"       
-        case "weave" | "motivation" | "vergil's daughter" | "crimson weave" | "cw":
+        case "weave" | "motivation" | "vergil's daughter" | "cw" | "blanc's curse" | "bury the light":
             character = "crimson weave"
             weapon = "nightblaze"
             cub = "motorbolt"
             memory = "diesel"
-        case "zitherwoe":
+        case "zitherwoe" | "zitherhoe":
             character = "zitherwoe"
             weapon = "perpetuity"
             cub = "n/a"
             memory = "n/a"
-        case "awoo" | "furry" | "feral" | "feral: 21" | "feral:21" | "best daughter":
+        case "awoo" | "furry" | "feral" | "feral: 21" | "feral:21" | "best daughter" | "doggo" | "wolfie-chan":
             character = "feral"
             weapon = "managarm"
             cub = "hades fangs"
             memory = "fran"
-        case "indomitus" | "noctis":
+        case "indomitus" | "noctis" | "blockhead":
             character = "indomitus"
             weapon = "crimson howl"
             cub = "n/a"
             memory = "n/a"
-        case "alisa" | "echo":
+        case "alisa" | "echo" | "arrest me pls":
             character = "echo"
             weapon = "astraea"
             cub = "dawn chorus"
             memory = "signa"
-        case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia":
+        case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty":
             character = "lost lullaby"
             weapon = "metis"
             cub = "cetus"
             memory = "derketo"
-        case "brs" | "brick rock shooter":
+        case "brs" | "brick rock shooter" | "edgy miku":
             character = "brs"
             weapon = "black rock cannon"
             cub = "n/a"
             memory = "n/a"
-        case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph":
+        case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man":
             character = "epitaph"
             weapon = "night falcon"
             cub = "shadow wing"
             memory = "alphonse"
-        case "shukra":
+        case "shukra"| "qukra" | "queen" | "legs":
             character = "shukra"
             weapon = "dwelling will of inscription's key"
             cub = "huiyu"
             memory = "ji bo'an"
-        case "teddy" | "decryptor":
+        case "teddy" | "decryptor" | "smug" | "always beats karen":
             character = "decryptor"
             weapon = "hacker's tune"
             cub = "n/a"
@@ -295,7 +295,7 @@ def check_nickname(nickname, caller):
             weapon = "reconstruction of law"
             cub = "su e"
             memory = "cleopatra"
-        case "bridget" | "ardeo":
+        case "bridget" | "ardeo" | "royal guard" | "dante":
             character = "ardeo"
             weapon = "cestus"
             cub = "n/a"
@@ -315,7 +315,7 @@ def check_nickname(nickname, caller):
             weapon = "dawn's flaming feathers"
             cub = "yi kong"
             memory = "heraclitus"
-        case "fulgor" | "yata" | "tomboy":
+        case "fulgor" | "yata" | "tomboy" | "oraora":
             character = "fulgor"
             weapon = "morrow's executioner"
             cub = "n/a"

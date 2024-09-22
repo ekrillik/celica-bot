@@ -50,11 +50,12 @@ class EmbedClass:
                 value=memory_resonance,
                 inline=False
             )
-            embed.add_field(
-                name="Harmony Recommendation",
-                value=f"{selection['harmony_rec']}",
-                inline=False
-            )
+            if 'harmony_rec' in selection:
+                embed.add_field(
+                    name="Harmony Recommendation",
+                    value=f"{selection['harmony_rec']}",
+                    inline=False
+                )
         else:
             image_url = selection['infographic']
             embed.set_image(url=image_url)
@@ -357,7 +358,7 @@ class EmbedClass:
             color=discord.Color(0x3d6e41)
         )
 
-    def create_list_embed(self, name, type, items, curpage = 1, maxlistcount = 1):
+    def create_list_embed(self, name, type, items, character = "", curpage = 1, maxlistcount = 1):
         if type == "memories":
             embed = discord.Embed(
                 title=f"List of {items['type']}",
@@ -377,6 +378,8 @@ class EmbedClass:
                 description="",
                 color=discord.Color(0xb8f2e4)
             )
+            if type == "nicknames":
+                embed.add_field(name=f"Character:", value=f"{character}", inline=False)
             if type == "weapons":
                 for i in items:
                     embed.add_field(
@@ -385,12 +388,16 @@ class EmbedClass:
                         inline=False
                     )
             else:
+                fields = []
                 for i in items:
-                    embed.add_field(
+                    formattedItem = f"`{i}`"
+                    fields.append(formattedItem)
+                embed.add_field(
                         name = "",
-                        value = f"`{i}`",
+                        value = "\n".join(fields),
                         inline=False
                     )
+                    
         embed.set_footer(text=f"Page {curpage}/{maxlistcount}")
         return embed
 

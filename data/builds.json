@@ -191,7 +191,7 @@
   "zero": {
     "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> Bianca",
     "frame_name": "Zero",
-    "set_list": [{ "name": "Main DPS Set", "memos": "4 Patton 2 Darwin" }],
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Patton 2 Cottie" }],
     "builds": [
       {
         "set_name": "Main DPS Set",
@@ -199,10 +199,10 @@
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at all ranks", "General DPS/sub-DPS set"],
-        "memories": ["4x Patton", "2x Darwin"],
+        "memories": ["4x Patton", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Core Passive"
+          "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "None"
       }
@@ -265,7 +265,7 @@
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["General DPS/sub-DPS set", "Used at all ranks"],
-        "memories": ["2x Leeuwenhoek", "2x Signa", "2x Darwin"],
+        "memories": ["4x Patton", "2x Darwin"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Core Passive"
@@ -337,7 +337,8 @@
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Kamui",
     "frame_name": "Tenebrion",
     "set_list": [
-      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
+      { "name": "Alternative Tank/Sub-DPS Set", "memos": "4 Hanna 2 Einsteina" }
     ],
     "builds": [
       {
@@ -345,12 +346,21 @@
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": [
-          "QTE Bot Tank Set.",
-          "Used at all ranks.",
-          "Not worth building if you already have XXI at SSS rank and beyond."
-        ],
+        "description": ["QTE Bot Tank Set.", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Passive"
+        ],
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "Alternative Tank/Sub-DPS Set",
+        "set_type": "Alternative Tank",
+        "usage": "Alternative Tank/Sub-DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": ["Alternative Tank/Sub-DPS Set.", "Used at all ranks."],
+        "memories": ["4x Hanna", "2x Einsteina"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Passive"
@@ -369,11 +379,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": [
-          "General DPS/sub-DPS set",
-          "Used at all ranks.",
-          "If you're wondering whether she's good, no. She has been powercrept by Stigmata. And yes, this includes her with a leap."
-        ],
+        "description": ["General DPS/sub-DPS set", "Used at all ranks."],
         "memories": ["4x Frederick", "2x Darwin"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -549,7 +555,11 @@
     "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051> Vera",
     "frame_name": "Rozen",
     "set_list": [
-      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" }
+      { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" },
+      {
+        "name": "Alternative DPS/Sub-DPS Leap Set",
+        "memos": "4 Bathlon 2 Darwin"
+      }
     ],
     "builds": [
       {
@@ -562,6 +572,23 @@
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "Alternative DPS/Sub-DPS Leap Set",
+        "set_type": "Leap DPS",
+        "usage": "Leap DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "Alternative DPS/Sub-DPS set",
+          "Used at all ranks.",
+          "**Requires Leap**"
+        ],
+        "memories": ["4x Bathlon", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core Passive"
         ],
         "harmony_rec": "None"
       }
@@ -592,7 +619,7 @@
     "frame_name": "Rigor",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Leeuwenhoek 2 Catherine" },
-      { "name": "Pain Cage Speed Kill Set", "memos": "4 Da Vinci 2 Catherine" }
+      { "name": "Pain Cage Niche Set", "memos": "4 Da Vinci 2 Catherine" }
     ],
     "builds": [
       {
@@ -609,7 +636,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "Pain Cage Speed Kill Set",
+        "set_name": "Pain Cage Niche Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
@@ -841,7 +868,11 @@
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> Chrome",
     "frame_name": "Glory",
     "set_list": [
-      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
+      { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
+      {
+        "name": "Alternative QTE Support Set",
+        "memos": "4 Chen Jiyuan 2 Einsteina"
+      }
     ],
     "builds": [
       {
@@ -850,6 +881,23 @@
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at all ranks", "General tank set"],
+        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Passive"
+        ],
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "Alternative QTE Support Set",
+        "set_type": "Alternative Tank",
+        "usage": "QTE Tank Support",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "Used at all ranks",
+          "Alternative tank set ",
+          "Used in a Qu: Shukra team when Qu doesn't use 4 Chen Jiyuan."
+        ],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -926,9 +974,10 @@
         "usage": "QTE Tank Support",
         "game_modes": "Pain Cage",
         "description": [
+          "Used at all ranks",
           "Used in PPC only",
-          "Alternative tank set used at all ranks",
-          "Used when needing to manually apply resistance reduction with core passive, used for better damage in Pain Cage paired with support/amplifier unit with support memories."
+          "Alternative tank set",
+          "Required to manually apply lighting shred with core passive at the start of the battle. Has better damage boost overall."
         ],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
@@ -945,7 +994,8 @@
         "description": [
           "Harmony Set",
           "Used at all ranks.",
-          "Used post Qu: Shukra patch"
+          "Used post Qu: Shukra patch",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
         "memories": ["4x Tifa", "4x Heisen"],
         "memory_resonance": [
@@ -985,7 +1035,7 @@
         "name": "Harmony Support Sub-DPS Set",
         "memos": "4 Da Vinci 2 Guinevere"
       },
-      { "name": "Main Pain Cage Set", "memos": "4 Da Vinci 2 Guinevere" },
+      { "name": "Pain Cage Set", "memos": "4 Da Vinci 2 Guinevere" },
       { "name": "Alternative Pain Cage Set", "memos": "4 Guinevere 2 Gloria" }
     ],
     "builds": [
@@ -1020,8 +1070,8 @@
         "harmony_rec": "Einsteina"
       },
       {
-        "set_name": "Main Pain Cage Set",
-        "set_type": "Main Pain Cage",
+        "set_name": "Pain Cage Set",
+        "set_type": "Pain Cage",
         "usage": "Pain Cage",
         "game_modes": "Pain Cage",
         "description": [
@@ -1036,7 +1086,7 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "4 Guinevere 2 Gloria Set",
+        "set_name": "Alternative Pain Cage Set",
         "set_type": "Alternative Pain Cage",
         "usage": "Pain Cage",
         "game_modes": "Pain Cage",
@@ -1063,6 +1113,10 @@
       { "name": "Main Support Sub-DPS Set", "memos": "4 Seraphine 2 Cottie" },
       {
         "name": "Alternative Support Sub-DPS Set",
+        "memos": "4 Seraphine 2 Einsteina"
+      },
+      {
+        "name": "QTE Support Healer/Buffer Set",
         "memos": "4 Seraphine 2 Guinevere"
       }
     ],
@@ -1089,17 +1143,34 @@
         "usage": "Alternative Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
-          "Alternate Support Set",
-          "Capriccio cannot proc the 4PC Guinevere set bonus in one QTE activation and will therefore take 2PC Einsteina as her harmo memory set.",
+          "Alternative support set for Capriccio.",
           "Recommended on-field set for SSS+",
-          "Requires higher mechanical skill input if using at SSS0 or lower."
+          "It is usable for SSS0 rank and lower, but requires higher mechanical skill input."
+        ],
+        "memories": ["4x Seraphine", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Passive"
+        ],
+        "harmony_rec": "Guinevere"
+      },
+      {
+        "set_name": "QTE Support Healer/Buffer Set",
+        "set_type": "Pain Cage",
+        "usage": "Pain Cage",
+        "game_modes": "Pain Cage",
+        "description": [
+          "QTE Bot Set",
+          "Only used in Pain Cage.",
+          "Used when a tank already holds 2pc Einsteina in the team.",
+          "Used at all ranks"
         ],
         "memories": ["4x Seraphine", "2x Guinevere"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Passive"
         ],
-        "harmony_rec": "Einsteina"
+        "harmony_rec": "None"
       }
     ]
   },
@@ -1187,7 +1258,7 @@
     "frame_name": "Scire",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Boone 2 Einsteina" },
-      { "name": "Main Harmony Tank/Sub-DPS Set", "memos": "4 Boone 4 Bathlon" },
+      { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Boone 4 Bathlon" },
       { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Bathlon" },
       {
         "name": "Alternative Tank/Sub-DPS Set",
@@ -1210,17 +1281,19 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "Main Harmony Tank/Sub-DPS Set",
-        "set_type": "Main Harmony",
-        "usage": "Main Harmony Tank/Sub-DPS",
+        "set_name": "Harmony Tank/Sub-DPS Set",
+        "set_type": "Harmony",
+        "usage": "Harmony Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": ["Requires Harmony"],
-        "memories": ["4x Boone", "2x Bathlon"],
+        "description": [
+          "Harmony Tank/Sub-DPS set",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
+        ],
+        "memories": ["4x Boone", "2x Bathlon", "2x Bathlon (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Core Passive"
-        ],
-        "harmony_rec": "Bathlon"
+        ]
       },
       {
         "set_name": "Harmony Pain Cage Set",
@@ -1229,15 +1302,14 @@
         "game_modes": "Pain Cage",
         "description": [
           "PPC nuke set",
-          "Requires Harmony",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
           "Recommended to use this set post-Shukra patch."
         ],
-        "memories": ["4x Da Vinci", "2x Bathlon"],
+        "memories": ["4x Da Vinci", "2x Bathlon", "2x Bathlon (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Passive"
-        ],
-        "harmony_rec": "Bathlon"
+        ]
       },
       {
         "set_name": "Alternative Tank/Sub-DPS Set",
@@ -1298,11 +1370,15 @@
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Charlotte 2 Leeuwenhoek" },
       {
-        "name": "Alternative DPS SS3 Set",
+        "name": "High Rank Set",
         "memos": "4 Charlotte 2 Cottie SS3"
       },
-      { "name": "Pain Cage Speed Kill Set", "memos": "4 Charlotte 2 Darwin" },
-      { "name": "Pain Cage Low Rank Set", "memos": "4 Charlotte 2 Cottie" }
+      { "name": "Pain Cage Niche Set", "memos": "4 Charlotte 2 Darwin" },
+      { "name": "Pain Cage Low Rank Set", "memos": "4 Charlotte 2 Cottie" },
+      {
+        "name": "Pain Cage High Rank Harmony Set",
+        "memos": "4 Charlotte 4 Frederick"
+      }
     ],
     "builds": [
       {
@@ -1319,11 +1395,14 @@
         "harmony_rec": "Signa"
       },
       {
-        "set_name": "Alternative DPS SS3 Set",
-        "set_type": "Alternative DPS",
-        "usage": "Alternative DPS",
+        "set_name": "High Rank Set",
+        "set_type": "High Rank DPS",
+        "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": ["Alternative DPS Set", "Used at SS3 or higher"],
+        "description": [
+          "High rank build (requires SS3 and beyond)",
+          "Main DPS Set"
+        ],
         "memories": ["4x Charlotte", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1332,7 +1411,7 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "Pain Cage Speed Kill Set",
+        "set_name": "Pain Cage Niche Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
@@ -1364,6 +1443,23 @@
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "None"
+      },
+      {
+        "set_name": "Pain Cage High Rank Harmony Set",
+        "set_type": "Pain Cage",
+        "usage": "Pain Cage",
+        "game_modes": "Pain Cage",
+        "description": [
+          "Higher damage set for SSS rank balter kills for PPC.",
+          "For SSS and above",
+          "Requires Harmony to hold 4x Frederick.",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
+        ],
+        "memories": ["4x Charlotte", "2x Frederick", "2x Frederick (Harmony)"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ]
       }
     ]
   },
@@ -1372,7 +1468,7 @@
     "frame_name": "Vitrum",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" },
-      { "name": "Pain Cage Speed Kill Set", "memos": "4 Chen Jiyuan 2 Hanna" }
+      { "name": "Pain Cage Niche Set", "memos": "4 Chen Jiyuan 2 Hanna" }
     ],
     "builds": [
       {
@@ -1389,7 +1485,7 @@
         "harmony_rec": "Aline"
       },
       {
-        "set_name": "Pain Cage Speed Kill Set",
+        "set_name": "Pain Cage Niche Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
@@ -1449,13 +1545,16 @@
         "set_type": "Harmony",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BShakespeare+harmo%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": ["Used at SS3 or above", "Used as sub-DPS for Epitaph"],
-        "memories": ["4x Turing", "2x Shakespeare"],
+        "description": [
+          "Used at SS3 or above",
+          "Used as sub-DPS for Epitaph",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
+        ],
+        "memories": ["4x Turing", "2x Shakespeare", "2x Shakespeare (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
-        ],
-        "harmony_rec": "Shakespeare"
+        ]
       }
     ]
   },
@@ -1503,7 +1602,8 @@
     "frame_name": "Crimson Weave",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Diesel 2 Cottie" },
-      { "name": "Pain Cage Speed Kill Set", "memos": "4 Diesel 4 Frederick" }
+      { "name": "High Rank DPS Set", "memos": "4 Diesel 2 Cottie" },
+      { "name": "Pain Cage Niche Set", "memos": "4 Diesel 4 Frederick" }
     ],
     "builds": [
       {
@@ -1511,11 +1611,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": [
-          "General DPS set",
-          "The S0-SS3 rank will take 6x Basic Atk for the top resonance slots and 6x ATK+15 for the bottom resonance slots.",
-          "**SSS0 rank and higher builds will replace the bottom resonance slots with 6x Signature Move.**"
-        ],
+        "description": ["General DPS set", "Used for S0-SS3"],
         "memories": ["4x Diesel", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Basic Atk",
@@ -1524,21 +1620,31 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "Pain Cage Speed Kill Set",
+        "set_name": "High Rank DPS Set",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": ["High Rank DPS set", "General DPS set"],
+        "memories": ["4x Diesel", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Basic Atk",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "Pain Cage Niche Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
         "description": [
           "Used at SS3 or above only",
           "PPC set for SS3 rank Crimson Weave and higher, one slam + ult PPC kill build when the Cottie build lacks damage.",
-          "Requires Harmony to hold 4x Frederick."
+          "Requires Harmony to hold 4x Frederick.",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
-        "memories": ["4x Diesel", "2x Frederick"],
-        "memory_resonance": [
-          "Top Slot   : 6x Atk",
-          "Bottom Slot: 6x Signature"
-        ],
-        "harmony_rec": "Frederick"
+        "memories": ["4x Diesel", "2x Frederick", "2x Frederick (Harmony)"],
+        "memory_resonance": ["Top Slot   : 6x Atk", "Bottom Slot: 6x Signature"]
       }
     ]
   },
@@ -1601,7 +1707,7 @@
         "set_type": "Main Support Sub-DPS",
         "usage": "Main Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": ["General DPS set"],
+        "description": ["General Support Sub-DPS set"],
         "memories": ["4x Fran", "2x Guinevere"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1681,15 +1787,16 @@
     "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:physical_element:1283760180386861096> Alisa",
     "frame_name": "Echo",
     "set_list": [
-      { "name": "Main Support Sub-DPS Set", "memos": "4 Signa 2 Da Vinci" },
+      { "name": "Main Support Set", "memos": "4 Signa 2 Da Vinci" },
+      { "name": "Harmony Support Set", "memos": "4 Signa 4 Da Vinci" },
       { "name": "Off-Element Support Set", "memos": "4 Da Vinci 4 Guinevere" },
-      { "name": "Pain Cage Speed Kill Set", "memos": "4 Signa 4 Philip II" }
+      { "name": "Pain Cage Niche Set", "memos": "4 Signa 4 Philip II" }
     ],
     "builds": [
       {
-        "set_name": "Main Support Sub-DPS Set",
+        "set_name": "Main Support Set",
         "set_type": "Main Support",
-        "usage": "Main Support Sub-DPS",
+        "usage": "Main Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Recommended for all ranks", "Physical Support set"],
         "memories": ["4x Signa", "2x Da Vinci"],
@@ -1697,7 +1804,23 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Passive"
         ],
-        "harmony_rec": "Da Vinci"
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "Harmony Support Set",
+        "set_type": "Harmony Support",
+        "usage": "Harmony Support",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "Recommended for all ranks",
+          "Harmony Support set",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
+        ],
+        "memories": ["4x Signa", "2x Da Vinci", "2x Da Vinci (Harmony)"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Passive"
+        ]
       },
       {
         "set_name": "Off-Element Support Set",
@@ -1718,7 +1841,7 @@
         "harmony_rec": "Guinevere"
       },
       {
-        "set_name": "Pain Cage Speed Kill Set",
+        "set_name": "Pain Cage Niche Set",
         "set_type": "Harmony Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
         "game_modes": "Pain Cage",
@@ -1808,15 +1931,14 @@
         "description": [
           "Recommended for all ranks",
           "Alternative DPS set",
-          "Requires Harmony",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["4x Hanna", "2x Shakespeare"],
+        "memories": ["4x Hanna", "2x Shakespeare", "2x Shakespeare (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Core Passive"
-        ],
-        "harmony_rec": "Shakespeare"
+        ]
       }
     ]
   },
@@ -1859,17 +1981,20 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
-          "Used with Luna: Oblivion for all Void content",
-          "Used with Lucia: Pyroath for all Fire content",
+          "Used for all future Void and Fire content",
           "Requires DLT weapon resonance and Harmony.",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["4x Alphonse", "2x Shakespeare"],
+        "memories": [
+          "4x Alphonse",
+          "2x Shakespeare",
+          "2x Shakespeare (Harmony)"
+        ],
         "memory_resonance": [
           "Top Slot   : 6x Red Orb",
           "Bottom Slot: 6x Class Passive"
-        ],
-        "harmony_rec": "Shakespeare"
+        ]
       },
       {
         "set_name": "Alternative Tank/Sub-DPS Set",
@@ -1878,7 +2003,7 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
-          "Alternate set if acting as sub-DPS for void and fire teams.",
+          "Alternative tank set for sub-DPS role in future void or Lucia: Pyroath team.",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Alphonse", "2x Einsteina"],
@@ -1894,8 +2019,8 @@
     "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946> Qu",
     "frame_name": "Shukra",
     "set_list": [
-      { "name": "Main DPS Set", "memos": "4 Ji Bo'an 4 Chen Jiyuan" },
-      { "name": "Alternative DPS Set", "memos": "4 Ji Bo'an 2 Darwin" }
+      { "name": "Main DPS Set", "memos": "4 Ji Bo'an 2 Darwin" },
+      { "name": "Harmony Set", "memos": "4 Ji Bo'an 4 Chen Jiyuan" }
     ],
     "builds": [
       {
@@ -1906,23 +2031,7 @@
         "description": [
           "Recommended for all ranks",
           "General DPS set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
-        "memories": ["4x Ji Bo'an", "2x Chen Jiyuan"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
-        ],
-        "harmony_rec": "Chen Jiyuan"
-      },
-      {
-        "set_name": "Alternative DPS Set",
-        "set_type": "Alternative DPS",
-        "usage": "Alternative DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": [
-          "Recommended for all ranks",
-          "Alternative DPS Set for non-harmo.",
+          "This is the non-Harmony build. If you're planning to eventually get Harmony for Shukra, it is recommended to just get 2pc Chen Jiyuan instead of Darwin right away",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Ji Bo'an", "2x Darwin"],
@@ -1931,6 +2040,26 @@
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "None"
+      },
+      {
+        "set_name": "Harmony Set",
+        "set_type": "Harmony",
+        "usage": "Harmony DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "Recommended for all ranks",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": [
+          "4x Ji Bo'an",
+          "2x Chen Jiyuan",
+          "2x Chen Jiyuan (Harmony)"
+        ],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ]
       }
     ]
   },
@@ -2047,7 +2176,10 @@
   "solacetune": {
     "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Hanying",
     "frame_name": "Solacetune",
-    "set_list": [{ "name": "Main Tank Set", "memos": "4 Changwuzi 2 Patton" }],
+    "set_list": [
+      { "name": "Main Tank Set", "memos": "4 Changwuzi 2 Patton" },
+      { "name": "Harmony Set", "memos": "4 Changwuzi 4 Patton" }
+    ],
     "builds": [
       {
         "set_name": "Main Tank Set",
@@ -2063,8 +2195,24 @@
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Core Passive"
+        ]
+      },
+      {
+        "set_name": "Harmony Set",
+        "set_type": "Harmony Tank",
+        "usage": "Harmony Tank/Sub-DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "Recommended for all ranks",
+          "General Tank set",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "harmony_rec": "Patton"
+        "memories": ["4x Changwuzi", "2x Patton", "2x Patton (Harmony)"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core Passive"
+        ]
       }
     ]
   },
@@ -2102,15 +2250,14 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
-          "Harmony Set",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["4x Liston", "2x Chen Jiyuan"],
+        "memories": ["4x Liston", "2x Chen Jiyuan", "2x Chen Jiyuan (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
-        ],
-        "harmony_rec": "Chen Jiyuan"
+        ]
       },
       {
         "set_name": "Main Pain Cage Set",
@@ -2136,15 +2283,18 @@
         "game_modes": "Pain Cage",
         "description": [
           "Recommended for all ranks",
-          "Harmony QTE tank support set.",
+          "Harmony QTE tank support set **(Requires Harmony on Signature 6* Weapon)**",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["4x Da Vinci", "2x Chen Jiyuan"],
+        "memories": [
+          "4x Da Vinci",
+          "2x Chen Jiyuan",
+          "2x Chen Jiyuan (Harmony)"
+        ],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Passive"
-        ],
-        "harmony_rec": "Chen Jiyuan"
+        ]
       }
     ]
   },
