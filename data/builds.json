@@ -435,7 +435,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": ["General DPS/sub-DPS set", "Used at all ranks."],
+        "description": ["General DPS set", "Used at all ranks."],
         "memories": ["4x Bathlon", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -642,7 +642,7 @@
         "game_modes": "Pain Cage",
         "description": [
           "Only used in Pain Cage.",
-          "Requires SSS Stigmata or higher",
+          "Requires SSS Rigor or higher",
           "Niche PPC set"
         ],
         "memories": ["4x Da Vinci", "2x Catherine"],
