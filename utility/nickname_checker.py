@@ -180,7 +180,7 @@ def check_nickname(nickname, caller):
             weapon = "phoenix"
             cub = "n/a"
             memory = "tifa"
-        case "roland" | "kuraimaksu" | "clown" | "theatre" | "curtain call":
+        case "roland" | "kuraimakusu" | "clown" | "theatre" | "curtain call":
             character = "flambeau"
             weapon = "durendal"
             cub = "n/a"
@@ -200,7 +200,7 @@ def check_nickname(nickname, caller):
             weapon = "infinity"
             cub = "n/a"
             memory = "marco"
-        case "starfarer" | "nanamech" | "nanamecha" | "sagemachina":
+        case "starfarer" | "nanamech" | "nanamecha" | "sagemachina" | "mech":
             character = "starfarer"
             weapon = "implosion"
             cub = "jet jaeger"
@@ -215,12 +215,12 @@ def check_nickname(nickname, caller):
             weapon = "illuminare"
             cub = "moonhopper"
             memory = "boone"
-        case "noan" | "deadweight" | "shrek":
+        case "noan" | "deadweight" | "shrek" | "Shrek" | "Nero":
             character = "arca"
             weapon = "prometheus"
             cub = "n/a"
             memory = "shelley"
-        case "balter" | "stigmata" | "mommy" | "saber" | "excalibaa":
+        case "balter" | "stigmata" | "mommy" | "saber" | "excalibaa" | "Balter":
             character = "stigmata"
             weapon = "hecate"
             cub = "shimmer"
@@ -310,7 +310,7 @@ def check_nickname(nickname, caller):
             weapon = "hemera's gaze"
             cub = "rui xue"
             memory = "liston"
-        case "pyroath" | "hyperdawn":
+        case "pyroath" | "hyperdawn" | "pyro":
             character = "pyroath"
             weapon = "dawn's flaming feathers"
             cub = "yi kong"

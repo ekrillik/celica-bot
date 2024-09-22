@@ -6,6 +6,7 @@ from utility.embedconfig import EmbedClass
 from utility.general_view import GeneralView
 from utility.help_dropdown import HelpView
 from utility.pagination import PaginationView
+from utility.nickname_checker import character_theme
 
 class Help(commands.Cog):
     help = {}
@@ -101,6 +102,18 @@ class Help(commands.Cog):
 
         embed = self.embedconf.create_list_embed(name="Nicknames for", type="nicknames", items = self.nicknamelist['nicknames'][0]['nicknames'], character=self.nicknamelist['nicknames'][0]['name'], curpage=1, maxlistcount=len(self.nicknamelist['nicknames']))
         view.message = await ctx.send(embed=embed, view=view)
+
+    @commands.hybrid_command(aliases=['nn'])
+    async def nicknames(self, ctx: commands.Context, *, character = None):
+        if character is not None:
+            theme = character_theme(character)
+            view = GeneralView(ctx.author)
+            for list in self.nicknamelist['nicknames']:
+                if theme[2] == list['name']:
+                    embed = self.embedconf.create_list_embed(name="Nicknames", type="nicknames", items = list['nicknames'], character=list['name'])
+            view.message = await ctx.send(embed=embed, view=view)
+        else:
+            await ctx.send(content="You have not included a frane name for a character's lists. Please provide the frame name of the character for this command to work.")
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Help(bot))

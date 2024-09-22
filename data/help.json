@@ -14,7 +14,11 @@
     },
     {
       "command": "nicknamelist",
-      "description": "Displays a list of usable nicknames for character related commands (builds, weapons, cubs etc.)."
+      "description": "Displays lists of usable nicknames for all characters for character related commands (builds, weapons, cubs etc.)."
+    },
+    {
+      "command": "nicknames",
+      "description": "Displays a list of usable nicknames for a specific character for character related commands (builds, weapons, cubs etc.)."
     }
   ],
   "information": [
@@ -80,6 +84,12 @@
   "links": {
     "syntax": "?links",
     "description": "Links for useful PGR resources"
+  },
+  "nicknames": {
+    "syntax": "?nicknames [frame name]",
+    "aliases": "?nn",
+    "description": "Displays a list of usable nicknames for a specific character for character related commands (builds, weapons, cubs etc.).\nEnsure that the name used as the argument is the frame name. You cannot use nicknames to search for a nickname list (lmao)",
+    "examples": ["?nicknames crimson weave", "?nicknames rigor"]
   },
   "build": {
     "syntax": "?build [character name]",

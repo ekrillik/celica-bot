@@ -102,7 +102,7 @@ class PaginationView(discord.ui.View):
         elif(self.pagination_type == "memories"):
             embed = self.embedconf.create_list_embed(name="Memories", type="memories", items = self.data[self.current_page], curpage=self.current_page+1, maxlistcount=len(self.data))
         elif(self.pagination_type == "nicknames"):
-            embed = self.embedconf.create_list_embed(name="Nicknames for", type="nicknames", character=self.data[self.current_page]['name'], items = self.data[self.current_page]['nicknames'], curpage=self.current_page+1, maxlistcount=len(self.data))
+            embed = self.embedconf.create_list_embed(name="Nicknames", type="nicknames", character=self.data[self.current_page]['name'], items = self.data[self.current_page]['nicknames'], curpage=self.current_page+1, maxlistcount=len(self.data))
         self.update_buttons()
         await interaction.response.edit_message(embed=embed, view=self)
 
