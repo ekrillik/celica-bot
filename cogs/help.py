@@ -107,11 +107,14 @@ class Help(commands.Cog):
     async def nicknames(self, ctx: commands.Context, *, character = None):
         if character is not None:
             theme = character_theme(character)
-            view = GeneralView(ctx.author)
-            for list in self.nicknamelist['nicknames']:
-                if theme[2] == list['name']:
-                    embed = self.embedconf.create_list_embed(name="Nicknames", type="nicknames", items = list['nicknames'], character=list['name'])
-            view.message = await ctx.send(embed=embed, view=view)
+            if theme[2] != "":
+                view = GeneralView(ctx.author)
+                for list in self.nicknamelist['nicknames']:
+                    if theme[2] == list['name']:
+                        embed = self.embedconf.create_list_embed(name="Nicknames", type="nicknames", items = list['nicknames'], character=list['name'])
+                view.message = await ctx.send(embed=embed, view=view)
+            else:
+                await ctx.send(content="The name you have included does not exist as a frame. Are you using a nickname? For this command in particular, using nicknames is not allowed. Please add the frame name in all lower case.")
         else:
             await ctx.send(content="You have not included a frane name for a character's lists. Please provide the frame name of the character for this command to work.")
 

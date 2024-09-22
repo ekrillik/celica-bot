@@ -160,7 +160,7 @@ def check_nickname(nickname, caller):
             weapon = "scale"
             cub = "n/a"
             memory = "n/a"
-        case "tempest" | "shitlena":
+        case "tempest" | "shitlena" | "iris":
             character = "tempest"
             weapon = "waldmeister"
             cub = "n/a"
@@ -190,7 +190,7 @@ def check_nickname(nickname, caller):
             weapon = "hestia"
             cub = "n/a"
             memory = "elizabeth"
-        case "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake":
+        case "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2":
             character = "capriccio"
             weapon = "sarastro"
             cub = "n/a"
