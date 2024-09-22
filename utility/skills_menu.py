@@ -181,7 +181,7 @@ class SkillsView(discord.ui.View):
         await interaction.response.edit_message(embed=self.embed, view=self)
         
     async def last_callback(self, interaction: discord.Interaction) -> None:
-        self.current_page = int(self.skill_len) + 1
+        self.current_page = int(self.skill_len) - 1
         self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
         self.update_buttons()
         await interaction.response.edit_message(embed=self.embed, view=self)
