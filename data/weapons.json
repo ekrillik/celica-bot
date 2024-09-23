@@ -1080,7 +1080,7 @@
     }
   },
   "nuclear meltdown": {
-    "name": "Nuclear Meltdown",
+    "name": "Nuclear Meltdown \u03B4",
     "weapon_type": "Composite Armaments",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2superlimd020011.webp",
@@ -1712,7 +1712,7 @@
     "crit": 251,
     "effect": {
       "effect_name": "Wide Energy Pressure",
-      "effect_desc": "Wide-Energy Pressure Core: Whenever No. 21: XXI performs Shadow Prism attacks, a QTE, or disrupts incoming enemy attacks, the Co-Bot unleashes a Force Wave that deals 50% AOE Dark DMG to enemies (only triggers once per second). Energy Suppression Unit: Hitting allies with Force Wave will grant them Energy Suppression for 3s. Energy Suppression: Dark DMG reduces the enemy's healing received by 100% for 3s. Impulse Fort Module: When the Force Wave detonates 6 Twilight Matrices at once, the Co-Bot enters Fortification mode, unleashing a hyper-pulse that deals Dark DMG equal to 400% of No. 21: XXI's ATK (DMG scales with Core Passive level). Inver-Resonance Unit 2.0: Increases the Extra DMG Bonus of No. 21: XXI's Twilight Matrix and Resonance Pulse by 15%."
+      "effect_desc": "Wide-Energy Pressure Core: Whenever No. 21: XXI performs Shadow Prism attacks, a QTE, or disrupts incoming enemy attacks, the Co-Bot unleashes a Force Wave that deals 50% AOE Dark DMG to enemies (only triggers once per second).\n\nEnergy Suppression Unit: Hitting allies with Force Wave will grant them Energy Suppression for 3s. Energy Suppression: Dark DMG reduces the enemy's healing received by 100% for 3s.\n\nImpulse Fort Module: When the Force Wave detonates 6 Twilight Matrices at once, the Co-Bot enters Fortification mode, unleashing a hyper-pulse that deals Dark DMG equal to 400% of No. 21: XXI's ATK (DMG scales with Core Passive level).\n\nInver-Resonance Unit 2.0: Increases the Extra DMG Bonus of No. 21: XXI's Twilight Matrix and Resonance Pulse by 15%."
     }
   },
   "phoenix": {
@@ -1944,7 +1944,7 @@
     }
   },
   "black rock cannon": {
-    "name": "Black Rock Cannon",
+    "name": "\u2605Black Rock Cannon",
     "weapon_type": "Blade Cannon",
     "rarity": 6,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/8/8a/rait6f8d1lcnkx9rybad5s2clvucs4s.png/100px-%E6%AD%A6%E5%99%A8_%E2%98%85%E9%BB%91%E5%B2%A9%E5%B7%A8%E7%82%AE.png",
@@ -2059,7 +2059,7 @@
     "atk": 436,
     "crit": 244,
     "effect": {
-      "effect_name": "Placeholder",
+      "effect_name": "Return to Depths",
       "effect_desc": "ATK increases by 10%. During Empty Realm and Instructed Realm, Nocturne Rush: Finisher generates an extra 30 Flow gauge. During Enlightened Realm, Base DMG of Nocturne Rush and Reflective Counter increases by 50%."
     }
   },

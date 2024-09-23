@@ -149,6 +149,7 @@ class EmbedClass:
             value=f"{weapon['crit']}",
         ),
         embed.set_thumbnail(url=weapon['thumbnail'])
+        embed.set_footer(text=weapon['weapon_type'])
         return embed
 
     def create_cub_embed(self, cub, choice, colour=0xffffff, chibi_avatar=""):

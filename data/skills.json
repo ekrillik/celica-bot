@@ -11636,7 +11636,7 @@
           "name": "Affix: Glaciation",
           "button_press": "",
           "description": [
-            "Certain skills fill the Glaciation Gauge. When full, the Gauge will clear itself and unleash Gelid, dealing Glaciation DMG and accumulating a Gelid stack. Casting an eligible skill will consume all Gelid stacks and create an Ice Spike that deals Glaciation DMG to its surroundings. If the character deals Glaciation DMG while the Ice Spike is on-field, triggers Cryocluster, dealing additional Glaciation DMG and generating Glaciation points. When the Ice Spike's on-field duration expires, triggers Cryoshatter, dealing Glaciation DMG based on the current Glaciation points. The Glaciation Gauge, Gelid stacks, Ice Spike, and Glaciation points will carry over between characters with the Glaciation Affix."
+            "Certain skills fill the Glaciation Gauge. When full, the Gauge will clear itself and unleash Gelid, dealing Glaciation DMG and accumulating a Gelid stack. Casting an eligible skill will consume all Gelid stacks and create an Ice Spike that deals Glaciation DMG to its surroundings.\n\nIf the character deals Glaciation DMG while the Ice Spike is on-field, triggers Cryocluster, dealing additional Glaciation DMG and generating Glaciation points.\n\nWhen the Ice Spike's on-field duration expires, triggers Cryoshatter, dealing Glaciation DMG based on the current Glaciation points. The Glaciation Gauge, Gelid stacks, Ice Spike, and Glaciation points will carry over between characters with the Glaciation Affix."
           ],
           "result": [
             "- When Glaciation points reaches 100, unleashes Gelid that deals 100% Glaciation DMG and accumulates 1 Gelid stack, up to 10 stacks.",

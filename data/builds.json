@@ -1649,7 +1649,10 @@
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
         "memories": ["4x Diesel", "2x Frederick", "2x Frederick (Harmony)"],
-        "memory_resonance": ["Top Slot   : 6x Atk", "Bottom Slot: 6x Signature"]
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ]
       }
     ]
   },
