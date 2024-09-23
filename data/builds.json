@@ -1590,7 +1590,9 @@
         "usage": "Alternative DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
-          "Alternative DPS set, Faster build up for Ult 1. Recommended to use for S rank Kaleido.",
+          "Alternative DPS set.",
+          "Faster build up for Ult 1.",
+          "Recommended to use for S rank Kaleido.",
           "Used for quick Pain Cage kills",
           "Used for double Ult rotation in Warzone which requires higher mechanical skill input."
         ],
