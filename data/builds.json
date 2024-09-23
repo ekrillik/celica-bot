@@ -1576,7 +1576,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": ["General DPS/sub-DPS set"],
+        "description": ["General DPS set", "Requires SS0 Kaleido or higher."],
         "memories": ["4x Aline", "2x Darwin"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1590,8 +1590,9 @@
         "usage": "Alternative DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
-          "Alternative DPS set for faster build up on Core Passive, used in faster Pain Cage kills and double ult rotation in Warzone with a minimum of SS rank.",
-          "Requires higher mechanical skill."
+          "Alternative DPS set, Faster build up for Ult 1. Recommended to use for S rank Kaleido.",
+          "Used for quick Pain Cage kills",
+          "Used for double Ult rotation in Warzone which requires higher mechanical skill input."
         ],
         "memories": ["4x Aline", "2x Cottie"],
         "memory_resonance": [
