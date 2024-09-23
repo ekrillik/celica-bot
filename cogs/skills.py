@@ -101,62 +101,62 @@ class Skills(commands.Cog):
         view.message = await ctx.send(embed=embed, view=view)
 
     @commands.hybrid_command(description="Displays the basic attack skill for a particular character.")
-    async def basic(self, ctx: commands.Context, *, character) -> None:
+    async def basic(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'basic')
 
     @commands.hybrid_command(description="Displays the red orb skill for a particular character.")
-    async def red(self, ctx: commands.Context, *, character) -> None:
+    async def red(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'red')
 
     @commands.hybrid_command(description="Displays the yellow orb skill for a particular character.")
-    async def yellow(self, ctx: commands.Context, *, character) -> None:
+    async def yellow(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'yellow')
 
     @commands.hybrid_command(description="Displays the blue orb skill for a particular character.")
-    async def blue(self, ctx: commands.Context, *, character) -> None:
+    async def blue(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'blue')
 
     @commands.hybrid_command(description="Displays the core passive skill for a particular character.")
-    async def core(self, ctx: commands.Context, *, character) -> None:
+    async def core(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'core')
 
     @commands.hybrid_command(aliases=['ult', 'ultimate'], description="Displays the signature skill/ultimate for a particular character.")
-    async def signature(self, ctx: commands.Context, *, character) -> None:
+    async def signature(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'signature')
 
     @commands.hybrid_command(description="Displays the QTE skill for a particular character.")
-    async def qte(self, ctx: commands.Context, *, character) -> None:
+    async def qte(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'qte')
 
     @commands.hybrid_command(description="Displays the leader passive skill for a particular character.")
-    async def leader(self, ctx: commands.Context, *, character) -> None:
+    async def leader(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'leader')
 
     @commands.hybrid_command(name="class", description="Displays the class passive skill for a particular character.")
-    async def class_passive(self, ctx: commands.Context, *, character) -> None:
+    async def class_passive(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'class')
 
     @commands.hybrid_command(aliases=["SS", "2S", "2s", "s5", "S5"], description="Displays the SS rank skills for a particular character.")
-    async def ss(self, ctx: commands.Context, *, character) -> None:
+    async def ss(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'ss')
 
     @commands.hybrid_command(aliases=["SSS", "3S", "3s", "SS3", "ss3"], description="Displays the SSS rank skills for a particular character.")
-    async def sss(self, ctx: commands.Context, *, character) -> None:
+    async def sss(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'sss')
 
     @commands.hybrid_command(name="splus", aliases=["s+", "SSS+", "S+", "3S+", "3s+"], description="Displays the S+ rank skills for a particular character.")
-    async def splus(self, ctx: commands.Context, *, character) -> None:
+    async def splus(self, ctx: commands.Context, *, character, level = 18) -> None:
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 's+')
 

@@ -910,12 +910,12 @@
     "crit": 66,
     "hp": 1491
   },
-  "hershel": {
-    "name": "Hershel",
+  "herschel": {
+    "name": "Herschel",
     "thumbnail": "",
     "rarity": 6,
-    "2pc": "",
-    "4pc": "",
+    "2pc": "Increases ATK by 5%. Increases Lightning DMG and Burn DMG by 5%.",
+    "4pc": "The continuous damage from the Glowing Embers Field and QTE apply resistance reduction effects. Double Exceed Points's Base DMG boost towards Starfall Collapse. Doubles the Base DMG of Burning Breakaway.",
     "note": [],
     "atk": 132,
     "def": 223,

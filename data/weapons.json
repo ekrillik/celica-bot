@@ -239,6 +239,18 @@
       "effect_desc": "Extra DMG Bonus increases by 7% when attacking enemies with Super Armor."
     }
   },
+  "photophage": {
+    "name": "Photophage",
+    "weapon_type": "Uniframe: Greatsword",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2kamumd010011.webp",
+    "atk": 253,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Photophange Phantom",
+      "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%."
+    }
+  },
   "astray explorer": {
     "name": "Astray Explorer",
     "weapon_type": "Spear Shield",
@@ -263,6 +275,18 @@
       "effect_desc": "After an Entrance Skill Extra DMG Bonus increases by 5% for 8s."
     }
   },
+  "iron star type vi": {
+    "name": "Iron Star Type VI",
+    "weapon_type": "Uniframe: Glaive",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2qumd010011.webp",
+    "atk": 260,
+    "crit": 137,
+    "effect": {
+      "effect_name": "Transcendence",
+      "effect_desc": "Physical DMG increases by 10% for 5s upon entering Matrix."
+    }
+  },
   "genesis": {
     "name": "Genesis",
     "weapon_type": "Amplifier",
@@ -285,6 +309,18 @@
     "effect": {
       "effect_name": "Heavy Barrel",
       "effect_desc": "Extra DMG Bonus of Frost Spin increases by 10%."
+    }
+  },
+  "overture": {
+    "name": "Overture",
+    "weapon_type": "Uniframe: Cello Blade",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2cellomd010011.webp",
+    "atk": 242,
+    "crit": 137,
+    "effect": {
+      "effect_name": "Prologue",
+      "effect_desc": "Attack increases by 8%. After dodging an Attack, movement speed increases by 8% for 4s."
     }
   },
   "standard gunblade": {
@@ -323,6 +359,18 @@
       "effect_desc": "DMG from Red Orbs Reaper Sweep increases by 10%."
     }
   },
+  "pioneer": {
+    "name": "Pioneer",
+    "weapon_type": "Uniframe: Chain Blade",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2luolanmd010011.webp",
+    "atk": 240,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Pioneer Blade",
+      "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%."
+    }
+  },
   "apocalypse": {
     "name": "Apocalypse",
     "weapon_type": "Scepter",
@@ -347,6 +395,18 @@
       "effect_desc": "Red Orbs deals 15% more damage."
     }
   },
+  "gray iron": {
+    "name": "Gray Iron",
+    "weapon_type": "Uniframe: Dragon Axe",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2boomerangmd010011.webp",
+    "atk": 238,
+    "crit": 138,
+    "effect": {
+      "effect_name": "Change of Stars",
+      "effect_desc": "DMG Bonus increases by 10% upon the activation of Dragon Axe."
+    }
+  },
   "rage": {
     "name": "Rage",
     "weapon_type": "Mega Saw",
@@ -369,6 +429,18 @@
     "effect": {
       "effect_name": "Test Circuit",
       "effect_desc": "Extra DMG Bonus of Radiant Whirlwind increases by 10%."
+    }
+  },
+  "hope of the village": {
+    "name": "Hope of the Village",
+    "weapon_type": "Uniframe: Rev Blade",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2nuoanmd010011.webp",
+    "atk": 247,
+    "crit": 126,
+    "effect": {
+      "effect_name": "'Reinforcement Level +15'",
+      "effect_desc": "DMG Bonus of Basic Attack increases by 15%."
     }
   },
   "dusk mirage": {
@@ -575,76 +647,28 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "photophage": {
-    "name": "Photophage",
-    "weapon_type": "Uniframe: Greatsword",
+  "night rakshasa": {
+    "name": "Night Rakshasa",
+    "weapon_type": "Power Fists",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2kamumd010011.webp",
-    "atk": 253,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2packmd010011sp.webp",
+    "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Photophange Phantom",
-      "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%."
+      "effect_name": "Blinding Bloom",
+      "effect_desc": "ATK increases by 5%."
     }
   },
-  "iron star type vi": {
-    "name": "Iron Star Type VI",
-    "weapon_type": "Uniframe: Glaive",
+  "prototype shield axe zl-07": {
+    "name": "Prototype Shield Axe ZL-07",
+    "weapon_type": "Charge Blade",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2qumd010011.webp",
-    "atk": 260,
-    "crit": 137,
-    "effect": {
-      "effect_name": "Transcendence",
-      "effect_desc": "Physical DMG increases by 10% for 5s upon entering Matrix."
-    }
-  },
-  "overture": {
-    "name": "Overture",
-    "weapon_type": "Uniframe: Cello Blade",
-    "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2cellomd010011.webp",
-    "atk": 242,
-    "crit": 137,
-    "effect": {
-      "effect_name": "Prologue",
-      "effect_desc": "Attack increases by 8%. After dodging an Attack, movement speed increases by 8% for 4s."
-    }
-  },
-  "pioneer": {
-    "name": "Pioneer",
-    "weapon_type": "Uniframe: Chain Blade",
-    "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2luolanmd010011.webp",
-    "atk": 240,
+    "thumbnail": "",
+    "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Pioneer Blade",
-      "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%."
-    }
-  },
-  "gray iron": {
-    "name": "Gray Iron",
-    "weapon_type": "Uniframe: Dragon Axe",
-    "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2boomerangmd010011.webp",
-    "atk": 238,
-    "crit": 138,
-    "effect": {
-      "effect_name": "Change of Stars",
-      "effect_desc": "DMG Bonus increases by 10% upon the activation of Dragon Axe."
-    }
-  },
-  "hope of the village": {
-    "name": "Hope of the Village",
-    "weapon_type": "Uniframe: Rev Blade",
-    "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2nuoanmd010011.webp",
-    "atk": 247,
-    "crit": 126,
-    "effect": {
-      "effect_name": "'Reinforcement Level +15'",
-      "effect_desc": "DMG Bonus of Basic Attack increases by 15%."
+      "effect_name": "Night Tour",
+      "effect_desc": "ATK increases by 5%."
     }
   },
   "gloomlight": {
@@ -791,6 +815,18 @@
       "effect_desc": "Extra DMG Bonus increases by 10% for 4s when performing a QTE or 3-Ping skill. Duration resets every time it is triggered."
     }
   },
+  "glimpse": {
+    "name": "Glimpse",
+    "weapon_type": "Uniframe: Greatsword",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2kamumd020011.webp",
+    "atk": 400,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Rageful Abyss",
+      "effect_desc": "After a 3-Ping, Extra DMG Bonus is increased by 12% for 4s."
+    }
+  },
   "rl-03c black spike": {
     "name": "RL-03C Spike",
     "weapon_type": "Spear Shield",
@@ -813,6 +849,18 @@
     "effect": {
       "effect_name": "Formless Palm",
       "effect_desc": "After a dodge, Extra DMG Bonus is increased by 8% for 4s."
+    }
+  },
+  "guiyun": {
+    "name": "Guiyun",
+    "weapon_type": "Uniframe: Glaive",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2qumd020011.webp",
+    "atk": 411,
+    "crit": 211,
+    "effect": {
+      "effect_name": "Cleansing",
+      "effect_desc": "After casting a Blue Orb skill, Physical DMG increases by 10% for 5s. Duration resets every time it is triggered."
     }
   },
   "solar ring": {
@@ -875,6 +923,18 @@
       "effect_desc": "Ice DMG increases by 10%."
     }
   },
+  "odette": {
+    "name": "Odette",
+    "weapon_type": "Uniframe: Cello Blade",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2cellomd020011.webp",
+    "atk": 382,
+    "crit": 211,
+    "effect": {
+      "effect_name": "Swan Lake",
+      "effect_desc": "After a 3-Ping, ATK increases by 3% for 5s, stacking up to 5 times. Duration resets every time it is triggered."
+    }
+  },
   "kara type i gunblade": {
     "name": "Kara Type I Gunblade",
     "weapon_type": "Gunblade",
@@ -911,6 +971,18 @@
       "effect_desc": "Lightning DMG increases by 10%."
     }
   },
+  "blooming rose": {
+    "name": "Blooming Rose",
+    "weapon_type": "Uniframe: Chain Blade",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2luolanmd020011.webp",
+    "atk": 379,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Opening Fireworks",
+      "effect_desc": "After casting valid combo twice withing 6s, all damage increases by 10% for 5s. Duration resets every time it is triggered."
+    }
+  },
   "bipolar star rift": {
     "name": "Bipolar Star Rift",
     "weapon_type": "Scepter",
@@ -935,6 +1007,18 @@
       "effect_desc": "Dark DMG increases by 10%."
     }
   },
+  "whitefrost ruler": {
+    "name": "Whitefrosst Ruler",
+    "weapon_type": "Uniframe: Dragon Axe",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2boomerangmd020011.webp",
+    "atk": 375,
+    "crit": 217,
+    "effect": {
+      "effect_name": "Falling Moon",
+      "effect_desc": "Base DMG of Signature - Spirit Blade Dance increases by 20%."
+    }
+  },
   "red shift": {
     "name": "Red Shift",
     "weapon_type": "Mega Saw",
@@ -957,6 +1041,18 @@
     "effect": {
       "effect_name": "Darkstar Convergence",
       "effect_desc": "Dark DMG increases by 10%."
+    }
+  },
+  "progressive knife": {
+    "name": "Progressive Knife",
+    "weapon_type": "Uniframe: Rev Blade",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2nuoanmd020011.webp",
+    "atk": 390,
+    "crit": 191,
+    "effect": {
+      "effect_name": "Energy Berserk",
+      "effect_desc": "DMG from pinging Signal Orbs increases by 20%."
     }
   },
   "polar night": {
@@ -1175,76 +1271,28 @@
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
-  "glimpse": {
-    "name": "Glimpse",
-    "weapon_type": "Uniframe: Greatsword",
+  "purging levin": {
+    "name": "Purging Levin",
+    "weapon_type": "Power Fists",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2kamumd020011.webp",
-    "atk": 400,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2packmd020011sp.webp",
+    "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Rageful Abyss",
-      "effect_desc": "After a 3-Ping, Extra DMG Bonus is increased by 12% for 4s."
+      "effect_name": "Thunderclap Purification",
+      "effect_desc": "Lightning DMG increases by 10%."
     }
   },
-  "guiyun": {
-    "name": "Guiyun",
-    "weapon_type": "Uniframe: Glaive",
+  "type zl-09 illuminance": {
+    "name": "Type ZL-09 Illuminance",
+    "weapon_type": "Charge Blade",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2qumd020011.webp",
-    "atk": 411,
-    "crit": 211,
-    "effect": {
-      "effect_name": "Cleansing",
-      "effect_desc": "After casting a Blue Orb skill, Physical DMG increases by 10% for 5s. Duration resets every time it is triggered."
-    }
-  },
-  "odette": {
-    "name": "Odette",
-    "weapon_type": "Uniframe: Cello Blade",
-    "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2cellomd020011.webp",
-    "atk": 382,
-    "crit": 211,
-    "effect": {
-      "effect_name": "Swan Lake",
-      "effect_desc": "After a 3-Ping, ATK increases by 3% for 5s, stacking up to 5 times. Duration resets every time it is triggered."
-    }
-  },
-  "blooming rose": {
-    "name": "Blooming Rose",
-    "weapon_type": "Uniframe: Chain Blade",
-    "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2luolanmd020011.webp",
-    "atk": 379,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2packmd020011sp.webp",
+    "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Opening Fireworks",
-      "effect_desc": "After casting valid combo twice withing 6s, all damage increases by 10% for 5s. Duration resets every time it is triggered."
-    }
-  },
-  "whitefrost ruler": {
-    "name": "Whitefrosst Ruler",
-    "weapon_type": "Uniframe: Dragon Axe",
-    "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2boomerangmd020011.webp",
-    "atk": 375,
-    "crit": 217,
-    "effect": {
-      "effect_name": "Falling Moon",
-      "effect_desc": "Base DMG of Signature - Spirit Blade Dance increases by 20%."
-    }
-  },
-  "progressive knife": {
-    "name": "Progressive Knife",
-    "weapon_type": "Uniframe: Rev Blade",
-    "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2nuoanmd020011.webp",
-    "atk": 390,
-    "crit": 191,
-    "effect": {
-      "effect_name": "Energy Berserk",
-      "effect_desc": "DMG from pinging Signal Orbs increases by 20%."
+      "effect_name": "Light's Benediction",
+      "effect_desc": "Lightning DMG increases by 10%."
     }
   },
   "lotus berserker": {
@@ -2013,6 +2061,18 @@
     "effect": {
       "effect_name": "Placeholder",
       "effect_desc": "ATK increases by 10%. During Empty Realm and Instructed Realm, Nocturne Rush: Finisher generates an extra 30 Flow gauge. During Enlightened Realm, Base DMG of Nocturne Rush and Reflective Counter increases by 50%."
+    }
+  },
+  "star tunnel of light": {
+    "name": "Star Tunnel of Light",
+    "weapon_type": "Charge Blade",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 436,
+    "crit": 294,
+    "effect": {
+      "effect_name": "Sublime Omnislash",
+      "effect_desc": "Increases ATK by 10%. Doubles the Base DMG of Heavenly Star Piercer and Gigabyte Star Sunder, and generates 1 3-Ping after casting."
     }
   }
 }

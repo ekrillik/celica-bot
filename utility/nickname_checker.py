@@ -320,7 +320,12 @@ def check_nickname(nickname, caller):
             weapon = "morrow's executioner"
             cub = "n/a"
             memory = "n/a"
-        
+        case "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki":
+            character = "startrail"
+            weapon = "star tunnel of light"
+            cub = "an ji"
+            memory = "herschel"
+
         case _:
             if(caller == "character"):
                 character = nickname
@@ -719,6 +724,11 @@ def character_theme(nickname):
             colour = 0xc14d2c
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2bazhi2q.webp"
             thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr2bazhi3.256.webp"
+        case "startrail":
+            name = "Nanami: Startrail"
+            colour = 0xfdee75
+            chibi_portrait = ""
+            thumbnail_url = ""
         case _:
             name = ""
             colour = ""

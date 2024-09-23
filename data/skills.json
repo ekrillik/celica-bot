@@ -1401,7 +1401,8 @@
           "**Level 9**: [QTE - Heroic Dance] triggers an additional Light Penalty of Core Passive's level"
         ],
         "level18": [
-          "**Level 18**: [QTE - Heroic Dance] grants 12 Energy after triggering Light Penalty. [Passive - Field Reinforcement] New Effect: The effect of Ultralimit Torque increases to 20%."
+          "**Level 18**: [QTE - Heroic Dance] grants 12 Energy after triggering Light Penalty.",
+          "[Passive - Field Reinforcement] New Effect: The effect of Ultralimit Torque increases to 20%."
         ]
       },
       {
@@ -7221,7 +7222,7 @@
         ],
         "level9": [
           "**Level 9**: When pinging orbs during the Comet Combo, Scire grants 120 / 240 / 360 points of Ampere Accumulation to the party. Comet Combo Finisher additionally grants 24 / 48 / 72 points of Ampere Accumulation.",
-          "[Core Passive-Space Walk] added effect: Effect: Electroconvergence",
+          "[Core Passive-Space Walk] added effect: Affix: Electroconvergence",
           "- Effect Resource: Maximum points of Ampere Accumulation: 1000.",
           "- When the Effect is triggered: Character with the Electroconvergence Effect enters the Electronic Blast state and causes lightning to fall around themselves, dealing 800% Electroconvergence DMG every 2s for 12s (this cannot trigger the Tank Class passive).",
           "[QTE-Dawn Fall] added effect: Deals 100% Electroconvergence DMG."
@@ -7656,7 +7657,7 @@
           "- While Stigmata is performing [Stormlight Chaos], each stack of Mark of Shadow will increase the Base DMG of Trueslash triggered by 1.2%.",
           "- While Resolution is active, dodge and tap Basic Attack in succession to directly perform Basic Attack Combo 5.",
           "- After unleashing [Stormlight Chaos], Stigmata's attacks will not be able to activate the Afterglow Shadow effect.",
-          "- Effect: Trueslash: Certain skills can accumulate Veiled Edge points. Veiled Edge points can be inherited by the next character with the Trueslash Effect. Maximum points of Veiled Edge: 999. When Veiled Edge points reach 100, perform Trueslash by consuming 100 Veiled Edge points upon hitting the enemy with the next cast of a skill that can trigger Trueslash, dealing 400% Trueslash DMG. Gains 1 point of Veracity every time Trueslash is triggered. Maximum points of Veracity: 90."
+          "- Affix: Trueslash: Certain skills can accumulate Veiled Edge points. Veiled Edge points can be inherited by the next character with the Trueslash Effect. Maximum points of Veiled Edge: 999. When Veiled Edge points reach 100, perform Trueslash by consuming 100 Veiled Edge points upon hitting the enemy with the next cast of a skill that can trigger Trueslash, dealing 400% Trueslash DMG. Gains 1 point of Veracity every time Trueslash is triggered. Maximum points of Veracity: 90."
         ],
         "level9": [
           "**Level 9**: Activating Sword Form when Afterglow Points is at least half full increases CRIT DMG by 10% while Afterglow Enhancement is active."
@@ -8546,7 +8547,55 @@
           "desc": "Extra DMG Bonus of  Signature - Weave: Karmic Inferno increases by  50%."
         }
       ]
-    }
+    },
+    "leap_preload": [
+      {
+        "name": "Mist-Trailing Bolt",
+        "description": [
+          "While casting Leaping Thrust, continue holding Basic Attack to throw the odachi, dealing 60% Umbrasurge DMG and transitioning into Shadow Strike. During this period, Red and Yellow Signal Orbs are converted into Shadow Strike Orbs. Each Shadow Strike Orb pinged unleashes 1 hit of Shadow Strike (up to 6 hits) that deals 450% Umbrasurge DMG, restores 1 Energy and 15 Aphotic Points. Afterwards, casts Shadow: Thunderous Bash, dealing 940% Umbrasurge DMG.",
+          "- During Shadow Strike, continuously tapping or holding Basic Attack will automatically ping Shadow Strike Orbs. After fully casting the 6th hit, the next [Signature Move - Weave: Karmic Inferno] will deal 2600% Umbrasurge DMG instead.",
+          "If this skill is triggered by holding Basic Attack, and CUB Motorbolt is in Standby Mode, you must ping any Shadow Strike Orb during Leaping Thrust to transition into Shadow Strike."
+        ],
+        "level9": [
+          "**Level 9**: Each Umbrasurge stack increases the Base DMG of Shadow Strike by 10%.",
+          "[Signature Move - Weave: Karmic Inferno] will clear all Umbrasurge stacks and add Umbrasurge DMG equal to the number of stacks consumed x 400%."
+        ],
+        "level18": [
+          "**Level 18**: For every Aphotic Point consumed by Thunderous Bash or Shadow: Thunderous Bash, increases the Base DMG of the next [Signature Move - Weave: Karmic Inferno] by 0.15% (does not stack).",
+          "[SS Passive - Drifting Vain] added effect: Each Umbrasurge stack increases the Base DMG of Shadow Strike by an additional 5%."
+        ]
+      },
+      {
+        "name": "Conviction of Nimitta",
+        "description": [
+          "Increases the Base DMG of [Core Passive - Resolute Blow] by 60%, and allows 2 additional parries during Parry Stance."
+        ],
+        "level9": [
+          "**Level 9**: If a Red 3-Ping or Yellow 3-Ping is cast, followed by [Core Passive - Sundered Delusion] within the next 3s, increases the gain rate of Blade Aura and automatically rapid casts [Core Passive - Resolute Blow] once Blade Aura reaches maximum."
+        ],
+        "level18": [
+          "**Level 18**: Upon entering the battlefield, gain 9 Energy.",
+          "[SSS Passive - Facets of Delusions] added effect: After casting [Signature Move - Weave: Karmic Inferno], increases the Base DMG of [QTE - Flashes of Steel] by 1000% for the duration of the battle. Adds additional Umbrasurge DMG to [Signature Move - Weave: Karmic Inferno] equal to the number of stacks consumed x 200%."
+        ]
+      },
+      {
+        "name": "Thunder-Ruling Armaments",
+        "description": [
+          "Adds [Affix: Umbrasurge] to [Core Passive - Path of Anatta]:\n",
+          "Every 200 Umbrasurge points accumulated will increase the number of Umbrasurge stacks by 1, up to 15 stacks. Characters with the Umbrasurge Affix will obtain an Umbrasurge Aura based on the current number of Umbrasurge stacks, continuously dealing a small amount of Umbrasurge DMG to enemies and reducing their HP regeneration. Reaching a threshold number of Umbrasurge stacks will upgrade the Umbrasurge Aura, expanding its range and dealing a large amount of Umbrasurge DMG to enemies within.",
+          "- At 1/3/6/10/15 stacks: Deals 100%/200%/400%/800%/1600% Umbrasurge DMG, then deals 20%/40%/60%/80%/100% Umbrasurge per second and reduces the enemy's HP regeneration by 10%/20%/30%/50%/100%.",
+          "Pinging Blue Signal Orbs generates 50/100/200 Umbrasurge points. Casting [Core Passive - Resolute Blow] while holding the kodachi generates 50/100/200 Umbrasurge points. Continuously unleashing swordwaves through [Basic Attack - Blading Radiance] generates 60 Umbrasurge points every 0.5s. Enhanced swordwaves generate an additional 100 Umbrasurge points."
+        ],
+        "level9": [
+          "**Level 9**: Increase the Base DMG of Signal Orbs by 50%.",
+          "When any orb is pinged for the first time upon entering the battlefield, a maximum of 1 orb will be consumed."
+        ],
+        "level18": [
+          "**Level 18**:  While holding the kodachi, all Signal Orbs are converted into Blue Orbs.",
+          "[SSS+ Passive - Glimpse Into All] added effect: Gain 15% Extra DMG Bonus when holding the odachi."
+        ]
+      }
+    ]
   },
   "zitherwoe": {
     "basic_attack": [
@@ -11037,7 +11086,7 @@
           ]
         },
         {
-          "name": "Effect: Combustion",
+          "name": "Affix: Combustion",
           "button_press": "",
           "description": [
             "Flammable: Every 250 Incendiary Points increases Flammable stack by 1. Maximum Flammable stacks: 20.\nCombustion: When a target is inflicted with the Combustion effect, they will receive Combustion DMG equal to the no. of Combustion Stacks*30% every second for 10s. This does not trigger Tank Class Skill."
@@ -11271,7 +11320,7 @@
           ]
         },
         {
-          "name": "Effect: Trueslash",
+          "name": "Affix: Trueslash",
           "button_press": "",
           "description": [
             "Certain skills can accumulate Veiled Edge points. Veiled Edge points can be inherited by the next character with the Trueslash Effect. Maximum points of Veiled Edge: 999."
@@ -11386,10 +11435,10 @@
         "button_press": "Calibration Mode + Cylinder is not empty + Hold Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Activates Double-Action Mode, using the hidden Cylinder to continuously consume Condensation Rounds and fire at the enemy. Gains Super Armor and 50% DMG Reduction during this. Depending on the current Calibration Mode, deals Ice DMG or Hiemal DMG while gaining additional Signature Energy.",
+          "desc": "Activates Double-Action Mode, using the hidden Cylinder to continuously consume Condensation Rounds and fire at the enemy. Gains Super Armor and 50% DMG Reduction during this. Depending on the current Calibration Mode, deals Ice DMG or Glaciation DMG while gaining additional Signature Energy.",
           "result": [
             "- If fired in Calibration Mode: Quiescence, each shot consumes 2 Condensation rounds, dealing 220% Ice DMG.",
-            "- If fired in Calibration Mode: Desolation, each shot consumes 2 Condensation rounds, dealing 140% Hiemal DMG and granting 100 Glaciation Points.",
+            "- If fired in Calibration Mode: Desolation, each shot consumes 2 Condensation rounds, dealing 140% Glaciation DMG and granting 100 Glaciation Points.",
             "- Each shot additionally grants 5 / 9 / 13 / 17 / 21 / 40 Signature Energy based on the current number of shots fired. Exiting Double-Action Mode resets the counter.",
             "- When Wanshi runs out of Condensation Rounds or exits Calibration Mode, he will exit Double-Action Mode after a short delay."
           ]
@@ -11402,10 +11451,10 @@
         "button_press": "Calibration Mode + Ping Red Orb",
         "switch_in": "no",
         "description": {
-          "desc": "Consumes 1 Condensation Round to fire at the enemy, dealing Ice or Hiemal DMG depending on the current Calibration Mode. When this skill is performed consecutively, Wanshi enters Burst Mode, during which he gains Super Armor, 50% DMG Reduction, Wounding buff, and additional Signature Energy.",
+          "desc": "Consumes 1 Condensation Round to fire at the enemy, dealing Ice or Glaciation DMG depending on the current Calibration Mode. When this skill is performed consecutively, Wanshi enters Burst Mode, during which he gains Super Armor, 50% DMG Reduction, Wounding buff, and additional Signature Energy.",
           "result": [
             "- When fired in Calibration Mode: Quiescence, deals 220% Ice DMG.",
-            "- When fired in Calibration Mode: Desolation, deals 140% Hiemal DMG and grants 100 Glaciation Points.",
+            "- When fired in Calibration Mode: Desolation, deals 140% Glaciation DMG and grants 100 Glaciation Points.",
             "- When performed consecutively, Wanshi enters Burst Mode, gaining the Wounding buff. The Wounding buff increases the Base DMG of the next Gale Strike cast by 7.5% for 3s. Triggering this effect again refreshes its duration. Maximum no. of Wounding stacks: 12. Exiting Burst Mode clears all Wounding stacks. Wanshi additionally gains 25% Base DMG Increase when he has the maximum no. of Wounding stacks.",
             "- Exiting Calibration Mode automatically ends Burst Mode.",
             "- When in Burst Mode, each shot additionally grants 2 / 6 / 10 / 14 / 18 / 37 Signature Energy based on the current number of shots fired. Exiting Burst Mode resets the counter."
@@ -11428,9 +11477,9 @@
         "button_press": "Ancillary Revolver + Calibration Mode + During Bullet Hail + Empty Cylinder + Tap Red Orb",
         "switch_in": "no",
         "description": {
-          "desc": "Expends the Ancillary Revolver to reload the Cylinder and consumes Condensation Rounds to trigger Frosty Ascent. Freezes the Calibration Meter and grants invincibility to Wanshi while performing this skill. Deals Ice or Hiemal DMG depending on the current Calibration Mode. Tapping Red Orb again or dodging during Frosty Ascent will make Wanshi command the lightweight drone to throw an Ancillary Revolver; this freezes the Calibration Meter, pulls in enemies, and deals Ice DMG. Upon successfully catching the thrown revolver, reload the Cylinder and refresh the duration of Calibration Mode.",
+          "desc": "Expends the Ancillary Revolver to reload the Cylinder and consumes Condensation Rounds to trigger Frosty Ascent. Freezes the Calibration Meter and grants invincibility to Wanshi while performing this skill. Deals Ice or Glaciation DMG depending on the current Calibration Mode. Tapping Red Orb again or dodging during Frosty Ascent will make Wanshi command the lightweight drone to throw an Ancillary Revolver; this freezes the Calibration Meter, pulls in enemies, and deals Ice DMG. Upon successfully catching the thrown revolver, reload the Cylinder and refresh the duration of Calibration Mode.",
           "result": [
-            "- Frosty Ascent deals 75% Ice DMG; deals 420% Hiemal DMG instead and gains 400 Glaciation Points if in Calibration Mode: Desolation. Every 2 Condensation Rounds consumed while performing Frosty Ascent grants 13 Signature Energy.",
+            "- Frosty Ascent deals 75% Ice DMG; deals 420% Glaciation DMG instead and gains 400 Glaciation Points if in Calibration Mode: Desolation. Every 2 Condensation Rounds consumed while performing Frosty Ascent grants 13 Signature Energy.",
             "- Wanshi can replace his gun during Frosty Ascent by tapping Red Orb again, dealing 800% Ice DMG. Tapping Red Orb or dodging at that moment will make Wanshi: Lucid Dreamer automatically rush to the Ancillary Revolver's landing point, during which he will be invincible. Upon successfully catching the thrown revolver, reload the Cylinder and refresh the duration of Calibration Mode."
           ]
         }
@@ -11546,7 +11595,7 @@
           ],
           "result": [
             "- Hold and release Red Orb to enter Calibration Mode: Quiescence, dealing 500% Ice DMG.",
-            "- Hold and release Dodge to enter Calibration Mode: Desolation, dealing 280% Hiemal DMG.",
+            "- Hold and release Dodge to enter Calibration Mode: Desolation, dealing 280% Glaciation DMG.",
             "- Inflicts enemies with the Frost Corrosion effect that reduces Ice Resistance by 25% for 8s when entering Calibration Mode.",
             "- While in Calibration Mode, Wanshi consumes 30 Calibration Points every second, and he will exit Calibration Mode when he fully depletes Calibration Points. Performing a 3-Ping in Calibration Mode grants 40 Calibration Points.",
             "- While in Calibration Mode, each cast of Gale Strike or Bullet Hail grants a shield equal to 5% of Wanshi's maximum HP. This shield can stack up to 6 times.",
@@ -11584,16 +11633,16 @@
           ]
         },
         {
-          "name": "Effect: Glaciation",
+          "name": "Affix: Glaciation",
           "button_press": "",
           "description": [
-            "Certain skills can accumulate  Glaciation Points. When Glaciation Points reach the maximum value, Diamond Dust is triggered, dealing Hiemal DMG and accumulating  Diamond Dust Stacks. Certain skills can consume all Diamond Dust Stacks to generate an Ice Spike, which deals Hiemal DMG in the surrounding area.\n\nThe Ice Spike lasts for a period of time; when it deals Hiemal DMG during this period, it will trigger Crystallization, dealing additional Hiemal DMG and accumulating  Crystalline Points.\n\nWhen the duration of the Ice Spike expires, it will trigger Icebreak, which deals Hiemal DMG based on the current Crystalline Points value.  Glaciation Points, Diamond Dust Stacks, Ice Spike, and Crystalline Points can be inherited by the next character with the Glaciation Effect."
+            "Certain skills fill the Glaciation Gauge. When full, the Gauge will clear itself and unleash Gelid, dealing Glaciation DMG and accumulating a Gelid stack. Casting an eligible skill will consume all Gelid stacks and create an Ice Spike that deals Glaciation DMG to its surroundings. If the character deals Glaciation DMG while the Ice Spike is on-field, triggers Cryocluster, dealing additional Glaciation DMG and generating Glaciation points. When the Ice Spike's on-field duration expires, triggers Cryoshatter, dealing Glaciation DMG based on the current Glaciation points. The Glaciation Gauge, Gelid stacks, Ice Spike, and Glaciation points will carry over between characters with the Glaciation Affix."
           ],
           "result": [
-            "- When Glaciation Points reach 100, Diamond Dust is triggered once, dealing 100% Hiemal DMG and accumulating 1 Diamond Dust Stack. Maximum number of Diamond Dust Stacks: 10.",
-            "- When the number of Diamond Dust Stacks is greater than 0, certain skills can consume all Diamond Dust Stacks to generate an Ice Spike on the battlefield, dealing 180% Hiemal DMG. When generating the Ice Spike, every 1 Diamond Dust Stack consumed increases its duration by 1s.",
-            "- When the Ice Spike deals Hiemal DMG while it is present, it will trigger Crystallization, dealing 100% Hiemal DMG to enemies in a large area and accumulating 100 Crystalline Points. This can occur up to once every 0.25s.",
-            "- When the duration of the Ice Spike expires, it will trigger Icebreak, dealing 100% Hiemal DMG to enemies in a large area. The Base DMG of Icebreak increases by 9% for every 100 Crystalline Points. Maximum number of Crystalline Points: 10000."
+            "- When Glaciation points reaches 100, unleashes Gelid that deals 100% Glaciation DMG and accumulates 1 Gelid stack, up to 10 stacks.",
+            "- If there is at least 1 Gelid stack, certain skills can clear all Gelid stacks and create an Ice Spike on-field, dealing 180% Glaciation DMG. The Ice Spike's duration increases by 1s for every Gelid stack consumed.",
+            "- While the Ice Spike exists, if the character deals Glaciation DMG, triggers Cryocluster, dealing 100% Glaciation DMG to enemies in a large area and generating 100 Glaciation points. Can be triggered once every 0.25s.",
+            "- When the Ice Spike's duration expires, triggers Cryoshatter to deal 100% Glaciation DMG to enemies in a large area. Base DMG of Cryoshatter increases by 9% for every 100 Glaciation points. The maximum Glaciation points is 10000."
           ]
         }
       ]
@@ -11605,10 +11654,10 @@
           "name": "Hyperlinked Flight",
           "button_press": "Consume 160 Energy + Not during Bullet Hail/Frosty Ascent + Tap Signature Move",
           "description": {
-            "desc": "Summons a lightweight drone to generate a forcefield, pulling in enemies and firing a strengthened Condensation Round. Deals Ice or Hiemal DMG depending on the current Calibration Mode. Upon performing this skill, immediately gains 1 Signal Orb and rearranges Signal Orbs into 3-Pings. Time Lag Calculation is activated while performing this skill. If Wanshi has the Domain Overlimit effect when performing this skill, its duration is refreshed.\n\nDomain Overlimit: The effect gained when Matrix is triggered that makes the next ping count as a 3-Ping.",
+            "desc": "Summons a lightweight drone to generate a forcefield, pulling in enemies and firing a strengthened Condensation Round. Deals Ice or Glaciation DMG depending on the current Calibration Mode. Upon performing this skill, immediately gains 1 Signal Orb and rearranges Signal Orbs into 3-Pings. Time Lag Calculation is activated while performing this skill. If Wanshi has the Domain Overlimit effect when performing this skill, its duration is refreshed.\n\nDomain Overlimit: The effect gained when Matrix is triggered that makes the next ping count as a 3-Ping.",
             "result": [
               "- When Wanshi is in Calibration Mode: Quiescence or has not entered Calibration Mode, deals 2400% Ice DMG. If Wanshi is in Calibration Mode: Quiescence when performing this skill, resets the Calibration Meter upon performing this skill and exits Calibration Mode: Quiescence.",
-              "- When Wanshi is in Calibration Mode: Desolation, deals 1400% Hiemal DMG instead; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Desolation.",
+              "- When Wanshi is in Calibration Mode: Desolation, deals 1400% Glaciation DMG instead; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Desolation.",
               "- Performing Hyperlinked Flight while in Burst Mode can grant the Wounding buff.",
               "- Generates an Ice Spike upon performing this skill based on the number of Diamond Dust Stacks."
             ]
@@ -11618,10 +11667,10 @@
           "name": "Ruinous Blizzard",
           "button_press": "Consume 160 Energy + During Bullet Hail/Frosty Ascent + Tap Signature Move",
           "description": {
-            "desc": "The lightweight drone propels Wanshi: Lucid Dreamer into the air, pulling in enemies and strafing the ground. Deals Ice DMG or Hiemal DMG depending on the current  Calibration Mode. Upon performing this skill, immediately gain 1 Signal Orb and rearrange Signal Orbs into 3-Pings.  Time Lag Calculation is activated while performing this skill. If Wanshi has the  Overlimit Domain effect when performing this skill, its duration is refreshed.",
+            "desc": "The lightweight drone propels Wanshi: Lucid Dreamer into the air, pulling in enemies and strafing the ground. Deals Ice DMG or Glaciation DMG depending on the current  Calibration Mode. Upon performing this skill, immediately gain 1 Signal Orb and rearrange Signal Orbs into 3-Pings.  Time Lag Calculation is activated while performing this skill. If Wanshi has the  Overlimit Domain effect when performing this skill, its duration is refreshed.",
             "result": [
               "- When Wanshi is in Calibration Mode: Quiescence, immediately deals 1850% Ice DMG; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Quiescence. After exiting the battlefield, Wanshi: Lucid Dreamer will additionally deal 900% Ice DMG when performing Point-blank Shooting; this effect can be triggered only once every time he exits the battlefield.",
-              "- When Wanshi is in Calibration Mode: Desolation, deals 1030% Hiemal DMG instead; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Desolation. After exiting the battlefield, Wanshi: Lucid Dreamer will additionally deal 500% Hiemal DMG when performing Point-blank Shooting; this effect can be triggered only once every time he exits the battlefield.",
+              "- When Wanshi is in Calibration Mode: Desolation, deals 1030% Glaciation DMG instead; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Desolation. After exiting the battlefield, Wanshi: Lucid Dreamer will additionally deal 500% Glaciation DMG when performing Point-blank Shooting; this effect can be triggered only once every time he exits the battlefield.",
               "- Performing this skill consumes all Correcting Rounds. Each Correcting Round consumed increases the Base DMG of this cast of Ruinous Blizzard by 5%. If 30 Correcting Rounds have been consumed when performing this skill, additionally gains 100% Base DMG Increase and 1 Signal Orb.",
               "- Generates an Ice Spike upon performing this skill based on the number of Diamond Dust Stacks."
             ]
@@ -11953,7 +12002,7 @@
           "result": ["- Each follow up of Crimson Blades deals 20% Fire DMG."]
         },
         {
-          "name": "Effect: Electroconvergence",
+          "name": "Affix: Electroconvergence",
           "button_press": "",
           "description": [
             "Effect Resource: Maximum points of Ampere Accumulation: 1000."
@@ -12081,6 +12130,522 @@
         {
           "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of Signature Move - Auxiliary Precision Slash and Signature Move - Endless Eclipse increases by 40%. "
+        }
+      ]
+    }
+  },
+  "fulgor": {
+    "basic_attack": [
+      {
+        "name": "Swift Storm",
+        "button_press": "Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Attacks the enemy with martial arts",
+          "result": ["- Deals a total of 610% Lightning DMG."]
+        }
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Upanishad-Rampart - Red Orb Combo 1",
+        "button_press": "No Orb Combo + Ping Red Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Condenses electrical current into her bat and swings it, dealing Lightning DMG and generating Flow Gauge.",
+          "result": [
+            "- Deals 100%/200%/300% Lightning DMG and generates 10/20/30 Flow Gauge based on the number of orbs pinged.",
+            "- If an Ice Spike exists on the field, deals 80%/160%/240% Glaciation DMG instead.",
+            "- Yata can dodge or block the returning bat to trigger Matrix"
+          ]
+        }
+      },
+      {
+        "name": "Upanishad-Rampart - Red Orb Combo 2",
+        "button_press": "Red Orb Combo 1 + Ping Red Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Catches the bat and rushes forward, dealing Lightning DMG and generating Flow Gauge.",
+          "result": [
+            "- Deals 160%/320%/480% Lightning DMG and generates 10/20/30 Flow Gauge based on the number of orbs pinged.",
+            "- If an Ice Spike exists on the field, deals 130%/260%/390% Glaciation DMG instead."
+          ]
+        }
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Upanishad-Collapse - Yellow Orb Combo 1",
+        "button_press": "No Orb Combo + Ping Yellow Or",
+        "switch_in": "no",
+        "description": {
+          "desc": "Performs a powerful forward charge, dealing Lightning DMG and generating Flow Gauge.",
+          "result": [
+            "- Deals 120%/240%/360% Lightning DMG and generates 10/20/30 Flow Gauge based on the number of orbs pinged.",
+            "- if an Ice Spike exists on the field, deals 90%/180%/270% Glaciation DMG instead."
+          ]
+        }
+      },
+      {
+        "name": "Upanishad-Collapse - Yellow Orb Combo 2",
+        "button_press": "Yellow Orb Combo 1 + Ping Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Jumps into the air and launches a downward fist, dealing Lightning DMG and generating Flow Gauge",
+          "result": [
+            "- Deals 180%/360%/540% Lightning DMG and generates 10/20/30 Flow Gauge based on the number of orbs pinged.",
+            "- If an Ice Spike exists on the field, deals 150%/300%/450% Glaciation DMG instead."
+          ]
+        }
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Upanishad-Slice - Emptiness",
+        "button_press": "Tap Profound Principle Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Slices across the enemy with a beam of lightning, dealing Lightning DMG.",
+          "result": [
+            "- Deals 420% Lightning DMG. Gain 1 stack of Concentration and 1 stack of Illuminated Guidance.",
+            "- If an Ice Spike exists on the field, deals 330% Glaciation DMG instead.",
+            "- Consuming a Profound Principle Orb is regarded as a 3-Ping."
+          ]
+        }
+      },
+      {
+        "name": "Upanishad-Slice - Cycle",
+        "button_press": "Enhanced Profound Principle Orb + Tap Profound Principle Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Launches an attack across the vicinity, dealing Lightning DMG",
+          "result": [
+            "- Deals 630% Lightning DMG. Gain 1 stack of Concentration and 1 stack of Illuminated Guidance.",
+            "- If an Ice Spike exists on the field, deals 500% Glaciation DMG instead.",
+            "- Consuming a Profound Principle Orb is regarded as a 3-Ping."
+          ]
+        }
+      },
+      {
+        "name": "Upanishad-Slice - Vessel of Mirages",
+        "button_press": "Gelid stack(s) + Hold Profound Principle Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Press and hold the Profound Principle Orb to create an Ice Spike using all Gelid stacks",
+          "result": []
+        }
+      }
+    ],
+    "core_passive": {
+      "name": "Regulated Thunder Flow",
+      "skills": [
+        {
+          "name": "Vortex Breathing",
+          "button_press": "",
+          "description": [
+            "Basic Attacks only generate Red and Yellow Signal Orbs. Pinging Red and Yellow Orbs generates Flow Gauge."
+          ],
+          "result": []
+        },
+        {
+          "name": "Divine Cultivation",
+          "button_press": "",
+          "description": ["Filling the Flow Gauge will enhance Yata."],
+          "result": [
+            "- Yata enters the battlefield in Empty Realm state. After obtaining 90 Flow Gauge, enter Instructed Realm and obtain a Profound Principle Orb. Gain Super Armor when casting Regulated Thunder Flow.",
+            "- After obtaining 60 Flow Gauge in Instructed Realm, enter Enlightened Realm and gain a Profound Principle Orb and a 10% ATK bonus. Afterwards, gain a Profound Principle Orb for every 30 Flow Gauge obtained.",
+            "- Obtaining a Profound Principle Orb when one is already held will enhance it.",
+            "- When Yata exits the battlefield, returns to Empty Realm and clears all Flow Gauge, Illuminated Guidance, and the Profound Principle Orb."
+          ]
+        },
+        {
+          "name": "Reflective Counter",
+          "button_press": "Not Moving + Tap Dodge and Successful Block + Tap Basic Attac",
+          "description": [
+            "Tap Dodge when the movement joystick is not held to perform a block. After a successful block, tap Basic Attack to launch a counterattack, dealing 540% Lightning DMG. If the block triggers Matrix, this skill restores an extra set of Signal Orbs."
+          ],
+          "result": []
+        },
+        {
+          "name": "Nocturne Rush",
+          "button_press": "Illuminated Guidance + Hold Basic Attack",
+          "description": [
+            "Casting Upanishad - Slice will accumulate Illuminated Guidance, up to 2 stacks.\nWith at least 1 stack, hold Basic Attack to consume all Illuminated Guidance and cast Nocturne Rush, dealing damage based on the number of Illuminated Guidance stacks consumed."
+          ],
+          "result": [
+            "- Nocturne Rush: Swing deals 240%/400% Lightning DMG, and will then transition into Nocturne Rush: Seize. If an Ice Spike exists on the field, deals 216%/360% Glaciation DMG instead.",
+            "Nocturne Rush: Seize deals 360%/600% Lightning DMG per second and restores 1 Signal Orb every 1.5s. Release Basic Attack to cast Nocturne Rush: Finisher. If an Ice Spike exists on the field, deals 288%/480% Glaciation DMG per second.",
+            "After 1 second of continuously casting Nocturne Rush: Seize, Yata will gain Glaciation Gauge over time and the gain rate will gradually increase. After 1s of sustained casting, gain 100 Glaciation points per second. After 2s of sustained casting, gain 200 Glaciation points per second. After 4s of sustained casting, gain 250 Glaciation points per second.",
+            "Nocturne Rush: Finisher deals 600%/1000% Lightning DMG. After this skill is cast, gain 10 Energy. If an Ice Spike exists on the field, deals 540%/900% Glaciation DMG instead."
+          ]
+        },
+        {
+          "name": "Affix: Glaciation",
+          "button_press": "",
+          "description": [
+            "Certain skills fill the Glaciation Gauge. When full, the Gauge will clear itself and unleash Gelid, dealing Glaciation DMG and accumulating a Gelid stack. Casting an eligible skill will consume all Gelid stacks and create an Ice Spike that deals Glaciation DMG to its surroundings. If the character deals Glaciation DMG while the Ice Spike is on-field, triggers Cryocluster, dealing additional Glaciation DMG and generating Glaciation points. When the Ice Spike's on-field duration expires, triggers Cryoshatter, dealing Glaciation DMG based on the current Glaciation points. The Glaciation Gauge, Gelid stacks, Ice Spike, and Glaciation points will carry over between characters with the Glaciation Affix."
+          ],
+          "result": [
+            "- When Glaciation points reaches 100, unleashes Gelid that deals 100% Glaciation DMG and accumulates 1 Gelid stack, up to 10 stacks.",
+            "- If there is at least 1 Gelid stack, certain skills can clear all Gelid stacks and create an Ice Spike on-field, dealing 180% Glaciation DMG. The Ice Spike's duration increases by 1s for every Gelid stack consumed.",
+            "- While the Ice Spike exists, if the character deals Glaciation DMG, triggers Cryocluster, dealing 100% Glaciation DMG to enemies in a large area and generating 100 Glaciation points. Can be triggered once every 0.25s.",
+            "- When the Ice Spike's duration expires, triggers Cryoshatter to deal 100% Glaciation DMG to enemies in a large area. Base DMG of Cryoshatter increases by 9% for every 100 Glaciation points. The maximum Glaciation points is 10000."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Sky-Shaking Afterglow",
+      "skills": [
+        {
+          "name": "Signature Move",
+          "button_press": "80 Energy + Tap Signature Move",
+          "description": {
+            "desc": "Mobilizes all energy to launch an explosive bomb, dealing 2400% Lightning DMG. Gain invincibility during this skill. Triggers all available QTEs.",
+            "result": [
+              "- If an Ice Spike exists on the field, deals 2000% Glaciation DMG instead.",
+              "- Consumes all stacks of Concentration to increase the Base DMG of this skill by 50% each, up to 2 stacks.",
+              "- Afterwards, Yata returns to Empty Realm state and clears all Flow Gauge."
+            ]
+          }
+        }
+      ]
+    },
+    "qte": {
+      "name": "Rampart Breaker",
+      "description": "Swings her bat, dealing a total of 600% Lightning DMG.",
+      "result": []
+    },
+    "leader": {
+      "name": "Apex Thunderclap",
+      "description": {
+        "desc": "Increases all members' Lightning DMG by 10%.",
+        "result": []
+      }
+    },
+    "class": {
+      "name": "Attacker",
+      "description": {
+        "desc": "Extra DMG Bonus increases by 20%.",
+        "result": []
+      }
+    },
+    "ss_rank": {
+      "name": "Surging Electrical Dash",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "After casting Nocturne Rush: Finisher, obtain a Red 3-Ping."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "Base DMG of Red and Yellow Orbs increases by 50%. Gain 30 Flow Gauge upon entering the battlefield."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Path of Discipline",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Base DMG of Upanishad - Slice increases by 100%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "Gain an extra 60 Flow Gauge upon entering the battlefield. If Nocturne Rush consumes stacks of Illuminated Guidance, Nocturne Rush: Finisher will restore an extra 25 Energy."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Realm of Samadhi",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of Nocturne Rush and Reflective Counter increases by 30%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of Upanishad-Rampart, Upanishad-Collapse, and Upanishad-Slice increases by 40%."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of Sky-Shaking Afterglow increases by 20%."
+        }
+      ]
+    }
+  },
+  "startrail": {
+    "basic_attack": [
+      {
+        "name": "Effulgent Offensive - Roving Starburst",
+        "button_press": "Holding Sword and Shield + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Performs alternating attacks with the Sword and Shield, dealing a total of 510% Lightning DMG.",
+          "result": [
+            "- Deals a total of 760% Fire DMG.",
+            "- While in Levitating Mode, Basic Attacks deal a total of 330% Fire DMG and each Basic Attack obtains 25 Radiance Points.",
+            "- Searing Slash - Shatter: Tapping Basic Attack at the precise timing after performing Basic Attack Combo 5, or tapping Basic Attack after dodging successfully will perform Searing Slash - Shatter, dealing 200% Fire DMG and recovering 30 Radiance Points. During this, gains Super Armor. After performing this skill, using Basic Attack will start from Basic Attack Combo 4."
+          ]
+        }
+      },
+      {
+        "name": "Effulgent Offensive - Thundering Whirlwind",
+        "button_press": "Holding Shield Axe + Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Attacks with the Shield Axe, dealing Lightning DMG. If there is sufficient Astra Gauge, then attacks will consume Astra Gauge, generate Exceed Points, and unleash lightstreams that deal additional Lightning DMG. Gain Super Armor and DMG Reduction during this skill.",
+          "result": [
+            "- Deals a total of 680% Lightning DMG.",
+            "-  If there is sufficient Astra Gauge, each hit consumes 10/25/30/35 Astra Gauge respectfully, and generates 30/75/90/105 Exceed Points and 3/7/9/11 Energy, dealing an additional 440%/1240%/1780%/1960% Lightning DMG. During this period, gain Super Armor and 60% DMG Reduction. Exceed Points limit: 300 points."
+          ]
+        }
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Dazzling Thunder Cyclone - Red Orb Combo 1",
+        "button_press": "Tap Red Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Performs a spinning slash on the enemy and enters Red Orb Combo, dealing Lightning DMG and applying a Dazzling Thunder Mark to enemies hit. The Dazzling Thunder Mark lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when applied, then it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
+          "result": [
+            "- The spinning slash deals 100% Lightning DMG. The Dazzling Thunder Mark detonation deals 100% Lightning DMG.",
+            "- If attacked when casting this skill, Nanami will automatically raise her shield to block it and gain 1 stack of Crystalline Forcefield, up to 2 stacks.",
+            "- If the target has a Dazzling Thunder Mark when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 stack of Crystalline Forcefield, up to 2 stacks."
+          ]
+        }
+      },
+      {
+        "name": "Dazzling Thunder Cyclone - Red Orb Combo 2",
+        "button_press": "During Red Orb Combo + Ping Red Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Leaps into the air and strikes downwards, dealing Lightning DMG and generating Astra Gauge.",
+          "result": [
+            "- Deals 220%/440%/660% Lightning DMG and generates 15/30/50 Astra Gauge based on the number of orbs pinged, up to 100 points."
+          ]
+        }
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Astral Assemblage - Celestial Convene",
+        "button_press": "Holding Sword and Shield + At least 50 Astra Gauge + Tap Yellow Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Spins to attack the enemy and assembles the weapons into a Shield Axe, dealing Lightning DMG and clearing the Blaze Emblem. Gain Super Armor and DMG Reduction during this skill.",
+          "result": [
+            "- Deals 950% Lightning DMG. During this skill, gain Super Armor and 50% DMG Reduction."
+          ]
+        }
+      },
+      {
+        "name": "Astral Assemblage - Rainbow Arc Thrust",
+        "button_press": " Holding Shield Axe + Tap Yellow Or",
+        "switch_in": "no",
+        "description": {
+          "desc": "Dashes into the enemy and dismantles the Shield Axe into a Sword and Shield, dealing Lightning DMG and gaining Super Armor.",
+          "result": ["- Deals 150% Lightning DMG."]
+        }
+      },
+      {
+        "name": "Astral Assemblage - Searing Onslaught",
+        "button_press": "Holding Sword and Shield + At least 50 Astra Gauge + Hold Yellow Or",
+        "switch_in": "no",
+        "description": {
+          "desc": "Immediately assembles the Sword and Shield into a Shield Axe, then continuously consumes Astra Gauge to attack the enemy, dealing Burn DMG, applying Combustibility points, gaining a Blaze Emblem and restoring Energy. During this skill, Nanami gains Super Armor and DMG Reduction but is unable to cast Big Bang Victory!.",
+          "result": [
+            "- Each instance consumes a maximum of 100 Astra Gauge, deals a total of 4000% Burn DMG, applies 5000 Combustibility points, restores 60 Energy, and grants Super Armor and 70% DMG Reduction.",
+            "- Releasing the Yellow Orb button midway will immediately cast Burning Breakaway.",
+            "- The Blaze Emblem lasts 10s. Gaining this effect again will reset its duration."
+          ]
+        }
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Comet Dash - Blue Orb Combo 1",
+        "button_press": "Not in Blue Orb Combo + Tap Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Dashes into the enemy and enters Blue Orb Combo, dealing Lightning DMG and applying a Dazzling Thunder Mark to enemies hit. The Dazzling Thunder Mark lasts 0.7s before detonating to deal Lightning DMG.  If there is already a mark when applied, then it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
+          "result": [
+            "- The dash attack deals 100% Lightning DMG. The Dazzling Thunder Mark detonation deals 100% Lightning DMG.",
+            "- If attacked when casting this skill, Nanami will automatically raise her shield to block it and gain 1 stack of Crystalline Forcefield, up to 2 stacks.",
+            "- If the target has a Dazzling Thunder Mark when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 stack of Crystalline Forcefield, up to 2 stacks."
+          ]
+        }
+      },
+      {
+        "name": "Comet Dash - Blue Orb Combo 2",
+        "button_press": "During Blue Orb Combo + Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Turns around and slashes the enemy, dealing Lightning DMG and generating Astra Gauge.",
+          "result": [
+            "- Deals 220%/440%/660% Lightning DMG, and generates 15/30/50 Astra Gauge based on the number of orbs pinged, up to 100 points."
+          ]
+        }
+      }
+    ],
+    "core_passive": {
+      "name": "Coronal Might",
+      "skills": [
+        {
+          "name": "Starfall Collapse",
+          "button_press": "Holding Shield Axe + At least 100 Exceed Points or 100 Astra Gauge + Hold Basic Attack",
+          "description": [
+            "Consumes all Exceed Points and Astra Gauge to cast Starfall Collapse, gathering nearby enemies, dealing Lightning DMG and restoring Energy. Triggers Matrix if it is not on cooldown. During this skill, Nanami is unable to cast Big Bang Victory!."
+          ],
+          "result": [
+            "- Deals a total of 3800% Lightning DMG and restores 35 Energy.",
+            "- All Astra Gauge consumed is converted into an equal amount of Exceed Points.",
+            "- For every 15 Exceed Points consumed, increases this skill's Base DMG by 2%."
+          ]
+        },
+        {
+          "name": "Burning Breakaway",
+          "button_press": "During Searing Onslaught + Release Yellow Orb or Deplete all Astra Gauge during Searing Onslaught",
+          "description": [
+            "Immediately dismantles her weapon into a Sword and Shield, dealing Burn DMG and restoring Energy based on the amount of Astra Gauge consumed. Triggers Matrix if it is not on cooldown. Gain Super Armor and DMG Reduction during this skill."
+          ],
+          "result": [
+            "- Deals a total of 700% Burn DMG. During this skill, gain Super Armor and 70% DMG Reduction.",
+            "- For every 5 Astra Gauge consumed by the previous Searing Onslaught, increases the Base DMG of this skill by 10%.",
+            "- Upon entering the battlefield, the first Burning Breakaway restores 5 Energy and has increased Base DMG. Casting Big Bang Victory! will refresh the available  effects again."
+          ]
+        },
+        {
+          "name": "Structural Meltdown",
+          "button_press": "",
+          "description": [
+            "Damage dealt by Nanami when using the Shield Axe debuffs enemies."
+          ],
+          "result": [
+            "- Applies the Turbulence Interference effect that reduces enemies' Lightning Resistance by 25% for 2s.",
+            "- If Nanami has a Blaze Emblem when damage is dealt, applies the Scorching Invasion effect instead that reduces enemies' Fire Resistance by 25% for 2s."
+          ]
+        },
+        {
+          "name": "Exceed Adaptability",
+          "button_press": "Blazing Thunder Form + Basic Attack / Ping Signal Orbs",
+          "description": [
+            "Every time Nanami enters the battlefield, gain 1 Signal Orb. After switching to the Shield Axe,, gain a shield equal to 20% of Max HP. When switching to the Sword and Shield, removes the shield."
+          ],
+          "result": ["- Each follow up of Crimson Blades deals 20% Fire DMG."]
+        },
+        {
+          "name": "Affix: Incineration",
+          "button_press": "",
+          "description": [
+            "Combustible: Every 250 Combustibility points will apply 1 Combustible stack, up to 20 stacks.\nBurn: Burning enemies receive Burn DMG equal to Burning stacks x 30% (does not trigger Tank class passive) every second for 10s."
+          ],
+          "result": [
+            "- When the last enemy on the battlefield dies, the enemy(s) that spawn afterwards will inherit their Combustible/Burning stacks."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Big Bang Victory!",
+      "skills": [
+        {
+          "name": "Heavenly Star Piercer",
+          "button_press": "80 Energy + Holding Sword and Shield + Tap Signature",
+          "description": {
+            "desc": "Assembles the weapons into a Shield Axe and cleaves through the enemy, dealing DMG. This skill triggers Time Lag Calculation. If Nanami has the Domain Overlimit effect (the orb-tripling effect from Matrix), refreshes its duration.",
+            "result": [
+              "- Deals a total of 4000% Lightning DMG.",
+              "- If there is a Blaze Emblem, the emblem will be cleared and Nanami will cast Heavenly Star Piercer: Burn instead, converting Combustible stacks into an equal number of Burning stacks and dealing 4000% Burn DMG. Afterwards, gain a Cinder Emblem that lasts 15s.",
+              "- If Nanami exits the battlefield with a Cinder Emblem, resets the mark's duration to 15s. Triggering this effect again will reset its duration.",
+              "- Afterwards, return to Sword and Shield."
+            ]
+          }
+        },
+        {
+          "name": "Gigabyte Star Sunder",
+          "button_press": "80 Energy + Holding Shield Axe + Tap Signature",
+          "description": {
+            "desc": "Cleaves through the enemy with the Shield Axe, dealing 4000% Lightning DMG. This skill triggers Time Lag Calculation. If Nanami has the Domain Overlimit effect (the orb-tripling effect from Matrix), refreshes its duration.",
+            "result": ["- Afterwards, return to Sword and Shield."]
+          }
+        },
+        {
+          "name": "Glowing Embers Field",
+          "button_press": "",
+          "description": {
+            "desc": "After casting Heavenly Star Piercer or Gigabyte Star Sunder, leaves behind a weapon that continuously deals damage and debuffs enemies.",
+            "result": [
+              "- The field deals 50% Lightning DMG every second for 12s. Triggering this effect again will reset its duration.",
+              "- If Nanami has a Blaze Emblem when this skill is cast, deals 50% Burn DMG every second for 12s instead. Triggering this effect again will reset its duration."
+            ]
+          }
+        }
+      ]
+    },
+    "qte": {
+      "name": "Orbital Interference",
+      "description": "Deals damage and debuffs enemies.",
+      "result": [
+        "- Deals an initial 300% Lightning DMG. Upon dealing damage, applies the Turbulence Interference effect that reduces enemies' Lightning Resistance by 25% for 8s. Afterwards, deals 50% Lightning DMG every second for 8s.",
+        "If Nanami has a Cinder Emblem when this skill is cast, deals an initial 300% Burn DMG instead and applies the Scorching Invasion effect that reduces enemies' Fire Resistance by 25% for 8s. Afterwards, deals 50% Burn DMG every second for 8s."
+      ]
+    },
+    "leader": {
+      "name": "Stella Caeli",
+      "description": {
+        "desc": "Increases Lightning DMG and Burn DMG of all members by 10%. Increases DMG of all Tank Omniframes by 5%.",
+        "result": []
+      }
+    },
+    "class": {
+      "name": "Tank",
+      "description": {
+        "desc": "Attacks reduce the target's Extra DMG Reduction by 20% for 5s.",
+        "result": []
+      }
+    },
+    "ss_rank": {
+      "name": "Hyperspeed Frequency Tuning",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Switching to the Shield Axe, casting Heavenly Star Piercer and Gigabyte Star Sunder trigger all available QTEs."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "Upon exiting the battlefield, automatically uses QTE. After casting Red Orb Combo 2 or Blue Orb Combo 2, tap Red Orb or Blue Orb again to immediately cast the respective Combo 2 skill. Increases the Base DMG of Celestial Convene, Red Orb/Blue Orb Combo 2, and lightstreams from Thundering Whirlwind by 100%. Base DMG of Searing Onslaught increases by 110%. If Starfall Collapse is cast and consumes 100 Astra Gauge, generates an additional 50 Exceed Points. After switching to Shield Axe for the first time upon entering the battlefield, gain 15 Energy."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Blazing Meteor",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Increases Resistance Reduction effects by 10%. Increase the Base DMG of Starfall Collapse by 60%. Increase the Base DMG of Burning Breakaway by 80%. Increases the rate of Searing Onslaught applying Combustibility points by 100%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "Increases Resistance Reduction effects by 10%. For every 75 Exceed Points consumed by Starfall Collapse, increases the Base DMG of the next Gigabyte Star Sunder by 22.5%, up to 90%; stacks are cleared upon dismantling the Shield Axe. For every 5 Combustible stacks applied to the target, increase the Base DMG of Heavenly Star Piercer: Burn by 16%, up to 64%. Reduces the swap cooldown of all members in the team by 3s; this does not stack with other effects of the same type."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Mechanical Soul of Stars",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG bonus of Starfall Collapse increases by 50%. Extra DMG Bonus of Burning Breakaway increases by 100%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of Celestial Convene and Red Orb/Blue Orb Combo 2 increases by 50%. Extra DMG Bonus of Searing Onslaught increases by 25%. Extra DMG Bonus of lightstreams from Thundering Whirlwind increases by 15%."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of Heavenly Star Piercer and Gigabyte Star Sunder increases by 40%."
         }
       ]
     }
