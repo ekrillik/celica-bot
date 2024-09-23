@@ -1259,7 +1259,7 @@
     ]
   },
   "scire": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051> Karenina",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051><:electroconvergence:1287613263592558652> Karenina",
     "frame_name": "Scire",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Boone 2 Einsteina" },
@@ -1370,7 +1370,7 @@
     ]
   },
   "stigmata": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Bianca",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096><:trueslash:1287613359382069349> Bianca",
     "frame_name": "Stigmata",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Charlotte 2 Leeuwenhoek" },
@@ -1603,7 +1603,7 @@
     ]
   },
   "crimson weave": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Lucia",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056><:umbraslash_temp:1287613399391535136> Lucia",
     "frame_name": "Crimson Weave",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Diesel 2 Cottie" },
@@ -2069,7 +2069,7 @@
     ]
   },
   "decryptor": {
-    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051> Teddy",
+    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051><:disorder:1287613212258472030> Teddy",
     "frame_name": "Decryptor",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" },
@@ -2111,7 +2111,7 @@
     ]
   },
   "oblivion": {
-    "unit_name": "<:S_:1283759845995974727><:annihilator:1285900128489701436><:void_element:1285900049909284864> Luna",
+    "unit_name": "<:S_:1283759845995974727><:annihilator:1285900128489701436><:void_element:1285900049909284864><:disorder:1287613212258472030> Luna",
     "frame_name": "Oblivion",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Cleopatra 2 Cottie" }],
     "builds": [
@@ -2135,7 +2135,7 @@
     ]
   },
   "ardeo": {
-    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096> Bridget",
+    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096><:incineration:1287613310086156310> Bridget",
     "frame_name": "Ardeo",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Shakespeare 2 Einsteina" },
@@ -2179,7 +2179,7 @@
     ]
   },
   "solacetune": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Hanying",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096><:trueslash:1287613359382069349> Hanying",
     "frame_name": "Solacetune",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Changwuzi 2 Patton" },
@@ -2222,7 +2222,7 @@
     ]
   },
   "lucid dreamer": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> Wanshi",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946><:glaciation:1287613293258735666> Wanshi",
     "frame_name": "Lucid Dreamer",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Liston 2 Einsteina" },
@@ -2304,7 +2304,7 @@
     ]
   },
   "pyroath": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lucia",
+    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096><:electroconvergence:1287613263592558652> Lucia",
     "frame_name": "Pyroath",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Heraclitus 2 Cottie" },
@@ -2349,7 +2349,7 @@
     ]
   },
   "fulgor": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Yata",
+    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056><:glaciation:1287613293258735666> Yata",
     "frame_name": "Fulgor",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Heisen 2 Tifa" }],
     "builds": [
@@ -2373,7 +2373,7 @@
     ]
   },
   "startrail": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056> Nanami",
+    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056><:incineration:1287613310086156310> Nanami",
     "frame_name": "Startrail",
     "set_list": [{ "name": "Placeholder", "memos": "Placeholder" }],
     "builds": [
