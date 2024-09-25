@@ -1,6 +1,6 @@
 {
   "seeshell": {
-    "name": "<:A_:1283759728979349580><:ice_element:1283760120270032946> Seeshell",
+    "name": "Seeshell\n<:A_:1283759728979349580><:ice_element:1283760120270032946>",
     "sig_character": "N/A",
     "base_rank": "A",
     "cub_type": "Area, Freeze",
@@ -67,7 +67,7 @@
     ]
   },
   "thorny": {
-    "name": "<:A_:1283759728979349580><:physical_element:1283760180386861096> Thorny",
+    "name": "Thorny\n<:A_:1283759728979349580><:physical_element:1283760180386861096>",
     "sig_character": "N/A",
     "base_rank": "A",
     "cub_type": "Charge",
@@ -122,7 +122,7 @@
     ]
   },
   "yuan ye": {
-    "name": "<:A_:1283759728979349580><:fire_element:1283760089119064096> Yuan Ye",
+    "name": "Yuan Ye\n<:A_:1283759728979349580><:fire_element:1283760089119064096>",
     "sig_character": "N/A",
     "base_rank": "A",
     "cub_type": "Stun",
@@ -189,7 +189,7 @@
     ]
   },
   "lingya": {
-    "name": "<:A_:1283759728979349580><:lightning_element:1283760149755990056> Lingya",
+    "name": "Lingya\n<:A_:1283759728979349580><:lightning_element:1283760149755990056>",
     "sig_character": "N/A",
     "base_rank": "A",
     "cub_type": "Damage",
@@ -256,7 +256,7 @@
     ]
   },
   "noctua": {
-    "name": "<:A_:1283759728979349580><:dark_element:1283760052225835051> Noctua",
+    "name": "Noctua\n<:A_:1283759728979349580><:dark_element:1283760052225835051>",
     "sig_character": "N/A",
     "base_rank": "A",
     "cub_type": "Super Armor",
@@ -311,7 +311,7 @@
     ]
   },
   "toniris": {
-    "name": "<:S_:1283759845995974727><:lightning_element:1283760149755990056> Toniris",
+    "name": "Toniris\n<:S_:1283759845995974727><:lightning_element:1283760149755990056>",
     "sig_character": "Veritas",
     "base_rank": "S",
     "cub_type": "Pull, Charge",
@@ -378,7 +378,7 @@
     ]
   },
   "frost oath": {
-    "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Frost Oath",
+    "name": "Frost Oath\n<:S_:1283759845995974727><:physical_element:1283760180386861096>",
     "sig_character": "Rigor",
     "base_rank": "S",
     "cub_type": "Crowd Control, Protection",
@@ -445,7 +445,7 @@
     ]
   },
   "nitor": {
-    "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Nitor",
+    "name": "Nitor\n<:S_:1283759845995974727><:fire_element:1283760089119064096>",
     "sig_character": "Ember",
     "base_rank": "S",
     "cub_type": "Damage",
@@ -500,7 +500,7 @@
     ]
   },
   "boreas": {
-    "name": "<:S_:1283759845995974727><:ice_element:1283760120270032946> Boreas",
+    "name": "Boreas\n<:S_:1283759845995974727><:ice_element:1283760120270032946>",
     "sig_character": "Glory",
     "base_rank": "S",
     "cub_type": "Charge",
@@ -567,7 +567,7 @@
     ]
   },
   "jet jaeger": {
-    "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Jet Jaeger",
+    "name": "Jet Jaeger\n<:S_:1283759845995974727><:fire_element:1283760089119064096>",
     "sig_character": "Starfarer",
     "base_rank": "S",
     "cub_type": "Slice",
@@ -689,7 +689,7 @@
     ]
   },
   "shimmer": {
-    "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Shimmer",
+    "name": "Shimmer\n<:S_:1283759845995974727><:physical_element:1283760180386861096>",
     "sig_character": "Stigmata",
     "base_rank": "S",
     "cub_type": "Pull, Charge",
@@ -744,7 +744,7 @@
     ]
   },
   "punchy": {
-    "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Punchy",
+    "name": "Punchy\n<:S_:1283759845995974727><:fire_element:1283760089119064096>",
     "sig_character": "Hyperreal",
     "base_rank": "S",
     "cub_type": "Damage",
@@ -799,7 +799,7 @@
     ]
   },
   "rainbow": {
-    "name": "<:S_:1283759845995974727><:ice_element:1283760120270032946> Rainbow",
+    "name": "Rainbow\n<:S_:1283759845995974727><:ice_element:1283760120270032946>",
     "sig_character": "Kaleido",
     "base_rank": "S",
     "cub_type": "Pull, Damage",
@@ -854,7 +854,7 @@
     ]
   },
   "motorbolt": {
-    "name": "<:S_:1283759845995974727><:lightning_element:1283760149755990056> Motorbolt",
+    "name": "Motorbolt\n<:S_:1283759845995974727><:lightning_element:1283760149755990056>",
     "sig_character": "Crimson Weave",
     "base_rank": "S",
     "cub_type": "Pull, Damage",
@@ -909,7 +909,7 @@
     ]
   },
   "hades fangs": {
-    "name": "<:S_:1283759845995974727><:lightning_element:1283760149755990056> Hades Fangs",
+    "name": "Hades Fangs\n<:S_:1283759845995974727><:lightning_element:1283760149755990056>",
     "sig_character": "Feral",
     "base_rank": "S",
     "cub_type": "Crowd Control, Damage",
@@ -964,7 +964,7 @@
     ]
   },
   "dawn chorus": {
-    "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Dawn Chorus",
+    "name": "Dawn Chorus\n<:S_:1283759845995974727><:physical_element:1283760180386861096>",
     "sig_character": "Echo",
     "base_rank": "S",
     "cub_type": "Damage, Super Armor",
@@ -1019,7 +1019,7 @@
     ]
   },
   "cetus": {
-    "name": "<:S_:1283759845995974727><:dark_element:1283760052225835051> Cetus",
+    "name": "Cetus\n<:S_:1283759845995974727><:dark_element:1283760052225835051>",
     "sig_character": "Lost Lullaby",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
@@ -1074,7 +1074,7 @@
     ]
   },
   "shadow wing": {
-    "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Shadow Wing",
+    "name": "Shadow Wing\n<:S_:1283759845995974727><:fire_element:1283760089119064096>",
     "sig_character": "Epitaph",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
@@ -1129,7 +1129,7 @@
     ]
   },
   "huiyu": {
-    "name": "<:S_:1283759845995974727><:ice_element:1283760120270032946> Huiyu",
+    "name": "Huiyu\n<:S_:1283759845995974727><:ice_element:1283760120270032946>",
     "sig_character": "Shukra",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
@@ -1184,7 +1184,7 @@
     ]
   },
   "su e": {
-    "name": "<:S_:1283759845995974727><:void_element:1285900049909284864> Su E",
+    "name": "Su E\n<:S_:1283759845995974727><:void_element:1285900049909284864>",
     "sig_character": "Oblivion",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
@@ -1239,7 +1239,7 @@
     ]
   },
   "mei wu": {
-    "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Mei Wu",
+    "name": "Mei Wu\n<:S_:1283759845995974727><:physical_element:1283760180386861096>",
     "sig_character": "Solacetune",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
@@ -1294,7 +1294,7 @@
     ]
   },
   "rui xue": {
-    "name": "<:S_:1283759845995974727><:ice_element:1283760120270032946> Rui Xue",
+    "name": "Rui Xue\n<:S_:1283759845995974727><:ice_element:1283760120270032946>",
     "sig_character": "Lucid Dreamer",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
@@ -1349,7 +1349,7 @@
     ]
   },
   "yi kong": {
-    "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Yi Kong",
+    "name": "Yi Kong\n<:S_:1283759845995974727><:fire_element:1283760089119064096>",
     "sig_character": "Pyroath",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",

@@ -27,105 +27,124 @@
   ],
   "cublist_categorized": [
     {
-      "name": "Seeshell",
+      "name": "<:A_:1283759728979349580><:ice_element:1283760120270032946> Seeshell",
       "sig_character": "N/A",
       "base_rank": "A"
     },
     {
-      "name": "Thorny",
+      "name": "<:A_:1283759728979349580><:physical_element:1283760180386861096> Thorny",
       "sig_character": "N/A",
       "base_rank": "A"
     },
     {
-      "name": "Yuan Ye",
+      "name": "<:A_:1283759728979349580><:fire_element:1283760089119064096> Yuan Ye",
       "sig_character": "N/A",
       "base_rank": "A"
     },
     {
-      "name": "Lingya",
+      "name": "<:A_:1283759728979349580><:lightning_element:1283760149755990056> Lingya",
       "sig_character": "N/A",
       "base_rank": "A"
     },
     {
-      "name": "Noctua",
+      "name": "<:A_:1283759728979349580><:dark_element:1283760052225835051> Noctua",
       "sig_character": "N/A",
       "base_rank": "A"
     },
     {
-      "name": "Toniris",
+      "name": "<:S_:1283759845995974727><:lightning_element:1283760149755990056> Toniris",
       "sig_character": "Veritas",
       "base_rank": "S"
     },
     {
-      "name": "Boreas",
+      "name": "<:S_:1283759845995974727><:ice_element:1283760120270032946> Boreas",
       "sig_character": "Glory",
       "base_rank": "S"
     },
-
     {
-      "name": "Frost Oath",
+      "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Frost Oath",
       "sig_character": "Rigor",
       "base_rank": "S"
     },
     {
-      "name": "Nitor",
+      "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Nitor",
       "sig_character": "Ember",
       "base_rank": "S"
     },
     {
-      "name": "Jet Jaeger",
+      "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Jet Jaeger",
       "sig_character": "Starfarer",
       "base_rank": "S"
     },
     {
-      "name": "Moonhopper",
+      "name": "<:S_:1283759845995974727><:dark_element:1283760052225835051> Moonhopper",
       "sig_character": "Scire",
       "base_rank": "S"
     },
     {
-      "name": "Shimmer",
+      "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Shimmer",
       "sig_character": "Stigmata",
       "base_rank": "S"
     },
     {
-      "name": "Punchy",
+      "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Punchy",
       "sig_character": "Hyperreal",
       "base_rank": "S"
     },
     {
-      "name": "Rainbow",
+      "name": "<:S_:1283759845995974727><:ice_element:1283760120270032946> Rainbow",
       "sig_character": "Kaleido",
       "base_rank": "S"
     },
     {
-      "name": "Motorbolt",
+      "name": "<:S_:1283759845995974727><:lightning_element:1283760149755990056> Motorbolt",
       "sig_character": "Crimson Weave",
       "base_rank": "S"
     },
     {
-      "name": "Hades Fangs",
+      "name": "<:S_:1283759845995974727><:lightning_element:1283760149755990056> Hades Fangs",
       "sig_character": "Feral",
       "base_rank": "S"
     },
     {
-      "name": "Dawn Chorus",
+      "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Dawn Chorus",
       "sig_character": "Echo",
       "base_rank": "S"
     },
     {
-      "name": "Cetus",
+      "name": "<:S_:1283759845995974727><:dark_element:1283760052225835051> Cetus",
       "sig_character": "Lost Lullaby",
       "base_rank": "S"
     },
     {
-      "name": "Shadow Wing",
+      "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Shadow Wing",
       "sig_character": "Epitaph",
       "base_rank": "S"
     },
-    { "name": "Huiyu", "sig_character": "Shukra", "base_rank": "S" },
-    { "name": "Su E", "sig_character": "Oblivion", "base_rank": "S" },
-    { "name": "Mei Wu", "sig_character": "Solacetune", "base_rank": "S" },
-    { "name": "Rui Xue", "sig_character": "Lucid Dreamer", "base_rank": "S" },
-    { "name": "Yi Kong", "sig_character": "Pyroath", "base_rank": "S" }
+    {
+      "name": "<:S_:1283759845995974727><:ice_element:1283760120270032946> Huiyu",
+      "sig_character": "Shukra",
+      "base_rank": "S"
+    },
+    {
+      "name": "<:S_:1283759845995974727><:void_element:1285900049909284864> Su E",
+      "sig_character": "Oblivion",
+      "base_rank": "S"
+    },
+    {
+      "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Mei Wu",
+      "sig_character": "Solacetune",
+      "base_rank": "S"
+    },
+    {
+      "name": "<:S_:1283759845995974727><:ice_element:1283760120270032946> Rui Xue",
+      "sig_character": "Lucid Dreamer",
+      "base_rank": "S"
+    },
+    {
+      "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Yi Kong",
+      "sig_character": "Pyroath",
+      "base_rank": "S"
+    }
   ]
 }

@@ -342,7 +342,7 @@ class EmbedClass:
         fields = []
         for cub in cubs:
             suffix = "" if cub['sig_character'] == "N/A" else f" ({cub['sig_character']})"
-            fields.append(f"`{cub['base_rank']}・{cub['name']}{suffix}`")
+            fields.append(f"{cub['name']}{suffix}")
 
         return discord.Embed(
             title=f"List of CUBs",
