@@ -1261,7 +1261,7 @@
     "unit_name": "Karenina",
     "frame_name": "Scire\n<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051><:electroconvergence:1288090218922119181>",
     "set_list": [
-      { "name": "Main Tank Set", "memos": "4 Boone 2 Einsteina" },
+      { "name": "Main Tank/Sub-DPS Set", "memos": "4 Boone 2 Einsteina" },
       { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Boone 4 Bathlon" },
       { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Bathlon" },
       {
