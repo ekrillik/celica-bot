@@ -120,7 +120,7 @@ def check_nickname(nickname, caller):
             weapon = "thanatos"
             cub = "n/a"
             memory = "koya"
-        case "rosetta" | "juan" | "rigor":
+        case "rosetta" | "juan" | "rigor" | "rose":
             character = "rigor"
             weapon = "gungnir"
             cub = "frost oath"
@@ -220,7 +220,7 @@ def check_nickname(nickname, caller):
             weapon = "prometheus"
             cub = "n/a"
             memory = "shelley"
-        case "balter" | "stigmata" | "mommy" | "saber" | "excalibaa" | "Balter":
+        case "balter" | "stigmata" | "mommy" | "saber" | "excalibaa" | "Balter" | "gothic nun":
             character = "stigmata"
             weapon = "hecate"
             cub = "shimmer"
@@ -275,7 +275,7 @@ def check_nickname(nickname, caller):
             weapon = "black rock cannon"
             cub = "n/a"
             memory = "n/a"
-        case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man":
+        case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss":
             character = "epitaph"
             weapon = "night falcon"
             cub = "shadow wing"
@@ -285,7 +285,7 @@ def check_nickname(nickname, caller):
             weapon = "dwelling will of inscription's key"
             cub = "huiyu"
             memory = "ji bo'an"
-        case "teddy" | "decryptor" | "smug" | "always beats karen":
+        case "teddy" | "decryptor" | "smug" | "always beats karen" | "kusogaki":
             character = "decryptor"
             weapon = "hacker's tune"
             cub = "n/a"
@@ -305,7 +305,7 @@ def check_nickname(nickname, caller):
             weapon = "dreamer roamer"
             cub = "mei wu"
             memory = "changwuzi"
-        case "lucid dreamer":
+        case "lucid dreamer" | "lucid" | "ld":
             character = "lucid dreamer"
             weapon = "hemera's gaze"
             cub = "rui xue"
@@ -361,7 +361,7 @@ def abbreviation_checker(nickname):
                 memory = "charlotte"
             case "uni":
                 memory = "unimate"
-            case "leeu":
+            case "leeu" | "lwh":
                 memory = "leeuwenhoek"
             case "bath":
                 memory = "bathlon"

@@ -18,7 +18,7 @@
     },
     {
       "name": "Lee: Entropy",
-      "nicknames": ["entrobrick", "entropiss", "entrokek"]
+      "nicknames": ["entrobrick", "entrokek"]
     },
     {
       "name": "Kamui: Tenebrion",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Rosetta: Rigor",
-      "nicknames": ["rosetta", "juan"]
+      "nicknames": ["rose", "rosetta", "juan"]
     },
     {
       "name": "Changyu: Qilin",
@@ -87,7 +87,7 @@
       "nicknames": ["flare", "dog owner", "yinlin"]
     },
     {
-      "name": "Rpland: Flambeau",
+      "name": "Roland: Flambeau",
       "nicknames": ["roland", "kuraimakusu", "clown", "theatre", "curtain call"]
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "name": "Bianca: Stigmata",
-      "nicknames": ["balter", "mommy", "saber", "excalibaa"]
+      "nicknames": ["balter", "mommy", "saber", "excalibaa", "gothic nun"]
     },
     {
       "name": "Bambinata: Vitrum",
@@ -210,7 +210,9 @@
         "engine",
         "wata",
         "heartbeat killer",
-        "old man"
+        "old man",
+        "no longer fears death",
+        "big boss"
       ]
     },
     {
@@ -219,7 +221,7 @@
     },
     {
       "name": "Teddy: Decryptor",
-      "nicknames": ["teddy", "smug", "always beats karen"]
+      "nicknames": ["teddy", "smug", "always beats karen", "kusogaki"]
     },
     {
       "name": "Luna: Oblivion",
@@ -232,6 +234,10 @@
     {
       "name": "Hanying: Solacetune",
       "nicknames": ["yor", "yor forger"]
+    },
+    {
+      "name": "Wanshi: Lucid Dreamer",
+      "nicknames": ["lucid", "ld"]
     },
     {
       "name": "Lucia: Pyroath",

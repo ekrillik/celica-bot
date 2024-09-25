@@ -1,7 +1,7 @@
 {
   "lotus": {
-    "unit_name": "<:B_:1283759795232571485><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lucia",
-    "frame_name": "Lotus",
+    "unit_name": "Lucia",
+    "frame_name": "Lotus\n<:B_:1283759795232571485><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Patton 2 Signa" }],
     "builds": [
       {
@@ -20,8 +20,8 @@
     ]
   },
   "eclipse": {
-    "unit_name": "<:B_:1283759795232571485><:support:1283760217540132905><:physical_element:1283760180386861096> Liv",
-    "frame_name": "Eclipse",
+    "unit_name": "Liv",
+    "frame_name": "Eclipse\n<:B_:1283759795232571485><:support:1283760217540132905><:physical_element:1283760180386861096>",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Da Vinci 2 Philip II" },
       {
@@ -62,8 +62,8 @@
     ]
   },
   "storm": {
-    "unit_name": "<:B_:1283759795232571485><:tank:1283760248980770889><:physical_element:1283760180386861096> Nanami",
-    "frame_name": "Storm",
+    "unit_name": "Nanami",
+    "frame_name": "Storm\n<:B_:1283759795232571485><:tank:1283760248980770889><:physical_element:1283760180386861096>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Catherine" }
     ],
@@ -84,8 +84,8 @@
     ]
   },
   "dawn": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Lucia",
-    "frame_name": "Dawn",
+    "unit_name": "Lucia",
+    "frame_name": "Dawn\n<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Heisen 2 Darwin" }],
     "builds": [
       {
@@ -104,8 +104,8 @@
     ]
   },
   "lux": {
-    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:lightning_element:1283760149755990056> Liv",
-    "frame_name": "Lux",
+    "unit_name": "Liv",
+    "frame_name": "Lux\n<:A_:1283759728979349580><:support:1283760217540132905><:lightning_element:1283760149755990056> ",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" },
       { "name": "Alternative Support Set", "memos": "4 Guinevere 2 Gloria" }
@@ -149,8 +149,8 @@
     ]
   },
   "palefire": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lee",
-    "frame_name": "Palefire",
+    "unit_name": "Lee",
+    "frame_name": "Palefire\n<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Shakespeare 2 Darwin" }],
     "builds": [
       {
@@ -169,8 +169,8 @@
     ]
   },
   "nightblade": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> Watanabe",
-    "frame_name": "Nightblade",
+    "unit_name": "Watanabe",
+    "frame_name": "Nightblade\n<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> s",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Patton 2 Darwin" }],
     "builds": [
       {
@@ -189,8 +189,8 @@
     ]
   },
   "zero": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> Bianca",
-    "frame_name": "Zero",
+    "unit_name": "Bianca",
+    "frame_name": "Zero\n<:A_:1283759728979349580><:attacker:1283760012274958346><:physical_element:1283760180386861096> ",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Patton 2 Cottie" }],
     "builds": [
       {
@@ -209,8 +209,8 @@
     ]
   },
   "blast": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> Karenina",
-    "frame_name": "Blast",
+    "unit_name": "Karenina",
+    "frame_name": "Blast\n<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> ",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" }],
     "builds": [
       {
@@ -229,8 +229,8 @@
     ]
   },
   "luminance": {
-    "unit_name": "<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096> Liv",
-    "frame_name": "Luminance",
+    "unit_name": "Liv",
+    "frame_name": "Luminance\n<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096> ",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Da Vinci 2 Philip II" }
     ],
@@ -255,8 +255,8 @@
     ]
   },
   "entropy": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Lee",
-    "frame_name": "Entropy",
+    "unit_name": "Lee",
+    "frame_name": "Entropy\n<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Patton 2 Darwin" }],
     "builds": [
       {
@@ -275,8 +275,8 @@
     ]
   },
   "ember": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Karenina",
-    "frame_name": "Ember",
+    "unit_name": "Karenina",
+    "frame_name": "Ember\n<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" }],
     "builds": [
       {
@@ -295,8 +295,8 @@
     ]
   },
   "pulse": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096> Nanami",
-    "frame_name": "Pulse",
+    "unit_name": "Nanami",
+    "frame_name": "Pulse\n<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
       { "name": "Alternative Tank Set", "memos": "4 Shakespeare 2 Einsteina" }
@@ -334,8 +334,8 @@
     ]
   },
   "tenebrion": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Kamui",
-    "frame_name": "Tenebrion",
+    "unit_name": "Kamui",
+    "frame_name": "Tenebrion\n<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> ",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
       { "name": "Alternative Tank/Sub-DPS Set", "memos": "4 Hanna 2 Einsteina" }
@@ -370,8 +370,8 @@
     ]
   },
   "crimson abyss": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> Lucia",
-    "frame_name": "Crimson Abyss",
+    "unit_name": "Lucia",
+    "frame_name": "Crimson Abyss\n<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> ",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Frederick 2 Darwin" }],
     "builds": [
       {
@@ -390,8 +390,8 @@
     ]
   },
   "bastion": {
-    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096> Kamui",
-    "frame_name": "Bastion",
+    "unit_name": "Kamui",
+    "frame_name": "Bastion\n<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096> ",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" },
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Catherine" }
@@ -426,8 +426,8 @@
     ]
   },
   "astral": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:dark_element:1283760052225835051> Watanabe",
-    "frame_name": "Astral",
+    "unit_name": "Watanabe",
+    "frame_name": "Astral\n<:A_:1283759728979349580><:attacker:1283760012274958346><:dark_element:1283760052225835051>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Bathlon 2 Cottie" }],
     "builds": [
       {
@@ -446,8 +446,8 @@
     ]
   },
   "brilliance": {
-    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096> Ayla",
-    "frame_name": "Brilliance",
+    "unit_name": "Ayla",
+    "frame_name": "Brilliance\n<:A_:1283759728979349580><:tank:1283760248980770889><:physical_element:1283760180386861096> ",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Catherine" }
     ],
@@ -468,8 +468,8 @@
     ]
   },
   "veritas": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Bianca",
-    "frame_name": "Veritas",
+    "unit_name": "Bianca",
+    "frame_name": "Veritas\n<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Heisen 2 Frederick" }],
     "builds": [
       {
@@ -488,8 +488,8 @@
     ]
   },
   "silverfang": {
-    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:fire_element:1283760089119064096> Sophia",
-    "frame_name": "Silverfang",
+    "unit_name": "Sophia",
+    "frame_name": "Silverfang\n<:A_:1283759728979349580><:support:1283760217540132905><:fire_element:1283760089119064096> ",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" }
     ],
@@ -510,8 +510,8 @@
     ]
   },
   "arclight": {
-    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:lightning_element:1283760149755990056> Chrome",
-    "frame_name": "Arclight",
+    "unit_name": "Chrome",
+    "frame_name": "Arclight\n<:A_:1283759728979349580><:tank:1283760248980770889><:lightning_element:1283760149755990056> ",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
     ],
@@ -532,8 +532,8 @@
     ]
   },
   "plume": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946> Lucia",
-    "frame_name": "Plume",
+    "unit_name": "Lucia",
+    "frame_name": "Plume\n<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" }],
     "builds": [
       {
@@ -552,8 +552,8 @@
     ]
   },
   "rozen": {
-    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051> Vera",
-    "frame_name": "Rozen",
+    "unit_name": "Vera",
+    "frame_name": "Rozen\n<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051>",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" },
       {
@@ -595,8 +595,8 @@
     ]
   },
   "crocotta": {
-    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:dark_element:1283760052225835051> Camu",
-    "frame_name": "Crocotta",
+    "unit_name": "Camu",
+    "frame_name": "Crocotta\n",
     "set_list": [{ "name": "Uniframe Set", "memos": "6 Koya" }],
     "builds": [
       {
@@ -615,8 +615,8 @@
     ]
   },
   "rigor": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> Rosetta",
-    "frame_name": "Rigor",
+    "unit_name": "Rosetta",
+    "frame_name": "Rigor\n<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Leeuwenhoek 2 Catherine" },
       { "name": "Pain Cage Niche Set", "memos": "4 Da Vinci 2 Catherine" }
@@ -660,8 +660,8 @@
     ]
   },
   "qilin": {
-    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:ice_element:1283760120270032946> Changyu",
-    "frame_name": "Qilin",
+    "unit_name": "Changyu",
+    "frame_name": "Qilin\n<:A_:1283759728979349580><:tank:1283760248980770889><:ice_element:1283760120270032946>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
     ],
@@ -682,8 +682,8 @@
     ]
   },
   "pavo": {
-    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096> Qu",
-    "frame_name": "Pavo",
+    "unit_name": "Qu",
+    "frame_name": "Pavo\n<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096>",
     "set_list": [{ "name": "Uniframe Set", "memos": "6 Wu'an" }],
     "builds": [
       {
@@ -702,8 +702,8 @@
     ]
   },
   "laurel": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051> Luna",
-    "frame_name": "Laurel",
+    "unit_name": "Luna",
+    "frame_name": "Laurel\n<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Flamel 2 Darwin" }],
     "builds": [
       {
@@ -722,8 +722,8 @@
     ]
   },
   "2b": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096> 2B",
-    "frame_name": "2B",
+    "unit_name": "2B",
+    "frame_name": "2B\n<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096>",
     "set_list": [
       { "name": "Main DPS SSS Set", "memos": "4 Cottie 2 Darwin" },
       { "name": "Main DPS SS Set", "memos": "4 Patton 2 Cottie" }
@@ -760,8 +760,8 @@
     ]
   },
   "9s": {
-    "unit_name": "<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096> 9S",
-    "frame_name": "9S",
+    "unit_name": "9S",
+    "frame_name": "9S\n<:S_:1283759845995974727><:support:1283760217540132905><:physical_element:1283760180386861096>",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Da Vinci 2 Philip II" }
     ],
@@ -785,8 +785,8 @@
     ]
   },
   "a2": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096> A2",
-    "frame_name": "A2",
+    "unit_name": "A2",
+    "frame_name": "A2\n<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096>",
     "set_list": [{ "name": "Main Tank Set", "memos": "4 Patton 2 Catherine" }],
     "builds": [
       {
@@ -807,8 +807,8 @@
     ]
   },
   "hypnos": {
-    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:ice_element:1283760120270032946> Wanshi",
-    "frame_name": "Hypnos",
+    "unit_name": "Wanshi",
+    "frame_name": "Hypnos\n<:A_:1283759728979349580><:support:1283760217540132905><:ice_element:1283760120270032946>",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" },
       {
@@ -850,8 +850,8 @@
     ]
   },
   "tempest": {
-    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056> Selena",
-    "frame_name": "Tempest",
+    "unit_name": "Selena",
+    "frame_name": "Tempest\n<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056> ",
     "set_list": [{ "name": "Uniframe Set", "memos": "6 Lucrezia" }],
     "builds": [
       {
@@ -870,8 +870,8 @@
     ]
   },
   "glory": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> Chrome",
-    "frame_name": "Glory",
+    "unit_name": "Chrome",
+    "frame_name": "Glory\n<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946> ",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
       {
@@ -913,8 +913,8 @@
     ]
   },
   "xxi": {
-    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:dark_element:1283760052225835051> No. 21",
-    "frame_name": "XXI",
+    "unit_name": "No. 21",
+    "frame_name": "XXI\n<:A_:1283759728979349580><:tank:1283760248980770889><:dark_element:1283760052225835051>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
       { "name": "Alternative Tank Set", "memos": "4 Bathlon 2 Einstina" }
@@ -952,8 +952,8 @@
     ]
   },
   "garnet": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056> Vera",
-    "frame_name": "Garnet",
+    "unit_name": "Vera",
+    "frame_name": "Garnet\n<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Tifa 2 Einsteina" },
       { "name": "QTE Tank Support Set", "memos": "4 Da Vinci 2 Einsteina" },
@@ -1012,8 +1012,8 @@
     ]
   },
   "flambeau": {
-    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:fire_element:1283760089119064096> Roland",
-    "frame_name": "Flambeau",
+    "unit_name": "Roland",
+    "frame_name": "Flambeau\n<:S_:1283759845995974727><:vanguard:1283760278630305793><:fire_element:1283760089119064096>",
     "set_list": [{ "name": "Uniframe Set", "memos": "6 Jack" }],
     "builds": [
       {
@@ -1032,12 +1032,12 @@
     ]
   },
   "empyrea": {
-    "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:fire_element:1283760089119064096> Liv",
-    "frame_name": "Empyrea",
+    "unit_name": "Liv",
+    "frame_name": "Empyrea\n<:S_:1283759845995974727><:amplifier:1283759979689545748><:fire_element:1283760089119064096>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Elizabeth 2 Cottie" },
       {
-        "name": "Harmony Support Sub-DPS Set",
+        "name": "Main Support Set",
         "memos": "4 Da Vinci 2 Guinevere"
       },
       { "name": "Pain Cage Set", "memos": "4 Da Vinci 2 Guinevere" },
@@ -1058,14 +1058,13 @@
         "harmony_rec": "Darwin"
       },
       {
-        "set_name": "Harmony Support Sub-DPS Set",
-        "set_type": "Harmony",
-        "usage": "Harmony Support Sub-DPS",
+        "set_name": "Main Support Set",
+        "set_type": "Main Support",
+        "usage": "Main Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
-          "Fire Support Sub-DPS set",
-          "Post-Epitaph Harmony Build. Harmony recommendation prior to this will be Guinevere."
+          "Fire Support set for both on-field and off-field roles."
         ],
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
@@ -1088,7 +1087,7 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Passive"
         ],
-        "harmony_rec": "None"
+        "harmony_rec": "Einsteina"
       },
       {
         "set_name": "Alternative Pain Cage Set",
@@ -1097,10 +1096,10 @@
         "game_modes": "Pain Cage",
         "description": [
           "Recommended for all ranks",
+          "Used if fire tank is already holding 4x Da Vinci",
           "QTE support set for single DPS",
           "Empyrea can proc Guinevere's drone in a single QTE",
-          "Lantern sometimes substitutes Gloria.",
-          "Used if fire tank is already holding 4x Da Vinci"
+          "Lantern sometimes substitutes Gloria."
         ],
         "memories": ["4x Guinevere", "2x Gloria"],
         "memory_resonance": [
@@ -1112,8 +1111,8 @@
     ]
   },
   "capriccio": {
-    "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:dark_element:1283760052225835051> Selena",
-    "frame_name": "Capriccio",
+    "unit_name": "Selena",
+    "frame_name": "Capriccio\n<:S_:1283759845995974727><:amplifier:1283759979689545748><:dark_element:1283760052225835051>",
     "set_list": [
       { "name": "Main Support Sub-DPS Set", "memos": "4 Seraphine 2 Cottie" },
       {
@@ -1180,8 +1179,8 @@
     ]
   },
   "dragontoll": {
-    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096> Pulao",
-    "frame_name": "Dragontoll",
+    "unit_name": "Pulao",
+    "frame_name": "Dragontoll\n<:S_:1283759845995974727><:vanguard:1283760278630305793><:physical_element:1283760180386861096>",
     "set_list": [{ "name": "Uniframe Set", "memos": "6 Marco" }],
     "builds": [
       {
@@ -1200,8 +1199,8 @@
     ]
   },
   "starfarer": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096> Nanami",
-    "frame_name": "Starfarer",
+    "unit_name": "Nanami",
+    "frame_name": "Starfarer\n<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Unimate 2 Einsteina" },
       { "name": "Alternative Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
@@ -1239,8 +1238,8 @@
     ]
   },
   "starveil": {
-    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:ice_element:1283760120270032946> Haicma",
-    "frame_name": "Starveil",
+    "unit_name": "Haicma",
+    "frame_name": "Starveil\n<:S_:1283759845995974727><:vanguard:1283760278630305793><:ice_element:1283760120270032946>",
     "set_list": [{ "name": "Uniframe Set", "memos": "6 Isabel" }],
     "builds": [
       {
@@ -1259,8 +1258,8 @@
     ]
   },
   "scire": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051><:electroconvergence:1288090218922119181> Karenina",
-    "frame_name": "Scire",
+    "unit_name": "Karenina",
+    "frame_name": "Scire\n<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051><:electroconvergence:1288090218922119181>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Boone 2 Einsteina" },
       { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Boone 4 Bathlon" },
@@ -1273,11 +1272,11 @@
     ],
     "builds": [
       {
-        "set_name": "Main Tank Set",
-        "set_type": "Main Tank",
+        "set_name": "Main Tank/Sub-DPS Set",
+        "set_type": "Main Tank/Sub-DPS",
         "usage": "Main Tank/Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": ["Main DPS Set"],
+        "description": ["Main Tank/Sub-DPS Set"],
         "memories": ["4x Boone", "2x Einsteina"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1350,8 +1349,8 @@
     ]
   },
   "arca": {
-    "unit_name": "<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056> Noan",
-    "frame_name": "Arca",
+    "unit_name": "Noan",
+    "frame_name": "Arca\n<:S_:1283759845995974727><:vanguard:1283760278630305793><:lightning_element:1283760149755990056>",
     "set_list": [{ "name": "Uniframe Set", "memos": "6 Shelley" }],
     "builds": [
       {
@@ -1370,8 +1369,8 @@
     ]
   },
   "stigmata": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096><:trueslash:1288090116790812712> Bianca",
-    "frame_name": "Stigmata",
+    "unit_name": "Bianca",
+    "frame_name": "Stigmata\n<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096><:trueslash:1288090116790812712>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Charlotte 2 Leeuwenhoek" },
       {
@@ -1447,7 +1446,7 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
         ],
-        "harmony_rec": "None"
+        "harmony_rec": "Cottie"
       },
       {
         "set_name": "Pain Cage High Rank Harmony Set",
@@ -1469,8 +1468,8 @@
     ]
   },
   "vitrum": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:ice_element:1283760120270032946> Bambinata",
-    "frame_name": "Vitrum",
+    "unit_name": "Bambinata",
+    "frame_name": "Vitrum\n<:A_:1283759728979349580><:attacker:1283760012274958346><:ice_element:1283760120270032946>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" },
       { "name": "Pain Cage Niche Set", "memos": "4 Chen Jiyuan 2 Hanna" }
@@ -1509,8 +1508,8 @@
     ]
   },
   "hyperreal": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096> Lee",
-    "frame_name": "Hyperreal",
+    "unit_name": "Lee",
+    "frame_name": "Hyperreal\n<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
     "set_list": [
       { "name": "Main DPS SS Set", "memos": "4 Turing 2 Cottie" },
       { "name": "Main DPS SS3 Set", "memos": "4 Turing 2 Darwin" },
@@ -1529,7 +1528,7 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
         ],
-        "harmony_rec": "None"
+        "harmony_rec": "Darwin"
       },
       {
         "set_name": "Main DPS SS3 Set",
@@ -1543,7 +1542,7 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
         ],
-        "harmony_rec": "None"
+        "harmony_rec": "Cottie"
       },
       {
         "set_name": "Harmony Set",
@@ -1564,8 +1563,8 @@
     ]
   },
   "kaleido": {
-    "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:ice_element:1283760120270032946> Ayla",
-    "frame_name": "Kaleido",
+    "unit_name": "Ayla",
+    "frame_name": "Kaleido\n<:S_:1283759845995974727><:amplifier:1283759979689545748><:ice_element:1283760120270032946>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Aline 2 Darwin" },
       { "name": "Alternative DPS Set", "memos": "4 Aline 2 Cottie" }
@@ -1606,8 +1605,8 @@
     ]
   },
   "crimson weave": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Lucia",
-    "frame_name": "Crimson Weave",
+    "unit_name": "Lucia",
+    "frame_name": "Crimson Weave\n<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Diesel 2 Cottie" },
       { "name": "High Rank DPS Set", "memos": "4 Diesel 2 Cottie" },
@@ -1632,7 +1631,10 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": ["High Rank DPS set", "General DPS set"],
+        "description": [
+          "General DPS set for high rank Crimson Weave",
+          "SSS0 rank or higher only"
+        ],
         "memories": ["4x Diesel", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Basic Atk",
@@ -1660,8 +1662,8 @@
     ]
   },
   "zitherwoe": {
-    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:physical_element:1283760180386861096> Hanying",
-    "frame_name": "Zitherwoe",
+    "unit_name": "Hanying",
+    "frame_name": "Zitherwoe\n<:A_:1283759728979349580><:support:1283760217540132905><:physical_element:1283760180386861096>",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Da Vinci 2 Philip II" },
       { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" }
@@ -1698,8 +1700,8 @@
     ]
   },
   "feral": {
-    "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:lightning_element:1283760149755990056> No. 21",
-    "frame_name": "Feral",
+    "unit_name": "No. 21",
+    "frame_name": "Feral\n<:S_:1283759845995974727><:amplifier:1283759979689545748><:lightning_element:1283760149755990056>",
     "set_list": [
       { "name": "Main Support Sub-DPS Set", "memos": "4 Fran 2 Guinevere" },
       { "name": "Alternative Support Sub-DPS Set", "memos": "4 Fran 2 Cottie" },
@@ -1775,8 +1777,8 @@
     ]
   },
   "indomitus": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> Noctis",
-    "frame_name": "Indomitus",
+    "unit_name": "Noctis",
+    "frame_name": "Indomitus\n<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Heisen 2 Tifa" }],
     "builds": [
       {
@@ -1795,8 +1797,8 @@
     ]
   },
   "echo": {
-    "unit_name": "<:S_:1283759845995974727><:amplifier:1283759979689545748><:physical_element:1283760180386861096> Alisa",
-    "frame_name": "Echo",
+    "unit_name": "Alisa",
+    "frame_name": "Echo\n<:S_:1283759845995974727><:amplifier:1283759979689545748><:physical_element:1283760180386861096>",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Signa 2 Da Vinci" },
       { "name": "Harmony Support Set", "memos": "4 Signa 4 Da Vinci" },
@@ -1870,8 +1872,8 @@
     ]
   },
   "lost lullaby": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051> Lamia",
-    "frame_name": "Lost Lullaby",
+    "unit_name": "Lamia",
+    "frame_name": "Lost Lullaby\n<:S_:1283759845995974727><:attacker:1283760012274958346><:dark_element:1283760052225835051>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Derketo 2 Cottie" }],
     "builds": [
       {
@@ -1891,8 +1893,8 @@
     ]
   },
   "brs": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096> BRS",
-    "frame_name": "BRS",
+    "unit_name": "BRS",
+    "frame_name": "BRS\n<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" },
       { "name": "Alternative DPS Set", "memos": "4 Shakespeare 2 Darwin" },
@@ -1948,14 +1950,14 @@
         "memories": ["4x Hanna", "2x Shakespeare", "2x Shakespeare (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Core Passive"
+          "Bottom Slot: 6x Signature"
         ]
       }
     ]
   },
   "epitaph": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096> Watanabe",
-    "frame_name": "Epitaph",
+    "unit_name": "Watanabe",
+    "frame_name": "Epitaph\n<:S_:1283759845995974727><:tank:1283760248980770889><:fire_element:1283760089119064096>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Alphonse 2 Cottie" },
       {
@@ -2027,8 +2029,8 @@
     ]
   },
   "shukra": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946> Qu",
-    "frame_name": "Shukra",
+    "unit_name": "Qu",
+    "frame_name": "Shukra\n<:S_:1283759845995974727><:attacker:1283760012274958346><:ice_element:1283760120270032946>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Ji Bo'an 2 Darwin" },
       { "name": "Harmony Set", "memos": "4 Ji Bo'an 4 Chen Jiyuan" }
@@ -2075,8 +2077,8 @@
     ]
   },
   "decryptor": {
-    "unit_name": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051><:disorder:1288089672718876787> Teddy",
-    "frame_name": "Decryptor",
+    "unit_name": "Teddy",
+    "frame_name": "Decryptor\n<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051><:disorder:1288089672718876787>",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Da Vinci 2 Guinevere" },
       { "name": "Main DPS Set", "memos": "4 Bathlon 2 Darwin" }
@@ -2117,8 +2119,8 @@
     ]
   },
   "oblivion": {
-    "unit_name": "<:S_:1283759845995974727><:annihilator:1285900128489701436><:void_element:1285900049909284864><:disorder:1288089672718876787> Luna",
-    "frame_name": "Oblivion",
+    "unit_name": "Luna",
+    "frame_name": "Oblivion\n<:S_:1283759845995974727><:annihilator:1285900128489701436><:void_element:1285900049909284864><:disorder:1288089672718876787>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Cleopatra 2 Cottie" }],
     "builds": [
       {
@@ -2141,8 +2143,8 @@
     ]
   },
   "ardeo": {
-    "unit_name": "<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096><:combustion:1288089747952107581> Bridget",
-    "frame_name": "Ardeo",
+    "unit_name": "Bridget",
+    "frame_name": "Ardeo\n<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096><:combustion:1288089747952107581>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Shakespeare 2 Einsteina" },
       { "name": "Main DPS Set", "memos": "4 Shakespeare 2 Elizabeth" }
@@ -2185,8 +2187,8 @@
     ]
   },
   "solacetune": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096><:trueslash:1288090116790812712> Hanying",
-    "frame_name": "Solacetune",
+    "unit_name": "Hanying",
+    "frame_name": "Solacetune\n<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096><:trueslash:1288090116790812712>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Changwuzi 2 Patton" },
       { "name": "Harmony Set", "memos": "4 Changwuzi 4 Patton" }
@@ -2228,8 +2230,8 @@
     ]
   },
   "lucid dreamer": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946><:glaciation:1288090076001210398> Wanshi",
-    "frame_name": "Lucid Dreamer",
+    "unit_name": "Wanshi",
+    "frame_name": "Lucid Dreamer\n<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946><:glaciation:1288090076001210398>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Liston 2 Einsteina" },
       { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Liston 4 Chen Jiyuan" },
@@ -2310,11 +2312,15 @@
     ]
   },
   "pyroath": {
-    "unit_name": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096><:electroconvergence:1288090218922119181> Lucia",
-    "frame_name": "Pyroath",
+    "unit_name": "Lucia",
+    "frame_name": "Pyroath\n<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096><:electroconvergence:1288090218922119181>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Heraclitus 2 Cottie" },
-      { "name": "Ionization Affix DPS Set", "memos": "4 Heraclitus 2 Cottie" }
+      { "name": "High Rank DPS Set", "memos": "4 Heraclitus 2 Cottie" },
+      {
+        "name": "Electroconvergence Affix DPS Set",
+        "memos": "4 Heraclitus 2 Cottie"
+      }
     ],
     "builds": [
       {
@@ -2323,9 +2329,7 @@
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
-          "Recommended for all ranks",
-          "General DPS set",
-          "S0-SS3 rank will take 6x Basic Atk for the top resonance slots and 6x Signature for the bottom resonance slots. SSS rank and higher will replace the top resonance slot with 6x ATK+15.",
+          "General DPS set for SS0-SS3 Pyroath",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Heraclitus", "2x Cottie"],
@@ -2336,13 +2340,30 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "Ionization Affix DPS Set",
-        "set_type": "Ionization Affix",
-        "usage": "Ionization Affix Warzone Main DPS",
+        "set_name": "High Rank DPS Set",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "description": [
+          "General DPS set for high rank Pyroath",
+          "SSS0 rank or higher only",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Heraclitus", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "Electroconvergence Affix DPS Set",
+        "set_type": "Electroconvergence Affix",
+        "usage": "Electroconvergence Affix Warzone Main DPS",
         "game_modes": "Onslaught Pain Cage, Affix Warzone",
         "description": [
           "Recommended for all ranks",
-          "This set will only be used for affix content with the ionization affix enabled.",
+          "This set will only be used for affix content with the electroconvergence affix enabled.",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Heraclitus", "2x Cottie"],
@@ -2355,8 +2376,8 @@
     ]
   },
   "fulgor": {
-    "unit_name": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056><:glaciation:1288090076001210398> Yata",
-    "frame_name": "Fulgor",
+    "unit_name": "Yata",
+    "frame_name": "Fulgor\n<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056><:glaciation:1288090076001210398>",
     "set_list": [{ "name": "Main DPS Set", "memos": "4 Heisen 2 Tifa" }],
     "builds": [
       {
@@ -2379,8 +2400,8 @@
     ]
   },
   "startrail": {
-    "unit_name": "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056><:combustion:1288089747952107581> Nanami",
-    "frame_name": "Startrail",
+    "unit_name": "Nanami",
+    "frame_name": "Startrail\n<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056><:combustion:1288089747952107581>",
     "set_list": [{ "name": "Placeholder", "memos": "Placeholder" }],
     "builds": [
       {
