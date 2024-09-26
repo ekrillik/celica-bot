@@ -47,6 +47,7 @@
     "gray iron",
     "hope of the village",
     "night rakshasa",
+    "prototype shield axe zl-07",
     "gloomlight",
     "kuji no sada",
     "guardian mount",
@@ -89,6 +90,7 @@
     "whitefrost ruler",
     "progressive knife",
     "purging levin",
+    "type zl-09 illuminance", 
     "lotus berserker",
     "type zero",
     "inverse chimera",
@@ -152,7 +154,8 @@
     "dreamer roamer",
     "hemera's gaze",
     "dawn's flaming feathers",
-    "morrow's executioner"
+    "morrow's executioner",
+    "star tunnel of light"
   ],
   "weaponlist_categorised": [
     {
@@ -432,6 +435,14 @@
         "Morrow's Executioner ######",
         "Purging Levin #####",
         "Night Rakshasa ####"
+      ]
+    },
+    {
+      "name": "Charge Blades",
+      "list": [
+        "Star Tunnel of Light ######",
+        "Type ZL-09 Illuminance #####",
+        "Prototype Shield Axe ZL-07 ####"
       ]
     },
     {

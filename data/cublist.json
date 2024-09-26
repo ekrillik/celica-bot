@@ -1,5 +1,6 @@
 {
   "cublist": [
+    "an ji",
     "yi kong",
     "rui xue",
     "mei wu",
@@ -132,7 +133,7 @@
       "base_rank": "S"
     },
     {
-      "name": "<:S_:1283759845995974727><:physical_element:1283760180386861096> Mei Wu",
+      "name": "<:s_rank:1287636749052412026><:physical_element:1283760180386861096> Mei Wu",
       "sig_character": "Solacetune",
       "base_rank": "S"
     },
@@ -144,6 +145,11 @@
     {
       "name": "<:S_:1283759845995974727><:fire_element:1283760089119064096> Yi Kong",
       "sig_character": "Pyroath",
+      "base_rank": "S"
+    },
+    {
+      "name": "<:s_rank:1287636749052412026><:lightning_element:1287636531321765959> An Ji",
+      "sig_character": "Startrail",
       "base_rank": "S"
     }
   ]

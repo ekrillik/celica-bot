@@ -227,7 +227,7 @@
           "full_name": "Watanabe: Epitaph"
         },
         {
-          "emojis": "<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096>",
+          "emojis": "<:A_:1283759728979349580><:tank:1283760248980770889><:fire_element:1283760089119064096><:combustion:1288089747952107581>",
           "full_name": "Bridget: Ardeo"
         },
         {
@@ -237,6 +237,10 @@
         {
           "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946>",
           "full_name": "Wanshi: Lucid Dreamer"
+        },
+        {
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:lightning_element:1283760149755990056><:combustion:1288089747952107581>",
+          "full_name": "Nanami: Startrail"
         }
       ]
     },
