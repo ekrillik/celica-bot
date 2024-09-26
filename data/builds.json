@@ -2040,6 +2040,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Qu+Shukra+%5B2+Builds%5D/Qukra+%5BJi+Bo'an+Darwin%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
@@ -2058,6 +2059,7 @@
         "set_name": "Harmony Set",
         "set_type": "Harmony",
         "usage": "Harmony DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Qu+Shukra+%5B2+Builds%5D/Qukra+%5BJi+Bo'an+Chen%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
