@@ -122,7 +122,7 @@
           "full_name": "2B: 2B"
         },
         {
-          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096>",
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:physical_element:1283760180386861096><:trueslash:1288090116790812712>",
           "full_name": "Bianca: Stigmata"
         },
         {
@@ -134,7 +134,7 @@
           "full_name": "Lee: Hyperreal"
         },
         {
-          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056>",
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056><:umbrasurge:1288090169303371828>",
           "full_name": "Lucia: Crimson Weave"
         },
         {
@@ -154,11 +154,11 @@
           "full_name": "Qu: Shukra"
         },
         {
-          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
+          "emojis": "<:S_:1283759845995974727><:attacker:1283760012274958346><:fire_element:1283760089119064096><:electroconvergence:1288090218922119181>",
           "full_name": "Lucia: Pyroath"
         },
         {
-          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056> ",
+          "emojis": "<:A_:1283759728979349580><:attacker:1283760012274958346><:lightning_element:1283760149755990056><:glaciation:1288090076001210398>",
           "full_name": "Yata: Fulgor"
         }
       ]
@@ -219,7 +219,7 @@
           "full_name": "Nanami: Starfarer"
         },
         {
-          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051>",
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:dark_element:1283760052225835051><:electroconvergence:1288090218922119181>",
           "full_name": "Karenina: Scire"
         },
         {
@@ -231,11 +231,11 @@
           "full_name": "Bridget: Ardeo"
         },
         {
-          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096>",
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:physical_element:1283760180386861096><:trueslash:1288090116790812712>",
           "full_name": "Hanying: Solacetune"
         },
         {
-          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946>",
+          "emojis": "<:S_:1283759845995974727><:tank:1283760248980770889><:ice_element:1283760120270032946><:glaciation:1288090076001210398>",
           "full_name": "Wanshi: Lucid Dreamer"
         },
         {
@@ -280,7 +280,7 @@
           "full_name": "Hanying: Zitherwoe"
         },
         {
-          "emojis": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051>",
+          "emojis": "<:A_:1283759728979349580><:support:1283760217540132905><:dark_element:1283760052225835051><:disorder:1288089672718876787>",
           "full_name": "Teddy: Decryptor"
         }
       ]
@@ -314,7 +314,7 @@
       "type": "Annihilators",
       "constructs": [
         {
-          "emojis": "<:S_:1283759845995974727><:annihilator:1285900128489701436><:void_element:1285900049909284864>",
+          "emojis": "<:S_:1283759845995974727><:annihilator:1285900128489701436><:void_element:1285900049909284864><:disorder:1288089672718876787>",
           "full_name": "Luna: Oblivion"
         }
       ]
