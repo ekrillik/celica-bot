@@ -320,7 +320,7 @@ def check_nickname(nickname, caller):
             weapon = "morrow's executioner"
             cub = "n/a"
             memory = "n/a"
-        case "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki":
+        case "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi":
             character = "startrail"
             weapon = "star tunnel of light"
             cub = "an ji"
