@@ -727,8 +727,8 @@ def character_theme(nickname):
         case "startrail":
             name = "Nanami: Startrail"
             colour = 0xfdee75
-            chibi_portrait = ""
-            thumbnail_url = ""
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr6yongyechao2q.webp"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr6yongyechao3.webp"
         case _:
             name = ""
             colour = ""

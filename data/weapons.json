@@ -663,7 +663,7 @@
     "name": "Prototype Shield Axe ZL-07",
     "weapon_type": "Charge Blade",
     "rarity": 4,
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2swordaxemd010011.webp",
     "atk": 224,
     "crit": 131,
     "effect": {
@@ -1287,7 +1287,7 @@
     "name": "Type ZL-09 Illuminance",
     "weapon_type": "Charge Blade",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2packmd020011sp.webp",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2swordaxemd020011.webp",
     "atk": 354,
     "crit": 201,
     "effect": {
@@ -2067,7 +2067,7 @@
     "name": "Star Tunnel of Light",
     "weapon_type": "Charge Blade",
     "rarity": 6,
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e3swordaxemd010011.webp",
     "atk": 436,
     "crit": 294,
     "effect": {
