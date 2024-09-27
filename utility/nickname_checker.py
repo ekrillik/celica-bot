@@ -675,7 +675,7 @@ def character_theme(nickname):
             chibi_portrait = "https://assets.huaxu.app/glb/image/role/roleheadr3lamiya2q.webp"
             thumbnail_url = "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3lamiya3.256.webp"
         case "brs":
-            name = "BRS: BRS"
+            name = "BLACK\u2605ROCK SHOOTER: BLACK\u2605ROCK SHOOTER"
             colour = 0x2f3743
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2blackrock2q.webp"
             thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr2blackrock3.256.webp"

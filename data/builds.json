@@ -1893,8 +1893,8 @@
     ]
   },
   "brs": {
-    "unit_name": "BRS",
-    "frame_name": "BRS\n<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
+    "unit_name": "BLACK\u2605ROCK SHOOTER",
+    "frame_name": "BLACK\u2605ROCK SHOOTER\n<:A_:1283759728979349580><:attacker:1283760012274958346><:fire_element:1283760089119064096>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" },
       { "name": "Alternative DPS Set", "memos": "4 Shakespeare 2 Darwin" },
