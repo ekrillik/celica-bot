@@ -1606,7 +1606,7 @@
   },
   "crimson weave": {
     "unit_name": "Lucia",
-    "frame_name": "Crimson Weave\n<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056>",
+    "frame_name": "Crimson Weave\n<:S_:1283759845995974727><:attacker:1283760012274958346><:lightning_element:1283760149755990056><:umbrasurge:1288090169303371828>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Diesel 2 Cottie" },
       { "name": "High Rank DPS Set", "memos": "4 Diesel 2 Cottie" },
