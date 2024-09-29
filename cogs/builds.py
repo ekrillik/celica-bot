@@ -33,10 +33,16 @@ class Builds(commands.Cog):
         embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/cnnotationguide4.png')
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(aliases=["affix"], description="Displays the affix diagram created by Ko used to explain PGR affixes.")
+    @commands.hybrid_command(aliases=["affix", "ag"], description="Displays the affix diagram created by Ko used to explain PGR affixes.")
     async def affixguide(self, ctx: commands.Context):
         embed = discord.Embed(title="", description="")
         embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/affix-guide.png')
+        await ctx.send(embed=embed)
+
+    @commands.hybrid_command(aliases=["at"], description="Displays the affix teams infographic by Aethervoid used to explain affix teams.")
+    async def affixteams(self, ctx: commands.Context):
+        embed = discord.Embed(title="", description="")
+        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Affix_Teams.png')
         await ctx.send(embed=embed)
 
     @commands.hybrid_command(description="Displays a set of builds for any particular character.")
