@@ -36,6 +36,10 @@
       "description": "Displays Ko's infographic for how affixes work in PGR."
     },
     {
+      "command": "affixteams",
+      "description": "Displays Aether's infographic for how affix teams in PGR."
+    },
+    {
       "command": "skills",
       "description": "Provides a view of all the skills for a particular character with a dropdown menu."
     },
@@ -102,7 +106,12 @@
   },
   "affixguide": {
     "syntax": "?affixguide",
-    "aliases": "?affix",
+    "aliases": "?affix, ?ag",
+    "description": "Displays Ko's infographic for how affixes work in PGR."
+  },
+  "affixteams": {
+    "syntax": "?affixteams",
+    "aliases": "?at",
     "description": "Displays Ko's infographic for how affixes work in PGR."
   },
   "skills": {
