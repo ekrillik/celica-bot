@@ -112,7 +112,7 @@
   "affixteams": {
     "syntax": "?affixteams",
     "aliases": "?at",
-    "description": "Displays Ko's infographic for how affixes work in PGR."
+    "description": "Displays Aether's infographic for how affix teams in PGR."
   },
   "skills": {
     "syntax": "?skills [character name]",
