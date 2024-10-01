@@ -63,7 +63,7 @@
   },
   "storm": {
     "unit_name": "Nanami",
-    "frame_name": "Storm\n<:b_rank:1290613335267610635><:tank:1283760248980770889><:physical_element:1290613978057146379>",
+    "frame_name": "Storm\n<:b_rank:1290613335267610635><:tank:1290614106520555571><:physical_element:1290613978057146379>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Catherine" }
     ],
@@ -296,7 +296,7 @@
   },
   "pulse": {
     "unit_name": "Nanami",
-    "frame_name": "Pulse\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:fire_element:1290613867365273630>",
+    "frame_name": "Pulse\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:fire_element:1290613867365273630>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
       { "name": "Alternative Tank Set", "memos": "4 Shakespeare 2 Einsteina" }
@@ -335,7 +335,7 @@
   },
   "tenebrion": {
     "unit_name": "Kamui",
-    "frame_name": "Tenebrion\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:physical_element:1290613978057146379> ",
+    "frame_name": "Tenebrion\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:physical_element:1290613978057146379> ",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
       { "name": "Alternative Tank/Sub-DPS Set", "memos": "4 Hanna 2 Einsteina" }
@@ -391,7 +391,7 @@
   },
   "bastion": {
     "unit_name": "Kamui",
-    "frame_name": "Bastion\n<:a_rank:1290613305416880169><:tank:1283760248980770889><:physical_element:1290613978057146379> ",
+    "frame_name": "Bastion\n<:a_rank:1290613305416880169><:tank:1290614106520555571><:physical_element:1290613978057146379> ",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Hanna 2 Darwin" },
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Catherine" }
@@ -447,7 +447,7 @@
   },
   "brilliance": {
     "unit_name": "Ayla",
-    "frame_name": "Brilliance\n<:a_rank:1290613305416880169><:tank:1283760248980770889><:physical_element:1290613978057146379> ",
+    "frame_name": "Brilliance\n<:a_rank:1290613305416880169><:tank:1290614106520555571><:physical_element:1290613978057146379> ",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Catherine" }
     ],
@@ -511,7 +511,7 @@
   },
   "arclight": {
     "unit_name": "Chrome",
-    "frame_name": "Arclight\n<:a_rank:1290613305416880169><:tank:1283760248980770889><:lightning_element:1287636531321765959> ",
+    "frame_name": "Arclight\n<:a_rank:1290613305416880169><:tank:1290614106520555571><:lightning_element:1287636531321765959> ",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
     ],
@@ -616,7 +616,7 @@
   },
   "rigor": {
     "unit_name": "Rosetta",
-    "frame_name": "Rigor\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:physical_element:1290613978057146379>",
+    "frame_name": "Rigor\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:physical_element:1290613978057146379>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Leeuwenhoek 2 Catherine" },
       { "name": "Pain Cage Niche Set", "memos": "4 Da Vinci 2 Catherine" }
@@ -661,7 +661,7 @@
   },
   "qilin": {
     "unit_name": "Changyu",
-    "frame_name": "Qilin\n<:a_rank:1290613305416880169><:tank:1283760248980770889><:ice_element:1290613933106925638>",
+    "frame_name": "Qilin\n<:a_rank:1290613305416880169><:tank:1290614106520555571><:ice_element:1290613933106925638>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
     ],
@@ -786,7 +786,7 @@
   },
   "a2": {
     "unit_name": "A2",
-    "frame_name": "A2\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:physical_element:1290613978057146379>",
+    "frame_name": "A2\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:physical_element:1290613978057146379>",
     "set_list": [{ "name": "Main Tank Set", "memos": "4 Patton 2 Catherine" }],
     "builds": [
       {
@@ -871,7 +871,7 @@
   },
   "glory": {
     "unit_name": "Chrome",
-    "frame_name": "Glory\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:ice_element:1290613933106925638> ",
+    "frame_name": "Glory\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:ice_element:1290613933106925638> ",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
       {
@@ -914,7 +914,7 @@
   },
   "xxi": {
     "unit_name": "No. 21",
-    "frame_name": "XXI\n<:a_rank:1290613305416880169><:tank:1283760248980770889><:dark_element:1290613554923438102>",
+    "frame_name": "XXI\n<:a_rank:1290613305416880169><:tank:1290614106520555571><:dark_element:1290613554923438102>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Da Vinci 2 Einsteina" },
       { "name": "Alternative Tank Set", "memos": "4 Bathlon 2 Einstina" }
@@ -953,7 +953,7 @@
   },
   "garnet": {
     "unit_name": "Vera",
-    "frame_name": "Garnet\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:lightning_element:1287636531321765959>",
+    "frame_name": "Garnet\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:lightning_element:1287636531321765959>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Tifa 2 Einsteina" },
       { "name": "QTE Tank Support Set", "memos": "4 Da Vinci 2 Einsteina" },
@@ -1200,7 +1200,7 @@
   },
   "starfarer": {
     "unit_name": "Nanami",
-    "frame_name": "Starfarer\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:fire_element:1290613867365273630>",
+    "frame_name": "Starfarer\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:fire_element:1290613867365273630>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Unimate 2 Einsteina" },
       { "name": "Alternative Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
@@ -1259,7 +1259,7 @@
   },
   "scire": {
     "unit_name": "Karenina",
-    "frame_name": "Scire\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:dark_element:1290613554923438102><:electroconvergence:1288090218922119181>",
+    "frame_name": "Scire\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:dark_element:1290613554923438102><:electroconvergence:1288090218922119181>",
     "set_list": [
       { "name": "Main Tank/Sub-DPS Set", "memos": "4 Boone 2 Einsteina" },
       { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Boone 4 Bathlon" },
@@ -1951,7 +1951,7 @@
   },
   "epitaph": {
     "unit_name": "Watanabe",
-    "frame_name": "Epitaph\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:fire_element:1290613867365273630>",
+    "frame_name": "Epitaph\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:fire_element:1290613867365273630>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Alphonse 2 Cottie" },
       {
@@ -2140,7 +2140,7 @@
   },
   "ardeo": {
     "unit_name": "Bridget",
-    "frame_name": "Ardeo\n<:a_rank:1290613305416880169><:tank:1283760248980770889><:fire_element:1290613867365273630><:combustion:1288089747952107581>",
+    "frame_name": "Ardeo\n<:a_rank:1290613305416880169><:tank:1290614106520555571><:fire_element:1290613867365273630><:combustion:1288089747952107581>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Shakespeare 2 Einsteina" },
       { "name": "Main DPS Set", "memos": "4 Shakespeare 2 Elizabeth" }
@@ -2184,7 +2184,7 @@
   },
   "solacetune": {
     "unit_name": "Hanying",
-    "frame_name": "Solacetune\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:physical_element:1290613978057146379><:trueslash:1288090116790812712>",
+    "frame_name": "Solacetune\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:physical_element:1290613978057146379><:trueslash:1288090116790812712>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Changwuzi 2 Patton" },
       { "name": "Harmony Set", "memos": "4 Changwuzi 4 Patton" }
@@ -2227,7 +2227,7 @@
   },
   "lucid dreamer": {
     "unit_name": "Wanshi",
-    "frame_name": "Lucid Dreamer\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:ice_element:1290613933106925638><:glaciation:1288090076001210398>",
+    "frame_name": "Lucid Dreamer\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:ice_element:1290613933106925638><:glaciation:1288090076001210398>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Liston 2 Einsteina" },
       { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Liston 4 Chen Jiyuan" },
@@ -2397,7 +2397,7 @@
   },
   "startrail": {
     "unit_name": "Nanami",
-    "frame_name": "Startrail\n<:s_rank:1287636749052412026><:tank:1283760248980770889><:lightning_element:1287636531321765959><:combustion:1288089747952107581>",
+    "frame_name": "Startrail\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:lightning_element:1287636531321765959><:combustion:1288089747952107581>",
     "set_list": [{ "name": "Placeholder", "memos": "Placeholder" }],
     "builds": [
       {
