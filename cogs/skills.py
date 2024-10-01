@@ -151,7 +151,7 @@ class Skills(commands.Cog):
         name = fuzzmatch(frame)
         if name == "":
             name = frame
-        character = check_nickname(character, "character")
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'signature')
 
     @commands.hybrid_command(aliases=['QTE', 'Qte'], description="Displays the QTE skill for a particular character.")
