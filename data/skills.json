@@ -1477,7 +1477,7 @@
         "button_press": "Ping Blue Orb",
         "switch_in": "yes",
         "description": {
-          "desc": "Fires an energy projectile forward, dealing Physical DMG. An energy ring will be generated after the projectile hits a target of reaches a certain distance. When the energy ring is deployed, it slightly pulls the enemy towards the center once. Enemies in the ring take Physical DMG over time.",
+          "desc": "Fires an energy projectile forward, dealing Physical DMG. An energy ring will be generated after the projectile hits a target of reaches a certain distance. When the energy ring is deployed, it slightly pulls the enemy toward the center once. Enemies in the ring take Physical DMG over time.",
           "result": [
             "- The energy projectile deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged.",
             "- The energy ring lasts 3 / 4 / 5s and deals 24% / 48% / 72% Phyiscal DMG per second based on the number of orbs pinged."
@@ -7677,7 +7677,7 @@
         ],
         "level18": [
           "**Level 18**: Activates all available QTEs when activating Luminous Realm.",
-          "[Mass Decree Lv.3] added effect: The Base DMG increase effect of each stack of Stigmata Will towards [Blade Abyss: Illuminated Abyss] is increased to 7.5%. The Base DMG increase of each stack of Mark of Shadow towards Trueslash while performing [Stormlight Chaos] and towards [Shatter Dark] is increased to 2.0% and 4.5% respectively."
+          "[Mass Decree Lv.3] added effect: The Base DMG increase effect of each stack of Stigmata Will toward [Blade Abyss: Illuminated Abyss] is increased to 7.5%. The Base DMG increase of each stack of Mark of Shadow toward Trueslash while performing [Stormlight Chaos] and toward [Shatter Dark] is increased to 2.0% and 4.5% respectively."
         ]
       },
       {
@@ -9692,181 +9692,181 @@
   "brs": {
     "basic_attack": [
       {
-        "name": "Annihilation Meteor Shower - Photon Hurricane",
+        "name": "Annihilating Meteor Shower - Photon Hurricane",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Uses the Blade Cannon to attack the enemy, dealing Fire DMG and gaining Blazing Heart.",
+          "desc": "Attacks the target with the Bladed Cannon, dealing Fire DMG while gaining Blazing Heart",
           "result": [
-            "- Deals a total of 680% Fire DMG.",
-            "- Gains Blazing Heart when performing the fourth or fifth move of the Basic Attack sequence, using Photon Cannon, or dodging successfully."
+            "- Deals 680% Fire DMG in total.",
+            "- Gains Blazing Heart when dealing the 4th and 5th hits of the Basic Attack sequence, casting Basic Attack - Photon Cannon, or dodging successfully."
           ]
         }
       },
       {
-        "name": "Annihilation Meteor Shower - Photon Strike",
-        "button_press": "Blazing Heart + Hold Basic Attack",
+        "name": "Annihilating Meteor Shower - Photon Strike",
+        "button_press": "Blazing Heart + Press and hold Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Consumes Blazing Heart to rapidly slash the target, then leap into the air and fire the cannon, dealing Fire DMG. If BRS has sufficient dodge meter, she will consume 250 dodge meter to avoid incoming attacks during the slashing move.",
+          "desc": "Consumes Blazing Heart to quickly slash the target before leaping into the air to fire the cannon, dealing Fire DMG. When there is sufficient Dodge Gauge, consumes 250 Dodge Gauge to dodge incoming attacks during the slash.",
           "result": [
-            "- Deals a total of 70% Fire DMG.",
-            "- While firing the cannon, holding Basic Attack allows to fire up to 10 additional shots, each shot dealing 24% Fire DMG."
+            "- The slash deals 70% Fire DMG.",
+            "- Hold Basic Attack while firing the cannon to fire up to 10 additional shots, each shot dealing 24% Fire DMG."
           ]
         }
       },
       {
-        "name": "Annihilation Meteor Shower - Photon Cannon",
-        "button_press": "Upon landing after firing the cannon in Photon Strike + Release Basic Attack / After finishing the third move of the Basic Attack sequence + Tap Basic Attack",
+        "name": "Annihilating Meteor Shower - Photon Cannon",
+        "button_press": "Upon Photon Strike landing + Upon releasing Basic Attack or at the end of Basic Attack's 3rd Hit + Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Briefly charges the cannon and fires a powerful blast towards the target, dealing Fire DMG, gaining additional Energy, and gaining Super Armor for a brief time. Releasing Basic Attack while BRS is in midair during Photon Strike instantly grants her a brief DMG Reduction effect and blocks incoming attacks.",
+          "desc": "Charges briefly to fire a powerful blast toward the target, dealing Fire DMG, gaining additional Signature Energy, and gaining Super Armor for a short duration. While BLACK\u2605ROCK SHOOTER is airborne during Photon Strike, she gains DMG Reduction briefly and is able to block incoming attacks when Basic Attack is released.",
           "result": [
-            "- Deals 120% Fire DMG to targets in the shot's path.",
-            "- Additionally gains 3 Energy.",
-            "- Releasing Basic Attack while BRS is in midair during Photon Strike instantly grants her a brief 70% DMG Reduction effect and blocks incoming attacks. If BRS successfully blocks an attack, she will immediately jump backwards and perform Photon Cannon, during which she gains 50% DMG Reduction."
+            "- Deals 120% Fire DMG to enemies along the path.",
+            "- Gains an extra 3 Signature Energy.",
+            "- While BLACK\u2605ROCK SHOOTER is airborne during Photon Strike, she gains 70% DMG Reduction briefly and is able to block incoming attacks when Basic Attack is released. Upon a successful block, she immediately jumps back and casts Basic Attack - Photon Cannon, gaining 50% DMG Reduction during so."
           ]
         }
       },
       {
-        "name": "Annihilation Meteor Shower - Skyfall Blade",
-        "button_press": "During the animation delay after Burst Drive + Tap Basic Attack",
+        "name": "Annihilating Meteor Shower - Skycrushing Blade",
+        "button_press": "During post-action of Burst Drive + Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Jumps into the air and throws a giant blade. Draws the blade after charging power, dealing Fire DMG to targets in the area.",
+          "desc": "Leaps into the air and hurls the giant blade forward. After charging for a brief moment, pulls the blade out to deal Fire DMG to all targets within the area.",
           "result": [
-            "- Throwing the blade deals 110% Fire DMG.",
-            "- Drawing the blade deals 370% Fire DMG.",
-            "- While charging power, gains Super Armor and 50% DMG Reduction."
+            "- Deals 110% Fire DMG when hurling the giant blade.",
+            "- Deals 370% Fire DMG when pulling the blade out.",
+            "- Gains Super Armor and 50% DMG Reduction while charging."
           ]
         }
       }
     ],
     "red_orb": [
       {
-        "name": "Starblaze Edge",
+        "name": "Astral Edge",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
         "description": {
-          "desc": "Rapidly performs consecutive slashes towards the area ahead, dealing Fire DMG in a large area. This skill is automatically followed up by Flare Strike upon a 3-Ping, dealing extra Fire DMG.",
+          "desc": "Quickly slashes forward multiple times, dealing Fire DMG in a large area. Upon a 3-Ping, automatically follows up with Flare Strike, dealing Extra Fire DMG.",
           "result": [
-            "- Deals a total of 75% / 150% / 225% Fire DMG based on the number of orbs pinged.",
+            "- Deals 75% / 150% / 225% Fire DMG in total based on the number of orbs pinged.",
             "- Flare Strike deals 250% Fire DMG.",
-            "- Gains Super Armor and 70% DMG Reduction while performing Flare Strike."
+            "- Gains Super Armor and 70% DMG Reduction while casting Flare Strike."
           ]
         }
       }
     ],
     "yellow_orb": [
       {
-        "name": "Stella Cross",
+        "name": "Stellar Cross",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
         "description": {
-          "desc": "Rushes towards the target and bombards the area ahead extremely quickly, dealing Fire DMG. This skill is automatically followed up by Starstream Bayonet upon a 3-Ping, dealing extra Fire DMG.",
+          "desc": "Charges toward the target and rapidly bombards the area in front, dealing Fire DMG. Upon a 3-Ping, automatically follows up with Starry Bayonet, dealing Extra Fire DMG.",
           "result": [
-            "- Deals a total of 85% / 170% / 255% Fire DMG based on the number of orbs pinged.",
-            "- Starstream Bayonet deals 300% Fire DMG.",
-            "- Gains Super Armor and 70% DMG Reduction while performing Starstream Bayonet."
+            "- Deals 85% / 170% / 255% Fire DMG in total based on the number of orbs pinged.",
+            "- Starry Bayonet deals 300% Fire DMG.",
+            "- Gains Super Armor and 70% DMG Reduction while casting Starry Bayonet."
           ]
         }
       }
     ],
     "blue_orb": [
       {
-        "name": "Bound Heart",
-        "button_press": "Perform Otherworldly Eosphorus + Automatically ping Blue Orb",
+        "name": "Entangled Heart",
+        "button_press": "Blue Orb automatically pinged upon casting Signature - Ethereal Star",
         "switch_in": "no",
         "description": {
-          "desc": "When performing Otherworldly Eosphorus, deals an additional instance of Fire DMG based on the number of Blue Orbs.",
+          "desc": "When casting Signature - Ethereal Star, deals Extra Fire DMG once based on the number of Blue Orbs present.",
           "result": [
-            "- When performing Otherworldly Eosphorus, Blue Orbs are converted into Bound Hearts, dealing 150% Fire DMG.",
-            "- For every Bound Heart consumed, the Base DMG of this attack is doubled.",
-            "- Blue Orbs cannot be pinged manually."
+            "- When casting Signature - Ethereal Star, Blue Orbs are converted into Entangled Hearts, dealing 150% Fire DMG.",
+            "- The Base DMG of this attack increases by 100% for every Entangled Heart consumed.",
+            "- Blue Orbs cannot be manually pinged."
           ]
         }
       }
     ],
     "core_passive": {
-      "name": "Endless Struggle",
+      "name": "Endless Battle",
       "skills": [
         {
-          "name": "Reflection Nebula",
+          "name": "Endless Battle - Reflective Nebula",
           "button_press": "",
           "description": [
-            "Upon a Red or Yellow 3-Ping, continuously pinging Red or Yellow Signal Orbs during the skill animation allows BRS to cancel the previous skill and cast the skill afresh, dealing DMG based on the number of orbs pinged when canceling. In addition, BRS gains the same number of Blue Orbs as the number of Red or Yellow Orbs consumed upon performing  Flare Strike or  Starstream Bayonet."
+            "While performing a Red/Yellow Orb 3-Ping, pinging Red/Yellow Orbs again can interrupt it and recast the skill, dealing DMG based on the number of orbs pinged in the interruption, as well as gaining Blue Orbs equal to the number of orbs pinged when casting Flare Strike or Starry Bayonet."
           ],
           "result": [
-            "- Blue Signal Orbs will be lined up above other Signal Orbs. Blue Orbs cannot be pinged manually.",
-            "- BRS cannot gain Blue Signal Orbs by any other means. Basic Attacks only generate Red or Yellow Signal Orbs.",
-            "- For every time BRS performs a Red or Yellow 3-Ping, she can cancel up to twice.",
-            "- Canceling 3-Pings, Flare Strike, or Starstream Bayonet by dodging also grants Blue Signal Orbs."
+            "- Blue Orbs are located above the Red/Yellow Orbs and cannot be manually pinged.",
+            "- Blue Orbs cannot be generated through any other source. Basic Attacks can only generate Red/Yellow Orbs..",
+            "- Each Red/Yellow 3-Ping can be interrupted up to 2 times.",
+            "- Blue Orbs are still generated if a 3-Ping, Flare Strike, or Starry Bayonet is interrupted by dodging."
           ]
         },
         {
-          "name": "Limitless",
+          "name": "Endless Battle - Limit Released",
           "button_press": "",
           "description": [
-            "When performing  Flare Strike or  Starstream Bayonet, deal extra Fire DMG based on the total number of Signal Orbs pinged during the current sequence."
+            "While casting Flare Strike or Starry Bayonet, deals Extra Fire DMG based on the total number of orbs pinged during the entire action sequence (including both the original skill and the recast skill after interruption)."
           ],
           "result": [
-            "- Each Signal Orb pinged deals an extra hit of DMG.",
-            "- When performing Flare Strike, each extra hit deals 72% Fire DMG.",
-            "- When performing Starstream Bayonet, each extra hit deals 84% Fire DMG."
+            "- Deals one extra hit of DMG for every orb pinged.",
+            "- Each extra hit deals 72% Fire DMG while casting Flare Strike.",
+            "- Each extra hit deals 84% Fire DMG while casting Starry Bayonet."
           ]
         },
         {
-          "name": "Enhanced Strike",
+          "name": "Endless Battle - Enhanced Blast",
           "button_press": "",
           "description": [
-            "BRS accumulates Strike Energy upon performing Photon Hurricane, Photon Strike, Photon Cannon, Starblaze Edge or Stella Cross. When Strike Energy is fully charged, performing Flare Strike or Starstream Bayonet increases their Base DMG."
+            "Casting Basic Attack - Photon Hurricane, Basic Attack - Photon Strike, Basic Attack - Photon Cannon, Astral Edge, and Stellar Cross will accumulate Blast Energy. When Blast Energy is full, casting Flare Strike and Starry Bayonet will deplete the Blast Energy and deal increased Base DMG."
           ],
           "result": [
-            "- Strike Energy requires 1,000 points to be fully charged.",
-            "- Every Basic Attack grants 14 Strike Energy. Every cannon shot in Photon Strike grants 21 Strike Energy. Photon Cannon grants 74 Strike Energy.",
-            "- Performing Starblaze Edge, Stella Cross, or triggering Reflection Nebula grants 100 / 200 / 334 Strike Energy based on the number of orbs pinged.",
-            "- When Strike Energy is fully charged, performing Flare Strike or Starstream Bayonet will consume all Strike Energy and increase the Base DMG for the current cast of Flare Strike or Starstream Bayonet by 100%."
+            "- Blast Energy has a maximum value of 1000.",
+            "- Each Basic Attack grants 14 Blast Energy. Each shot fired in Basic Attack - Photon Strike grants 21 Blast Energy. Basic Attack - Photon Cannon grants 74 Blast Energy.",
+            "- When casting Astral Edge, Stellar Cross, or when triggering Core Passive - Reflective Nebula, gains 100 / 200 /334 Blast Energy based on the number of orbs pinged.",
+            "- When Blast Energy is full, casting Flare Strike or Starry Bayonet will deplete the Blast Energy and increase the Base DMG of Flare Strike or Starry Bayonet by 100%."
           ]
         }
       ]
     },
     "signature": {
-      "name": "The Worldweaver",
+      "name": "World Weaver",
       "skills": [
         {
-          "name": "Burst Drive",
-          "button_press": "Consume 10 Energy + Tap Signature Move",
+          "name": "World Weaver - Burst Drive",
+          "button_press": "10 Energy + Tap Signature",
           "description": {
-            "desc": "Performs a powerful piercing attack towards targets ahead, dealing Fire DMG and activating Cerulean Eclosion. BRS is invincible while performing Burst Drive.",
+            "desc": "Unleases a powerful thrust toward the target in front, dealing Fire DMG and activating Azure Awakening. Becomes invincible when casting Signature - Burst Drive.",
             "result": [
               "- Deals 200% Fire DMG.",
-              "- While Cerulean Eclosion is active, BRS's Fire DMG increases by 15%.",
-              "- Cerulean Eclosion lasts for 10s."
+              "- Fire DMG increases by 15% in Azure Awakening.",
+              "- Azure Awakening lasts 10s."
             ]
           }
         },
         {
-          "name": "Otherworldly Eosphorus",
-          "button_press": "Cerulean Eclosion + Possess Blue Orb + Hold or tap Signature Move",
+          "name": "World Weaver - Ethereal Star",
+          "button_press": "Azure Awakening + Blue Orbs available + Pres and hold/tap Signature",
           "description": {
-            "desc": "Charges the Black Rock Cannon and automatically consumes all Bound Hearts and Energy to fire a powerful blast towards the target area, dealing Fire DMG and exiting Cerulean Eclosion.",
+            "desc": "Charges the Rock Cannon and automatically consumes all Entagled Hearts and Signature Energy to fire a powerful blast toward the target area, dealing Fire DMG and exiting Azure Awakening.",
             "result": [
-              "- Deals a total of 700% Fire DMG. BRS is invincible while performing Otherworldly Eosphorus.",
-              "- Otherworldly Eosphorus cannot be used while performing Flare Strike, Starstream Bayonet, or Skyfall Blade."
+              "- Deals 700% Fire DMG in total. Becomes invincible when casting Signature - Ethereal Star.",
+              "- Signature - Ethereal Star cannot be cast while casting Flare Strike, Starry Bayonet, or Basic Attack - Skycrushing Blade."
             ]
           }
         }
       ]
     },
     "qte": {
-      "name": "Starry Mirage",
-      "description": "Rapidly performs powerful slashes at the target, dealing Fire DMG.",
-      "result": ["- Deals a total of 300% Fire DMG."]
+      "name": "Star Mirage",
+      "description": "Quickly launches powerful slashes toward the target area, dealing Fire DMG.",
+      "result": ["- Deals 300% Fire DMG in total."]
     },
     "leader": {
       "name": "Alter Ego",
       "description": {
-        "desc": "Fire DMG of all team members increases by 10%.",
+        "desc": "Increases Fire DMG of all members by 10%.",
         "result": []
       }
     },
@@ -9882,24 +9882,24 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Upon using a Signature Move, trigger all available QTEs."
+          "desc": "Casting Signature will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "BRS's Fire DMG increases by 25%. Performing Burst Drive rearranges all Signal Orbs into 3-Pings."
+          "desc": "Fire DMG increases by 25%. Casting Signature - Burst Drive will rearrange all Signal Orbs into 3-Pings."
         }
       ]
     },
     "sss_rank": {
-      "name": "Miracle Star",
+      "name": "Miraculous Star",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "While charging power in  Skyfall Blade, BRS can trigger Reflection Nebula through Red or Yellow 3-Pings and gain Blue Orbs upon drawing the blade based on the number or orbs pinged. Each Signal Orb pinged while BRS is charging power increases the Base DMG when drawing the blade in the current cast of Skyfall Blade by  20%. If BRS successfully performs a 3-Ping while charging power in Skyfall Blade, Base DMG of drawing the blade in the current cast of Skyfall Blade can be increased by 100% by consuming the buff granted by Enhanced Strike."
+          "desc": "When charging Basic Attack - Skycrushing Blade, performing a Red/Yellow 3-Ping can trigger Core Passive - Reflective Nebula and grant Blue Orbs based on the number of orbs pinged upon pulling the blade out. Each Signal Orb pinged while charging will increase the Base DMG of the blade-pulling attack of Basic Attack - Skycrushing Blade by 20%. Performing a 3-Ping while charging Basic Attack - Skycrushing Blade can consume the enhancement effect of Core Passive - Enchanced Blast when pulling the blade out, increasing the Base DMG of the blade-pulling attack by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Base DMG of Starblaze Edge, Stella Cross, and Bound Heart increases by 70%. Upon using Photon Cannon, gain a Signal Orb of a random color."
+          "desc": "Base DMG of Astral Edge, Stellar Cross, and Entangled Heart increases by 70%. Casting Basic Attack - Photon Cannon also grants a random Signal Orb."
         }
       ]
     },
@@ -9908,15 +9908,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "When performing Flare Strike, Starstream Bayonet, Limitless, and Skyfall Blade, Fire DMG increases by 30%."
+          "desc": "Fire DMG of Flare Strike, Starry Bayonet, Core Passive - Limit Released, and Basic Attack - Skycrushing Blade increases by 30%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "While  Cerulean Eclosion is active, BRS's ATK increases by 15%."
+          "desc": "ATK increases in Azure Awakening by 15%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Otherworldly Eosphorus and Bound Heart increases by 20%."
+          "desc": "Extra DMG Bonus of Signature - Ethereal Star and Entangled Heart increases by 20%."
         }
       ]
     }
@@ -10017,7 +10017,7 @@
           "name": "Firewalker",
           "button_press": "Paradigm: Assault is active + Hold Dodge",
           "description": [
-            "Watanabe uses the hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be grabbed, Watanabe himself will rush towards them instead. Gains Super Armor and  40% DMG Reduction while performing this skill. Using Basic Attack or the Red Orb skill while pulling in the enemy can immediately trigger  parry."
+            "Watanabe uses the hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be grabbed, Watanabe himself will rush toward them instead. Gains Super Armor and  40% DMG Reduction while performing this skill. Using Basic Attack or the Red Orb skill while pulling in the enemy can immediately trigger  parry."
           ],
           "result": ["- Deals a total of 40% Fire DMG."]
         },
@@ -10223,18 +10223,18 @@
           "result": [
             "- Deals a total of 1870% Ice DMG.",
             "- Every attack grants 3 Energy.",
-            "- For the next cast of Star of Dawn, Indite Their Souls, gain 2 stacks of Soul Ripple for every 3-Ping performed during Sovereign's Accession. This effect does not overlap with the buffs towards Ascended Sovereign, Quell Their Spirits granted by Tor Invocation."
+            "- For the next cast of Star of Dawn, Indite Their Souls, gain 2 stacks of Soul Ripple for every 3-Ping performed during Sovereign's Accession. This effect does not overlap with the buffs toward Ascended Sovereign, Quell Their Spirits granted by Tor Invocation."
           ]
         },
         {
           "name": "Fleeting Frost",
           "button_press": "Enter the Fray + Less than 3 points of Engravement + Hold Basic Attack",
           "description": [
-            "Assumes a sword stance and becomes briefly invincible, then rushes towards the target and leaps into the air, slashing at the target and dealing Ice DMG. During this, Qu: Shukra gains Super Armor and  50% DMG Reduction."
+            "Assumes a sword stance and becomes briefly invincible, then rushes toward the target and leaps into the air, slashing at the target and dealing Ice DMG. During this, Qu: Shukra gains Super Armor and  50% DMG Reduction."
           ],
           "result": [
             "- Deals a total of 1600% Ice DMG.",
-            "- Qu: Shukra can evade incoming attacks while rushing towards the target."
+            "- Qu: Shukra can evade incoming attacks while rushing toward the target."
           ]
         },
         {
@@ -10246,7 +10246,7 @@
           "result": [
             "- Deals a total of 2000% Ice DMG.",
             "- Every attack grants 4 Energy.",
-            "- For the next cast of Ascended Sovereign, Quell Their Spirits, doubles the Base DMG increase effect from consuming Soul Ripple stacks. This effect does not overlap with the buffs towards Star of Dawn, Indite Their Souls granted by Rimy Valediction."
+            "- For the next cast of Ascended Sovereign, Quell Their Spirits, doubles the Base DMG increase effect from consuming Soul Ripple stacks. This effect does not overlap with the buffs toward Star of Dawn, Indite Their Souls granted by Rimy Valediction."
           ]
         }
       ]
@@ -10356,10 +10356,10 @@
       },
       {
         "name": "Antiphase Waves - Basic Attack",
-        "button_press": "When the bear head is flying towards Teddy + Tap Basic Attack",
+        "button_press": "When the bear head is flying toward Teddy + Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "When the bear head is flying towards Teddy, swipes the area ahead horizontally with the paw, dealing 36% Dark DMG.",
+          "desc": "When the bear head is flying toward Teddy, swipes the area ahead horizontally with the paw, dealing 36% Dark DMG.",
           "result": []
         }
       },
@@ -10398,7 +10398,7 @@
         "button_press": "Have NOT started any Orb Combo + Ping Red Orb",
         "switch_in": "yes",
         "description": {
-          "desc": "Orb Combo 1: Swings the bear's paw to slap the target, immediately followed by the bear kicking the target towards Teddy, dealing Dark DMG",
+          "desc": "Orb Combo 1: Swings the bear's paw to slap the target, immediately followed by the bear kicking the target toward Teddy, dealing Dark DMG",
           "result": [
             "- Deals a total of 120% / 240% / 360% Dark DMG based on the number of orbs pinged."
           ]
@@ -10433,7 +10433,7 @@
         "button_press": "Have NOT started any Orb Combo + Ping Yellow Orb",
         "switch_in": "yes",
         "description": {
-          "desc": "Orb Combo 1: Swings the bear's paw to slap the target, immediately followed by the bear kicking the target towards Teddy, dealing Dark DMG.",
+          "desc": "Orb Combo 1: Swings the bear's paw to slap the target, immediately followed by the bear kicking the target toward Teddy, dealing Dark DMG.",
           "result": [
             "- Deals a total of 120% / 240% / 360% Dark DMG based on the number of orbs pinged."
           ]
@@ -10486,7 +10486,7 @@
         "button_press": "Have completed an Orb Combo 2 + Ping Blue Orb",
         "switch_in": "no",
         "description": {
-          "desc": "Orb Combo 3: Rotates both paws to create a cyber cyclone while continuously kicking the target, dealing 240% Dark DMG. Immediately afterwards, summons the bear head that comes flying towards Teddy, dealing 60% Dark DMG to targets in its trajectory.",
+          "desc": "Orb Combo 3: Rotates both paws to create a cyber cyclone while continuously kicking the target, dealing 240% Dark DMG. Immediately afterwards, summons the bear head that comes flying toward Teddy, dealing 60% Dark DMG to targets in its trajectory.",
           "result": []
         }
       }
@@ -10535,9 +10535,9 @@
         },
         {
           "name": "Vulnerability Shift",
-          "button_press": "When the bear head is flying towards Teddy + Tap Basic Attack / Tap Signature Move",
+          "button_press": "When the bear head is flying toward Teddy + Tap Basic Attack / Tap Signature Move",
           "description": [
-            "Orb Combo 3 summons the bear head that comes flying towards Teddy. Teddy can use it to perform an Extreme Dodge and trigger Matrix, or knock it away with the bear’s paw or leg to perform an additional combination attack."
+            "Orb Combo 3 summons the bear head that comes flying toward Teddy. Teddy can use it to perform an Extreme Dodge and trigger Matrix, or knock it away with the bear’s paw or leg to perform an additional combination attack."
           ],
           "result": [
             "- Knocking the head away with the paw deals 200% Dark DMG.",
@@ -10772,7 +10772,7 @@
           "name": "Original Retribution",
           "button_press": "Main Sequence + Mene Eskháte is active + Reaping Moon + Release Basic Attack",
           "description": [
-            "If  Mene Eskháte is already active during  Main Sequence, releasing Basic Attack in the middle of  Reaping Moon will trigger  Original Retribution, in which Luna gathers energy and fires it towards the target to cause an explosion, pulling in nearby enemies, dealing Void DMG, and recovering  24 Energy. During this, Luna is invincible but cannot recover the dodge meter or perform  Signature - Moonfall."
+            "If  Mene Eskháte is already active during  Main Sequence, releasing Basic Attack in the middle of  Reaping Moon will trigger  Original Retribution, in which Luna gathers energy and fires it toward the target to cause an explosion, pulling in nearby enemies, dealing Void DMG, and recovering  24 Energy. During this, Luna is invincible but cannot recover the dodge meter or perform  Signature - Moonfall."
           ],
           "result": [
             "- If Lingering Moonlight is not at the maximum value, Original Retribution deals 1500% Void DMG.",
@@ -10784,7 +10784,7 @@
           "name": "Final Retribution",
           "button_press": "Parousía Télous + Mene Eskháte is active + Reaping Moon + Release Basic Attack",
           "description": [
-            "If  Mene Eskháte is already active during  Parousía Télous, releasing Basic Attack in the middle of  Reaping Moon will trigger  Final Retribution, in which Luna gathers energy and fires it towards the target to cause an explosion, pulling in nearby enemies, dealing Void DMG, and amplifying the DMG of the attack by consuming all points of  Apocalyptic Moonlight. During this, Luna is invincible but cannot recover the dodge meter or perform  Signature - Moonfall."
+            "If  Mene Eskháte is already active during  Parousía Télous, releasing Basic Attack in the middle of  Reaping Moon will trigger  Final Retribution, in which Luna gathers energy and fires it toward the target to cause an explosion, pulling in nearby enemies, dealing Void DMG, and amplifying the DMG of the attack by consuming all points of  Apocalyptic Moonlight. During this, Luna is invincible but cannot recover the dodge meter or perform  Signature - Moonfall."
           ],
           "result": [
             "- Final Retribution deals 3800% Void DMG. Every 10 points of Apocalyptic Moonlight amplifies the Base DMG of the attack by 4%."
@@ -11197,7 +11197,7 @@
         "button_press": "Way of the Strings + Hold Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Rapidly plays consecutive notes with the Pipa to attack the target, continuously dealing Physical DMG and gaining Complex Time. While performing this skill, Hanying can move and recover Signal Orbs at an increased rate. Upon releasing Basic Attack, Hanying rushes towards the target, dealing Physical DMG. Hanying can evade incoming attacks during the rush.",
+          "desc": "Rapidly plays consecutive notes with the Pipa to attack the target, continuously dealing Physical DMG and gaining Complex Time. While performing this skill, Hanying can move and recover Signal Orbs at an increased rate. Upon releasing Basic Attack, Hanying rushes toward the target, dealing Physical DMG. Hanying can evade incoming attacks during the rush.",
           "result": [
             "- Deals 60 Physical DMG and gains 6 points of Complex Time every second.",
             "- The rush deals 40% Physical DMG."

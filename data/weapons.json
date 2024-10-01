@@ -1165,13 +1165,13 @@
   },
   "rock cannon": {
     "name": "Rock Cannon",
-    "weapon_type": "Blade Cannon",
+    "weapon_type": "Bladed Cannon",
     "rarity": 5,
-    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/7/71/rait6f8d1lcnkx9rybad5s2clvucs4s.png/60px-%E6%AD%A6%E5%99%A8_%E9%BB%91%E5%B2%A9%E5%B7%A8%E7%82%AE.png",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3rockcannon5md010011.png",
     "atk": 365,
     "crit": 203,
     "effect": {
-      "effect_name": "Skipping Star",
+      "effect_name": "Leaping Stars",
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
@@ -1944,15 +1944,15 @@
     }
   },
   "black rock cannon": {
-    "name": "\u2605Black Rock Cannon",
+    "name": "\u2605Rock Cannon",
     "weapon_type": "Blade Cannon",
     "rarity": 6,
-    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/8/8a/rait6f8d1lcnkx9rybad5s2clvucs4s.png/100px-%E6%AD%A6%E5%99%A8_%E2%98%85%E9%BB%91%E5%B2%A9%E5%B7%A8%E7%82%AE.png",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3rockcannon6md010011.png",
     "atk": 450,
     "crit": 251,
     "effect": {
-      "effect_name": "Shooting Star",
-      "effect_desc": "ATK increases by 10%. Base DMG of Flare Strike, Starstream Bayonet, Skyfall Blade, and Limitless increases by 100%."
+      "effect_name": "Leaping Stars\u2605",
+      "effect_desc": "ATK increases by 10%. Base DMG of Flare Strike, Starry Bayonet, Basic Attack - Skycrushing Blade, and Core Passive - Limit Released increases by 100%."
     }
   },
   "night falcon": {
