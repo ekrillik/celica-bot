@@ -8,6 +8,7 @@ from discord.ext import commands
 from utility.build_dropdown import DropdownView
 from utility.embedconfig import EmbedClass
 from utility.nickname_checker import check_nickname, character_theme
+from utility.fuzzymatch import fuzzmatch
 
 
 class Builds(commands.Cog):
@@ -46,15 +47,16 @@ class Builds(commands.Cog):
         await ctx.send(embed=embed)
 
     @commands.hybrid_command(aliases=['Build', 'b'], description="Displays a set of builds for any particular character.")
-    async def build(self, ctx: commands.Context, *, character) -> None:
-        character = check_nickname(character, "character")
+    async def build(self, ctx: commands.Context, *, frame) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
 
         build = self.builds.get(character, None)
         if build is None:
             content = ('This character does not exist. Please try again.\nYou may be searching for a character with '
-                       'multiple frames as well. The bot is currently not able to return builds for multiple frames '
-                       'based on a character search. Please use the specific frame name of the character instead.\n'
-                       '(For example, search "?build oblivion" or "?build laurel" instead of "?build Luna/luna")')
+                       'multiple frames as well.')
             await ctx.send(content=content)
             return
 

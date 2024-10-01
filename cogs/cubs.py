@@ -3,7 +3,7 @@ from discord.ext import commands
 from utility.embedconfig import EmbedClass
 from utility.nickname_checker import check_nickname
 from utility.cub_dropdown import CUBDropdownView
-
+from utility.fuzzymatch import fuzzmatch
 
 class CUBs(commands.Cog):
     cubs = {}
@@ -21,7 +21,10 @@ class CUBs(commands.Cog):
 
     @commands.hybrid_command(aliases=['CUB', 'Cub', 'pet'], description="Displays information about a particular CUB.")
     async def cub(self, ctx: commands.Context, *, cub_name) -> None:
-        cub_name = check_nickname(cub_name, "cub")
+        name = fuzzmatch(cub_name)
+        if name == "":
+            name = cub_name.lower()
+        cub_name = check_nickname(name, "cub")
 
         cub = self.cubs.get(cub_name)
         if cub is None:

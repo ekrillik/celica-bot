@@ -9,7 +9,7 @@ from utility.general_view import GeneralView
 from utility.nickname_checker import check_nickname, character_theme
 from utility.pagination import PaginationView
 from utility.skills_menu import SkillsView
-
+from utility.fuzzymatch import fuzzmatch
 
 class Skills(commands.Cog):
     skills = {}
@@ -90,79 +90,124 @@ class Skills(commands.Cog):
         print('Skills loaded.')
 
     @commands.hybrid_command(aliases=['Skill', 'skills', 'Skills'], description="Displays a skill menu for a particular character.")
-    async def skill(self, ctx: commands.Context, *, character) -> None:
-        character = check_nickname(character, "character")
+    async def skill(self, ctx: commands.Context, *, frame) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
 
-        theme = character_theme(character)
+        if character != "":
+            theme = character_theme(character)
 
-        skills = self.skills.get(character)
-        embed = self.embedconf.skillsEmbed(skills['basic_attack'], "Basic Attack", colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3])
-        view = SkillsView(ctx.author, skills=skills, theme=theme)
-        view.message = await ctx.send(embed=embed, view=view)
+            skills = self.skills.get(character)
+            embed = self.embedconf.skillsEmbed(skills['basic_attack'], "Basic Attack", colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3])
+            view = SkillsView(ctx.author, skills=skills, theme=theme)
+            view.message = await ctx.send(embed=embed, view=view)
+        else:
+            await ctx.send(content=f"The name {frame} does not exist!")
 
     @commands.hybrid_command(aliases=['Basic'], description="Displays the basic attack skill for a particular character.")
-    async def basic(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def basic(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'basic')
 
     @commands.hybrid_command(aliases=['Red'], description="Displays the red orb skill for a particular character.")
-    async def red(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def red(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'red')
 
     @commands.hybrid_command(aliases=['Yellow'], description="Displays the yellow orb skill for a particular character.")
-    async def yellow(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def yellow(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'yellow')
 
     @commands.hybrid_command(aliases=['Blue'], description="Displays the blue orb skill for a particular character.")
-    async def blue(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def blue(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'blue')
 
     @commands.hybrid_command(aliases=['Core'], description="Displays the core passive skill for a particular character.")
-    async def core(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def core(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'core')
 
     @commands.hybrid_command(aliases=['Signature', 'ult', 'Ult', 'ultimate', 'Ultimate'], description="Displays the signature skill/ultimate for a particular character.")
-    async def signature(self, ctx: commands.Context, *, character, level = 18) -> None:
+    async def signature(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
         character = check_nickname(character, "character")
         await self.grab_skill(ctx, character, 'signature')
 
     @commands.hybrid_command(aliases=['QTE', 'Qte'], description="Displays the QTE skill for a particular character.")
-    async def qte(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def qte(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'qte')
 
     @commands.hybrid_command(aliases=['Leader'], description="Displays the leader passive skill for a particular character.")
-    async def leader(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def leader(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'leader')
 
     @commands.hybrid_command(name="class", aliases=['Class'], description="Displays the class passive skill for a particular character.")
-    async def class_passive(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def class_passive(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'class')
 
     @commands.hybrid_command(aliases=['SS', '2S', '2s', 's5', 'S5'], description="Displays the SS rank skills for a particular character.")
-    async def ss(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def ss(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'ss')
 
     @commands.hybrid_command(aliases=['SSS', '3S', '3s', 'SS3', 'ss3'], description="Displays the SSS rank skills for a particular character.")
-    async def sss(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def sss(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'sss')
 
     @commands.hybrid_command(name="splus", aliases=['s+', 'SSS+', 'S+', '3S+', '3s+'], description="Displays the S+ rank skills for a particular character.")
-    async def splus(self, ctx: commands.Context, *, character, level = 18) -> None:
-        character = check_nickname(character, "character")
+    async def splus(self, ctx: commands.Context, *, frame, level = 18) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 's+')
 
     @commands.hybrid_command(aliases=['Leap'], description="Displays the leap skills for a particular character.")
-    async def leap(self, ctx: commands.Context, *, character) -> None:
-        character = check_nickname(character, "character")
+    async def leap(self, ctx: commands.Context, *, frame) -> None:
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'leap')
 
     @commands.hybrid_command(aliases=['Leaplist', 'LeapList', 'll'], description="Displays a list of existing characters with leap skills.")

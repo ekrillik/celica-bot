@@ -6,7 +6,7 @@ from discord import app_commands
 from discord.ext import commands
 from utility.embedconfig import EmbedClass
 from utility.nickname_checker import check_nickname, abbreviation_checker
-
+from utility.fuzzymatch import fuzzmatch
 
 def minmax(first, second) -> discord.Embed:
     top_mem, bot_mem = sorted([first, second], key=lambda x: x['atk'])
@@ -61,6 +61,9 @@ class Memories(commands.Cog):
             return self.memories[name]
 
         # Check if it was a nickname
+        name = fuzzmatch(memory_name)
+        if name == "":
+            name = memory_name
         if (name := check_nickname(memory_name, "memory")) in self.memories:
             return self.memories[name]
 

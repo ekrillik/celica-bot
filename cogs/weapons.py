@@ -5,6 +5,7 @@ from discord.ext import commands
 from utility.embedconfig import EmbedClass
 from utility.nickname_checker import check_nickname, character_theme
 from utility.wep_pagination import WeaponPageView
+from utility.fuzzymatch import fuzzmatch
 
 class Weapons(commands.Cog):
     weapons = {}
@@ -33,9 +34,12 @@ class Weapons(commands.Cog):
             await ctx.send(embed=embed)
             return
 
-        character_name = check_nickname(weapon_name, "character")
+        name = fuzzmatch(weapon_name)
+        if name == "":
+            name = weapon_name
+        character_name = check_nickname(name, "character")
         theme = character_theme(character_name)
-        weapon_name = check_nickname(weapon_name, "weapon")
+        weapon_name = check_nickname(name, "weapon")
         weapon = self.weapons.get(weapon_name)
         if weapon is None:
             await ctx.send(content=f"{weapon_name} is not a valid weapon name. Please try again.")
