@@ -124,7 +124,7 @@ def fuzzmatch(string) -> str:
             character = "echo"
         case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty":
             character = "lost lullaby"
-        case "brs" | "brick rock shooter" | "edgy miku":
+        case "brs" | "brick rock shooter" | "edgy miku" | "black rock shooter":
             character = "brs"
         case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss":
             character = "epitaph"
