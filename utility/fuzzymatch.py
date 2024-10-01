@@ -94,7 +94,7 @@ def fuzzmatch(string) -> str:
             character = "empyrea"
         case "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2":
             character = "capriccio"
-        case "dragontoll" | "pulao":
+        case "dragontoll" | "pulao" | "windbell's girl":
             character = "dragontoll"
         case "starfarer" | "nanamech" | "nanamecha" | "sagemachina" | "mech":
             character = "starfarer"
