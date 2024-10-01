@@ -140,7 +140,14 @@
     },
     {
       "name": "Bambinata: Vitrum",
-      "nicknames": ["bambinata", "bambi", "bombi", "doll", "puppet"]
+      "nicknames": [
+        "bambinata",
+        "bambi",
+        "bombi",
+        "doll",
+        "puppet",
+        "dementia doll"
+      ]
     },
     {
       "name": "Lee: Hyperreal",
@@ -249,7 +256,14 @@
     },
     {
       "name": "Nanami: Startrail",
-      "nicknames": ["nanaknight", "star rail", "hsr", "suou yuki", "yuki", "nanapi"]
+      "nicknames": [
+        "nanaknight",
+        "star rail",
+        "hsr",
+        "suou yuki",
+        "yuki",
+        "nanapi"
+      ]
     }
   ]
 }
