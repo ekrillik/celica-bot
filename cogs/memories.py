@@ -64,7 +64,7 @@ class Memories(commands.Cog):
         name = fuzzmatch(memory_name)
         if name == "":
             name = memory_name
-        if (name := check_nickname(memory_name, "memory")) in self.memories:
+        if (name := check_nickname(name, "memory")) in self.memories:
             return self.memories[name]
 
         # No memory exists with this name
@@ -81,7 +81,7 @@ class Memories(commands.Cog):
     @app_commands.autocomplete(name=memory_autocomplete)
     @app_commands.describe(name="Memory Name")
     async def memory(self, ctx: commands.Context, *, name) -> None:
-        memory = self.resolve_memory(name)
+        memory = self.resolve_memory(name.lower())
         if memory is None:
             await ctx.send(content="This memory does not exist. Please try again.")
             return
