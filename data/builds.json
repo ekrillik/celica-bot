@@ -8,7 +8,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General DPS set"],
         "memories": ["4x Patton", "2x Signa"],
         "memory_resonance": [
@@ -34,7 +34,7 @@
         "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "QTE support set."],
         "memories": ["4x Da Vinci", "2x Philip II"],
         "memory_resonance": [
@@ -47,7 +47,7 @@
         "set_name": "Alternative Support Set",
         "set_type": "Alternative Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Alternate Set",
           "Used if physical tank is already holding Da Vinci"
@@ -72,7 +72,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General QTE Bot set"],
         "memories": ["4x Da Vinci", "2x Catherine"],
         "memory_resonance": [
@@ -92,7 +92,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General DPS/sub-DPS set"],
         "memories": ["4x Heisen", "2x Darwin"],
         "memory_resonance": [
@@ -115,7 +115,7 @@
         "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "QTE support set",
@@ -132,7 +132,7 @@
         "set_name": "Alternative Support Set",
         "set_type": "Alternative Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "QTE Support, used for supporting a solo DPS",
           "Better heals and higher buffs, paired with a lightning tank holding 4x Da Vinci.",
@@ -157,7 +157,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General DPS/sub-DPS set"],
         "memories": ["4x Shakespeare", "2x Darwin"],
         "memory_resonance": [
@@ -177,7 +177,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General DPS/sub-DPS set"],
         "memories": ["4x Patton", "2x Darwin"],
         "memory_resonance": [
@@ -197,7 +197,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General DPS/sub-DPS set"],
         "memories": ["4x Patton", "2x Cottie"],
         "memory_resonance": [
@@ -217,7 +217,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General DPS/sub-DPS set"],
         "memories": ["4x Hanna", "2x Darwin"],
         "memory_resonance": [
@@ -263,7 +263,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS/sub-DPS set", "Used at all ranks"],
         "memories": ["4x Patton", "2x Darwin"],
         "memory_resonance": [
@@ -283,7 +283,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS/sub-DPS set", "Used at all ranks"],
         "memories": ["4x Hanna", "2x Darwin"],
         "memory_resonance": [
@@ -306,7 +306,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "QTE Bot Tank set."],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
@@ -319,7 +319,7 @@
         "set_name": "Alternative Tank Set",
         "set_type": "Alternative Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Alternate build",
           "Used if another team member is already holding 4x Da Vinci"
@@ -345,7 +345,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["QTE Bot Tank Set.", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
@@ -358,7 +358,7 @@
         "set_name": "Alternative Tank/Sub-DPS Set",
         "set_type": "Alternative Tank",
         "usage": "Alternative Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Alternative Tank/Sub-DPS Set.", "Used at all ranks."],
         "memories": ["4x Hanna", "2x Einsteina"],
         "memory_resonance": [
@@ -378,7 +378,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS/sub-DPS set", "Used at all ranks."],
         "memories": ["4x Frederick", "2x Darwin"],
         "memory_resonance": [
@@ -401,7 +401,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Hanna", "2x Darwin"],
         "memory_resonance": [
@@ -414,7 +414,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Alternate build", "QTE Bot Tank Set."],
         "memories": ["4x Da Vinci", "2x Catherine"],
         "memory_resonance": [
@@ -434,7 +434,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS set", "Used at all ranks."],
         "memories": ["4x Bathlon", "2x Cottie"],
         "memory_resonance": [
@@ -456,7 +456,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["QTE Bot Tank Set.", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Catherine"],
         "memory_resonance": [
@@ -476,7 +476,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS/sub-DPS set", "Used at all ranks."],
         "memories": ["4x Heisen", "2x Frederick"],
         "memory_resonance": [
@@ -498,7 +498,7 @@
         "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General QTE Support Set.", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
@@ -520,7 +520,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Tank QTE Bot Set", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
@@ -540,7 +540,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS/sub-DPS set", "Used at all ranks."],
         "memories": ["4x Hanna", "2x Darwin"],
         "memory_resonance": [
@@ -566,7 +566,7 @@
         "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["QTE support set", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
@@ -579,7 +579,7 @@
         "set_name": "Alternative DPS/Sub-DPS Leap Set",
         "set_type": "Leap DPS",
         "usage": "Leap DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Alternative DPS/Sub-DPS set",
           "Used at all ranks.",
@@ -603,7 +603,7 @@
         "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Uniframe Set", "Used at all ranks."],
         "memories": ["6x Koya"],
         "memory_resonance": [
@@ -626,7 +626,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Used at all ranks",
           "General tank set",
@@ -670,7 +670,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General tank set"],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
@@ -690,7 +690,7 @@
         "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Uniframe Set", "Used at all ranks."],
         "memories": ["6x Wu'an"],
         "memory_resonance": [
@@ -710,7 +710,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS/sub-DPS set", "Used at all ranks."],
         "memories": ["4x Flamel", "2x Darwin"],
         "memory_resonance": [
@@ -733,7 +733,7 @@
         "set_name": "Main DPS SSS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS/sub-DPS set", "Recommended for SSS"],
         "memories": ["4x Cottie", "2x Darwin"],
         "memory_resonance": [
@@ -745,7 +745,7 @@
       {
         "set_name": "Main DPS SS Set",
         "set_type": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "General DPS/sub-DPS set",
           "Recommended for SS and below"
@@ -770,7 +770,7 @@
         "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "General QTE Support Set.",
           "9S deals good damage even with Da Vinci on him when invested"
@@ -793,7 +793,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "General set that allows her to debuff for the other DPS on the team and dish out damage at the same time."
         ],
@@ -821,7 +821,7 @@
         "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General QTE Bot set", "Used at all ranks."],
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
@@ -834,7 +834,7 @@
         "set_name": "Alternative Support Set",
         "set_type": "Alternative Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Alternate Set",
           "Used if ice tank is already holding Da Vinci.",
@@ -858,7 +858,7 @@
         "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Uniframe Set", "Used at all ranks."],
         "memories": ["6x Lucrezia"],
         "memory_resonance": [
@@ -884,7 +884,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General tank set"],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
@@ -897,7 +897,7 @@
         "set_name": "Alternative QTE Support Set",
         "set_type": "Alternative Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Used at all ranks",
           "Alternative tank set ",
@@ -924,7 +924,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General tank set"],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
@@ -937,7 +937,7 @@
         "set_name": "Alternative Tank Set",
         "set_type": "Alternative Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Alternate Set",
           "Used if teammate is already holding Da Vinci."
@@ -964,7 +964,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at all ranks", "General tank set"],
         "memories": ["4x Tifa", "2x Einsteina"],
         "memory_resonance": [
@@ -995,7 +995,7 @@
         "set_name": "Harmony Set",
         "set_type": "Harmony",
         "usage": "Harmony Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Harmony Set",
           "Used at all ranks.",
@@ -1020,7 +1020,7 @@
         "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Uniframe Set", "Used at all ranks."],
         "memories": ["6x Jack"],
         "memory_resonance": [
@@ -1049,7 +1049,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Liv+Empyrea/DPS+Empyrea+%5BLiz+Cottie+Darwin%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["SSS or lower", "General DPS/sub-DPS set"],
         "memories": ["4x Elizabeth", "2x Cottie"],
         "memory_resonance": [
@@ -1063,7 +1063,7 @@
         "set_type": "Main Support",
         "usage": "Main Support",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Liv+Empyrea/Main+Support+Empy+%5BDv+Guin+Eins%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Fire Support set for both on-field and off-field roles."
@@ -1133,7 +1133,7 @@
         "set_name": "Main Support Sub-DPS Set",
         "set_type": "Main Support",
         "usage": "Main Support Sub-DPS",
-        "game_modes": "High Difficulty, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General Dark Support Set"
@@ -1149,7 +1149,7 @@
         "set_name": "Alternative Support Sub-DPS Set",
         "set_type": "Alternative Support",
         "usage": "Alternative Support Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Alternative support set for Capriccio.",
           "Recommended on-field set for SSS+",
@@ -1191,7 +1191,7 @@
         "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Uniframe Set", "Used at all ranks."],
         "memories": ["6x Marco"],
         "memory_resonance": [
@@ -1214,7 +1214,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "General Tank Set"],
         "memories": ["4x Unimate", "2x Einsteina"],
         "memory_resonance": [
@@ -1227,7 +1227,7 @@
         "set_name": "Alternative Tank Set",
         "set_type": "Alternative Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "QTE Bot Tank Set",
           "Requires 6* Signature weapon to apply fire shred with blue orb."
@@ -1250,7 +1250,7 @@
         "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Uniframe Set", "Used at all ranks."],
         "memories": ["6x Isabel"],
         "memory_resonance": [
@@ -1265,13 +1265,17 @@
     "unit_name": "Karenina",
     "frame_name": "Scire\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:dark_element:1290613554923438102><:electroconvergence:1288090218922119181>",
     "set_list": [
-      { "name": "Main Tank/Sub-DPS Set", "memos": "4 Boone 2 Einsteina" },
-      { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Boone 4 Bathlon" },
-      { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Bathlon" },
       {
-        "name": "Alternative Tank/Sub-DPS Set",
+        "name": "Main Tank/Sub-DPS Set",
         "memos": "4 Boone 2 Condelina"
       },
+      {
+        "name": "Alternative Tank/Sub-DPS Set",
+        "memos": "4 Boone 2 Einsteina"
+      },
+      { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Boone 4 Bathlon" },
+      { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Bathlon" },
+
       { "name": "Pain Cage QTE Tank Set", "memos": "4 Da Vinci 2 Einsteina" }
     ],
     "builds": [
@@ -1279,9 +1283,23 @@
         "set_name": "Main Tank/Sub-DPS Set",
         "set_type": "Main Tank/Sub-DPS",
         "usage": "Main Tank/Sub-DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Main+Daren+%5BBoone+Eins%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": ["Main Tank/Sub-DPS Set"],
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Main+DPS.png",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["General Tank/Sub-DPS set", "For SS3 or higher"],
+        "memories": ["4x Boone", "2x Condelina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core Passive"
+        ],
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "Alternative Tank/Sub-DPS Set",
+        "set_type": "Alternative Tank",
+        "usage": "Alternative Tank/Sub-DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Alternate+DPS.png",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Alternative Tank/Sub-DPS Set", "For SS0 and below"],
         "memories": ["4x Boone", "2x Einsteina"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1294,7 +1312,7 @@
         "set_type": "Harmony",
         "usage": "Harmony Tank/Sub-DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Harmo+Daren+%5BBoone+Bathlon+Bathlon%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Harmony Tank/Sub-DPS set",
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
@@ -1323,25 +1341,6 @@
         ]
       },
       {
-        "set_name": "Alternative Tank/Sub-DPS Set",
-        "set_type": "Alternative Tank",
-        "usage": "Alternative Tank/Sub-DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Daren+%5BDv+Eins%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
-        "description": [
-          "General DPS set",
-          "SS3 or higher",
-          "No Harmo",
-          "Alternative sub-DPS set for SS3 rank and higher Scire when Cappricio is already equipped with 2pc Einsteina."
-        ],
-        "memories": ["4x Boone", "2x Condelina"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
-        ],
-        "harmony_rec": "None"
-      },
-      {
         "set_name": "Pain Cage QTE Tank Set",
         "set_type": "Alternative Tank",
         "usage": "QTE Tank Support",
@@ -1366,7 +1365,7 @@
         "set_name": "Uniframe Set",
         "set_type": "Uniframe",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Uniframe Set", "Used at all ranks."],
         "memories": ["6x Shelley"],
         "memory_resonance": [
@@ -1399,7 +1398,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Bianca+Stigmata+%5B5+Builds%5D/Balter+%5BCharlotte+Leeu+Signa%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Main DPS Set", "For SS0 and below"],
         "memories": ["4x Charlotte", "2x Leeuwenhoek"],
         "memory_resonance": [
@@ -1413,7 +1412,7 @@
         "set_type": "High Rank DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Bianca+Stigmata+%5B5+Builds%5D/High+Rank+Balter+%5BCharlotte+Cottie+Cottie%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "High rank build (requires SS3 and beyond)",
           "Main DPS Set"
@@ -1493,7 +1492,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS/sub-DPS set", "Used at all ranks."],
         "memories": ["4x Hanna", "2x Darwin"],
         "memory_resonance": [
@@ -1535,7 +1534,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BTuring+Cottie+Darwin%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at SS0 or below", "General DPS set"],
         "memories": ["4x Turing", "2x Cottie"],
         "memory_resonance": [
@@ -1549,7 +1548,7 @@
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lee+Hyperreal+%5B3+builds%5D/High+Rank+Hyperreal+%5BTuring+Darwin+Cottie%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at SS3 or above", "Alternative DPS Set"],
         "memories": ["4x Turing", "2x Darwin"],
         "memory_resonance": [
@@ -1562,7 +1561,7 @@
         "set_name": "Harmony Set",
         "set_type": "Harmony",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BTuring+Shakespeare%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Used at SS3 or above",
           "Used as sub-DPS for Epitaph",
@@ -1588,8 +1587,8 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Ayla+Kaleido/Kaleido+%5BAline+Darwin%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Ayla+Kaleido/Kaleido+Main.png",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS set", "Requires SS0 Kaleido or higher."],
         "memories": ["4x Aline", "2x Darwin"],
         "memory_resonance": [
@@ -1603,13 +1602,11 @@
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Ayla+Kaleido/Kaleido+%5BAline+Cottie%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Alternative DPS set.",
-          "Faster build up for Ult 1.",
           "Recommended to use for S rank Kaleido.",
-          "Used for quick Pain Cage kills",
-          "Used for double Ult rotation in Warzone which requires higher mechanical skill input."
+          "Used for quick Pain Cage kills"
         ],
         "memories": ["4x Aline", "2x Cottie"],
         "memory_resonance": [
@@ -1634,7 +1631,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lucia+Crimson+Weave+%5B3+Builds%5D/Low+Rank+CW+%5BDiesel+Cottie+Cottie%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS set", "Used for S0-SS3"],
         "memories": ["4x Diesel", "2x Cottie"],
         "memory_resonance": [
@@ -1648,7 +1645,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lucia+Crimson+Weave+%5B3+Builds%5D/High+Rank+CW+%5BDiesel+Cottie+Cottie%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "General DPS set for high rank Crimson Weave",
           "SSS0 rank or higher only"
@@ -1692,7 +1689,7 @@
         "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "General QTE Support set. Use Catherine instead of Philip if using on Kowloong Team."
         ],
@@ -1707,7 +1704,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Support Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["DPS set"],
         "memories": ["4x Hanna", "2x Darwin"],
         "memory_resonance": [
@@ -1738,7 +1735,7 @@
         "set_name": "Main Support Sub-DPS Set",
         "set_type": "Main Support Sub-DPS",
         "usage": "Main Support Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General Support Sub-DPS set"],
         "memories": ["4x Fran", "2x Guinevere"],
         "memory_resonance": [
@@ -1751,7 +1748,7 @@
         "set_name": "Alternative Support Sub-DPS Set",
         "set_type": "Alternative Support Sub-DPS",
         "usage": "Alternative Support Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Sub-DPS set for SS3 rank and higher in a Crimson Weave main DPS team.",
           "Allows for double rotations; SS3+ & DLT needed to pull off effectively"
@@ -1767,7 +1764,7 @@
         "set_name": "QTE Support Healer/Buffer Set",
         "set_type": "Alternative Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["QTE Bot Set"],
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
@@ -1804,7 +1801,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Heisen", "2x Tifa"],
         "memory_resonance": [
@@ -1829,7 +1826,7 @@
         "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "Main Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "Physical Support set"],
         "memories": ["4x Signa", "2x Da Vinci"],
         "memory_resonance": [
@@ -1842,7 +1839,7 @@
         "set_name": "Harmony Support Set",
         "set_type": "Harmony Support",
         "usage": "Harmony Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Harmony Support set",
@@ -1858,7 +1855,7 @@
         "set_name": "Off-Element Support Set",
         "set_type": "Alternative Support",
         "usage": "Off-Element QTE",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Off-element QTE set",
@@ -1900,7 +1897,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lamia+Lost+Lullaby+%5B1+build%5D/Lamia+%5BDerketo+Cottie+Cottie%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Derketo", "2x Cottie"],
         "memory_resonance": [
@@ -1924,7 +1921,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Hanna", "2x Darwin"],
         "memory_resonance": [
@@ -1937,7 +1934,7 @@
         "set_name": "Alternative DPS Set",
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Alternative DPS set",
@@ -1954,7 +1951,7 @@
         "set_name": "Harmony Set",
         "set_type": "Harmony",
         "usage": "Harmony DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Alternative DPS set",
@@ -1988,7 +1985,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Watanabe+Epitaph/Main-DPS+Wata+%5BAlphonse+Cottie+Cottie%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General DPS set",
@@ -2006,7 +2003,7 @@
         "set_type": "Harmony Tank",
         "usage": "Harmony Tank/Sub-DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Watanabe+Epitaph/Harmo+Wata+%5BAlphonse+Shakes+Shakes%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Used for all future Void and Fire content",
@@ -2029,7 +2026,7 @@
         "set_type": "Alternative Tank",
         "usage": "Alternative Tank/Sub-DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Watanabe+Epitaph/Alt+Tank+Wata+%5BAlphonse+Eins%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Alternative tank set for sub-DPS role in future void or Lucia: Pyroath team.",
@@ -2057,7 +2054,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Qu+Shukra+%5B2+Builds%5D/Qukra+%5BJi+Bo'an+Darwin%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General DPS set",
@@ -2076,7 +2073,7 @@
         "set_type": "Harmony",
         "usage": "Harmony DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Qu+Shukra+%5B2+Builds%5D/Qukra+%5BJi+Bo'an+Chen%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
@@ -2106,7 +2103,7 @@
         "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "QTE support set",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
@@ -2122,7 +2119,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Main DPS Set",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
@@ -2145,7 +2142,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General DPS set",
@@ -2172,7 +2169,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General Tank set",
@@ -2189,7 +2186,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General DPS set",
@@ -2216,7 +2213,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General Tank set",
@@ -2232,7 +2229,7 @@
         "set_name": "Harmony Set",
         "set_type": "Harmony Tank",
         "usage": "Harmony Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General Tank set",
@@ -2261,7 +2258,7 @@
         "set_name": "Main Tank Set",
         "set_type": "Main Tank",
         "usage": "Main Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General Tank/Sub-DPS set",
@@ -2278,7 +2275,7 @@
         "set_name": "Harmony Tank/Sub-DPS Set",
         "set_type": "Harmony Tank",
         "usage": "Harmony Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
@@ -2345,7 +2342,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "General DPS set for SS0-SS3 Pyroath",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
@@ -2361,7 +2358,7 @@
         "set_name": "High Rank DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "General DPS set for high rank Pyroath",
           "SSS0 rank or higher only",
@@ -2402,7 +2399,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General DPS set",
@@ -2426,7 +2423,7 @@
         "set_name": "Placeholder",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General DPS set",

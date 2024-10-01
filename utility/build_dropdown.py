@@ -65,7 +65,6 @@ class DropdownView(discord.ui.View):
     async def imageView(self, interaction: discord.Interaction) -> None:
         self.remove_item(self.image_view)
         self.add_item(self.text_view)
-        print(self.selection)
         embed = self.embedconf.create_build_embed(self.build, self.selection, imageView=True, colour=self.theme[0], thumbnail_url=self.theme[3])
         await interaction.response.edit_message(embed=embed, view=self)
 
