@@ -19,7 +19,7 @@ class CUBs(commands.Cog):
     async def on_ready(self):
         print('CUBs loaded.')
 
-    @commands.hybrid_command(aliases=["pet"], description="Displays information about a particular CUB.")
+    @commands.hybrid_command(aliases=['CUB', 'Cub', 'pet'], description="Displays information about a particular CUB.")
     async def cub(self, ctx: commands.Context, *, cub_name) -> None:
         cub_name = check_nickname(cub_name, "cub")
 

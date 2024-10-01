@@ -27,25 +27,25 @@ class Builds(commands.Cog):
     async def on_ready(self):
         print('Builds loaded.')
 
-    @commands.hybrid_command(description="Displays the build notation diagram to explain the community used build notation.")
+    @commands.hybrid_command(aliases=['BuildNotation', 'Buildnotation', 'bn', 'BN'], description="Displays the build notation diagram to explain the community used build notation.")
     async def buildnotation(self, ctx: commands.Context):
         embed = discord.Embed(title="", description="")
         embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/cnnotationguide4.png')
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(aliases=["affix", "ag"], description="Displays the affix diagram created by Ko used to explain PGR affixes.")
+    @commands.hybrid_command(aliases=['AffixGuide', 'Affixguide',  'affix', 'ag'], description="Displays the affix diagram created by Ko used to explain PGR affixes.")
     async def affixguide(self, ctx: commands.Context):
         embed = discord.Embed(title="", description="")
         embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/affix-guide.png')
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(aliases=["at"], description="Displays the affix teams infographic by Aethervoid used to explain affix teams.")
+    @commands.hybrid_command(aliases=['AffixTeams', 'Affixteams', 'at'], description="Displays the affix teams infographic by Aethervoid used to explain affix teams.")
     async def affixteams(self, ctx: commands.Context):
         embed = discord.Embed(title="", description="")
         embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Affix_Teams.png')
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(description="Displays a set of builds for any particular character.")
+    @commands.hybrid_command(aliases=['Build', 'b'], description="Displays a set of builds for any particular character.")
     async def build(self, ctx: commands.Context, *, character) -> None:
         character = check_nickname(character, "character")
 

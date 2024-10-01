@@ -23,7 +23,7 @@ class Weapons(commands.Cog):
     async def on_ready(self):
         print('Weapons loaded.')
 
-    @commands.hybrid_command(aliases=["sig", "wep", "weap"], description="Displays info on an existing weapon.")
+    @commands.hybrid_command(aliases=['Sig', 'sig', 'Wep', 'wep', 'Weap', 'weap'], description="Displays info on an existing weapon.")
     @app_commands.rename(weapon_name='name')
     async def weapon(self, ctx: commands.Context, *, weapon_name) -> None:
         weapon_name = weapon_name.lower()

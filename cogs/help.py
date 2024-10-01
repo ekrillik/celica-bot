@@ -25,7 +25,7 @@ class Help(commands.Cog):
     async def on_ready(self):
         print('Help loaded.')
 
-    @commands.hybrid_command(description="Displays the command help menu.")
+    @commands.hybrid_command(aliases=['', 'Help'], description="Displays the command help menu.")
     async def help(self, ctx: commands.Context, command=""):
         prefix = self.bot.command_prefix
         if command == "":
@@ -69,7 +69,7 @@ class Help(commands.Cog):
 
             view.message = await ctx.send(embed=embed, view=view)
 
-    @commands.hybrid_command(description="Displays a list of useful links.")
+    @commands.hybrid_command(aliases=['Links'], description="Displays a list of useful links.")
     async def links(self, ctx: commands.Context):
         embed = discord.Embed(
             title=f"Useful Links",
@@ -96,14 +96,14 @@ class Help(commands.Cog):
                         value=f"[Character 'Tier List by Doomy'](https://docs.google.com/spreadsheets/d/1nCmBq7NstZovPWs9cymAXNyakVXJ4lKvNGbVmtPbcUc)\n[Comprehensive Character Builds](https://docs.google.com/spreadsheets/d/1_NAHdVouSp2T6AwStpz9ZMLZ_ca5EzcuHde5obIlero)\n[Resource Calculator](https://docs.google.com/spreadsheets/d/1rfS6P1UOcZFj_ru2dqLzRkTE39Z0Phjbi5XDsOoNYRs)\n[Coatings Acquisition](https://docs.google.com/spreadsheets/d/1uIWrtp3mZEZgQseY788WHGp7_0mZBE8zSkpVOVCWtP8)")
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(aliases=['nnl'], description="Displays all lists of community nicknames for each character.")
+    @commands.hybrid_command(aliases=['NicknameList', 'nnl'], description="Displays all lists of community nicknames for each character.")
     async def nicknamelist(self, ctx: commands.Context):
         view = PaginationView(ctx.author, data=self.nicknamelist['nicknames'], pagination_type="nicknames")
 
         embed = self.embedconf.create_list_embed(name="Nicknames for", type="nicknames", items = self.nicknamelist['nicknames'][0]['nicknames'], character=self.nicknamelist['nicknames'][0]['name'], curpage=1, maxlistcount=len(self.nicknamelist['nicknames']))
         view.message = await ctx.send(embed=embed, view=view)
 
-    @commands.hybrid_command(aliases=['nn'], description="Displays a list of community nicknames for a particular character.")
+    @commands.hybrid_command(aliases=['Nickname', 'nn'], description="Displays a list of community nicknames for a particular character.")
     async def nicknames(self, ctx: commands.Context, *, character = None):
         if character is not None:
             theme = character_theme(character)

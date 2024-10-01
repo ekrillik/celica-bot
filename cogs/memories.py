@@ -74,7 +74,7 @@ class Memories(commands.Cog):
             if current.lower() in memory_name.lower()
         ][:25]
 
-    @commands.hybrid_command(aliases=["mem", "memo"], description="Displays stats and effects of a memory")
+    @commands.hybrid_command(aliases=['Memory', 'Mem', 'MEM', 'mem', 'memo'], description="Displays stats and effects of a memory")
     @app_commands.autocomplete(name=memory_autocomplete)
     @app_commands.describe(name="Memory Name")
     async def memory(self, ctx: commands.Context, *, name) -> None:
@@ -99,7 +99,7 @@ class Memories(commands.Cog):
         embed = minmax(memory1, memory2)
         await interaction.response.send_message(embed=embed)
 
-    @commands.command(name="minmax", aliases=['mm', 'min'])
+    @commands.command(name="minmax", aliases=['MinMax', 'Minmax', 'mm', 'min'])
     async def minmax_chat(self, ctx: commands.Context, *args):
         names = " ".join(args).split(",")
         memories = [self.resolve_memory(s.strip().lower()) for s in names]
