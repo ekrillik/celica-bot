@@ -1048,6 +1048,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Liv+Empyrea/DPS+Empyrea+%5BLiz+Cottie+Darwin%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["SSS or lower", "General DPS/sub-DPS set"],
         "memories": ["4x Elizabeth", "2x Cottie"],
@@ -1061,6 +1062,7 @@
         "set_name": "Main Support Set",
         "set_type": "Main Support",
         "usage": "Main Support",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Liv+Empyrea/Main+Support+Empy+%5BDv+Guin+Eins%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
@@ -1077,6 +1079,7 @@
         "set_name": "Pain Cage Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Liv+Empyrea/PPC+Support+Empy+%5BDv+Guin+Eins%5D.png",
         "game_modes": "Pain Cage",
         "description": [
           "Recommended for all ranks",
@@ -1093,6 +1096,7 @@
         "set_name": "Alternative Pain Cage Set",
         "set_type": "Alternative Pain Cage",
         "usage": "Pain Cage",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Liv+Empyrea/Alt+PPC+Empy+%5BGuin+Gloria+or+Lantern%5D.png",
         "game_modes": "Pain Cage",
         "description": [
           "Recommended for all ranks",
@@ -1275,6 +1279,7 @@
         "set_name": "Main Tank/Sub-DPS Set",
         "set_type": "Main Tank/Sub-DPS",
         "usage": "Main Tank/Sub-DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Main+Daren+%5BBoone+Eins%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Main Tank/Sub-DPS Set"],
         "memories": ["4x Boone", "2x Einsteina"],
@@ -1288,6 +1293,7 @@
         "set_name": "Harmony Tank/Sub-DPS Set",
         "set_type": "Harmony",
         "usage": "Harmony Tank/Sub-DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Harmo+Daren+%5BBoone+Bathlon+Bathlon%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Harmony Tank/Sub-DPS set",
@@ -1303,6 +1309,7 @@
         "set_name": "Harmony Pain Cage Set",
         "set_type": "Harmony Pain Cage",
         "usage": "Harmony Pain Cage",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Daren+%5BDv+Bath+Bath%5D.png",
         "game_modes": "Pain Cage",
         "description": [
           "PPC nuke set",
@@ -1319,6 +1326,7 @@
         "set_name": "Alternative Tank/Sub-DPS Set",
         "set_type": "Alternative Tank",
         "usage": "Alternative Tank/Sub-DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Daren+%5BDv+Eins%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "General DPS set",
@@ -1337,6 +1345,7 @@
         "set_name": "Pain Cage QTE Tank Set",
         "set_type": "Alternative Tank",
         "usage": "QTE Tank Support",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Daren+%5BDv+Eins%5D.png",
         "game_modes": "Pain Cage",
         "description": ["PPC QTE support set", "For all ranks", "No Harmo"],
         "memories": ["4x Da Vinci", "2x Einsteina"],
@@ -1389,6 +1398,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Bianca+Stigmata+%5B5+Builds%5D/Balter+%5BCharlotte+Leeu+Signa%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Main DPS Set", "For SS0 and below"],
         "memories": ["4x Charlotte", "2x Leeuwenhoek"],
@@ -1402,6 +1412,7 @@
         "set_name": "High Rank Set",
         "set_type": "High Rank DPS",
         "usage": "Main DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Bianca+Stigmata+%5B5+Builds%5D/High+Rank+Balter+%5BCharlotte+Cottie+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "High rank build (requires SS3 and beyond)",
@@ -1418,6 +1429,7 @@
         "set_name": "Pain Cage Niche Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Bianca+Stigmata+%5B5+Builds%5D/Balter+%5BCharlotte+Darwin+Cottie%5D.png",
         "game_modes": "Pain Cage",
         "description": [
           "PPC Nuke Set",
@@ -1435,6 +1447,7 @@
         "set_name": "Pain Cage Low Rank Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Bianca+Stigmata+%5B5+Builds%5D/Low+PPC+Balter+%5BCharlotte+Cottie+Cottie%5D.png",
         "game_modes": "Pain Cage",
         "description": [
           "PPC low difficulty nuke set",
@@ -1452,6 +1465,7 @@
         "set_name": "Pain Cage High Rank Harmony Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Bianca+Stigmata+%5B5+Builds%5D/Balter+%5BCharlotte+Frederick%5D.png",
         "game_modes": "Pain Cage",
         "description": [
           "Higher damage set for SSS rank balter kills for PPC.",
@@ -1520,7 +1534,7 @@
         "set_name": "Main DPS SS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BTurning+Cottie%5D.png",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BTuring+Cottie+Darwin%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at SS0 or below", "General DPS set"],
         "memories": ["4x Turing", "2x Cottie"],
@@ -1534,7 +1548,7 @@
         "set_name": "Main DPS SS3 Set",
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BTuring+Darwin%5D.png",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lee+Hyperreal+%5B3+builds%5D/High+Rank+Hyperreal+%5BTuring+Darwin+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Used at SS3 or above", "Alternative DPS Set"],
         "memories": ["4x Turing", "2x Darwin"],
@@ -1547,7 +1561,7 @@
       {
         "set_name": "Harmony Set",
         "set_type": "Harmony",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BShakespeare+harmo%5D.png",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lee+Hyperreal+%5B3+builds%5D/Hyperreal+%5BTuring+Shakespeare%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Used at SS3 or above",
@@ -1574,6 +1588,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Ayla+Kaleido/Kaleido+%5BAline+Darwin%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["General DPS set", "Requires SS0 Kaleido or higher."],
         "memories": ["4x Aline", "2x Darwin"],
@@ -1587,6 +1602,7 @@
         "set_name": "Alternative DPS Set",
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Ayla+Kaleido/Kaleido+%5BAline+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Alternative DPS set.",
@@ -1617,6 +1633,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lucia+Crimson+Weave+%5B3+Builds%5D/Low+Rank+CW+%5BDiesel+Cottie+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["General DPS set", "Used for S0-SS3"],
         "memories": ["4x Diesel", "2x Cottie"],
@@ -1630,6 +1647,7 @@
         "set_name": "High Rank DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lucia+Crimson+Weave+%5B3+Builds%5D/High+Rank+CW+%5BDiesel+Cottie+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "General DPS set for high rank Crimson Weave",
@@ -1646,6 +1664,7 @@
         "set_name": "Pain Cage Niche Set",
         "set_type": "Pain Cage",
         "usage": "Pain Cage Speed Kills(Niche)",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lucia+Crimson+Weave+%5B3+Builds%5D/CW+%5BDiesel+Frederick%5D.png",
         "game_modes": "Pain Cage",
         "description": [
           "Used at SS3 or above only",
@@ -1880,7 +1899,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Lamia+Lost+Lullaby+%5B1+build%5D/Lamia+%5BDerketo+Cottie%5D.png",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lamia+Lost+Lullaby+%5B1+build%5D/Lamia+%5BDerketo+Cottie+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Derketo", "2x Cottie"],
@@ -1968,6 +1987,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Watanabe+Epitaph/Main-DPS+Wata+%5BAlphonse+Cottie+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
@@ -1985,6 +2005,7 @@
         "set_name": "Harmony Tank/Sub-DPS Set",
         "set_type": "Harmony Tank",
         "usage": "Harmony Tank/Sub-DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Watanabe+Epitaph/Harmo+Wata+%5BAlphonse+Shakes+Shakes%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
@@ -2007,6 +2028,7 @@
         "set_name": "Alternative Tank/Sub-DPS Set",
         "set_type": "Alternative Tank",
         "usage": "Alternative Tank/Sub-DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Watanabe+Epitaph/Alt+Tank+Wata+%5BAlphonse+Eins%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
@@ -2034,7 +2056,7 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Qu+Shukra+%5B2+Builds%5D/Qukra+%5BJi+Bo'an+Darwin%5D.png",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Qu+Shukra+%5B2+Builds%5D/Qukra+%5BJi+Bo'an+Darwin%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",
@@ -2053,7 +2075,7 @@
         "set_name": "Harmony Set",
         "set_type": "Harmony",
         "usage": "Harmony DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Qu+Shukra+%5B2+Builds%5D/Qukra+%5BJi+Bo'an+Chen%5D.png",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Qu+Shukra+%5B2+Builds%5D/Qukra+%5BJi+Bo'an+Chen%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman, Story Mode, Dailies",
         "description": [
           "Recommended for all ranks",

@@ -37,7 +37,11 @@
     },
     {
       "command": "affixteams",
-      "description": "Displays Aether's infographic for how affix teams in PGR."
+      "description": "Displays Aether's infographic for how affix teams work in PGR."
+    },
+    {
+      "command": "affixmechs",
+      "description": "Displays Ko's infographic for affix mechanics in PGR."
     },
     {
       "command": "skills",
@@ -112,7 +116,12 @@
   "affixteams": {
     "syntax": "affixteams",
     "aliases": ">at",
-    "description": "Displays Aether's infographic for how affix teams in PGR."
+    "description": "Displays Aether's infographic for how affix teams work in PGR."
+  },
+  "affixmechs": {
+    "syntax": "affixmechs",
+    "aliases": ">am",
+    "description": "Displays Ko's infographic for affix mechanics in PGR."
   },
   "skills": {
     "syntax": ">skills [character name]",

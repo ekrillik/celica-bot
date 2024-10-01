@@ -46,6 +46,12 @@ class Builds(commands.Cog):
         embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Affix_Teams.png')
         await ctx.send(embed=embed)
 
+    @commands.hybrid_command(aliases=['AffixMechs', 'Affixmechs', 'am'], description="Displays the affix teams infographic by Aethervoid used to explain affix teams.")
+    async def affixmechs(self, ctx: commands.Context):
+        embed = discord.Embed(title="", description="")
+        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/affix_mechs.jpg')
+        await ctx.send(embed=embed)
+
     @commands.hybrid_command(aliases=['Build', 'b'], description="Displays a set of builds for any particular character.")
     async def build(self, ctx: commands.Context, *, frame) -> None:
         name = fuzzmatch(frame)
