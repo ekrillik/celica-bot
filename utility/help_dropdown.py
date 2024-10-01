@@ -39,9 +39,9 @@ class HelpView(discord.ui.View):
             embed.add_field(
                 name="", 
                 value=f"""
-                    My prefix is: ?
+                    My prefix is: >
                     Use the dropdown to view a list of commands by category.
-                    Use `?help [command]` for more information on a specific command.
+                    Use `>help [command]` for more information on a specific command.
                 """
             )
             embed.add_field(

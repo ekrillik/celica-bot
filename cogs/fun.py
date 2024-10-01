@@ -42,7 +42,7 @@ class Fun(commands.Cog):
         embed = discord.Embed(title="This is a fun command.", description="This is a fun command description")
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(description="Displays a random pasta. Has a 5s cd. Shares the cd timer with ?brick")
+    @commands.hybrid_command(description="Displays a random pasta. Has a 5s cd. Shares the cd timer with >brick")
     async def pasta(self, ctx: commands.Context) -> None:
         if ctx.guild.id not in self.allowed_server_ids:
             return
@@ -94,7 +94,7 @@ class Fun(commands.Cog):
         embed.add_field(name="", value=bubble_wrap)
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(aliases=['brick'], description="Spawns some bubble wrap. Has a 5s cd. Shares the cd timer with ?pasta")
+    @commands.hybrid_command(aliases=['brick'], description="Spawns some bubble wrap. Has a 5s cd. Shares the cd timer with >pasta")
     async def brickistan(self, ctx: commands.Context) -> None:
         if ctx.guild.id not in self.allowed_server_ids:
             return

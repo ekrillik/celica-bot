@@ -448,5 +448,5 @@ class EmbedClass:
         )
         for item in list:
             embed.add_field(name=f"**{item['command']}**", value=f"{item['description']}", inline=False)
-        embed.set_footer(text="Use '?help [commands]' for more info.")
+        embed.set_footer(text="Use '>help [commands]' for more info.")
         return embed

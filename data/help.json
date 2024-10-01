@@ -86,167 +86,167 @@
     }
   ],
   "links": {
-    "syntax": "?links",
+    "syntax": ">links",
     "description": "Links for useful PGR resources"
   },
   "nicknames": {
-    "syntax": "?nicknames [frame name]",
-    "aliases": "?nn",
+    "syntax": ">nicknames [frame name]",
+    "aliases": ">nn",
     "description": "Displays a list of usable nicknames for a specific character for character related commands (builds, weapons, cubs etc.).\nEnsure that the name used as the argument is the frame name. You cannot use nicknames to search for a nickname list (lmao)",
-    "examples": ["?nicknames crimson weave", "?nicknames rigor"]
+    "examples": [">nicknames crimson weave", ">nicknames rigor"]
   },
   "build": {
-    "syntax": "?build [character name]",
+    "syntax": ">build [character name]",
     "description": "Provides a list of builds for any character.",
-    "examples": ["?build alisa", "?build lamia"]
+    "examples": [">build alisa", ">build lamia"]
   },
   "buildnotation": {
-    "syntax": "?buildnotation",
+    "syntax": ">buildnotation",
     "description": "Displays an image with the numbering notation used to describe builds in the PGR community."
   },
   "affixguide": {
-    "syntax": "?affixguide",
-    "aliases": "?affix, ?ag",
+    "syntax": ">affixguide",
+    "aliases": ">affix, >ag",
     "description": "Displays Ko's infographic for how affixes work in PGR."
   },
   "affixteams": {
-    "syntax": "?affixteams",
-    "aliases": "?at",
+    "syntax": "affixteams",
+    "aliases": ">at",
     "description": "Displays Aether's infographic for how affix teams in PGR."
   },
   "skills": {
-    "syntax": "?skills [character name]",
-    "aliases": "?skill",
+    "syntax": ">skills [character name]",
+    "aliases": ">skill",
     "description": "Provides a view of all the skills for a particular character with a dropdown menu.",
-    "examples": ["?skill alisa", "?skill lamia"]
+    "examples": [">skill alisa", ">skill lamia"]
   },
   "basic": {
-    "syntax": "?basic [character name]",
+    "syntax": ">basic [character name]",
     "description": "Displays the Basic Attack skill for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?basic alisa", "?basic fish"]
+    "examples": [">basic alisa", ">basic fish"]
   },
   "red": {
-    "syntax": "?red [character name]",
+    "syntax": ">red [character name]",
     "description": "Displays the Red Orb skill for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?red alisa", "?red fish"]
+    "examples": [">red alisa", ">red fish"]
   },
   "yellow": {
-    "syntax": "?yellow [character name]",
+    "syntax": ">yellow [character name]",
     "description": "Displays the Yellow Orb skill for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?yellow alisa", "?yellow fish"]
+    "examples": [">yellow alisa", ">yellow fish"]
   },
   "blue": {
-    "syntax": "?blue [character name]",
+    "syntax": ">blue [character name]",
     "description": "Displays the Blue Orb skill for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?blue alisa", "?blue fish"]
+    "examples": [">blue alisa", ">blue fish"]
   },
   "core": {
-    "syntax": "?core [character name]",
+    "syntax": ">core [character name]",
     "description": "Displays the Core Passive for a particular character. The given input in the square brackets can be a character name/nickname. As Core Passive descriptions are getting longer as the game progresses, they have been set up to be paginated rather than be presented in one big wall of text.",
-    "examples": ["?core alisa", "?core best girl"]
+    "examples": [">core alisa", ">core best girl"]
   },
   "signature": {
-    "syntax": "?signature [character name]",
-    "aliases": "?ult, ?ultimate",
+    "syntax": ">signature [character name]",
+    "aliases": ">ult, >ultimate",
     "description": "Displays the Signature Move for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?signature alisa", "?ult lamia", "?ultimate best daughter"]
+    "examples": [">signature alisa", ">ult lamia", ">ultimate best daughter"]
   },
   "leader": {
-    "syntax": "?leader [character name]",
+    "syntax": ">leader [character name]",
     "description": "Displays the Leader passive for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?leader alisa", "?leader lamia"]
+    "examples": [">leader alisa", ">leader lamia"]
   },
   "qte": {
-    "syntax": "?qte [character name]",
+    "syntax": ">qte [character name]",
     "description": "Displays the QTE skill for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?qte alisa", "?qte lamia"]
+    "examples": [">qte alisa", ">qte lamia"]
   },
   "class": {
-    "syntax": "?class [character name]",
+    "syntax": ">class [character name]",
     "description": "Displays the Class passive for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?class alisa", "?class lamia"]
+    "examples": [">class alisa", ">class lamia"]
   },
   "ss": {
-    "syntax": "?ss [character name]",
-    "aliases": "?SS, ?2S, ?2s, ?s5, ?S5",
+    "syntax": ">ss [character name]",
+    "aliases": ">SS, >2S, >2s, >s5, >S5",
     "description": "Displays the SS and S5 rank up buffs for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?ss alisa", "?SS lamia"]
+    "examples": [">ss alisa", ">SS lamia"]
   },
   "sss": {
-    "syntax": "?sss [character name]",
+    "syntax": ">sss [character name]",
     "aliases": "SSS, 3S, 3s, SS3, ss3",
     "description": "Displays the SSS and SS3 rank up buffs for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?sss alisa", "?SSS lamia"]
+    "examples": [">sss alisa", ">SSS lamia"]
   },
   "s+": {
-    "syntax": "?s+ [character name]",
+    "syntax": ">s+ [character name]",
     "aliases": "s+, SSS+, S+, 3S+, 3s+",
     "description": "Displays the SSS3, SSS6 and S+ rank up buffs for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?s+ alisa", "?3s+ lamia"]
+    "examples": [">s+ alisa", ">3s+ lamia"]
   },
   "leap": {
-    "syntax": "?leap [character name]",
+    "syntax": ">leap [character name]",
     "description": "Displays the Leap skills for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": ["?leap alisa", "?leap fish"]
+    "examples": [">leap alisa", ">leap fish"]
   },
   "weapon": {
-    "syntax": "?weapon [weapon or character name]",
-    "aliases": "?weap, ?wep, ?sig",
+    "syntax": ">weapon [weapon or character name]",
+    "aliases": ">weap, >wep, >sig",
     "description": "Displays details for a particular weapon. The given input in the square brackets can be a character name/nickname or weapon name. If a character name/nickname is used, all usable weapons for that particular character will be displayed in a pagination format with each button having each usable weapon of every rarity present in the game.",
-    "examples": ["?weapon scire", "?weap alisa", "?wep fish", "?sig hyperreal"]
+    "examples": [">weapon scire", ">weap alisa", ">wep fish", ">sig hyperreal"]
   },
   "memory": {
-    "syntax": "?memory [memory name]",
-    "aliases": "?mem, ?memo",
+    "syntax": ">memory [memory name]",
+    "aliases": ">mem, >memo",
     "description": "Displays details for a particular memory. The given input in the square brackets should be a memory name",
-    "examples": ["?memory da vinci", "?mem eins", "?memo signa"]
+    "examples": [">memory da vinci", ">mem eins", ">memo signa"]
   },
   "cub": {
-    "syntax": "?cub [cub or character name]",
-    "aliases": "?pet, ?CUB",
+    "syntax": ">cub [cub or character name]",
+    "aliases": ">pet, >CUB",
     "description": "Displays details for a CUB. The given input in the square brackets can be a character name/nickname or actual pet name.",
-    "examples": ["?cub hyperreal", "?cub fish", "?pet crimson weave"]
+    "examples": [">cub hyperreal", ">cub fish", ">pet crimson weave"]
   },
   "minmax": {
-    "syntax": "?minmax [memory1], [memory2] or ?minmax [memory1],[memory2]",
-    "aliases": "?mm, ?min",
+    "syntax": ">minmax [memory1], [memory2] or >minmax [memory1],[memory2]",
+    "aliases": ">mm, >min",
     "description": "Compares the stats between 2 memories and recommends the top/bottom position for both memories.",
-    "examples": ["?minmax dv,eins", "?minmax derketto, cottie"]
+    "examples": [">minmax dv,eins", ">minmax derketto, cottie"]
   },
   "ppc": {
-    "syntax": "?ppc [difficulty] [time]",
-    "aliases": "?time",
+    "syntax": ">ppc [difficulty] [time]",
+    "aliases": ">time",
     "description": "Calculates the Ultimate PPC score of a particular time and difficulty.",
-    "examples": ["?ppc chaos 20", "?ppc hell 30", "?time hell 25"]
+    "examples": [">ppc chaos 20", ">ppc hell 30", ">time hell 25"]
   },
   "memorylist": {
-    "syntax": "?memorylist",
-    "aliases": "?ml",
+    "syntax": ">memorylist",
+    "aliases": ">ml",
     "description": "Displays a comprehensive list of all available memories."
   },
   "characterlist": {
-    "syntax": "?characterlist",
-    "aliases": "?chl",
+    "syntax": ">characterlist",
+    "aliases": ">chl",
     "description": "Displays a comprehensive list of all available characters."
   },
   "cublist": {
-    "syntax": "?cublist",
-    "aliases": "?cbl",
+    "syntax": ">cublist",
+    "aliases": ">cbl",
     "description": "Displays a comprehensive list of all available CUBs."
   },
   "weaponlist": {
-    "syntax": "?weaponlist",
-    "aliases": "?wl",
+    "syntax": ">weaponlist",
+    "aliases": ">wl",
     "description": "Displays a comprehensive list of all available weapons."
   },
   "leaplist": {
-    "syntax": "?leaplist",
-    "aliases": "?ll",
+    "syntax": ">leaplist",
+    "aliases": ">ll",
     "description": "Displays a comprehensive list of all available leaps."
   },
   "nicknamelist": {
-    "syntax": "?nicknamelist",
-    "aliases": "?nnl",
+    "syntax": ">nicknamelist",
+    "aliases": ">nnl",
     "description": "Displays a list of nicknames for each character. If a character's nickname is not on this list that you would like to see present on this bot, please reach out to Ek to discuss if the nickname is safe to use.\n\nTo use the nicknames, all you will need to do is replace the name of the character/weapon/CUB/build name with the nickname that you would like to search a particular item/skill for."
   }
 }
