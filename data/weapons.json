@@ -1165,7 +1165,7 @@
   },
   "rock cannon": {
     "name": "Rock Cannon",
-    "weapon_type": "Bladed Cannon",
+    "weapon_type": "Blade Cannon",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3rockcannon5md010011.png",
     "atk": 365,
