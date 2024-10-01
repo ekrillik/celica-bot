@@ -2072,7 +2072,7 @@
     "crit": 294,
     "effect": {
       "effect_name": "Sublime Omnislash",
-      "effect_desc": "Increases ATK by 10%. Doubles the Base DMG of Heavenly Star Piercer and Gigabyte Star Sunder, and generates 1 3-Ping after casting."
+      "effect_desc": "ATK increases by 10%. Exceed Points' Base DMG boost towards Starfall Collapse doubles. Base DMG of Burning Breakaway doubles."
     }
   }
 }

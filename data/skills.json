@@ -8552,47 +8552,40 @@
       {
         "name": "Mist-Trailing Bolt",
         "description": [
-          "While casting Leaping Thrust, continue holding Basic Attack to throw the odachi, dealing 60% Umbrasurge DMG and transitioning into Shadow Strike. During this period, Red and Yellow Signal Orbs are converted into Shadow Strike Orbs. Each Shadow Strike Orb pinged unleashes 1 hit of Shadow Strike (up to 6 hits) that deals 450% Umbrasurge DMG, restores 1 Energy and 15 Aphotic Points. Afterwards, casts Shadow: Thunderous Bash, dealing 940% Umbrasurge DMG.",
-          "- During Shadow Strike, continuously tapping or holding Basic Attack will automatically ping Shadow Strike Orbs. After fully casting the 6th hit, the next [Signature Move - Weave: Karmic Inferno] will deal 2600% Umbrasurge DMG instead.",
-          "If this skill is triggered by holding Basic Attack, and CUB Motorbolt is in Standby Mode, you must ping any Shadow Strike Orb during Leaping Thrust to transition into Shadow Strike."
+          "**Setting 1(Lightning gameplay):**\nWhile casting Leaping Thrust, Red and Yellow Signal Orbs are converted into Shadow Strike Orbs. Pinging any Shadow Strike Orb will transition into Shadow Strike.\n- Lucia throws the odachi to deal 60% Umbrasurge DMG. Each Shadow Strike Orb pinged unleashes 1 hit of Shadow Strike (up to 6 hits) that deals 450% Umbrasurge DMG, restores 1 Signature Energy and 15 Aphotic Points. Afterwards, casts Shadow: Thunderous Bash, dealing 940% Umbrasurge DMG.\n- After fully casting 6 hits of Shadow Strike, the next [Signature Move - Weave: Karmic Inferno] will deal 2600% Umbrasurge DMG instead.",
+          "**Setting 2(Umbra gameplay):**\nWhile casting Leaping Thrust, continuing holding Basic Attack will convert Red Orbs and Yellow Orbs into Shadow Strike Orbs and transition into Shadow Strike.\n- Lucia throws the odachi to deal 60% Umbrasurge DMG. Each Shadow Strike Orb pinged unleashes 1 hit of Shadow Strike (up to 6 hits, continuously tapping or holding Basic Attack automatically pings Shadow Strike Orbs) that deals 450% Umbrasurge DMG, restores 1 Signature Energy and 15 Aphotic Points. Afterwards, casts Shadow: Thunderous Bash, dealing 940% Umbrasurge DMG.\n- After fully casting 6 hits of Shadow Strike, the next [Signature Move - Weave: Karmic Inferno] will deal 2600% Umbrasurge DMG instead.\n- If CUB Motorbolt is in Standby Mode, you must ping any Shadow Strike Orb during Leaping Thrust to transition into Shadow Strike."
         ],
         "level9": [
-          "**Level 9**: Each Umbrasurge stack increases the Base DMG of Shadow Strike by 10%.",
-          "[Signature Move - Weave: Karmic Inferno] will clear all Umbrasurge stacks and add Umbrasurge DMG equal to the number of stacks consumed x 400%."
+          "**Level 9**: Each Umbrasurge stack increases the Base DMG of Shadow Strike by 10%.\n- [Signature Move - Weave: Karmic Inferno] will clear all Umbrasurge stacks and add Umbrasurge DMG equal to the number of stacks consumed x 400%."
         ],
         "level18": [
-          "**Level 18**: For every Aphotic Point consumed by Thunderous Bash or Shadow: Thunderous Bash, increases the Base DMG of the next [Signature Move - Weave: Karmic Inferno] by 0.15% (does not stack).",
-          "[SS Passive - Drifting Vain] added effect: Each Umbrasurge stack increases the Base DMG of Shadow Strike by an additional 5%."
+          "**Level 18**: For every Aphotic Point consumed by Thunderous Bash or Shadow: Thunderous Bash, increases the Base DMG of the next [Signature Move - Weave: Karmic Inferno] by 0.15% (does not stack).\n- [SS Passive - Drifting Vain] added effect: Each Umbrasurge stack increases the Base DMG of Shadow Strike by an additional 5%."
         ]
       },
       {
         "name": "Conviction of Nimitta",
         "description": [
-          "Increases the Base DMG of [Core Passive - Resolute Blow] by 60%, and allows 2 additional parries during Parry Stance."
+          "Base DMG of [Core Passive - Resolute Blow] increases by 60%. Allows 2 additional parries during Parry Stance."
         ],
         "level9": [
           "**Level 9**: If a Red 3-Ping or Yellow 3-Ping is cast, followed by [Core Passive - Sundered Delusion] within the next 3s, increases the gain rate of Blade Aura and automatically rapid casts [Core Passive - Resolute Blow] once Blade Aura reaches maximum."
         ],
         "level18": [
-          "**Level 18**: Upon entering the battlefield, gain 9 Energy.",
-          "[SSS Passive - Facets of Delusions] added effect: After casting [Signature Move - Weave: Karmic Inferno], increases the Base DMG of [QTE - Flashes of Steel] by 1000% for the duration of the battle. Adds additional Umbrasurge DMG to [Signature Move - Weave: Karmic Inferno] equal to the number of stacks consumed x 200%."
+          "**Level 18**: Upon entering the battlefield, gain 9 Signature Energy.\n- [SSS Passive - Facets of Delusions] added effect: After casting [Signature Move - Weave: Karmic Inferno], increases the Base DMG of [QTE - Flashes of Steel] by 1000% for the rest of the battle. Adds additional Umbrasurge DMG to [Signature Move - Weave: Karmic Inferno] equal to the number of stacks consumed x 200%."
         ]
       },
       {
         "name": "Thunder-Ruling Armaments",
         "description": [
           "Adds [Affix: Umbrasurge] to [Core Passive - Path of Anatta]:\n",
-          "Every 200 Umbrasurge points accumulated will increase the number of Umbrasurge stacks by 1, up to 15 stacks. Characters with the Umbrasurge Affix will obtain an Umbrasurge Aura based on the current number of Umbrasurge stacks, continuously dealing a small amount of Umbrasurge DMG to enemies and reducing their HP regeneration. Reaching a threshold number of Umbrasurge stacks will upgrade the Umbrasurge Aura, expanding its range and dealing a large amount of Umbrasurge DMG to enemies within.",
-          "- At 1/3/6/10/15 stacks: Deals 100%/200%/400%/800%/1600% Umbrasurge DMG, then deals 20%/40%/60%/80%/100% Umbrasurge per second and reduces the enemy's HP regeneration by 10%/20%/30%/50%/100%.",
-          "Pinging Blue Signal Orbs generates 50/100/200 Umbrasurge points. Casting [Core Passive - Resolute Blow] while holding the kodachi generates 50/100/200 Umbrasurge points. Continuously unleashing swordwaves through [Basic Attack - Blading Radiance] generates 60 Umbrasurge points every 0.5s. Enhanced swordwaves generate an additional 100 Umbrasurge points."
+          "Every 200 Umbrasurge points accumulated will increase the number of Umbrasurge stacks by 1, up to 15 stacks. Characters with the Umbrasurge Affix will obtain an Umbrasurge Aura based on the current number of Umbrasurge stacks, continuously dealing a small amount of Umbrasurge DMG to enemies and reducing their HP recovery. Reaching a threshold number of Umbrasurge stacks will upgrade the Umbrasurge Aura, expand its range, and deal a large amount of Umbrasurge DMG to enemies within.",
+          "- At 1/3/6/10/15 stacks: Deals 100%/200%/400%/800%/1600% Umbrasurge DMG, then deals 20%/40%/60%/80%/100% Umbrasurge per second and reduces the enemy's HP regeneration by 10%/20%/30%/50%/100%.; pinging Blue Signal Orbs generates 50/100/200 Umbrasurge points. Casting [Core Passive - Resolute Blow] while holding the kodachi generates 50/100/200 Umbrasurge points. Continuously unleashing swordwaves through [Basic Attack - Blading Radiance] generates 60 Umbrasurge points every 0.5s and enhanced swordwaves generate an additional 100 Umbrasurge points."
         ],
         "level9": [
-          "**Level 9**: Increase the Base DMG of Signal Orbs by 50%.",
-          "When any orb is pinged for the first time upon entering the battlefield, a maximum of 1 orb will be consumed."
+          "**Level 9**: Base DMG of Signal Orbs increases by 50%.\n- When any orb is pinged for the first time upon triggering Matrix, a maximum of 1 orb will be consumed."
         ],
         "level18": [
-          "**Level 18**:  While holding the kodachi, all Signal Orbs are converted into Blue Orbs.",
-          "[SSS+ Passive - Glimpse Into All] added effect: Gain 15% Extra DMG Bonus when holding the odachi."
+          "**Level 18**:  While holding the kodachi, all Signal Orbs are converted into Blue Orbs.\n- [SSS+ Passive - Glimpse Into All] added effect: Gain 15% Extra DMG Bonus when holding the odachi."
         ]
       }
     ]
@@ -12382,11 +12375,7 @@
         "switch_in": "no",
         "description": {
           "desc": "Performs alternating attacks with the Sword and Shield, dealing a total of 510% Lightning DMG.",
-          "result": [
-            "- Deals a total of 760% Fire DMG.",
-            "- While in Levitating Mode, Basic Attacks deal a total of 330% Fire DMG and each Basic Attack obtains 25 Radiance Points.",
-            "- Searing Slash - Shatter: Tapping Basic Attack at the precise timing after performing Basic Attack Combo 5, or tapping Basic Attack after dodging successfully will perform Searing Slash - Shatter, dealing 200% Fire DMG and recovering 30 Radiance Points. During this, gains Super Armor. After performing this skill, using Basic Attack will start from Basic Attack Combo 4."
-          ]
+          "result": []
         }
       },
       {
@@ -12394,10 +12383,10 @@
         "button_press": "Holding Shield Axe + Tap Basic Attack",
         "switch_in": "no",
         "description": {
-          "desc": "Attacks with the Shield Axe, dealing Lightning DMG. If there is sufficient Astra Gauge, then attacks will consume Astra Gauge, generate Exceed Points, and unleash lightstreams that deal additional Lightning DMG. Gain Super Armor and DMG Reduction during this skill.",
+          "desc": "Attacks with the Shield Axe, dealing Lightning DMG. If there is sufficient Astra Gauge, then attacks will consume Astra Gauge, generate Exceed Points, and deal additional Lightning DMG. Gain Super Armor and DMG Reduction during this skill.",
           "result": [
             "- Deals a total of 680% Lightning DMG.",
-            "-  If there is sufficient Astra Gauge, each hit consumes 10/25/30/35 Astra Gauge respectfully, and generates 30/75/90/105 Exceed Points and 3/7/9/11 Energy, dealing an additional 440%/1240%/1780%/1960% Lightning DMG. During this period, gain Super Armor and 60% DMG Reduction. Exceed Points limit: 300 points."
+            "-  If there is sufficient Astra Gauge, each hit will consume 10/25/30/35 Astra Gauge respectfully, generate 30/75/90/105 Exceed Points and 3/7/9/11 Signature Energy, dealing an extra 400%/1100%/2100%/2600% Lightning DMG respectfully. During this period, gain Super Armor and 60% DMG Reduction. Exceed Points limit: 300 points."
           ]
         }
       }
@@ -12408,10 +12397,10 @@
         "button_press": "Tap Red Orb",
         "switch_in": "no",
         "description": {
-          "desc": "Performs a spinning slash on the enemy and enters Red Orb Combo, dealing Lightning DMG and applying a Dazzling Thunder Mark to enemies hit. The Dazzling Thunder Mark lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when applied, then it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
+          "desc": "Performs a spinning slash on the enemy and enters Red Orb Combo, dealing Lightning DMG and applying a Dazzling Thunder Mark to enemies hit. The Dazzling Thunder Mark lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when cast, then it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
           "result": [
             "- The spinning slash deals 100% Lightning DMG. The Dazzling Thunder Mark detonation deals 100% Lightning DMG.",
-            "- If attacked when casting this skill, Nanami will automatically raise her shield to block it and gain 1 stack of Crystalline Forcefield, up to 2 stacks.",
+            "- If attacked during this skill, Nanami will automatically raise her shield to block it and gain 1 extra stack of Crystalline Forcefield, up to 2 stacks.",
             "- If the target has a Dazzling Thunder Mark when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 stack of Crystalline Forcefield, up to 2 stacks."
           ]
         }
@@ -12434,7 +12423,7 @@
         "button_press": "Holding Sword and Shield + At least 50 Astra Gauge + Tap Yellow Orb",
         "switch_in": "no",
         "description": {
-          "desc": "Spins to attack the enemy and assembles the weapons into a Shield Axe, dealing Lightning DMG and clearing the Blaze Emblem. Gain Super Armor and DMG Reduction during this skill.",
+          "desc": "Spins to attack the enemy and assembles the weapon into a Shield Axe, dealing Lightning DMG and clearing the Blaze Emblem. Gain Super Armor and DMG Reduction during this skill.",
           "result": [
             "- Deals 950% Lightning DMG. During this skill, gain Super Armor and 50% DMG Reduction."
           ]
@@ -12450,13 +12439,13 @@
         }
       },
       {
-        "name": "Astral Assemblage - Searing Onslaught",
+        "name": "Astral Assemblage - Searing Buzzsaw",
         "button_press": "Holding Sword and Shield + At least 50 Astra Gauge + Hold Yellow Or",
         "switch_in": "no",
         "description": {
-          "desc": "Immediately assembles the Sword and Shield into a Shield Axe, then continuously consumes Astra Gauge to attack the enemy, dealing Combustion DMG, applying Incendiary points, gaining a Blaze Emblem and restoring Energy. During this skill, Nanami gains Super Armor and DMG Reduction but is unable to cast Big Bang Victory!.",
+          "desc": "Immediately assembles the Sword and Shield into a Shield Axe, then continuously consumes Astra Gauge to attack the enemy, gathering enemies, dealing Combustion DMG, applying Incendiary points, gaining a Blaze Emblem and restoring Signature Energy. During this skill, Nanami gains Super Armor and DMG Reduction but is unable to cast Big Bang Victory!.",
           "result": [
-            "- Each instance consumes a maximum of 100 Astra Gauge, deals a total of 4000% Combustion DMG, applies 5000 Incendiary points, restores 60 Energy, and grants Super Armor and 70% DMG Reduction.",
+            "- Each instance consumes a maximum of 100 Astra Gauge, deals a total of 4000% Combustion DMG, applies 5000 Incendiary points, restores 60 Signature Energy, and grants Super Armor and 70% DMG Reduction.",
             "- Releasing the Yellow Orb button midway will immediately cast Burning Breakaway.",
             "- The Blaze Emblem lasts 10s. Gaining this effect again will reset its duration."
           ]
@@ -12469,10 +12458,10 @@
         "button_press": "Not in Blue Orb Combo + Tap Blue Orb",
         "switch_in": "no",
         "description": {
-          "desc": "Dashes into the enemy and enters Blue Orb Combo, dealing Lightning DMG and applying a Dazzling Thunder Mark to enemies hit. The Dazzling Thunder Mark lasts 0.7s before detonating to deal Lightning DMG.  If there is already a mark when applied, then it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
+          "desc": "Dashes into the enemy and enters Blue Orb Combo, dealing Lightning DMG and applying a Dazzling Thunder Mark to enemies hit. The Dazzling Thunder Mark lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when cast, then it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
           "result": [
             "- The dash attack deals 100% Lightning DMG. The Dazzling Thunder Mark detonation deals 100% Lightning DMG.",
-            "- If attacked when casting this skill, Nanami will automatically raise her shield to block it and gain 1 stack of Crystalline Forcefield, up to 2 stacks.",
+            "- If attacked during this skill, Nanami will automatically raise her shield to block it and gain 1 extra stack of Crystalline Forcefield, up to 2 stacks.",
             "- If the target has a Dazzling Thunder Mark when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 stack of Crystalline Forcefield, up to 2 stacks."
           ]
         }
@@ -12496,24 +12485,23 @@
           "name": "Starfall Collapse",
           "button_press": "Holding Shield Axe + At least 100 Exceed Points or 100 Astra Gauge + Hold Basic Attack",
           "description": [
-            "Consumes all Exceed Points and Astra Gauge to cast Starfall Collapse, gathering nearby enemies, dealing Lightning DMG and restoring Energy. Triggers Matrix if it is not on cooldown. During this skill, Nanami is unable to cast Big Bang Victory!."
+            "Consumes all Exceed Points and Astra Gauge to cast Starfall Collapse, gathering nearby enemies, triggering Matrix if it is not on cooldown, dealing Lightning DMG and restoring Signature Energy. Triggers Matrix if it is not on cooldown. During this skill, Nanami is unable to cast Big Bang Victory!."
           ],
           "result": [
-            "- Deals a total of 3800% Lightning DMG and restores 35 Energy.",
+            "- Deals a total of 3800% Lightning DMG and restores 30 Signature Energy.",
             "- All Astra Gauge consumed is converted into an equal amount of Exceed Points.",
-            "- For every 15 Exceed Points consumed, increases this skill's Base DMG by 2%."
+            "- For every 15 Exceed Points consumed, increases this this Starfall Collapse's's Base DMG by 2%."
           ]
         },
         {
           "name": "Burning Breakaway",
-          "button_press": "During Searing Onslaught + Release Yellow Orb or Deplete all Astra Gauge during Searing Onslaught",
+          "button_press": "During Searing Buzzsaw + Release Yellow Orb or Deplete all Astra Gauge during Searing Buzzsaw",
           "description": [
-            "Immediately dismantles her weapon into a Sword and Shield, dealing Combustion DMG and restoring Energy based on the amount of Astra Gauge consumed. Triggers Matrix if it is not on cooldown. Gain Super Armor and DMG Reduction during this skill."
+            "Immediately dismantles her weapon into a Sword and Shield, dealing Combustion DMG triggering Matrix if it is not on cooldown, and gaining Gain Super Armor and DMG Reduction during this skill. The first Burning Breakaway cast upon entering the battlefield receives enhancement effects."
           ],
           "result": [
-            "- Deals a total of 700% Combustion DMG. During this skill, gain Super Armor and 70% DMG Reduction.",
-            "- For every 5 Astra Gauge consumed by the previous Searing Onslaught, increases the Base DMG of this skill by 10%.",
-            "- Upon entering the battlefield, the first Burning Breakaway restores 5 Energy and has increased Base DMG. Casting Big Bang Victory! will refresh the available  effects again."
+            "- Deals a total of 700% Combustion DMG. During this skill, gain Super Armor and 80% DMG Reduction.",
+            "- The first Burning Breakaway cast upon entering the battlefield will be enhanced, restoring 12 Signature Energy, and for every 5 Astra Gauge consumed by the previous Searing Buzzsaw, increases the Base DMG of this Burning Breakaway by 10%. Casting Big Bang Victory! will refresh the available enhancement effect."
           ]
         },
         {
@@ -12531,7 +12519,7 @@
           "name": "Exceed Adaptability",
           "button_press": "Blazing Thunder Form + Basic Attack / Ping Signal Orbs",
           "description": [
-            "Every time Nanami enters the battlefield, gain 1 Signal Orb. After switching to the Shield Axe,, gain a shield equal to 20% of Max HP. When switching to the Sword and Shield, removes the shield."
+            "After switching to the Shield Axe, gain a shield equal to 30% of Max HP; when switching to the Sword and Shield, removes the shield. Every time Nanami enters the battlefield, gain 1 Signal Orb. "
           ],
           "result": ["- Each follow up of Crimson Blades deals 20% Fire DMG."]
         },
@@ -12554,10 +12542,10 @@
           "name": "Heavenly Star Piercer",
           "button_press": "80 Energy + Holding Sword and Shield + Tap Signature",
           "description": {
-            "desc": "Assembles the weapons into a Shield Axe and cleaves through the enemy, dealing DMG. This skill triggers Time Lag Calculation. If Nanami has the Domain Overlimit effect (the orb-tripling effect from Matrix), refreshes its duration.",
+            "desc": "Assembles the weapon into a Shield Axe and cleaves through the enemy, dealing DMG. This skill triggers Time Lag Calculation. If Nanami has the Domain Overlimit effect (the orb-tripling effect from Matrix), refreshes its duration.",
             "result": [
               "- Deals a total of 4000% Lightning DMG.",
-              "- If there is a Blaze Emblem, the emblem will be cleared and Nanami will cast Heavenly Star Piercer: Burn instead, converting Flammable stacks into an equal number of Burning stacks and dealing 4000% Combustion DMG. Afterwards, gain a Cinder Emblem that lasts 15s.",
+              "- If there is a Blaze Emblem, clears the emblem and casts Heavenly Star Piercer: Burn instead, converting Flammable stacks into an equal number of Burning stacks and dealing 4000% Combustion DMG. Afterwards, gain a Cinder Emblem that lasts 15s.",
               "- If Nanami exits the battlefield with a Cinder Emblem, resets the mark's duration to 15s. Triggering this effect again will reset its duration.",
               "- Afterwards, return to Sword and Shield."
             ]
@@ -12575,7 +12563,7 @@
           "name": "Glowing Embers Field",
           "button_press": "",
           "description": {
-            "desc": "After casting Heavenly Star Piercer or Gigabyte Star Sunder, leaves behind a weapon that continuously deals damage and debuffs enemies.",
+            "desc": "After casting Heavenly Star Piercer or Gigabyte Star Sunder, leaves behind a field that continuously deals damage and debuffs enemies.",
             "result": [
               "- The field deals 50% Lightning DMG every second for 12s. Triggering this effect again will reset its duration.",
               "- If Nanami has a Blaze Emblem when this skill is cast, deals 50% Combustion DMG every second for 12s instead. Triggering this effect again will reset its duration."
@@ -12611,11 +12599,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Switching to the Shield Axe, casting Heavenly Star Piercer and Gigabyte Star Sunder trigger all available QTEs."
+          "desc": "Switching to the Shield Axe, casting Starfall Collapse, Burning Breakaway, Heavenly Star Piercer and Gigabyte Star Sunder trigger all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Upon exiting the battlefield, automatically uses QTE. After casting Red Orb Combo 2 or Blue Orb Combo 2, tap Red Orb or Blue Orb again to immediately cast the respective Combo 2 skill. Increases the Base DMG of Celestial Convene, Red Orb/Blue Orb Combo 2, and lightstreams from Thundering Whirlwind by 100%. Base DMG of Searing Onslaught increases by 110%. If Starfall Collapse is cast and consumes 100 Astra Gauge, generates an additional 50 Exceed Points. After switching to Shield Axe for the first time upon entering the battlefield, gain 15 Energy."
+          "desc": "Upon exiting the battlefield, automatically uses QTE. After casting Red Orb Combo 2 or Blue Orb Combo 2, tap Red Orb or Blue Orb again to immediately cast the respective Combo 2 skill. Base DMG of Celestial Convene and Red Orb/Blue Orb Combo 2 increases by 60%. Base DMG of lightstreams increases by 100%. Base DMG of Searing Buzzsaw increases by 110%. If Starfall Collapse is cast and consumes 100 Astra Gauge, generates an additional 50 Exceed Points and increases the Base DMG of this Starfall Collapse by 50%. After switching to Shield Axe for the first time upon entering the battlefield, gain 15 Signature Energy."
         }
       ]
     },
@@ -12624,11 +12612,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Increases Resistance Reduction effects by 10%. Increase the Base DMG of Starfall Collapse by 60%. Increase the Base DMG of Burning Breakaway by 80%. Increases the rate of Searing Onslaught applying Incendiary points by 100%."
+          "desc": "Resistance Reduction effects of Turbulence Interference and Scorching Invasion increase by 10%. Base DMG of Starfall Collapse increases by 100%. Base DMG of Burning Breakaway increases by 60%. Searing Buzzsaw's rate of applying Combustibility points increases by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Increases Resistance Reduction effects by 10%. For every 75 Exceed Points consumed by Starfall Collapse, increases the Base DMG of the next Gigabyte Star Sunder by 22.5%, up to 90%; stacks are cleared upon dismantling the Shield Axe. For every 5 Flammable stacks applied to the target, increase the Base DMG of Heavenly Star Piercer: Burn by 16%, up to 64%. Reduces the swap cooldown of all members in the team by 3s; this does not stack with other effects of the same type."
+          "desc": "Resistance Reduction effects of Turbulence Interference and Scorching Invasion increase by 10%. For every 75 Exceed Points consumed by Starfall Collapse, increases the Base DMG of the next Gigabyte Star Sunder by 25%; stacks are cleared upon dismantling the Shield Axe. For every 5 Combustible stacks applied to the target, increases the Base DMG of Heavenly Star Piercer: Burn by 16%. Upon entering the battlefield, the first Big Bang Victory! cast will generate 100 Astra Gauge, and the first 4th-hit lightstream will restore an extra 16 Signature Energy. Reduces the swap cooldown of all members in the team by 3s; this does not stack with other effects of the same type."
         }
       ]
     },
@@ -12637,11 +12625,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG bonus of Starfall Collapse increases by 50%. Extra DMG Bonus of Burning Breakaway increases by 100%."
+          "desc": "Extra DMG Bonus of Starfall Collapse increases by 20%. Extra DMG Bonus of lightstreams increases by 35%. Extra DMG Bonus of Burning Breakaway increases by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of Celestial Convene and Red Orb/Blue Orb Combo 2 increases by 50%. Extra DMG Bonus of Searing Onslaught increases by 25%. Extra DMG Bonus of lightstreams from Thundering Whirlwind increases by 15%."
+          "desc": "Extra DMG Bonus of Celestial Convene and Red Orb/Blue Orb Combo 2 increases by 100%. Extra DMG Bonus of Searing Buzzsaw increases by 50%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",

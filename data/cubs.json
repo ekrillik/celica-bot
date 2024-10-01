@@ -1454,7 +1454,7 @@
       {
         "skill_name": "Phosphorescent Twister",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Nanami: Startrail casts Starfall Collapse or Burning Breakaway with An Ji equipped, summons An Ji to perform a combined attack that deals 1250% Lightning DMG 2 times. Base DMG of lightstreams from Thundering Whirlwind, Heavenly Star Piercer, and Gigabyte Star Sunder increases by 60%."
+        "skill_desc": "When Nanami: Startrail casts Starfall Collapse or an enhanced Burning Breakaway with An Ji equipped, summons An Ji to perform a combined attack that deals 1250% Lightning DMG 2 times. Base DMG of lightstreams, Heavenly Star Piercer, and Gigabyte Star Sunder increases by 60%."
       }
     ]
   }
