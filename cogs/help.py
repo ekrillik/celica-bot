@@ -84,7 +84,7 @@ class Help(commands.Cog):
                         value=f"[Huaxu](https://huaxu.app/)\n[Setsu's Harmo Spreadsheet](https://docs.google.com/spreadsheets/d/1t7TXDtfZdpHQy8SZAeIMpxcSi1pheSUVgDwkhicCw6s)\n[Zexous' Meta Spreadsheet](https://docs.google.com/spreadsheets/d/1SusxJ3tYwsBqY3dPwJ9BG2tDW0ox5GqVJgGZHYnAqa8)\n[Rexlent Beginner YT Playlist](https://www.youtube.com/watch?v=EHaKrXj643A&list=PLT669jfZO0z9OFd4fnfJxGc3Z71e-1FCg)\n[Setsu's Harmo Spreadsheet v2](https://docs.google.com/spreadsheets/d/1yToEJAp_-nfjLYKe8QgUOgSXE0ci4eDfDpTz_SkyGQI)")
 
         embed.add_field(name=":calendar_spiral: Planning",
-                        value=f"[BC Planner](https://docs.google.com/spreadsheets/d/1nNauBXGcHv_7AepLWBLo4ykl3V_EhxpK)")
+                        value=f"[BC Planner](https://docs.google.com/spreadsheets/d/1nNauBXGcHv_7AepLWBLo4ykl3V_EhxpK)\n[PGR Packs](https://docs.google.com/spreadsheets/d/1--NFm3o__MguetZJQsEIjIbx4bvp3MPm0QWlA4q26zk)")
 
         embed.add_field(name="<:exppc:1290659786500739192> Phantom Pain Cage",
                         value=f"[SS Ultimate](https://docs.google.com/spreadsheets/d/16z8o9xw3NUhSAymJIRtsWyQsxqEndpgYS4OCb1GYyAQ)\n[SSS Ultimate](https://docs.google.com/spreadsheets/d/1p3-_Bqp4NEpqEVEFUqthxeVlvwu5uXzJSoHa8ZoN5yk)\n[S+ Ultimate](https://docs.google.com/spreadsheets/d/1YzOGbhTKaGTzfGbQJDdI6PSw8lXxcDpEQeeVLF4u2Dw)\n[Advanced PPC Spreadsheet](https://docs.google.com/spreadsheets/d/1_2Jg37FIxK7bqqaSYT9G2qirShdsC3G-ZdYQSeYIlmA)\n[PPC Boss Rotations](https://docs.google.com/spreadsheets/d/1P-yoXNQ7ALEvshhmdPdjBjhHqUFfWEMbUSDli_LL9JM)")
