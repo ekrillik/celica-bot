@@ -2069,7 +2069,7 @@
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e3swordaxemd010011.webp",
     "atk": 436,
-    "crit": 294,
+    "crit": 249,
     "effect": {
       "effect_name": "Sublime Omnislash",
       "effect_desc": "ATK increases by 10%. Exceed Points' Base DMG boost towards Starfall Collapse doubles. Base DMG of Burning Breakaway doubles."
