@@ -12401,7 +12401,7 @@
           "result": [
             "- The spinning slash deals 100% Lightning DMG. The Dazzling Thunder Mark detonation deals 100% Lightning DMG.",
             "- If attacked during this skill, Nanami will automatically raise her shield to block it and gain 1 extra stack of Crystalline Forcefield, up to 2 stacks.",
-            "- If the target has a Dazzling Thunder Mark when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 stack of Crystalline Forcefield, up to 2 stacks."
+            "- If the target has a Dazzling Thunder Mark when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 extra stack of Crystalline Forcefield, up to 2 stacks."
           ]
         }
       },
@@ -12462,7 +12462,7 @@
           "result": [
             "- The dash attack deals 100% Lightning DMG. The Dazzling Thunder Mark detonation deals 100% Lightning DMG.",
             "- If attacked during this skill, Nanami will automatically raise her shield to block it and gain 1 extra stack of Crystalline Forcefield, up to 2 stacks.",
-            "- If the target has a Dazzling Thunder Mark when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 stack of Crystalline Forcefield, up to 2 stacks."
+            "- If the target has a Dazzling Thunder Mark when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 extra stack of Crystalline Forcefield, up to 2 stacks."
           ]
         }
       },
@@ -12490,7 +12490,7 @@
           "result": [
             "- Deals a total of 3800% Lightning DMG and restores 30 Signature Energy.",
             "- All Astra Gauge consumed is converted into an equal amount of Exceed Points.",
-            "- For every 15 Exceed Points consumed, increases this this Starfall Collapse's's Base DMG by 2%."
+            "- For every 15 Exceed Points consumed, increases this Starfall Collapse's Base DMG by 3%."
           ]
         },
         {
@@ -12521,7 +12521,7 @@
           "description": [
             "After switching to the Shield Axe, gain a shield equal to 30% of Max HP; when switching to the Sword and Shield, removes the shield. Every time Nanami enters the battlefield, gain 1 Signal Orb. "
           ],
-          "result": ["- Each follow up of Crimson Blades deals 20% Fire DMG."]
+          "result": []
         },
         {
           "name": "Affix: Incineration",
