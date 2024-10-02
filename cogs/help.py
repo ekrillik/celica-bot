@@ -81,13 +81,13 @@ class Help(commands.Cog):
                         value=f"[Gray Ravens](https://grayravens.com/wiki/GRAY_RAVENS)\n[Bili Wiki](https://wiki.biligame.com/zspms/%E9%A6%96%E9%A1%B5)")
         embed.add_field(name=":book: Lore", value=f"[Huaxu Stories](https://huaxu.app/stories)")
         embed.add_field(name=":link: Community Links",
-                        value=f"[Huaxu](https://huaxu.app/)\n[Setsu's Harmo Spreadsheet](https://docs.google.com/spreadsheets/d/1t7TXDtfZdpHQy8SZAeIMpxcSi1pheSUVgDwkhicCw6s)\n[Zexous' Meta Spreadsheet](https://docs.google.com/spreadsheets/d/1SusxJ3tYwsBqY3dPwJ9BG2tDW0ox5GqVJgGZHYnAqa8)\n[Rexlent Beginner YT Playlist](https://www.youtube.com/watch?v=EHaKrXj643A&list=PLT669jfZO0z9OFd4fnfJxGc3Z71e-1FCg)")
+                        value=f"[Huaxu](https://huaxu.app/)\n[Setsu's Harmo Spreadsheet](https://docs.google.com/spreadsheets/d/1t7TXDtfZdpHQy8SZAeIMpxcSi1pheSUVgDwkhicCw6s)\n[Zexous' Meta Spreadsheet](https://docs.google.com/spreadsheets/d/1SusxJ3tYwsBqY3dPwJ9BG2tDW0ox5GqVJgGZHYnAqa8)\n[Rexlent Beginner YT Playlist](https://www.youtube.com/watch?v=EHaKrXj643A&list=PLT669jfZO0z9OFd4fnfJxGc3Z71e-1FCg)\n[Setsu's Harmo Spreadsheet v2](https://docs.google.com/spreadsheets/d/1yToEJAp_-nfjLYKe8QgUOgSXE0ci4eDfDpTz_SkyGQI)")
 
         embed.add_field(name=":calendar_spiral: Planning",
                         value=f"[BC Planner](https://docs.google.com/spreadsheets/d/1nNauBXGcHv_7AepLWBLo4ykl3V_EhxpK)")
 
         embed.add_field(name="<:exppc:1290659786500739192> Phantom Pain Cage",
-                        value=f"[SS Ultimate](https://docs.google.com/spreadsheets/d/16z8o9xw3NUhSAymJIRtsWyQsxqEndpgYS4OCb1GYyAQ)\n[SSS Ultimate](https://docs.google.com/spreadsheets/d/1p3-_Bqp4NEpqEVEFUqthxeVlvwu5uXzJSoHa8ZoN5yk)\n[S+ Ultimate](https://docs.google.com/spreadsheets/d/1YzOGbhTKaGTzfGbQJDdI6PSw8lXxcDpEQeeVLF4u2Dw)\n[Advanced PPC Spreadsheet](https://docs.google.com/spreadsheets/d/1_2Jg37FIxK7bqqaSYT9G2qirShdsC3G-ZdYQSeYIlmA)")
+                        value=f"[SS Ultimate](https://docs.google.com/spreadsheets/d/16z8o9xw3NUhSAymJIRtsWyQsxqEndpgYS4OCb1GYyAQ)\n[SSS Ultimate](https://docs.google.com/spreadsheets/d/1p3-_Bqp4NEpqEVEFUqthxeVlvwu5uXzJSoHa8ZoN5yk)\n[S+ Ultimate](https://docs.google.com/spreadsheets/d/1YzOGbhTKaGTzfGbQJDdI6PSw8lXxcDpEQeeVLF4u2Dw)\n[Advanced PPC Spreadsheet](https://docs.google.com/spreadsheets/d/1_2Jg37FIxK7bqqaSYT9G2qirShdsC3G-ZdYQSeYIlmA)\n[PPC Boss Rotations](https://docs.google.com/spreadsheets/d/1P-yoXNQ7ALEvshhmdPdjBjhHqUFfWEMbUSDli_LL9JM)")
 
         embed.add_field(name="<:hero_wz:1290664158240440331> Warzone",
                         value=f"[Advanced Warzone Tips](https://docs.google.com/document/d/1nJeLR5qIrq7SvueCGPDFz5KsMmYGVxUgqmxoRHZJ0GM)\n")
