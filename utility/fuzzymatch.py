@@ -1,4 +1,5 @@
 import json
+import random
 
 from thefuzz import fuzz
 from thefuzz import process
@@ -16,6 +17,10 @@ def fuzzmatch(string) -> str:
             nickname = choice
         
     match nickname:
+        case "beloved girl":
+            characters = ["tempest", "capriccio"]
+            index = random.randint(0, 1)
+            character = characters[index]
         case "lotus":
             character = "lotus"
         case "eclipse":
