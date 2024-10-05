@@ -2386,7 +2386,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "After hitting an enemy with a Blue Orb skill, Watanabe: Astral's Extra DMG Bonus against the target increases by  10% over the next  4s."
+          "desc": "After hitting an enemy with a Blue Orb skill, Watanabe: Astral's Extra DMG Bonus against the target increases by 10% over the next 4s."
         }
       ]
     },
@@ -2395,7 +2395,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "After hitting an enemy with  Trailblade, Watanabe: Astral's Extra DMG Bonus against the target increases by  10% over the next  4s."
+          "desc": "After hitting an enemy with  Trailblade, Watanabe: Astral's Extra DMG Bonus against the target increases by 10% over the next 4s."
         }
       ]
     },
@@ -2404,7 +2404,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Dark DMG increases by  20% while Core Passive is active."
+          "desc": "Dark DMG increases by 20% while Core Passive is active."
         }
       ]
     },
@@ -2451,10 +2451,9 @@
         "name": "Painted World",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Swings the Scythe at the target in a flurry, dealing Physical DMG.",
-          "result": ["- Deals 610% Physical DMG in total."]
-        }
+        "description": "Swings the Scythe at the target in a flurry, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [610]
       }
     ],
     "red_orb": [
@@ -2462,12 +2461,11 @@
         "name": "Vibrant Stroke",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Swings the Scythe at the target, dealing Physical DMG.",
-          "result": [
-            "- Deals 150% / 300% / 900% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Swings the Scythe at the target, dealing Physical DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [150, 300, 900]
       }
     ],
     "yellow_orb": [
@@ -2475,12 +2473,11 @@
         "name": "Glittering Shade",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Charges at the target to deal Physical DMG, then swings the Scythe upward, dealing Physical DMG.",
-          "result": [
-            "- The charge deals 90% / 180% / 270% Physical DMG and the swing deals 120% / 240% / 360% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Charges at the target to deal Physical DMG, then swings the Scythe upward, dealing Physical DMG.",
+        "result": [
+          "- The charge deals {0}% / {1}% / {2}% Physical DMG and the swing deals {3}% / {4}% / {5}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [90, 180, 270, 120, 240, 360]
       }
     ],
     "blue_orb": [
@@ -2488,12 +2485,11 @@
         "name": "Colored Rebirth",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Throws the Scythe and then pulls it back, dealing Physical DMG to targets on the path each time.",
-          "result": [
-            "- Deals 20% / 40% / 60% Physical DMG each time based on the number of orbs pinged."
-          ]
-        }
+        "description": "Throws the Scythe and then pulls it back, dealing Physical DMG to targets on the path each time.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG each time based on the number of orbs pinged."
+        ],
+        "res_lv18": [20, 40, 60]
       }
     ],
     "core_passive": {
@@ -2502,13 +2498,14 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Blue Orb",
-          "description": [
+          "description": 
             "When pinging a Blue Orb after any 3-Ping, charges in place to pull the nearby enemies in and gains Shield before unleashing a heavy strike to the targets ahead, dealing Physical DMG. Extra DMG Reduction increases by  70% when charging."
-          ],
+          ,
           "result": [
             "- Gains Shield equal to 8% of max HP for 7s.",
-            "- The heavy strike deals 700% Physical DMG."
-          ]
+            "- The heavy strike deals {0}% Physical DMG."
+          ],
+          "res_lv18": [700]
         }
       ]
     },
@@ -2518,13 +2515,12 @@
         {
           "name": "Signature Move",
           "button_press": "80 Energy + Tap Signature",
-          "description": {
-            "desc": "It's time to bloom! Swings the Scythe at nearby targets to deal Physical DMG, then launches a charged slash at the targets upon the last hit, dealing Physical DMG. The attack direction can be controlled with the joystick.",
-            "result": [
-              "- Each hit of the scythe deals 120% Physical DMG.",
-              "- The charged slash deals 600% Physical DMG."
-            ]
-          }
+          "description": "It's time to bloom! Swings the Scythe at nearby targets to deal Physical DMG, then launches a charged slash at the targets upon the last hit, dealing Physical DMG. The attack direction can be controlled with the joystick.",
+          "result": [
+            "- Each hit of the scythe deals {0}% Physical DMG.",
+            "- The charged slash deals {1}% Physical DMG."
+          ],
+          "res_lv18": [120, 600]
         }
       ]
     },
@@ -2532,30 +2528,26 @@
       "name": "Spiral Reaper",
       "description": "Deals Physical DMG continuously to the target, reducing their DEF. The last hit will knock the target airborne.",
       "result": [
-        "- The attacks deal 600% Physical DMG.",
-        "- The attacks reduce the target's DEF by 10% for 6s."
-      ]
+        "- The attacks deal {0}% Physical DMG.",
+        "- The attacks reduce the target's DEF by {1}% for 6s."
+      ],
+      "res_lv18": [600, 10]
     },
     "leader": {
       "name": "Leader - Muse Ritual",
-      "description": {
-        "desc": "Increases ATK by 10% and DEF by 5% when there are 3 different classes in the team.",
-        "result": []
-      }
+      "description": "Increases ATK by 10% and DEF by 5% when there are 3 different classes in the team."
     },
     "class": {
       "name": "Tank",
-      "description": {
-        "desc": "Attacks reduce the target's Extra DMG Reduction by 20% for 5s.",
-        "result": []
-      }
+      "description": "Attacks reduce the target's Extra DMG Reduction by {0}% for 5s.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Finishing Touch",
       "levels": [
         {
           "rank": "",
-          "desc": "Hitting a target with a Yellow Orb skill increases Brilliance's DEF and Physical DMG by  10% for  5s."
+          "desc": "Hitting a target with a Yellow Orb skill increases Brilliance's DEF and Physical DMG by 10% for 5s."
         }
       ]
     },
@@ -2564,7 +2556,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Hitting targets with Brilliance's Core Passive will lower their DEF by  15% for  5s."
+          "desc": "Hitting targets with Brilliance's Core Passive will lower their DEF by 15% for 5s."
         }
       ]
     },
@@ -2573,7 +2565,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus increases by  20% for  10s after casting a Signature Move."
+          "desc": "Extra DMG Bonus increases by 20% for 10s after casting a Signature Move."
         }
       ]
     }
@@ -2584,10 +2576,9 @@
         "name": "Voltaic Discharge",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Quickly shoots 7 arrows at the target, then shoots 1 long-range piercing arrow, dealing Physical DMG.",
-          "result": ["- Deals 560% Physical DMG in total."]
-        }
+        "description": "Quickly shoots 7 arrows at the target, then shoots 1 long-range piercing arrow, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [560]
       }
     ],
     "red_orb": [
@@ -2595,12 +2586,11 @@
         "name": "Thunder Spike",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Stands still to pull bow and charge, then shoots a long-ranged energy arrow in front, dealing Physical DMG. (Lightning DMG instead on a 3-Ping.)",
-          "result": [
-            "- Deals 240% / 480% / 720% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Stands still to pull bow and charge, then shoots a long-ranged energy arrow in front, dealing Physical DMG. (Lightning DMG instead on a 3-Ping.)",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [240, 480, 720]
       }
     ],
     "yellow_orb": [
@@ -2608,13 +2598,12 @@
         "name": "Lightning Flash",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Flashes in the air and shoots a charged arrow at the target. The arrow explodes on hit and deals Physical DMG. The explosion will create a lightning zone that reduces the movement speed of targets in the zone and deals Lightning DMG every second.",
-          "result": [
-            "- The charged arrow deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged.",
-            "- The lightning zone reduces the movement speed of targets inside by 20% / 35% / 50% and deals 40% / 60% / 80% Lightning DMG per second over 3 / 5 / 7s based on the number of orbs pinged."
-          ]
-        }
+        "description": "Flashes in the air and shoots a charged arrow at the target. The arrow explodes on hit and deals Physical DMG. The explosion will create a lightning zone that reduces the movement speed of targets in the zone and deals Lightning DMG every second.",
+        "result": [
+          "- The charged arrow deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- The lightning zone reduces the movement speed of targets inside by 20% / 35% / 50% and deals {3}% / {4}% / {5}% Lightning DMG per second over 3 / 5 / 7s based on the number of orbs pinged."
+        ],
+        "res_lv18": [100, 200, 300, 40, 60, 80]
       }
     ],
     "blue_orb": [
@@ -2622,25 +2611,23 @@
         "name": "Magnetic Thunder",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Detonates the energy in the arrow tip to knock back nearby targets and deal Physical DMG. Also gains Electro Charge.",
-          "result": [
-            "- Deals 40% / 80% / 120% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Detonates the energy in the arrow tip to knock back nearby targets and deal Physical DMG. Also gains Electro Charge.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [40, 80, 120]
       },
       {
         "name": "Magnetic Thunder",
         "button_press": "Electro Charge + Tap Basic Attack / Ping Red Orb / Trigger Core Passive",
         "switch_in": "no",
-        "description": {
-          "desc": "In Electro Charge, Basic Attacks shoot 1 additional lightning arrow that deals Lightning DMG, Red Orbs and Core Passive will create 2 additional lightning arrows that deal Lightning DMG.",
-          "result": [
-            "- In Electro Charge, each lightning arrow from Basic Attacks deals 16% / 32% / 48% Lightning DMG based on the number of orbs pinged.",
-            "- Each lightning arrow from Red Orbs or Core Passive deals 24% / 48% / 72% Lightning DMG based on the number of orbs pinged.",
-            "- Electro Charge lasts 8s."
-          ]
-        }
+        "description": "In Electro Charge, Basic Attacks shoot 1 additional lightning arrow that deals Lightning DMG, Red Orbs and Core Passive will create 2 additional lightning arrows that deal Lightning DMG.",
+        "result": [
+          "- In Electro Charge, each lightning arrow from Basic Attacks deals {0}% / {1}% / {2}% Lightning DMG based on the number of orbs pinged.",
+          "- Each lightning arrow from Red Orbs or Core Passive deals {3}% / {4}% / {5}% Lightning DMG based on the number of orbs pinged.",
+          "- Electro Charge lasts 8s."
+        ],
+        "res_lv18": [16, 32, 48, 24, 48, 72]
       }
     ],
     "core_passive": {
@@ -2649,26 +2636,25 @@
         {
           "name": "Core Passive",
           "button_press": "Red 3-Ping + Ping Blue Orb",
-          "description": [
-            "Pinging a Blue Orb after a Red 3-Ping will cause Veritas to enter  Sniping Form."
-          ],
-          "result": []
+          "description": 
+            "Pinging a Blue Orb after a Red 3-Ping will cause Veritas to enter Sniping Form."
+          
         },
         {
           "name": "Core Passive",
           "button_press": "Sniping Form + Tap Basic Attack",
-          "description": [
-            "While in  Sniping Form, Basic Attacks shoot a long-ranged lightning arrow that deals Lightning DMG. Veritas exits  Sniping Form if 6 lightning arrows are shot or after 6s. Basic Attacks no longer generate Signal Orbs in Sniping Form."
-          ],
-          "result": ["- Each lightning arrow deals 500% Lightning DMG."]
+          "description": 
+            "While in Sniping Form, Basic Attacks shoot a long-ranged lightning arrow that deals Lightning DMG. Veritas exits Sniping Form if 6 lightning arrows are shot or after 6s. Basic Attacks no longer generate Signal Orbs in Sniping Form."
+          ,
+          "result": ["- Each lightning arrow deals {0}% Lightning DMG."],
+          "res_lv18": [500]
         },
         {
           "name": "Core Passive",
           "button_press": "Sniping Form + Tap Dodge",
-          "description": [
-            "Dodging in  Sniping Form will reduce the charge time of the next Basic Attack."
-          ],
-          "result": []
+          "description": 
+            "Dodging in Sniping Form will reduce the charge time of the next Basic Attack."
+          
         }
       ]
     },
@@ -2678,34 +2664,29 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Shoots arrows at the sky, bringing down lightning bolts that strikes targets within the area for Lightning DMG. After a short delay, the lightning energy explodes and deals Lightning DMG to targets within the area.",
-            "result": [
-              "- Each lightning bolt deals 160% Lightning DMG to targets within the area.",
-              "- Each explosion deals 180% Lightning DMG to targets within the area."
-            ]
-          }
+          "description": "Shoots arrows at the sky, bringing down lightning bolts that strikes targets within the area for Lightning DMG. After a short delay, the lightning energy explodes and deals Lightning DMG to targets within the area.",
+          "result": [
+            "- Each lightning bolt deals {0}% Lightning DMG to targets within the area.",
+            "- Each explosion deals {1}% Lightning DMG to targets within the area."
+          ],
+          "res_lv18": [160, 180]
         }
       ]
     },
     "qte": {
       "name": "BlitzBolt",
       "description": "Bianca: Veritas enters the battlefield from the air, shooting 4 waves of arrows at the target, dealing Lightning DMG.",
-      "result": ["- Each wave deals 160% Lightning DMG."]
+      "result": ["- Each wave deals {0}% Lightning DMG."],
+      "res_lv18": [160]
     },
     "leader": {
       "name": "Leader - Blood and Thunder",
-      "description": {
-        "desc": "Increases Lighting DMG of all members by 10%. Increases ATK of all Attacker Omniframes in the team by 5%.",
-        "result": []
-      }
+      "description": "Increases Lighting DMG of all members by 10%. Increases ATK of all Attacker Omniframes in the team by 5%."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Fulminology",
@@ -2780,10 +2761,9 @@
         "name": "Rapid Shot",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Shoots at the target continuously with handguns and mechanical arms, dealing Fire and Physical DMG.",
-          "result": ["- Deals 850% Fire and Physical DMG in total."]
-        }
+        "description": "Shoots at the target continuously with handguns and mechanical arms, dealing Fire and Physical DMG.",
+        "result": ["- Deals {0}% Fire and Physical DMG in total."],
+        "res_lv18": [850]
       }
     ],
     "red_orb": [
@@ -2791,12 +2771,11 @@
         "name": "Targeted Missiles",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Stands still and fires guided rounds at the target, dealing Fire DMG. Drops 1 additional Energy Ball when hitting the target with a 3-Ping.",
-          "result": [
-            "- Deals 240% / 480% / 720% Fire DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Stands still and fires guided rounds at the target, dealing Fire DMG. Drops 1 additional Energy Ball when hitting the target with a 3-Ping.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Fire DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [240, 480, 720]
       }
     ],
     "yellow_orb": [
@@ -2804,12 +2783,11 @@
         "name": "Air Boosters",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Charges at the target. While charging, every attack deals Physical DMG. On a 3-Ping, deals Fire DMG instead and the target hit drops 1 additional Energy Ball.",
-          "result": [
-            "- Each attack deals 40% / 80% / 120% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Charges at the target. While charging, every attack deals Physical DMG. On a 3-Ping, deals Fire DMG instead and the target hit drops 1 additional Energy Ball.",
+        "result": [
+          "- Each attack deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [40, 80, 120]
       }
     ],
     "blue_orb": [
@@ -2817,12 +2795,11 @@
         "name": "Spread Shot",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Fires scattered pellets in a fan-shaped area then hops back. Deals Fire DMG to the targets hit. On a 3-Ping, the target hit drops 1 Energy Ball.",
-          "result": [
-            "- Deals 200% / 400% / 600% Fire DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Fires scattered pellets in a fan-shaped area then hops back. Deals Fire DMG to the targets hit. On a 3-Ping, the target hit drops 1 Energy Ball.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Fire DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [200, 400, 600]
       }
     ],
     "core_passive": {
@@ -2831,15 +2808,16 @@
         {
           "name": "Core Passive",
           "button_press": "Last hit of Basic Attack / Any 3-Ping / Cast Signature Move / Cast QTE + Pick up Energy Ball",
-          "description": [
+          "description": 
             "Sophia: Silverfang drops an Energy Ball after any of the following: the last hit of Basic Attack, dealing damage with a 3-Ping skill, casting Signature Move, or casting QTE. Picking up an Energy Ball heals all the allies within range and grants  Fire Tempered, increasing Fire DMG. Whenever an Energy Ball is picked up, Sophia: Silverfang gains Energy and Heat. Her ATK increases based on the current Heat."
-          ],
+          ,
           "result": [
             "- Picking up an Energy Ball heals all within range for HP equal to 20% of Sophia: Silverfang's ATK.",
             "- Fire Tempered increases the Fire DMG of the character who picked up the Energy Ball by 10% for 5s.",
             "- Whenever an Energy Ball is picked up, Sophia: Silverfang gains 4 Energy and 75 Heat.",
             "- Sophia: Silverfang's ATK increases by 5 / 10 / 15% when her Heat is over 0 / 100 / 200."
-          ]
+          ],
+          "res_lv18": [200, 400, 600]
         }
       ]
     },
