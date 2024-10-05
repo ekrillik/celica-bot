@@ -143,7 +143,7 @@ def fuzzmatch(string) -> str:
             character = "ardeo"
         case "solacetune" | "yor" | "yor forger":
             character = "solacetune"
-        case "lucid dreamer" | "lucid" | "ld":
+        case "lucid dreamer" | "lucid" | "ld" | "ocelot":
             character = "lucid dreamer"
         case "pyroath" | "hyperdawn" | "pyro":
             character = "pyroath"
