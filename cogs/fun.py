@@ -28,6 +28,9 @@ class Fun(commands.Cog):
         with open('data/bricks.json') as file:
             self.bricks = json.load(file)
 
+        with open('data/pastas.json') as file:
+            self.bricks = json.load(file)
+
     # The following commands are restricted to specific servers/not usable within PGR:O
 
     @commands.Cog.listener()
@@ -55,8 +58,9 @@ class Fun(commands.Cog):
         if not self.pasta_command_ran:
             self.pasta_command_ran = True
             self.last_pasta_command_ran = start
-            embed = discord.Embed(title="This is a pasta.", description="This is a pasta")
-            await ctx.send(embed=embed)
+
+            copypasta = random.choice(self.bricks['copypastas'])
+            await ctx.send(content=f"{copypasta}")
         else:
             await ctx.send(content="A pasta or brick has been spawned recently. Please wait.")
 
