@@ -109,7 +109,7 @@ def fuzzmatch(string) -> str:
             character = "scire"
         case "arca" | "noan" | "deadweight" | "shrek" | "nero":
             character = "arca"
-        case "balter" | "stigmata" | "mommy" | "saber" | "excalibaa" | "Balter" | "gothic nun":
+        case "balter" | "stigmata" | "mommy" | "saber" | "excalibaa" | "Balter" | "gothic nun" | "balt":
             character = "stigmata"
         case "vitrum" | "bambinata" | "bambi" | "bombi" | "doll" | "puppet" | "dementia doll":
             character = "vitrum"
