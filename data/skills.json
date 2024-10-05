@@ -53,9 +53,9 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Red Orb",
-          "description": [
+          "description": 
             "Lucia: Lotus enters Burst Form when a Red Orb in pinged within 3s after any 3-Ping, replacing Basic Attacks with Dual Blades.\nLotus - Dual Blades: Attacks the enemy multiple times, dealing Physical DMG."
-          ],
+          ,
           "result": ["- Deals {0}% Physical DMG in total."],
           "res_lv18": [1080]
         }
@@ -581,9 +581,8 @@
         {
           "name": "Core Passive",
           "button_press": "Ping Red Orb (chance to trigger) / Ping Blue Orb + Tap Basic Attack (chance to trigger)",
-          "description": [
-            "When Basic Attacks hit marked enemies, there is a chance to trigger Lightning Lure and deal Lightning DMG. Pinging Red Orbs also has a chance to trigger  Lightning Lure. After triggering Lightning Lure for 4 times, the next Lightning Lure will summon EX Lightning Lure, dealing Lightning DMG and healing allies in the area."
-          ],
+          "description": 
+            "When Basic Attacks hit marked enemies, there is a chance to trigger Lightning Lure and deal Lightning DMG. Pinging Red Orbs also has a chance to trigger  Lightning Lure. After triggering Lightning Lure for 4 times, the next Lightning Lure will summon EX Lightning Lure, dealing Lightning DMG and healing allies in the area.",
           "result": [
             "- Basic Attacks have a 30% chance to trigger Lightning Lure when they hit marked enemies.",
             "- Pinging Red Orbs has a 30 / 60 / 100% chance to trigger Lightning Lure based on the number of orbs pinged.",
@@ -999,9 +998,8 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Tap Signature",
-          "description": [
-            "Stores 1 energy arrow in the quiver after every 3-Ping. All arrows will be released when casting the next Signature Move, each dealing Extra Physical DMG to the target."
-          ],
+          "description": 
+            "Stores 1 energy arrow in the quiver after every 3-Ping. All arrows will be released when casting the next Signature Move, each dealing Extra Physical DMG to the target.",
           "result": [
             "- Each energy arrow deals {0}% Extra Physical DMG twice.",
             "- Each 3-Ping stores 1 energy arrow (max 3)."
@@ -1423,7 +1421,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Red Orb",
-          "description": [
+          "description": 
             "After any 3-Ping, pinging the next Red Orb will fire consecutive shots that strike the target, dealing Physical DMG."
           ],
           "result": ["- Every shot deals {0}% Physical DMG."],
@@ -2061,14 +2059,14 @@
         {
           "name": "Core Passive",
           "button_press": "Blue 3-Ping + Any 3-Ping",
-          "description": [
+          "description": 
             "Any 3-Ping after a blue 3-Ping causes Alpha to fall back and enter into the Blade Will state. All available signal orbs will be converted into Blade Will Orbs and Alpha gains 2 additional Blade Will Orbs. In the Blade Will state, signal orbs gained by basic attacks will be converted into Blade Will Orbs."
           ]
         },
         {
           "name": "Core Passive",
           "button_press": "Blade Will + Ping Blade Will Orb",
-          "description": [
+          "description": 
             "Pinging a Blade Will Orb unleashes swordwaves, dealing Physical DMG and granting Super Armor during the attack."
           ],
           "result": ["- Each Blade Will Orb deals {0}% Physical DMG."],
@@ -2249,9 +2247,9 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping",
-          "description": [
+          "description": 
             "Gains Charge Points after any 3-Ping. When there are Charge Points, Kamui: Bastion's ATK increases. Charge Points decrease over time."
-          ],
+          ,
           "result": [
             "- Gains 40 Charge Points after a 3-Ping, up to 120 points.",
             "- When there are more than 0 / 40 / 80 Charge Points, Kamui: Bastion's ATK increases by {0}% / {1}% / {2}%.",
@@ -2378,7 +2376,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Red Orb",
-          "description": [
+          "description": 
             "Pinging a Red Orb after any 3-Ping transforms Watanabe: Astral into a shadow that launches consecutive attacks in front of him, dealing Dark DMG. Enters Enhanced Shadow Form at the end of the attack."
           ],
           "result": ["- Each hit deals {0}% Dark DMG."],
