@@ -2812,12 +2812,12 @@
             "Sophia: Silverfang drops an Energy Ball after any of the following: the last hit of Basic Attack, dealing damage with a 3-Ping skill, casting Signature Move, or casting QTE. Picking up an Energy Ball heals all the allies within range and grants  Fire Tempered, increasing Fire DMG. Whenever an Energy Ball is picked up, Sophia: Silverfang gains Energy and Heat. Her ATK increases based on the current Heat."
           ,
           "result": [
-            "- Picking up an Energy Ball heals all within range for HP equal to 20% of Sophia: Silverfang's ATK.",
-            "- Fire Tempered increases the Fire DMG of the character who picked up the Energy Ball by 10% for 5s.",
+            "- Picking up an Energy Ball heals all within range for HP equal to {0}% of Sophia: Silverfang's ATK.",
+            "- Fire Tempered increases the Fire DMG of the character who picked up the Energy Ball by {1}% for 5s.",
             "- Whenever an Energy Ball is picked up, Sophia: Silverfang gains 4 Energy and 75 Heat.",
             "- Sophia: Silverfang's ATK increases by 5 / 10 / 15% when her Heat is over 0 / 100 / 200."
           ],
-          "res_lv18": [200, 400, 600]
+          "res_lv18": [20, 10]
         }
       ]
     },
@@ -2827,42 +2827,37 @@
         {
           "name": "Signature Move",
           "button_press": "80 Energy + Tap Signature",
-          "description": {
-            "desc": "Accumulates energy in front, then shoots it out to deal Fire DMG. The energy pulls in nearby enemies continuously, dealing Fire DMG. It explodes after the end of the accumulation, dealing Fire DMG and dropping 2 Energy Balls.",
-            "result": [
-              "- Shooting the energy deals 200% Fire DMG.",
-              "- Each pull deals 20% Fire DMG.",
-              "- The explosion deals 600% Fire DMG."
-            ]
-          }
+          "description": "Accumulates energy in front, then shoots it out to deal Fire DMG. The energy pulls in nearby enemies continuously, dealing Fire DMG. It explodes after the end of the accumulation, dealing Fire DMG and dropping 2 Energy Balls.",
+          "result": [
+            "- Shooting the energy deals {0}% Fire DMG.",
+            "- Each pull deals {1}% Fire DMG.",
+            "- The explosion deals {2}% Fire DMG."
+          ],
+          "res_lv18": [200, 20, 600]
         }
       ]
     },
     "qte": {
       "name": "Fire Support",
       "description": "Silverfang appears and shoots in front, dealing Fire DMG and dropping an Energy Ball. Drops an extra Energy Ball if the skill level is at 10 or above.",
-      "result": ["- Deals 400% Fire DMG in total."]
+      "result": ["- Deals {0}% Fire DMG in total."],
+      "res_lv18": [400]
     },
     "leader": {
       "name": "Well Prepared",
-      "description": {
-        "desc": "Increases HP of all members by 10% and movement speed of all members by 5% when there are 3 different classes in the team.",
-        "result": []
-      }
+      "description": "Increases HP of all members by 10% and movement speed of all members by 5% when there are 3 different classes in the team."
     },
     "class": {
       "name": "Support",
-      "description": {
-        "desc": "Healing amount increases by 20%.",
-        "result": []
-      }
+      "description": "Healing amount increases by 20%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Secondary Aid",
       "levels": [
         {
           "rank": "",
-          "desc": "Signature Move and QTE will drop  1 extra Energy Ball."
+          "desc": "Signature Move and QTE will drop 1 extra Energy Ball."
         }
       ]
     },
@@ -2891,10 +2886,9 @@
         "name": "Thunderstorm",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Swings the Scythe and launches multiple attacks at the target, dealing Physical DMG.",
-          "result": ["- Deals 610% Physical DMG in total."]
-        }
+        "description": "Swings the Scythe and launches multiple attacks at the target, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [610]
       }
     ],
     "red_orb": [
@@ -2902,12 +2896,11 @@
         "name": "Shifting Nimbus",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Stands still and swings the Scythe several times, dealing Physical DMG. (Lightning DMG instead on a 3-Ping.)",
-          "result": [
-            "- Each hit deals 18% / 36% / 54% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Stands still and swings the Scythe several times, dealing Physical DMG. (Lightning DMG instead on a 3-Ping.)",
+        "result": [
+          "- Each hit deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [18, 36, 54]
       }
     ],
     "yellow_orb": [
@@ -2915,13 +2908,12 @@
         "name": "Culling Maelstrom",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Moves while spinning with the Scythe, pulling nearby targets in. Brings down the Scythe at the end, dealing Physical DMG. (Lightning DMG instead on a 3-Ping.) Deals Lightning DMG to nearby targets when the Scythe hits the ground.",
-          "result": [
-            "- Each hit of the downward slash deals 20% / 40% / 60% Physical DMG based on the number of orbs pinged.",
-            "- When the Scythe hits the ground, deals 60% / 120% / 180% Lightning DMG to nearby target based on the number of orbs pinged."
-          ]
-        }
+        "description": "Moves while spinning with the Scythe, pulling nearby targets in. Brings down the Scythe at the end, dealing Physical DMG. (Lightning DMG instead on a 3-Ping.) Deals Lightning DMG to nearby targets when the Scythe hits the ground.",
+        "result": [
+          "- Each hit of the downward slash deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- When the Scythe hits the ground, deals {3}% / {4}% / {5}% Lightning DMG to nearby target based on the number of orbs pinged."
+        ],
+        "res_lv18": [20, 40, 60, 60, 120, 180]
       }
     ],
     "blue_orb": [
@@ -2929,13 +2921,12 @@
         "name": "Pulse Overload",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Spins and emits an electric pulse, marking nearby targets and dealing Lightning DMG. Arclight's Extra DMG Bonus and Extra DMG Reduction increases against the marked targets.",
-          "result": [
-            "- Deals 150% / 300% / 450% Lightning DMG to nearby targets based on the number of orbs pinged.",
-            "- Extra DMG Bonus against the marked target increases by 6% / 8% / 10% and Extra DMG Reduction increases by 10% / 15% / 20% when taking damage from marked targets based on the number of orbs pinged. The mark lasts 6s."
-          ]
-        }
+        "description": "Spins and emits an electric pulse, marking nearby targets and dealing Lightning DMG. Arclight's Extra DMG Bonus and Extra DMG Reduction increases against the marked targets.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Lightning DMG to nearby targets based on the number of orbs pinged.",
+          "- Extra DMG Bonus against the marked target increases by {3}% / {4}% / {5}% and Extra DMG Reduction increases by {6}% / {7}% / {8}% when taking damage from marked targets based on the number of orbs pinged. The mark lasts 6s."
+        ],
+        "res_lv18": [150, 300, 450, 6, 8, 10, 10, 15, 20]
       }
     ],
     "core_passive": {
@@ -2948,9 +2939,10 @@
             "Pinging any Blue Orbs after any 3-Ping generates Shield. When Shield expires or is replaced by a new Shield, it explodes and deals Lightning DMG to nearby targets."
           ],
           "result": [
-            "- Generates Shield equal to 10% of max HP for 4s.",
-            "- Deals 200% Lightning DMG to nearby targets if Shield expires or is replaced."
-          ]
+            "- Generates Shield equal to {0}% of max HP for 4s.",
+            "- Deals {1}% Lightning DMG to nearby targets if Shield expires or is replaced."
+          ],
+          "res_lv18": [10, 200]
         }
       ]
     },
