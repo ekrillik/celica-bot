@@ -77,7 +77,9 @@ class Skills(commands.Cog):
 
         theme = character_theme(character)
 
-        if len(skill) > 1 and skill_type in ['Leap', 'Core Passive', 'Basic Attack', 'Red Orb', 'Yellow Orb', 'Blue Orb', 'Signature/Ultimate']:
+        if skill_type in ['Leap', 'Basic Attack', 'Red Orb', 'Yellow Orb', 'Blue Orb']and len(skill) > 1:
+            view = PaginationView(ctx.author, data=skill, pagination_type="skills", skill_type=skill_type, theme=theme, level=level)
+        elif skill_type in ['Core Passive', 'Signature/Ultimate'] and len(skill['skills']) > 1 :
             view = PaginationView(ctx.author, data=skill, pagination_type="skills", skill_type=skill_type, theme=theme, level=level)
         else:
             view = GeneralView(ctx.author)
@@ -112,8 +114,12 @@ class Skills(commands.Cog):
         nickname = ""
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
-            level = int(str_array[len(str_array) - 1])
-            str_array.pop()
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
         else:
             level = 18
         nickname = " ".join(str_array)
@@ -130,8 +136,12 @@ class Skills(commands.Cog):
         nickname = ""
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
-            level = int(str_array[len(str_array) - 1])
-            str_array.pop()
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
         else:
             level = 18
         nickname = " ".join(str_array)
@@ -148,8 +158,12 @@ class Skills(commands.Cog):
         nickname = ""
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
-            level = int(str_array[len(str_array) - 1])
-            str_array.pop()
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
         else:
             level = 18
         nickname = " ".join(str_array)
@@ -166,8 +180,12 @@ class Skills(commands.Cog):
         nickname = ""
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
-            level = int(str_array[len(str_array) - 1])
-            str_array.pop()
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
         else:
             level = 18
         nickname = " ".join(str_array)
@@ -184,8 +202,12 @@ class Skills(commands.Cog):
         nickname = ""
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
-            level = int(str_array[len(str_array) - 1])
-            str_array.pop()
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
         else:
             level = 18
         nickname = " ".join(str_array)
@@ -202,11 +224,14 @@ class Skills(commands.Cog):
         nickname = ""
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
-            level = int(str_array[len(str_array) - 1])
-            str_array.pop()
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
         else:
-            level = 18
-        
+            level = 18   
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
@@ -221,11 +246,14 @@ class Skills(commands.Cog):
         nickname = ""
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
-            level = int(str_array[len(str_array) - 1])
-            str_array.pop()
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
         else:
             level = 18
-        
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
@@ -236,9 +264,15 @@ class Skills(commands.Cog):
 
     @commands.hybrid_command(aliases=['Leader'], description="Displays the leader passive skill for a particular character.")
     async def leader(self, ctx: commands.Context, *, frame) -> None:
-        name = fuzzmatch(frame)
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            str_array.pop()
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'leader')
 
@@ -248,10 +282,14 @@ class Skills(commands.Cog):
         nickname = ""
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
-            level = int(str_array[len(str_array) - 1])
-            str_array.pop()
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
         else:
-            level = 18       
+            level = 18      
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
@@ -262,33 +300,57 @@ class Skills(commands.Cog):
 
     @commands.hybrid_command(aliases=['SS', '2S', '2s', 's5', 'S5'], description="Displays the SS rank skills for a particular character.")
     async def ss(self, ctx: commands.Context, *, frame) -> None:
-        name = fuzzmatch(frame)
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            str_array.pop()
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'ss')
 
     @commands.hybrid_command(aliases=['SSS', '3S', '3s', 'SS3', 'ss3'], description="Displays the SSS rank skills for a particular character.")
     async def sss(self, ctx: commands.Context, *, frame) -> None:
-        name = fuzzmatch(frame)
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            str_array.pop()     
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'sss')
 
     @commands.hybrid_command(name="splus", aliases=['s+', 'SSS+', 'S+', '3S+', '3s+'], description="Displays the S+ rank skills for a particular character.")
     async def splus(self, ctx: commands.Context, *, frame) -> None:
-        name = fuzzmatch(frame)
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            str_array.pop()
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 's+')
 
     @commands.hybrid_command(aliases=['Leap'], description="Displays the leap skills for a particular character.")
     async def leap(self, ctx: commands.Context, *, frame) -> None:
-        name = fuzzmatch(frame)
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            str_array.pop()
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'leap')
 

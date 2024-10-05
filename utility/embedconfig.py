@@ -241,8 +241,7 @@ class EmbedClass:
                     value=f"{description}",
                     inline=False
                 )
-                print("\n".join(skill['skills'][cur_page]['result']))
-                if len(skill['skills'][cur_page]) != 0:
+                if 'result' in skill['skills'][cur_page]:
                     if 'res_lv18' in skill['skills'][cur_page]:
                         result = self.calculate_actual_damage("\n".join(skill['skills'][cur_page]['result']), skill['skills'][cur_page]['res_lv18'], level)
                     else:
@@ -276,17 +275,22 @@ class EmbedClass:
                 embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{skill['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)
                 embed.set_author(name=user, icon_url=chibi_avatar)
+                if 'desc_lv18' in skill['skills'][cur_page]:
+                    description = self.calculate_actual_damage(skill['description'], skill['desc_lv18'], level)
+                else:
+                    description = skill['description']
                 embed.add_field(
                     name="",
-                    value=f"{skill['description']}",
+                    value=f"{description}",
                     inline=False
                 )
-                result = self.calculate_actual_damage("\n".join(skill['result']), skill['res_lv18'], level)
-                embed.add_field(
-                    name="",
-                    value=f"{result}",
-                    inline=False
-                )
+                if 'result' in skill:
+                    result = self.calculate_actual_damage("\n".join(skill['result']), skill['res_lv18'], level)
+                    embed.add_field(
+                        name="",
+                        value=f"{result}",
+                        inline=False
+                    )
             case "SS" | "SSS" | "S+":
                 embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)

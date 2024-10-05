@@ -53,9 +53,9 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Red Orb",
-          "description": [
+          "description": 
             "Lucia: Lotus enters Burst Form when a Red Orb in pinged within 3s after any 3-Ping, replacing Basic Attacks with Dual Blades.\nLotus - Dual Blades: Attacks the enemy multiple times, dealing Physical DMG."
-          ],
+          ,
           "result": ["- Deals {0}% Physical DMG in total."],
           "res_lv18": [1080]
         }
@@ -96,7 +96,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When attacking airborne targets, deal extra  20% Physical DMG per attack."
+          "desc": "When attacking airborne targets, deal extra 20% Physical DMG per attack."
         }
       ]
     },
@@ -105,7 +105,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "During Burst Form, Extra DMG Bonus increases by  15%."
+          "desc": "During Burst Form, Extra DMG Bonus increases by 15%."
         }
       ]
     },
@@ -114,7 +114,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of Basic Attack increases by  15%."
+          "desc": "Extra DMG Bonus of Basic Attack increases by 15%."
         }
       ]
     }
@@ -125,10 +125,9 @@
         "name": "Beam Strike",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Summons laser beams to strike at the target, dealing Physical DMG.",
-          "result": ["- Deals 640% Physical DMG in total."]
-        }
+        "description": "Summons laser beams to strike at the target, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [640]
       }
     ],
     "red_orb": [
@@ -136,12 +135,11 @@
         "name": "Laser Shot",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Orders weapons to fire a laser beam, dealing Physical DMG.",
-          "result": [
-            "- Deals 200% / 400% / 600% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Orders weapons to fire a laser beam, dealing Physical DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [200, 400, 600]
       }
     ],
     "yellow_orb": [
@@ -149,13 +147,12 @@
         "name": "Black Hole",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Deploys a black hole at the target area that pulls nearby enemies in and deals Physical DMG to them. The black hole then explodes and deals Physical DMG.",
-          "result": [
-            "- The black hole lasts 1 / 2 / 3s and deals a total of 90% / 150% / 210% Physical DMG to enemies in contact based on the number of orbs pinged.",
-            "- The explosion deals 80% / 160% / 240% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Deploys a black hole at the target area that pulls nearby enemies in and deals Physical DMG to them. The black hole then explodes and deals Physical DMG.",
+        "result": [
+          "- The black hole lasts 1 / 2 / 3s and deals a total of {0}% / {1}% / {2}% Physical DMG to enemies in contact based on the number of orbs pinged.",
+          "- The explosion deals {3}% / {4}% / {5}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [90, 150, 210, 80, 160, 240]
       }
     ],
     "blue_orb": [
@@ -163,14 +160,13 @@
         "name": "Inconsistent Particle",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Unleashes energy and knocks back nearby enemies, dealing Physical DMG, healing nearby allies, and increasing Physical DMG dealt by self.",
-          "result": [
-            "- Deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged.",
-            "- Heals nearby allies for 40% / 80% / 120% of ATK based on the number of orbs pinged.",
-            "- Increases Physical DMG dealt by self by 16% / 32% / 48% for 5s based on the number of orbs pinged."
-          ]
-        }
+        "description": "Unleashes energy and knocks back nearby enemies, dealing Physical DMG, healing nearby allies, and increasing Physical DMG dealt by self.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Heals nearby allies for {3}% / {4}% / {5}% of ATK based on the number of orbs pinged.",
+          "- Increases Physical DMG dealt by self by {6}% / {7}% / {8}% for 5s based on the number of orbs pinged."
+        ],
+        "res_lv18": [100, 200, 300, 40, 80, 120, 16, 32, 48]
       }
     ],
     "core_passive": {
@@ -179,8 +175,8 @@
         {
           "name": "",
           "button_press": "After any 3 Ping, the next Red Orb skill will unleash a laser cluster that deals Physical DMG.",
-          "description": ["- Deals 800% Physical DMG in total."],
-          "result": []
+          "description": "- Deals {0}% Physical DMG in total.",
+          "desc_lv18": [800]
         }
       ]
     },
@@ -190,10 +186,9 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Summons beams to consecutively strike at the target area. Each beam deals Physical DMG.",
-            "result": ["- Lasts 2s. Each beam deals 70% Physical DMG."]
-          }
+          "description": "Summons beams to consecutively strike at the target area. Each beam deals Physical DMG.",
+          "result": ["- Lasts 2s. Each beam deals {0}% Physical DMG."],
+          "res_lv18": [70]
         }
       ]
     },
@@ -201,23 +196,19 @@
       "name": "Nanofield Blossom",
       "description": "Unleashes an energy wave upon entering the battlefield, restoring the HP of nearby allies and dealing Physical DMG to nearby enemies.",
       "result": [
-        "- Restores HP equal to 20% of Liv: Eclipse's max HP.",
-        "- Deals 200% Physical DMG."
-      ]
+        "- Restores HP equal to {0}% of Liv: Eclipse's max HP.",
+        "- Deals {1}% Physical DMG."
+      ],
+      "res_lv18": [20, 200]
     },
     "leader": {
       "name": "Leader - Trust Building",
-      "description": {
-        "desc": "HP of all party members increases by 10%.",
-        "result": []
-      }
+      "description": "HP of all party members increases by 10%."
     },
     "class": {
       "name": "Support",
-      "description": {
-        "desc": "Healing amount increases by 20%.",
-        "result": []
-      }
+      "description": "Healing amount increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Weakness Analysis",
@@ -233,7 +224,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When Liv: Eclipse is not in battle, teammates that are currently in battle gain the  Battlefield Analysis effect that increases their Physical DMG by  10%."
+          "desc": "When Liv: Eclipse is not in battle, teammates that are currently in battle gain the Battlefield Analysis effect that increases their Physical DMG by 10%."
         }
       ]
     },
@@ -253,10 +244,9 @@
         "name": "Sawblade Strike",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches consecutive attacks with a sawblade, dealing Physical DMG.",
-          "result": ["- Deals 800% Physical DMG in total."]
-        }
+        "description": "Launches consecutive attacks with a sawblade, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [800]
       }
     ],
     "red_orb": [
@@ -264,12 +254,11 @@
         "name": "Sawblade Slash",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Charges forward and deals Physical DMG to enemies in a rectangular area ahead.",
-          "result": [
-            "- Deals 240% / 480% / 720% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Charges forward and deals Physical DMG to enemies in a rectangular area ahead.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [240, 480, 720]
       }
     ],
     "yellow_orb": [
@@ -277,12 +266,11 @@
         "name": "Slash Storm",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Spins and cuts enemies rapidly, dealing Physical DMG to nearby enemies.",
-          "result": [
-            "- Deals 200% / 400% / 600% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Spins and cuts enemies rapidly, dealing Physical DMG to nearby enemies.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [200, 400, 600]
       }
     ],
     "blue_orb": [
@@ -290,13 +278,12 @@
         "name": "Consciousness Resonance",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Bursts and pulls enemies, dealing Physical DMG, reducing the targets'DEF, and gaining Physical Resistance.",
-          "result": [
-            "- Deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged.",
-            "- Reduces the targets'DEF by 10% / 20% / 30% and gains 20% / 40% / 60% Physical Resistance for 4 / 4.5 / 5s based on the number of orbs pinged."
-          ]
-        }
+        "description": "Bursts and pulls enemies, dealing Physical DMG, reducing the targets'DEF, and gaining Physical Resistance.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Reduces the targets'DEF by {3}% / {4}% / {5}% and gains {6}% / {7}% / {8}% Physical Resistance for 4 / 4.5 / 5s based on the number of orbs pinged."
+        ],
+        "res_lv18": [100, 200, 300, 10, 20, 30, 20, 40, 60]
       }
     ],
     "core_passive": {
@@ -305,13 +292,12 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3 ping + Ping Yellow Orb",
-
-          "description": [
-            "When pinging a yellow Orb after any 3-Ping, Nanami: Storm will cast EX - Slash Storm to launch consecutive attacks at nearby enemies."
-          ],
+          "description": 
+            "When pinging a yellow Orb after any 3-Ping, Nanami: Storm will cast EX - Slash Storm to launch consecutive attacks at nearby enemies.",
           "result": [
-            "- Launch 8 consecutive attacks at nearby enemies, each dealing 100% Physical DMG."
-          ]
+            "- Launch 8 consecutive attacks at nearby enemies, each dealing {0}% Physical DMG."
+          ],
+          "res_lv18": [100]
         }
       ]
     },
@@ -321,38 +307,33 @@
         {
           "name": "Crystal Barrier",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Sets up an energy to resist attacks from enemies and protect allies within the area. The barrier explodes after 5s, dealing Physical DMG to enemies.",
-            "result": ["- The explosion deals 1000% Physical DMG."]
-          }
+          "description": "Sets up an energy to resist attacks from enemies and protect allies within the area. The barrier explodes after 5s, dealing Physical DMG to enemies.",
+          "result": ["- The explosion deals {0}% Physical DMG."],
+          "res_lv18": [1000]
         }
       ]
     },
     "qte": {
       "name": "Nanami Beam",
       "description": "Nanami: Storm spins and slices the target upon entering the battlefield, dealing Physical DMG while knocking the target down.",
-      "result": ["- Deals 770% Physical DMG in total."]
+      "result": ["- Deals {0}% Physical DMG in total."],
+      "res_lv18": [770]
     },
     "leader": {
       "name": "Leader - Alternation Harmony",
-      "description": {
-        "desc": "Increase DEF of all members by 15%.",
-        "result": []
-      }
+      "description": "Increase DEF of all members by 15%."
     },
     "class": {
       "name": "Tank",
-      "description": {
-        "desc": "Attacks reduce the target's Extra DMG Reduction by 20% for 5s.",
-        "result": []
-      }
+      "description": "Attacks reduce the target's Extra DMG Reduction by {0}% for 5s.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Invincible",
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of Basic Attack increases by  15%. Ability to draw Aggro increases by  20% when attacking."
+          "desc": "Extra DMG Bonus of Basic Attack increases by 15%. Ability to draw Aggro increases by 20% when attacking."
         }
       ]
     },
@@ -361,7 +342,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Physical Resistance increase by  30% while Core Passive is active."
+          "desc": "Physical Resistance increase by 30% while Core Passive is active."
         }
       ]
     },
@@ -370,7 +351,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus increase by  20% for  8s after casting Signature - Crystal Barrier."
+          "desc": "Extra DMG Bonus increase by 20% for 8s after casting Signature - Crystal Barrier."
         }
       ]
     }
@@ -381,10 +362,9 @@
         "name": "Lotus - Quick Blade",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches consecutive attacks with Lotus - Quick Blade, dealing Physical DMG.",
-          "result": ["- Deals 650% Physical DMG in total."]
-        }
+        "description": "Launches consecutive attacks with Lotus - Quick Blade, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [650]
       }
     ],
     "red_orb": [
@@ -392,12 +372,11 @@
         "name": "Lotus - Flurry",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches a flurry of attacks that deals Physical DMG 5 times in a row (Lightning DMG instead on a 3-Ping). Gains Super Armor while using the skill.",
-          "result": [
-            "- Deals 40% / 80% / 144% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Launches a flurry of attacks that deals Physical DMG 5 times in a row (Lightning DMG instead on a 3-Ping). Gains Super Armor while using the skill.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [40, 80, 144]
       }
     ],
     "yellow_orb": [
@@ -405,13 +384,12 @@
         "name": "Lotus - Lightning Field",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Deploys a lightning field that deals Physical DMG to targets in the area and marks them. Enemies in the field take Lightning DMG over time. The mark stacks up to 3 times. Applying the mark again refreshes its duration.",
-          "result": [
-            "- Deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged.",
-            "- The lightning field lasts 3 / 4 / 5s, dealing 20% / 30% / 40% Lightning DMG to the enemies in the area every second based on the number of orbs pinged."
-          ]
-        }
+        "description": "Deploys a lightning field that deals Physical DMG to targets in the area and marks them. Enemies in the field take Lightning DMG over time. The mark stacks up to 3 times. Applying the mark again refreshes its duration.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- The lightning field lasts 3 / 4 / 5s, dealing {3}% / {4}% / {5}% Lightning DMG to the enemies in the area every second based on the number of orbs pinged."
+        ],
+        "res_lv18": [100, 200, 300, 20, 30, 40]
       }
     ],
     "blue_orb": [
@@ -419,13 +397,12 @@
         "name": "Lotus - Moon Arc Slash",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Quickly strikes the target to deal Lightning DMG, then pulls the target close, dealing Physical DMG and marking the target. The mark stacks up to 3 times. Applying the mark again refreshes its duration.",
-          "result": [
-            "- Deals 80% / 160% / 240% Lightning DMG based on the number of orbs pinged.",
-            "- Deals 80% / 160% / 240% Physical DMG based on the number of orbs pinged when pulling the target close."
-          ]
-        }
+        "description": "Quickly strikes the target to deal Lightning DMG, then pulls the target close, dealing Physical DMG and marking the target. The mark stacks up to 3 times. Applying the mark again refreshes its duration.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Lightning DMG based on the number of orbs pinged.",
+          "- Deals {3}% / {4}% / {5}% Physical DMG based on the number of orbs pinged when pulling the target close."
+        ],
+        "res_lv18": [80, 160, 240, 80, 160, 240]
       }
     ],
     "core_passive": {
@@ -434,13 +411,11 @@
         {
           "name": "Core Passive",
           "button_press": "Ping Yellow / Blue Orb + Tap Basic Attack (chance to trigger)",
-
-          "description": [
-            "Lightning Lure: Attacking a marked enemy has a chance to summon a lightning bolt to trike the target, dealing Lightning DMG."
-          ],
+          "description": "Lightning Lure: Attacking a marked enemy has a chance to summon a lightning bolt to trike the target, dealing Lightning DMG.",
           "result": [
-            "- There is a 25% / 50% / 75% chance to summon a lightning bolt that deals 60% Lightning DMG based on the number of marks on the enemy."
-          ]
+            "- There is a 25% / 50% / 75% chance to summon a lightning bolt that deals {0}% Lightning DMG based on the number of marks on the enemy."
+          ],
+          "res_lv18": [60]
         }
       ]
     },
@@ -450,33 +425,28 @@
         {
           "name": "Signature Move",
           "button_press": "50 Energy + Tap Signature",
-          "description": {
-            "desc": "Activates the Lotus Blade. Performing Basic Attacks and skills launches an additional attack with Lotus Blade that deals Lightning DMG. Casting the Signature Move again while it is still active will refresh its duration.",
-            "result": [
-              "- Lotus Blade deals 25% Lightning DMG each time and lasts 15s."
-            ]
-          }
+          "description": "Activates the Lotus Blade. Performing Basic Attacks and skills launches an additional attack with Lotus Blade that deals Lightning DMG. Casting the Signature Move again while it is still active will refresh its duration.",
+          "result": [
+            "- Lotus Blade deals {0}% Lightning DMG each time and lasts 15s."
+          ],
+          "res_lv18": [25]
         }
       ]
     },
     "qte": {
       "name": "Scattering Petals",
       "description": "Lucia: Dawn spins and slashes the target, dealing Physical DMG and Lightning DMG.",
-      "result": ["- Deals 210% Physical DMG and 570% Lightning DMG in total."]
+      "result": ["- Deals {0}% Physical DMG and {1}% Lightning DMG in total."],
+      "res_lv18": [210, 570]
     },
     "leader": {
       "name": "Leader - Dawn Leader",
-      "description": {
-        "desc": "Attack of all Attacker Constructs increases by 10%.",
-        "result": []
-      }
+      "description": "Attack of all Attacker Constructs increases by 10%."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by 20%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Super Conductivity",
@@ -550,10 +520,9 @@
         "name": "Lightning Attack Practice",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Basic Attack: Launches consecutive lightning attacks, dealing Physical DMG.",
-          "result": ["- Deals 650% Physical DMG in total."]
-        }
+        "description": "Basic Attack: Launches consecutive lightning attacks, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [650]
       }
     ],
     "red_orb": [
@@ -561,12 +530,11 @@
         "name": "Ion Cannons",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Fires the ion cannon once, dealing Physical DMG.",
-          "result": [
-            "- Deals 200% / 400% / 600% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Fires the ion cannon once, dealing Physical DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [200, 400, 600]
       }
     ],
     "yellow_orb": [
@@ -574,13 +542,12 @@
         "name": "Sanctum",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Creates a cube at the target location. Inflicts Matrix Effect on the target inside the cube, dealing Lightning DMG and pulling enemies in. The cube explodes upon disappearing, dealing Lightning DMG.",
-          "result": [
-            "- The cube lasts 1 / 2 / 3s and deals 60% / 90% / 120% Lightning DMG based on the number of orbs pinged.",
-            "- The cube explosion deals 60% / 120% / 180% Lightning DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Creates a cube at the target location. Inflicts Matrix Effect on the target inside the cube, dealing Lightning DMG and pulling enemies in. The cube explodes upon disappearing, dealing Lightning DMG.",
+        "result": [
+          "- The cube lasts 1 / 2 / 3s and deals {0}% / {1}% / {2}% Lightning DMG based on the number of orbs pinged.",
+          "- The cube explosion deals {3}% / {4}% / {5}% Lightning DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [60, 90, 120, 60, 120, 180]
       }
     ],
     "blue_orb": [
@@ -588,14 +555,13 @@
         "name": "Virtual Barrier",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Deploys an ion wall at the target location that shocks enemies passing through, dealing Lightning DMG every second and reducing their movement speed. The targets hit will also be marked. Applying the mark again refreshes its duration.",
-          "result": [
-            "- The ion wall lasts 2 / 4 / 6s and deals 60% Lightning DMG to the enemies passing through based on the number of orbs pinged.",
-            "- Reduces the enemies'movement speed by 20 / 40 / 80% based on the number of orbs pinged.",
-            "- The mark lasts 8s."
-          ]
-        }
+        "description":  "Deploys an ion wall at the target location that shocks enemies passing through, dealing Lightning DMG every second and reducing their movement speed. The targets hit will also be marked. Applying the mark again refreshes its duration.",
+        "result": [
+          "- The ion wall lasts 2 / 4 / 6s and deals {0}% Lightning DMG to the enemies passing through based on the number of orbs pinged.",
+          "- Reduces the enemies'movement speed by 20 / 40 / 80% based on the number of orbs pinged.",
+          "- The mark lasts 8s."
+        ],
+        "res_lv18": [60]
       }
     ],
     "core_passive": {
@@ -604,15 +570,15 @@
         {
           "name": "Core Passive",
           "button_press": "Ping Red Orb (chance to trigger) / Ping Blue Orb + Tap Basic Attack (chance to trigger)",
-          "description": [
-            "When Basic Attacks hit marked enemies, there is a chance to trigger Lightning Lure and deal Lightning DMG. Pinging Red Orbs also has a chance to trigger  Lightning Lure. After triggering Lightning Lure for 4 times, the next Lightning Lure will summon EX Lightning Lure, dealing Lightning DMG and healing allies in the area."
-          ],
+          "description": 
+            "When Basic Attacks hit marked enemies, there is a chance to trigger Lightning Lure and deal Lightning DMG. Pinging Red Orbs also has a chance to trigger  Lightning Lure. After triggering Lightning Lure for 4 times, the next Lightning Lure will summon EX Lightning Lure, dealing Lightning DMG and healing allies in the area.",
           "result": [
             "- Basic Attacks have a 30% chance to trigger Lightning Lure when they hit marked enemies.",
             "- Pinging Red Orbs has a 30 / 60 / 100% chance to trigger Lightning Lure based on the number of orbs pinged.",
-            "- Lightning Lure deals 61.76% Lightning DMG.",
-            "- EX Lightning Lure deals 200% Lightning DMG and heals allies in the area for 40% of Lux's ATK each time."
-          ]
+            "- Lightning Lure deals {0}% Lightning DMG.",
+            "- EX Lightning Lure deals {1}% Lightning DMG and heals allies in the area for {2}% of Lux's ATK each time."
+          ],
+          "res_lv18": [60, 200, 40]
         }
       ]
     },
@@ -622,14 +588,13 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Deploys a Lightning field. Allies within the field gain 1 Signal Orb every second and their ATK increases. Reduces movement speed of the enemies in the area.",
-            "result": [
-              "- ATK of allies in the Lightning field increases by 20%.",
-              "- Reduces movement speed of the enemies in the Lightning field by 50%.",
-              "- Lightning field lasts 7s."
-            ]
-          }
+          "description": "Deploys a Lightning field. Allies within the field gain 1 Signal Orb every second and their ATK increases. Reduces movement speed of the enemies in the area.",
+          "result": [
+            "- ATK of allies in the Lightning field increases by {0}%.",
+            "- Reduces movement speed of the enemies in the Lightning field by 50%.",
+            "- Lightning field lasts 7s."
+          ],
+          "res_lv18": [20]
         }
       ]
     },
@@ -637,23 +602,19 @@
       "name": "Neo-Nanofield Blossom",
       "description": "Liv: Lux enters the battlefield and summons EX Lightning Lure to strike the enemies within the area, dealing Lightning DMG and leaving an ion field behind that heals the allies within.",
       "result": [
-        "- Deals 200% Lightning DMG to the enemies in the area.",
-        "- Heals allies for 25% of Lux's ATK every second."
-      ]
+        "- Deals {0}% Lightning DMG to the enemies in the area.",
+        "- Heals allies for {1}% of Lux's ATK every second."
+      ],
+      "res_lv18": [200, 25]
     },
     "leader": {
       "name": "Leader - Mighty Heart",
-      "description": {
-        "desc": "Increases off all members by 5% and ATK of all members by 5%.",
-        "result": []
-      }
+      "description": "Increases off all members by 5% and ATK of all members by 5%."
     },
     "class": {
       "name": "Support",
-      "description": {
-        "desc": "Healing amount increases by 20%.",
-        "result": []
-      }
+      "description": "Healing amount increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Field Controller",
@@ -689,10 +650,9 @@
         "name": "Shooting Mode",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Fires consecutive shots, dealing Physical DMG.",
-          "result": ["- Deals 880% Physical DMG in total."]
-        }
+        "description": "Fires consecutive shots, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [880]
       }
     ],
     "red_orb": [
@@ -700,12 +660,11 @@
         "name": "Precise Shots",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Fires 15 quick shots at the target, dealing Physical DMG. Gains Super Armor while using this skill.",
-          "result": [
-            "- Each shot deals 16% / 32% / 48% Physical DMG based on the number of red orbs pinged."
-          ]
-        }
+        "description": "Fires 15 quick shots at the target, dealing Physical DMG. Gains Super Armor while using this skill.",
+        "result": [
+          "- Each shot deals {0}% / {1}% / {2}% Physical DMG based on the number of red orbs pinged."
+        ],
+        "res_lv18": [16, 32, 48]
       }
     ],
     "yellow_orb": [
@@ -713,12 +672,11 @@
         "name": "Infernal Shot",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Fires a blasting round at the target that explodes on hit and deals Fire DMG. Creates a burning area that deals Fire DMG to the enemies inside over time. Attacking enemies in the burning area deals them extra Fire DMG.",
-          "result": [
-            "- The explosion deals 100% / 150% / 200% Fire DMG based on the number of Yellow Orbs pinged. The burning area lasts 3 /4 /5s and deals 12% / 24% / 36% Fire DMG every 0.5s.- Attacking enemies in the burning area deals them 12% Extra Fire DMG (this effect triggers up to once every 0.1s)."
-          ]
-        }
+        "description": "Fires a blasting round at the target that explodes on hit and deals Fire DMG. Creates a burning area that deals Fire DMG to the enemies inside over time. Attacking enemies in the burning area deals them extra Fire DMG.",
+        "result": [
+          "- The explosion deals {0}% / {1}% / {2}% Fire DMG based on the number of Yellow Orbs pinged. The burning area lasts 3 /4 /5s and deals {3}% / {4}% / {5}% Fire DMG every 0.5s.- Attacking enemies in the burning area deals them {6}% Extra Fire DMG (this effect triggers up to once every 0.1s)."
+        ],
+        "res_lv18": [100,150,200,12,24,36,12]
       }
     ],
     "blue_orb": [
@@ -726,12 +684,11 @@
         "name": "Magnetic Shot",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Fires an explosive round at the target, dealing Physical DMG.",
-          "result": [
-            "- Deals 200% / 400% / 600% Physical DMG based on the number of Blue Orbs pinged."
-          ]
-        }
+        "description": "Fires an explosive round at the target, dealing Physical DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of Blue Orbs pinged."
+        ],
+        "res_lv18": [200, 400, 600]
       }
     ],
     "core_passive": {
@@ -740,13 +697,12 @@
         {
           "name": "Core Passive",
           "button_press": "Ping Yellow Orb + Ping Red Orb",
-
-          "description": [
-            "After pinging a Yellow Orb, the next Red Ping will grant  Blast, making Lee's shot explode after hitting the target, dealing Fire DMG to enemies in the area."
-          ],
+          "description": 
+            "After pinging a Yellow Orb, the next Red Ping will grant Blast, making Lee's shot explode after hitting the target, dealing Fire DMG to enemies in the area.",
           "result": [
-            "- The explosion deals 40% Fire DMG to enemies in the area."
-          ]
+            "- The explosion deals {0}% Fire DMG to enemies in the area."
+          ],
+          "res_lv18": [40]
         }
       ]
     },
@@ -756,41 +712,36 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Fires consecutive shots at nearby enemies, dealing Physical DMG, then deals Fire DMG with the last shot.",
-            "result": ["- Deals 800% Physical DMG in total and 1200% Fire DMG."]
-          }
+          "description": "Fires consecutive shots at nearby enemies, dealing Physical DMG, then deals Fire DMG with the last shot.",
+          "result": ["- Deals {0}% Physical DMG in total and {1}% Fire DMG."],
+          "res_lv18": [800, 1200]
         }
       ]
     },
     "qte": {
-      "name": "360o Shooting - Rapid Fire",
-      "description": "Lee: Palefire enters the battlefield and shoots the target with his Dual Guns, dealing Physical DMG and inflicting the target with  Electrocute, causing the target to take Extra Physical DMG when being attacked.",
+      "name": "360\u00B0 Shooting - Rapid Fire",
+      "description": "Lee: Palefire enters the battlefield and shoots the target with his Dual Guns, dealing Physical DMG and inflicting the target with Electrocute, causing the target to take Extra Physical DMG when being attacked.",
       "result": [
-        "- The shots deal 330% Physical DMG.",
-        "- Electrocuted targets take 20% Extra Physical DMG when being attacked over the next 5s. This effect can be triggered up to 15 times while it lasts."
-      ]
+        "- The shots deal {0}% Physical DMG.",
+        "- Electrocuted targets take {1}% Extra Physical DMG when being attacked over the next 5s. This effect can be triggered up to 15 times while it lasts."
+      ],
+      "res_lv18": [330, 20]
     },
     "leader": {
       "name": "Leader - Riot of Color",
-      "description": {
-        "desc": "Increases all party member's Physical DMG by 5% and Elemental DMG by 5%.",
-        "result": []
-      }
+      "description": "Increases all party member's Physical DMG by 5% and Elemental DMG by 5%."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Landing Prediction - Lightning",
       "levels": [
         {
           "rank": "",
-          "desc": "When hitting enemies in the burning area of Infernal Shot, Extra DMG Bonus increases by  15%."
+          "desc": "When hitting enemies in the burning area of Infernal Shot, Extra DMG Bonus increases by 15%."
         }
       ]
     },
@@ -799,7 +750,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus increases by  15% before taking any damage. Has a cooldown of 10 seconds."
+          "desc": "Extra DMG Bonus increases by 15% before taking any damage. Has a cooldown of 10 seconds."
         }
       ]
     },
@@ -808,7 +759,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of Core Passive -  Controlling Bullet increases by  20%."
+          "desc": "Extra DMG Bonus of Core Passive - Controlling Bullet increases by 20%."
         }
       ]
     },
@@ -860,10 +811,9 @@
         "name": "Slash",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches consecutive attacks with his dual blades, dealing Physical DMG.",
-          "result": ["- Deals 740% Physical DMG in total."]
-        }
+        "description": "Launches consecutive attacks with his dual blades, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [740]
       }
     ],
     "red_orb": [
@@ -871,13 +821,12 @@
         "name": "Black Sakura",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Launches a 4-combo attack at the enemies ahead, dealing Physical DMG. Launches an extra heavy blow upon a 3-Ping.",
-          "result": [
-            "- Deals 160% / 320% / 480% Physical DMG based on the number of orbs pinged.",
-            "- Deals additional 160% Physical DMG upon a 3-Ping."
-          ]
-        }
+        "description": "Launches a 4-combo attack at the enemies ahead, dealing Physical DMG. Launches an extra heavy blow upon a 3-Ping.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Deals additional {3}% Physical DMG upon a 3-Ping."
+        ],
+        "res_lv18": [160, 320, 480, 160]
       }
     ],
     "yellow_orb": [
@@ -885,13 +834,12 @@
         "name": "Shadow Thrust",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Thrusts and pierces the enemies ahead, dealing Physical DMG to enemies in the path. Launches an extra heavy blow upon a 3-Ping.",
-          "result": [
-            "- Deals 160% / 320% / 480% Physical DMG based on the number of orbs pinged.",
-            "- Deals additional 120% Physical DMG upon a 3-Ping."
-          ]
-        }
+        "description": "Thrusts and pierces the enemies ahead, dealing Physical DMG to enemies in the path. Launches an extra heavy blow upon a 3-Ping.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Deals additional {3}% Physical DMG upon a 3-Ping."
+        ],
+        "res_lv18": [160, 320, 480, 120]
       }
     ],
     "blue_orb": [
@@ -899,12 +847,11 @@
         "name": "Bloodshed",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Stabs the target with a blade and pull it out, dealing Physical DMG twice in total. Critical hits are guaranteed when attacking the target from behind.",
-          "result": [
-            "- Deals 80% / 160% / 240% Physical DMG in the initial stab, then deals 70% / 140% / 210% Physical DMG upon pulling the blade out based on the number of orbs pinged."
-          ]
-        }
+        "description": "Stabs the target with a blade and pull it out, dealing Physical DMG twice in total. Critical hits are guaranteed when attacking the target from behind.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG in the initial stab, then deals {3}% / {4}% / {5}% Physical DMG upon pulling the blade out based on the number of orbs pinged."
+        ],
+        "res_lv18": [80, 160, 240, 70, 140, 210]
       }
     ],
     "core_passive": {
@@ -913,13 +860,13 @@
         {
           "name": "Core Passive",
           "button_press": "Two 3-Pings + Tap Basic Attack",
-          "description": [
-            "The final strike of each 3-Ping marks the target. Releases a shade when the mark reaches  2 stacks. The shade attacks once with every Basic Attack."
-          ],
+          "description": 
+            "The final strike of each 3-Ping marks the target. Releases a shade when the mark reaches 2 stacks. The shade attacks once with every Basic Attack.",
           "result": [
-            "- The shade deals 90% Physical DMG with every attack.",
+            "- The shade deals {0}% Physical DMG with every attack.",
             "- The shade lasts 5s."
-          ]
+          ],
+          "res_lv18": [90]
         }
       ]
     },
@@ -929,38 +876,33 @@
         {
           "name": "Signature Move",
           "button_press": "Consume 100 Energy + Tap Signature Move",
-          "description": {
-            "desc": "Uses his blade to attacks enemies, dealing Physical DMG.",
-            "result": ["- Deals 3000% Physical DMG in total."]
-          }
+          "description": "Uses his blade to attacks enemies, dealing Physical DMG.",
+          "result": ["- Deals {0}% Physical DMG in total."],
+          "res_lv18": [3000]
         }
       ]
     },
     "qte": {
       "name": "Flash Fall",
       "description": "Watanabe: Nightblade enters the battlefield and thrusts downward, dealing Physical DMG to the target.",
-      "result": ["- Deals 600% Physical DMG in total."]
+      "result": ["- Deals {0}% Physical DMG in total."],
+      "res_lv18": [600]
     },
     "leader": {
       "name": "Leader - Integrated Management",
-      "description": {
-        "desc": "Increases CRIT Rate by 10% when there are 3 different classes in the team.",
-        "result": []
-      }
+      "description": "Increases CRIT Rate by 10% when there are 3 different classes in the team."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Sneak Attack",
       "levels": [
         {
           "rank": "",
-          "desc": "When attacking a target from behind, Extra DMG Bonus for that attacks increase by  15%."
+          "desc": "When attacking a target from behind, Extra DMG Bonus for that attacks increase by 15%."
         }
       ]
     },
@@ -969,7 +911,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When a shade is present, Extra DMG Bonus increases by  15%."
+          "desc": "When a shade is present, Extra DMG Bonus increases by 15%."
         }
       ]
     },
@@ -978,7 +920,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Reduces Physical Resistance of enemies hit by the Signature Move  by  15% for 10s."
+          "desc": "Reduces Physical Resistance of enemies hit by the Signature Move by 15% for 10s."
         }
       ]
     }
@@ -989,10 +931,9 @@
         "name": "Fast Draw",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Quickly shoots 9 arrows at the target, dealing Physical DMG.",
-          "result": ["- Deals 580% Physical DMG in total."]
-        }
+        "description": "Quickly shoots 9 arrows at the target, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [580]
       }
     ],
     "red_orb": [
@@ -1000,12 +941,11 @@
         "name": "Point Shooting",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Shoots arrows forward consecutively, dealing Physical DMG.",
-          "result": [
-            "- Shoots 1 / 2 / 3 arrows based on the number of orbs pinged. Each arrow deals 200% Physical DMG."
-          ]
-        }
+        "description": "Shoots arrows forward consecutively, dealing Physical DMG.",
+        "result": [
+          "- Shoots 1 / 2 / 3 arrows based on the number of orbs pinged. Each arrow deals {0}% Physical DMG."
+        ],
+        "res_lv18": [200]
       }
     ],
     "yellow_orb": [
@@ -1013,13 +953,12 @@
         "name": "Wing Shot",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Shoots energy arrows forward, dealing Physical DMG. Recovers Signature Energy upon hitting targets.",
-          "result": [
-            "- Shoots 5 / 5 / 7 energy arrows based on the number of orbs pinged. Each energy arrow deals 30% / 60% / 90% Physical DMG.",
-            "- Recovers 1 / 2 / 3 Signature Energy upon hitting targets based on the number of orbs pinged."
-          ]
-        }
+        "description": "Shoots energy arrows forward, dealing Physical DMG. Recovers Signature Energy upon hitting targets.",
+        "result": [
+          "- Shoots 5 / 5 / 7 energy arrows based on the number of orbs pinged. Each energy arrow deals {0}% / {1}% / {2}% Physical DMG.",
+          "- Recovers 1 / 2 / 3 Signature Energy upon hitting targets based on the number of orbs pinged."
+        ],
+        "res_lv18": [30, 60, 90]
       }
     ],
     "blue_orb": [
@@ -1027,12 +966,11 @@
         "name": "Bow Draw",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Imbues weapon with energy. Basic Attacks will shoot extra arrows that deal Physical DMG.",
-          "result": [
-            "- Every Basic Attack shoots 1 / 2 / 3 extra arrows (max 7 / 20 / 42) based on the number of orbs pinged. Each arrow deals 20% / 30% / 40% Physical DMG. This effect lasts 4 / 6 / 8s."
-          ]
-        }
+        "description": "Imbues weapon with energy. Basic Attacks will shoot extra arrows that deal Physical DMG.",
+        "result": [
+          "- Every Basic Attack shoots 1 / 2 / 3 extra arrows (max 7 / 20 / 42) based on the number of orbs pinged. Each arrow deals {0}% / {1}% / {2}% Physical DMG. This effect lasts 4 / 6 / 8s."
+        ],
+        "res_lv18": [20, 30, 40]
       }
     ],
     "core_passive": {
@@ -1041,13 +979,13 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Tap Signature",
-          "description": [
-            "Stores 1 energy arrow in the quiver after every 3-Ping. All arrows will be released when casting the next Signature Move, each dealing Extra Physical DMG to the target."
-          ],
+          "description": 
+            "Stores 1 energy arrow in the quiver after every 3-Ping. All arrows will be released when casting the next Signature Move, each dealing Extra Physical DMG to the target.",
           "result": [
-            "- Each energy arrow deals 100% Extra Physical DMG twice.",
+            "- Each energy arrow deals {0}% Extra Physical DMG twice.",
             "- Each 3-Ping stores 1 energy arrow (max 3)."
-          ]
+          ],
+          "res_lv18": [100]
         }
       ]
     },
@@ -1057,10 +995,9 @@
         {
           "name": "Signature Move",
           "button_press": "60 Energy + Tap Signature",
-          "description": {
-            "desc": "Fires a rain of arrows at the target area, dealing Physical DMG.",
-            "result": ["- Each arrow deals 200% Physical DMG."]
-          }
+          "description": "Fires a rain of arrows at the target area, dealing Physical DMG.",
+          "result": ["- Each arrow deals {0}% Physical DMG."],
+          "res_lv18": [200]
         }
       ]
     },
@@ -1068,22 +1005,18 @@
       "name": "Rain of Hunt",
       "description": "Bianca: Zero leaps into the air upon entering the battlefield, shooting consecutive arrows at the target. Each arrow deals Physical DMG and is guaranteed to be a critical hit.",
       "result": [
-        "- Shoots 5 times at the target, each shot dealing 60% Physical DMG."
-      ]
+        "- Shoots 5 times at the target, each shot dealing {0}% Physical DMG."
+      ],
+      "res_lv18": [60]
     },
     "leader": {
       "name": "Leader - Eliminator",
-      "description": {
-        "desc": "Increase CRIT DMG of all members by 10%.",
-        "result": []
-      }
+      "description": "Increase CRIT DMG of all members by 10%."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "res_lv18": [20]
     },
     "ss_rank": {
       "name": "Resolution",
@@ -1119,10 +1052,9 @@
         "name": "Artillery Technique",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches consecutive attacks with a cannon, dealing Physical DMG.",
-          "result": ["- Deals 600% Physical DMG in total."]
-        }
+        "description": "Launches consecutive attacks with a cannon, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [600]
       }
     ],
     "red_orb": [
@@ -1130,12 +1062,11 @@
         "name": "Scattering Projectiles",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Fires 6 projectiles forward, dealing Physical DMG.",
-          "result": [
-            "- Deals 40% / 80% / 120% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Fires 6 projectiles forward, dealing Physical DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [40, 80, 120]
       }
     ],
     "yellow_orb": [
@@ -1143,13 +1074,12 @@
         "name": "Detonative Projectile",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Quickly fires a projectile at the target that deals Physical DMG and puts a mark on the target. Marked targets have a chance to explode and take Fire DMG when hit by Karenina: Blast.",
-          "result": [
-            "- Deals 150% / 300% / 450% Physical DMG based on the number of orbs pinged.",
-            "- When attacked, marked targets have a 75% chance to explode and take 10% / 20% / 30% Fire DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Quickly fires a projectile at the target that deals Physical DMG and puts a mark on the target. Marked targets have a chance to explode and take Fire DMG when hit by Karenina: Blast.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- When attacked, marked targets have a 75% chance to explode and take {3}% / {4}% / {5}% Fire DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [150, 300, 450, 10, 20, 30]
       }
     ],
     "blue_orb": [
@@ -1157,13 +1087,12 @@
         "name": "Spinning Projectile",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Fires a special projectile at the ground that continues to pull enemies in. The projectile deals Physical DMG upon hitting the enemy, then deals Physical DMG over time to the enemies in the area.",
-          "result": [
-            "- Deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged.",
-            "- Deals 50% Physical DMG to the enemies in the area every second over 1 / 2 / 3s based on the number of orbs pinged."
-          ]
-        }
+        "description": "Fires a special projectile at the ground that continues to pull enemies in. The projectile deals Physical DMG upon hitting the enemy, then deals Physical DMG over time to the enemies in the area.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}%  Physical DMG based on the number of orbs pinged.",
+          "- Deals {3}% Physical DMG to the enemies in the area every second over 1 / 2 / 3s based on the number of orbs pinged."
+        ],
+        "res_lv18": [100, 200, 300, 50]
       }
     ],
     "core_passive": {
@@ -1172,12 +1101,12 @@
         {
           "name": "Core Passive",
           "button_press": "Three 3-Pings + Tap Basic Attack",
-          "description": [
-            "Karenina: Blast enters  Burst Form after  three 3-Pings or casting a Signature Move, replacing her Basic Attacks with ranged artillery attacks."
-          ],
+          "description": 
+            "Karenina: Blast enters Burst Form after three 3-Pings or casting a Signature Move, replacing her Basic Attacks with ranged artillery attacks.",
           "result": [
-            "- Burst Form lasts 3s. Each projectile deals 80% Physical DMG."
-          ]
+            "- Burst Form lasts 3s. Each projectile deals {0}% Physical DMG."
+          ],
+          "res_lv18": [80]
         }
       ]
     },
@@ -1187,38 +1116,33 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Continuously bombards the target area, dealing Physical DMG.",
-            "result": ["- Each projectile deals 100% Physical DMG."]
-          }
+          "description": "Continuously bombards the target area, dealing Physical DMG.",
+          "result": ["- Each projectile deals {0}% Physical DMG."],
+          "res_lv18": [100]
         }
       ]
     },
     "qte": {
       "name": "Annihilation Projectile",
       "description": "Karenina: Blast enters the battlefield and fires a Spinning Projectile, dealing Physical DMG to the target.",
-      "result": ["- Deals up to 500% Physical DMG."]
+      "result": ["- Deals up to {0}% Physical DMG."],
+      "res_lv18": [500]
     },
     "leader": {
       "name": "Leader - Solitary",
-      "description": {
-        "desc": "Increase ATK of all members by 10% when there are 3 different classes in the team.",
-        "result": []
-      }
+      "description": "Increase ATK of all members by 10% when there are 3 different classes in the team."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Death Mark",
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of explosions caused by Detonative Projectile increases by  50%."
+          "desc": "Extra DMG Bonus of explosions caused by Detonative Projectile increases by 50%."
         }
       ]
     },
@@ -1227,7 +1151,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When attacking a target Marked by Detonative Projectile, Extra DMG Bonus increases by  15%."
+          "desc": "When attacking a target Marked by Detonative Projectile, Extra DMG Bonus increases by 15%."
         }
       ]
     },
@@ -1236,7 +1160,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of Basic Attack increases by  20%."
+          "desc": "Extra DMG Bonus of Basic Attack increases by 20%."
         }
       ]
     }
@@ -1247,10 +1171,9 @@
         "name": "Adaptive Ray",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches an energy attack, dealing Physical DMG.",
-          "result": ["- Deals 520% Physical DMG in total."]
-        }
+        "description": "Launches an energy attack, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [520]
       }
     ],
     "red_orb": [
@@ -1258,13 +1181,13 @@
         "name": "Repelling Beams",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Fires a beam at the target location, dealing Physical DMG and reducing the movement speed of targets. Reduces Extra DMG Bonus of targets upon a 3-Ping.",
-          "result": [
-            "- Deals 200% / 400% / 600% Physical DMG based on the number of orbs pinged.",
-            "- Reduces movement speed of targets by 20% for 3s.- Reduces Extra DMG Bonus of targets by 5% for 5s."
-          ]
-        }
+        "description": "Fires a beam at the target location, dealing Physical DMG and reducing the movement speed of targets. Reduces Extra DMG Bonus of targets upon a 3-Ping.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Reduces movement speed of targets by 20% for 3s.", 
+          "- Reduces Extra DMG Bonus of targets by 5% for 5s."
+        ],
+        "res_lv18": [200, 400, 600]
       }
     ],
     "yellow_orb": [
@@ -1272,12 +1195,11 @@
         "name": "Transferring Recharge",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Enhances the weapon and increases the hit count of Basic Attacks.",
-          "result": [
-            "- Deals 30% / 40% / 50% Physical DMG per hit up to 16 / 20 / 32 times for 2.5 / 3.5 / 5s based on the number of orbs pinged."
-          ]
-        }
+        "description": "Enhances the weapon and increases the hit count of Basic Attacks.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG per hit up to 16 / 20 / 32 times for 2.5 / 3.5 / 5s based on the number of orbs pinged."
+        ],
+        "res_lv18": [30, 40, 50]
       }
     ],
     "blue_orb": [
@@ -1285,12 +1207,11 @@
         "name": "Gray Raven Field",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Deploys a particle array at the target location, marking all enemies within. The particle array deals Physical DMG and pulls the targets in range once per second.",
-          "result": [
-            "- The particle array lasts 3 / 6 / 9s and deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Deploys a particle array at the target location, marking all enemies within. The particle array deals Physical DMG and pulls the targets in range once per second.",
+        "result": [
+          "- The particle array lasts 3 / 6 / 9s and deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [100, 200, 300]
       }
     ],
     "core_passive": {
@@ -1299,22 +1220,16 @@
         {
           "name": "Core Passive",
           "button_press": "Ping Blue Orb + Tap Basic Attack (chance to trigger)",
-          "description": [
-            "Attacking marked enemies has a chance to trigger  Light Penalty, dealing Physical DMG."
-          ],
-          "result": [
-            "- Light Penalty has a 20% chance to trigger and deals 150% Physical DMG."
-          ]
+          "description": "Attacking marked enemies has a chance to trigger Light Penalty, dealing Physical DMG.",
+          "result": ["- Light Penalty has a 20% chance to trigger and deals {0}% Physical DMG."],
+          "res_lv18": [150]
         },
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping / After triggering Light Penalty 5 times",
-          "description": {
-            "desc": [
-              "Heals nearby allies after a 3-Ping or triggering  Light Penalty 5 times."
-            ],
-            "result": ["- Heals allies for 60% of Luminance's ATK."]
-          }
+          "description": "Heals nearby allies after a 3-Ping or triggering Light Penalty 5 times.",
+          "result": ["- Heals allies for {0}% of Luminance's ATK."],
+          "res_lv18": [60]
         }
       ]
     },
@@ -1324,13 +1239,12 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Deploys a wide-ranged energy field and unleashes Light Penalty, dealing Physical DMG to random enemies in the area. Increases Extra DMG Reduction of teammates in the area.",
-            "result": [
-              "- Each Light Penalty deals 150% Physical DMG.",
-              "- Increases Extra DMG Reduction of teammates in the area by 75%."
-            ]
-          }
+          "description": "Deploys a wide-ranged energy field and unleashes Light Penalty, dealing Physical DMG to random enemies in the area. Increases Extra DMG Reduction of teammates in the area.",
+          "result": [
+            "- Each Light Penalty deals {0}% Physical DMG.",
+            "- Increases Extra DMG Reduction of teammates in the area by 75%."
+          ],
+          "res_lv18": [150]
         }
       ]
     },
@@ -1338,23 +1252,19 @@
       "name": "Heroic Dance",
       "description": "Enters the battlefield to heal nearby allies and grants Shield.",
       "result": [
-        "- Heals allies for 100% of Luminance's ATK.",
-        "- Grants allies Shield equal to 100% of Luminance's ATK for 2s."
-      ]
+        "- Heals allies for {0}% of Luminance's ATK.",
+        "- Grants allies Shield equal to {1}% of Luminance's ATK for 2s."
+      ],
+      "res_lv18": [100, 100]
     },
     "leader": {
       "name": "Leader - Devoted Heart",
-      "description": {
-        "desc": "HP of all party members increases by 15%.",
-        "result": []
-      }
+      "description": "HP of all party members increases by 15%."
     },
     "class": {
       "name": "Support",
-      "description": {
-        "desc": "Healing amount increases by 20%.",
-        "result": []
-      }
+      "description": "Healing amount increases by {0}%.",
+      "res_lv18": [20]
     },
     "ss_rank": {
       "name": "Field Reinforcement",
@@ -1430,10 +1340,9 @@
         "name": "Burst Mode",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Fires consecutively at the target, dealing Physical DMG.",
-          "result": ["- Deals 825% Physical DMG in total."]
-        }
+        "description": "Fires consecutively at the target, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [825]
       }
     ],
     "red_orb": [
@@ -1441,12 +1350,11 @@
         "name": "Continuous Fire",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Leaps into the air and shoots continuously forward in a small area, dealing Physical DMG.",
-          "result": [
-            "- Deals 22.5% / 45% / 70% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Leaps into the air and shoots continuously forward in a small area, dealing Physical DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [22.5, 45, 70]
       }
     ],
     "yellow_orb": [
@@ -1454,13 +1362,12 @@
         "name": "Backstep Firing",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Steps on the enemy ahead and shoots at the target, dealing Physical DMG and marking the target. Attacking a marked target willl fires an additional shot, dealing Physical DMG. When marking an already marked target, the mark with the higher number of pings will replace the lower one.",
-          "result": [
-            "- Deals 180% / 440% / 700% Physical DMG based on the number of orbs pinged.",
-            "- Attacking a marked target will fire an additional shot that deals 20% / 40% / 60% Physical DMG based on the number of orbs pinged. The mark lasts 4 / 6 / 8s."
-          ]
-        }
+        "description": "Steps on the enemy ahead and shoots at the target, dealing Physical DMG and marking the target. Attacking a marked target willl fires an additional shot, dealing Physical DMG. When marking an already marked target, the mark with the higher number of pings will replace the lower one.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Attacking a marked target will fire an additional shot that deals {3}% / {4}% / {5}% Physical DMG based on the number of orbs pinged. The mark lasts 4 / 6 / 8s."
+        ],
+        "res_lv18": [180, 440, 700, 20, 40, 60]
       }
     ],
     "blue_orb": [
@@ -1468,13 +1375,12 @@
         "name": "Induction",
         "button_press": "Ping Blue Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Fires an energy projectile forward, dealing Physical DMG. An energy ring will be generated after the projectile hits a target of reaches a certain distance. When the energy ring is deployed, it slightly pulls the enemy toward the center once. Enemies in the ring take Physical DMG over time.",
-          "result": [
-            "- The energy projectile deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged.",
-            "- The energy ring lasts 3 / 4 / 5s and deals 24% / 48% / 72% Phyiscal DMG per second based on the number of orbs pinged."
-          ]
-        }
+        "description": "Fires an energy projectile forward, dealing Physical DMG. An energy ring will be generated after the projectile hits a target of reaches a certain distance. When the energy ring is deployed, it slightly pulls the enemy toward the center once. Enemies in the ring take Physical DMG over time.",
+        "result": [
+          "- The energy projectile deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- The energy ring lasts 3 / 4 / 5s and deals {3}% / {4}% / {5}% Phyiscal DMG per second based on the number of orbs pinged."
+        ],
+        "res_lv18": [100, 200, 300, 24, 48, 72]
       }
     ],
     "core_passive": {
@@ -1483,10 +1389,11 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Red Orb",
-          "description": [
+          "description": 
             "After any 3-Ping, pinging the next Red Orb will fire consecutive shots that strike the target, dealing Physical DMG."
-          ],
-          "result": ["- Every shot deals 55% Physical DMG."]
+          ,
+          "result": ["- Every shot deals {0}% Physical DMG."],
+          "res_lv18": [55]
         }
       ]
     },
@@ -1496,31 +1403,26 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Calls in fire support from long-range energy cannons, dealing Physical DMG.",
-            "result": ["- Every shot deals 400% Physical DMG."]
-          }
+          "description": "Calls in fire support from long-range energy cannons, dealing Physical DMG.",
+          "result": ["- Every shot deals {0}% Physical DMG."],
+          "res_lv18": [400]
         }
       ]
     },
     "qte": {
       "name": "Blindspot Ambush",
       "description": "Lee shoots in mid-air, dealing Physical DMG to the target.",
-      "result": ["- Deals 675% Physical DMG in total."]
+      "result": ["- Deals {0}% Physical DMG in total."],
+      "res_lv18": [675]
     },
     "leader": {
       "name": "Captain - Tactical Operation",
-      "description": {
-        "desc": "Physical DMG and Movement Speed of all party members are increased by 15% and 10%.",
-        "result": []
-      }
+      "description": "Physical DMG and Movement Speed of all party members are increased by 15% and 10%."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Target Lock - Electrocute",
@@ -1556,19 +1458,17 @@
         "name": "Pressure Unleashed",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches consecutive attacks at the target, dealing Physical DMG. ",
-          "result": ["- Deals 720% Physical DMG in total."]
-        }
+        "description": "Launches consecutive attacks at the target, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [720]
       },
       {
         "name": "Pressure Unleashed",
         "button_press": "Enhanced Form + Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches consecutive attacks at the target, dealing Fire DMG.",
-          "result": ["- Deals 720% Fire DMG in total. "]
-        }
+        "description": "Launches consecutive attacks at the target, dealing Fire DMG.",
+        "result": ["- Deals {0}% Fire DMG in total."],
+        "res_lv18": [720]
       }
     ],
     "red_orb": [
@@ -1576,23 +1476,21 @@
         "name": "Lightblade Strike",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Swings the cannon twice to attack the targets ahead, dealing Physical DMG. Gains Super Armor while using this skill.",
-          "result": [
-            "- Deals 100%/200%/300% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Swings the cannon twice to attack the targets ahead, dealing Physical DMG. Gains Super Armor while using this skill.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [100, 200, 300]
       },
       {
         "name": "Lightblade Strike",
         "button_press": "Enhanced Form + Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "In Enhanced Form, swings the cannon twice to attack the targets ahead, dealing Fire DMG. Gains Super Armor while using this skill. ",
-          "result": [
-            "- Deals 150% / 300% / 450% Fire DMG based on the number of orbs pinged. "
-          ]
-        }
+        "description": "In Enhanced Form, swings the cannon twice to attack the targets ahead, dealing Fire DMG. Gains Super Armor while using this skill. ",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Fire DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [150, 300, 450]
       }
     ],
     "yellow_orb": [
@@ -1600,25 +1498,23 @@
         "name": "Covering Barrage",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Leaps forward and slams the target with her cannon. Takes reduced damage from all attacks while casting this skill and deals Physical DMG to nearby targets.",
-          "result": [
-            "- Deals 180% / 360% / 540% Physical DMG based on the number of orbs pinged.",
-            "- Takes 30% less damage from all attacks."
-          ]
-        }
+        "description": "Leaps forward and slams the target with her cannon. Takes reduced damage from all attacks while casting this skill and deals Physical DMG to nearby targets.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Takes 30% less damage from all attacks."
+        ],
+        "res_lv18": [180, 360, 540]
       },
       {
         "name": "Covering Barrage",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "In Enhanced Form, leaps forward and slams the target with her cannon. Takes reduced damage from all attacks while casting this skill and deals Fire DMG to nearby targets.",
-          "result": [
-            "- Deals 270% / 540% / 810% Fire DMG based on the number of orbs pinged. ",
-            "- Takes 30% less damage from all attacks. "
-          ]
-        }
+        "description": "In Enhanced Form, leaps forward and slams the target with her cannon. Takes reduced damage from all attacks while casting this skill and deals Fire DMG to nearby targets.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Fire DMG based on the number of orbs pinged. ",
+          "- Takes 30% less damage from all attacks. "
+        ],
+        "res_lv18": [270, 540, 810]
       }
     ],
     "blue_orb": [
@@ -1626,23 +1522,21 @@
         "name": "Wingman Support",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Summons flying laser drones and deals Physical DMG instantly. Drones deal Physical DMG with every attack. If multiple drones are present, the one with the highest level take priority. ",
-          "result": [
-            "- Based on the number of orbs pinged, the drones deal 6% / 12% / 18% Physical DMG instantly upon summoning and deal 20% / 40% / 60% Physical DMG with every attack."
-          ]
-        }
+        "description": "Summons flying laser drones and deals Physical DMG instantly. Drones deal Physical DMG with every attack. If multiple drones are present, the one with the highest level take priority. ",
+        "result": [
+          "- Based on the number of orbs pinged, the drones deal {0}% / {1}% / {2}% Physical DMG instantly upon summoning and deal {3}% / {4}% / {5}% Physical DMG with every attack."
+        ],
+        "res_lv18": [6, 12, 18, 20, 40, 60]
       },
       {
         "name": "Wingman Support",
         "button_press": "Enhanced Form + Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "In Enhanced Form, summons flying laser drones and deals Physical DMG instantly. Drones deal Fire DMG with every attack. If multiple drones are present, the one with the highest level take priority.",
-          "result": [
-            "- Based on the number of orbs pinged, the drones deal 6% / 12% / 18% Physical DMG instantly upon summoning and deal 30% / 60% / 90% Fire DMG with every attack. "
-          ]
-        }
+        "description": "In Enhanced Form, summons flying laser drones and deals Physical DMG instantly. Drones deal Fire DMG with every attack. If multiple drones are present, the one with the highest level take priority.",
+        "result": [
+          "- Based on the number of orbs pinged, the drones deal {0}% / {1}% / {2}% Physical DMG instantly upon summoning and deal {3}% / {4}% / {5}% Fire DMG with every attack. "
+        ],
+        "res_lv18": [6, 12, 18, 30, 60, 90]
       }
     ],
     "core_passive": {
@@ -1651,9 +1545,9 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping / Cast Signature",
-          "description": [
+          "description": 
             "Gains Thermal Energy upon entering battle. Thermal Energy can be gained via 3-Pings and Signature move. "
-          ],
+          ,
           "result": [
             "- Increases Thermal Energy gained when entering battle by 3% per skill level."
           ]
@@ -1661,9 +1555,10 @@
         {
           "name": "Core Passive",
           "button_press": "Thermal Energy reaches 50%",
-          "description": [
-            "Enters Enhanced Form once Thermal Energy reaches 50%, gaining Fire DMG Bonus and granting additional effects to Signal Orb skills and Basic Attacks. Thermal Energy decreases over time in Enhanced Form.- Gains 20% Fire DMG Bonus in Enhanced Form."
-          ],
+          "description": 
+            "Enters Enhanced Form once Thermal Energy reaches 50%, gaining Fire DMG Bonus and granting additional effects to Signal Orb skills and Basic Attacks. Thermal Energy decreases over time in Enhanced Form.- Gains {0}% Fire DMG Bonus in Enhanced Form."
+          ,
+          "desc_lv18": [20],
           "result": [
             "- Thermal Energy decreases by 5% per second in Enhanced Form. "
           ]
@@ -1676,33 +1571,28 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Shoots a laser at the ground by 200% Fire DMG and leaves a path of fire for 5 seconds in the end.",
-            "result": [
-              "All enemies in the path take 200% Fire DMG per second. "
-            ]
-          }
+          "description": "Shoots a laser at the ground by {0}% Fire DMG and leaves a path of fire for 5 seconds in the end.",
+          "desc_lv18": [200],
+          "result": [
+            "All enemies in the path take {0}% Fire DMG per second. "
+          ],
+          "res_lv18": [200]
         }
       ]
     },
     "qte": {
       "name": "Gravity Fall",
-      "description": "Karenina deals 720% Fire DMG to the target.",
-      "result": [""]
+      "description": "Karenina deals {0}% Fire DMG to the target.",
+      "desc_lv18": [720]
     },
     "leader": {
       "name": "Leader - Complete Destruction",
-      "description": {
-        "desc": "Increases ATK by 10% when there are 3 different classes in the team. Increases ATK of all Attacker Omniframes in the team by 5%. ",
-        "result": []
-      }
+      "description": "Increases ATK by 10% when there are 3 different classes in the team. Increases ATK of all Attacker Omniframes in the team by 5%."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Thermal Radiation",
@@ -1738,10 +1628,9 @@
         "name": "Sawblade Storm",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches consecutive attacks with a chainsaw, dealing Physical DMG.",
-          "result": ["- Deals 620% Physical DMG in total."]
-        }
+        "description": "Launches consecutive attacks with a chainsaw, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [620]
       }
     ],
     "red_orb": [
@@ -1749,12 +1638,11 @@
         "name": "Rhythm Charge",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Dashes forward and stabs the enemy with her chainsaw, dealing Physical DMG up to 12 Hits. Deals Fire DMG instead upon a 3-Ping.",
-          "result": [
-            "- Each hit deals 20% / 40% / 60% Physical DMG based on the number of orbs pinged (up to 12 hits)."
-          ]
-        }
+        "description": "Dashes forward and stabs the enemy with her chainsaw, dealing Physical DMG up to 12 Hits. Deals Fire DMG instead upon a 3-Ping.",
+        "result": [
+          "- Each hit deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged (up to 12 hits)."
+        ],
+        "res_lv18": [20, 40, 60]
       }
     ],
     "yellow_orb": [
@@ -1762,13 +1650,12 @@
         "name": "Dancing Ring",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Flips forward and slashes with a chainsaw, dealing DMG twice. Deals Physical DMG upon a 1 / 2-Ping. Deals Fire DMG instead upon a 3-Ping and creates a rotating fire ring that deals Fire DMG.",
-          "result": [
-            "- Upon a 1 / 2-Ping, each hit deals 100% / 200% Physical DMG based on the number of orbs pinged.",
-            "- Each hit deals 200% Fire DMG upon a 3-Ping. The fire ring deals 30% Fire DMG with every hit up to 12 hits."
-          ]
-        }
+        "description": "Flips forward and slashes with a chainsaw, dealing DMG twice. Deals Physical DMG upon a 1 / 2-Ping. Deals Fire DMG instead upon a 3-Ping and creates a rotating fire ring that deals Fire DMG.",
+        "result": [
+          "- Upon a 1 / 2-Ping, each hit deals {0}% / {1}% Physical DMG based on the number of orbs pinged.",
+          "- Each hit deals {2}% Fire DMG upon a 3-Ping. The fire ring deals {3}% Fire DMG with every hit up to 12 hits."
+        ],
+        "res_lv18": [100, 200, 200, 30]
       }
     ],
     "blue_orb": [
@@ -1776,13 +1663,12 @@
         "name": "Shattering Shock",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Unleashes energy that instantly interrupts enemy attacks and launches a heavy strike that deals Physical DMG to nearby enemies. Gains Shield and Super Armor when Shield is present. Deals Fire DMG instead upon a 3-Ping.",
-          "result": [
-            "- The heavy strike deals damage 3 times, each hit dealing 50% / 100% / 200% Physical DMG based on the number of orbs pinged.",
-            "- Gains Shield equal to 5 / 7.5 / 10% of Pulse's max HP based on the number of orbs pinged for 5s."
-          ]
-        }
+        "description": "Unleashes energy that instantly interrupts enemy attacks and launches a heavy strike that deals Physical DMG to nearby enemies. Gains Shield and Super Armor when Shield is present. Deals Fire DMG instead upon a 3-Ping.",
+        "result": [
+          "- The heavy strike deals damage 3 times, each hit dealing {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Gains Shield equal to 5 / 7.5 / 10% of Pulse's max HP based on the number of orbs pinged for 5s."
+        ],
+        "res_lv18": [50, 100, 200]
       }
     ],
     "core_passive": {
@@ -1791,10 +1677,9 @@
         {
           "name": "Core Passive",
           "button_press": "Cast Signature Move + Tap Basic Attack",
-          "description": [
-            "Nanami: Pulse enters  Overclocking State after casting Signature Move. In this state, her Basic Attacks deal Fire DMG instead and reduce the Fire Resistance of the targets hit by  15% for  8s."
-          ],
-          "result": []
+          "description": 
+            "Nanami: Pulse enters Overclocking State after casting Signature Move. In this state, her Basic Attacks deal Fire DMG instead and reduce the Fire Resistance of the targets hit by {0}% for 8s.",
+          "desc_lv18": [15]
         }
       ]
     },
@@ -1804,34 +1689,29 @@
         {
           "name": "Signature Move",
           "button_press": "30 Energy + Tap Signature",
-          "description": {
-            "desc": "Nanami: Pulse charges at the target, dealing Fire DMG to the enemies along the path.",
-            "result": ["- Deals 900% Fire DMG in total."]
-          }
+          "description": "Nanami: Pulse charges at the target, dealing Fire DMG to the enemies along the path.",
+          "result": ["- Deals {0}% Fire DMG in total."],
+          "res_lv18": [900]
         }
       ]
     },
     "qte": {
       "name": "Molten Roundslash",
-      "description": "Moves and marks a circle of fire on the ground, dealing Fire DMG to nearby targets and inflicting them with  Scorching Invasion, reducing their Fire Resistance.",
+      "description": "Moves and marks a circle of fire on the ground, dealing Fire DMG to nearby targets and inflicting them with Scorching Invasion, reducing their Fire Resistance.",
       "result": [
-        "- Deals 480% Fire DMG in total.",
-        "- Scorching Invasion reduces the target's Fire Resistance by 10% for 6s."
-      ]
+        "- Deals {0}% Fire DMG in total.",
+        "- Scorching Invasion reduces the target's Fire Resistance by {1}% for 6s."
+      ],
+      "res_lv18": [480, 10]
     },
     "leader": {
       "name": "Leader - Protective Pulse",
-      "description": {
-        "desc": "Increases DEF of all members by 15% and Fire Resistance of all members by 10%.",
-        "result": []
-      }
+      "description": "Increases DEF of all members by 15% and Fire Resistance of all members by 10%."
     },
     "class": {
       "name": "Tank",
-      "description": {
-        "desc": "Attacks reduce the target's Extra DMG Reduction by 20% for 5s.",
-        "result": []
-      }
+      "description": "Attacks reduce the target's Extra DMG Reduction by {0}% for 5s.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Overload Outburst",
@@ -1901,19 +1781,17 @@
         "name": "Rapid Greatsword",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches consecutive attacks with a greatsword, dealing Physical DMG.",
-          "result": ["- Deals 560% Physical DMG in total."]
-        }
+        "description": "Launches consecutive attacks with a greatsword, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [560]
       },
       {
         "name": "Rapid Greatsword",
         "button_press": "Dark Form + Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "In Dark Form, launches consecutive attacks with Dark Blade, dealing Dark DMG.",
-          "result": ["- Deals 900% Dark DMG in total."]
-        }
+        "description": "In Dark Form, launches consecutive attacks with Dark Blade, dealing Dark DMG.",
+        "result": ["- Deals {0}% Dark DMG in total."],
+        "res_lv18": [900]
       }
     ],
     "red_orb": [
@@ -1921,23 +1799,21 @@
         "name": "Countering Swordplay",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Unleashes a cross slash at the target, dealing Physical DMG and Extra Dark DMG.",
-          "result": [
-            "- Deals 200% / 400% / 600% Physical DMG and 40% / 80% / 160% Extra Dark DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Unleashes a cross slash at the target, dealing Physical DMG and Extra Dark DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG and {3}% / {4}% / {5}% Extra Dark DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [200, 400, 600, 40, 80, 160]
       },
       {
         "name": "Countering Swordplay",
         "button_press": "Dark Form + Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "In Dark Form, swings at the target ahead, dealing Dark DMG.",
-          "result": [
-            "- Deals 800% / 1000% / 1200% Dark DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "In Dark Form, swings at the target ahead, dealing Dark DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Dark DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [800, 1000, 1200]
       }
     ],
     "yellow_orb": [
@@ -1945,25 +1821,23 @@
         "name": "Assaulting Charge",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Charges at the target dealing Physical DMG and Extra Dark DMG. When charging, reduces all damage taken from frontal attacks and becomes immune to control effects.",
-          "result": [
-            "- Deals 200% / 400% / 600% Physical DMG and 40% / 80% / 120% Extra Dark DMG based on the number of orbs pinged.",
-            "- When charging, reduces all damage taken from frontal attacks by 30%."
-          ]
-        }
+        "description": "Charges at the target dealing Physical DMG and Extra Dark DMG. When charging, reduces all damage taken from frontal attacks and becomes immune to control effects.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG and {3}% / {4}% / {5}% Extra Dark DMG based on the number of orbs pinged.",
+          "- When charging, reduces all damage taken from frontal attacks by 30%."
+        ],
+        "res_lv18": [200, 400, 600, 40, 80, 120]
       },
       {
         "name": "Assaulting Charge",
         "button_press": "Dark Form + Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "In Dark Form, charges at the target to deal Dark DMG. When charging, reduces all damage taken from frontal attacks and becomes immune to control effects.",
-          "result": [
-            "- Deals 600% / 750% / 900% Dark DMG based on the number of orbs pinged.",
-            "- When charging, reduces all damage taken from frontal attacks by 30%."
-          ]
-        }
+        "description": "In Dark Form, charges at the target to deal Dark DMG. When charging, reduces all damage taken from frontal attacks and becomes immune to control effects.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Dark DMG based on the number of orbs pinged.",
+          "- When charging, reduces all damage taken from frontal attacks by 30%."
+        ],
+        "res_lv18": [600, 750, 900]
       }
     ],
     "blue_orb": [
@@ -1971,24 +1845,22 @@
         "name": "Sundering Blade",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Spins and slashes the target airborne, dealing Physical DMG and Extra Dark DMG. Pulls the target while spinning.",
-          "result": [
-            "- Deals 140% / 280% / 420% Physical DMG and 40% / 80% / 120% Extra Dark DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Spins and slashes the target airborne, dealing Physical DMG and Extra Dark DMG. Pulls the target while spinning.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG and {3}% / {4}% / {5}% Extra Dark DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [140, 280, 420, 40, 80, 120]
       },
       {
         "name": "Sundering Blade",
         "button_press": "Dark Form + Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "In Dark Form, slams the ground with a fan-shaped blast that deals Dark DMG and stuns the target.",
-          "result": [
-            "- Deals 480% / 600% / 720% Dark DMG based on the number of orbs pinged.",
-            "- Stuns the target for 3 / 4 / 5s based on the number of orbs pinged."
-          ]
-        }
+        "description": "In Dark Form, slams the ground with a fan-shaped blast that deals Dark DMG and stuns the target.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Dark DMG based on the number of orbs pinged.",
+          "- Stuns the target for 3 / 4 / 5s based on the number of orbs pinged."
+        ],
+        "res_lv18": [480, 600, 720]
       }
     ],
     "core_passive": {
@@ -1997,16 +1869,15 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping",
-          "description": ["Gains an extra 10 Energy upon a 3-Ping."],
-          "result": []
+          "description": "Gains an extra 10 Energy upon a 3-Ping."
         },
         {
           "name": "Core Passive",
           "button_press": "Dark Form + Passive",
-          "description": [
-            "In Dark Form, Physical Resistance and Dark Resistance increase by 30%."
-          ],
-          "result": []
+          "description": 
+            "In Dark Form, Physical Resistance and Dark Resistance increase by {0}%."
+          ,
+          "desc_lv18": [30]
         }
       ]
     },
@@ -2016,18 +1887,14 @@
         {
           "name": "Signature Move",
           "button_press": "At Least 60 Energy + Tap Signature",
-          "description": {
-            "desc": "Enters Dark Form to transform all skill forms and gain Super Armor. Dark Form consumes Energy every second and ends when all Energy is consumed.",
-            "result": ["- Dark Form consumes 8 Energy every second."]
-          }
+          "description": "Enters Dark Form to transform all skill forms and gain Super Armor. Dark Form consumes Energy every second and ends when all Energy is consumed.",
+          "result": ["- Dark Form consumes 8 Energy every second."]
         },
         {
           "name": "Signature Move",
           "button_press": "Dark Form + At Least 60 Energy + Tap Signature",
-          "description": {
-            "desc": "In Dark Form, Dark DMG increases by 40%.",
-            "result": []
-          }
+          "description": "In Dark Form, Dark DMG increases by {0}%.",
+          "desc_lv18": [40]
         }
       ]
     },
@@ -2035,30 +1902,26 @@
       "name": "Chain Spin",
       "description": "Spins and cuts the targets as he enters the battlefield, dealing Dark DMG and inflicting them with  Chain Fusion, reducing their Dark Resistance.",
       "result": [
-        "- Deals 580% Dark DMG in total.",
-        "- Chain Fusion reduces the target's Dark Resistance by 10% for 6s."
-      ]
+        "- Deals {0}% Dark DMG in total.",
+        "- Chain Fusion reduces the target's Dark Resistance by {1}% for 6s."
+      ],
+      "res_lv18": [580, 10]
     },
     "leader": {
       "name": "Leader - Alternation Harmony",
-      "description": {
-        "desc": "Increases Elemental DMG by 10% and Physical DMG by 5% when there are 3 different classes in the team.",
-        "result": []
-      }
+      "description": "Increases Elemental DMG by 10% and Physical DMG by 5% when there are 3 different classes in the team."
     },
     "class": {
       "name": "Tank",
-      "description": {
-        "desc": "Attacks reduce the target's Extra DMG Reduction by 20% for 5s.",
-        "result": []
-      }
+      "description": "Attacks reduce the target's Extra DMG Reduction by {0}% for 5s.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Invincible",
       "levels": [
         {
           "rank": "",
-          "desc": "Dark Form grants  20% Extra DMG Reduction. Kamui: Tenebrion applies  Chain Fusion on targets damaged by him. The Resistance Reduction of  Chain Fusion increases by  15%."
+          "desc": "Dark Form grants  20% Extra DMG Reduction. Kamui: Tenebrion applies  Chain Fusion on targets damaged by him. The Resistance Reduction of Chain Fusion increases by 15%."
         }
       ]
     },
@@ -2067,7 +1930,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Increases Extra DMG Bonus of 3-Ping skills by  30%."
+          "desc": "Increases Extra DMG Bonus of 3-Ping skills by 30%."
         }
       ]
     },
@@ -2076,7 +1939,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "In  Dark Form, Dark DMG increases by  20%."
+          "desc": "In Dark Form, Dark DMG increases by 20%."
         }
       ]
     }
@@ -2087,12 +1950,11 @@
         "name": "Iaido Will",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Attacks the target in 5 sword styles, dealing Physical DMG. Can immediately perform the 3rd hit of Basic Attack after dodging.",
-          "result": [
-            "- Each style deals 80% / 100% / 120% / 270% / 280% Physical DMG to the target respectively."
-          ]
-        }
+        "description": "Attacks the target in 5 sword styles, dealing Physical DMG. Can immediately perform the 3rd hit of Basic Attack after dodging.",
+        "result": [
+          "- Each style deals {0}% / {1}% / {2}% / {3}% / {4}% Physical DMG to the target respectively."
+        ],
+        "res_lv18": [80, 100, 120, 270, 280]
       }
     ],
     "red_orb": [
@@ -2100,13 +1962,12 @@
         "name": "Flickering Strike",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Leaps forward and attacks targets ahead, dealing Physical DMG. Upon a 3-Ping, the last hit deals Extra Physical DMG and knocks the target airborne. Gains Super Armor while casting this skill.",
-          "result": [
-            "- Each attack deals 25% / 50% / 75% Physical DMG based on the number of orbs pinged.",
-            "- Upon a 3-Ping, the last hit deals 75% Extra Physical DMG."
-          ]
-        }
+        "description": "Leaps forward and attacks targets ahead, dealing Physical DMG. Upon a 3-Ping, the last hit deals Extra Physical DMG and knocks the target airborne. Gains Super Armor while casting this skill.",
+        "result": [
+          "- Each attack deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Upon a 3-Ping, the last hit deals {3}% Extra Physical DMG."
+        ],
+        "res_lv18": [25, 50, 75, 75]
       }
     ],
     "yellow_orb": [
@@ -2114,12 +1975,11 @@
         "name": "Dazzling Strike",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Charges forward and drives through enemies, dealing Physical DMG to enemies in the path.",
-          "result": [
-            "- Deals 250% / 500% / 750% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Charges forward and drives through enemies, dealing Physical DMG to enemies in the path.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [250, 500, 750]
       }
     ],
     "blue_orb": [
@@ -2127,35 +1987,31 @@
         "name": "Lightbreak Strike",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Increases power to enter Enhanced Form, increasing movement speed and granting additional effects to basic attacks and swordwaves.",
-          "result": [
-            "- Increases movement speed by 20 / 30 / 50% based on the number of orbs pinged.",
-            "- Enhanced Form lasts 5s."
-          ]
-        }
+        "description": "Increases power to enter Enhanced Form, increasing movement speed and granting additional effects to basic attacks and swordwaves.",
+        "result": [
+          "- Increases movement speed by 20 / 30 / 50% based on the number of orbs pinged.",
+          "- Enhanced Form lasts 5s."
+        ]
       },
       {
         "name": "Lightbreak Strike",
         "button_press": "Enhanced Form + Any Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "In Enhanced Form, all attacks deal 2 bonus hits, dealing Physical DMG based on the number of orbs pinged.",
-          "result": [
-            "- All attacks deal 2 bonus hits, dealing 4% / 8% / 12% Physical DMG each based on the number of orbs pinged."
-          ]
-        }
+        "description": "In Enhanced Form, all attacks deal 2 bonus hits, dealing Physical DMG based on the number of orbs pinged.",
+        "result": [
+          "- All attacks deal 2 bonus hits, dealing {0}% / {1}% / {2}% Physical DMG each based on the number of orbs pinged."
+        ],
+        "res_lv18": [4, 8, 12]
       },
       {
         "name": "Lightbreak Strike",
         "button_press": "Enhanced Form + Ping Will Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "In Enhanced Form, pinging Blade Will Orbs will unleash Swordwaves.",
-          "result": [
-            "- Each Swordwave deals 8% / 16% / 24% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "In Enhanced Form, pinging Blade Will Orbs will unleash Swordwaves.",
+        "result": [
+          "- Each Swordwave deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [8, 16, 24]
       }
     ],
     "core_passive": {
@@ -2164,18 +2020,17 @@
         {
           "name": "Core Passive",
           "button_press": "Blue 3-Ping + Any 3-Ping",
-          "description": [
+          "description": 
             "Any 3-Ping after a blue 3-Ping causes Alpha to fall back and enter into the Blade Will state. All available signal orbs will be converted into Blade Will Orbs and Alpha gains 2 additional Blade Will Orbs. In the Blade Will state, signal orbs gained by basic attacks will be converted into Blade Will Orbs."
-          ],
-          "result": []
         },
         {
           "name": "Core Passive",
           "button_press": "Blade Will + Ping Blade Will Orb",
-          "description": [
+          "description": 
             "Pinging a Blade Will Orb unleashes swordwaves, dealing Physical DMG and granting Super Armor during the attack."
-          ],
-          "result": ["- Each Blade Will Orb deals 340% Physical DMG."]
+          ,
+          "result": ["- Each Blade Will Orb deals {0}% Physical DMG."],
+          "res_lv18": [340]
         }
       ]
     },
@@ -2185,31 +2040,26 @@
         {
           "name": "Signature Move",
           "button_press": "85 Energy + Tap Signature",
-          "description": {
-            "desc": "Slashes targets ahead, dealing Physical DMG.",
-            "result": ["- Deals 2600% Physical DMG in total."]
-          }
+          "description": "Slashes targets ahead, dealing Physical DMG.",
+          "result": ["- Deals {0}% Physical DMG in total."],
+          "res_lv18": [2600]
         }
       ]
     },
     "qte": {
       "name": "Falling Petals",
       "description": "Enters the battlefield and performs consecutive Rising Slashes, dealing Physical DMG and sending the target airborne.",
-      "result": ["- Deals 600% Physical DMG in total."]
+      "result": ["- Deals {0}% Physical DMG in total."],
+      "res_lv18": [600]
     },
     "leader": {
       "name": "Abyssal Resonance",
-      "description": {
-        "desc": "Increases ATK of all Attacker Omniframes in the team by 10% and CRIT of all Attacker Omniframes in the team by 5%.",
-        "result": []
-      }
+      "description": "Increases ATK of all Attacker Omniframes in the team by 10% and CRIT of all Attacker Omniframes in the team by 5%."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Crimson Scabbard",
@@ -2288,10 +2138,9 @@
         "name": "Swing",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Swings his greatsword and launches multiple attacks at enemies, dealing Physical DMG.",
-          "result": ["- Deals 790% Physical DMG in total."]
-        }
+        "description": "Swings his greatsword and launches multiple attacks at enemies, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [790]
       }
     ],
     "red_orb": [
@@ -2299,13 +2148,12 @@
         "name": "Great Slash",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Slashes the target and deals Physical DMG. Unleashes an extra slash upon a 3-Ping.",
-          "result": [
-            "- Deals 200% / 400% / 400% Physical DMG based on the number of orbs pinged.",
-            "- Deals additional 400% Physical DMG upon a 3-Ping."
-          ]
-        }
+        "description":  "Slashes the target and deals Physical DMG. Unleashes an extra slash upon a 3-Ping.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Deals additional {3}% Physical DMG upon a 3-Ping."
+        ],
+        "res_lv18": [200, 400, 400, 400]
       }
     ],
     "yellow_orb": [
@@ -2313,35 +2161,31 @@
         "name": "Counterattack",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Enters a block stance and increases Extra DMG Reduction.",
-          "result": [
-            "- The block stance lasts 2s, during which Extra DMG Reduction increases by 75%."
-          ]
-        }
+        "description": "Enters a block stance and increases Extra DMG Reduction.",
+        "result": [
+          "- The block stance lasts 2s, during which Extra DMG Reduction increases by 75%."
+        ]
       },
       {
         "name": "Counterattack",
         "button_press": "Attacked while blocking",
         "switch_in": "no",
-        "description": {
-          "desc": "After successfully blocking damage, Kamui: Bastion unleashes a wide-area counterattack, dealing Physical DMG and gaining Charge Points.",
-          "result": [
-            "- Counterattack deals 200% / 400% / 600% Physical DMG based on the number of orbs pinged.",
-            "- Gains 40 / 80 / 120 Charge Points based on the number of orbs pinged."
-          ]
-        }
+        "description": "After successfully blocking damage, Kamui: Bastion unleashes a wide-area counterattack, dealing Physical DMG and gaining Charge Points.",
+        "result": [
+          "- Counterattack deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Gains 40 / 80 / 120 Charge Points based on the number of orbs pinged."
+        ],
+        "res_lv18": [200, 400, 600]
       },
       {
         "name": "Counterattack",
         "button_press": "Basic Attack while Blocking / Blocking ends",
         "switch_in": "no",
-        "description": {
-          "desc": "When Kamui: Bastion performs a Basic Attack while blocking, or when the blocking ends, he unleashes a less powerful counterattack, dealing Physical DMG and cancelling his block stance if it has not already ended.",
-          "result": [
-            "- Counterattack deals 100% / 200% / 400% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "When Kamui: Bastion performs a Basic Attack while blocking, or when the blocking ends, he unleashes a less powerful counterattack, dealing Physical DMG and cancelling his block stance if it has not already ended.",
+        "result": [
+          "- Counterattack deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [100, 200, 400]
       }
     ],
     "blue_orb": [
@@ -2349,13 +2193,12 @@
         "name": "Assault Mode",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Releases energy to gain Shield. Stuns targets when Kamui: Bastion's greatsword hits the ground, dealing Physical DMG.",
-          "result": [
-            "- Gains Shield equal to 50% / 100% / 150% of Kamui: Bastion's DEF based on the number of orbs pinged.",
-            "- Stuns the target for 1 / 1.5 / 2s and deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Releases energy to gain Shield. Stuns targets when Kamui: Bastion's greatsword hits the ground, dealing Physical DMG.",
+        "result": [
+          "- Gains Shield equal to {0}% / {1}% / {2}% of Kamui: Bastion's DEF based on the number of orbs pinged.",
+          "- Stuns the target for 1 / 1.5 / 2s and deals {3}% / {4}% / {5}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [50, 100, 150, 100, 200, 300]
       }
     ],
     "core_passive": {
@@ -2364,14 +2207,15 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping",
-          "description": [
+          "description": 
             "Gains Charge Points after any 3-Ping. When there are Charge Points, Kamui: Bastion's ATK increases. Charge Points decrease over time."
-          ],
+          ,
           "result": [
             "- Gains 40 Charge Points after a 3-Ping, up to 120 points.",
-            "- When there are more than 0 / 40 / 80 Charge Points, Kamui: Bastion's ATK increases by 6% / 12% / 18%.",
+            "- When there are more than 0 / 40 / 80 Charge Points, Kamui: Bastion's ATK increases by {0}% / {1}% / {2}%.",
             "- Charge Points decrease by 8 every second."
-          ]
+          ],
+          "res_lv18": [6, 12, 18]
         }
       ]
     },
@@ -2381,10 +2225,9 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Charges up and quickly swings his greatsword at enemies in front, dealing Physical DMG.",
-            "result": ["- Deals 2000% Physical DMG in total."]
-          }
+          "description": "Charges up and quickly swings his greatsword at enemies in front, dealing Physical DMG.",
+          "result": ["- Deals {0}% Physical DMG in total."],
+          "res_lv18": [2000]
         }
       ]
     },
@@ -2392,23 +2235,19 @@
       "name": "Obliterating Wind",
       "description": "Kamui: Bastion slashes the target with his greatsword, dealing Physical DMG, stunning the target, and reducing the target's DEF.",
       "result": [
-        "- Deals 500% Physical DMG in total.",
-        "- Stuns the target for 3s. Reduces the target's DEF by 10% for 6s."
-      ]
+        "- Deals {0}% Physical DMG in total.",
+        "- Stuns the target for 3s. Reduces the target's DEF by {1}% for 6s."
+      ],
+      "res_lv18": [500, 10]
     },
     "leader": {
       "name": "Leader - Unshakeable Formation",
-      "description": {
-        "desc": "When the HP of all members is greater than 70%, their Physical DMG increases by 10%.",
-        "result": []
-      }
+      "description": "When the HP of all members is greater than 70%, their Physical DMG increases by 10%."
     },
     "class": {
       "name": "Tank",
-      "description": {
-        "desc": "Attacks reduce the target's Extra DMG Reduction by 20% for 5s.",
-        "result": []
-      }
+      "description":  "Attacks reduce the target's Extra DMG Reduction by {0}% for 5s.",
+      "res_lv18": [20]
     },
     "ss_rank": {
       "name": "Fearless Charge",
@@ -2444,13 +2283,12 @@
         "name": "Death Star",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Slashes at the target, dealing Physical DMG. After dodging or pinging a Red Orb, Basic Attacks will trigger Trailblade, dealing Physical DMG.",
-          "result": [
-            "- The slashes deal 600% Physical DMG.",
-            "- Trailblade deals 200% Physical DMG."
-          ]
-        }
+        "description": "Slashes at the target, dealing Physical DMG. After dodging or pinging a Red Orb, Basic Attacks will trigger Trailblade, dealing Physical DMG.",
+        "result": [
+          "- The slashes deal {0}% Physical DMG.",
+          "- Trailblade deals {1}% Physical DMG."
+        ],
+        "res_lv18": [600, 200]
       }
     ],
     "red_orb": [
@@ -2458,12 +2296,11 @@
         "name": "Comet Tail",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Hops back and throws darts in a fan-shaped area, dealing Physical DMG. Trailblade can be triggered immediately after pinging. (Dark DMG instead on a 3-Ping.)",
-          "result": [
-            "- Darts deal 200% / 400% / 600% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description":  "Hops back and throws darts in a fan-shaped area, dealing Physical DMG. Trailblade can be triggered immediately after pinging. (Dark DMG instead on a 3-Ping.)",
+        "result": [
+          "- Darts deal {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [200, 400, 600]
       }
     ],
     "yellow_orb": [
@@ -2471,13 +2308,12 @@
         "name": "Celestial Centrifuge",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Spins forward into the air, draws in, and slashes at surrounding targets, dealing Physical DMG. Upon landing, strikes nearby targets for Physical DMG. (Dark DMG instead on a 3-Ping.)",
-          "result": [
-            "- Spins and slashes for 40% / 80% / 120% Physical DMG based on the number of orbs pinged.",
-            "- The landing strike deals 50% / 100% / 150% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Spins forward into the air, draws in, and slashes at surrounding targets, dealing Physical DMG. Upon landing, strikes nearby targets for Physical DMG. (Dark DMG instead on a 3-Ping.)",
+        "result": [
+          "- Spins and slashes for {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- The landing strike deals {3}% / {4}% / {5}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [40, 80, 120, 50, 100, 150]
       }
     ],
     "blue_orb": [
@@ -2485,12 +2321,11 @@
         "name": "Meteoric Strike",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Shifts behind the target and attacks, dealing Physical DMG. (Dark DMG instead on a 3-Ping.)",
-          "result": [
-            "- Deals 150% / 300% / 450% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Shifts behind the target and attacks, dealing Physical DMG. (Dark DMG instead on a 3-Ping.)",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [150, 300, 450]
       }
     ],
     "core_passive": {
@@ -2499,21 +2334,23 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Red Orb",
-          "description": [
+          "description": 
             "Pinging a Red Orb after any 3-Ping transforms Watanabe: Astral into a shadow that launches consecutive attacks in front of him, dealing Dark DMG. Enters Enhanced Shadow Form at the end of the attack."
-          ],
-          "result": ["- Each hit deals 60% Dark DMG."]
+          ,
+          "result": ["- Each hit deals {0}% Dark DMG."],
+          "res_lv18": [60]
         },
         {
           "name": "Core Passive",
           "button_press": "Enhanced Shadow Form + Tap Basic Attack",
-          "description": [
-            "In  Enhanced Shadow Form, Basic Attacks and  Trailblade deal Extra Dark DMG."
-          ],
+          "description": 
+            "In Enhanced Shadow Form, Basic Attacks and Trailblade deal Extra Dark DMG."
+          ,
           "result": [
-            "- Basic Attacks deal 300% Extra Dark DMG.",
-            "- Trailblade deals 100% Extra Dark DMG for 5s."
-          ]
+            "- Basic Attacks deal {0}% Extra Dark DMG.",
+            "- Trailblade deals {1}% Extra Dark DMG for 5s."
+          ],
+          "res_lv18": [300, 100]
         }
       ]
     },
@@ -2523,31 +2360,26 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Transforms into shadow to assassinate the target, dealing Dark DMG.",
-            "result": ["- Each attack deals 600% Dark DMG."]
-          }
+          "description": "Transforms into shadow to assassinate the target, dealing Dark DMG.",
+          "result": ["- Each attack deals {0}% Dark DMG."],
+          "res_lv18": [600]
         }
       ]
     },
     "qte": {
       "name": "Shadow Cross",
       "description": "Dives at the target, splitting into shadows upon landing and attacks again, dealing Dark DMG.",
-      "result": ["- Each attack deals 300% Dark DMG."]
+      "result": ["- Each attack deals {0}% Dark DMG."],
+      "res_lv18": [300]
     },
     "leader": {
       "name": "Leader - Nameless Shadow",
-      "description": {
-        "desc": "Increases Dark DMG of all members by 10%. Increases ATK of all Attacker Omniframes in the team by 5%.",
-        "result": []
-      }
+      "description": "Increases Dark DMG of all members by 10%. Increases ATK of all Attacker Omniframes in the team by 5%."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Killing Floor",
@@ -9981,16 +9813,12 @@
           "button_press": "",
           "description": 
             "While Paradigm: Patrol is active, Watanabe can only ping Yellow or Blue Orbs and Basic Attacks only generate Yellow or Blue Orbs. After activating Paradigm: Assault, Watanabe can only ping Red Orbs or Blaze Orbs and Basic Attacks only generate Red Orbs."
-          ,
-          "result": []
         },
         {
           "name": "Engine Optimization",
           "button_press": "Any 3-Ping or enter Matrix",
           "description": 
             "Gain 1 point of Live Ammunition upon a 3-Ping. Maximum points of Live Ammunition: 3. Gain 1 Blaze Orb upon entering Matrix. Watanabe can hold up to 3 Blaze Orbs at once. Any excess Blaze Orbs will be converted to Signal Orbs of a random color."
-          ,
-          "result": []
         },
         {
           "name": "Firewalker",
