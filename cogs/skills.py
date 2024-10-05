@@ -113,9 +113,9 @@ class Skills(commands.Cog):
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
             level = int(str_array[len(str_array) - 1])
+            str_array.pop()
         else:
             level = 18
-        str_array.pop()
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
@@ -131,9 +131,9 @@ class Skills(commands.Cog):
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
             level = int(str_array[len(str_array) - 1])
+            str_array.pop()
         else:
             level = 18
-        str_array.pop()
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
@@ -149,9 +149,9 @@ class Skills(commands.Cog):
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
             level = int(str_array[len(str_array) - 1])
+            str_array.pop()
         else:
             level = 18
-        str_array.pop()
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
@@ -167,9 +167,9 @@ class Skills(commands.Cog):
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
             level = int(str_array[len(str_array) - 1])
+            str_array.pop()
         else:
             level = 18
-        str_array.pop()
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
@@ -185,9 +185,9 @@ class Skills(commands.Cog):
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
             level = int(str_array[len(str_array) - 1])
+            str_array.pop()
         else:
             level = 18
-        str_array.pop()
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
@@ -203,9 +203,10 @@ class Skills(commands.Cog):
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
             level = int(str_array[len(str_array) - 1])
+            str_array.pop()
         else:
             level = 18
-        str_array.pop()
+        
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
@@ -221,9 +222,10 @@ class Skills(commands.Cog):
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
             level = int(str_array[len(str_array) - 1])
+            str_array.pop()
         else:
             level = 18
-        str_array.pop()
+        
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
@@ -247,9 +249,9 @@ class Skills(commands.Cog):
         str_array = frame.split(" ")
         if str_array[len(str_array) - 1].isdigit():
             level = int(str_array[len(str_array) - 1])
+            str_array.pop()
         else:
-            level = 18
-        str_array.pop()
+            level = 18       
         nickname = " ".join(str_array)
 
         name = fuzzmatch(nickname)
