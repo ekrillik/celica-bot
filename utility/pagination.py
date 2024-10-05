@@ -10,11 +10,12 @@ class PaginationView(discord.ui.View):
     message: discord.Message | None = None
     current_page = 0
 
-    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, data = [], pagination_type = "", skill_type = "", theme = []) -> None:
+    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, data = [], pagination_type = "", skill_type = "", theme = [], level = 18) -> None:
         super().__init__(timeout=timeout)
         self.user = user
         self.data = data
         self.skill_type = skill_type
+        self.level = level
         # [colour, chibi_portrait, name]
         self.theme = theme
         if(self.skill_type == 'Core Passive' or self.skill_type == 'Signature/Ultimate'):
@@ -46,7 +47,7 @@ class PaginationView(discord.ui.View):
     async def first_page_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
         self.current_page=0
         if (self.pagination_type == "skills"):
-            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
+            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3], level=self.level)
         elif(self.pagination_type == "credits"):
             embed = self.embedconf.credits_embed(self.data[0], cur_page=self.current_page, max_len=len(self.data))
         elif(self.pagination_type == "characters"):
@@ -62,7 +63,7 @@ class PaginationView(discord.ui.View):
     async def prev_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
         self.current_page-=1
         if (self.pagination_type == "skills"):
-            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
+            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3], level=self.level)
         elif(self.pagination_type == "credits"):
             embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
         elif(self.pagination_type == "characters"):
@@ -78,7 +79,7 @@ class PaginationView(discord.ui.View):
     async def next_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
         self.current_page+=1
         if (self.pagination_type == "skills"):
-            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
+            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3], level=self.level)
         elif(self.pagination_type == "credits"):
             embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
         elif(self.pagination_type == "characters"):
@@ -94,7 +95,7 @@ class PaginationView(discord.ui.View):
     async def last_page_button(self, interaction: discord.Interaction, button: discord.ui.Button) -> None:
         self.current_page = self.max_len - 1
         if (self.pagination_type == "skills"):
-            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
+            embed = self.embedconf.skillsEmbed(self.data, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3], level=self.level)
         elif(self.pagination_type == "credits"):
             embed = self.embedconf.credits_embed(self.data[self.current_page], cur_page=self.current_page, max_len=len(self.data))
         elif(self.pagination_type == "characters"):

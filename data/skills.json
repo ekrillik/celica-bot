@@ -5,10 +5,9 @@
         "name": "Lotus - Quick Blade",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Launches consecutive attacks with Lotus - Quick Blade, dealing Physical DMG.",
-          "result": ["- Deals 540% Physical DMG in total."]
-        }
+        "description": "Launches consecutive attacks with Lotus - Quick Blade, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [540]
       }
     ],
     "red_orb": [
@@ -16,12 +15,11 @@
         "name": "Lotus - Initial Move",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Thrusts forward and pulls the target, dealing Physical DMG.",
-          "result": [
-            "- Deals 266.72% / 533.32% / 800% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Thrusts forward and pulls the target, dealing Physical DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [266.72, 533.32, 800]
       }
     ],
     "yellow_orb": [
@@ -29,12 +27,11 @@
         "name": "Lotus - Flash Strike",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Quickly strikes once and knocks the target airborne, dealing Physical DMG.",
-          "result": [
-            "- Deals 150% / 300% / 450% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Quickly strikes once and knocks the target airborne, dealing Physical DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [150, 300, 450]
       }
     ],
     "blue_orb": [
@@ -42,13 +39,12 @@
         "name": "Lotus - Wave Slash",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Deals Physical DMG and flares up weapon, making all attacks deal extra Fire DMG for a period of time.",
-          "result": [
-            "- Deals 100% / 200% / 300% Physical DMG based on the number of orbs pinged.",
-            "- Deals extra 10% / 15% / 20% Fire DMG for 4 / 4 / 8s based on the number of orbs pinged."
-          ]
-        }
+        "description": "Deals Physical DMG and flares up weapon, making all attacks deal extra Fire DMG for a period of time.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Deals extra {3}% / {4}% / {5}% Fire DMG for 4 / 4 / 8s based on the number of orbs pinged."
+        ],
+        "res_lv18": [100, 200, 300, 10, 15, 20]
       }
     ],
     "core_passive": {
@@ -58,9 +54,10 @@
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Red Orb",
           "description": [
-            "Lucia: Lotus enters Burst Form when a Red Orb in pinged within 3s after any 3-Ping, replacing Basic Attacks with  Dual Blades. Lotus - Dual Blades: Attacks the enemy multiple times, dealing Physical DMG."
+            "Lucia: Lotus enters Burst Form when a Red Orb in pinged within 3s after any 3-Ping, replacing Basic Attacks with Dual Blades.\nLotus - Dual Blades: Attacks the enemy multiple times, dealing Physical DMG."
           ],
-          "result": ["- Deals 1080% Physical DMG in total."]
+          "result": ["- Deals {0}% Physical DMG in total."],
+          "res_lv18": [1080]
         }
       ]
     },
@@ -70,34 +67,29 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Unleashes Lotus Flurry to deal quick slashes to the enemies ahead and finish with a heavy blow, dealing Physical DMG.",
-            "result": [
-              "- Each slash deals 140% Physical DMG.",
-              "- The heavy blow deals 1000% Physical DMG."
-            ]
-          }
+          "description": "Unleashes Lotus Flurry to deal quick slashes to the enemies ahead and finish with a heavy blow, dealing Physical DMG.",
+          "result": [
+            "- Each slash deals {0}% Physical DMG.",
+            "- The heavy blow deals {1}% Physical DMG."
+          ],
+          "res_lv18": [140, 1000]
         }
       ]
     },
     "qte": {
       "name": "Lotus Quick Slash",
-      "description": "Lucia: Lotus enters the battlefield and attacks the enemy with her  Dual Blades, dealing Physical DMG.",
-      "result": ["- Deals 1110% Physical DMG in total."]
+      "description": "Lucia: Lotus enters the battlefield and attacks the enemy with her Dual Blades, dealing Physical DMG.",
+      "result": ["- Deals {0}% Physical DMG in total."],
+      "res_lv18": [1110]
     },
     "leader": {
       "name": "Fearless Warrior",
-      "description": {
-        "desc": "ATK of all Attacker Omniframes increases by 10%.",
-        "result": []
-      }
+      "description": "ATK of all Attacker Omniframes increases by 10%."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Rapid Strike - Spiritblade Slash",
@@ -9920,22 +9912,20 @@
         "name": "Scalding Blades",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Alternates between using the Pioneer's Blade and gun to perform combination attacks, dealing Physical DMG. Deals Fire DMG instead while Paradigm: Assault is active.",
-          "result": [
-            "- Deals a total of 496% Physical DMG.",
-            "- Deals a total of 646% Fire DMG while Paradigm: Assault is active."
-          ]
-        }
+        "description": "Alternates between using the Pioneer's Blade and gun to perform combination attacks, dealing Physical DMG. Deals Fire DMG instead while Paradigm: Assault is active.",
+        "result": [
+          "- Deals a total of {0}% Physical DMG.",
+          "- Deals a total of {1}% Fire DMG while Paradigm: Assault is active."
+        ],
+        "res_lv18": [496, 646]
       },
       {
         "name": "Scorching Bombardment",
         "button_press": "Possess Live Ammunition + Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "If Watanabe has Live Ammunition when performing Basic Attack, he will consume 1 point of Live Ammunition to fire at the enemy, dealing Fire DMG, gaining 1 Blaze Orb and 4 Energy. If Watanabe already has 3 Blaze Orbs when performing this skill, firing at the enemy will not consume Live Ammunition and no Blaze Orb or Energy will be obtained.",
-          "result": ["- Firing at the enemy deals 280% Fire DMG."]
-        }
+        "description": "If Watanabe has Live Ammunition when performing Basic Attack, he will consume 1 point of Live Ammunition to fire at the enemy, dealing Fire DMG, gaining 1 Blaze Orb and 4 Energy. If Watanabe already has 3 Blaze Orbs when performing this skill, firing at the enemy will not consume Live Ammunition and no Blaze Orb or Energy will be obtained.",
+        "result": ["- Firing at the enemy deals {0}% Fire DMG."],
+        "res_lv18": [280]
       }
     ],
     "red_orb": [
@@ -9943,24 +9933,22 @@
         "name": "Blazing Drive",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Uses the hook to jump upwards, then performs slashing attacks, dealing Fire DMG. Watanabe gains Super Armor while performing this skill. If Watanabe uses this skill precisely the moment before being attacked, he will trigger parry and nullify incoming DMG. Tapping Basic Attack while performing this skill triggers Scorching Bombardment. Performing a 3-Ping triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP. Repeatedly triggering Rampart refreshes the shield.",
-          "result": [
-            "- Deals a total of 240% / 480% / 720% Fire DMG based on the number of orbs pinged.",
-            "- Consecutively pinging orbs changes Watanabe's moves when performing this skill. Watanabe continuously slashes using the Pioneer's Blade in conjunction with the hook, dealing a total of 240% / 480% / 720% Fire DMG."
-          ]
-        }
+        "description": "Uses the hook to jump upwards, then performs slashing attacks, dealing Fire DMG. Watanabe gains Super Armor while performing this skill. If Watanabe uses this skill precisely the moment before being attacked, he will trigger parry and nullify incoming DMG. Tapping Basic Attack while performing this skill triggers Scorching Bombardment. Performing a 3-Ping triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP. Repeatedly triggering Rampart refreshes the shield.",
+        "result": [
+          "- Deals a total of {0}% / {1}% / {2}% Fire DMG based on the number of orbs pinged.",
+          "- Consecutively pinging orbs changes Watanabe's moves when performing this skill. Watanabe continuously slashes using the Pioneer's Blade in conjunction with the hook, dealing a total of {3}% / {4}% / {5}% Fire DMG."
+        ],
+        "res_lv18": [240, 480, 720, 240, 480, 720]
       },
       {
         "name": "Thermal Erosion",
         "button_press": "Ping Blaze Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Continuously swings the blade to generate flames, pulling in nearby enemies, dealing Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance onto enemies hit by this attack. If Watanabe uses this skill precisely the moment before being attacked, he will trigger parry, nullifying incoming DMG and gaining Super Armor and 60% DMG Reduction. Gain 1 stack of Thermal Superconductivity and 12 Energy upon performing this skill. Thermal Superconductivity increases the Base DMG of Flaming Purgation.",
-          "result": [
-            "- Deals a total of 1200% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
-          ]
-        }
+        "description": "Continuously swings the blade to generate flames, pulling in nearby enemies, dealing Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance onto enemies hit by this attack. If Watanabe uses this skill precisely the moment before being attacked, he will trigger parry, nullifying incoming DMG and gaining Super Armor and 60% DMG Reduction. Gain 1 stack of Thermal Superconductivity and 12 Energy upon performing this skill. Thermal Superconductivity increases the Base DMG of Flaming Purgation.",
+        "result": [
+          "- Deals a total of {0}% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
+        ],
+        "res_lv18": [1200]
       }
     ],
     "yellow_orb": [
@@ -9968,12 +9956,11 @@
         "name": "Fiery Siphon",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Consecutively spins and slashes, pulling in nearby enemies and dealing Fire DMG.",
-          "result": [
-            "- Deals a total of 230% / 460% / 690% Fire DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Consecutively spins and slashes, pulling in nearby enemies and dealing Fire DMG.",
+        "result": [
+          "- Deals a total of {0}% / {1}% / {2}% Fire DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [230, 460, 690]
       }
     ],
     "blue_orb": [
@@ -9981,10 +9968,9 @@
         "name": "Smelting Glimpse",
         "button_press": "Ping Blue Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Kicks the enemy away, then spins and slashes, dealing Fire DMG.",
-          "result": ["- Deals a total of 220% / 440% / 660% Fire DMG."]
-        }
+        "description": "Kicks the enemy away, then spins and slashes, dealing Fire DMG.",
+        "result": ["- Deals a total of 220% / 440% / 660% Fire DMG."],
+        "res_lv18": [220, 440, 660]
       }
     ],
     "core_passive": {
@@ -9993,44 +9979,47 @@
         {
           "name": "Composite Structure",
           "button_press": "",
-          "description": [
-            "While Paradigm: Patrol is active, Watanabe can only ping Yellow or Blue Orbs and Basic Attacks only generate Yellow or Blue Orbs. After activating  Paradigm: Assault, Watanabe can only ping Red Orbs or Blaze Orbs and Basic Attacks only generate Red Orbs."
-          ],
+          "description": 
+            "While Paradigm: Patrol is active, Watanabe can only ping Yellow or Blue Orbs and Basic Attacks only generate Yellow or Blue Orbs. After activating Paradigm: Assault, Watanabe can only ping Red Orbs or Blaze Orbs and Basic Attacks only generate Red Orbs."
+          ,
           "result": []
         },
         {
           "name": "Engine Optimization",
           "button_press": "Any 3-Ping or enter Matrix",
-          "description": [
-            "Gain  1 point of  Live Ammunition upon a 3-Ping. Maximum points of  Live Ammunition:  3. Gain 1  Blaze Orb upon entering Matrix. Watanabe can hold up to  3 Blaze Orbs at once. Any excess  Blaze Orbs will be converted to Signal Orbs of a random color."
-          ],
+          "description": 
+            "Gain 1 point of Live Ammunition upon a 3-Ping. Maximum points of Live Ammunition: 3. Gain 1 Blaze Orb upon entering Matrix. Watanabe can hold up to 3 Blaze Orbs at once. Any excess Blaze Orbs will be converted to Signal Orbs of a random color."
+          ,
           "result": []
         },
         {
           "name": "Firewalker",
           "button_press": "Paradigm: Assault is active + Hold Dodge",
-          "description": [
+          "description": 
             "Watanabe uses the hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be grabbed, Watanabe himself will rush toward them instead. Gains Super Armor and  40% DMG Reduction while performing this skill. Using Basic Attack or the Red Orb skill while pulling in the enemy can immediately trigger  parry."
-          ],
-          "result": ["- Deals a total of 40% Fire DMG."]
+          ,
+          "result": ["- Deals a total of {0}% Fire DMG."],
+          "res_lv18": [40]
         },
         {
           "name": "Reprisal",
           "button_press": "Trigger parry",
-          "description": [
-            "Successfully  parrying an attack triggers  Rampart, granting a shield equal to  30% of Watanabe's maximum HP, dealing Fire DMG and inflicting  Scorching Invasion that reduces the target's Fire Resistance on the enemies. Repeatedly triggering  Rampart refreshes the shield. When triggering this skill, enter Matrix if not on cooldown."
-          ],
+          "description": 
+            "Successfully  parrying an attack triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP, dealing Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance on the enemies. Repeatedly triggering  Rampart refreshes the shield. When triggering this skill, enter Matrix if not on cooldown."
+          ,
           "result": [
-            "- Deals a total of 360% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
-          ]
+            "- Deals a total of {0}% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
+          ],
+          "res_lv18": [360]
         },
         {
           "name": "Infernal Eruption",
           "button_press": "Paradigm: Assault is active + Possess 3 points of Live Ammunition + Hold Basic Attack",
-          "description": [
-            "Uses the hook to hover in the air, then dive downwards to attack, pulling in nearby enemies and dealing Fire DMG. This will consume  3 points of  Live Ammunition. While performing  Infernal Eruption, Watanabe is invincible, but cannot use  Flaming Purgation. Gains  12 Energy upon performing this skill."
-          ],
-          "result": ["- Deals a total of 1350% Fire DMG."]
+          "description": 
+            "Uses the hook to hover in the air, then dive downwards to attack, pulling in nearby enemies and dealing Fire DMG. This will consume 3 points of Live Ammunition. While performing Infernal Eruption, Watanabe is invincible, but cannot use Flaming Purgation. Gains 12 Energy upon performing this skill."
+          ,
+          "result": ["- Deals a total of {0}% Fire DMG."],
+          "res_lv18": [1350]
         }
       ]
     },
@@ -10040,45 +10029,39 @@
         {
           "name": "Core Release",
           "button_press": "Consume 15 Energy + Tap Signature Move",
-          "description": {
-            "desc": "Watanabe releases the energy stored in his core to activate Paradigm: Assault. Time Lag Calculation is triggered while performing this skill. Deals Fire DMG to enemies in the area upon using this skill and inflicts them with Scorching Invasion which reduces the target's Fire Resistance.",
-            "result": [
-              "- Deals a total of 600% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 10s."
-            ]
-          }
+          "description": "Watanabe releases the energy stored in his core to activate Paradigm: Assault. Time Lag Calculation is triggered while performing this skill. Deals Fire DMG to enemies in the area upon using this skill and inflicts them with Scorching Invasion which reduces the target's Fire Resistance.",
+          "result": [
+            "- Deals a total of {0}% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 10s."
+          ],
+          "res_lv18": [600]
         },
         {
           "name": "Flaming Purgation",
           "button_press": "Consume 100 Energy + Tap Signature Move",
-          "description": {
-            "desc": "Performs interleaved attacks against enemy lines, dealing Fire DMG. After the attack, Watanabe generates Searing Bulwark that continuously damages enemies. Activate Paradigm: Patrol upon performing this skill. Time Lag Calculation is triggered while performing this skill.",
-            "result": [
-              "- The interleaved attacks deal 1800% Fire DMG. Every stack of Thermal Superconductivity increases the Base DMG of Flaming Purgation by 50%. Maximum Thermal Superconductivity stacks: 3. Searing Bulwark bombards the target for 42% Fire DMG every 3s for 12s. Every bombardment attack leaves behind flames that deal 20% Fire DMG every 0.5s for 3s."
-            ]
-          }
+          "description": "Performs interleaved attacks against enemy lines, dealing Fire DMG. After the attack, Watanabe generates Searing Bulwark that continuously damages enemies. Activate Paradigm: Patrol upon performing this skill. Time Lag Calculation is triggered while performing this skill.",
+          "result": [
+            "- The interleaved attacks deal {0}% Fire DMG. Every stack of Thermal Superconductivity increases the Base DMG of Flaming Purgation by 50%. Maximum Thermal Superconductivity stacks: 3. Searing Bulwark bombards the target for {1}% Fire DMG every 3s for 12s. Every bombardment attack leaves behind flames that deal {2}% Fire DMG every 0.5s for 3s."
+          ],
+          "res_lv18": [1800, 42, 20]
         }
       ]
     },
     "qte": {
       "name": "Pincer Besiegement",
-      "description": "Consecutively spins and slashes to pull in nearby enemies, dealing Fire DMG, and inflicting them with  Scorching Invasion which reduces the target's Fire Resistance.",
+      "description": "Consecutively spins and slashes to pull in nearby enemies, dealing Fire DMG, and inflicting them with Scorching Invasion which reduces the target's Fire Resistance.",
       "result": [
-        "- Deals 600% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
-      ]
+        "- Deals {0}% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
+      ],
+      "res_lv18": [600]
     },
     "leader": {
       "name": "Guardian's Aegis",
-      "description": {
-        "desc": "Fire DMG of all team members increases by 10%. DMG of Tank Omniframes increases by 5%.",
-        "result": []
-      }
+      "description": "Fire DMG of all team members increases by 10%. DMG of Tank Omniframes increases by 5%."
     },
     "class": {
       "name": "Tank",
-      "description": {
-        "desc": "Attacks reduce the target's Extra DMG Reduction by 20% for 5s.",
-        "result": []
-      }
+      "description": "Attacks reduce the target's Extra DMG Reduction by {0}% for 5s.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Moment of Onslaught",
