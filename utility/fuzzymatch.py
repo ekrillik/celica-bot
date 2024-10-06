@@ -91,7 +91,7 @@ def fuzzmatch(string) -> str:
             character = "glory"
         case "xxi" | "21" | "crazy kid":
             character = "xxi"
-        case "garnet" | "flare" | "dog owner" | "yinlin":
+        case "garnet" | "flare" | "dog owner" | "yinlin" | "zex's master":
             character = "garnet"
         case "flambeau" | "roland" | "kuraimakusu" | "clown" | "theatre" | "curtain call":
             character = "flambeau"
@@ -113,7 +113,7 @@ def fuzzmatch(string) -> str:
             character = "stigmata"
         case "vitrum" | "bambinata" | "bambi" | "bombi" | "doll" | "puppet" | "dementia doll":
             character = "vitrum"
-        case "supercar" | "car" | "hyper" | "hyperreal" | "xly" | "xiangli yao" | "hypertrash" | "hypermonke" | "hypercuck":
+        case "supercar" | "car" | "hyper" | "hyperreal" | "xly" | "xiangli yao" | "hypertrash" | "hypermonke" | "hypercuck" | "zeru's sun":
             character = "hyperreal"
         case "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi":
             character = "kaleido"  
