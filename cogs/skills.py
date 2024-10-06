@@ -21,7 +21,7 @@ class Skills(commands.Cog):
         with open('data/skills.json') as file:
             self.skills = json.load(file)
 
-    async def grab_skill(self, ctx, character, skill_type):
+    async def grab_skill(self, ctx, character, skill_type, level = 18):
         skillset = self.skills.get(character)
         if skillset is None:
             content = "This character does not exist. Please try again."
@@ -77,12 +77,14 @@ class Skills(commands.Cog):
 
         theme = character_theme(character)
 
-        if len(skill) > 1 and skill_type in ['Leap', 'Core Passive', 'Basic Attack', 'Red Orb', 'Yellow Orb', 'Blue Orb', 'Signature/Ultimate']:
-            view = PaginationView(ctx.author, data=skill, pagination_type="skills", skill_type=skill_type, theme=theme)
+        if skill_type in ['Leap', 'Basic Attack', 'Red Orb', 'Yellow Orb', 'Blue Orb']and len(skill) > 1:
+            view = PaginationView(ctx.author, data=skill, pagination_type="skills", skill_type=skill_type, theme=theme, level=level)
+        elif skill_type in ['Core Passive', 'Signature/Ultimate'] and len(skill['skills']) > 1 :
+            view = PaginationView(ctx.author, data=skill, pagination_type="skills", skill_type=skill_type, theme=theme, level=level)
         else:
             view = GeneralView(ctx.author)
 
-        embed = self.embedconf.skillsEmbed(skill, skill_type, colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3])
+        embed = self.embedconf.skillsEmbed(skill, skill_type, colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3], level=level)
         view.message = await ctx.send(embed=embed, view=view)
 
     @commands.Cog.listener()
@@ -107,106 +109,248 @@ class Skills(commands.Cog):
             await ctx.send(content=f"The name {frame} does not exist!")
 
     @commands.hybrid_command(aliases=['Basic'], description="Displays the basic attack skill for a particular character.")
-    async def basic(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def basic(self, ctx: commands.Context, *, frame) -> None:
+        level = 0
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
+        else:
+            level = 18
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
-        await self.grab_skill(ctx, character, 'basic')
+        await self.grab_skill(ctx, character, 'basic', level)
 
     @commands.hybrid_command(aliases=['Red'], description="Displays the red orb skill for a particular character.")
-    async def red(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def red(self, ctx: commands.Context, *, frame) -> None:
+        level = 0
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
+        else:
+            level = 18
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
-        await self.grab_skill(ctx, character, 'red')
+        await self.grab_skill(ctx, character, 'red', level)
 
     @commands.hybrid_command(aliases=['Yellow'], description="Displays the yellow orb skill for a particular character.")
-    async def yellow(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def yellow(self, ctx: commands.Context, *, frame) -> None:
+        level = 0
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
+        else:
+            level = 18
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
-        await self.grab_skill(ctx, character, 'yellow')
+        await self.grab_skill(ctx, character, 'yellow', level)
 
     @commands.hybrid_command(aliases=['Blue'], description="Displays the blue orb skill for a particular character.")
-    async def blue(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def blue(self, ctx: commands.Context, *, frame) -> None:
+        level = 0
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
+        else:
+            level = 18
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
-        await self.grab_skill(ctx, character, 'blue')
+        await self.grab_skill(ctx, character, 'blue', level)
 
     @commands.hybrid_command(aliases=['Core'], description="Displays the core passive skill for a particular character.")
-    async def core(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def core(self, ctx: commands.Context, *, frame) -> None:
+        level = 0
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
+        else:
+            level = 18
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
-        await self.grab_skill(ctx, character, 'core')
+        await self.grab_skill(ctx, character, 'core', level)
 
     @commands.hybrid_command(aliases=['Signature', 'ult', 'Ult', 'ultimate', 'Ultimate'], description="Displays the signature skill/ultimate for a particular character.")
-    async def signature(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def signature(self, ctx: commands.Context, *, frame) -> None:
+        level = 0
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
+        else:
+            level = 18   
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
-        await self.grab_skill(ctx, character, 'signature')
+        await self.grab_skill(ctx, character, 'signature', level)
 
     @commands.hybrid_command(aliases=['QTE', 'Qte'], description="Displays the QTE skill for a particular character.")
-    async def qte(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def qte(self, ctx: commands.Context, *, frame) -> None:
+        level = 0
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
+        else:
+            level = 18
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
-        await self.grab_skill(ctx, character, 'qte')
+        await self.grab_skill(ctx, character, 'qte', level)
 
     @commands.hybrid_command(aliases=['Leader'], description="Displays the leader passive skill for a particular character.")
-    async def leader(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def leader(self, ctx: commands.Context, *, frame) -> None:
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            str_array.pop()
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'leader')
 
     @commands.hybrid_command(name="class", aliases=['Class'], description="Displays the class passive skill for a particular character.")
-    async def class_passive(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def class_passive(self, ctx: commands.Context, *, frame) -> None:
+        level = 0
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                level = 18
+                str_array.pop()
+        else:
+            level = 18      
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
-        await self.grab_skill(ctx, character, 'class')
+        await self.grab_skill(ctx, character, 'class', level)
 
     @commands.hybrid_command(aliases=['SS', '2S', '2s', 's5', 'S5'], description="Displays the SS rank skills for a particular character.")
-    async def ss(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def ss(self, ctx: commands.Context, *, frame) -> None:
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            str_array.pop()
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'ss')
 
     @commands.hybrid_command(aliases=['SSS', '3S', '3s', 'SS3', 'ss3'], description="Displays the SSS rank skills for a particular character.")
-    async def sss(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def sss(self, ctx: commands.Context, *, frame) -> None:
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            str_array.pop()     
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'sss')
 
     @commands.hybrid_command(name="splus", aliases=['s+', 'SSS+', 'S+', '3S+', '3s+'], description="Displays the S+ rank skills for a particular character.")
-    async def splus(self, ctx: commands.Context, *, frame, level = 18) -> None:
-        name = fuzzmatch(frame)
+    async def splus(self, ctx: commands.Context, *, frame) -> None:
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            str_array.pop()
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 's+')
 
     @commands.hybrid_command(aliases=['Leap'], description="Displays the leap skills for a particular character.")
     async def leap(self, ctx: commands.Context, *, frame) -> None:
-        name = fuzzmatch(frame)
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            str_array.pop()
+        nickname = " ".join(str_array)
+
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'leap')
 

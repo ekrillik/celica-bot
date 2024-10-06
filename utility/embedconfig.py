@@ -7,6 +7,15 @@ class EmbedClass:
                 build = i
         return build
 
+    def calculate_actual_damage(self, string, damage_array, level):
+        damage_numbers = []
+        for number in damage_array:
+            lv1 = float(number)/2.0
+            actual_number = lv1*(1 + (float(level) - 1)/17)
+            damage_numbers.append(round(actual_number, 2))
+
+        return string.format(*damage_numbers)
+
     def choose_cub_skills(self, active, passive, choice):
         if(choice == "active"):
             return active
@@ -188,88 +197,84 @@ class EmbedClass:
             )
         return embed
 
-    def skillsEmbed(self, skill, selection, cur_page = 0, colour=0xffffff, chibi_avatar="", user="", thumbnail = ""):
+    def skillsEmbed(self, skill, selection, cur_page = 0, colour=0xffffff, chibi_avatar="", user="", thumbnail = "", level = 18):
         match selection:
             case "Basic Attack" | "Red Orb" | "Blue Orb" | "Yellow Orb" :
                 if(skill[cur_page]['button_press'] != ""):
-                    embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**\n**Trigger:** {skill[cur_page]['button_press']}", color=colour)
+                    embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{skill[cur_page]['name']}**\n**Trigger:** {skill[cur_page]['button_press']}", color=colour)
                 else:
-                    embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**", color=colour)
+                    embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{skill[cur_page]['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)
                 embed.set_author(name=user, icon_url=chibi_avatar)
-                description = skill[cur_page]['description']
+                if 'desc_lv18' in skill[cur_page]:
+                    description = self.calculate_actual_damage(skill[cur_page]['description'], skill[cur_page]['desc_lv18'], level)
+                else:
+                    description = skill[cur_page]['description']
                 embed.add_field(
                     name="",
-                    value=f"{description['desc']}",
+                    value=f"{description}",
                     inline=False
                 )
-                results = description['result']
-                if len(results) > 0:
-                    for result in results:
-                        embed.add_field(
-                            name="",
-                            value=f"{result}",
-                            inline=False
-                        )
+                if 'result' in skill[cur_page]:
+                    if 'res_lv18' in skill[cur_page]:
+                        result = self.calculate_actual_damage("\n".join(skill[cur_page]['result']), skill[cur_page]['res_lv18'], level)
+                    else:
+                        result = skill[cur_page]['result']
+                    embed.add_field(
+                        name="",
+                        value=f"{result}",
+                        inline=False
+                    )
+                if 'result2' in skill[cur_page]:
+                    if 'res2_lv18' in skill[cur_page]:
+                        result = self.calculate_actual_damage("\n".join(skill[cur_page]['result2']), skill[cur_page]['res2_lv18'], level)
+                    else:
+                        result = skill[cur_page]['result2']
+                    embed.add_field(
+                        name="",
+                        value=f"{result}",
+                        inline=False
+                    )
                 embed.set_footer(text=f"{cur_page + 1}/{len(skill)}")
-            case "Core Passive":
+            case "Core Passive" | "Signature/Ultimate":
                 if(skill['skills'][cur_page]['button_press'] != ""):
-                    embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**\n**Trigger:** {skill['skills'][cur_page]['button_press']}", color=colour)
+                    embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**\n**Trigger:** {skill['skills'][cur_page]['button_press']}", color=colour)
                 else:
-                    embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**", color=colour)
+                    embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)
                 embed.set_author(name=user, icon_url=chibi_avatar)
-                descriptions = skill['skills'][cur_page]['description']
-                if len(descriptions) > 0:
-                    for description in descriptions:
-                        embed.add_field(
-                            name="",
-                            value=f"{description}",
-                            inline=False
-                        )
-                results = skill['skills'][cur_page]['result']
-                if len(results) > 0:
-                    for result in results:
-                        embed.add_field(
-                            name="",
-                            value=f"{result}",
-                            inline=False
-                        )
-                embed.set_footer(text=f"{cur_page + 1}/{len(skill['skills'])}")
-            case "Signature/Ultimate":
-                if(skill['skills'][cur_page]['button_press'] != ""):
-                    embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**\n**Trigger:** {skill['skills'][cur_page]['button_press']}", color=colour)
+                if 'desc_lv18' in skill['skills'][cur_page]:
+                    description = self.calculate_actual_damage("\n".join(skill['skills'][cur_page]['description']), skill['skills'][cur_page]['desc_lv18'], level)
                 else:
-                    embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']} - {skill['skills'][cur_page]['name']}**", color=colour)
-                embed.set_thumbnail(url=thumbnail)
-                embed.set_author(name=user, icon_url=chibi_avatar)
-                description = skill['skills'][cur_page]['description']
+                    description = "\n".join(skill['skills'][cur_page]['description'])
                 embed.add_field(
                     name="",
-                    value=f"{description['desc']}",
+                    value=f"{description}",
                     inline=False
                 )
-                results = description['result']
-                if len(results) > 0:
-                    for result in results:
-                        embed.add_field(
-                            name="",
-                            value=f"{result}",
-                            inline=False
-                        )
+                if 'description2' in skill['skills'][cur_page]:
+                    if 'desc2_lv18' in skill['skills'][cur_page]:
+                        description = self.calculate_actual_damage("\n".join(skill['skills'][cur_page]['description2']), skill['skills'][cur_page]['desc2_lv18'], level)
+                    else:
+                        description = "\n".join(skill['skills'][cur_page]['description2'])
+                    embed.add_field(
+                        name="",
+                        value=f"{description}",
+                        inline=False
+                    )
+                if 'result' in skill['skills'][cur_page]:
+                    if 'res_lv18' in skill['skills'][cur_page]:
+                        result = self.calculate_actual_damage("\n".join(skill['skills'][cur_page]['result']), skill['skills'][cur_page]['res_lv18'], level)
+                    else:
+                        result = "\n".join(skill['skills'][cur_page]['result'])
+                    embed.add_field(
+                        name="",
+                        value=f"{result}",
+                        inline=False
+                    )
                 embed.set_footer(text=f"{cur_page + 1}/{len(skill['skills'])}")
-            case "Leader Passive" | "Class Passive":
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**", color=colour)
-                embed.set_thumbnail(url=thumbnail)
-                embed.set_author(name=user, icon_url=chibi_avatar)
-                description = skill['description']
-                embed.add_field(
-                    name="",
-                    value=f"{description['desc']}",
-                    inline=False
-                )
-            case "QTE":
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**", color=colour)
+            case "Leader Passive":
+                embed = discord.Embed(title=f"Skill - {selection} (Lv. 1)", description=f"**{skill['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)
                 embed.set_author(name=user, icon_url=chibi_avatar)
                 embed.add_field(
@@ -277,7 +282,31 @@ class EmbedClass:
                     value=f"{skill['description']}",
                     inline=False
                 )
-                for result in skill['result']:
+            case "Class Passive":
+                embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{skill['name']}**", color=colour)
+                embed.set_thumbnail(url=thumbnail)
+                embed.set_author(name=user, icon_url=chibi_avatar)
+                description = self.calculate_actual_damage(skill['description'], skill['desc_lv18'], level)
+                embed.add_field(
+                    name="",
+                    value=f"{description}",
+                    inline=False
+                )
+            case "QTE":
+                embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{skill['name']}**", color=colour)
+                embed.set_thumbnail(url=thumbnail)
+                embed.set_author(name=user, icon_url=chibi_avatar)
+                if 'desc_lv18' in skill:
+                    description = self.calculate_actual_damage(skill['description'], skill['desc_lv18'], level)
+                else:
+                    description = skill['description']
+                embed.add_field(
+                    name="",
+                    value=f"{description}",
+                    inline=False
+                )
+                if 'result' in skill:
+                    result = self.calculate_actual_damage("\n".join(skill['result']), skill['res_lv18'], level)
                     embed.add_field(
                         name="",
                         value=f"{result}",
