@@ -219,7 +219,8 @@ class EmbedClass:
                     if 'res_lv18' in skill[cur_page]:
                         result = self.calculate_actual_damage("\n".join(skill[cur_page]['result']), skill[cur_page]['res_lv18'], level)
                     else:
-                        result = skill[cur_page]['result']
+                        result = "\n".join(skill[cur_page]['result'])
+                    print(result)
                     embed.add_field(
                         name="",
                         value=f"{result}",
@@ -229,7 +230,7 @@ class EmbedClass:
                     if 'res2_lv18' in skill[cur_page]:
                         result = self.calculate_actual_damage("\n".join(skill[cur_page]['result2']), skill[cur_page]['res2_lv18'], level)
                     else:
-                        result = skill[cur_page]['result2']
+                        result = "\n".join(skill[cur_page]['result2'])
                     embed.add_field(
                         name="",
                         value=f"{result}",
@@ -272,6 +273,16 @@ class EmbedClass:
                         value=f"{result}",
                         inline=False
                     )
+                if 'result2' in skill['skills'][cur_page]:
+                    if 'res2_lv18' in skill['skills'][cur_page]:
+                        result = self.calculate_actual_damage("\n".join(skill['skills'][cur_page]['result2']), skill['skills'][cur_page]['res2_lv18'], level)
+                    else:
+                        result = "\n".join(skill['skills'][cur_page]['result2'])
+                    embed.add_field(
+                        name="",
+                        value=f"{result}",
+                        inline=False
+                    )
                 embed.set_footer(text=f"{cur_page + 1}/{len(skill['skills'])}")
             case "Leader Passive":
                 embed = discord.Embed(title=f"Skill - {selection} (Lv. 1)", description=f"**{skill['name']}**", color=colour)
@@ -306,7 +317,11 @@ class EmbedClass:
                     inline=False
                 )
                 if 'result' in skill:
-                    result = self.calculate_actual_damage("\n".join(skill['result']), skill['res_lv18'], level)
+                    if 'res_lv18' in skill:
+                        result = self.calculate_actual_damage("\n".join(skill['result']), skill['res_lv18'], level)
+                    else:
+                        result = "\n".join(skill['result'])
+                    
                     embed.add_field(
                         name="",
                         value=f"{result}",
