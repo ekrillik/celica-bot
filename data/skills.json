@@ -2979,9 +2979,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Blue Orb",
-          "description": [
-            "Pinging any Blue Orbs after any 3-Ping generates Shield. When Shield expires or is replaced by a new Shield, it explodes and deals Lightning DMG to nearby targets."
-          ],
+          "description": "Pinging any Blue Orbs after any 3-Ping generates Shield. When Shield expires or is replaced by a new Shield, it explodes and deals Lightning DMG to nearby targets.",
           "result": [
             "- Generates Shield equal to {0}% of max HP for 4s.",
             "- Deals {1}% Lightning DMG to nearby targets if Shield expires or is replaced."
@@ -3155,9 +3153,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping",
-          "description": [
-            "In Normal Form, every 3-Ping grants Energy and Signature Point (up to 2 Points in Normal Form)."
-          ],
+          "description": "In Normal Form, every 3-Ping grants Energy and Signature Point (up to 2 Points in Normal Form).",
           "result": ["- Every 3-Ping grants 50% Energy and 1 Signature Point."]
         },
         {
