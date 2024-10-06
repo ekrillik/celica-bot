@@ -9897,10 +9897,13 @@
           "- Overconstrue shares the same Frequency as Coupling. In addition, each Computation Point increases the Base DMG of Overconstrue triggered by an Extreme Dodge or releasing Basic Attack at the precise time during Coupling by 20%.",
           "- Overconstrue: Low Frequency throws an uppercut with the bear's paw, dealing {0}% Dark DMG.",
           "- Overconstrue: Medium Frequency smashes the enemy down with the bear's paw, dealing {1}% Dark DMG and granting Teddy 10 Energy.",
-          "- Overconstrue: High Frequency smashes the enemy down with the enhanced bear's paw, dealing {2}% Dark DMG, granting Teddy 30 Energy, and activating Overflow Zone that lasts for 8s.",
-          "- Overflow Zone heals the allies inside for {3}% of Teddy: Decryptor's ATK and grants them Dark Radiation and Homeostasis Dissociation every 4s. Dark Radiation increases Dark DMG by 10% for 4s. While Homeostasis Dissociation is active, Teddy: Decryptor deals 100% Extra DMG against enemies' Homeostatic Forcefield, and other allies deal 30% Extra DMG against enemies' Homeostatic Forcefield."
+          "- Overconstrue: High Frequency smashes the enemy down with the enhanced bear's paw, dealing {2}% Dark DMG, granting Teddy 30 Energy, and activating Overflow Zone that lasts for 8s."
         ],
-        "res_lv18": [300, 500, 500, 80]
+        "res_lv18": [300, 500, 500],
+        "result2": [
+          "- Overflow Zone heals the allies inside for {0}% of Teddy: Decryptor's ATK and grants them Dark Radiation and Homeostasis Dissociation every 4s. Dark Radiation increases Dark DMG by 10% for 4s. While Homeostasis Dissociation is active, Teddy: Decryptor deals 100% Extra DMG against enemies' Homeostatic Forcefield, and other allies deal 30% Extra DMG against enemies' Homeostatic Forcefield."
+        ],
+        "res2_lv18": [80]
       }
     ],
     "red_orb": [
