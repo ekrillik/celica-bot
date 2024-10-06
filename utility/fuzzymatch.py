@@ -117,7 +117,7 @@ def fuzzmatch(string) -> str:
             character = "hyperreal"
         case "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi":
             character = "kaleido"  
-        case "crimson weave" | "weave" | "motivation" | "vergil's daughter" | "cw" | "blanc's curse" | "bury the light":
+        case "crimson weave" | "weave" | "motivation" | "vergil's daughter" | "cw" | "blanc's curse" | "bury the light" | "matt's girl":
             character = "crimson weave"
         case "zitherwoe" | "zitherhoe":
             character = "zitherwoe"
@@ -127,7 +127,7 @@ def fuzzmatch(string) -> str:
             character = "indomitus"
         case "alisa" | "echo" | "arrest me pls":
             character = "echo"
-        case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty":
+        case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty" | "kev's waifu":
             character = "lost lullaby"
         case "brs" | "brick rock shooter" | "edgy miku" | "black rock shooter":
             character = "brs"
