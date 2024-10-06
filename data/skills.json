@@ -9532,24 +9532,32 @@
         {
           "name": "Composite Structure",
           "button_press": "",
-          "description": "While Paradigm: Patrol is active, Watanabe can only ping Yellow or Blue Orbs and Basic Attacks only generate Yellow or Blue Orbs. After activating Paradigm: Assault, Watanabe can only ping Red Orbs or Blaze Orbs and Basic Attacks only generate Red Orbs."
+          "description": [
+            "While Paradigm: Patrol is active, Watanabe can only ping Yellow or Blue Orbs and Basic Attacks only generate Yellow or Blue Orbs. After activating Paradigm: Assault, Watanabe can only ping Red Orbs or Blaze Orbs and Basic Attacks only generate Red Orbs."
+          ]
         },
         {
           "name": "Engine Optimization",
           "button_press": "Any 3-Ping or enter Matrix",
-          "description": "Gain 1 point of Live Ammunition upon a 3-Ping. Maximum points of Live Ammunition: 3. Gain 1 Blaze Orb upon entering Matrix. Watanabe can hold up to 3 Blaze Orbs at once. Any excess Blaze Orbs will be converted to Signal Orbs of a random color."
+          "description": [
+            "Gain 1 point of Live Ammunition upon a 3-Ping. Maximum points of Live Ammunition: 3. Gain 1 Blaze Orb upon entering Matrix. Watanabe can hold up to 3 Blaze Orbs at once. Any excess Blaze Orbs will be converted to Signal Orbs of a random color."
+          ]
         },
         {
           "name": "Firewalker",
           "button_press": "Paradigm: Assault is active + Hold Dodge",
-          "description": "Watanabe uses the hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be grabbed, Watanabe himself will rush toward them instead. Gains Super Armor and  40% DMG Reduction while performing this skill. Using Basic Attack or the Red Orb skill while pulling in the enemy can immediately trigger  parry.",
+          "description": [
+            "Watanabe uses the hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be grabbed, Watanabe himself will rush toward them instead. Gains Super Armor and  40% DMG Reduction while performing this skill. Using Basic Attack or the Red Orb skill while pulling in the enemy can immediately trigger  parry."
+          ],
           "result": ["- Deals a total of {0}% Fire DMG."],
           "res_lv18": [40]
         },
         {
           "name": "Reprisal",
           "button_press": "Trigger parry",
-          "description": "Successfully  parrying an attack triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP, dealing Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance on the enemies. Repeatedly triggering  Rampart refreshes the shield. When triggering this skill, enter Matrix if not on cooldown.",
+          "description": [
+            "Successfully  parrying an attack triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP, dealing Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance on the enemies. Repeatedly triggering  Rampart refreshes the shield. When triggering this skill, enter Matrix if not on cooldown."
+          ],
           "result": [
             "- Deals a total of {0}% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
           ],
@@ -9558,7 +9566,9 @@
         {
           "name": "Infernal Eruption",
           "button_press": "Paradigm: Assault is active + Possess 3 points of Live Ammunition + Hold Basic Attack",
-          "description": "Uses the hook to hover in the air, then dive downwards to attack, pulling in nearby enemies and dealing Fire DMG. This will consume 3 points of Live Ammunition. While performing Infernal Eruption, Watanabe is invincible, but cannot use Flaming Purgation. Gains 12 Energy upon performing this skill.",
+          "description": [
+            "Uses the hook to hover in the air, then dive downwards to attack, pulling in nearby enemies and dealing Fire DMG. This will consume 3 points of Live Ammunition. While performing Infernal Eruption, Watanabe is invincible, but cannot use Flaming Purgation. Gains 12 Energy upon performing this skill."
+          ],
           "result": ["- Deals a total of {0}% Fire DMG."],
           "res_lv18": [1350]
         }
