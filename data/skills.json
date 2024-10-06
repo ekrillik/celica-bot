@@ -53,9 +53,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Red Orb",
-          "description": 
-            "Lucia: Lotus enters Burst Form when a Red Orb in pinged within 3s after any 3-Ping, replacing Basic Attacks with Dual Blades.\nLotus - Dual Blades: Attacks the enemy multiple times, dealing Physical DMG."
-          ,
+          "description": "Lucia: Lotus enters Burst Form when a Red Orb in pinged within 3s after any 3-Ping, replacing Basic Attacks with Dual Blades.\nLotus - Dual Blades: Attacks the enemy multiple times, dealing Physical DMG.",
           "result": ["- Deals {0}% Physical DMG in total."],
           "res_lv18": [1080]
         }
@@ -292,8 +290,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3 ping + Ping Yellow Orb",
-          "description": 
-            "When pinging a yellow Orb after any 3-Ping, Nanami: Storm will cast EX - Slash Storm to launch consecutive attacks at nearby enemies.",
+          "description": "When pinging a yellow Orb after any 3-Ping, Nanami: Storm will cast EX - Slash Storm to launch consecutive attacks at nearby enemies.",
           "result": [
             "- Launch 8 consecutive attacks at nearby enemies, each dealing {0}% Physical DMG."
           ],
@@ -555,7 +552,7 @@
         "name": "Virtual Barrier",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description":  "Deploys an ion wall at the target location that shocks enemies passing through, dealing Lightning DMG every second and reducing their movement speed. The targets hit will also be marked. Applying the mark again refreshes its duration.",
+        "description": "Deploys an ion wall at the target location that shocks enemies passing through, dealing Lightning DMG every second and reducing their movement speed. The targets hit will also be marked. Applying the mark again refreshes its duration.",
         "result": [
           "- The ion wall lasts 2 / 4 / 6s and deals {0}% Lightning DMG to the enemies passing through based on the number of orbs pinged.",
           "- Reduces the enemies'movement speed by 20 / 40 / 80% based on the number of orbs pinged.",
@@ -570,8 +567,7 @@
         {
           "name": "Core Passive",
           "button_press": "Ping Red Orb (chance to trigger) / Ping Blue Orb + Tap Basic Attack (chance to trigger)",
-          "description": 
-            "When Basic Attacks hit marked enemies, there is a chance to trigger Lightning Lure and deal Lightning DMG. Pinging Red Orbs also has a chance to trigger  Lightning Lure. After triggering Lightning Lure for 4 times, the next Lightning Lure will summon EX Lightning Lure, dealing Lightning DMG and healing allies in the area.",
+          "description": "When Basic Attacks hit marked enemies, there is a chance to trigger Lightning Lure and deal Lightning DMG. Pinging Red Orbs also has a chance to trigger  Lightning Lure. After triggering Lightning Lure for 4 times, the next Lightning Lure will summon EX Lightning Lure, dealing Lightning DMG and healing allies in the area.",
           "result": [
             "- Basic Attacks have a 30% chance to trigger Lightning Lure when they hit marked enemies.",
             "- Pinging Red Orbs has a 30 / 60 / 100% chance to trigger Lightning Lure based on the number of orbs pinged.",
@@ -676,7 +672,7 @@
         "result": [
           "- The explosion deals {0}% / {1}% / {2}% Fire DMG based on the number of Yellow Orbs pinged. The burning area lasts 3 /4 /5s and deals {3}% / {4}% / {5}% Fire DMG every 0.5s.- Attacking enemies in the burning area deals them {6}% Extra Fire DMG (this effect triggers up to once every 0.1s)."
         ],
-        "res_lv18": [100,150,200,12,24,36,12]
+        "res_lv18": [100, 150, 200, 12, 24, 36, 12]
       }
     ],
     "blue_orb": [
@@ -697,8 +693,7 @@
         {
           "name": "Core Passive",
           "button_press": "Ping Yellow Orb + Ping Red Orb",
-          "description": 
-            "After pinging a Yellow Orb, the next Red Ping will grant Blast, making Lee's shot explode after hitting the target, dealing Fire DMG to enemies in the area.",
+          "description": "After pinging a Yellow Orb, the next Red Ping will grant Blast, making Lee's shot explode after hitting the target, dealing Fire DMG to enemies in the area.",
           "result": [
             "- The explosion deals {0}% Fire DMG to enemies in the area."
           ],
@@ -860,8 +855,7 @@
         {
           "name": "Core Passive",
           "button_press": "Two 3-Pings + Tap Basic Attack",
-          "description": 
-            "The final strike of each 3-Ping marks the target. Releases a shade when the mark reaches 2 stacks. The shade attacks once with every Basic Attack.",
+          "description": "The final strike of each 3-Ping marks the target. Releases a shade when the mark reaches 2 stacks. The shade attacks once with every Basic Attack.",
           "result": [
             "- The shade deals {0}% Physical DMG with every attack.",
             "- The shade lasts 5s."
@@ -979,8 +973,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Tap Signature",
-          "description": 
-            "Stores 1 energy arrow in the quiver after every 3-Ping. All arrows will be released when casting the next Signature Move, each dealing Extra Physical DMG to the target.",
+          "description": "Stores 1 energy arrow in the quiver after every 3-Ping. All arrows will be released when casting the next Signature Move, each dealing Extra Physical DMG to the target.",
           "result": [
             "- Each energy arrow deals {0}% Extra Physical DMG twice.",
             "- Each 3-Ping stores 1 energy arrow (max 3)."
@@ -1101,8 +1094,7 @@
         {
           "name": "Core Passive",
           "button_press": "Three 3-Pings + Tap Basic Attack",
-          "description": 
-            "Karenina: Blast enters Burst Form after three 3-Pings or casting a Signature Move, replacing her Basic Attacks with ranged artillery attacks.",
+          "description": "Karenina: Blast enters Burst Form after three 3-Pings or casting a Signature Move, replacing her Basic Attacks with ranged artillery attacks.",
           "result": [
             "- Burst Form lasts 3s. Each projectile deals {0}% Physical DMG."
           ],
@@ -1184,7 +1176,7 @@
         "description": "Fires a beam at the target location, dealing Physical DMG and reducing the movement speed of targets. Reduces Extra DMG Bonus of targets upon a 3-Ping.",
         "result": [
           "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
-          "- Reduces movement speed of targets by 20% for 3s.", 
+          "- Reduces movement speed of targets by 20% for 3s.",
           "- Reduces Extra DMG Bonus of targets by 5% for 5s."
         ],
         "res_lv18": [200, 400, 600]
@@ -1221,7 +1213,9 @@
           "name": "Core Passive",
           "button_press": "Ping Blue Orb + Tap Basic Attack (chance to trigger)",
           "description": "Attacking marked enemies has a chance to trigger Light Penalty, dealing Physical DMG.",
-          "result": ["- Light Penalty has a 20% chance to trigger and deals {0}% Physical DMG."],
+          "result": [
+            "- Light Penalty has a 20% chance to trigger and deals {0}% Physical DMG."
+          ],
           "res_lv18": [150]
         },
         {
@@ -1389,9 +1383,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Red Orb",
-          "description": 
-            "After any 3-Ping, pinging the next Red Orb will fire consecutive shots that strike the target, dealing Physical DMG."
-          ,
+          "description": "After any 3-Ping, pinging the next Red Orb will fire consecutive shots that strike the target, dealing Physical DMG.",
           "result": ["- Every shot deals {0}% Physical DMG."],
           "res_lv18": [55]
         }
@@ -1545,9 +1537,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping / Cast Signature",
-          "description": 
-            "Gains Thermal Energy upon entering battle. Thermal Energy can be gained via 3-Pings and Signature move. "
-          ,
+          "description": "Gains Thermal Energy upon entering battle. Thermal Energy can be gained via 3-Pings and Signature move. ",
           "result": [
             "- Increases Thermal Energy gained when entering battle by 3% per skill level."
           ]
@@ -1555,9 +1545,7 @@
         {
           "name": "Core Passive",
           "button_press": "Thermal Energy reaches 50%",
-          "description": 
-            "Enters Enhanced Form once Thermal Energy reaches 50%, gaining Fire DMG Bonus and granting additional effects to Signal Orb skills and Basic Attacks. Thermal Energy decreases over time in Enhanced Form.- Gains {0}% Fire DMG Bonus in Enhanced Form."
-          ,
+          "description": "Enters Enhanced Form once Thermal Energy reaches 50%, gaining Fire DMG Bonus and granting additional effects to Signal Orb skills and Basic Attacks. Thermal Energy decreases over time in Enhanced Form.- Gains {0}% Fire DMG Bonus in Enhanced Form.",
           "desc_lv18": [20],
           "result": [
             "- Thermal Energy decreases by 5% per second in Enhanced Form. "
@@ -1573,9 +1561,7 @@
           "button_press": "100 Energy + Tap Signature",
           "description": "Shoots a laser at the ground by {0}% Fire DMG and leaves a path of fire for 5 seconds in the end.",
           "desc_lv18": [200],
-          "result": [
-            "All enemies in the path take {0}% Fire DMG per second. "
-          ],
+          "result": ["All enemies in the path take {0}% Fire DMG per second. "],
           "res_lv18": [200]
         }
       ]
@@ -1677,8 +1663,7 @@
         {
           "name": "Core Passive",
           "button_press": "Cast Signature Move + Tap Basic Attack",
-          "description": 
-            "Nanami: Pulse enters Overclocking State after casting Signature Move. In this state, her Basic Attacks deal Fire DMG instead and reduce the Fire Resistance of the targets hit by {0}% for 8s.",
+          "description": "Nanami: Pulse enters Overclocking State after casting Signature Move. In this state, her Basic Attacks deal Fire DMG instead and reduce the Fire Resistance of the targets hit by {0}% for 8s.",
           "desc_lv18": [15]
         }
       ]
@@ -1874,9 +1859,7 @@
         {
           "name": "Core Passive",
           "button_press": "Dark Form + Passive",
-          "description": 
-            "In Dark Form, Physical Resistance and Dark Resistance increase by {0}%."
-          ,
+          "description": "In Dark Form, Physical Resistance and Dark Resistance increase by {0}%.",
           "desc_lv18": [30]
         }
       ]
@@ -2020,15 +2003,12 @@
         {
           "name": "Core Passive",
           "button_press": "Blue 3-Ping + Any 3-Ping",
-          "description": 
-            "Any 3-Ping after a blue 3-Ping causes Alpha to fall back and enter into the Blade Will state. All available signal orbs will be converted into Blade Will Orbs and Alpha gains 2 additional Blade Will Orbs. In the Blade Will state, signal orbs gained by basic attacks will be converted into Blade Will Orbs."
+          "description": "Any 3-Ping after a blue 3-Ping causes Alpha to fall back and enter into the Blade Will state. All available signal orbs will be converted into Blade Will Orbs and Alpha gains 2 additional Blade Will Orbs. In the Blade Will state, signal orbs gained by basic attacks will be converted into Blade Will Orbs."
         },
         {
           "name": "Core Passive",
           "button_press": "Blade Will + Ping Blade Will Orb",
-          "description": 
-            "Pinging a Blade Will Orb unleashes swordwaves, dealing Physical DMG and granting Super Armor during the attack."
-          ,
+          "description": "Pinging a Blade Will Orb unleashes swordwaves, dealing Physical DMG and granting Super Armor during the attack.",
           "result": ["- Each Blade Will Orb deals {0}% Physical DMG."],
           "res_lv18": [340]
         }
@@ -2148,7 +2128,7 @@
         "name": "Great Slash",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description":  "Slashes the target and deals Physical DMG. Unleashes an extra slash upon a 3-Ping.",
+        "description": "Slashes the target and deals Physical DMG. Unleashes an extra slash upon a 3-Ping.",
         "result": [
           "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
           "- Deals additional {3}% Physical DMG upon a 3-Ping."
@@ -2207,9 +2187,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping",
-          "description": 
-            "Gains Charge Points after any 3-Ping. When there are Charge Points, Kamui: Bastion's ATK increases. Charge Points decrease over time."
-          ,
+          "description": "Gains Charge Points after any 3-Ping. When there are Charge Points, Kamui: Bastion's ATK increases. Charge Points decrease over time.",
           "result": [
             "- Gains 40 Charge Points after a 3-Ping, up to 120 points.",
             "- When there are more than 0 / 40 / 80 Charge Points, Kamui: Bastion's ATK increases by {0}% / {1}% / {2}%.",
@@ -2246,7 +2224,7 @@
     },
     "class": {
       "name": "Tank",
-      "description":  "Attacks reduce the target's Extra DMG Reduction by {0}% for 5s.",
+      "description": "Attacks reduce the target's Extra DMG Reduction by {0}% for 5s.",
       "res_lv18": [20]
     },
     "ss_rank": {
@@ -2296,7 +2274,7 @@
         "name": "Comet Tail",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description":  "Hops back and throws darts in a fan-shaped area, dealing Physical DMG. Trailblade can be triggered immediately after pinging. (Dark DMG instead on a 3-Ping.)",
+        "description": "Hops back and throws darts in a fan-shaped area, dealing Physical DMG. Trailblade can be triggered immediately after pinging. (Dark DMG instead on a 3-Ping.)",
         "result": [
           "- Darts deal {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
         ],
@@ -2334,18 +2312,14 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Red Orb",
-          "description": 
-            "Pinging a Red Orb after any 3-Ping transforms Watanabe: Astral into a shadow that launches consecutive attacks in front of him, dealing Dark DMG. Enters Enhanced Shadow Form at the end of the attack."
-          ,
+          "description": "Pinging a Red Orb after any 3-Ping transforms Watanabe: Astral into a shadow that launches consecutive attacks in front of him, dealing Dark DMG. Enters Enhanced Shadow Form at the end of the attack.",
           "result": ["- Each hit deals {0}% Dark DMG."],
           "res_lv18": [60]
         },
         {
           "name": "Core Passive",
           "button_press": "Enhanced Shadow Form + Tap Basic Attack",
-          "description": 
-            "In Enhanced Shadow Form, Basic Attacks and Trailblade deal Extra Dark DMG."
-          ,
+          "description": "In Enhanced Shadow Form, Basic Attacks and Trailblade deal Extra Dark DMG.",
           "result": [
             "- Basic Attacks deal {0}% Extra Dark DMG.",
             "- Trailblade deals {1}% Extra Dark DMG for 5s."
@@ -2498,9 +2472,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Blue Orb",
-          "description": 
-            "When pinging a Blue Orb after any 3-Ping, charges in place to pull the nearby enemies in and gains Shield before unleashing a heavy strike to the targets ahead, dealing Physical DMG. Extra DMG Reduction increases by  70% when charging."
-          ,
+          "description": "When pinging a Blue Orb after any 3-Ping, charges in place to pull the nearby enemies in and gains Shield before unleashing a heavy strike to the targets ahead, dealing Physical DMG. Extra DMG Reduction increases by  70% when charging.",
           "result": [
             "- Gains Shield equal to 8% of max HP for 7s.",
             "- The heavy strike deals {0}% Physical DMG."
@@ -2636,25 +2608,19 @@
         {
           "name": "Core Passive",
           "button_press": "Red 3-Ping + Ping Blue Orb",
-          "description": 
-            "Pinging a Blue Orb after a Red 3-Ping will cause Veritas to enter Sniping Form."
-          
+          "description": "Pinging a Blue Orb after a Red 3-Ping will cause Veritas to enter Sniping Form."
         },
         {
           "name": "Core Passive",
           "button_press": "Sniping Form + Tap Basic Attack",
-          "description": 
-            "While in Sniping Form, Basic Attacks shoot a long-ranged lightning arrow that deals Lightning DMG. Veritas exits Sniping Form if 6 lightning arrows are shot or after 6s. Basic Attacks no longer generate Signal Orbs in Sniping Form."
-          ,
+          "description": "While in Sniping Form, Basic Attacks shoot a long-ranged lightning arrow that deals Lightning DMG. Veritas exits Sniping Form if 6 lightning arrows are shot or after 6s. Basic Attacks no longer generate Signal Orbs in Sniping Form.",
           "result": ["- Each lightning arrow deals {0}% Lightning DMG."],
           "res_lv18": [500]
         },
         {
           "name": "Core Passive",
           "button_press": "Sniping Form + Tap Dodge",
-          "description": 
-            "Dodging in Sniping Form will reduce the charge time of the next Basic Attack."
-          
+          "description": "Dodging in Sniping Form will reduce the charge time of the next Basic Attack."
         }
       ]
     },
@@ -2808,9 +2774,7 @@
         {
           "name": "Core Passive",
           "button_press": "Last hit of Basic Attack / Any 3-Ping / Cast Signature Move / Cast QTE + Pick up Energy Ball",
-          "description": 
-            "Sophia: Silverfang drops an Energy Ball after any of the following: the last hit of Basic Attack, dealing damage with a 3-Ping skill, casting Signature Move, or casting QTE. Picking up an Energy Ball heals all the allies within range and grants  Fire Tempered, increasing Fire DMG. Whenever an Energy Ball is picked up, Sophia: Silverfang gains Energy and Heat. Her ATK increases based on the current Heat."
-          ,
+          "description": "Sophia: Silverfang drops an Energy Ball after any of the following: the last hit of Basic Attack, dealing damage with a 3-Ping skill, casting Signature Move, or casting QTE. Picking up an Energy Ball heals all the allies within range and grants  Fire Tempered, increasing Fire DMG. Whenever an Energy Ball is picked up, Sophia: Silverfang gains Energy and Heat. Her ATK increases based on the current Heat.",
           "result": [
             "- Picking up an Energy Ball heals all within range for HP equal to {0}% of Sophia: Silverfang's ATK.",
             "- Fire Tempered increases the Fire DMG of the character who picked up the Energy Ball by {1}% for 5s.",
@@ -2935,9 +2899,7 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Blue Orb",
-          "description": [
-            "Pinging any Blue Orbs after any 3-Ping generates Shield. When Shield expires or is replaced by a new Shield, it explodes and deals Lightning DMG to nearby targets."
-          ],
+          "description": "Pinging any Blue Orbs after any 3-Ping generates Shield. When Shield expires or is replaced by a new Shield, it explodes and deals Lightning DMG to nearby targets.",
           "result": [
             "- Generates Shield equal to {0}% of max HP for 4s.",
             "- Deals {1}% Lightning DMG to nearby targets if Shield expires or is replaced."
@@ -2952,46 +2914,39 @@
         {
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
-          "description": {
-            "desc": "Summons lightning to charge up and pull nearby targets in. Basic Attacks become Fulgurant Flurry for a period of time.",
-            "result": ["- Fulgurant Flurry lasts 8s."]
-          }
+          "description": "Summons lightning to charge up and pull nearby targets in. Basic Attacks become Fulgurant Flurry for a period of time.",
+          "result": ["- Fulgurant Flurry lasts 8s."]
         },
         {
           "name": "Signature Move",
           "button_press": "Fulgurant Flurry + Tap Basic Attack",
-          "description": {
-            "desc": "While Fulgurant Flurry is active, performing Fulgurant Flurry 5 times will trigger the Core Passive once. The dashing and slashing from Fulgurant Flurry deal Lightning DMG to the target.",
-            "result": [
-              "- Each hit of the dash deals 35% Lightning DMG.",
-              "- Each hit of the slash deals 120% Lightning DMG."
-            ]
-          }
+          "description": "While Fulgurant Flurry is active, performing Fulgurant Flurry 5 times will trigger the Core Passive once. The dashing and slashing from Fulgurant Flurry deal Lightning DMG to the target.",
+          "result": [
+            "- Each hit of the dash deals {0}% Lightning DMG.",
+            "- Each hit of the slash deals {1}% Lightning DMG."
+          ],
+          "res_lv18": [35, 120]
         }
       ]
     },
     "qte": {
       "name": "Blue Bolt",
-      "description": "Upon entering the battlefield, blasts nearby targets to deal Lightning DMG and inflict them with  Turbulent Interference that reduces their Lightning Resistance, then slams the Scythe to blast nearby targets, dealing Lightning DMG.",
+      "description": "Upon entering the battlefield, blasts nearby targets to deal Lightning DMG and inflict them with Turbulent Interference that reduces their Lightning Resistance, then slams the Scythe to blast nearby targets, dealing Lightning DMG.",
       "result": [
-        "- The initial blast deals 250% Lightning DMG to the targets.",
-        "- The slam blast deals 250% Lightning DMG to nearby targets.",
-        "- Turbulent Interference reduces the target's Lightning Resistance by 10% for 6s."
-      ]
+        "- The initial blast deals {0}% Lightning DMG to the targets.",
+        "- The slam blast deals {1}% Lightning DMG to nearby targets.",
+        "- Turbulent Interference reduces the target's Lightning Resistance by {2}% for 6s."
+      ],
+      "res_lv18": [250, 250, 10]
     },
     "leader": {
       "name": "Vanguard Warsong",
-      "description": {
-        "desc": "Increases DEF by 10% and HP by 5% when there are 3 different classes in the team.",
-        "result": []
-      }
+      "description": "Increases DEF by 10% and HP by 5% when there are 3 different classes in the team."
     },
     "class": {
       "name": "Tank",
-      "description": {
-        "desc": "Attacks reduce the target's Extra DMG Reduction by 20% for 5s.",
-        "result": []
-      }
+      "description": "Attacks reduce the target's Extra DMG Reduction by {0}% for 5s.",
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "High Voltage",
@@ -3027,19 +2982,17 @@
         "name": "Frost Blade",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Cuts at the target quickly with a katana, dealing Physical DMG.",
-          "result": ["- Deals 640% Physical DMG in total."]
-        }
+        "description": "Cuts at the target quickly with a katana, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [640]
       },
       {
         "name": "Frost Blade",
         "button_press": "Arctic Form + Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "In Arctic Form, attacks the target with a katana and thruster interchangeably, dealing Physical DMG and Ice DMG.",
-          "result": ["- Deals 310% Physical DMG and 370% Ice DMG in total."]
-        }
+        "description": "In Arctic Form, attacks the target with a katana and thruster interchangeably, dealing Physical DMG and Ice DMG.",
+        "result": ["- Deals {0}% Physical DMG and {1}% Ice DMG in total."],
+        "res_lv18": [310, 370]
       }
     ],
     "red_orb": [
@@ -3047,23 +3000,21 @@
         "name": "Mute Winter",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Unleashes several quick slashes on the spot, dealing Physical DMG.",
-          "result": [
-            "- Attacks 4 / 4 / 8 times, each time dealing Physical 60% / 120% / 120% DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Unleashes several quick slashes on the spot, dealing Physical DMG.",
+        "result": [
+          "- Attacks 4 / 4 / 8 times, each time dealing Physical {0}% / {1}% / {2}% DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [60, 120, 120]
       },
       {
         "name": "Mute Winter",
         "button_press": "Arctic Form + Ping Red Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "In Arctic Form, creates an ice tornado that moves forward, dealing Ice DMG to the enemies it touches.",
-          "result": [
-            "- While moving, the tornado deals 30% / 60% / 90% Ice DMG 9 times and deals 130% / 260% / 390% Ice DMG once when it reaches the far end."
-          ]
-        }
+        "description": "In Arctic Form, creates an ice tornado that moves forward, dealing Ice DMG to the enemies it touches.",
+        "result": [
+          "- While moving, the tornado deals {0}% / {1}% / {2}% Ice DMG 9 times and deals {3}% / {4}% / {5}% Ice DMG once when it reaches the far end."
+        ],
+        "res_lv18": [30, 60, 90, 130, 260, 390]
       }
     ],
     "yellow_orb": [
@@ -3071,23 +3022,21 @@
         "name": "Glacier Puncture",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Darts at the target and strikes twice, dealing Physical DMG.",
-          "result": [
-            "- Each hit deals 115% / 235% / 355% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Darts at the target and strikes twice, dealing Physical DMG.",
+        "result": [
+          "- Each hit deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [115, 235, 355]
       },
       {
         "name": "Glacier Puncture",
         "button_press": "Arctic Form + Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "In Arctic Form, leaps mid-air and smashes at the target, dealing Ice DMG twice.",
-          "result": [
-            "- Each hit deals 150% / 300% / 450% Ice DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "In Arctic Form, leaps mid-air and smashes at the target, dealing Ice DMG twice.",
+        "result": [
+          "- Each hit deals {0}% / {1}% / {2}% Ice DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [150, 300, 450]
       }
     ],
     "blue_orb": [
@@ -3095,25 +3044,23 @@
         "name": "Frigid Roundabout",
         "button_press": "Ping Blue Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Whirls vertically while moving, then smashes downward to deal Physical DMG.",
-          "result": [
-            "- Each hit deals 30% / 60% / 90% Physical DMG based on the number of orbs pinged.",
-            "- The downward slash deals 70% / 160% / 250% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Whirls vertically while moving, then smashes downward to deal Physical DMG.",
+        "result": [
+          "- Each hit deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- The downward slash deals {3}% / {4}% / {5}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [30, 60, 90, 70, 160, 250]
       },
       {
         "name": "Frigid Roundabout",
         "button_press": "Arctic Form + Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "In Arctic Form, unleashes a tornado toward the front that deals Ice DMG 5 times, then quickly pulls the target in and deals Ice DMG once.",
-          "result": [
-            "- Each hit of the tornado deals 40% / 80% / 120% Ice DMG based on the number of orbs pinged.",
-            "- Deals 80% / 160% / 240% Ice DMG based on the number of orbs pinged while pulling back."
-          ]
-        }
+        "description": "In Arctic Form, unleashes a tornado toward the front that deals Ice DMG 5 times, then quickly pulls the target in and deals Ice DMG once.",
+        "result": [
+          "- Each hit of the tornado deals {0}% / {1}% / {2}% Ice DMG based on the number of orbs pinged.",
+          "- Deals {3}% / {4}% / {5}% Ice DMG based on the number of orbs pinged while pulling back."
+        ],
+        "res_lv18": [40, 80, 120, 80, 160, 240]
       }
     ],
     "core_passive": {
@@ -3122,20 +3069,15 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping",
-          "description": [
-            "In Normal Form, every 3-Ping grants Energy and Signature Point (up to 2 Points in Normal Form)."
-          ],
+          "description": "In Normal Form, every 3-Ping grants Energy and Signature Point (up to 2 Points in Normal Form).",
           "result": ["- Every 3-Ping grants 50% Energy and 1 Signature Point."]
         },
         {
           "name": "Core Passive",
           "button_press": "Arctic Form + Any 3-Ping",
-          "description": {
-            "desc": [
-              "In  Arctic Form, Energy decreases over time. While there is still Energy, Ice DMG increases and every 3-Ping grants 1 Signature point (up to 4 in Arctic Form). When casting the Signature Move, it can still benefit from the Core Passive's DMG Bonus if there is still Energy left."
-            ],
-            "result": ["- Ice DMG increases by 50% when there is still Energy."]
-          }
+          "description": "In Arctic Form, Energy decreases over time. While there is still Energy, Ice DMG increases and every 3-Ping grants 1 Signature point (up to 4 in Arctic Form). When casting the Signature Move, it can still benefit from the Core Passive's DMG Bonus if there is still Energy left.",
+          "result": ["- Ice DMG increases by {0}% when there is still Energy."],
+          "res_lv18": [50]
         }
       ]
     },
@@ -3145,41 +3087,33 @@
         {
           "name": "Signature Move",
           "button_press": "Tap Signature",
-          "description": {
-            "desc": "Can be cast any time in Normal Form. Quickly switches into Arctic Form. Becomes invincible while switching. Form switch has a cooldown of 3s. If energy is full when switching, all Signal Orbs will be rearranged into 3-Pings.",
-            "result": []
-          }
+          "description": "Can be cast any time in Normal Form. Quickly switches into Arctic Form. Becomes invincible while switching. Form switch has a cooldown of 3s. If energy is full when switching, all Signal Orbs will be rearranged into 3-Pings."
         },
         {
           "name": "Signature Move",
           "button_press": "Arctic Form + More than 1 Signature Point + Tap Signature",
-          "description": {
-            "desc": "Available in Arctic Form when there is more than 1 Signature Point. Leaps mid-air and hurls left-hand weapon at the ground, causing a massive AOE Ice DMG and slowing the enemies temporarily before switching back to Normal Form. Form switch has a cooldown of 3s.",
-            "result": [
-              "- Deals 900% / 1200% / 1600% / 3040% Ice DMG based on the number of Signature Points accumulated."
-            ]
-          }
+          "description": "Available in Arctic Form when there is more than 1 Signature Point. Leaps mid-air and hurls left-hand weapon at the ground, causing a massive AOE Ice DMG and slowing the enemies temporarily before switching back to Normal Form. Form switch has a cooldown of 3s.",
+          "result": [
+            "- Deals {0}% / {1}% / {2}% / {3}% Ice DMG based on the number of Signature Points accumulated."
+          ],
+          "res_lv18": [900, 1200, 1600, 3040]
         }
       ]
     },
     "qte": {
       "name": "Frost Blade - Icebreak",
       "description": "Dashes at the enemy, dealing Physical DMG and Ice DMG.",
-      "result": ["- Deals 320% Physical DMG and 320% Ice DMG."]
+      "result": ["- Deals {0}% Physical DMG and {1}% Ice DMG."],
+      "res_lv18": [320, 320]
     },
     "leader": {
       "name": "Leader - Blade of Raven",
-      "description": {
-        "desc": "Increases Ice DMG of all members by 10%. Increases ATK of all Attacker Omniframes in the team by 5%.",
-        "result": []
-      }
+      "description": "Increases Ice DMG of all members by 10%. Increases ATK of all Attacker Omniframes in the team by 5%."
     },
     "class": {
       "name": "Attacker",
-      "description": {
-        "desc": "Extra DMG Bonus increases by 20%.",
-        "result": []
-      }
+      "description": "Extra DMG Bonus increases by {0}%.",
+      "res_lv18": [20]
     },
     "ss_rank": {
       "name": "Stone Freeze",
@@ -5875,10 +5809,9 @@
         "name": "Psalm from Afar",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Performs beam attacks with her Scepter and drones, dealing Physical DMG.",
-          "result": ["- Deals 860% Physical DMG in total."]
-        }
+        "description": "Performs beam attacks with her Scepter and drones, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [860]
       }
     ],
     "red_orb": [
@@ -5886,12 +5819,11 @@
         "name": "Zodiacal Grace",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": {
-          "desc": "Liv: Empyrea unleashes an energy beam, pulling enemies in a large area and dealing Physical DMG (Fire DMG instead on a 3-Ping) to them.",
-          "result": [
-            "- Deals 220% / 440% / 660% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Liv: Empyrea unleashes an energy beam, pulling enemies in a large area and dealing Physical DMG (Fire DMG instead on a 3-Ping) to them.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [220, 440, 660]
       }
     ],
     "yellow_orb": [
@@ -5899,12 +5831,12 @@
         "name": "Holywings Mass",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Liv: Empyrea dashes in the direction of the joystick and strikes with her glowing feathers, dealing Physical DMG (Fire DMG instead on a 3-Ping) to the target and its nearby units.",
-          "result": [
-            "- Deals 210% / 420% / 630% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Liv: Empyrea dashes in the direction of the joystick and strikes with her glowing feathers, dealing Physical DMG (Fire DMG instead on a 3-Ping) to the target and its nearby units.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [210, 420, 630]
+        
       }
     ],
     "blue_orb": [
@@ -5912,13 +5844,12 @@
         "name": "Withering Gospel",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Liv: Empyrea creates an energy matrix to deal Physical DMG (Fire DMG instead on a 3-Ping) to enemies in a rectangular area and imprison them based on the number of orbs pinged.",
-          "result": [
-            "- Deals 200% / 400% / 600% Physical DMG based on the number of orbs pinged.",
-            "- Imprisons for 1.5 / 2 / 2.5s based on the number of orbs pinged."
-          ]
-        }
+        "description": "Liv: Empyrea creates an energy matrix to deal Physical DMG (Fire DMG instead on a 3-Ping) to enemies in a rectangular area and imprison them based on the number of orbs pinged.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Imprisons for 1.5 / 2 / 2.5s based on the number of orbs pinged."
+        ],
+        "res_lv18": [200, 400, 600]
       }
     ],
     "core_passive": {
@@ -5933,9 +5864,10 @@
           "result": [
             "- Divine Prayer grants 70% DMG Reduction.",
             "- During the prayer, 1 / 2 / 3-Ping grants 1 / 2 / 4 stack(s) of amplification to the prayer, and each stack increases the base multiplier by 0.5.",
-            "- Prayer Ripple deals 400% Fire DMG to the enemies, imprisons them for 2s, and heals allies for 7.5% of their max HP.",
+            "- Prayer Ripple deals {0}% Fire DMG to the enemies, imprisons them for 2s, and heals allies for 7.5% of their max HP.",
             "- When Core Passive - Ode for Everlight reaches Lv.22, entering Divine Prayer will grant 1 random Signal Orb, and casting Oaths will restore 100 Dodge Energy."
-          ]
+          ],
+          "res_lv18": [400]
         },
         {
           "name": "Purity Oath",
@@ -5943,15 +5875,17 @@
           "description": [
             "If both sets of Signal Orbs are of the same color, triggers  Purity Oath that deals AOE Fire DMG."
           ],
-          "result": ["- Deals 400% Fire DMG."]
+          "result": ["- Deals {0}% Fire DMG."],
+          "res_lv18": [400]
         },
         {
           "name": "Chaos Oath",
           "button_press": "Divine Prayer + Different-colored 3-Pings",
-          "description": [
+          "description": 
             "If the two sets of Signal Orbs have different colors, triggers  Chaos Oath that pulls enemies in an extremely large area, dealing Fire DMG to them and a small amount of dodgeable DMG to Liv: Empyrea."
-          ],
-          "result": ["- Deals 400% Fire DMG."]
+          ,
+          "result": ["- Deals {0}% Fire DMG."],
+          "res_lv18": [400]
         }
       ]
     },
@@ -5961,21 +5895,17 @@
         {
           "name": "Signature Move",
           "button_press": "80 Energy + Tap Signature",
-          "description": {
-            "desc": "Liv: Empyrea enters Empyreal State with her M.I.N.D. plunged into a corrupted data space, gaining full Prayer and 6 random Signal Orbs (with a guaranteed set of 3-Ping orbs) while triggering Time Lag Calculation.",
-            "result": []
-          }
+          "description": "Liv: Empyrea enters Empyreal State with her M.I.N.D. plunged into a corrupted data space, gaining full Prayer and 6 random Signal Orbs (with a guaranteed set of 3-Ping orbs) while triggering Time Lag Calculation."
         },
         {
           "name": "Empyrea State",
           "button_press": "Empyreal Prayer + Ping any orb",
-          "description": {
-            "desc": "While in Empyreal State, double tapping the Dodge button will trigger Empyreal Prayer, during which Empyreal Prayer can be amplified by pinging 3 sets of orbs of any color. When Empyreal Prayer ends, Liv performs Empyreal Oath, dealing Fire DMG to targets in an extremely large area while triggering Time Lag Calculation. If Empyreal Prayer is not triggered, Empyreal Oath will be performed without any amplification when Empyreal State ends.",
-            "result": [
-              "- Deals 1000% Fire MG.",
-              "- 1 / 2 / 3-Ping grants Empyreal Prayer 1 / 2 / 4 stack(s) of amplification and each stack increases the base multiplier by 0.5."
-            ]
-          }
+          "description": "While in Empyreal State, double tapping the Dodge button will trigger Empyreal Prayer, during which Empyreal Prayer can be amplified by pinging 3 sets of orbs of any color. When Empyreal Prayer ends, Liv performs Empyreal Oath, dealing Fire DMG to targets in an extremely large area while triggering Time Lag Calculation. If Empyreal Prayer is not triggered, Empyreal Oath will be performed without any amplification when Empyreal State ends.",
+          "result": [
+            "- Deals {0}% Fire MG.",
+            "- 1 / 2 / 3-Ping grants Empyreal Prayer 1 / 2 / 4 stack(s) of amplification and each stack increases the base multiplier by 0.5."
+          ],
+          "res_lv18": [1000]
         }
       ]
     },
@@ -5983,29 +5913,25 @@
       "name": "Hymn to Guidance",
       "description": "Dives into battle and releases an energy blast in the air, dealing Fire DMG and restoring HP.",
       "result": [
-        "- Deals a total of 600% Fire DMG and restores HP equal to 60% of her ATK."
-      ]
+        "- Deals a total of {0}% Fire DMG and restores HP equal to {1}% of her ATK."
+      ],
+      "res_lv18": [600, 60]
     },
     "leader": {
       "name": "Leader - Oath in Silence",
-      "description": {
-        "desc": "Increase ATK of all members by 10%. Increases Extra DMG of all Amplifiers in the team by 5%.",
-        "result": []
-      }
+      "description": "Increase ATK of all members by 10%. Increases Extra DMG of all Amplifiers in the team by 5%."
     },
     "class": {
       "name": "Amplifier",
-      "description": {
-        "desc": "All switched-in members gain an extra 10% ATK and 10% Elemental DMG Bonus of the Amplifier's element for 10s.",
-        "result": []
-      }
+      "description": "All switched-in members gain an extra {0}% ATK and {0}% Elemental DMG Bonus of the Amplifier's element for 10s.",
+      "desc_lv18": [10, 10]
     },
     "ss_rank": {
       "name": "Hierophany",
       "levels": [
         {
           "rank": "",
-          "desc": "Entering Matrix outside of  Empyreal State automatically triggers  Divine Prayer with  4 stacks of amplification based on the color of currently available orbs. When Liv: Empyrea heals her allies, grants  Fire Tempered to them for  8s.  Fire Tempered: Fire DMG Bonus increases by  10%."
+          "desc": "Entering Matrix outside of Empyreal State automatically triggers Divine Prayer with 4 stacks of amplification based on the color of currently available orbs. When Liv: Empyrea heals her allies, grants Fire Tempered to them for 8s. Fire Tempered: Fire DMG Bonus increases by  10%."
         }
       ]
     },
@@ -6014,7 +5940,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Amplifiers' Class Skill effect increases by  100%,  Core Passive - Ode for Everlight charges  100% faster, and the Fire DMG Bonus granted by  Fire Tempered increases to  20%. While performing  Signature - Sea of Sangharama, reaching  8 stacks of amplification within the first 2 pings during  Empyreal Prayer will grant 3 random Signal Orbs of the same color."
+          "desc": "Amplifiers' Class Skill effect increases by 100%, Core Passive - Ode for Everlight charges 100% faster, and the Fire DMG Bonus granted by Fire Tempered increases to 20%. While performing Signature - Sea of Sangharama, reaching 8 stacks of amplification within the first 2 pings during Empyreal Prayer will grant 3 random Signal Orbs of the same color."
         }
       ]
     },
@@ -6023,7 +5949,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Liv: Empyrea gains  40 Signature Energy when switched in. If the amplification stacks are maximized during  Empyreal Prayer while casting  Signature - Sea of Sangharama,  Empyreal Oath will deal  1.5x DMG."
+          "desc": "Liv: Empyrea gains 40 Signature Energy when switched in. If the amplification stacks are maximized during Empyreal Prayer while casting Signature - Sea of Sangharama, Empyreal Oath will deal  1.5x DMG."
         }
       ]
     },
@@ -6074,10 +6000,9 @@
         "name": "Andante Strike",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": {
-          "desc": "Selena: Capriccio launches consecutive attacks with the Flute Sword, dealing Physical DMG.",
-          "result": ["- Deals 976% Physical DMG in total."]
-        }
+        "description": "Selena: Capriccio launches consecutive attacks with the Flute Sword, dealing Physical DMG.",
+        "result": ["- Deals {0}% Physical DMG in total."],
+        "res_lv18": [976]
       }
     ],
     "red_orb": [
@@ -6085,13 +6010,12 @@
         "name": "Butterflies' Serenade",
         "button_press": "Ping Red Orb + Hold the joystick",
         "switch_in": "yes",
-        "description": {
-          "desc": "Selena: Capriccio quickly dashes forward, dealing Physical DMG. Upon a 3-Ping, Selena: Capriccio will deal Dark DMG instead and dash again with Super Armor in the joystick's direction to deal Dark DMG.",
-          "result": [
-            "- Deals 168 % / 336% / 504% Physical DMG based on the number of orbs pinged.",
-            "- Dashes to deal 90% Dark DMG."
-          ]
-        }
+        "description": "Selena: Capriccio quickly dashes forward, dealing Physical DMG. Upon a 3-Ping, Selena: Capriccio will deal Dark DMG instead and dash again with Super Armor in the joystick's direction to deal Dark DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Dashes to deal {3}% Dark DMG."
+        ],
+        "res_lv18": [168, 336, 504, 90]
       }
     ],
     "yellow_orb": [
@@ -6099,13 +6023,12 @@
         "name": "Ruinous March",
         "button_press": "Ping Yellow Orb + Hold the joystick",
         "switch_in": "no",
-        "description": {
-          "desc": "Selena: Capriccio draws her blade to deal Physical DMG. Upon a 3-Ping, Selena: Capriccio will deal Dark DMG instead and dash again with Super Armor in the joystick's direction to deal Dark DMG.",
-          "result": [
-            "- Deals 112% / 224% / 336% Physical DMG based on the number of orbs pinged.",
-            "- Dashes to deal 144% Dark DMG."
-          ]
-        }
+        "description": "Selena: Capriccio draws her blade to deal Physical DMG. Upon a 3-Ping, Selena: Capriccio will deal Dark DMG instead and dash again with Super Armor in the joystick's direction to deal Dark DMG.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged.",
+          "- Dashes to deal {3}% Dark DMG."
+        ],
+        "res_lv18": [112, 224, 336, 144]
       }
     ],
     "blue_orb": [
@@ -6113,12 +6036,11 @@
         "name": "Nebula Rondo",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": {
-          "desc": "Selena: Capriccio plays her Flute Sword as she spins and jumps backward, pulling enemies in a small area close, interrupting enemy attacks, and dealing Physical DMG. Upon a 3-Ping, deals Dark DMG instead and gains Super Armor while casting this skill.",
-          "result": [
-            "- Deals 182% / 364% / 546% Physical DMG based on the number of orbs pinged."
-          ]
-        }
+        "description": "Selena: Capriccio plays her Flute Sword as she spins and jumps backward, pulling enemies in a small area close, interrupting enemy attacks, and dealing Physical DMG. Upon a 3-Ping, deals Dark DMG instead and gains Super Armor while casting this skill.",
+        "result": [
+          "- Deals {0}% / {1}% / {2}% Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [182, 364, 546]
       }
     ],
     "core_passive": {
@@ -6127,20 +6049,22 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Hold the joystick",
-          "description": [
+          "description": 
             "Upon a 3-Ping, moving the joystick will cause Selena: Capriccio to summon a phantom. The phantom will continue to cast the original skill, and Selena herself will gain Super Armor and cast  Reprise: Echo instead."
-          ],
+          ,
           "result": [
-            "- Each Reprise: Echo cast by pinging Red/Yellow/Blue Orbs deals 620% / 410% / 600% Dark DMG."
-          ]
+            "- Each Reprise: Echo cast by pinging Red/Yellow/Blue Orbs deals {0}% / {1}% / {2}% Dark DMG."
+          ],
+          "res_lv18": [620, 410, 600]
         },
         {
           "name": "Core Passive",
           "button_press": "Ping Shooting Star Orb + Hold the joystick",
-          "description": [
+          "description": 
             "When casting a Shooting Star, moving the joystick will cause Selena: Capriccio to cast an additional Reprise: Twin Stars, dealing Dark DMG while summoning a phantom at the original location."
-          ],
-          "result": ["- Deals 180% Dark DMG."]
+          ,
+          "result": ["- Deals {0}% Dark DMG."],
+          "res_lv18": [180]
         }
       ]
     },
@@ -6150,32 +6074,28 @@
         {
           "name": "Realm of Capriccio",
           "button_press": "80 Energy + Tap Signature",
-          "description": {
-            "desc": "Signature Move: Consumes 80 Energy to activate Realm of Capriccio, gaining Extra DMG Reduction. Selena: Capriccio gains 5 Shooting Stars. At the end of Realm of Capriccio, all Signal Orbs will be rearranged in the order of Red-Blue-Yellow.",
-            "result": [
-              "- Selena: Capriccio's Extra DMG Reduction increases by 50% in Realm of Capriccio."
-            ]
-          }
+          "description": "Signature Move: Consumes 80 Energy to activate Realm of Capriccio, gaining Extra DMG Reduction. Selena: Capriccio gains 5 Shooting Stars. At the end of Realm of Capriccio, all Signal Orbs will be rearranged in the order of Red-Blue-Yellow.",
+          "result": [
+            "- Selena: Capriccio's Extra DMG Reduction increases by 50% in Realm of Capriccio."
+          ]
         },
         {
           "name": "Shooting Star",
           "button_press": "Ping Shooting Star Orb",
-          "description": {
-            "desc": "Each time a Shooting Star is cast, Selena: Capriccio will dash toward the target, dealing Dark DMG.",
-            "result": ["- Deals 160% Dark DMG."]
-          }
+          "description": "Each time a Shooting Star is cast, Selena: Capriccio will dash toward the target, dealing Dark DMG.",
+          "result": ["- Deals {0}% Dark DMG."],
+          "res_lv18": [160]
         },
         {
           "name": "Reprise",
           "button_press": "Twin Stars -  All Shooting Star Orbs consumed",
-          "description": {
-            "desc": "When all Shooting Stars are consumed, Selena: Capriccio will control all phantoms to launch a follow-up attack to cast Reprise: Twin Stars again, then she will play her Flute Sword to trigger Time Lag Calculation and order all phantoms to attack the enemy, each phantom dealing Dark DMG. Meanwhile, Realm of Capriccio will be detonated, dealing Dark DMG while leaving a phantom behind, healing ally units within the range every second.",
-            "result": [
-              "- Every phantom deals 340% Dark DMG.",
-              "- The realm explosion deals 1360% Dark DMG in total.",
-              "- The phantom heals ally units within the range for HP equal to 30% of Selena: Capriccio's ATK per second over 5s."
-            ]
-          }
+          "description": "When all Shooting Stars are consumed, Selena: Capriccio will control all phantoms to launch a follow-up attack to cast Reprise: Twin Stars again, then she will play her Flute Sword to trigger Time Lag Calculation and order all phantoms to attack the enemy, each phantom dealing Dark DMG. Meanwhile, Realm of Capriccio will be detonated, dealing Dark DMG while leaving a phantom behind, healing ally units within the range every second.",
+          "result": [
+            "- Every phantom deals {0}% Dark DMG.",
+            "- The realm explosion deals {1}% Dark DMG in total.",
+            "- The phantom heals ally units within the range for HP equal to 30% of Selena: Capriccio's ATK per second over 5s."
+          ],
+          "res_lv18": [340, 1360]
         }
       ]
     },
@@ -6183,29 +6103,25 @@
       "name": "Lingering Bladesong",
       "description": "Selena: Capriccio leaps into battle and plays her Flute Sword, dealing Dark DMG and restoring HP.",
       "result": [
-        "- Deals 600% Dark DMG and heals for HP equal to 60% of her ATK."
-      ]
+        "- Deals {0}% Dark DMG and heals for HP equal to {1}% of her ATK."
+      ],
+      "res_lv18": [600, 60]
     },
     "leader": {
       "name": "Famed Concertmaster",
-      "description": {
-        "desc": "Increases ATK of all members by 10% and HP of all members by 5%.",
-        "result": []
-      }
+      "description": "Increases ATK of all members by 10% and HP of all members by 5%."
     },
     "class": {
       "name": "Amplifier",
-      "description": {
-        "desc": "All switched-in members gain an extra 10% ATK and 10% Elemental DMG Bonus of the Amplifier's element for 10s.",
-        "result": []
-      }
+      "description": "All switched-in members gain an extra {0}% ATK and {1}% Elemental DMG Bonus of the Amplifier's element for 10s.",
+      "desc_lv18": [10, 10]
     },
     "ss_rank": {
       "name": "Immortal Song",
       "levels": [
         {
           "rank": "",
-          "desc": "Upon entering battle, Selena: Capriccio heals herself for HP equal to  30% of her ATK. When Selena: Capriccio casts  Realm of Capriccio to heal ally units, the excess healing will be converted into  Song of Protection for  3s. When Selena: Capriccio is within  Realm of Capriccio, she deals  10% additional Dark DMG."
+          "desc": "Upon entering battle, Selena: Capriccio heals herself for HP equal to 30% of her ATK. When Selena: Capriccio casts Realm of Capriccio to heal ally units, the excess healing will be converted into Song of Protection for 3s. When Selena: Capriccio is within Realm of Capriccio, she deals 10% additional Dark DMG."
         }
       ]
     },
@@ -6214,7 +6130,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The effect of Amplifier Class Skill increases by  100%, and the Dark DMG Bonus of  Dark Radiation is increased to  20%. The Extra DMG Bonus of  Core Passive - Phantasia increases by  20%. The healing duration of  Realm of Capriccio is extended by  5s."
+          "desc": "The effect of Amplifier Class Skill increases by 100%, and the Dark DMG Bonus of Dark Radiation is increased to 20%. The Extra DMG Bonus of Core Passive - Phantasia increases by 20%. The healing duration of Realm of Capriccio is extended by 5s."
         }
       ]
     },
@@ -6223,7 +6139,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "While Selena: Capriccio is on standby, she gains  12 Signature Energy each time a team member casts a 3-Ping. The Extra DMG Bonus of  Signature Move - Dream Cosmos Suite increases by  50%."
+          "desc": "While Selena: Capriccio is on standby, she gains 12 Signature Energy each time a team member casts a 3-Ping. The Extra DMG Bonus of Signature Move - Dream Cosmos Suite increases by 50%."
         }
       ]
     }
@@ -9781,30 +9697,24 @@
         {
           "name": "Composite Structure",
           "button_press": "",
-          "description": 
-            "While Paradigm: Patrol is active, Watanabe can only ping Yellow or Blue Orbs and Basic Attacks only generate Yellow or Blue Orbs. After activating Paradigm: Assault, Watanabe can only ping Red Orbs or Blaze Orbs and Basic Attacks only generate Red Orbs."
+          "description": "While Paradigm: Patrol is active, Watanabe can only ping Yellow or Blue Orbs and Basic Attacks only generate Yellow or Blue Orbs. After activating Paradigm: Assault, Watanabe can only ping Red Orbs or Blaze Orbs and Basic Attacks only generate Red Orbs."
         },
         {
           "name": "Engine Optimization",
           "button_press": "Any 3-Ping or enter Matrix",
-          "description": 
-            "Gain 1 point of Live Ammunition upon a 3-Ping. Maximum points of Live Ammunition: 3. Gain 1 Blaze Orb upon entering Matrix. Watanabe can hold up to 3 Blaze Orbs at once. Any excess Blaze Orbs will be converted to Signal Orbs of a random color."
+          "description": "Gain 1 point of Live Ammunition upon a 3-Ping. Maximum points of Live Ammunition: 3. Gain 1 Blaze Orb upon entering Matrix. Watanabe can hold up to 3 Blaze Orbs at once. Any excess Blaze Orbs will be converted to Signal Orbs of a random color."
         },
         {
           "name": "Firewalker",
           "button_press": "Paradigm: Assault is active + Hold Dodge",
-          "description": 
-            "Watanabe uses the hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be grabbed, Watanabe himself will rush toward them instead. Gains Super Armor and  40% DMG Reduction while performing this skill. Using Basic Attack or the Red Orb skill while pulling in the enemy can immediately trigger  parry."
-          ,
+          "description": "Watanabe uses the hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be grabbed, Watanabe himself will rush toward them instead. Gains Super Armor and  40% DMG Reduction while performing this skill. Using Basic Attack or the Red Orb skill while pulling in the enemy can immediately trigger  parry.",
           "result": ["- Deals a total of {0}% Fire DMG."],
           "res_lv18": [40]
         },
         {
           "name": "Reprisal",
           "button_press": "Trigger parry",
-          "description": 
-            "Successfully  parrying an attack triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP, dealing Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance on the enemies. Repeatedly triggering  Rampart refreshes the shield. When triggering this skill, enter Matrix if not on cooldown."
-          ,
+          "description": "Successfully  parrying an attack triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP, dealing Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance on the enemies. Repeatedly triggering  Rampart refreshes the shield. When triggering this skill, enter Matrix if not on cooldown.",
           "result": [
             "- Deals a total of {0}% Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
           ],
@@ -9813,9 +9723,7 @@
         {
           "name": "Infernal Eruption",
           "button_press": "Paradigm: Assault is active + Possess 3 points of Live Ammunition + Hold Basic Attack",
-          "description": 
-            "Uses the hook to hover in the air, then dive downwards to attack, pulling in nearby enemies and dealing Fire DMG. This will consume 3 points of Live Ammunition. While performing Infernal Eruption, Watanabe is invincible, but cannot use Flaming Purgation. Gains 12 Energy upon performing this skill."
-          ,
+          "description": "Uses the hook to hover in the air, then dive downwards to attack, pulling in nearby enemies and dealing Fire DMG. This will consume 3 points of Live Ammunition. While performing Infernal Eruption, Watanabe is invincible, but cannot use Flaming Purgation. Gains 12 Energy upon performing this skill.",
           "result": ["- Deals a total of {0}% Fire DMG."],
           "res_lv18": [1350]
         }
