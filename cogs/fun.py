@@ -29,7 +29,7 @@ class Fun(commands.Cog):
             self.bricks = json.load(file)
 
         with open('data/pastas.json') as file:
-            self.bricks = json.load(file)
+            self.pastas = json.load(file)
 
     # The following commands are restricted to specific servers/not usable within PGR:O
 
@@ -59,7 +59,7 @@ class Fun(commands.Cog):
             self.pasta_command_ran = True
             self.last_pasta_command_ran = start
 
-            copypasta = random.choice(self.bricks['copypastas'])
+            copypasta = random.choice(self.pastas['copypastas'])
             await ctx.send(content=f"{copypasta}")
         else:
             await ctx.send(content="A pasta or brick has been spawned recently. Please wait.")
