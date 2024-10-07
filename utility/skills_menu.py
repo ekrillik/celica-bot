@@ -10,7 +10,7 @@ class SkillsView(discord.ui.View):
     message: discord.Message | None = None
     current_page = 0
 
-    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, skills = {}, theme = []) -> None:
+    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, skills = {}, theme = [], level = 18) -> None:
         super().__init__(timeout=timeout)
         if 'leap' in skills:
             options = ["Basic Attack", "Red Orb", "Blue Orb", "Yellow Orb", "Core Passive", "Signature/Ultimate", "QTE", "Leader Passive", "Class Passive", "SS", "SSS", "S+", "Leap"]
@@ -19,6 +19,7 @@ class SkillsView(discord.ui.View):
         
         self.user = user
         self.skills = skills
+        self.level = level
         self.embedconf = EmbedClass()
         # [colour, chibi_portrait, name]
         self.theme = theme
@@ -67,7 +68,7 @@ class SkillsView(discord.ui.View):
             self.update_buttons()
 
         self.add_item(self.clear_button)
-        embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
+        embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3], level=self.level)
         return embed
         
     async def callback(self, interaction: discord.Interaction) -> None:
@@ -164,25 +165,25 @@ class SkillsView(discord.ui.View):
 
     async def first_callback(self, interaction: discord.Interaction) -> None:
         self.current_page=0
-        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
+        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3], level=self.level)
         self.update_buttons()
         await interaction.response.edit_message(embed=self.embed, view=self)
 
     async def prev_callback(self, interaction: discord.Interaction) -> None:
         self.current_page-=1
-        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
+        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3], level=self.level)
         self.update_buttons()
         await interaction.response.edit_message(embed=self.embed, view=self)
         
     async def next_callback(self, interaction: discord.Interaction) -> None:
         self.current_page+=1
-        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
+        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3], level=self.level)
         self.update_buttons()
         await interaction.response.edit_message(embed=self.embed, view=self)
         
     async def last_callback(self, interaction: discord.Interaction) -> None:
         self.current_page = int(self.skill_len) - 1
-        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3])
+        self.embed = self.embedconf.skillsEmbed(self.skill, self.skill_type, cur_page=self.current_page, colour=self.theme[0], chibi_avatar=self.theme[1], user=self.theme[2], thumbnail=self.theme[3], level=self.level)
         self.update_buttons()
         await interaction.response.edit_message(embed=self.embed, view=self)
         

@@ -17,6 +17,7 @@ class Skills(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.embedconf = EmbedClass()
+        self.level_not_in_range = False
 
         with open('data/skills.json') as file:
             self.skills = json.load(file)
@@ -85,7 +86,11 @@ class Skills(commands.Cog):
             view = GeneralView(ctx.author)
 
         embed = self.embedconf.skillsEmbed(skill, skill_type, colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3], level=level)
-        view.message = await ctx.send(embed=embed, view=view)
+        if self.level_not_in_range == True:
+            view.message = await ctx.send(content="Invalid skill level, value defaulted to 18.", embed=embed, view=view)
+            self.level_not_in_range = False
+        else:
+            view.message = await ctx.send(embed=embed, view=view)
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -93,18 +98,37 @@ class Skills(commands.Cog):
 
     @commands.hybrid_command(aliases=['Skill', 'skills', 'Skills'], description="Displays a skill menu for a particular character.")
     async def skill(self, ctx: commands.Context, *, frame) -> None:
-        name = fuzzmatch(frame)
+        level = 0
+        nickname = ""
+        str_array = frame.split(" ")
+        if str_array[len(str_array) - 1].isdigit():
+            if int(str_array[len(str_array) - 1]) > 0 and int(str_array[len(str_array) - 1]) < 26:
+                level = int(str_array[len(str_array) - 1])
+                str_array.pop()
+            else:
+                self.level_not_in_range = True
+                level = 18
+                str_array.pop()
+        else:
+            level = 18
+        nickname = " ".join(str_array)
+        
+        name = fuzzmatch(nickname)
         if name == "":
-            name = frame
+            name = nickname
         character = check_nickname(name, "character")
 
         if character != "":
             theme = character_theme(character)
 
             skills = self.skills.get(character)
-            embed = self.embedconf.skillsEmbed(skills['basic_attack'], "Basic Attack", colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3])
-            view = SkillsView(ctx.author, skills=skills, theme=theme)
-            view.message = await ctx.send(embed=embed, view=view)
+            embed = self.embedconf.skillsEmbed(skills['basic_attack'], "Basic Attack", colour=theme[0], chibi_avatar=theme[1], user=theme[2], thumbnail=theme[3], level=level)
+            
+            view = SkillsView(ctx.author, skills=skills, theme=theme, level=level)
+            if self.level_not_in_range == True:
+                view.message = await ctx.send(content="Invalid skill level, value defaulted to 18.", embed=embed, view=view)
+            else:
+                view.message = await ctx.send(embed=embed, view=view)
         else:
             await ctx.send(content=f"The name {frame} does not exist!")
 
@@ -118,6 +142,7 @@ class Skills(commands.Cog):
                 level = int(str_array[len(str_array) - 1])
                 str_array.pop()
             else:
+                self.level_not_in_range = True
                 level = 18
                 str_array.pop()
         else:
@@ -140,6 +165,7 @@ class Skills(commands.Cog):
                 level = int(str_array[len(str_array) - 1])
                 str_array.pop()
             else:
+                self.level_not_in_range = True
                 level = 18
                 str_array.pop()
         else:
@@ -162,6 +188,7 @@ class Skills(commands.Cog):
                 level = int(str_array[len(str_array) - 1])
                 str_array.pop()
             else:
+                self.level_not_in_range = True
                 level = 18
                 str_array.pop()
         else:
@@ -184,6 +211,7 @@ class Skills(commands.Cog):
                 level = int(str_array[len(str_array) - 1])
                 str_array.pop()
             else:
+                self.level_not_in_range = True
                 level = 18
                 str_array.pop()
         else:
@@ -206,6 +234,7 @@ class Skills(commands.Cog):
                 level = int(str_array[len(str_array) - 1])
                 str_array.pop()
             else:
+                self.level_not_in_range = True
                 level = 18
                 str_array.pop()
         else:
@@ -228,6 +257,7 @@ class Skills(commands.Cog):
                 level = int(str_array[len(str_array) - 1])
                 str_array.pop()
             else:
+                self.level_not_in_range = True
                 level = 18
                 str_array.pop()
         else:
@@ -250,6 +280,7 @@ class Skills(commands.Cog):
                 level = int(str_array[len(str_array) - 1])
                 str_array.pop()
             else:
+                self.level_not_in_range = True
                 level = 18
                 str_array.pop()
         else:
@@ -286,6 +317,7 @@ class Skills(commands.Cog):
                 level = int(str_array[len(str_array) - 1])
                 str_array.pop()
             else:
+                self.level_not_in_range = True
                 level = 18
                 str_array.pop()
         else:
