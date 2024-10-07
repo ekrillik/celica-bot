@@ -6314,7 +6314,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "CRIT Rate increases by  20%. Each  Dragon Force Combo restores up to  24 Signature Energy. When Qu: Pavo unleashes  Signature - Dragon's Wrath, Pulao: Dragontoll gains  30 Signature Energy and  25 Dragon Force."
+          "desc": "CRIT Rate increases by 20%. Each Dragon Force Combo restores up to 24 Signature Energy. When Qu: Pavo unleashes Signature - Dragon's Wrath, Pulao: Dragontoll gains 30 Signature Energy and 25 Dragon Force."
         }
       ]
     },
@@ -6323,7 +6323,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Physical DMG increases by  10%. Each  Dragon Force Combo restores an additional  12 Signature Energy (up to  36 per combo). Gains  25 Dragon Force upon entering battle each time."
+          "desc": "Physical DMG increases by 10%. Each Dragon Force Combo restores an additional 12 Signature Energy (up to  36 per combo). Gains 25 Dragon Force upon entering battle each time."
         }
       ]
     },
@@ -6332,7 +6332,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When casting  Spirit Blade: Falling Stars, leaves a  Dragon Cloudspring for  10s, during which the Kowloong units within the area receive a  20% CRIT DMG Bonus and  10% Physical DMG Bonus. Recovers 1 Signal Orb when casting  Snow Dragon."
+          "desc": "When casting Spirit Blade: Falling Stars, leaves a Dragon Cloudspring for 10s, during which the Kowloong units within the area receive a 20% CRIT DMG Bonus and 10% Physical DMG Bonus. Recovers 1 Signal Orb when casting Snow Dragon."
         }
       ]
     }
@@ -6933,7 +6933,7 @@
           "- While in the Electronic Blast state, performing [Signature-Starshatter Horizon] additionally triggers [Signature-Meteoric Thunderbolt], dealing 900% Electroconvergence DMG."
         ],
         "level18": [
-          "**Level 18**: An additional 3-Ping can be consumed while charging [Disintegration Strike] to increase Extra DMG Bous of the cast by 200%, trigger all available QTEs, and grant 240 points of Ampere Accumulation to the party.",
+          "**Level 18**: An additional 3-Ping can be consumed while charging [Disintegration Strike] to increase Extra DMG Bonus of the cast by 200%, trigger all available QTEs, and grant 240 points of Ampere Accumulation to the party.",
           "[Passive-Unquenchable Willpower Level 3] added effect: Extra DMG Bonus of [Disintegration Strike] increases by 50%. The additional 3-Ping consumed while charging [Disintegration Strike] will also double the DMG dealt by the next cast of [Signature-Meteoric Thunderbolt]."
         ]
       }
@@ -8020,7 +8020,7 @@
         "result": [
           "- Deals **{0}%** / **{1}%** / **{2}%** Lightning DMG in total based on the number of orbs pinged."
         ],
-        "res_lv18": [140, 280, 420]
+        "res_lv18": [160, 320, 480]
       }
     ],
     "blue_orb": [
@@ -8130,7 +8130,7 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Casting Resolute Blow at full Blade Aura will also activate all available QTES."
+          "desc": "Casting Resolute Blow at full Blade Aura will also activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
@@ -8395,7 +8395,7 @@
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Vision of Mountains increases by 50%. When Kowloong Uniframes are under the effect of Hanying's Ultralimit Torque, they gain a random set of 3-Ping Orbs, CD: 4s. They also gain a shield equal to 50% of Hanying's ATK for 8s."
+          "desc": "When Qu: Pavo is under the effect of Hanying's Ultralimit Torque, she gains a random set of 3-Ping Orbs, CD: 4s.\n\nWhen Pulao: Dragontoll is under the effect of Hanying's Ultralimit Torque, her CRIT DMG increases by 10% and also gains a shield equal to 50% of Hanying's ATK for 8s. "
         }
       ]
     }
