@@ -220,7 +220,6 @@ class EmbedClass:
                         result = self.calculate_actual_damage("\n".join(skill[cur_page]['result']), skill[cur_page]['res_lv18'], level)
                     else:
                         result = "\n".join(skill[cur_page]['result'])
-                    print(result)
                     embed.add_field(
                         name="",
                         value=f"{result}",

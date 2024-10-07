@@ -42,7 +42,7 @@
         "description": "Deals Physical DMG and flares up weapon, making all attacks deal extra Fire DMG for a period of time.",
         "result": [
           "- Deals **{0}%** / **{1}%** / **{2}%** Physical DMG based on the number of orbs pinged.",
-          "- Deals extra **{3}%** / **{4}%** / **{5}%** Fire DMG for 4 / 4 / 8s based on the number of orbs pinged."
+          "- Deals extra **{3}%** / **{4}%** / **{5}%** Fire DMG for 4 / 4 / 6s based on the number of orbs pinged."
         ],
         "res_lv18": [100, 200, 300, 10, 15, 20]
       }
@@ -571,7 +571,7 @@
         "description": "Deploys an ion wall at the target location that shocks enemies passing through, dealing Lightning DMG every second and reducing their movement speed. The targets hit will also be marked. Applying the mark again refreshes its duration.",
         "result": [
           "- The ion wall lasts 2 / 4 / 6s and deals **{0}%** Lightning DMG to the enemies passing through based on the number of orbs pinged.",
-          "- Reduces the enemies'movement speed by 20 / 40 / 80% based on the number of orbs pinged.",
+          "- Reduces the enemies'movement speed by 20% / 40% / 80% based on the number of orbs pinged.",
           "- The mark lasts 8s."
         ],
         "res_lv18": [60]
@@ -588,7 +588,7 @@
           ],
           "result": [
             "- Basic Attacks have a 30% chance to trigger Lightning Lure when they hit marked enemies.",
-            "- Pinging Red Orbs has a 30 / 60 / 100% chance to trigger Lightning Lure based on the number of orbs pinged.",
+            "- Pinging Red Orbs has a 30% / 60% / 100% chance to trigger Lightning Lure based on the number of orbs pinged.",
             "- Lightning Lure deals **{0}%** Lightning DMG.",
             "- EX Lightning Lure deals **{1}%** Lightning DMG and heals allies in the area for **{2}%** of Lux's ATK each time."
           ],
@@ -655,7 +655,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Reduces the Lightning resistance of targets within Sanctum by 15%. Sanctum refers to enemies affected by Lux's Yellow Orb."
+          "desc": "Reduces the Lightning resistance of targets within Sanctum by 15%."
         }
       ]
     }
@@ -1043,7 +1043,7 @@
     "class": {
       "name": "Attacker",
       "description": "Extra DMG Bonus increases by **{0}%**.",
-      "res_lv18": [20]
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Resolution",
@@ -1302,7 +1302,7 @@
     "class": {
       "name": "Support",
       "description": "Healing amount increases by **{0}%**.",
-      "res_lv18": [20]
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Field Reinforcement",
@@ -1596,12 +1596,13 @@
           "name": "Core Passive",
           "button_press": "Thermal Energy reaches 50%",
           "description": [
-            "Enters Enhanced Form once Thermal Energy reaches 50%, gaining Fire DMG Bonus and granting additional effects to Signal Orb skills and Basic Attacks. Thermal Energy decreases over time in Enhanced Form.- Gains **{0}%** Fire DMG Bonus in Enhanced Form."
+            "Enters Enhanced Form once Thermal Energy reaches 50%, gaining Fire DMG Bonus and granting additional effects to Signal Orb skills and Basic Attacks. Thermal Energy decreases over time in Enhanced Form."
           ],
-          "desc_lv18": [20],
           "result": [
+            "- Gains **{0}%** Fire DMG Bonus in Enhanced Form.",
             "- Thermal Energy decreases by 5% per second in Enhanced Form. "
-          ]
+          ],
+          "res_lv18": [20]
         }
       ]
     },
@@ -1612,19 +1613,19 @@
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
           "description": [
-            "Shoots a laser at the ground by **{0}%** Fire DMG and leaves a path of fire for 5 seconds in the end."
+            "Shoots lasers at the ground that deal Fire DMG and leave a path of fire for 5s. All enemies in the path take Fire DMG every second."
           ],
-          "desc_lv18": [200],
           "result": [
-            "All enemies in the path take **{0}%** Fire DMG per second. "
+            "Lasers deal **{0}%** Fire DMG.",
+            "The path of fire lasts 5s. Enemies in the path take **{1}%** Fire DMG every second."
           ],
-          "res_lv18": [200]
+          "res_lv18": [200, 200]
         }
       ]
     },
     "qte": {
       "name": "Gravity Fall",
-      "description": "Karenina deals **{0}%** Fire DMG to the target.",
+      "description": "Enters the battlefield and deals **{0}%** Fire DMG to the target.",
       "desc_lv18": [720]
     },
     "leader": {
@@ -1708,7 +1709,7 @@
         "description": "Unleashes energy that instantly interrupts enemy attacks and launches a heavy strike that deals Physical DMG to nearby enemies. Gains Shield and Super Armor when Shield is present. Deals Fire DMG instead upon a 3-Ping.",
         "result": [
           "- The heavy strike deals damage 3 times, each hit dealing **{0}%** / **{1}%** / **{2}%** Physical DMG based on the number of orbs pinged.",
-          "- Gains Shield equal to 5 / 7.5 / 10% of Pulse's max HP based on the number of orbs pinged for 5s."
+          "- Gains Shield equal to 5% / 7.5% / 10% of Pulse's max HP based on the number of orbs pinged for 5s."
         ],
         "res_lv18": [50, 100, 200]
       }
@@ -1720,7 +1721,7 @@
           "name": "Core Passive",
           "button_press": "Cast Signature Move + Tap Basic Attack",
           "description": [
-            "Nanami: Pulse enters Overclocking State after casting Signature Move. In this state, her Basic Attacks deal Fire DMG instead and reduce the Fire Resistance of the targets hit by **{0}%** for 8s."
+            "Upon casting a Signature Move, Nanami: Pulse enters the Overclocking State and her Basic Attacks will deal Fire DMG instead for 5.4s. Meanwhile, reduces the target's Fire Resistance by **{0}%** on hit for 8s."
           ],
           "desc_lv18": [15]
         }
@@ -2034,7 +2035,7 @@
         "switch_in": "no",
         "description": "Increases power to enter Enhanced Form, increasing movement speed and granting additional effects to basic attacks and swordwaves.",
         "result": [
-          "- Increases movement speed by 20 / 30 / 50% based on the number of orbs pinged.",
+          "- Increases movement speed by 20% / 30% / 50% based on the number of orbs pinged.",
           "- Enhanced Form lasts 5s."
         ]
       },
@@ -2295,7 +2296,7 @@
     "class": {
       "name": "Tank",
       "description": "Attacks reduce the target's Extra DMG Reduction by **{0}%** for 5s.",
-      "res_lv18": [20]
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Fearless Charge",
@@ -2527,7 +2528,7 @@
         "result": [
           "- The charge deals **{0}%** / **{1}%** / **{2}%** Physical DMG and the swing deals **{3}%** / **{4}%** / **{5}%** Physical DMG based on the number of orbs pinged."
         ],
-        "res_lv18": [90, 180, 270, 120, 240, 360]
+        "res_lv18": [120, 240, 360, 120, 240, 360]
       }
     ],
     "blue_orb": [
@@ -2869,7 +2870,7 @@
             "- Picking up an Energy Ball heals all within range for HP equal to **{0}%** of Sophia: Silverfang's ATK.",
             "- Fire Tempered increases the Fire DMG of the character who picked up the Energy Ball by **{1}%** for 5s.",
             "- Whenever an Energy Ball is picked up, Sophia: Silverfang gains 4 Energy and 75 Heat.",
-            "- Sophia: Silverfang's ATK increases by 5 / 10 / 15% when her Heat is over 0 / 100 / 200."
+            "- Sophia: Silverfang's ATK increases by 5% / 10% / 15% when her Heat is over 0 / 100 / 200."
           ],
           "res_lv18": [20, 10]
         }
@@ -3177,7 +3178,9 @@
         {
           "name": "Core Passive",
           "button_press": "Arctic Form + Any 3-Ping",
-          "description": "In Arctic Form, Energy decreases over time. While there is still Energy, Ice DMG increases and every 3-Ping grants 1 Signature point (up to 4 in Arctic Form). When casting the Signature Move, it can still benefit from the Core Passive's DMG Bonus if there is still Energy left.",
+          "description": [
+            "In Arctic Form, Energy decreases over time. While there is still Energy, Ice DMG increases and every 3-Ping grants 1 Signature point (up to 4 in Arctic Form). When casting the Signature Move, it can still benefit from the Core Passive's DMG Bonus if there is still Energy left."
+          ],
           "result": [
             "- Ice DMG increases by **{0}%** when there is still Energy."
           ],
@@ -3221,7 +3224,7 @@
     "class": {
       "name": "Attacker",
       "description": "Extra DMG Bonus increases by **{0}%**.",
-      "res_lv18": [20]
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Stone Freeze",
@@ -3251,7 +3254,6 @@
       ]
     }
   },
-
   "rozen": {
     "basic_attack": [
       {
@@ -3324,7 +3326,7 @@
             "With enough Overclock Points, when pressing and holding the Basic Attack button to unleash Vera's core attack, repeatedly tapping Basic Attack will also unleash her follow-up core attacks. Core attack deals AOE Dark DMG and deals additional Physical DMG to targets in melee range. Casting core attacks will consume Overclock Points and return energy."
           ],
           "result": [
-            "- Each hit of core attack deals {0}}% / **{1}%** / **{2}%** / **{3}%** / **{4}%** AOE Dark DMG.",
+            "- Each hit of core attack deals **{0}%** / **{1}%** / **{2}%** / **{3}%** / **{4}%** AOE Dark DMG.",
             "- Deals additional **{5}%** / **{6}%** / **{7}%** / **{8}%** / **{9}%** Physical DMG to targets in melee range.",
             "- Casting core attack will consume 12 Overclock Points and return 6 energy."
           ],
@@ -3342,7 +3344,7 @@
             "Creates a dark field, dealing Dark DMG to nearby enemies. The dark field also deals Dark DMG every second and heals the ally units within. Ally units inside the dark field also gain the Dark Radiation effect and bonus movement speed. The dark field always moves with the character."
           ],
           "result": [
-            "- Deals {0}}% AOE Dark DMG upon casting.",
+            "- Deals **{0}%** AOE Dark DMG upon casting.",
             "- The dark field deals **{1}%** Dark DMG and heals the ally units within for HP equal to **{2}%** of Vera: Rozen's ATK every second.",
             "- Ally units within the dark field gain the Dark Radiation effect that increases their Dark DMG by 10% and 20% bonus movement speed.",
             "-The dark field lasts 6s."
@@ -3442,7 +3444,7 @@
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": "Launches consecutive attacks that deal Physical DMG.",
-        "result": ["- Deals {0}}% Physical DMG in total."],
+        "result": ["- Deals **{0}%** Physical DMG in total."],
         "res_lv18": [800]
       },
       {
@@ -3526,7 +3528,7 @@
           "name": "Core Passive",
           "button_press": "Any 3-Ping",
           "description": [
-            "Any 3-Ping in Normal Form will accumulate  Madness. Once Crocotta reaches full  Madness, he will gain additional Signature Energy from any 3-Ping."
+            "Any 3-Ping in Normal Form will accumulate Madness. Once Crocotta reaches full Madness, he will gain additional Signature Energy from any 3-Ping."
           ],
           "result": [
             "- Madness stacks up to 3 times.",
@@ -3537,7 +3539,7 @@
           "name": "Core Passive",
           "button_press": "Berserk Form + Passive activates",
           "description": [
-            "When Camu enters  Berserk Form, he will consume all  Madness stacks and gain a DMG Bonus in  Berserk Form."
+            "When Camu enters Berserk Form, he will consume all Madness stacks and gain a DMG Bonus in Berserk Form."
           ],
           "result": [
             "- Gains **{0}%** / **{1}%** / **{2}%** DMG Bonus based on the number of Madness stacks consumed."
@@ -3634,7 +3636,7 @@
         "result": [
           "- Deals a total of **{0}%** / **{1}%** / **{2}%** Physical DMG over 3 hits based on the number of orbs pinged."
         ],
-        "res_lv18": [222, 444, 66]
+        "res_lv18": [222, 444, 666]
       }
     ],
     "yellow_orb": [
@@ -3688,7 +3690,7 @@
           "name": "Core Passive",
           "button_press": "Full Burst Form + Press and hold Basic Attack",
           "description": [
-            "When all Energy Points are used up, Rosetta: Rigor enters  Full Burst Form. Press and hold the Basic Attack button in this form to charge and fire the  Wide-area Electromagnetic Cannon once the charging reaches maximum, dealing Physical DMG while restoring Signature Energy, and inflicting the target with  Lance of Perception. While charging, her Extra DMG Reduction increases. Energy Points will be restored after firing the  Wide-area Electromagnetic Cannon."
+            "When all Energy Points are used up, Rosetta: Rigor enters Full Burst Form. Press and hold the Basic Attack button in this form to charge and fire the  Wide-area Electromagnetic Cannon once the charging reaches maximum, dealing Physical DMG while restoring Signature Energy, and inflicting the target with Lance of Perception. While charging, her Extra DMG Reduction increases. Energy Points will be restored after firing the Wide-area Electromagnetic Cannon."
           ],
           "result": [
             "- Wide-area Electromagnetic Cannon deals **{0}%** Physical DMG.",
@@ -3801,7 +3803,9 @@
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": "Proficient in martial arts, Changyu: Qilin pummels the enemies with his Gauntlets to deal Physical DMG and Ice DMG.",
-        "result": ["- Deals {0}}% Physical DMG and **{1}%** Ice DMG in total."],
+        "result": [
+          "- Deals **{0}%** Physical DMG and **{1}%** Ice DMG in total."
+        ],
         "res_lv18": [320, 810]
       }
     ],
@@ -3988,7 +3992,7 @@
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": "Launches consecutive attacks with a Glaive, dealing Physical DMG.",
-        "result": ["- Deals {0}}% Physical DMG in total."],
+        "result": ["- Deals **{0}%** Physical DMG in total."],
         "res_lv18": [750]
       }
     ],
@@ -4147,7 +4151,7 @@
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": "Uses spheres and spikes to inflict multiple attacks that deal Physical DMG.",
-        "result": ["- Deals {0}}% Physical DMG in total."],
+        "result": ["- Deals **{0}%** Physical DMG in total."],
         "res_lv18": [470]
       },
       {
@@ -4349,7 +4353,7 @@
           "name": "Core Passive",
           "button_press": "Yellow 3-Ping + Any 3-Ping",
           "description": [
-            "Any 3-Ping after a Yellow 3-Ping grants 2B  Stability.  Stability decreases over time (re-triggering does not refresh the duration), While 2B has  Stability, she enters  Battle Stance. Once 2B exits  Battle Stance, all  Data Correction stacks will be removed. Obtaining additional stacks or unleashing Signature Move will refresh the duration of  Data Correction. While Signature Move is active,  Stability will not decrease."
+            "Any 3-Ping after a Yellow 3-Ping grants 2B Stability. Stability decreases over time (re-triggering does not refresh the duration), While 2B has  Stability, she enters Battle Stance. Once 2B exits Battle Stance, all  Data Correction stacks will be removed. Obtaining additional stacks or unleashing Signature Move will refresh the duration of  Data Correction. While Signature Move is active,  Stability will not decrease."
           ],
           "result": [
             "- Any 3-Ping after a Yellow 3-Ping grants 2B 160 Stability.",
@@ -4433,7 +4437,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Physical DMG Bonus of Swordwave increases by  50%. While casting a Signature Move, all Yellow Orbs will be consumed to charge the greatsword and randomly converted into Signal Orbs of other colors. Upon hitting an enemy with Swordwave, 2B and 9S gain  5 Signature Energy, while A2 recovers  1% max HP for POD: Shield. Both effects have a  1.5s cooldown. The Physical DMG Bonus of every stack of  Data Correction increases to  4% (if 9S and A2 are also in the team, this effect increases to  8%)."
+          "desc": "Physical DMG Bonus of Swordwave increases by  50%. While casting a Signature Move, all Yellow Orbs will be consumed to charge the greatsword and randomly converted into Signal Orbs of other colors. Upon hitting an enemy with Swordwave, 2B and 9S gain  5 Signature Energy, while A2 recovers  1% max HP for POD: Shield. Both effects have a 1.5s cooldown. The Physical DMG Bonus of every stack of  Data Correction increases to  4% (if 9S and A2 are also in the team, this effect increases to  8%)."
         }
       ]
     },
@@ -4442,7 +4446,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Gains  30% Extra DMG Reduction while casting skills. Becomes invincible for  0.3s after casting  R020: Mirage. Physical DMG increases by  10% while  Battle Stance is active (if 9S and A2 are also in the team, this effect increases to  20%)."
+          "desc": "Gains 30% Extra DMG Reduction while casting skills. Becomes invincible for 0.3s after casting R020: Mirage. Physical DMG increases by 10% while  Battle Stance is active (if 9S and A2 are also in the team, this effect increases to 20%)."
         }
       ]
     }
@@ -4715,7 +4719,7 @@
     "class": {
       "name": "Tank",
       "description": "Attacks reduce the target's Extra DMG Reduction by **{0}%** for 5s.",
-      "res_lv18": [20]
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Last Type A",
@@ -4986,7 +4990,9 @@
         {
           "name": "Signature Move",
           "button_press": "Chaotic M.I.N.D. Form + Tap Basic Attack / Ping Staccato Orb",
-          "description": "When Chaotic M.I.N.D. is activated, use Basic Attack or ping Staccato Orbs directly to unleash two sonic waves, causing Lightning DMG.",
+          "description": [
+            "When Chaotic M.I.N.D. is activated, use Basic Attack or ping Staccato Orbs directly to unleash two sonic waves, causing Lightning DMG."
+          ],
           "result": [
             "- The two sonic waves deal **{0}%** Lightning DMG in total."
           ],
@@ -5114,7 +5120,7 @@
         "result": [
           "- Deals **{0}%** / **{1}%** / **{2}%** Physical DMG in total based on the number of orbs pinged."
         ],
-        "res_lv18": [180, 360, 540]
+        "res_lv18": [170, 340, 510]
       },
       {
         "name": "Glacial Slash",
@@ -5138,8 +5144,7 @@
             "During battle, Chrome: Glory's HP is compressed to  40%, with the remaining  60% filled with  Glorious Shield that automatically regenerates over time. When he has full energy, press and hold Basic Attack to empty the  Glorious Shield capacity and activate  Frost Spirit form, rearranging all Signal Orbs. All 3-Pings made in this form will gain  Condensed Frost without consuming  Glorious Shield, but  Glorious Shield cannot automatically regenerate while  Frost Spirit is active. Chrome: Glory creates  Eroding Chill around himself, dealing Ice DMG to enemies periodically and inflicting them with  Frost Corrosion that reduces their Ice Resistance."
           ],
           "result": [
-            "- Frost Corrosion: Deals **{0}%** Ice DMG to enemies every 0.5s and reduces their Ice Resistance by 15% for 8s.",
-            "- Triggering this effect again will renew its duration."
+            "- Frost Corrosion: Deals **{0}%** Ice DMG to enemies every 0.5s and reduces their Ice Resistance by 15% for 8s. Triggering this effect again will renew its duration."
           ],
           "res_lv18": [150]
         }
@@ -5172,7 +5177,7 @@
     "class": {
       "name": "Tank",
       "description": "Attacks reduce the target's Extra DMG Reduction by **{0}%** for 5s.",
-      "res_lv18": [20]
+      "desc_lv18": [20]
     },
     "ss_rank": {
       "name": "Enclosed Current",
@@ -5323,7 +5328,7 @@
             "Casts an Enhanced Duskglow Realm on the target's location and enters Quick Attack mode. Spends all Signal Orbs and Shadow Prism Energy to get unlimited Blue Orbs and extreme attack speed for 3s. When Quick Attack mode ends, the realm explodes to deal Dark DMG and empty No. 21: XXI's Energy, Blue Orbs and buffs. Creating Twilight Matrices during the Signature Move will increase the explosion's Extra DMG Bonus.\nCo-Bot: It will not perform other skills while the Signature Move is being cast. When Quick Attack mode ends, it releases a Force Wave to detonate all Twilight Matrices."
           ],
           "result": [
-            "- During Signature Move, every Basic Attack deals {0}}% Dark DMG.",
+            "- During Signature Move, every Basic Attack deals **{0}%** Dark DMG.",
             "- The realm explosion deals **{1}%** Dark DMG.",
             "- While casting the Signature Move, creating 1 / 2 / 3 / 4 / 5 Twilight Matrices will increase the explosion's Extra DMG Bonus by 40% / 80% / 120% / 160% / 200%.",
             "- When there are 6 Twilight Matrices, the Signature Move will achieve an S Rank, increasing the explosion DMG by **{2}%**."
@@ -5711,7 +5716,8 @@
             "- Red / Yellow / Blue Orbs are unlocked when there are at least 30 Deception Points.",
             "- Each time the 1st or 2nd hit of a Signal Orb skill is cast, 30 Deception Points will be consumed to generate 10 Energy.",
             "- Upon triggering Matrix, the next Signal Orb skill cast within 10s does not consume any Deception Points or Trickery Points.",
-            "- Gains 60 Deception Points when switched off battle."
+            "- Gains 60 Deception Points when switched off battle.",
+            "- Signal Orbs gained from any other source would be directly converted into 10 Deception Points or 5 Energy."
           ],
           "res_lv18": [200]
         }
@@ -5745,7 +5751,9 @@
         {
           "name": "Incinerating Orb",
           "button_press": "Ping Incinerating Orb",
-          "description": "Fires multiple incinerating bullets forward, dealing Fire DMG with 1 Incinerating Orb. Gains Super Armor while casting this move.",
+          "description": [
+            "Fires multiple incinerating bullets forward, dealing Fire DMG with 1 Incinerating Orb. Gains Super Armor while casting this move."
+          ],
           "result": ["- Deals **{0}%** Fire DMG in total."],
           "res_lv18": [1100]
         }
@@ -5764,7 +5772,7 @@
     "class": {
       "name": "Vanguard",
       "description": "Gains **{0}%** Extra DMG Bonus and a shield that absorbs DMG up to **{1}%** of max HP for 10s when the character is deployed.",
-      "res_lv18": [20, 20]
+      "desc_lv18": [20, 20]
     },
     "ss_rank": {
       "name": "Sleight of Hand",
@@ -5871,7 +5879,9 @@
         {
           "name": "Chaos Oath",
           "button_press": "Divine Prayer + Different-colored 3-Pings",
-          "description": "If the two sets of Signal Orbs have different colors, triggers  Chaos Oath that pulls enemies in an extremely large area, dealing Fire DMG to them and a small amount of dodgeable DMG to Liv: Empyrea.",
+          "description": [
+            "If the two sets of Signal Orbs have different colors, triggers  Chaos Oath that pulls enemies in an extremely large area, dealing Fire DMG to them and a small amount of dodgeable DMG to Liv: Empyrea."
+          ],
           "result": ["- Deals **{0}%** Fire DMG."],
           "res_lv18": [400]
         }
@@ -5884,7 +5894,7 @@
           "name": "Signature Move",
           "button_press": "80 Energy + Tap Signature",
           "description": [
-            "Liv: Empyrea enters Empyreal State with her M.I.N.D. plunged into a corrupted data space, gaining full Prayer and 6 random Signal Orbs (with a guaranteed set of 3-Ping orbs) while triggering Time Lag Calculation."
+            "When there is at least 80 energy, Liv: Empyrea can cast Signature - Sea of Sangharama to consume all energy and enter Empyreal State with her M.I.N.D. plunged into a corrupted data space, gaining full Prayer and 6 random Signal Orbs (with a guaranteed set of 3-Ping orbs) while triggering Time Lag Calculation."
           ]
         },
         {
@@ -5915,7 +5925,7 @@
     },
     "class": {
       "name": "Amplifier",
-      "description": "All switched-in members gain an extra **{0}%** ATK and **{0}%** Elemental DMG Bonus of the Amplifier's element for 10s.",
+      "description": "All switched-in members gain an extra **{0}%** ATK and **{1}%** Elemental DMG Bonus of the Amplifier's element for 10s.",
       "desc_lv18": [10, 10]
     },
     "ss_rank": {
@@ -6041,7 +6051,9 @@
         {
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Hold the joystick",
-          "description": "Upon a 3-Ping, moving the joystick will cause Selena: Capriccio to summon a phantom. The phantom will continue to cast the original skill, and Selena herself will gain Super Armor and cast  Reprise: Echo instead.",
+          "description": [
+            "Upon a 3-Ping, moving the joystick will cause Selena: Capriccio to summon a phantom. The phantom will continue to cast the original skill, and Selena herself will gain Super Armor and cast  Reprise: Echo instead."
+          ],
           "result": [
             "- Each Reprise: Echo cast by pinging Red/Yellow/Blue Orbs deals **{0}%** / **{1}%** / **{2}%** Dark DMG."
           ],
@@ -6050,7 +6062,9 @@
         {
           "name": "Core Passive",
           "button_press": "Ping Shooting Star Orb + Hold the joystick",
-          "description": "When casting a Shooting Star, moving the joystick will cause Selena: Capriccio to cast an additional Reprise: Twin Stars, dealing Dark DMG while summoning a phantom at the original location.",
+          "description": [
+            "When casting a Shooting Star, moving the joystick will cause Selena: Capriccio to cast an additional Reprise: Twin Stars, dealing Dark DMG while summoning a phantom at the original location."
+          ],
           "result": ["- Deals **{0}%** Dark DMG."],
           "res_lv18": [180]
         }
@@ -6631,7 +6645,7 @@
     "class": {
       "name": "Vanguard",
       "description": "Gains **{0}%** Extra DMG Bonus and a shield that absorbs DMG up to **{1}%** of max HP for 10s when the character is deployed.",
-      "res_lv18": [20, 20]
+      "desc_lv18": [20, 20]
     },
     "ss_rank": {
       "name": "Apocalyptic Heart",
@@ -6991,7 +7005,7 @@
           "name": "Gear-Break Combo",
           "button_press": "Tap Basic Attack repeatedly to trigger a Combo Strike",
           "description": [
-            "The next time Gear-Break Combo is triggered, if the current Rising Energy exceeds Rotational Speed, Gear Level will go up by 1.\n\nWhen Exceed Deduction is triggered, if the progress of sublimation energy is greater than the target speed bar, Gear level will increase by 1."
+            "The next time Gear-Break Combo is triggered, if the current Rising Energy exceeds Rotational Speed, Gear Level will go up by 1."
           ]
         },
         {
@@ -7084,7 +7098,7 @@
         "button_press": "Staff Form + Tap Basic Attack",
         "switch_in": "no",
         "description": "Unleashes 5 hits of attack toward the target with the Swordstaff.",
-        "result": ["- Deals 380% Physical DMG in total."],
+        "result": ["- Deals **{0}%** Physical DMG in total."],
         "res_lv18": [380]
       },
       {
@@ -7094,7 +7108,7 @@
         "description": "Unleashes 5 hits of attack toward the target with the Swordstaff.",
         "result": [
           "- Deals **{0}%** Physical DMG in total.",
-          "- Every hit of Basic Attack in Sword Form generates 4 Signature Energy."
+          "- Every hit of Basic Attack in Sword Form generates 3 Signature Energy."
         ],
         "res_lv18": [480]
       },
@@ -7116,7 +7130,7 @@
         "switch_in": "no",
         "description": "When Bianca: Stigmata is under the effect of Afterglow Enhancement, every hit of her Basic Attack and Sword Dance generates extra Afterglow Shadow that deals Physical DMG to the target.",
         "result": [
-          "- Each hit of Afterglow Shadow deals 40% Physical DMG.",
+          "- Each hit of Afterglow Shadow deals **{0}%** Physical DMG.",
           "- Each hit of Afterglow Shadow generates 1 Signature Energy."
         ],
         "res_lv18": [40]
@@ -7190,7 +7204,8 @@
           ],
           "result": [
             "- Glowing Lanternlight deals **{0}%** / **{1}%** / **{2}%** Physical DMG based on the total number of Signal Orbs and Afterglow Orbs pinged.",
-            "- Generates 1 / 2 / 3 / 6 / 7 / 8 Afterglow Points based on the total number of Signal Orbs and Afterglow Orbs pinged."
+            "- Generates 1 / 2 / 3 / 6 / 7 / 8 Afterglow Points based on the total number of Signal Orbs and Afterglow Orbs pinged.",
+            "- Restores 30 Signature Energy after casting Glowing Lanternlight."
           ],
           "res_lv18": [640, 720, 800]
         }
@@ -7228,13 +7243,13 @@
     },
     "qte": {
       "name": "Divine Judgment",
-      "description": "QTE - Staff Form + Tap QTE",
+      "description": "QTE - Staff Form + Tap QTE\nLeaps into the air and hurls the Swordstaff to the ground, dealing **{0}%** Physical DMG.",
+      "desc_lv18": [480],
       "result": [
-        "Leaps into the air and hurls the Swordstaff to the ground, dealing **{0}%** Physical DMG.",
         "QTE - Sword Form + Tap QTE",
-        "Slashes the target twice to deal **{1}%** Physical DMG."
+        "Slashes the target twice to deal **{0}%** Physical DMG."
       ],
-      "res_lv18": [480, 480]
+      "res_lv18": [480]
     },
     "leader": {
       "name": "Shadowless Beacon",
@@ -7254,7 +7269,7 @@
         },
         {
           "rank": "Lv 2 - Unlocked at SS Rank",
-          "desc": "Activating Sword Form with more than half Afterglow Points left will grant each hit of Basic Attack and Afterglow Shadow cast in Sword Form 2 bonus stacks of  Stigmata Will. Stigmata Will now stacks up to 99 times."
+          "desc": "Activating Sword Form with more than half Afterglow Points left will grant each hit of Basic Attack and Afterglow Shadow cast in Sword Form 2 bonus stacks of Stigmata Will. Stigmata Will now stacks up to 99 times. Casting Signature - Illuminated Abyss will activate all available QTEs."
         }
       ]
     },
@@ -8879,8 +8894,8 @@
           "result": [
             "Each swordwave deals **{0}%** Physical DMG.",
             "Red Cipher: Launches a thrust attack at the enemy, dealing **{1}%** Physical DMG.",
-            "Yellow Cipher: Launches a downward thrust from above, pulling in nearby enemy units and dealing **{3}%** Physical DMG.",
-            "Blue Cipher: Slashes the target, restoring HP equal to **{4}%** of Echo's ATK to allies and dealing **{5}%** Physical DMG."
+            "Yellow Cipher: Launches a downward thrust from above, pulling in nearby enemy units and dealing **{2}%** Physical DMG.",
+            "Blue Cipher: Slashes the target, restoring HP equal to **{3}%** of Echo's ATK to allies and dealing **{4}%** Physical DMG."
           ],
           "res_lv18": [30, 90, 50, 20, 50]
         },
@@ -10795,7 +10810,7 @@
           "name": "Azure Allure",
           "button_press": "Way of Strife + 30 Complex Time + Tap Signature Move",
           "description": [
-            "Basic Attacks and Signal Orb skills grant  Complex Time. Maximum points of  Complex Time: 120. Tap Signature Move while in Way of Strife to consume 30 points of  Complex Time to unleash Azure Allure and deal Physical DMG to the target. This skill can trigger Trueslash when it hits the target.\n\nWhile performing this skill, Hanying: Solacetune gains Super Armor and can evade incoming attacks. When performed consecutively, the Base DMG of Azure Allure increases by 50% every cast. This effect can stack up to twice, and subsequent casts of Azure Allure will retain the maximum multiplier after the Base DMG increase effect reaches the maximum value.\n\nGain 5 Signature Energy upon performing this skill. When performed consecutively, the amount of Signature Energy granted by this skill doubles every cast. The maximum value of Signature Energy granted by a single cast of this skill is 40."
+            "Basic Attacks and Signal Orb skills grant  Complex Time. Maximum points of  Complex Time: 120. Tap Signature Move while in Way of Strife to consume 30 points of Complex Time to unleash Azure Allure and deal Physical DMG to the target. This skill can trigger Trueslash when it hits the target.\n\nWhile performing this skill, Hanying: Solacetune gains Super Armor and can evade incoming attacks. When performed consecutively, the Base DMG of Azure Allure increases by 50% every cast. This effect can stack up to twice, and subsequent casts of Azure Allure will retain the maximum multiplier after the Base DMG increase effect reaches the maximum value.\n\nGain 5 Signature Energy upon performing this skill. When performed consecutively, the amount of Signature Energy granted by this skill doubles every cast. The maximum value of Signature Energy granted by a single cast of this skill is 40."
           ],
           "result": [
             "- Azure Allure deals **{0}%** Physical DMG; triggers Trueslash when this skill hits the target.",
