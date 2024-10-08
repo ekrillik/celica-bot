@@ -211,7 +211,7 @@ class EmbedClass:
                     emoji = "<:yelloworb:1293195569375875135>"
 
                 if(skill[cur_page]['button_press'] != ""):
-                    embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{emoji}{skill[cur_page]['name']}**\n**Trigger:** {skill[cur_page]['button_press']}", color=colour)
+                    embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{emoji} {skill[cur_page]['name']}**\n**Trigger:** {skill[cur_page]['button_press']}", color=colour)
                 else:
                     embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{emoji}{skill[cur_page]['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)
@@ -345,7 +345,7 @@ class EmbedClass:
                 else:
                     emoji = "<:sssplus_rank:1290613198394888216>"
 
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{emoji}{skill['name']}**", color=colour)
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{emoji} {skill['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)
                 embed.set_author(name=user, icon_url=chibi_avatar)
                 levels = skill['levels']

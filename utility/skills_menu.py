@@ -13,9 +13,9 @@ class SkillsView(discord.ui.View):
     def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, skills = {}, theme = [], level = 18) -> None:
         super().__init__(timeout=timeout)
         if 'leap' in skills:
-            options = ["<:basicatk:1293196190896095274>Basic Attack", "<:redorb:1293195525205786717>Red Orb", "<:blueorb:1293195603186159717>Blue Orb", "<:yelloworb:1293195569375875135>Yellow Orb", "Core Passive", "Signature/Ultimate", "QTE", "Leader Passive", "Class Passive", "<:ss_rank:1290613118581477438>SS", "<:sss_rank:1290613162449567867>SSS", "<:sssplus_rank:1290613198394888216>S+", "Leap"]
+            options = ["Basic Attack", "Red Orb", "Blue Orb", "Yellow Orb", "Core Passive", "Signature/Ultimate", "QTE", "Leader Passive", "Class Passive", "SS", "SSS", "S+", "Leap"]
         else:
-            options = ["<:basicatk:1293196190896095274>Basic Attack", "<:redorb:1293195525205786717>Red Orb", "<:blueorb:1293195603186159717>Blue Orb", "<:yelloworb:1293195569375875135>Yellow Orb", "Core Passive", "Signature/Ultimate", "QTE", "Leader Passive", "Class Passive", "<:ss_rank:1290613118581477438>SS", "<:sss_rank:1290613162449567867>SSS", "<:sssplus_rank:1290613198394888216>S+"]
+            options = ["Basic Attack", "Red Orb", "Blue Orb", "Yellow Orb", "Core Passive", "Signature/Ultimate", "QTE", "Leader Passive", "Class Passive", "SS", "SSS", "S+"]
         
         self.user = user
         self.skills = skills
@@ -75,25 +75,25 @@ class SkillsView(discord.ui.View):
         self.current_page = 0
         match self.menu.values[0]:
             # Done
-            case "<:basicatk:1293196190896095274>Basic Attack":
+            case "Basic Attack":
                 self.skill_type = "Basic Attack"
                 self.skill = self.skills['basic_attack']
                 self.skill_len = len(self.skills['basic_attack'])
                 embed = self.spawn_items()
             # Done         
-            case "<:redorb:1293195525205786717>Red Orb":
+            case "Red Orb":
                 self.skill_type = "Red Orb"
                 self.skill = self.skills['red_orb']
                 self.skill_len = len(self.skills['red_orb'])
                 embed = self.spawn_items()              
             # Done
-            case "<:blueorb:1293195603186159717>Blue Orb":
+            case "Blue Orb":
                 self.skill_type = "Blue Orb"
                 self.skill = self.skills['blue_orb']
                 self.skill_len = len(self.skills['blue_orb'])
                 embed = self.spawn_items()
             # Done
-            case "<:yelloworb:1293195569375875135>Yellow Orb":
+            case "Yellow Orb":
                 self.skill_type = "Yellow Orb"
                 self.skill = self.skills['yellow_orb']
                 self.skill_len = len(self.skills['yellow_orb'])
@@ -128,19 +128,19 @@ class SkillsView(discord.ui.View):
                 self.skill_len = 0
                 embed = self.spawn_items()
             # Done
-            case "<:ss_rank:1290613118581477438>SS":
+            case "SS":
                 self.skill_type = "SS"
                 self.skill = self.skills['ss_rank']
                 self.skill_len = 0
                 embed = self.spawn_items()
             # Done
-            case "<:sss_rank:1290613162449567867>SSS":
+            case "SSS":
                 self.skill_type = "SSS"
                 self.skill = self.skills['sss_rank']
                 self.skill_len = 0
                 embed = self.spawn_items()
             # Done
-            case "<:sssplus_rank:1290613198394888216>S+":
+            case "S+":
                 self.skill_type = "S+"
                 self.skill = self.skills['s+_rank']
                 self.skill_len = 0
