@@ -13,9 +13,35 @@ class SkillsView(discord.ui.View):
     def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, skills = {}, theme = [], level = 18) -> None:
         super().__init__(timeout=timeout)
         if 'leap' in skills:
-            options = ["Basic Attack", "Red Orb", "Blue Orb", "Yellow Orb", "Core Passive", "Signature/Ultimate", "QTE", "Leader Passive", "Class Passive", "SS", "SSS", "S+", "Leap"]
+            options = [
+                {"name": "Basic Attack", "emoji": "<:basicatk:1293196190896095274>"}, 
+                {"name": "Red Orb", "emoji": "<:redorb:1293195525205786717>"}, 
+                {"name": "Blue Orb", "emoji": "<:blueorb:1293195603186159717>"}, 
+                {"name": "Yellow Orb", "emoji": "<:yelloworb:1293195569375875135>"}, 
+                {"name": "Core Passive"}, 
+                {"name": "Signature/Ultimate"}, 
+                {"name": "QTE"}, 
+                {"name": "Leader Passive"}, 
+                {"name": "Class Passive"}, 
+                {"name": "SS", "emoji": "<:ss_rank:1290613118581477438>"}, 
+                {"name": "SSS", "emoji": "<:sss_rank:1290613162449567867>"}, 
+                {"name": "S+", "emoji": "<:sssplus_rank:1290613198394888216>"}, 
+                {"name": "Leap"}]
         else:
-            options = ["Basic Attack", "Red Orb", "Blue Orb", "Yellow Orb", "Core Passive", "Signature/Ultimate", "QTE", "Leader Passive", "Class Passive", "SS", "SSS", "S+"]
+            options = [
+                {"name": "Basic Attack", "emoji": "<:basicatk:1293196190896095274>"}, 
+                {"name": "Red Orb", "emoji": "<:redorb:1293195525205786717>"}, 
+                {"name": "Blue Orb", "emoji": "<:blueorb:1293195603186159717>"}, 
+                {"name": "Yellow Orb", "emoji": "<:yelloworb:1293195569375875135>"}, 
+                {"name": "Core Passive"}, 
+                {"name": "Signature/Ultimate"}, 
+                {"name": "QTE"}, 
+                {"name": "Leader Passive"}, 
+                {"name": "Class Passive"}, 
+                {"name": "SS", "emoji": "<:ss_rank:1290613118581477438>"}, 
+                {"name": "SSS", "emoji": "<:sss_rank:1290613162449567867>"}, 
+                {"name": "S+", "emoji": "<:sssplus_rank:1290613198394888216>"}, 
+            ]
         
         self.user = user
         self.skills = skills
@@ -29,7 +55,7 @@ class SkillsView(discord.ui.View):
             placeholder="Select a skill",
             min_values=1,
             max_values=1,
-            options=[discord.SelectOption(label=f"{skill}") for skill in options],
+            options=[discord.SelectOption(label=f"{skill['name']}", emoji=f"{skill['emoji']}") if 'emoji' in skill else discord.SelectOption(label=f"{skill['name']}") for skill in options],
         )
         self.first = discord.ui.Button(label="|<", style=discord.ButtonStyle.green)
         self.prev = discord.ui.Button(label="<", style=discord.ButtonStyle.blurple)
