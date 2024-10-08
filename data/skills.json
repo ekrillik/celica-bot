@@ -11967,7 +11967,7 @@
           "name": "Starfall Collapse",
           "button_press": "Holding Shield Axe + At least 100 Exceed Points or 100 Astra Gauge + Hold Basic Attack",
           "description": [
-            "Consumes all Exceed Points and Astra Gauge to cast Starfall Collapse, gathering nearby enemies, triggering Matrix if it is not on cooldown, dealing Lightning DMG and restoring Signature Energy. Triggers Matrix if it is not on cooldown. During this skill, Nanami is unable to cast Big Bang Victory!."
+            "Consumes all Exceed Points and Astra Gauge to cast Starfall Collapse, gathering nearby enemies, triggering Matrix if it is not on cooldown, dealing Lightning DMG and restoring Signature Energy. Triggers Matrix if it is not on cooldown. During this skill, Nanami is invincible but unable to cast Big Bang Victory!."
           ],
           "result": [
             "- Deals a total of **{0}%** Lightning DMG and restores 30 Signature Energy.",
