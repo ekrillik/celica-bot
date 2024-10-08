@@ -21,6 +21,10 @@ def fuzzmatch(string) -> str:
             characters = ["tempest", "capriccio"]
             index = random.randint(0, 1)
             character = characters[index]
+        case "best girl":
+            characters = ["eclipse", "lux", "luminance", "empyrea"]
+            index = random.randint(0, 1)
+            character = characters[index]
         case "lotus":
             character = "lotus"
         case "eclipse":
@@ -105,7 +109,7 @@ def fuzzmatch(string) -> str:
             character = "starfarer"
         case "starveil" | "haicma" | "hag" | "haicmama" | "nanny" | "mama":
             character = "starveil"
-        case "scire" | "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "best girl" | "bestgirl" | "flat tsundere is not waifu" | "trs" | "idol":
+        case "scire" | "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "flat tsundere is not waifu" | "trs" | "idol":
             character = "scire"
         case "arca" | "noan" | "deadweight" | "shrek" | "nero":
             character = "arca"
