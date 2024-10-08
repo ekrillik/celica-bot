@@ -1709,7 +1709,7 @@
       },
       {
         "name": "Alternative QTE Support Set",
-        "memos": "4 Guinevere 2 Gloria/Lantern Festival"
+        "memos": "2 Guinevere 2 Gloria 2 Lantern Festival/Samantha"
       }
     ],
     "builds": [
@@ -1765,12 +1765,16 @@
           "Used if another member in the team is already holding 4 Da Vinci",
           "Usable without Harmo"
         ],
-        "memories": ["4x Guinevere", "2x Gloria/Lantern Festival"],
+        "memories": [
+          "2x Guinevere",
+          "2x Gloria",
+          "2x Lantern Festival/Samantha"
+        ],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Passive"
         ],
-        "harmony_rec": "Da Vinci"
+        "harmony_rec": "Guinevere"
       }
     ]
   },
