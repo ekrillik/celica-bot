@@ -76,7 +76,7 @@
         "description": ["Used at all ranks", "General QTE Bot set"],
         "memories": ["4x Da Vinci", "2x Catherine"],
         "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
+          "Top Slot   : 6x Blue Orb",
           "Bottom Slot: 6x Class Passive"
         ],
         "harmony_rec": "None"
@@ -695,7 +695,7 @@
         "memories": ["6x Wu'an"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Core Passive"
+          "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "None"
       }
@@ -1025,7 +1025,7 @@
         "memories": ["6x Jack"],
         "memory_resonance": [
           "Top Slot   : 6x Yellow Orb",
-          "Bottom Slot: 6x Any ATK+15 Variant"
+          "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "None"
       }
@@ -1040,7 +1040,6 @@
         "name": "Main Support Set",
         "memos": "4 Da Vinci 2 Guinevere"
       },
-      { "name": "Pain Cage Set", "memos": "4 Da Vinci 2 Guinevere" },
       { "name": "Alternative Pain Cage Set", "memos": "4 Guinevere 2 Gloria" }
     ],
     "builds": [
@@ -1067,23 +1066,6 @@
         "description": [
           "Recommended for all ranks",
           "Fire Support set for both on-field and off-field roles."
-        ],
-        "memories": ["4x Da Vinci", "2x Guinevere"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Passive"
-        ],
-        "harmony_rec": "Einsteina"
-      },
-      {
-        "set_name": "Pain Cage Set",
-        "set_type": "Pain Cage",
-        "usage": "Pain Cage",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Liv+Empyrea/PPC+Support+Empy+%5BDv+Guin+Eins%5D.png",
-        "game_modes": "Pain Cage",
-        "description": [
-          "Recommended for all ranks",
-          "General QTE Support Set."
         ],
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
@@ -1196,7 +1178,7 @@
         "memories": ["6x Marco"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Any ATK+15 Variant"
+          "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "None"
       }
@@ -1235,7 +1217,7 @@
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
+          "Bottom Slot: 6x Class Passive"
         ],
         "harmony_rec": "None"
       }
@@ -1427,7 +1409,7 @@
       {
         "set_name": "Pain Cage Niche Set",
         "set_type": "Pain Cage",
-        "usage": "Pain Cage Speed Kills(Niche)",
+        "usage": "Pain Cage",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Bianca+Stigmata+%5B5+Builds%5D/Balter+%5BCharlotte+Darwin+Cottie%5D.png",
         "game_modes": "Pain Cage",
         "description": [
@@ -1458,7 +1440,7 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
         ],
-        "harmony_rec": "Cottie"
+        "harmony_rec": "Darwin"
       },
       {
         "set_name": "Pain Cage High Rank Harmony Set",
@@ -1475,7 +1457,7 @@
         "memories": ["4x Charlotte", "2x Frederick", "2x Frederick (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
+          "Bottom Slot: 6x Signature/Core Passive"
         ]
       }
     ]
@@ -2046,7 +2028,8 @@
     "frame_name": "Shukra\n<:s_rank:1287636749052412026><:attacker:1285839106240417803><:ice_element:1290613933106925638>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Ji Bo'an 2 Darwin" },
-      { "name": "Harmony Set", "memos": "4 Ji Bo'an 4 Chen Jiyuan" }
+      { "name": "Harmony Set", "memos": "4 Ji Bo'an 4 Chen Jiyuan" },
+      { "name": "Pain Cage Set", "memos": "4 Ji Bo'an 2 Cottie" }
     ],
     "builds": [
       {
@@ -2088,6 +2071,23 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
         ]
+      },
+      {
+        "set_name": "Pain Cage Set",
+        "set_type": "Pain Cage",
+        "usage": "Pain Cage",
+        "game_modes": "Pain Cage",
+        "description": [
+          "Recommended for all ranks",
+          "PPC Set for quick boss kills",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Ji Bo'an", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Darwin"
       }
     ]
   },

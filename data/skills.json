@@ -8395,7 +8395,7 @@
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "When Qu: Pavo is under the effect of Hanying's Ultralimit Torque, she gains a random set of 3-Ping Orbs, CD: 4s.\n\nWhen Pulao: Dragontoll is under the effect of Hanying's Ultralimit Torque, her CRIT DMG increases by 10% and also gains a shield equal to 50% of Hanying's ATK for 8s. "
+          "desc": "Extra DMG Bonus of Vision of Mountains increases by 50%. When Kowloong Uniframes are under the effect of Hanying's Ultralimit Torque, they gain a random set of 3-Ping Orbs, CD: 4s. They also gain a shield equal to 50% of Hanying's ATK for 8s."
         }
       ]
     }
@@ -8937,7 +8937,8 @@
           ],
           "result": [
             "- Imprisoning Co-Strike: Consumes all Splendor Points to imprison and pull in nearby enemies, dealing **{0}%** Physical DMG and restoring 36 Signature Energy.",
-            "- Soulbreaking Co-Strike: Consumes Soul Shatter Mark to leap and shoot the target, dealing **{1}%** Physical DMG and restoring 20 Signature Energy.- Echo becomes invincible during a Co-Strike but cannot cast Signature - Celestial Edge.",
+            "- Soulbreaking Co-Strike: Consumes Soul Shatter Mark to leap and shoot the target, dealing **{1}%** Physical DMG and restoring 20 Signature Energy.",
+            "- Echo becomes invincible during a Co-Strike but cannot cast Signature - Celestial Edge.",
             "- Echo gains Soul Shatter Mark after casting Signature - Celestial Edge."
           ],
           "res_lv18": [720, 576]
@@ -9739,7 +9740,7 @@
         "result": [
           "- Deals a total of **{0}%** / **{1}%** / **{2}%** Ice DMG."
         ],
-        "res_lv18": [150, 360, 450]
+        "res_lv18": [150, 300, 450]
       }
     ],
     "blue_orb": [
@@ -10409,7 +10410,7 @@
     },
     "leader": {
       "name": "Red Moon in the Empty Sky",
-      "description": "Increases Void DMG of all members by 10%. Increases ATK of all Annihilator Omniframes by 10%."
+      "description": "Increases Void DMG of all members by 10%. Increases ATK of all Annihilator Omniframes by 20%."
     },
     "class": {
       "name": "Annihilator",
@@ -11166,7 +11167,7 @@
           "name": "Hyperlinked Flight",
           "button_press": "Consume 160 Energy + Not during Bullet Hail/Frosty Ascent + Tap Signature Move",
           "description": [
-            "Summons a lightweight drone to generate a forcefield, pulling in enemies and firing a strengthened Condensation Round. Deals Ice or Hiemal DMG depending on the current Calibration Mode. Upon performing this skill, immediately gains 1 Signal Orb and rearranges Signal Orbs into 3-Pings. Time Lag Calculation is activated while performing this skill. If Wanshi has the Domain Overlimit effect when performing this skill, its duration is refreshed.\n\nDomain Overlimit: The effect gained when Matrix is triggered that makes the next ping count as a 3-Ping."
+            "Summons a lightweight drone to generate a forcefield, pulling in enemies and firing a strengthened Condensation Round. Deals Ice or Hiemal DMG depending on the current Calibration Mode. Upon performing this skill, immediately gains 1 Signal Orb and rearranges Signal Orbs into 3-Pings. Time Lag Calculation is activated while performing this skill. If Wanshi has the Domain Overlimit effect when performing this skill, its duration is refreshed."
           ],
           "result": [
             "- When Wanshi is in Calibration Mode: Quiescence or has not entered Calibration Mode, deals **{0}%** Ice DMG. If Wanshi is in Calibration Mode: Quiescence when performing this skill, resets the Calibration Meter upon performing this skill and exits Calibration Mode: Quiescence.",
@@ -11314,7 +11315,7 @@
         "result": [
           "- Gala Ablaze consumes 30 Radiance Points, granting 11 Signature Energy and dealing **{0}%** Fire DMG.",
           "- While in the Electronic Blast state, deals **{1}%** Electroconvergence DMG instead of Fire DMG.",
-          "- While performing this skill, gains Super Armor and 40% DMG Reduction. "
+          "- Lucia is invincible when performing this skill."
         ],
         "res_lv18": [2000, 4000]
       }
@@ -11561,7 +11562,7 @@
           "name": "Endless Eclipse",
           "button_press": "Levitating Mode + 90 Energy + Tap Signature Move",
           "description": [
-            "Gathers energy after flying upwards, then dives at the enemy target and explodes, dealing Fire DMG. If in possession of Radiance Engraving, consume it to amplify the damage of this Signature Move. Triggers Time Lag Calculation when performing this skill. If Lucia has the Domain Overlimit effect when performing this skill, its duration is refreshed. Exits Levitating Mode after performing this skill.\n\nDomain Overlimit: The effect gained when Matrix is triggered that makes the next ping count as a 3-Ping."
+            "Gathers energy after flying upwards, then dives at the enemy target and explodes, dealing Fire DMG. If in possession of Radiance Engraving, consume it to amplify the damage of this Signature Move. Triggers Time Lag Calculation when performing this skill. If Lucia has the Domain Overlimit effect when performing this skill, its duration is refreshed. Exits Levitating Mode after performing this skill."
           ],
           "result": [
             "- Deals **{0}%** Fire DMG.",
