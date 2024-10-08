@@ -126,39 +126,44 @@
   "skills": {
     "syntax": ">skills [character name]",
     "aliases": ">skill",
-    "description": "Provides a view of all the skills for a particular character with a dropdown menu.",
-    "examples": [">skill alisa", ">skill lamia"]
+    "description": "Provides a view of all the skills for a particular character with a dropdown menu. To view all skills for skill levels other than 18, please specify a number between 1 and 25 after the character's name.",
+    "examples": [">skill alisa", ">skill lamia", ">skill epitaph 20"]
   },
   "basic": {
     "syntax": ">basic [character name]",
-    "description": "Displays the Basic Attack skill for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": [">basic alisa", ">basic fish"]
+    "description": "Displays the Basic Attack skill for a particular character. The given input in the square brackets can be a character name/nickname. To view the skill with a specific skill level other than 18, please specify a number between 1 and 25 after the character's name.",
+    "examples": [">basic alisa", ">basic fish", ">basic epitaph 20"]
   },
   "red": {
     "syntax": ">red [character name]",
-    "description": "Displays the Red Orb skill for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": [">red alisa", ">red fish"]
+    "description": "Displays the Red Orb skill for a particular character. The given input in the square brackets can be a character name/nickname. To view the skill with a specific skill level other than 18, please specify a number between 1 and 25 after the character's name.",
+    "examples": [">red alisa", ">red fish", ">red epitaph 20"]
   },
   "yellow": {
     "syntax": ">yellow [character name]",
-    "description": "Displays the Yellow Orb skill for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": [">yellow alisa", ">yellow fish"]
+    "description": "Displays the Yellow Orb skill for a particular character. The given input in the square brackets can be a character name/nickname. To view the skill with a specific skill level other than 18, please specify a number between 1 and 25 after the character's name.",
+    "examples": [">yellow alisa", ">yellow fish", ">yellow epitaph 20"]
   },
   "blue": {
     "syntax": ">blue [character name]",
-    "description": "Displays the Blue Orb skill for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": [">blue alisa", ">blue fish"]
+    "description": "Displays the Blue Orb skill for a particular character. The given input in the square brackets can be a character name/nickname. To view the skill with a specific skill level other than 18, please specify a number between 1 and 25 after the character's name.",
+    "examples": [">blue alisa", ">blue fish", ">blue epitaph 20"]
   },
   "core": {
     "syntax": ">core [character name]",
-    "description": "Displays the Core Passive for a particular character. The given input in the square brackets can be a character name/nickname. As Core Passive descriptions are getting longer as the game progresses, they have been set up to be paginated rather than be presented in one big wall of text.",
-    "examples": [">core alisa", ">core best girl"]
+    "description": "Displays the Core Passive for a particular character. The given input in the square brackets can be a character name/nickname. As Core Passive descriptions are getting longer as the game progresses, they have been set up to be paginated rather than be presented in one big wall of text. To view the skill with a specific skill level other than 18, please specify a number between 1 and 25 after the character's name.",
+    "examples": [">core alisa", ">core best girl", ">core epitaph 20"]
   },
   "signature": {
     "syntax": ">signature [character name]",
     "aliases": ">ult, >ultimate",
-    "description": "Displays the Signature Move for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": [">signature alisa", ">ult lamia", ">ultimate best daughter"]
+    "description": "Displays the Signature Move for a particular character. The given input in the square brackets can be a character name/nickname. To view the skill with a specific skill level other than 18, please specify a number between 1 and 25 after the character's name.",
+    "examples": [
+      ">signature alisa",
+      ">ult lamia",
+      ">ultimate best daughter",
+      ">ult epitaph 20"
+    ]
   },
   "leader": {
     "syntax": ">leader [character name]",
@@ -167,13 +172,13 @@
   },
   "qte": {
     "syntax": ">qte [character name]",
-    "description": "Displays the QTE skill for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": [">qte alisa", ">qte lamia"]
+    "description": "Displays the QTE skill for a particular character. The given input in the square brackets can be a character name/nickname. To view the skill with a specific skill level other than 18, please specify a number between 1 and 25 after the character's name.",
+    "examples": [">qte alisa", ">qte lamia", ">qte epitaph 20"]
   },
   "class": {
     "syntax": ">class [character name]",
-    "description": "Displays the Class passive for a particular character. The given input in the square brackets can be a character name/nickname.",
-    "examples": [">class alisa", ">class lamia"]
+    "description": "Displays the Class passive for a particular character. The given input in the square brackets can be a character name/nickname. To view the skill with a specific skill level other than 18, please specify a number between 1 and 25 after the character's name.",
+    "examples": [">class alisa", ">class lamia", ">class epitaph 20"]
   },
   "ss": {
     "syntax": ">ss [character name]",
@@ -189,7 +194,7 @@
   },
   "s+": {
     "syntax": ">s+ [character name]",
-    "aliases": "s+, SSS+, S+, 3S+, 3s+",
+    "aliases": "s+, SSS+, S+, 3S+, 3s+, sss+",
     "description": "Displays the SSS3, SSS6 and S+ rank up buffs for a particular character. The given input in the square brackets can be a character name/nickname.",
     "examples": [">s+ alisa", ">3s+ lamia"]
   },

@@ -358,7 +358,7 @@ class Skills(commands.Cog):
         character = check_nickname(name, "character")
         await self.grab_skill(ctx, character, 'sss')
 
-    @commands.hybrid_command(name="splus", aliases=['s+', 'SSS+', 'S+', '3S+', '3s+'], description="Displays the S+ rank skills for a particular character.")
+    @commands.hybrid_command(name="splus", aliases=['s+', 'SSS+', 'S+', '3S+', '3s+', 'sss+'], description="Displays the S+ rank skills for a particular character.")
     async def splus(self, ctx: commands.Context, *, frame) -> None:
         nickname = ""
         str_array = frame.split(" ")

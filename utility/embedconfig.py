@@ -200,10 +200,20 @@ class EmbedClass:
     def skillsEmbed(self, skill, selection, cur_page = 0, colour=0xffffff, chibi_avatar="", user="", thumbnail = "", level = 18):
         match selection:
             case "Basic Attack" | "Red Orb" | "Blue Orb" | "Yellow Orb" :
+                emoji = ""
+                if selection == "Basic Attack":
+                    emoji = "<:basicatk:1293196190896095274>"
+                elif selection == "Red Orb":
+                    emoji = "<:redorb:1293195525205786717>"
+                elif selection == "Blue Orb":
+                    emoji = "<:blueorb:1293195603186159717>"
+                elif selection == "Yellow Orb":
+                    emoji = "<:yelloworb:1293195569375875135>"
+
                 if(skill[cur_page]['button_press'] != ""):
-                    embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{skill[cur_page]['name']}**\n**Trigger:** {skill[cur_page]['button_press']}", color=colour)
+                    embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{emoji}{skill[cur_page]['name']}**\n**Trigger:** {skill[cur_page]['button_press']}", color=colour)
                 else:
-                    embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{skill[cur_page]['name']}**", color=colour)
+                    embed = discord.Embed(title=f"Skill - {selection} (Lv. {level})", description=f"**{emoji}{skill[cur_page]['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)
                 embed.set_author(name=user, icon_url=chibi_avatar)
                 if 'desc_lv18' in skill[cur_page]:
@@ -327,7 +337,15 @@ class EmbedClass:
                         inline=False
                     )
             case "SS" | "SSS" | "S+":
-                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill['name']}**", color=colour)
+                emoji = ""
+                if selection == "SS":
+                    emoji = "<:ss_rank:1290613118581477438>"
+                elif selection == "SSS":
+                    emoji = "<:sss_rank:1290613162449567867>"
+                else:
+                    emoji = "<:sssplus_rank:1290613198394888216>"
+
+                embed = discord.Embed(title=f"Skill - {selection}", description=f"**{emoji}{skill['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)
                 embed.set_author(name=user, icon_url=chibi_avatar)
                 levels = skill['levels']
@@ -453,7 +471,12 @@ class EmbedClass:
         )
         embed.add_field(
             name="Disclaimer",
-            value=f"This bot is a community project initiated by Ek(#ek3970). It is not in any way affiliated with Kuro Games or their staff. If you would like to ask questions about the bot, please send me a DM or ping me on the Punishing: Gray Raven Official Discord. (Also Scire is not best girl. I was just held at gunpoint to give her that nickname.)",
+            value=f"This bot is a community project initiated by Ek(#ek3970). It is not in any way affiliated with Kuro Games or their staff. If you would like to ask questions about the bot, please send me a DM or ping me on the Punishing: Gray Raven Official Discord.)",
+            inline=False
+        )
+        embed.add_field(
+            name="Celica's Office Discord Server",
+            value=f"Come into Celica's office to see what she's doing and what she has planned for the future!\n[Celica's Office Discord Server Link](https://discord.gg/8R62XrqH6j)",
             inline=False
         )
         embed.set_thumbnail(url="https://assets.huaxu.app/glb/image/rolecharacter/sailikanomal01.256.webp")
