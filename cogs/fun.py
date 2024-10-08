@@ -19,6 +19,7 @@ class Fun(commands.Cog):
             1280331315115327488, # Celica's Office
             1272185726699573358, # Nnin's Corner
             140529276175777792, # Nova's personal discord
+            949981074153435157, # Doggostruct
         ]
         self.pasta_command_ran = False
         self.bubblewrap_command_ran = False
