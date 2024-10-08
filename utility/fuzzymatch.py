@@ -21,10 +21,11 @@ def fuzzmatch(string) -> str:
             characters = ["tempest", "capriccio"]
             index = random.randint(0, 1)
             character = characters[index]
-        case "best girl":
+        case "best girl" | "bestgirl":
             characters = ["eclipse", "lux", "luminance", "empyrea"]
             index = random.randint(0, 3)
             character = characters[index]
+            print(character)
         case "lotus":
             character = "lotus"
         case "eclipse":
