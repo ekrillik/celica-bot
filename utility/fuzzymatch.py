@@ -23,7 +23,7 @@ def fuzzmatch(string) -> str:
             character = characters[index]
         case "best girl":
             characters = ["eclipse", "lux", "luminance", "empyrea"]
-            index = random.randint(0, 1)
+            index = random.randint(0, 3)
             character = characters[index]
         case "lotus":
             character = "lotus"
