@@ -41,7 +41,7 @@ class Help(commands.Cog):
             )
             embed.add_field(
                 name="**Changelog**",
-                value="```This is a new PGR bot with updated information, taking aspects of the Cogs bot made by Doomy. Please stay tuned for more updates.```",
+                value="```Added Polaris Bond memory rework 2pc+4pc effects```",
                 inline=False
             )
             view = HelpView(ctx.author, bot_related=bot_related, informational_commands=information)

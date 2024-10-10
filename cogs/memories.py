@@ -7,6 +7,7 @@ from discord.ext import commands
 from utility.embedconfig import EmbedClass
 from utility.nickname_checker import check_nickname, abbreviation_checker
 from utility.fuzzymatch import fuzzmatch
+from utility.mem_pagination import MemorPageView
 
 def minmax(first, second) -> discord.Embed:
     top_mem, bot_mem = sorted([first, second], key=lambda x: x['atk'])
@@ -85,9 +86,13 @@ class Memories(commands.Cog):
         if memory is None:
             await ctx.send(content="This memory does not exist. Please try again.")
             return
-
+        
+        view = MemorPageView(ctx.author, memory=memory)
         embed = self.embedconf.create_memory_embed(memory)
-        await ctx.send(embed=embed)
+        if '4pc_alt' in memory:
+            view.message = await ctx.send(view=view, embed=embed)
+        else:
+            await ctx.send(embed=embed)
 
     @app_commands.command(name="minmax", description="Compares two memories and displays where they should be placed")
     @app_commands.autocomplete(first=memory_autocomplete, second=memory_autocomplete)

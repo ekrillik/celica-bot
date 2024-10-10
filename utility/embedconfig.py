@@ -98,20 +98,34 @@ class EmbedClass:
             color=discord.Color(colour)
         )
 
-    def create_memory_embed(self, memory):
+    def create_memory_embed(self, memory, isRework = False):
         embed = self.create_rarity_embed(memory['name'], memory['rarity'])
-        embed.add_field(
-            name=f"2pc Set Bonus",
-            value=f"{memory['2pc']}",
-            inline=False
-        )
-
-        if memory['4pc'] != "":
+        if '2pc_alt' in memory and isRework == True:
             embed.add_field(
-                name=f"4pc Set Bonus",
-                value=f"{memory['4pc']}",
+                name=f"2pc Set Bonus",
+                value=f"{memory['2pc_alt']}",
                 inline=False
             )
+        else:
+            embed.add_field(
+                name=f"2pc Set Bonus",
+                value=f"{memory['2pc']}",
+                inline=False
+            )
+
+        if memory['4pc'] != "":
+            if not isRework:
+                embed.add_field(
+                    name=f"4pc Set Bonus",
+                    value=f"{memory['4pc']}",
+                    inline=False
+                )
+            else:
+                embed.add_field(
+                    name=f"4pc Set Bonus",
+                    value=f"{memory['4pc_alt']}",
+                    inline=False
+                )
 
         if '6pc' in memory:
             embed.add_field(
