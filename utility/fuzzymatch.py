@@ -102,7 +102,7 @@ def fuzzmatch(string) -> str:
             character = "flambeau"
         case "empy" | "solaeter" | "empyrea" | "flashbang" | "sol" | "angel":
             character = "empyrea"
-        case "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2":
+        case "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2" | "magikarp":
             character = "capriccio"
         case "dragontoll" | "pulao" | "windbell's girl":
             character = "dragontoll"
@@ -136,7 +136,7 @@ def fuzzmatch(string) -> str:
             character = "lost lullaby"
         case "brs" | "brick rock shooter" | "edgy miku" | "black rock shooter":
             character = "brs"
-        case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss":
+        case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss" | "green guy":
             character = "epitaph"
         case "shukra"| "qukra" | "queen" | "legs":
             character = "shukra"
