@@ -1,4 +1,5 @@
 import discord
+import json
 from discord.ext import commands
 
 class Ppc(commands.Cog):
@@ -6,6 +7,9 @@ class Ppc(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
 
+        with open('data/bosses.json') as file:
+            self.bossdata = json.load(file)
+            
     @commands.Cog.listener()
     async def on_ready(self):
         print('PPC loaded.')
@@ -45,6 +49,26 @@ class Ppc(commands.Cog):
         time = time+1
         score = 21000 * factor - round((74.875 * float(factor) * float(time)) - (0.25 * float(factor) * float(time) * (float(time)-1.0) / 2.0), 0)
         return int(score)
+
+    @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")
+    async def boss(self, ctx: commands.Context, boss_name):
+        self.boss = self.bossdata[boss_name]
+
+        embed = discord.Embed(
+            title=f"{self.boss['name']}",
+            description=f""
+        )
+        embed.set_thumbnail(url="")
+        embed.add_field(name=f"Weakness: {self.boss['weakness_name']}", value=f"{self.boss['weakness_desc']}", inline=False)
+        embed.add_field(name=f"Zone Type: Ultimate/EXPPC", value="", inline=False)
+        difficulty_stats = self.boss['exppc']['hell']
+        embed.add_field(
+            name=f"Difficulty: Hell", 
+            value=f"HP: {difficulty_stats['hp']}HP\nSuper Armor: {difficulty_stats['super_armor']/100}%\nExtra Damage Reduction: {difficulty_stats['edr']/100}%\nDefence: {difficulty_stats['def']/100}%\nPhys Resist: {difficulty_stats['phys_res']/100}%\nFire Resist: {difficulty_stats['fire_res']/100}%\nLight Resist: {difficulty_stats['light_res']/100}%\nIce Resist: {difficulty_stats['ice_res']/100}%\nDark Resist: {difficulty_stats['dark_res']/100}%\n",
+            inline=False
+        )
+        
+        await ctx.send(embed=embed)
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Ppc(bot))

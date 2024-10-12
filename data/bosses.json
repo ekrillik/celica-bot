@@ -1,0 +1,254 @@
+{
+  "lilith": {
+    "name": "Lilith",
+    "thumbnail": "",
+    "weakness_name": "Corrosion (Dark)",
+    "weakness_desc": "The internal structure has been corroded by excessively stored radiant energy. Dark DMG received is increased significantly.",
+    "exppc": {
+      "test": {
+        "hp": 1970001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 3540001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 5850001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 8780001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 13000001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "trailblazer": {
+    "name": "Trailblazer",
+    "thumbnail": "",
+    "weakness_name": "Steel Willed (No Weakness/Neutral)",
+    "weakness_desc": "Fight with all your might and passion is the the greatest respect for your enemy.",
+    "exppc": {
+      "test": {
+        "hp": 1060001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 1910001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 3150001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 4730001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 7000001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "fushen": {
+    "name": "Fu Shen",
+    "thumbnail": "",
+    "weakness_name": "Frail (Physical)",
+    "weakness_desc": "Cannot resist physical impacts after the structure is weakened. Physical DMG received is increased significantly.",
+    "exppc": {
+      "test": {
+        "hp": 1510001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 2730001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 4500001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 6750001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 10000001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 0,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "luna": {
+    "name": "Luna",
+    "thumbnail": "",
+    "weakness_name": "Combustible (Fire)",
+    "weakness_desc": "Easily ignited by high temperatures and causes huge explosions. Fire DMG received is increased significantly.",
+    "exppc": {
+      "test": {
+        "hp": 933751,
+        "super_armor": 18675,
+        "edr": 249,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 1871251,
+        "super_armor": 37425,
+        "edr": 499,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 2808751,
+        "super_armor": 56175,
+        "edr": 749,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 3746251,
+        "super_armor": 74925,
+        "edr": 999,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 4796251,
+        "super_armor": 95925,
+        "edr": 1279,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  }
+}
