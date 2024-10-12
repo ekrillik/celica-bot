@@ -12047,7 +12047,9 @@
         {
           "name": "Glowing Embers Field",
           "button_press": "",
-          "description": "After casting Heavenly Star Piercer or Gigabyte Star Sunder, leaves behind a field that continuously deals damage and debuffs enemies.",
+          "description": [
+            "After casting Heavenly Star Piercer or Gigabyte Star Sunder, leaves behind a field that continuously deals damage and debuffs enemies."
+          ],
           "result": [
             "- The field deals **{0}%** Lightning DMG every second for 12s. Triggering this effect again will reset its duration.",
             "- If Nanami has a Blaze Emblem when this skill is cast, deals **{1}%** Combustion DMG every second for 12s instead. Triggering this effect again will reset its duration."

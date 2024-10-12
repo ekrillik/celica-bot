@@ -1,5 +1,7 @@
 *.txt
 .env*
+temp.json
+backup
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
