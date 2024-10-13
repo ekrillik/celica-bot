@@ -21,6 +21,7 @@ class Fun(commands.Cog):
             140529276175777792, # Nova's personal discord
             949981074153435157, # Doggostruct
             854380499643138118, # Fel's Server
+            712404390207815761, # Shahrivar's Server
         ]
         self.pasta_command_ran = False
         self.bubblewrap_command_ran = False
