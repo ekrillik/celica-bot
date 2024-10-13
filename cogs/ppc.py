@@ -59,12 +59,12 @@ class Ppc(commands.Cog):
             description=f""
         )
         embed.set_thumbnail(url="")
-        embed.add_field(name=f"Weakness: {self.boss['weakness_name']}", value=f"{self.boss['weakness_desc']}", inline=False)
+        embed.add_field(name=f"Weakness: {self.boss['weakness_name']}", value="", inline=False)
         embed.add_field(name=f"Zone Type: Ultimate/EXPPC", value="", inline=False)
         difficulty_stats = self.boss['exppc']['hell']
         embed.add_field(
             name=f"Difficulty: Hell", 
-            value=f"HP: {difficulty_stats['hp']}HP\nSuper Armor: {difficulty_stats['super_armor']/100}%\nExtra Damage Reduction: {difficulty_stats['edr']/100}%\nDefence: {difficulty_stats['def']/100}%\nPhys Resist: {difficulty_stats['phys_res']/100}%\nFire Resist: {difficulty_stats['fire_res']/100}%\nLight Resist: {difficulty_stats['light_res']/100}%\nIce Resist: {difficulty_stats['ice_res']/100}%\nDark Resist: {difficulty_stats['dark_res']/100}%\n",
+            value=f"HP: {difficulty_stats['hp']}\nSuper Armor: {difficulty_stats['super_armor']/100}%\nExtra Damage Reduction: {difficulty_stats['edr']/100}%\nDefence: {difficulty_stats['def']/100}%\nPhys Resist: {difficulty_stats['phys_res']/100}%\nFire Resist: {difficulty_stats['fire_res']/100}%\nLight Resist: {difficulty_stats['light_res']/100}%\nIce Resist: {difficulty_stats['ice_res']/100}%\nDark Resist: {difficulty_stats['dark_res']/100}%\n",
             inline=False
         )
         
