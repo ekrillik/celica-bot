@@ -23,6 +23,7 @@ class Fun(commands.Cog):
             854380499643138118, # Fel's Server
             712404390207815761, # Shahrivar's Server
             431234590372265994, # Ew's Server
+            887647011904557068, # Exaltair
         ]
         self.pasta_command_ran = False
         self.bubblewrap_command_ran = False
