@@ -81,7 +81,7 @@ class Help(commands.Cog):
                         value=f"[Gray Ravens](https://grayravens.com/wiki/GRAY_RAVENS)\n[Bili Wiki](https://wiki.biligame.com/zspms/%E9%A6%96%E9%A1%B5)")
         embed.add_field(name=":book: Lore", value=f"[Huaxu Stories](https://huaxu.app/stories)")
         embed.add_field(name=":link: Community Links",
-                        value=f"[Huaxu](https://huaxu.app/)\n[Setsu's Harmo Spreadsheet](https://docs.google.com/spreadsheets/d/1t7TXDtfZdpHQy8SZAeIMpxcSi1pheSUVgDwkhicCw6s)\n[Zexous' Meta Spreadsheet](https://docs.google.com/spreadsheets/d/1SusxJ3tYwsBqY3dPwJ9BG2tDW0ox5GqVJgGZHYnAqa8)\n[Rexlent Beginner YT Playlist](https://www.youtube.com/watch?v=EHaKrXj643A&list=PLT669jfZO0z9OFd4fnfJxGc3Z71e-1FCg)\n[Setsu's Harmo Spreadsheet v2](https://docs.google.com/spreadsheets/d/1yToEJAp_-nfjLYKe8QgUOgSXE0ci4eDfDpTz_SkyGQI)")
+                        value=f"[Huaxu](https://huaxu.app/)\n[Zexous' Meta Spreadsheet](https://docs.google.com/spreadsheets/d/1SusxJ3tYwsBqY3dPwJ9BG2tDW0ox5GqVJgGZHYnAqa8)\n[Rexlent Beginner YT Playlist](https://www.youtube.com/watch?v=EHaKrXj643A&list=PLT669jfZO0z9OFd4fnfJxGc3Z71e-1FCg)\n[Setsu's Harmo Spreadsheet v2](https://docs.google.com/spreadsheets/d/1yToEJAp_-nfjLYKe8QgUOgSXE0ci4eDfDpTz_SkyGQI)")
 
         embed.add_field(name=":calendar_spiral: Planning",
                         value=f"[BC Planner](https://docs.google.com/spreadsheets/d/1nNauBXGcHv_7AepLWBLo4ykl3V_EhxpK)\n[PGR Packs](https://docs.google.com/spreadsheets/d/1--NFm3o__MguetZJQsEIjIbx4bvp3MPm0QWlA4q26zk)")
