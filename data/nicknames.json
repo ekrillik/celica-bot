@@ -42,7 +42,7 @@
     },
     {
       "name": "Sophia: Silverfang",
-      "nicknames": ["sophia", "s*phia"]
+      "nicknames": ["sophia", "s*phia", "ireng"]
     },
     {
       "name": "Lucia: Plume",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Rosetta: Rigor",
-      "nicknames": ["rose", "rosetta", "juan"]
+      "nicknames": ["rose", "rosetta", "juan", "kuda", "kuda lumping"]
     },
     {
       "name": "Changyu: Qilin",
@@ -78,6 +78,7 @@
       "name": "Selena: Tempest",
       "nicknames": ["shitlena", "iris"]
     },
+    { "name": "Chrome: Glory", "nicknames": ["daddy"] },
     {
       "name": "No. 21: XXI",
       "nicknames": ["21", "crazy kid"]
@@ -88,7 +89,14 @@
     },
     {
       "name": "Roland: Flambeau",
-      "nicknames": ["roland", "kuraimakusu", "clown", "theatre", "curtain call"]
+      "nicknames": [
+        "roland",
+        "kuraimakusu",
+        "clown",
+        "theatre",
+        "curtain call",
+        "badut"
+      ]
     },
     {
       "name": "Liv: Empyrea",
@@ -105,7 +113,8 @@
         "red soup",
         "grimace shake",
         "irisv2",
-        "magikarp"
+        "magikarp",
+        "kuyang"
       ]
     },
     {
@@ -128,7 +137,8 @@
         "best girl",
         "bestgirl",
         "flat tsundere is not waifu",
-        "idol"
+        "idol",
+        "yoyo"
       ]
     },
     {
@@ -160,12 +170,14 @@
         "xiangli yao",
         "hypertrash",
         "hypermonke",
-        "hypercuck"
+        "hypercuck",
+        "hyperbrick",
+        "hypermid"
       ]
     },
     {
       "name": "Ayla: Kaleido",
-      "nicknames": ["cow", "kale", "rich painter", "zhezhi"]
+      "nicknames": ["cow", "kale", "rich painter", "zhezhi", "booba"]
     },
     {
       "name": "Lucia: Crimson Weave",
@@ -175,7 +187,9 @@
         "vergil's daughter",
         "cw",
         "blanc's curse",
-        "bury the light"
+        "bury the light",
+        "ojek",
+        "kang ojek"
       ]
     },
     {
@@ -190,7 +204,8 @@
         "feral: 21",
         "best daughter",
         "doggo",
-        "wolfie-chan"
+        "wolfie-chan",
+        "fluffy"
       ]
     },
     {
@@ -203,7 +218,16 @@
     },
     {
       "name": "Lamia: Lost Lullaby",
-      "nicknames": ["lullaby", "feesh", "fish", "lamia", "mermaid", "shawty"]
+      "nicknames": [
+        "lullaby",
+        "feesh",
+        "fish",
+        "lamia",
+        "mermaid",
+        "shawty",
+        "skibidi",
+        "skibidi toilet"
+      ]
     },
     {
       "name": "BLACK\u2605ROCK SHOOTER: BLACK\u2605ROCK SHOOTER",
@@ -231,7 +255,7 @@
     },
     {
       "name": "Teddy: Decryptor",
-      "nicknames": ["teddy", "smug", "always beats karen", "kusogaki"]
+      "nicknames": ["teddy", "smug", "always beats karen", "kusogaki", "brat"]
     },
     {
       "name": "Luna: Oblivion",
