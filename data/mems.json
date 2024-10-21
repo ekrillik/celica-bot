@@ -820,5 +820,16 @@
     "def": 223,
     "crit": 66,
     "hp": 1491
+  },
+  "sothoth": {
+    "name": "Sothoth",
+    "thumbnail": "",
+    "rarity": 6,
+    "2pc": "Void DMG increases by 10%.",
+    "4pc": "",
+    "atk": 0,
+    "def": 0,
+    "crit": 0,
+    "hp": 0
   }
 }

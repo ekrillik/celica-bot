@@ -12119,5 +12119,128 @@
         }
       ]
     }
+  },
+  "parhelion": {
+    "basic_attack": [
+      {
+        "name": "",
+        "button_press": "Tap Basic Attack",
+        "switch_in": "no",
+        "description": "",
+        "desc_lv18": []
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "",
+        "button_press": "Tap Red Orb",
+        "switch_in": "no",
+        "description": "",
+        "result": [],
+        "res_lv18": []
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "",
+        "button_press": "Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "",
+        "result": [],
+        "res_lv18": []
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "",
+        "button_press": "Tap Blue Orb",
+        "switch_in": "no",
+        "description": "",
+        "result": [],
+        "res_lv18": []
+      }
+    ],
+    "core_passive": {
+      "name": "Placeholder",
+      "skills": [
+        {
+          "name": "Placeholder",
+          "button_press": "Placeholder",
+          "description": [""],
+          "result": [],
+          "res_lv18": []
+        }
+      ]
+    },
+    "signature": {
+      "name": "Placeholder",
+      "skills": [
+        {
+          "name": "Placeholder",
+          "button_press": "Tap Signature",
+          "description": [""],
+          "result": [],
+          "res_lv18": []
+        }
+      ]
+    },
+    "qte": {
+      "name": "QTE",
+      "description": "Placeholder",
+      "result": [],
+      "res_lv18": []
+    },
+    "leader": {
+      "name": "Placeholder",
+      "description": ""
+    },
+    "class": {
+      "name": "",
+      "description": "",
+      "desc_lv18": []
+    },
+    "ss_rank": {
+      "name": "",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": ""
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": ""
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": ""
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": ""
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": ""
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": ""
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": ""
+        }
+      ]
+    }
   }
 }

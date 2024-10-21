@@ -671,6 +671,18 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
+  "placeholder4": {
+    "name": "Placeholder",
+    "weapon_type": "Placeholder",
+    "rarity": 4,
+    "thumbnail": "",
+    "atk": 0,
+    "crit": 0,
+    "effect": {
+      "effect_name": "Placeholder",
+      "effect_desc": "Placeholder"
+    }
+  },
   "gloomlight": {
     "name": "Gloomlight",
     "weapon_type": "Dual Guns",
@@ -1293,6 +1305,18 @@
     "effect": {
       "effect_name": "Light's Benediction",
       "effect_desc": "Lightning DMG increases by 10%."
+    }
+  },
+  "placeholder5": {
+    "name": "Placeholder",
+    "weapon_type": "Placeholder",
+    "rarity": 5,
+    "thumbnail": "",
+    "atk": 0,
+    "crit": 0,
+    "effect": {
+      "effect_name": "Placeholder",
+      "effect_desc": "Placeholder"
     }
   },
   "lotus berserker": {
@@ -2073,6 +2097,18 @@
     "effect": {
       "effect_name": "Sublime Omnislash",
       "effect_desc": "ATK increases by 10%. Exceed Points' Base DMG boost towards Starfall Collapse doubles. Base DMG of Burning Breakaway doubles."
+    }
+  },
+  "placeholder": {
+    "name": "Placeholder",
+    "weapon_type": "Placeholder",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 0,
+    "crit": 0,
+    "effect": {
+      "effect_name": "Placeholder",
+      "effect_desc": "Placeholder"
     }
   }
 }
