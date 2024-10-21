@@ -1,6 +1,8 @@
 import discord
 import json
 from discord.ext import commands
+from utility.embedconfig import EmbedClass
+from utility.boss_dropdown import BossDropdownView
 
 class Ppc(commands.Cog):
 
@@ -51,20 +53,64 @@ class Ppc(commands.Cog):
         return int(score)
 
     @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")
-    async def boss(self, ctx: commands.Context, boss_name):
+    async def advanced(self, ctx: commands.Context, boss_name):
         self.boss = self.bossdata[boss_name]
 
         embed = discord.Embed(
             title=f"{self.boss['name']}",
-            description=f""
+            description=f"",
+            color=discord.Color(0xcd0000)
         )
-        embed.set_thumbnail(url="")
+        embed.set_thumbnail(url=self.boss['thumbnail'])
         embed.add_field(name=f"Weakness: {self.boss['weakness_name']}", value="", inline=False)
         embed.add_field(name=f"Zone Type: Ultimate/EXPPC", value="", inline=False)
         difficulty_stats = self.boss['exppc']['hell']
         embed.add_field(
             name=f"Difficulty: Hell", 
-            value=f"HP: {difficulty_stats['hp']}\nSuper Armor: {difficulty_stats['super_armor']/100}%\nExtra Damage Reduction: {difficulty_stats['edr']/100}%\nDefence: {difficulty_stats['def']/100}%\nPhys Resist: {difficulty_stats['phys_res']/100}%\nFire Resist: {difficulty_stats['fire_res']/100}%\nLight Resist: {difficulty_stats['light_res']/100}%\nIce Resist: {difficulty_stats['ice_res']/100}%\nDark Resist: {difficulty_stats['dark_res']/100}%\n",
+            value=f"HP: {difficulty_stats['hp']}\nSuper Armor: {difficulty_stats['super_armor']}\nExtra Damage Reduction: {difficulty_stats['edr']/100}%\nDefence: {difficulty_stats['def']}\nPhys Resist: {difficulty_stats['phys_res']/100}%\nFire Resist: {difficulty_stats['fire_res']/100}%\nLight Resist: {difficulty_stats['light_res']/100}%\nIce Resist: {difficulty_stats['ice_res']/100}%\nDark Resist: {difficulty_stats['dark_res']/100}%\n",
+            inline=False
+        )
+        
+        await ctx.send(embed=embed)
+
+    @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")
+    async def exppc(self, ctx: commands.Context, boss_name):
+        self.boss = self.bossdata[boss_name]
+
+        embed = discord.Embed(
+            title=f"{self.boss['name']}",
+            description=f"",
+            color=discord.Color(0xcd0000)
+        )
+        embed.set_thumbnail(url=self.boss['thumbnail'])
+        embed.add_field(name=f"Weakness: {self.boss['weakness_name']}", value="", inline=False)
+        embed.add_field(name=f"Zone Type: Ultimate/EXPPC", value="", inline=False)
+        difficulty_stats = self.boss['exppc']['hell']
+        embed.add_field(
+            name=f"Difficulty: Hell", 
+            value=f"HP: {difficulty_stats['hp']}\nSuper Armor: {difficulty_stats['super_armor']}\nExtra Damage Reduction: {difficulty_stats['edr']/100}%\nDefence: {difficulty_stats['def']}\nPhys Resist: {difficulty_stats['phys_res']/100}%\nFire Resist: {difficulty_stats['fire_res']/100}%\nLight Resist: {difficulty_stats['light_res']/100}%\nIce Resist: {difficulty_stats['ice_res']/100}%\nDark Resist: {difficulty_stats['dark_res']/100}%\n",
+            inline=False
+        )
+        
+        await ctx.send(embed=embed)
+
+
+    @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")
+    async def onslaught(self, ctx: commands.Context, boss_name):
+        self.boss = self.bossdata[boss_name]
+
+        embed = discord.Embed(
+            title=f"{self.boss['name']}",
+            description=f"",
+            color=discord.Color(0xcd0000)
+        )
+        embed.set_thumbnail(url=self.boss['thumbnail'])
+        embed.add_field(name=f"Weakness: {self.boss['weakness_name']}", value="", inline=False)
+        embed.add_field(name=f"Zone Type: Ultimate/EXPPC", value="", inline=False)
+        difficulty_stats = self.boss['exppc']['hell']
+        embed.add_field(
+            name=f"Difficulty: Hell", 
+            value=f"HP: {difficulty_stats['hp']}\nSuper Armor: {difficulty_stats['super_armor']}\nExtra Damage Reduction: {difficulty_stats['edr']/100}%\nDefence: {difficulty_stats['def']}\nPhys Resist: {difficulty_stats['phys_res']/100}%\nFire Resist: {difficulty_stats['fire_res']/100}%\nLight Resist: {difficulty_stats['light_res']/100}%\nIce Resist: {difficulty_stats['ice_res']/100}%\nDark Resist: {difficulty_stats['dark_res']/100}%\n",
             inline=False
         )
         

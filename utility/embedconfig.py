@@ -477,6 +477,22 @@ class EmbedClass:
         embed.set_footer(text=f"Page {curpage}/{maxlistcount}")
         return embed
 
+    def create_boss_embed(self, name, thumbnail, weakness, zone_type, difficulty, stats):
+        embed = discord.Embed(
+            title=f"{name}",
+            description=f"",
+            color=discord.Color(0xcd0000)
+        )
+        embed.set_thumbnail(url=thumbnail)
+        embed.add_field(name=f"Weakness: {weakness}", value="", inline=False)
+        embed.add_field(name=f"Zone Type: {zone_type}", value="", inline=False)
+        embed.add_field(
+            name=f"Difficulty: {difficulty}", 
+            value=f"HP: {stats['hp']}\nSuper Armor: {stats['super_armor']}\nExtra Damage Reduction: {stats['edr']/100}%\nDefence: {stats['def']}\nPhys Resist: {stats['phys_res']/100}%\nFire Resist: {stats['fire_res']/100}%\nLight Resist: {stats['light_res']/100}%\nIce Resist: {stats['ice_res']/100}%\nDark Resist: {stats['dark_res']/100}%\n",
+            inline=False
+        )
+        return embed
+
     def create_about_embed(self):
         embed = discord.Embed(
             title=f"About this Bot",
@@ -530,3 +546,4 @@ class EmbedClass:
             embed.add_field(name=f"**{item['command']}**", value=f"{item['description']}", inline=False)
         embed.set_footer(text="Use '>help [commands]' for more info.")
         return embed
+

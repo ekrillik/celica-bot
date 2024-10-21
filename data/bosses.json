@@ -1,7 +1,7 @@
 {
   "lilith": {
     "name": "Lilith",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab36.png",
     "weakness_name": "Corrosion (Dark)",
     "weakness_desc": "The internal structure has been corroded by excessively stored radiant energy. Dark DMG received is increased significantly.",
     "exppc": {
@@ -64,7 +64,7 @@
   },
   "trailblazer": {
     "name": "Trailblazer",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab37.png",
     "weakness_name": "Steel Willed (No Weakness/Neutral)",
     "weakness_desc": "Fight with all your might and passion is the the greatest respect for your enemy.",
     "exppc": {
@@ -127,7 +127,7 @@
   },
   "fushen": {
     "name": "Fu Shen",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab35.png",
     "weakness_name": "Frail (Physical)",
     "weakness_desc": "Cannot resist physical impacts after the structure is weakened. Physical DMG received is increased significantly.",
     "exppc": {
@@ -190,7 +190,7 @@
   },
   "luna": {
     "name": "Luna",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab26.png",
     "weakness_name": "Combustible (Fire)",
     "weakness_desc": "Easily ignited by high temperatures and causes huge explosions. Fire DMG received is increased significantly.",
     "exppc": {
