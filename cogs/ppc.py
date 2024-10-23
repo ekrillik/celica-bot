@@ -8,6 +8,7 @@ class Ppc(commands.Cog):
 
     def __init__(self, bot: commands.Bot):
         self.bot = bot
+        self.embedconf = EmbedClass()
 
         with open('data/bosses.json') as file:
             self.bossdata = json.load(file)
@@ -56,65 +57,36 @@ class Ppc(commands.Cog):
     async def advanced(self, ctx: commands.Context, boss_name):
         self.boss = self.bossdata[boss_name]
 
-        embed = discord.Embed(
-            title=f"{self.boss['name']}",
-            description=f"",
-            color=discord.Color(0xcd0000)
-        )
-        embed.set_thumbnail(url=self.boss['thumbnail'])
-        embed.add_field(name=f"Weakness: {self.boss['weakness_name']}", value="", inline=False)
-        embed.add_field(name=f"Zone Type: Ultimate/EXPPC", value="", inline=False)
-        difficulty_stats = self.boss['exppc']['hell']
-        embed.add_field(
-            name=f"Difficulty: Hell", 
-            value=f"HP: {difficulty_stats['hp']}\nSuper Armor: {difficulty_stats['super_armor']}\nExtra Damage Reduction: {difficulty_stats['edr']/100}%\nDefence: {difficulty_stats['def']}\nPhys Resist: {difficulty_stats['phys_res']/100}%\nFire Resist: {difficulty_stats['fire_res']/100}%\nLight Resist: {difficulty_stats['light_res']/100}%\nIce Resist: {difficulty_stats['ice_res']/100}%\nDark Resist: {difficulty_stats['dark_res']/100}%\n",
-            inline=False
-        )
+        if 'advanced' in self.boss:
+            view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='advanced', post_luna=False)
+            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'Advanced', 'Test', self.boss['advanced']['test'])
+            view.message = await ctx.send(embed=embed, view=view)
+        else:
+            await ctx.send(content="This boss does not exist or does not have a valid advanced PPC variant!")
         
-        await ctx.send(embed=embed)
 
     @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")
     async def exppc(self, ctx: commands.Context, boss_name):
         self.boss = self.bossdata[boss_name]
 
-        embed = discord.Embed(
-            title=f"{self.boss['name']}",
-            description=f"",
-            color=discord.Color(0xcd0000)
-        )
-        embed.set_thumbnail(url=self.boss['thumbnail'])
-        embed.add_field(name=f"Weakness: {self.boss['weakness_name']}", value="", inline=False)
-        embed.add_field(name=f"Zone Type: Ultimate/EXPPC", value="", inline=False)
-        difficulty_stats = self.boss['exppc']['hell']
-        embed.add_field(
-            name=f"Difficulty: Hell", 
-            value=f"HP: {difficulty_stats['hp']}\nSuper Armor: {difficulty_stats['super_armor']}\nExtra Damage Reduction: {difficulty_stats['edr']/100}%\nDefence: {difficulty_stats['def']}\nPhys Resist: {difficulty_stats['phys_res']/100}%\nFire Resist: {difficulty_stats['fire_res']/100}%\nLight Resist: {difficulty_stats['light_res']/100}%\nIce Resist: {difficulty_stats['ice_res']/100}%\nDark Resist: {difficulty_stats['dark_res']/100}%\n",
-            inline=False
-        )
-        
-        await ctx.send(embed=embed)
+        if 'exppc' in self.boss:
+            view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='exppc', post_luna=False)
+            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'EXPPC', 'Test', self.boss['exppc']['test'])
+            view.message = await ctx.send(embed=embed, view=view)
+        else:
+            await ctx.send(content="This boss does not exist or does not have a valid EXPPC variant!")
 
 
     @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")
     async def onslaught(self, ctx: commands.Context, boss_name):
         self.boss = self.bossdata[boss_name]
 
-        embed = discord.Embed(
-            title=f"{self.boss['name']}",
-            description=f"",
-            color=discord.Color(0xcd0000)
-        )
-        embed.set_thumbnail(url=self.boss['thumbnail'])
-        embed.add_field(name=f"Weakness: {self.boss['weakness_name']}", value="", inline=False)
-        embed.add_field(name=f"Zone Type: Ultimate/EXPPC", value="", inline=False)
-        difficulty_stats = self.boss['exppc']['hell']
-        embed.add_field(
-            name=f"Difficulty: Hell", 
-            value=f"HP: {difficulty_stats['hp']}\nSuper Armor: {difficulty_stats['super_armor']}\nExtra Damage Reduction: {difficulty_stats['edr']/100}%\nDefence: {difficulty_stats['def']}\nPhys Resist: {difficulty_stats['phys_res']/100}%\nFire Resist: {difficulty_stats['fire_res']/100}%\nLight Resist: {difficulty_stats['light_res']/100}%\nIce Resist: {difficulty_stats['ice_res']/100}%\nDark Resist: {difficulty_stats['dark_res']/100}%\n",
-            inline=False
-        )
-        
-        await ctx.send(embed=embed)
+        if 'onslaught' in self.boss:
+            view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='onslaught', post_luna=True)
+            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], 'Dependent on weekly rotation', 'Onslaught', 'Onslaught', self.boss['onslaught'])
+            view.message = await ctx.send(embed=embed, view=view)
+        else:
+            await ctx.send(content="This boss does not exist or does not have a valid Onslaught PPC variant!")
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Ppc(bot))

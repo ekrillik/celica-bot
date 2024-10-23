@@ -13,15 +13,29 @@ class BossDropdownView(discord.ui.View):
     sep : int = 5
     current_page = 1
 
-    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, boss = {}, post_luna = False) -> None:
+    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, boss = {}, ppc_mode = "exppc", post_luna = False) -> None:
         super().__init__(timeout=timeout)
         self.user = user
-        self.boss = boss
+        self.boss_name = boss['name']
+        self.boss_thumbnail = boss['thumbnail']
+        self.boss_weakness_name = boss['weakness_name']
+        
         if post_luna:
             options = ["Knight", "Chaos", "Hell"]
         else:
             options = ["Test", "Elite", "Knight", "Chaos", "Hell"]
-        self.menu = discord.ui.Select[HelpView](
+        
+        if ppc_mode == 'advanced' and 'advanced' in boss:
+            self.ppc_mode = 'Advanced'
+            self.boss_stats = boss['advanced']
+        elif ppc_mode == 'onslaught' and 'onslaught' in boss:
+            self.ppc_mode = 'Onslaught'
+            self.boss_stats = boss['onslaught']
+        else:
+            self.ppc_mode = 'EXPPC'
+            self.boss_stats = boss['exppc']
+        
+        self.menu = discord.ui.Select[BossDropdownView](
             custom_id="persistent_menu",
             placeholder="Select a difficulty",
             min_values=1,
@@ -37,15 +51,15 @@ class BossDropdownView(discord.ui.View):
 
     async def callback(self, interaction: discord.Interaction) -> None:
         if(self.menu.values[0] == "Test"):
-            ""
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Test', self.boss_stats['test'])
         elif(self.menu.values[0] == "Elite"):
-            embed = self.embedconf.helplist_embed(title="Celica Help", list=self.bot_related)
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Elite', self.boss_stats['elite'])
         elif(self.menu.values[0] == "Knight"):
-            embed = self.embedconf.helplist_embed(title="Informational Help", list=self.informational_commands)
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Knight', self.boss_stats['knight'])
         elif(self.menu.values[0] == "Chaos"):
-            ""
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Chaos', self.boss_stats['chaos'])
         elif(self.menu.values[0] == "Hell"):
-            ""
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Knight', self.boss_stats['hell'])
 
         await interaction.response.edit_message(embed=embed, view=self)
 
