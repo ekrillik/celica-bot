@@ -41,7 +41,7 @@ class Help(commands.Cog):
             )
             embed.add_field(
                 name="**Changelog**",
-                value="```Added Polaris Bond memory rework 2pc+4pc effects```",
+                value="```Added banner information command```",
                 inline=False
             )
             view = HelpView(ctx.author, bot_related=bot_related, informational_commands=information)
