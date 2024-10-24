@@ -515,7 +515,7 @@
     "rarity": 6,
     "2pc": "All ATK increases by 3% and Lightning DMG increases by 7%.",
     "4pc": "Attacks have a 25% chance to trigger Thunderstorm within 3.5m. Thunderstorm electrocutes the target for 5s. 5s cooldown. Attacking an electrocuted enemy has a 20% chance to trigger lightning chain damage. 8s cooldown. Lightning Chain: All electrocuted targets take 250% Lightning DMG. Thunderstorm: 100% Lightning DMG. Electrocute: Lightning Resistance is reduced by 8%.",
-    "4pcalt": "Extra DMG Bonus increases by 10%. Attacking a target inflicts them with Electrocute, which decreases the target's Lightning Resistance by 15%. Electrocute lasts for 8s and has a 10s cooldown against the same target. Attacking a target inflicted with Electrocute causes a thunderstorm that deals 600% Lightning DMG. This effect has a 6s cooldown against the same target.",
+    "4pc_alt": "Extra DMG Bonus increases by 10%. Attacking a target inflicts them with Electrocute, which decreases the target's Lightning Resistance by 15%. Electrocute lasts for 8s and has a 10s cooldown against the same target. Attacking a target inflicted with Electrocute causes a thunderstorm that deals 600% Lightning DMG. This effect has a 6s cooldown against the same target.",
     "atk": 134,
     "def": 219,
     "crit": 66,
