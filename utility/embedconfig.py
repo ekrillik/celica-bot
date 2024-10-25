@@ -489,7 +489,7 @@ class EmbedClass:
         embed.add_field(name=f"Start Time: {start_time}s", value="", inline=False)
         embed.add_field(
             name=f"Difficulty: {difficulty}", 
-            value=f"HP: {stats['hp']}\nSuper Armor: {stats['super_armor']}\nExtra Damage Reduction: {stats['edr']/100}%\nDefence: {stats['def']}\nPhys Resist: {stats['phys_res']/100}%\nFire Resist: {stats['fire_res']/100}%\nLight Resist: {stats['light_res']/100}%\nIce Resist: {stats['ice_res']/100}%\nDark Resist: {stats['dark_res']/100}%\n",
+            value=f"HP: {stats['hp']:,}\nSuper Armor: {stats['super_armor']:,}\nExtra Damage Reduction: {stats['edr']/100}%\nDefence: {stats['def']:,}\nPhys Resist: {stats['phys_res']/100}%\nFire Resist: {stats['fire_res']/100}%\nLight Resist: {stats['light_res']/100}%\nIce Resist: {stats['ice_res']/100}%\nDark Resist: {stats['dark_res']/100}%\n",
             inline=False
         )
         return embed
