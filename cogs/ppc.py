@@ -3,6 +3,7 @@ import json
 from discord.ext import commands
 from utility.embedconfig import EmbedClass
 from utility.boss_dropdown import BossDropdownView
+from utility.fuzzymatch import fuzzmatch
 
 class Ppc(commands.Cog):
 
@@ -67,14 +68,18 @@ class Ppc(commands.Cog):
 
     @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")
     async def exppc(self, ctx: commands.Context, boss_name):
+        fuzzy_name = fuzzmatch(boss_name.lower())
         self.boss = self.bossdata[boss_name]
+        if self.boss is None:
+            await ctx.send(content="This boss does not exist. Please try again.")
+            return
 
         if 'exppc' in self.boss:
             view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='exppc', post_luna=False)
             embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'EXPPC', 'Test', self.boss['exppc']['test'])
             view.message = await ctx.send(embed=embed, view=view)
         else:
-            await ctx.send(content="This boss does not exist or does not have a valid EXPPC variant!")
+            await ctx.send(content="This boss does not have a valid EXPPC variant!")
 
 
     @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")

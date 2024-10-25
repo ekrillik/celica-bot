@@ -371,6 +371,440 @@
       }
     }
   },
+  "dark shark": {
+    "name": "Shark-speare [Dark]",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab32.png",
+    "weakness_name": "Super Cute (No Weakness/Neutral)",
+    "exppc": {
+      "test": {
+        "hp": 615001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 1365001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 2295001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 3525001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 5010001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "lamia": {
+    "name": "Lamia",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab27.png",
+    "weakness_name": "Injured (Neutral/No Weakness)",
+    "exppc": {
+      "test": {
+        "hp": 696501,
+        "super_armor": 9950,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 1396501,
+        "super_armor": 19950,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 2096501,
+        "super_armor": 29950,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 2796501,
+        "super_armor": 39950,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 3496501,
+        "super_armor": 49950,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    },
+    "voodoo": {
+      "name": "Voodoo",
+      "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab28.png",
+      "weakness_name": "Corrosion (Dark)",
+      "exppc": {
+        "test": {
+          "hp": 1255801,
+          "super_armor": 14950,
+          "edr": 0,
+          "def": 1500,
+          "phys_res": 0,
+          "fire_res": 2000,
+          "light_res": 2000,
+          "ice_res": 2000,
+          "dark_res": 2000
+        },
+        "elite": {
+          "hp": 2515801,
+          "super_armor": 29950,
+          "edr": 0,
+          "def": 1500,
+          "phys_res": 0,
+          "fire_res": 2000,
+          "light_res": 2000,
+          "ice_res": 2000,
+          "dark_res": 2000
+        },
+        "knight": {
+          "hp": 3775801,
+          "super_armor": 44950,
+          "edr": 0,
+          "def": 1500,
+          "phys_res": 0,
+          "fire_res": 2000,
+          "light_res": 2000,
+          "ice_res": 2000,
+          "dark_res": 2000
+        },
+        "chaos": {
+          "hp": 5035801,
+          "super_armor": 59950,
+          "edr": 0,
+          "def": 1500,
+          "phys_res": 0,
+          "fire_res": 2000,
+          "light_res": 2000,
+          "ice_res": 2000,
+          "dark_res": 2000
+        },
+        "hell": {
+          "hp": 6295801,
+          "super_armor": 74950,
+          "edr": 0,
+          "def": 1500,
+          "phys_res": 0,
+          "fire_res": 2000,
+          "light_res": 2000,
+          "ice_res": 2000,
+          "dark_res": 2000
+        }
+      }
+    }
+  },
+  "siren": {
+    "name": "Siren",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab25.png",
+    "weakness_name": "Electrode (Lightning)",
+    "exppc": {
+      "test": {
+        "hp": 669153,
+        "super_armor": 8800,
+        "edr": 176,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 1315493,
+        "super_armor": 17300,
+        "edr": 346,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 1923813,
+        "super_armor": 25300,
+        "edr": 506,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 2779263,
+        "super_armor": 36550,
+        "edr": 731,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 3592891,
+        "super_armor": 47250,
+        "edr": 945,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "moon eater": {
+    "name": "Moon Eater",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab31.png",
+    "weakness_name": "Combustible (Fire)",
+    "exppc": {
+      "test": {
+        "hp": 1156501,
+        "super_armor": 12850,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 2574001,
+        "super_armor": 28600,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 4347001,
+        "super_armor": 48300,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 6673501,
+        "super_armor": 74150,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 9499501,
+        "super_armor": 105550,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "unknown data cluster": {
+    "name": "Unknown Data Cluster",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab29.png",
+    "weakness_name": "Frail (Physical)",
+    "exppc": {
+      "test": {
+        "hp": 564001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 1494001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 2934001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 5154001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 8094001,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "machiavelli": {
+    "name": "Machiavelli",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab23.png",
+    "weakness_name": "Frost (Ice)",
+    "exppc": {
+      "test": {
+        "hp": 748995,
+        "super_armor": 9850,
+        "edr": 197,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 1467573,
+        "super_armor": 19300,
+        "edr": 386,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 2140527,
+        "super_armor": 28150,
+        "edr": 563,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 3091027,
+        "super_armor": 40650,
+        "edr": 813,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 3995903,
+        "super_armor": 52550,
+        "edr": 1051,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
   "luna": {
     "name": "Luna",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab26.png",
