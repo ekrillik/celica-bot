@@ -47,7 +47,7 @@ class HelpView(discord.ui.View):
             )
             embed.add_field(
                 name="**Changelog**",
-                value="```This is a new PGR bot with updated information, taking aspects of the Cogs bot made by Doomy. Please stay tuned for more updates.```",
+                value="```Added exppc command for EXPPC boss info (Oct 25, 2024)```",
                 inline=False
             )
         elif(self.menu.values[0] == "Bot Related"):
