@@ -1743,10 +1743,10 @@
     },
     "qte": {
       "name": "Molten Roundslash",
-      "description": "Moves and marks a circle of fire on the ground, dealing Fire DMG to nearby targets and inflicting them with Scorching Invasion, reducing their Fire Resistance.",
+      "description": "Moves and marks a circle of fire on the ground, dealing Fire DMG to nearby targets and inflicting them with **Scorching Invasion**, reducing their Fire Resistance.",
       "result": [
         "- Deals **{0}%** Fire DMG in total.",
-        "- Scorching Invasion reduces the target's Fire Resistance by **{1}%** for 6s."
+        "- **Scorching Invasion** reduces the target's Fire Resistance by **{1}%** for 6s."
       ],
       "res_lv18": [480, 10]
     },
@@ -3773,7 +3773,7 @@
       {
         "name": "Raging Surge",
         "description": [
-          "Wide-area Electromagnetic Cannon</color>'s Base DMG increases by 10%."
+          "Wide-area Electromagnetic Cannon's Base DMG increases by 10%."
         ],
         "level9": [
           "**Level 9**: Wide-area Electromagnetic Cannon also pulls in nearby enemies. After casting [Signature - Absolving Spear], the next low/mid-power electromagnetic cannon's Base DMG increases by 100%."
@@ -5459,11 +5459,11 @@
           "name": "Lightning Fall",
           "button_press": "Electric Charge present + Press and hold Basic Attack",
           "description": [
-            "When there is at least 1  Electric Charge, press and hold the Basic Attack button to consume  Electric Charge and cast  Lightning Fall to pull in a large area of enemies ahead, deal Lightning DMG, and inflict  Turbulence Interference (reduces enemies' Lightning Resistance). Every additional stack of  Electric Charge consumed will double the DMG of  Lightning Fall. Gains Super Armor when casting Lightning Fall."
+            "When there is at least 1  Electric Charge, press and hold the Basic Attack button to consume  Electric Charge and cast  Lightning Fall to pull in a large area of enemies ahead, deal Lightning DMG, and inflict  **Turbulence Interference** (reduces enemies' Lightning Resistance). Every additional stack of  Electric Charge consumed will double the DMG of  Lightning Fall. Gains Super Armor when casting Lightning Fall."
           ],
           "result": [
             "- Lightning Fall deals **{0}%** Lightning DMG.",
-            "- Turbulence Interference: Reduces enemies' Lightning Resistance by 15% for 8s."
+            "- **Turbulence Interference**: Reduces enemies' Lightning Resistance by 15% for 8s."
           ],
           "res_lv18": [600]
         }
@@ -5515,7 +5515,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When Vera: Garnet has Shield, she gains Super Armor and her Extra DMG Reduction increases by  50%. The effect of Turbulence Interference increases by 10%. Extra DMG Bonus of Signature - Shining Piercer increases by 100%."
+          "desc": "When Vera: Garnet has Shield, she gains Super Armor and her Extra DMG Reduction increases by  50%. The effect of **Turbulence Interference** increases by 10%. Extra DMG Bonus of Signature - Shining Piercer increases by 100%."
         }
       ]
     },
@@ -5552,7 +5552,7 @@
         ],
         "level18": [
           "**Level 18**: When performed with maximum [Electric Charge] stacks, Extra DMG Bonus of [Lightning Fall] increases by 30%.",
-          "[Passive: Unyielding Breacher] added effect: Lightning Resistance Reduction effect of Turbulence Interference inflicted by Vera: Garnet increases by 10%."
+          "[Passive: Unyielding Breacher] added effect: Lightning Resistance Reduction effect of **Turbulence Interference** inflicted by Vera: Garnet increases by 10%."
         ]
       },
       {
@@ -6519,7 +6519,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "After casting Gigabyte Star Strike, switch Nanami: Starfarer out of battle to trigger Missile Support, dealing Fire DMG. \"Oops! Missed it!\" / \"Perfect\"/Burning Blow will come with the Scorching Invasion effect that reduces the enemy's Fire Resistance. Casting Burning Blow will trigger the QTEs that are not in cooldown yet.\n- Missile Support fires 4 missiles every 3s for 12s, dealing 800% Fire DMG in total.\n- Scorching Invasion reduces the enemy's Fire Resistance by 15% for 8s."
+          "desc": "After casting Gigabyte Star Strike, switch Nanami: Starfarer out of battle to trigger Missile Support, dealing Fire DMG. \"Oops! Missed it!\" / \"Perfect\"/Burning Blow will come with the **Scorching Invasion** effect that reduces the enemy's Fire Resistance. Casting Burning Blow will trigger the QTEs that are not in cooldown yet.\n- Missile Support fires 4 missiles every 3s for 12s, dealing 800% Fire DMG in total.\n- **Scorching Invasion** reduces the enemy's Fire Resistance by 15% for 8s."
         }
       ]
     },
@@ -6528,7 +6528,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Nanami: Starfarer's Scorching Invasion effect increases. The Extra DMG Bonuses of Burning Blow and Signature - Ace Star increase. When Nanami is in the  \"Bzzz\" Mode, press and hold until the charge limit to automatically trigger \"Perfect!\". When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores Shield.\n- Scorching Invasion's effect increases by 10%.\n- The Extra DMG Bonus of Burning Blow increases by 25%.\n- The Extra DMG Bonus of Signature - Ace Star increases by 25%.\n- When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores shield equal to 10% of max HP per second, up to 50%."
+          "desc": "Nanami: Starfarer's **Scorching Invasion** effect increases. The Extra DMG Bonuses of Burning Blow and Signature - Ace Star increase. When Nanami is in the  \"Bzzz\" Mode, press and hold until the charge limit to automatically trigger \"Perfect!\". When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores Shield.\n- **Scorching Invasion**'s effect increases by 10%.\n- The Extra DMG Bonus of Burning Blow increases by 25%.\n- The Extra DMG Bonus of Signature - Ace Star increases by 25%.\n- When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores shield equal to 10% of max HP per second, up to 50%."
         }
       ]
     },
@@ -6929,7 +6929,7 @@
         ],
         "level9": [
           "**Level 9**: When Ampere Accumulation of the party reaches the maximum value, [Disintegration Strike] will trigger the Electronic Blast state and activate the Electrodissociation Field that lasts for 14s.",
-          "- The Electrodissociation Field inflicts enemies inside with Turbulence Interference that reduces Lightning Resistance every 2s. Turbulence Interference reduces Lightning Resistance by 15% for 2s.",
+          "- The Electrodissociation Field inflicts enemies inside with **Turbulence Interference** that reduces Lightning Resistance every 2s. **Turbulence Interference** reduces Lightning Resistance by 15% for 2s.",
           "- While in the Electronic Blast state, performing [Signature-Starshatter Horizon] additionally triggers [Signature-Meteoric Thunderbolt], dealing 900% Electroconvergence DMG."
         ],
         "level18": [
@@ -9529,9 +9529,9 @@
         "name": "Thermal Erosion",
         "button_press": "Ping Blaze Orb",
         "switch_in": "no",
-        "description": "Continuously swings the blade to generate flames, pulling in nearby enemies, dealing Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance onto enemies hit by this attack. If Watanabe uses this skill precisely the moment before being attacked, he will trigger parry, nullifying incoming DMG and gaining Super Armor and 60% DMG Reduction. Gain 1 stack of Thermal Superconductivity and 12 Energy upon performing this skill. Thermal Superconductivity increases the Base DMG of Flaming Purgation.",
+        "description": "Continuously swings the blade to generate flames, pulling in nearby enemies, dealing Fire DMG and inflicting **Scorching Invasion** that reduces the target's Fire Resistance onto enemies hit by this attack. If Watanabe uses this skill precisely the moment before being attacked, he will trigger parry, nullifying incoming DMG and gaining Super Armor and 60% DMG Reduction. Gain 1 stack of Thermal Superconductivity and 12 Energy upon performing this skill. Thermal Superconductivity increases the Base DMG of Flaming Purgation.",
         "result": [
-          "- Deals a total of **{0}%** Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
+          "- Deals a total of **{0}%** Fire DMG. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 8s."
         ],
         "res_lv18": [1200]
       }
@@ -9590,10 +9590,10 @@
           "name": "Reprisal",
           "button_press": "Trigger parry",
           "description": [
-            "Successfully  parrying an attack triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP, dealing Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance on the enemies. Repeatedly triggering  Rampart refreshes the shield. When triggering this skill, enter Matrix if not on cooldown."
+            "Successfully  parrying an attack triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP, dealing Fire DMG and inflicting **Scorching Invasion** that reduces the target's Fire Resistance on the enemies. Repeatedly triggering  Rampart refreshes the shield. When triggering this skill, enter Matrix if not on cooldown."
           ],
           "result": [
-            "- Deals a total of **{0}%** Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
+            "- Deals a total of **{0}%** Fire DMG. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 8s."
           ],
           "res_lv18": [360]
         },
@@ -9615,10 +9615,10 @@
           "name": "Core Release",
           "button_press": "Consume 15 Energy + Tap Signature Move",
           "description": [
-            "Watanabe releases the energy stored in his core to activate Paradigm: Assault. Time Lag Calculation is triggered while performing this skill. Deals Fire DMG to enemies in the area upon using this skill and inflicts them with Scorching Invasion which reduces the target's Fire Resistance."
+            "Watanabe releases the energy stored in his core to activate Paradigm: Assault. Time Lag Calculation is triggered while performing this skill. Deals Fire DMG to enemies in the area upon using this skill and inflicts them with **Scorching Invasion** which reduces the target's Fire Resistance."
           ],
           "result": [
-            "- Deals a total of **{0}%** Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 10s."
+            "- Deals a total of **{0}%** Fire DMG. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 10s."
           ],
           "res_lv18": [600]
         },
@@ -9637,9 +9637,9 @@
     },
     "qte": {
       "name": "Pincer Besiegement",
-      "description": "Consecutively spins and slashes to pull in nearby enemies, dealing Fire DMG, and inflicting them with Scorching Invasion which reduces the target's Fire Resistance.",
+      "description": "Consecutively spins and slashes to pull in nearby enemies, dealing Fire DMG, and inflicting them with **Scorching Invasion** which reduces the target's Fire Resistance.",
       "result": [
-        "- Deals **{0}%** Fire DMG. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
+        "- Deals **{0}%** Fire DMG. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 8s."
       ],
       "res_lv18": [600]
     },
@@ -9670,11 +9670,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Fire Resistance reduction effect of  Scorching Invasion inflicted by Watanabe increases by  10%. Gain 1  Blaze Orb upon using  Infernal Eruption."
+          "desc": "Fire Resistance reduction effect of  **Scorching Invasion** inflicted by Watanabe increases by  10%. Gain 1  Blaze Orb upon using  Infernal Eruption."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Increases animation speed while consecutively performing  Thermal Erosion. Maximum stacks of  Thermal Superconductivity increases to  6. Increases the buff effect granted by each stack of  Thermal Superconductivity by  5%. When Watanabe successfully  parries an attack for the first time upon entering the battlefield, additionally gains 1  Blaze Orb. Fire Resistance reduction effect of  Scorching Invasion inflicted by Watanabe: Epitaph increases by  10%. Reduces swap cooldown of all party members by  3s."
+          "desc": "Increases animation speed while consecutively performing  Thermal Erosion. Maximum stacks of  Thermal Superconductivity increases to  6. Increases the buff effect granted by each stack of  Thermal Superconductivity by  5%. When Watanabe successfully  parries an attack for the first time upon entering the battlefield, additionally gains 1  Blaze Orb. Fire Resistance reduction effect of  **Scorching Invasion** inflicted by Watanabe: Epitaph increases by  10%. Reduces swap cooldown of all party members by  3s."
         }
       ]
     },
@@ -10509,23 +10509,23 @@
         "name": "Ironflame Strike - Dauntless Fighter",
         "button_press": "At least 1 Red Orb + Hold Red Orb + Release Red Orb",
         "switch_in": "no",
-        "description": "Hold Red Orb to begin charging. Release Red Orb to stop charging and thrust with the shield, consuming up to 1 / 2 / 3 Red Orbs to deal **{0}%** / **{1}%** / **{2}%** Fire DMG based on the time spent charging and inflict Scorching Invasion that reduces the target's Fire Resistance.",
+        "description": "Hold Red Orb to begin charging. Release Red Orb to stop charging and thrust with the shield, consuming up to 1 / 2 / 3 Red Orbs to deal **{0}%** / **{1}%** / **{2}%** Fire DMG based on the time spent charging and inflict **Scorching Invasion** that reduces the target's Fire Resistance.",
         "desc_lv18": [140, 180, 240],
         "result": [
           "- Dauntless Fighter will convert a maximum of 50 Fortification Points to Ignition Points for each Red Orb pinged, and Bridget can possess a maximum of 300 Ignition Points. Each Fortification Point converted increases the Base DMG of Dauntless Fighter by 1.5% and grants 0.6 Signature Energy to Bridget: Ardeo.",
-          "- Scorching Invasion reduces the target's Fire Resistance by 10% for 8s."
+          "- **Scorching Invasion** reduces the target's Fire Resistance by 10% for 8s."
         ]
       },
       {
         "name": "Ironflame Strike - Targeted Counterattack",
         "button_press": "Get hit during Dauntless Fighter",
         "switch_in": "no",
-        "description": "Bridget automatically performs a follow-up with Poised Grab if she gets hit while charging, leaping into the air then slamming the ground. This consumes up to 3 Red Orbs, recovers 90 Signature Energy, deals **{0}%** Fire DMG, and inflicts Scorching Invasion that reduces the target's Fire Resistance. Gains Super Armor and 50% DMG Reduction during this.\nGetting hit during the charging windup will upgrade Poised Grab to Swift Assault, during which Bridget dashes forward while engulfed in flames, additionally dealing **{1}%** Fire DMG. During this, Bridget is invincible.",
+        "description": "Bridget automatically performs a follow-up with Poised Grab if she gets hit while charging, leaping into the air then slamming the ground. This consumes up to 3 Red Orbs, recovers 90 Signature Energy, deals **{0}%** Fire DMG, and inflicts **Scorching Invasion** that reduces the target's Fire Resistance. Gains Super Armor and 50% DMG Reduction during this.\nGetting hit during the charging windup will upgrade Poised Grab to Swift Assault, during which Bridget dashes forward while engulfed in flames, additionally dealing **{1}%** Fire DMG. During this, Bridget is invincible.",
         "desc_lv18": [180, 60],
         "result": [
           "- Targeted Counterattack will convert up to 150 Fortification Points to an equal amount of Ignition Points, and Bridget can possess a maximum of 300 Ignition Points. Each Fortification Point converted increases the Base DMG of Targeted Counterattack by 1.5%.",
           "- Targeted Counterattack is always considered a 3-Ping.",
-          "- Scorching Invasion reduces the target's Fire Resistance by 10% for 8s."
+          "- **Scorching Invasion** reduces the target's Fire Resistance by 10% for 8s."
         ]
       }
     ],
@@ -10645,10 +10645,10 @@
     },
     "qte": {
       "name": "Powerful Fist",
-      "description": "Rushes and pulls in targets, dealing **{0}%** Fire DMG and inflicting Scorching Invasion that reduces the target's Fire Resistance.",
+      "description": "Rushes and pulls in targets, dealing **{0}%** Fire DMG and inflicting **Scorching Invasion** that reduces the target's Fire Resistance.",
       "desc_lv18": [600],
       "result": [
-        "- Scorching Invasion reduces the target's Fire Resistance by 10% for 8s."
+        "- **Scorching Invasion** reduces the target's Fire Resistance by 10% for 8s."
       ]
     },
     "leader": {
@@ -10678,11 +10678,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Base DMG of Steeled Drive increases by 80%.\nThe Combo Finisher of Starry Impulse and Whirling Brawl will additionally inflict Scorching Invasion that reduces the target's Fire Resistance for 8s."
+          "desc": "Base DMG of Steeled Drive increases by 80%.\nThe Combo Finisher of Starry Impulse and Whirling Brawl will additionally inflict **Scorching Invasion** that reduces the target's Fire Resistance for 8s."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Each Ignition Point will increase the Base DMG of Blazing Sky by 1%.\nCombustion DMG inflicted by Bridget: Ardeo increases by 30%.\nThe Scorching Invasion effect inflicted by Bridget: Ardeo additionally reduces enemies' Fire Resistance by 5%."
+          "desc": "Each Ignition Point will increase the Base DMG of Blazing Sky by 1%.\nCombustion DMG inflicted by Bridget: Ardeo increases by 30%.\nThe **Scorching Invasion** effect inflicted by Bridget: Ardeo additionally reduces enemies' Fire Resistance by 5%."
         }
       ]
     },
@@ -11872,10 +11872,10 @@
         "name": "Effulgent Offensive - Thundering Whirlwind",
         "button_press": "Holding Shield Axe + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Attacks with the Shield Axe, dealing Lightning DMG. If there is sufficient Astra Gauge, then attacks will consume Astra Gauge, generate Exceed Points, and deal additional Lightning DMG. Gain Super Armor and DMG Reduction during this skill.",
+        "description": "Attacks with the Shield Axe, dealing Lightning DMG. If there is sufficient **Astra Gauge**, then attacks will consume **Astra Gauge**, generate **Exceed Points**, and deal additional Lightning DMG. Gain Super Armor and DMG Reduction during this skill.",
         "result": [
           "- Deals a total of **{0}%** Lightning DMG.",
-          "-  If there is sufficient Astra Gauge, each hit will consume 10/25/30/35 Astra Gauge respectfully, generate 30/75/90/105 Exceed Points and 3/7/9/11 Signature Energy, dealing an extra **{1}%**/**{2}%**/**{3}%**/**{4}%** Lightning DMG respectfully. During this period, gain Super Armor and 60% DMG Reduction. Exceed Points limit: 300 points."
+          "- If there is sufficient **Astra Gauge**, this skill unleashes additional **lightstreams**. Each hit will consume 10/25/30/35 **Astra Gauge**, generate 30/75/90/105 **Exceed Points** and 3/7/9/11 Signature Energy, and deal an extra **{1}%**/**{2}%**/**{3}%**/**{4}%** Lightning DMG respectfully. During this period, gain Super Armor and 60% DMG Reduction. **Exceed Points** limit: 300 points."
         ],
         "res_lv18": [680, 400, 1100, 2100, 2600]
       }
@@ -11885,11 +11885,11 @@
         "name": "Dazzling Thunder Cyclone - Red Orb Combo 1",
         "button_press": "Tap Red Orb",
         "switch_in": "no",
-        "description": "Performs a spinning slash on the enemy and enters Red Orb Combo, dealing Lightning DMG and applying a Dazzling Thunder Mark to enemies hit. The Dazzling Thunder Mark lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when cast, then it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
+        "description": "Performs a spinning slash on the enemy and enters Red Orb Combo, dealing Lightning DMG and applying a **Dazzling Thunder Mark** to enemies hit. The **Dazzling Thunder Mark** lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when cast, it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
         "result": [
-          "- The spinning slash deals **{0}%** Lightning DMG. The Dazzling Thunder Mark detonation deals **{1}%** Lightning DMG.",
+          "- The spinning slash deals **{0}%** Lightning DMG. The **Dazzling Thunder Mark** detonation deals **{1}%** Lightning DMG.",
           "- If attacked during this skill, Nanami will automatically raise her shield to block it and gain 1 extra stack of Crystalline Forcefield, up to 2 stacks.",
-          "- If the target has a Dazzling Thunder Mark when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 extra stack of Crystalline Forcefield, up to 2 stacks."
+          "- If the target has a **Dazzling Thunder Mark** when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 extra stack of Crystalline Forcefield, up to 2 stacks."
         ],
         "res_lv18": [100, 100]
       },
@@ -11897,9 +11897,9 @@
         "name": "Dazzling Thunder Cyclone - Red Orb Combo 2",
         "button_press": "During Red Orb Combo + Ping Red Orb",
         "switch_in": "no",
-        "description": "Leaps into the air and strikes downwards, dealing Lightning DMG and generating Astra Gauge.",
+        "description": "Leaps into the air and strikes downwards, dealing Lightning DMG and generating **Astra Gauge**.",
         "result": [
-          "- Deals **{0}%**/**{1}%**/**{2}%** Lightning DMG and generates 15/30/50 Astra Gauge based on the number of orbs pinged, up to 100 points."
+          "- Deals **{0}%**/**{1}%**/**{2}%** Lightning DMG and generates 15/30/50 **Astra Gauge** based on the number of orbs pinged, up to 100 points."
         ],
         "res_lv18": [220, 440, 660]
       }
@@ -11907,11 +11907,11 @@
     "yellow_orb": [
       {
         "name": "Astral Assemblage - Celestial Convene",
-        "button_press": "Holding Sword and Shield + At least 50 Astra Gauge + Tap Yellow Orb",
+        "button_press": "Holding Sword and Shield + At least 50 **Astra Gauge** + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Spins to attack the enemy and assembles the weapon into a Shield Axe, dealing Lightning DMG and clearing the Blaze Emblem. Gain Super Armor and DMG Reduction during this skill.",
+        "description": "Spins to attack the enemy and assembles the weapon into a **Shield Axe**, gaining Super Armor and DMG Reduction, dealing Lightning DMG and clearing the **Blaze Emblem**.",
         "result": [
-          "- Deals **{0}%** Lightning DMG. During this skill, gain Super Armor and 50% DMG Reduction."
+          "- Deals **{0}%** Lightning DMG. During this skill, gain Super Armor and 80% DMG Reduction."
         ],
         "res_lv18": [950]
       },
@@ -11919,19 +11919,19 @@
         "name": "Astral Assemblage - Rainbow Arc Thrust",
         "button_press": " Holding Shield Axe + Tap Yellow Or",
         "switch_in": "no",
-        "description": "Dashes into the enemy and dismantles the Shield Axe into a Sword and Shield, dealing Lightning DMG and gaining Super Armor.",
+        "description": "Dashes into the enemy and dismantles the **Shield Axe** into a **Sword and Shield**, dealing Lightning DMG and gaining Super Armor.",
         "result": ["- Deals **{0}%** Lightning DMG."],
         "res_lv18": [150]
       },
       {
         "name": "Astral Assemblage - Searing Buzzsaw",
-        "button_press": "Holding Sword and Shield + At least 50 Astra Gauge + Hold Yellow Or",
+        "button_press": "Holding Sword and Shield + At least 50 **Astra Gauge** + Hold Yellow Orb",
         "switch_in": "no",
-        "description": "Immediately assembles the Sword and Shield into a Shield Axe, then continuously consumes Astra Gauge to attack the enemy, gathering enemies, dealing Combustion DMG, applying Incendiary points, gaining a Blaze Emblem and restoring Signature Energy. During this skill, Nanami gains Super Armor and DMG Reduction but is unable to cast Big Bang Victory!.",
+        "description": "Immediately assembles the **Sword and Shield** into a **Shield Axe**, then continuously consumes **Astra Gauge** to attack the enemy, gathering enemies, dealing Combustion DMG, applying **Incendiary points**, gaining a **Blaze Emblem** and restoring Signature Energy. During this skill, Nanami gains Super Armor and DMG Reduction but is unable to cast **Big Bang Victory!**.",
         "result": [
-          "- Each instance consumes a maximum of 100 Astra Gauge, deals a total of **{0}%** Combustion DMG, applies 5000 Incendiary points, restores 60 Signature Energy, and grants Super Armor and 70% DMG Reduction.",
-          "- Releasing the Yellow Orb button midway will immediately cast Burning Breakaway.",
-          "- The Blaze Emblem lasts 10s. Gaining this effect again will reset its duration."
+          "- Each instance consumes a maximum of **100 Astra Gauge**, deals a total of **{0}%** Combustion DMG, applies 5000 **Incendiary points**, restores 60 Signature Energy, and grants Super Armor and 70% DMG Reduction.",
+          "- Releasing the Yellow Orb button midway will immediately cast **Burning Breakaway**.",
+          "- The **Blaze Emblem** lasts **10**s. Gaining this effect again will reset its duration."
         ],
         "res_lv18": [4000]
       }
@@ -11941,11 +11941,11 @@
         "name": "Comet Dash - Blue Orb Combo 1",
         "button_press": "Not in Blue Orb Combo + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Dashes into the enemy and enters Blue Orb Combo, dealing Lightning DMG and applying a Dazzling Thunder Mark to enemies hit. The Dazzling Thunder Mark lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when cast, then it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
+        "description": "Dashes into the enemy and enters **Blue Orb Combo**, dealing Lightning DMG and applying a **Dazzling Thunder Mark** to enemies hit. The **Dazzling Thunder Mark** lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when cast, then it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
         "result": [
-          "- The dash attack deals **{0}%** Lightning DMG. The Dazzling Thunder Mark detonation deals **{1}%** Lightning DMG.",
-          "- If attacked during this skill, Nanami will automatically raise her shield to block it and gain 1 extra stack of Crystalline Forcefield, up to 2 stacks.",
-          "- If the target has a Dazzling Thunder Mark when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 extra stack of Crystalline Forcefield, up to 2 stacks."
+          "- The dash attack deals **{0}%** Lightning DMG. The **Dazzling Thunder Mark** detonation deals **{1}%** Lightning DMG.",
+          "- If attacked during this skill, Nanami will automatically raise her shield to block it and gain 1 extra stack of **Crystalline Forcefield**, up to 2 stacks.",
+          "- If the target has a **Dazzling Thunder Mark** when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 extra stack of **Crystalline Forcefield**, up to 2 stacks."
         ],
         "res_lv18": [100, 100]
       },
@@ -11953,9 +11953,9 @@
         "name": "Comet Dash - Blue Orb Combo 2",
         "button_press": "During Blue Orb Combo + Ping Blue Orb",
         "switch_in": "no",
-        "description": "Turns around and slashes the enemy, dealing Lightning DMG and generating Astra Gauge.",
+        "description": "Turns around and slashes the enemy, dealing Lightning DMG and generating **Astra Gauge**.",
         "result": [
-          "- Deals **{0}%**/**{1}%**/**{2}%** Lightning DMG, and generates 15/30/50 Astra Gauge based on the number of orbs pinged, up to 100 points."
+          "- Deals **{0}%**/**{1}%**/**{2}%** Lightning DMG, and generates **15/30/50** **Astra Gauge** based on the number of orbs pinged, up to 100 points."
         ],
         "res_lv18": [220, 440, 660]
       }
@@ -11965,26 +11965,26 @@
       "skills": [
         {
           "name": "Starfall Collapse",
-          "button_press": "Holding Shield Axe + At least 100 Exceed Points or 100 Astra Gauge + Hold Basic Attack",
+          "button_press": "Holding Shield Axe + At least 100 **Exceed Points** or 100 **Astra Gauge** + Hold Basic Attack",
           "description": [
-            "Consumes all Exceed Points and Astra Gauge to cast Starfall Collapse, gathering nearby enemies, triggering Matrix if it is not on cooldown, dealing Lightning DMG and restoring Signature Energy. Triggers Matrix if it is not on cooldown. During this skill, Nanami is invincible but unable to cast Big Bang Victory!."
+            "Consumes all **Exceed Points** and **Astra Gauge** to cast **Starfall Collapse**, gathering nearby enemies, triggering Matrix if it is not on cooldown, dealing Lightning DMG and restoring Signature Energy. During this skill, Nanami is invincible but unable to cast **Big Bang Victory!**."
           ],
           "result": [
             "- Deals a total of **{0}%** Lightning DMG and restores 30 Signature Energy.",
-            "- All Astra Gauge consumed is converted into an equal amount of Exceed Points.",
-            "- For every 15 Exceed Points consumed, increases this Starfall Collapse's Base DMG by 3%."
+            "- All **Astra Gauge** consumed is converted into an equal amount of **Exceed Points**.",
+            "- For every 15 **Exceed Points** consumed, increases this **Starfall Collapse**'s Base DMG by 3%."
           ],
           "res_lv18": [3800]
         },
         {
           "name": "Burning Breakaway",
-          "button_press": "During Searing Buzzsaw + Release Yellow Orb or Deplete all Astra Gauge during Searing Buzzsaw",
+          "button_press": "During Searing Buzzsaw + Release Yellow Orb or Deplete all **Astra Gauge** during Searing Buzzsaw",
           "description": [
-            "Immediately dismantles her weapon into a Sword and Shield, dealing Combustion DMG triggering Matrix if it is not on cooldown, and gaining Gain Super Armor and DMG Reduction during this skill. The first Burning Breakaway cast upon entering the battlefield receives enhancement effects."
+            "Immediately dismantles her weapon into a Sword and Shield, dealing Combustion DMG, triggering Matrix if it is not on cooldown, and gaining Gain Super Armor and DMG Reduction during this skill. The first **Burning Breakaway** cast upon entering the battlefield receives enhancement effects."
           ],
           "result": [
             "- Deals a total of **{0}%** Combustion DMG. During this skill, gain Super Armor and 80% DMG Reduction.",
-            "- The first Burning Breakaway cast upon entering the battlefield will be enhanced, restoring 12 Signature Energy, and for every 5 Astra Gauge consumed by the previous Searing Buzzsaw, increases the Base DMG of this Burning Breakaway by 10%. Casting Big Bang Victory! will refresh the available enhancement effect."
+            "- The first **Burning Breakaway** cast upon entering the battlefield will be enhanced, restoring 12 Signature Energy, and for every 5 **Astra Gauge** consumed by the previous **Searing Buzzsaw**, increases the Base DMG of this **Burning Breakaway** by 10%. Casting **Big Bang Victory!** will refresh the available enhancement effect."
           ],
           "res_lv18": [700]
         },
@@ -11992,11 +11992,11 @@
           "name": "Structural Meltdown",
           "button_press": "",
           "description": [
-            "Damage dealt by Nanami when using the Shield Axe debuffs enemies."
+            "Damage dealt by Nanami when using the **Shield Axe** debuffs enemies."
           ],
           "result": [
-            "- Applies the Turbulence Interference effect that reduces enemies' Lightning Resistance by 25% for 2s.",
-            "- If Nanami has a Blaze Emblem when damage is dealt, applies the Scorching Invasion effect instead that reduces enemies' Fire Resistance by 25% for 2s."
+            "- Applies the **Turbulence Interference** effect that reduces enemies' Lightning Resistance by 25% for 2s.",
+            "- If Nanami has a **Blaze Emblem** when damage is dealt, applies the **Scorching Invasion** effect instead that reduces enemies' Fire Resistance by 25% for 2s."
           ]
         },
         {
@@ -12010,7 +12010,7 @@
           "name": "Affix: Incineration",
           "button_press": "",
           "description": [
-            "Flammable: Every 250 Incendiary points will apply 1 Flammable stack, up to 20 stacks.\nBurn: Burning enemies receive Combustion DMG equal to Burning stacks x 30% (does not trigger Tank class passive) every second for 10s."
+            "Flammable: Every 250 Incendiary points will apply 1 Flammable stack, up to 20 stacks.\nBurn: Burning enemies receive Combustion DMG equal to **Burning** stacks x 30% (does not trigger Tank class passive) every second for 10s."
           ],
           "result": [
             "- When the last enemy on the battlefield dies, the enemy(s) that spawn afterwards will inherit their Flammable/Burning stacks."
@@ -12025,13 +12025,13 @@
           "name": "Heavenly Star Piercer",
           "button_press": "80 Energy + Holding Sword and Shield + Tap Signature",
           "description": [
-            "Assembles the weapon into a Shield Axe and cleaves through the enemy, dealing DMG. This skill triggers Time Lag Calculation. If Nanami has the Domain Overlimit effect (the orb-tripling effect from Matrix), refreshes its duration."
+            "Assembles the weapon into a **Shield Axe** and cleaves through the enemy, dealing DMG. This skill triggers Time Lag Calculation. If Nanami has the **Domain Overlimit** effect (the orb-tripling effect from Matrix), refreshes its duration."
           ],
           "result": [
             "- Deals a total of **{0}%** Lightning DMG.",
-            "- If there is a Blaze Emblem, clears the emblem and casts Heavenly Star Piercer: Burn instead, converting Flammable stacks into an equal number of Burning stacks and dealing **{1}%** Combustion DMG. Afterwards, gain a Cinder Emblem that lasts 15s.",
-            "- If Nanami exits the battlefield with a Cinder Emblem, resets the mark's duration to 15s. Triggering this effect again will reset its duration.",
-            "- Afterwards, return to Sword and Shield."
+            "- If there is a **Blaze Emblem**, clears the emblem and casts **Heavenly Star Piercer: Burn** instead, converting Flammable stacks into an equal number of **Burning** stacks and dealing **{1}%** Combustion DMG. Afterwards, gain a **Cinder Emblem** that lasts 15s.",
+            "- If Nanami exits the battlefield with a **Cinder Emblem**, resets the mark's duration to 15s. Triggering this effect again will reset its duration.",
+            "- Afterwards, return to **Sword and Shield**."
           ],
           "res_lv18": [4000, 4000]
         },
@@ -12039,18 +12039,20 @@
           "name": "Gigabyte Star Sunder",
           "button_press": "80 Energy + Holding Shield Axe + Tap Signature",
           "description": [
-            "Cleaves through the enemy with the Shield Axe, dealing **{0}%** Lightning DMG. This skill triggers Time Lag Calculation. If Nanami has the Domain Overlimit effect (the orb-tripling effect from Matrix), refreshes its duration."
+            "Cleaves through the enemy with the **Shield Axe**, dealing **{0}%** Lightning DMG. This skill triggers Time Lag Calculation. If Nanami has the **Domain Overlimit** effect (the orb-tripling effect from Matrix), refreshes its duration."
           ],
-          "result": ["- Afterwards, return to Sword and Shield."],
-          "res_lv18": [4000]
+          "desc_lv18": [4000],
+          "result": ["- Afterwards, return to **Sword and Shield.**"]
         },
         {
           "name": "Glowing Embers Field",
           "button_press": "",
-          "description": "After casting Heavenly Star Piercer or Gigabyte Star Sunder, leaves behind a field that continuously deals damage and debuffs enemies.",
+          "description": [
+            "After casting **Heavenly Star Piercer** or **Gigabyte Star Sunder**, leaves behind a field that continuously deals damage and debuffs enemies."
+          ],
           "result": [
             "- The field deals **{0}%** Lightning DMG every second for 12s. Triggering this effect again will reset its duration.",
-            "- If Nanami has a Blaze Emblem when this skill is cast, deals **{1}%** Combustion DMG every second for 12s instead. Triggering this effect again will reset its duration."
+            "- If Nanami has a **Blaze Emblem** when this skill is cast, deals **{1}%** Combustion DMG every second for 12s instead. Triggering this effect again will reset its duration."
           ],
           "res_lv18": [50, 50]
         }
@@ -12060,8 +12062,8 @@
       "name": "Orbital Interference",
       "description": "Deals damage and debuffs enemies.",
       "result": [
-        "- Deals an initial **{0}%** Lightning DMG. Upon dealing damage, applies the Turbulence Interference effect that reduces enemies' Lightning Resistance by 25% for 8s. Afterwards, deals **{1}%** Lightning DMG every second for 8s.",
-        "If Nanami has a Cinder Emblem when this skill is cast, deals an initial **{2}%** Combustion DMG instead and applies the Scorching Invasion effect that reduces enemies' Fire Resistance by 25% for 8s. Afterwards, deals **{3}%** Combustion DMG every second for 8s."
+        "- Deals an initial **{0}%** Lightning DMG. Upon dealing damage, applies the **Turbulence Interference** effect that reduces enemies' Lightning Resistance by 25% for 8s. Afterwards, deals **{1}%** Lightning DMG every second for 8s.",
+        "If Nanami has a **Cinder Emblem** when this skill is cast, deals an initial **{2}%** Combustion DMG instead and applies the **Scorching Invasion** effect that reduces enemies' Fire Resistance by 25% for 8s. Afterwards, deals **{3}%** Combustion DMG every second for 8s."
       ],
       "res_lv18": [300, 50, 300, 50]
     },
@@ -12079,11 +12081,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Switching to the Shield Axe, casting Starfall Collapse, Burning Breakaway, Heavenly Star Piercer and Gigabyte Star Sunder trigger all available QTEs."
+          "desc": "Switching to the Shield Axe, casting **Starfall Collapse**, **Burning Breakaway**, **Heavenly Star Piercer** and **Gigabyte Star Sunder** trigger all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Upon exiting the battlefield, automatically uses QTE. After casting Red Orb Combo 2 or Blue Orb Combo 2, tap Red Orb or Blue Orb again to immediately cast the respective Combo 2 skill. Base DMG of Celestial Convene and Red Orb/Blue Orb Combo 2 increases by 60%. Base DMG of lightstreams increases by 100%. Base DMG of Searing Buzzsaw increases by 110%. If Starfall Collapse is cast and consumes 100 Astra Gauge, generates an additional 50 Exceed Points and increases the Base DMG of this Starfall Collapse by 50%. After switching to Shield Axe for the first time upon entering the battlefield, gain 15 Signature Energy."
+          "desc": "Upon exiting the battlefield, automatically uses QTE. After casting **Red Orb Combo 2** or **Blue Orb Combo 2**, tap Red Orb or Blue Orb again to immediately cast the respective Combo 2 skill. Base DMG of **Celestial Convene** and **Red Orb**/**Blue Orb Combo 2** increases by 60%. Base DMG of **lightstreams** increases by 100%. Base DMG of **Searing Buzzsaw** increases by 110%. If **Starfall Collapse** is cast and consumes 100 **Astra Gauge**, generates an additional 50 **Exceed Points** and increases the Base DMG of this **Starfall Collapse** by 50%. After switching to **Shield Axe** for the first time upon entering the battlefield, gain 15 Signature Energy."
         }
       ]
     },
@@ -12092,11 +12094,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Resistance Reduction effects of Turbulence Interference and Scorching Invasion increase by 10%. Base DMG of Starfall Collapse increases by 100%. Base DMG of Burning Breakaway increases by 60%. Searing Buzzsaw's rate of applying Combustibility points increases by 100%."
+          "desc": "Resistance Reduction effects of **Turbulence Interference** and **Scorching Invasion** increase by 10%. Base DMG of **Starfall Collapse** increases by 100%. Base DMG of **Burning Breakaway** increases by 60%. **Searing Buzzsaw**'s rate of applying Combustibility points increases by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Resistance Reduction effects of Turbulence Interference and Scorching Invasion increase by 10%. For every 75 Exceed Points consumed by Starfall Collapse, increases the Base DMG of the next Gigabyte Star Sunder by 25%; stacks are cleared upon dismantling the Shield Axe. For every 5 Combustible stacks applied to the target, increases the Base DMG of Heavenly Star Piercer: Burn by 16%. Upon entering the battlefield, the first Big Bang Victory! cast will generate 100 Astra Gauge, and the first 4th-hit lightstream will restore an extra 16 Signature Energy. Reduces the swap cooldown of all members in the team by 3s; this does not stack with other effects of the same type."
+          "desc": "Resistance Reduction effects of **Turbulence Interference** and **Scorching Invasion** increase by 10%. For every 75 **Exceed Points** consumed by **Starfall Collapse**, increases the Base DMG of the next **Gigabyte Star Sunder** by 25%; stacks are cleared upon dismantling the Shield Axe. For every 5 Combustible stacks applied to the target, increases the Base DMG of **Heavenly Star Piercer**: Burn by 16%. Upon entering the battlefield, the first **Big Bang Victory!** cast will generate 100 **Astra Gauge**, and the first 4th-hit **lightstream** will restore an extra 16 Signature Energy. Reduces the swap cooldown of all members in the team by 3s; this does not stack with other effects of the same type."
         }
       ]
     },
@@ -12105,15 +12107,138 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Starfall Collapse increases by 20%. Extra DMG Bonus of lightstreams increases by 35%. Extra DMG Bonus of Burning Breakaway increases by 100%."
+          "desc": "Extra DMG Bonus of **Starfall Collapse** increases by 20%. Extra DMG Bonus of **lightstreams** increases by 35%. Extra DMG Bonus of **Burning Breakaway** increases by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of Celestial Convene and Red Orb/Blue Orb Combo 2 increases by 100%. Extra DMG Bonus of Searing Buzzsaw increases by 50%."
+          "desc": "Extra DMG Bonus of **Celestial Convene** and Red Orb/**Blue Orb Combo 2** increases by 100%. Extra DMG Bonus of **Searing Buzzsaw** increases by 50%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Heavenly Star Piercer and Gigabyte Star Sunder increases by 40%."
+          "desc": "Extra DMG Bonus of **Heavenly Star Piercer** and **Gigabyte Star Sunder** increases by 40%."
+        }
+      ]
+    }
+  },
+  "parhelion": {
+    "basic_attack": [
+      {
+        "name": "",
+        "button_press": "Tap Basic Attack",
+        "switch_in": "no",
+        "description": "",
+        "desc_lv18": []
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "",
+        "button_press": "Tap Red Orb",
+        "switch_in": "no",
+        "description": "",
+        "result": [],
+        "res_lv18": []
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "",
+        "button_press": "Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "",
+        "result": [],
+        "res_lv18": []
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "",
+        "button_press": "Tap Blue Orb",
+        "switch_in": "no",
+        "description": "",
+        "result": [],
+        "res_lv18": []
+      }
+    ],
+    "core_passive": {
+      "name": "Placeholder",
+      "skills": [
+        {
+          "name": "Placeholder",
+          "button_press": "Placeholder",
+          "description": [""],
+          "result": [],
+          "res_lv18": []
+        }
+      ]
+    },
+    "signature": {
+      "name": "Placeholder",
+      "skills": [
+        {
+          "name": "Placeholder",
+          "button_press": "Tap Signature",
+          "description": [""],
+          "result": [],
+          "res_lv18": []
+        }
+      ]
+    },
+    "qte": {
+      "name": "QTE",
+      "description": "Placeholder",
+      "result": [],
+      "res_lv18": []
+    },
+    "leader": {
+      "name": "Placeholder",
+      "description": ""
+    },
+    "class": {
+      "name": "",
+      "description": "",
+      "desc_lv18": []
+    },
+    "ss_rank": {
+      "name": "",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": ""
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": ""
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": ""
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": ""
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": ""
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": ""
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": ""
         }
       ]
     }

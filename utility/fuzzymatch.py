@@ -64,7 +64,7 @@ def fuzzmatch(string) -> str:
             character = "brilliance"
         case "veritas" | "veritrash":
             character = "veritas"
-        case "sophia" | "s*phia" | "silverfang":
+        case "sophia" | "s*phia" | "silverfang" | "ireng":
             character = "silverfang"
         case "arclight":
             character = "arclight"
@@ -74,7 +74,7 @@ def fuzzmatch(string) -> str:
             character = "rozen"
         case "camu" | "crocotta":
             character = "crocotta"
-        case "rosetta" | "juan" | "rigor" | "rose":
+        case "rosetta" | "juan" | "rigor" | "rose" | "kuda" | "kuda lumping":
             character = "rigor"
         case "changyu" | "changwho" | "qilin" | "who?":
             character = "qilin"
@@ -88,51 +88,51 @@ def fuzzmatch(string) -> str:
             character = "9s"
         case "a2":
             character = "a2"
-        case "hypnos" | "sleepyboi" | "sleepyhead" | "sleepyboy" | "time to sleep" | "sleepytime":
+        case "hypnos" | "sleepyboi" | "sleepyhead" | "sleepyboy" | "time to sleep" | "sleepytime" | "aurora's wife":
             character = "hypnos"
         case "tempest" | "shitlena" | "iris":
             character = "tempest"
-        case "glory":
+        case "glory"| "daddy":
             character = "glory"
         case "xxi" | "21" | "crazy kid":
             character = "xxi"
         case "garnet" | "flare" | "dog owner" | "yinlin" | "zex's master":
             character = "garnet"
-        case "flambeau" | "roland" | "kuraimakusu" | "clown" | "theatre" | "curtain call":
+        case "flambeau" | "roland" | "kuraimakusu" | "clown" | "theatre" | "curtain call" | "badut":
             character = "flambeau"
         case "empy" | "solaeter" | "empyrea" | "flashbang" | "sol" | "angel":
             character = "empyrea"
-        case "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2" | "magikarp":
+        case "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2" | "magikarp" | "kuyang":
             character = "capriccio"
-        case "dragontoll" | "pulao" | "windbell's girl":
+        case "dragontoll" | "pulao" | "windbell's girl" | "windbell's wife":
             character = "dragontoll"
         case "starfarer" | "nanamech" | "nanamecha" | "sagemachina" | "mech":
             character = "starfarer"
         case "starveil" | "haicma" | "hag" | "haicmama" | "nanny" | "mama":
             character = "starveil"
-        case "scire" | "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "flat tsundere is not waifu" | "trs" | "idol":
+        case "scire" | "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "flat tsundere is not waifu" | "trs" | "idol" | "yoyo" | "trs's wife":
             character = "scire"
         case "arca" | "noan" | "deadweight" | "shrek" | "nero":
             character = "arca"
-        case "balter" | "stigmata" | "mommy" | "saber" | "excalibaa" | "Balter" | "gothic nun" | "balt":
+        case "balter" | "stigmata" | "mommy" | "saber" | "excalibaa" | "Balter" | "gothic nun" | "balt" | "mint's pillow":
             character = "stigmata"
         case "vitrum" | "bambinata" | "bambi" | "bombi" | "doll" | "puppet" | "dementia doll":
             character = "vitrum"
-        case "supercar" | "car" | "hyper" | "hyperreal" | "xly" | "xiangli yao" | "hypertrash" | "hypermonke" | "hypercuck" | "zeru's sun":
+        case "supercar" | "car" | "hyper" | "hyperreal" | "xly" | "xiangli yao" | "hypertrash" | "hypermonke" | "hypercuck" | "zeru's sun" | "hyperbrick":
             character = "hyperreal"
-        case "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi":
+        case "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi" | "booba":
             character = "kaleido"  
-        case "crimson weave" | "weave" | "motivation" | "vergil's daughter" | "cw" | "blanc's curse" | "bury the light" | "matt's girl":
+        case "crimson weave" | "weave" | "motivation" | "vergil's daughter" | "cw" | "blanc's curse" | "bury the light" | "matt's girl" | "ojek" | "kang ojek":
             character = "crimson weave"
         case "zitherwoe" | "zitherhoe":
             character = "zitherwoe"
-        case "awoo" | "furry" | "feral" | "feral: 21" | "feral:21" | "best daughter" | "doggo" | "wolfie-chan":
+        case "awoo" | "furry" | "feral" | "feral: 21" | "feral:21" | "best daughter" | "doggo" | "wolfie-chan" | "fluffy" | "aether's daughter":
             character = "feral"
         case "indomitus" | "noctis" | "blockhead":
             character = "indomitus"
-        case "alisa" | "echo" | "arrest me pls":
+        case "alisa" | "echo" | "arrest me pls" | "altr's secretary":
             character = "echo"
-        case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty" | "kev's waifu":
+        case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty" | "kev's waifu" | "skibidi" | "skibidi toilet":
             character = "lost lullaby"
         case "brs" | "brick rock shooter" | "edgy miku" | "black rock shooter":
             character = "brs"
@@ -140,7 +140,7 @@ def fuzzmatch(string) -> str:
             character = "epitaph"
         case "shukra"| "qukra" | "queen" | "legs":
             character = "shukra"
-        case "teddy" | "decryptor" | "smug" | "always beats karen" | "kusogaki":
+        case "teddy" | "decryptor" | "smug" | "always beats karen" | "kusogaki" | "brat":
             character = "decryptor"
         case "oblivion" | "void luna":
             character = "oblivion"

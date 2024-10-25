@@ -87,6 +87,10 @@
     {
       "command": "ppc",
       "description": "Calculates the Ultimate PPC score of a particular time and difficulty."
+    },
+    {
+      "command": "bannerinfo",
+      "description": "Provides info on the PGR gacha system."
     }
   ],
   "links": {
@@ -262,5 +266,10 @@
     "syntax": ">nicknamelist",
     "aliases": ">nnl",
     "description": "Displays a list of nicknames for each character. If a character's nickname is not on this list that you would like to see present on this bot, please reach out to Ek to discuss if the nickname is safe to use.\n\nTo use the nicknames, all you will need to do is replace the name of the character/weapon/CUB/build name with the nickname that you would like to search a particular item/skill for."
+  },
+  "bannerinfo": {
+    "syntax": ">bannerinfo",
+    "aliases": ">bi, >banner, >banners",
+    "description": "Provides info on the PGR gacha system."
   }
 }
