@@ -66,7 +66,7 @@ class Ppc(commands.Cog):
 
         if 'advanced' in self.boss:
             view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='advanced', post_luna=False)
-            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'Advanced', 'Test', self.boss['advanced']['test'])
+            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'Advanced', 'Test', self.boss['start_time'], self.boss['advanced']['test'])
             view.message = await ctx.send(embed=embed, view=view)
         else:
             await ctx.send(content="This boss does not have a valid advanced PPC variant!")
@@ -84,7 +84,7 @@ class Ppc(commands.Cog):
 
         if 'exppc' in self.boss:
             view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='exppc', post_luna=False)
-            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'EXPPC', 'Test', self.boss['exppc']['test'])
+            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'EXPPC', 'Test', self.boss['start_time'], self.boss['exppc']['test'])
             view.message = await ctx.send(embed=embed, view=view)
         else:
             await ctx.send(content="This boss does not have a valid EXPPC variant!")
@@ -102,7 +102,7 @@ class Ppc(commands.Cog):
 
         if 'onslaught' in self.boss:
             view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='onslaught', post_luna=True)
-            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], 'Dependent on weekly rotation', 'Onslaught', 'Onslaught', self.boss['onslaught'])
+            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], 'Dependent on weekly rotation', 'Onslaught', 'Onslaught', self.boss['start_time'], self.boss['onslaught'])
             view.message = await ctx.send(embed=embed, view=view)
         else:
             await ctx.send(content="This boss does not have a valid Onslaught PPC variant!")

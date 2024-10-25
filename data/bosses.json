@@ -3,6 +3,7 @@
     "name": "Lilith",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab36.png",
     "weakness_name": "Corrosion (Dark)",
+    "start_time": "5.24",
     "exppc": {
       "test": {
         "hp": 1970001,
@@ -65,6 +66,7 @@
     "name": "Trailblazer",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab37.png",
     "weakness_name": "Steel Willed (No Weakness/Neutral)",
+    "start_time": "5.27",
     "exppc": {
       "test": {
         "hp": 1060001,
@@ -127,6 +129,7 @@
     "name": "Fu Shen",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab35.png",
     "weakness_name": "Frail (Physical)",
+    "start_time": "5.26",
     "exppc": {
       "test": {
         "hp": 1510001,
@@ -189,6 +192,7 @@
     "name": "Iron Maiden: Phantom",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab34.png",
     "weakness_name": "Electrode (Lightning)",
+    "start_time": "5.17",
     "exppc": {
       "test": {
         "hp": 990001,
@@ -251,6 +255,7 @@
     "name": "Mutated Mechanoid: Madorea",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab33.png",
     "weakness_name": "Frost (Ice)",
+    "start_time": "4.63",
     "exppc": {
       "test": {
         "hp": 915001,
@@ -313,6 +318,7 @@
     "name": "Hamlet",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab30.png",
     "weakness_name": "Silence - 3-Pings increase all DMG taken by 15%. Stacks up to 8 times.",
+    "start_time": "3.41",
     "exppc": {
       "test": {
         "hp": 735001,
@@ -375,6 +381,7 @@
     "name": "Shark-speare [Dark]",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab32.png",
     "weakness_name": "Super Cute (No Weakness/Neutral)",
+    "start_time": "5.18",
     "exppc": {
       "test": {
         "hp": 615001,
@@ -437,6 +444,7 @@
     "name": "Lamia",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab27.png",
     "weakness_name": "Injured (Neutral/No Weakness)",
+    "start_time": "5.00",
     "exppc": {
       "test": {
         "hp": 696501,
@@ -499,6 +507,7 @@
     "name": "Voodoo",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab28.png",
     "weakness_name": "Corrosion (Dark)",
+    "start_time": "5.37",
     "exppc": {
       "test": {
         "hp": 1255801,
@@ -561,6 +570,7 @@
     "name": "Siren",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab25.png",
     "weakness_name": "Electrode (Lightning)",
+    "start_time": "5.40",
     "exppc": {
       "test": {
         "hp": 669153,
@@ -623,6 +633,7 @@
     "name": "Moon Eater",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab31.png",
     "weakness_name": "Combustible (Fire)",
+    "start_time": "3.30",
     "exppc": {
       "test": {
         "hp": 1156501,
@@ -685,6 +696,7 @@
     "name": "Unknown Data Cluster",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab29.png",
     "weakness_name": "Frail (Physical)",
+    "start_time": "4.98",
     "exppc": {
       "test": {
         "hp": 564001,
@@ -747,6 +759,7 @@
     "name": "Machiavelli",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab23.png",
     "weakness_name": "Frost (Ice)",
+    "start_time": "8.16",
     "exppc": {
       "test": {
         "hp": 748995,
@@ -809,7 +822,7 @@
     "name": "Luna",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab26.png",
     "weakness_name": "Combustible (Fire)",
-    "weakness_desc": "Easily ignited by high temperatures and causes huge explosions. Fire DMG received is increased significantly.",
+    "start_time": "8.22",
     "exppc": {
       "test": {
         "hp": 933751,
