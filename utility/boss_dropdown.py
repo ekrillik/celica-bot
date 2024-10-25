@@ -59,7 +59,7 @@ class BossDropdownView(discord.ui.View):
         elif(self.menu.values[0] == "Chaos"):
             embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Chaos', self.boss_stats['chaos'])
         elif(self.menu.values[0] == "Hell"):
-            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Knight', self.boss_stats['hell'])
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Hell', self.boss_stats['hell'])
 
         await interaction.response.edit_message(embed=embed, view=self)
 

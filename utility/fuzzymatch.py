@@ -4,7 +4,7 @@ import random
 from thefuzz import fuzz
 from thefuzz import process
 
-def fuzzmatch(string) -> str:
+def fuzzmatch(string, match_type = "character") -> str:
     with open('data/fuzzydict.json') as file:
         loadedData = json.load(file)
         choices = loadedData['dictionary']
@@ -134,6 +134,7 @@ def fuzzmatch(string) -> str:
             character = "echo"
         case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty" | "kev's waifu" | "skibidi" | "skibidi toilet":
             character = "lost lullaby"
+            boss = "lamia"
         case "brs" | "brick rock shooter" | "edgy miku" | "black rock shooter":
             character = "brs"
         case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss" | "green guy" | "boomer":
@@ -157,9 +158,25 @@ def fuzzmatch(string) -> str:
         case "startrail" | "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi":
             character = "startrail"
         # Boss nicknames
-
+        case "machi":
+            boss = "machiavelli"
+        case "red liv":
+            boss = "unknown data cluster"
+        case "md" | "me" | "moon devourer":
+            boss = "moon eater"
+        case "dshark":
+            boss = "dark shark"
+        case "phantom tifa" | "tifa":
+            boss = "iron maiden: phantom"
+        case "tb" | "rm" | "radiant marcher":
+            boss = "trailblazer"
+        case "poria":
+            boss = "fushen"
 
         case _:
             character = ""
 
-    return character
+    if match_type == "character":
+        return character
+    elif match_type == "boss":
+        return boss

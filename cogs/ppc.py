@@ -55,22 +55,30 @@ class Ppc(commands.Cog):
         return int(score)
 
     @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")
-    async def advanced(self, ctx: commands.Context, boss_name):
-        self.boss = self.bossdata[boss_name]
+    async def advanced(self, ctx: commands.Context, *, boss_name):
+        if boss_name.lower() in self.bossdata:
+            self.boss = self.bossdata[boss_name.lower()]
+        elif fuzzmatch(boss_name.lower(), "boss") in self.bossdata:
+            self.boss = self.bossdata[fuzzmatch(boss_name.lower(), "boss")]
+        else:
+            await ctx.send(content="This boss does not exist. Please try again.")
+            return
 
         if 'advanced' in self.boss:
             view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='advanced', post_luna=False)
             embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'Advanced', 'Test', self.boss['advanced']['test'])
             view.message = await ctx.send(embed=embed, view=view)
         else:
-            await ctx.send(content="This boss does not exist or does not have a valid advanced PPC variant!")
+            await ctx.send(content="This boss does not have a valid advanced PPC variant!")
         
 
     @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")
-    async def exppc(self, ctx: commands.Context, boss_name):
-        fuzzy_name = fuzzmatch(boss_name.lower())
-        self.boss = self.bossdata[boss_name]
-        if self.boss is None:
+    async def exppc(self, ctx: commands.Context, *, boss_name):
+        if boss_name.lower() in self.bossdata:
+            self.boss = self.bossdata[boss_name.lower()]
+        elif fuzzmatch(boss_name.lower(), "boss") in self.bossdata:
+            self.boss = self.bossdata[fuzzmatch(boss_name.lower(), "boss")]
+        else:
             await ctx.send(content="This boss does not exist. Please try again.")
             return
 
@@ -83,15 +91,21 @@ class Ppc(commands.Cog):
 
 
     @commands.hybrid_command(pass_context=True, description="Provides info on a particular boss")
-    async def onslaught(self, ctx: commands.Context, boss_name):
-        self.boss = self.bossdata[boss_name]
+    async def onslaught(self, ctx: commands.Context, *, boss_name):
+        if boss_name.lower() in self.bossdata:
+            self.boss = self.bossdata[boss_name.lower()]
+        elif fuzzmatch(boss_name.lower(), "boss") in self.bossdata:
+            self.boss = self.bossdata[fuzzmatch(boss_name.lower(), "boss")]
+        else:
+            await ctx.send(content="This boss does not exist. Please try again.")
+            return
 
         if 'onslaught' in self.boss:
             view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='onslaught', post_luna=True)
             embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], 'Dependent on weekly rotation', 'Onslaught', 'Onslaught', self.boss['onslaught'])
             view.message = await ctx.send(embed=embed, view=view)
         else:
-            await ctx.send(content="This boss does not exist or does not have a valid Onslaught PPC variant!")
+            await ctx.send(content="This boss does not have a valid Onslaught PPC variant!")
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Ppc(bot))

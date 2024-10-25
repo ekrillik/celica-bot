@@ -493,67 +493,67 @@
         "ice_res": 2000,
         "dark_res": 2000
       }
-    },
-    "voodoo": {
-      "name": "Voodoo",
-      "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab28.png",
-      "weakness_name": "Corrosion (Dark)",
-      "exppc": {
-        "test": {
-          "hp": 1255801,
-          "super_armor": 14950,
-          "edr": 0,
-          "def": 1500,
-          "phys_res": 0,
-          "fire_res": 2000,
-          "light_res": 2000,
-          "ice_res": 2000,
-          "dark_res": 2000
-        },
-        "elite": {
-          "hp": 2515801,
-          "super_armor": 29950,
-          "edr": 0,
-          "def": 1500,
-          "phys_res": 0,
-          "fire_res": 2000,
-          "light_res": 2000,
-          "ice_res": 2000,
-          "dark_res": 2000
-        },
-        "knight": {
-          "hp": 3775801,
-          "super_armor": 44950,
-          "edr": 0,
-          "def": 1500,
-          "phys_res": 0,
-          "fire_res": 2000,
-          "light_res": 2000,
-          "ice_res": 2000,
-          "dark_res": 2000
-        },
-        "chaos": {
-          "hp": 5035801,
-          "super_armor": 59950,
-          "edr": 0,
-          "def": 1500,
-          "phys_res": 0,
-          "fire_res": 2000,
-          "light_res": 2000,
-          "ice_res": 2000,
-          "dark_res": 2000
-        },
-        "hell": {
-          "hp": 6295801,
-          "super_armor": 74950,
-          "edr": 0,
-          "def": 1500,
-          "phys_res": 0,
-          "fire_res": 2000,
-          "light_res": 2000,
-          "ice_res": 2000,
-          "dark_res": 2000
-        }
+    }
+  },
+  "voodoo": {
+    "name": "Voodoo",
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab28.png",
+    "weakness_name": "Corrosion (Dark)",
+    "exppc": {
+      "test": {
+        "hp": 1255801,
+        "super_armor": 14950,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 2515801,
+        "super_armor": 29950,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 3775801,
+        "super_armor": 44950,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 5035801,
+        "super_armor": 59950,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 6295801,
+        "super_armor": 74950,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
       }
     }
   },
