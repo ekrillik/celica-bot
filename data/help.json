@@ -93,6 +93,12 @@
       "description": "Provides info on the PGR gacha system."
     }
   ],
+  "information2": [
+    {
+      "command": "exppc",
+      "description": "Provides info for a particular EXPPC/Ultimate PPC boss."
+    }
+  ],
   "links": {
     "syntax": ">links",
     "description": "Links for useful PGR resources"
@@ -271,5 +277,10 @@
     "syntax": ">bannerinfo",
     "aliases": ">bi, >banner, >banners",
     "description": "Provides info on the PGR gacha system."
+  },
+  "exppc": {
+    "syntax": ">exppc",
+    "description": "Provides info for a particular EXPPC/Ultimate PPC boss.",
+    "examples": [">exppc lamia"]
   }
 }

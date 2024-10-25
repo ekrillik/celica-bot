@@ -29,9 +29,6 @@ class Help(commands.Cog):
     async def help(self, ctx: commands.Context, command=""):
         prefix = self.bot.command_prefix
         if command == "":
-            bot_related = self.help['bot_related']
-            information = self.help['information']
-
             embed = discord.Embed(title="Celica's Help Menu",
                                   description="I'm an informational bot for the game **Punishing: Gray Raven**",
                                   color=discord.Color(0x2e6a80))
@@ -44,7 +41,7 @@ class Help(commands.Cog):
                 value="```Added banner information command```",
                 inline=False
             )
-            view = HelpView(ctx.author, bot_related=bot_related, informational_commands=information)
+            view = HelpView(ctx.author, bot_related=self.help['bot_related'], informational_commands=self.help['information'], informationpg2=self.help['information2'])
             view.message = await ctx.send(embed=embed, view=view)
         else:
             view = GeneralView(ctx.author)

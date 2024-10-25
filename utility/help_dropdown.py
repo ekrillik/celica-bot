@@ -13,12 +13,13 @@ class HelpView(discord.ui.View):
     sep : int = 5
     current_page = 1
 
-    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, bot_related = [], informational_commands = []) -> None:
+    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, bot_related = [], informational_commands = [], informationpg2 = []) -> None:
         super().__init__(timeout=timeout)
         self.user = user
         self.bot_related = bot_related
         self.informational_commands = informational_commands
-        options = ["Main", "Bot Related", "Informational Commands"]
+        self.informationpg2 = informationpg2
+        options = ["Main", "Bot Related", "Informational Commands 1/2", "Informational Commands 2/2"]
         self.menu = discord.ui.Select[HelpView](
             custom_id="persistent_menu",
             placeholder="Select a category",
@@ -51,8 +52,10 @@ class HelpView(discord.ui.View):
             )
         elif(self.menu.values[0] == "Bot Related"):
             embed = self.embedconf.helplist_embed(title="Celica Help", list=self.bot_related)
-        elif(self.menu.values[0] == "Informational Commands"):
+        elif(self.menu.values[0] == "Informational Commands 1/2"):
             embed = self.embedconf.helplist_embed(title="Informational Help", list=self.informational_commands)
+        elif(self.menu.values[0] == "Informational Commands 2/2"):
+            embed = self.embedconf.helplist_embed(title="Informational Help", list=self.informationpg2)
 
         await interaction.response.edit_message(embed=embed, view=self)
 
