@@ -110,7 +110,7 @@ def fuzzmatch(string) -> str:
             character = "starfarer"
         case "starveil" | "haicma" | "hag" | "haicmama" | "nanny" | "mama":
             character = "starveil"
-        case "scire" | "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "flat tsundere is not waifu" | "trs" | "idol" | "yoyo":
+        case "scire" | "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "flat tsundere is not waifu" | "trs" | "idol" | "yoyo" | "trs's wife":
             character = "scire"
         case "arca" | "noan" | "deadweight" | "shrek" | "nero":
             character = "arca"
