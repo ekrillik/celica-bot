@@ -130,7 +130,7 @@ def fuzzmatch(string) -> str:
             character = "feral"
         case "indomitus" | "noctis" | "blockhead":
             character = "indomitus"
-        case "alisa" | "echo" | "arrest me pls":
+        case "alisa" | "echo" | "arrest me pls" | "altr's secretary":
             character = "echo"
         case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty" | "kev's waifu" | "skibidi" | "skibidi toilet":
             character = "lost lullaby"
