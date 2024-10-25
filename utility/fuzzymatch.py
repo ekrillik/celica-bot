@@ -104,7 +104,7 @@ def fuzzmatch(string) -> str:
             character = "empyrea"
         case "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2" | "magikarp" | "kuyang":
             character = "capriccio"
-        case "dragontoll" | "pulao" | "windbell's girl":
+        case "dragontoll" | "pulao" | "windbell's girl" | "windbell's wife":
             character = "dragontoll"
         case "starfarer" | "nanamech" | "nanamecha" | "sagemachina" | "mech":
             character = "starfarer"
@@ -126,7 +126,7 @@ def fuzzmatch(string) -> str:
             character = "crimson weave"
         case "zitherwoe" | "zitherhoe":
             character = "zitherwoe"
-        case "awoo" | "furry" | "feral" | "feral: 21" | "feral:21" | "best daughter" | "doggo" | "wolfie-chan" | "fluffy":
+        case "awoo" | "furry" | "feral" | "feral: 21" | "feral:21" | "best daughter" | "doggo" | "wolfie-chan" | "fluffy" | "aether's daughter":
             character = "feral"
         case "indomitus" | "noctis" | "blockhead":
             character = "indomitus"
