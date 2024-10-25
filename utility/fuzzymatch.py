@@ -100,7 +100,7 @@ def fuzzmatch(string) -> str:
             character = "garnet"
         case "flambeau" | "roland" | "kuraimakusu" | "clown" | "theatre" | "curtain call" | "badut":
             character = "flambeau"
-        case "empy" | "solaeter" | "empyrea" | "flashbang" | "sol" | "angel":
+        case "empy" | "solaeter" | "empyrea" | "flashbang" | "sol" | "angel" | "liv's gingerbread":
             character = "empyrea"
         case "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2" | "magikarp" | "kuyang":
             character = "capriccio"
@@ -156,6 +156,9 @@ def fuzzmatch(string) -> str:
             character = "fulgor"
         case "startrail" | "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi":
             character = "startrail"
+        # Boss nicknames
+
+
         case _:
             character = ""
 
