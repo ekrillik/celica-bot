@@ -143,7 +143,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "shukra"
         case "teddy" | "decryptor" | "smug" | "always beats karen" | "kusogaki" | "brat":
             character = "decryptor"
-        case "oblivion" | "void luna":
+        case "oblivion" | "void luna" | "xeno's queen":
             character = "oblivion"
         case "bridget" | "ardeo" | "royal guard" | "dante":
             character = "ardeo"
