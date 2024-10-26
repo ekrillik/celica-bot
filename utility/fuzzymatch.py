@@ -48,7 +48,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "luminance"
         case "entropy" | "entrobrick" | "entropiss" | "entrokek":
             character = "entropy"
-        case "ember":
+        case "ember" | "queso":
             character = "ember"
         case "pulse":
             character = "pulse"
