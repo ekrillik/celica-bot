@@ -117,7 +117,7 @@ class Help(commands.Cog):
                         embed = self.embedconf.create_list_embed(name="Nicknames", type="nicknames", items = list['nicknames'], character=list['name'])
                 view.message = await ctx.send(embed=embed, view=view)
             else:
-                await ctx.send(content="The frame does not exist")
+                await ctx.send(content="The frame does not exist.")
         else:
             await ctx.send(content="This frame does not exist.")
 
