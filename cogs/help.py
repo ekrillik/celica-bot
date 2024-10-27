@@ -6,7 +6,8 @@ from utility.embedconfig import EmbedClass
 from utility.general_view import GeneralView
 from utility.help_dropdown import HelpView
 from utility.pagination import PaginationView
-from utility.nickname_checker import character_theme
+from utility.nickname_checker import character_theme, check_nickname
+from utility.fuzzymatch import fuzzmatch
 
 class Help(commands.Cog):
     help = {}
@@ -101,7 +102,12 @@ class Help(commands.Cog):
         view.message = await ctx.send(embed=embed, view=view)
 
     @commands.hybrid_command(aliases=['Nickname', 'nn'], description="Displays a list of community nicknames for a particular character.")
-    async def nicknames(self, ctx: commands.Context, *, character = None):
+    async def nicknames(self, ctx: commands.Context, *, frame = None):
+        name = fuzzmatch(frame)
+        if name == "":
+            name = frame
+        character = check_nickname(name, "character")
+
         if character is not None:
             theme = character_theme(character)
             if theme[2] != "":
@@ -111,9 +117,9 @@ class Help(commands.Cog):
                         embed = self.embedconf.create_list_embed(name="Nicknames", type="nicknames", items = list['nicknames'], character=list['name'])
                 view.message = await ctx.send(embed=embed, view=view)
             else:
-                await ctx.send(content="The name you have included does not exist as a frame. Are you using a nickname? For this command in particular, using nicknames is not allowed. Please add the frame name in all lower case.")
+                await ctx.send(content="The frame does not exist")
         else:
-            await ctx.send(content="You have not included a frane name for a character's lists. Please provide the frame name of the character for this command to work.")
+            await ctx.send(content="This frame does not exist.")
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Help(bot))

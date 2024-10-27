@@ -26,61 +26,61 @@ def fuzzmatch(string, match_type = "character") -> str:
             index = random.randint(0, 3)
             character = characters[index]
             print(character)
-        case "lotus":
+        case "lotus" | "lucia lotus":
             character = "lotus"
-        case "eclipse":
+        case "eclipse" | "liv eclipse":
             character = "eclipse"
-        case "storm":
+        case "storm" | "nanami storm":
             character = "storm"
-        case "dawn" | "dumbdawn":
+        case "dawn" | "dumbdawn" | "lucia dawn":
             character = "dawn"
-        case "evil liv" | "green jumper" | "<:evilliv:1272415890453041223>" | "lux":
+        case "evil liv" | "green jumper" | "<:evilliv:1272415890453041223>" | "lux" | "liv lux":
             character = "lux"
-        case "palefire" | "firegod":
+        case "palefire" | "firegod" | "lee palefire":
             character = "palefire"
-        case "nightblade":
+        case "nightblade" | "watanabe nightblade":
             character = "nightblade"
-        case "zero":
+        case "zero" | "bianca zero":
             character = "zero"
-        case "blast":
+        case "blast" | "karenina blast":
             character = "blast"
-        case "lumi" | "luminance":
+        case "lumi" | "luminance" | "liv luminance":
             character = "luminance"
-        case "entropy" | "entrobrick" | "entropiss" | "entrokek":
+        case "entropy" | "entrobrick" | "entropiss" | "entrokek" | "lee entropy":
             character = "entropy"
-        case "ember" | "queso":
+        case "ember" | "queso" | "karenina ember":
             character = "ember"
-        case "pulse":
+        case "pulse" | "nanami pulse":
             character = "pulse"
-        case "tenebrion" | "teneb" | "terb":
+        case "tenebrion" | "teneb" | "terb" | "kamui tenebrion":
             character = "tenebrion"
-        case "crimson abyss" | "abyss" | "crimson brick" | "ca" | "CA" | "blue rose":
+        case "crimson abyss" | "abyss" | "crimson brick" | "ca" | "CA" | "blue rose" | "lucia crimson abyss":
             character = "crimson abyss"
-        case "bastion" | "kimochiyokatta" | "kimochi yokatta":
+        case "bastion" | "kimochiyokatta" | "kimochi yokatta" | "kamui bastion":
             character = "bastion"
-        case "astral" | "asstral":
+        case "astral" | "asstral" | "watanabe astral":
             character = "astral"
-        case "brilliance":
+        case "brilliance" | "ayla brilliance":
             character = "brilliance"
-        case "veritas" | "veritrash":
+        case "veritas" | "veritrash" | "bianca veritas":
             character = "veritas"
-        case "sophia" | "s*phia" | "silverfang" | "ireng":
+        case "sophia" | "s*phia" | "silverfang" | "ireng" | "sophia silverfang":
             character = "silverfang"
-        case "arclight":
+        case "arclight" | "chrome arclight":
             character = "arclight"
-        case "plume" | "ploom":
+        case "plume" | "ploom" | "lucia plume":
             character = "plume"
-        case "rozen":
+        case "rozen" | "vera rozen":
             character = "rozen"
-        case "camu" | "crocotta":
+        case "camu" | "crocotta" | "camu crocotta":
             character = "crocotta"
-        case "rosetta" | "juan" | "rigor" | "rose" | "kuda" | "kuda lumping":
+        case "rosetta" | "juan" | "rigor" | "rose" | "kuda" | "kuda lumping" | "rosetta rigor":
             character = "rigor"
-        case "changyu" | "changwho" | "qilin" | "who?":
+        case "changyu" | "changwho" | "qilin" | "who?" | "changyu qilin":
             character = "qilin"
-        case "pavo":
+        case "pavo" | "qu pavo":
             character = "pavo"
-        case "laurel" | "dark luna" | "cutie pie":
+        case "laurel" | "dark luna" | "cutie pie" | "luna laurel":
             character = "laurel"
         case "2b":
             character = "2b"
@@ -88,74 +88,74 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "9s"
         case "a2":
             character = "a2"
-        case "hypnos" | "sleepyboi" | "sleepyhead" | "sleepyboy" | "time to sleep" | "sleepytime" | "aurora's wife":
+        case "wanshi hypnos" | "hypnos" | "sleepyboi" | "sleepyhead" | "sleepyboy" | "time to sleep" | "sleepytime":
             character = "hypnos"
-        case "tempest" | "shitlena" | "iris":
+        case "selena tempest" |"tempest" | "shitlena" | "iris":
             character = "tempest"
-        case "glory"| "daddy":
+        case "chrome glory" | "glory"| "daddy":
             character = "glory"
-        case "xxi" | "21" | "crazy kid":
+        case "no21 xxi" | "no. 21 xxi" | "no 21 xxi" |  "xxi" | "21" | "crazy kid":
             character = "xxi"
-        case "garnet" | "flare" | "dog owner" | "yinlin" | "zex's master":
+        case "vera garnet" | "garnet" | "flare" | "dog owner" | "yinlin" | "zex's master":
             character = "garnet"
-        case "flambeau" | "roland" | "kuraimakusu" | "clown" | "theatre" | "curtain call" | "badut":
+        case "roland flamebeau" | "flambeau" | "roland" | "kuraimakusu" | "clown" | "theatre" | "curtain call" | "badut":
             character = "flambeau"
-        case "empy" | "solaeter" | "empyrea" | "flashbang" | "sol" | "angel" | "liv's gingerbread":
+        case "liv empyrea" | "empy" | "solaeter" | "empyrea" | "flashbang" | "sol" | "angel" | "liv's gingerbread":
             character = "empyrea"
-        case "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2" | "magikarp" | "kuyang":
+        case "selena capriccio" | "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2" | "magikarp" | "kuyang" | "capybara":
             character = "capriccio"
-        case "dragontoll" | "pulao" | "windbell's girl" | "windbell's wife":
+        case "pulao dragontoll" | "dragontoll" | "pulao" | "windbell's girl" | "windbell's wife":
             character = "dragontoll"
-        case "starfarer" | "nanamech" | "nanamecha" | "sagemachina" | "mech":
+        case "nanami starfarer" | "starfarer" | "nanamech" | "nanamecha" | "sagemachina" | "mech":
             character = "starfarer"
-        case "starveil" | "haicma" | "hag" | "haicmama" | "nanny" | "mama":
+        case "haicma starveil" | "starveil" | "haicma" | "hag" | "haicmama" | "nanny" | "mama":
             character = "starveil"
-        case "scire" | "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "flat tsundere is not waifu" | "trs" | "idol" | "yoyo" | "trs's wife":
+        case "karenina scire" | "scire" | "daren" | "bonka" | "tsundere" | "radiant daybreak" | "bunny" | "bnnuy" | "scire" | "flat tsundere is not waifu" | "trs" | "idol" | "yoyo" | "trs's wife":
             character = "scire"
-        case "arca" | "noan" | "deadweight" | "shrek" | "nero":
+        case "noan arca" | "arca" | "noan" | "deadweight" | "shrek" | "nero":
             character = "arca"
-        case "balter" | "stigmata" | "mommy" | "saber" | "excalibaa" | "Balter" | "gothic nun" | "balt" | "mint's pillow":
+        case "bianca stigmata" | "balter" | "stigmata" | "mommy" | "saber" | "excalibaa" | "Balter" | "gothic nun" | "balt" | "mint's pillow":
             character = "stigmata"
-        case "vitrum" | "bambinata" | "bambi" | "bombi" | "doll" | "puppet" | "dementia doll":
+        case "bambinata vitrum" | "vitrum" | "bambinata" | "bambi" | "bombi" | "doll" | "puppet" | "dementia doll":
             character = "vitrum"
-        case "supercar" | "car" | "hyper" | "hyperreal" | "xly" | "xiangli yao" | "hypertrash" | "hypermonke" | "hypercuck" | "zeru's sun" | "hyperbrick":
+        case "lee hyperreal"| "supercar" | "car" | "hyper" | "hyperreal" | "xly" | "xiangli yao" | "hypertrash" | "hypermonke" | "hypercuck" | "zeru's sun" | "hyperbrick":
             character = "hyperreal"
-        case "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi" | "booba":
+        case "ayla kaleido" | "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi" | "booba":
             character = "kaleido"  
-        case "crimson weave" | "weave" | "motivation" | "vergil's daughter" | "cw" | "blanc's curse" | "bury the light" | "matt's girl" | "ojek" | "kang ojek":
+        case "lucia crimson weave" | "crimson weave" | "weave" | "motivation" | "vergil's daughter" | "cw" | "blanc's curse" | "bury the light" | "matt's girl" | "ojek" | "kang ojek":
             character = "crimson weave"
-        case "zitherwoe" | "zitherhoe":
+        case "hanying zitherwoe" | "zitherwoe" | "zitherhoe":
             character = "zitherwoe"
-        case "awoo" | "furry" | "feral" | "feral: 21" | "feral:21" | "best daughter" | "doggo" | "wolfie-chan" | "fluffy" | "aether's daughter":
+        case "no21 feral" | "no. 21 feral" | "no 21 feral" | "21 feral" | "awoo" | "furry" | "feral" | "feral: 21" | "feral:21" | "best daughter" | "doggo" | "wolfie-chan" | "fluffy" | "aether's daughter":
             character = "feral"
-        case "indomitus" | "noctis" | "blockhead":
+        case "noctis indomitus" | "indomitus" | "noctis" | "blockhead":
             character = "indomitus"
-        case "alisa" | "echo" | "arrest me pls" | "altr's secretary":
+        case "alisa echo" | "alisa" | "echo" | "arrest me pls" | "altr's secretary":
             character = "echo"
-        case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty" | "kev's waifu" | "skibidi" | "skibidi toilet":
+        case "lamia lost lullaby" | "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty" | "kev's waifu" | "skibidi" | "skibidi toilet":
             character = "lost lullaby"
             boss = "lamia"
         case "brs" | "brick rock shooter" | "edgy miku" | "black rock shooter":
             character = "brs"
-        case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss" | "green guy" | "boomer" | "shi-yori's husband":
+        case "watanabe epitaph" | "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss" | "green guy" | "boomer" | "shi-yori's husband":
             character = "epitaph"
-        case "shukra"| "qukra" | "queen" | "legs" | "cryo's empress":
+        case "qu shukra" |"shukra"| "qukra" | "queen" | "legs" | "cryo's empress":
             character = "shukra"
-        case "teddy" | "decryptor" | "smug" | "always beats karen" | "kusogaki" | "brat":
+        case "teddy decryptor" | "teddy" | "decryptor" | "smug" | "always beats karen" | "kusogaki" | "brat":
             character = "decryptor"
-        case "oblivion" | "void luna" | "xeno's queen":
+        case "luna oblivion"| "oblivion" | "void luna" | "xeno's queen":
             character = "oblivion"
-        case "bridget" | "ardeo" | "royal guard" | "dante":
+        case "bridget ardeo" | "bridget" | "ardeo" | "royal guard" | "dante":
             character = "ardeo"
-        case "solacetune" | "yor" | "yor forger" | "ponzu's milkers":
+        case "hanying solacetune" | "solacetune" | "yor" | "yor forger" | "ponzu's milkers":
             character = "solacetune"
-        case "lucid dreamer" | "lucid" | "ld" | "ocelot":
+        case "wanshi lucid dreamer" | "lucid dreamer" | "lucid" | "ld" | "ocelot" | "aurora's wife":
             character = "lucid dreamer"
-        case "pyroath" | "hyperdawn" | "pyro":
+        case "lucia pyroath" | "pyroath" | "hyperdawn" | "pyro":
             character = "pyroath"
-        case "fulgor" | "yata" | "tomboy" | "oraora":
+        case "yata fulgor" | "fulgor" | "yata" | "tomboy" | "oraora":
             character = "fulgor"
-        case "startrail" | "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi":
+        case "nanami startrail" | "startrail" | "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi":
             character = "startrail"
         # Boss nicknames
         case "machi":
