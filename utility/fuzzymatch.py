@@ -139,7 +139,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "brs"
         case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss" | "green guy" | "boomer":
             character = "epitaph"
-        case "shukra"| "qukra" | "queen" | "legs":
+        case "shukra"| "qukra" | "queen" | "legs" | "cryo's empress":
             character = "shukra"
         case "teddy" | "decryptor" | "smug" | "always beats karen" | "kusogaki" | "brat":
             character = "decryptor"
@@ -147,7 +147,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "oblivion"
         case "bridget" | "ardeo" | "royal guard" | "dante":
             character = "ardeo"
-        case "solacetune" | "yor" | "yor forger":
+        case "solacetune" | "yor" | "yor forger" | "ponzu's milkers":
             character = "solacetune"
         case "lucid dreamer" | "lucid" | "ld" | "ocelot":
             character = "lucid dreamer"
