@@ -54,7 +54,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "pulse"
         case "tenebrion" | "teneb" | "terb" | "kamui tenebrion":
             character = "tenebrion"
-        case "crimson abyss" | "abyss" | "crimson brick" | "ca" | "CA" | "blue rose" | "lucia crimson abyss":
+        case "crimson abyss" | "abyss" | "crimson brick" | "ca" | "CA" | "blue rose" | "lucia crimson abyss" | "piero's wife":
             character = "crimson abyss"
         case "bastion" | "kimochiyokatta" | "kimochi yokatta" | "kamui bastion":
             character = "bastion"
