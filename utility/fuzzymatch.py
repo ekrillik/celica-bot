@@ -155,7 +155,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "pyroath"
         case "yata fulgor" | "fulgor" | "yata" | "tomboy" | "oraora":
             character = "fulgor"
-        case "nanami startrail" | "startrail" | "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi":
+        case "nanami startrail" | "startrail" | "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi" | "fox's knight":
             character = "startrail"
         # Boss nicknames
         case "machi":
