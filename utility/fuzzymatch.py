@@ -26,6 +26,10 @@ def fuzzmatch(string, match_type = "character") -> str:
             index = random.randint(0, 3)
             character = characters[index]
             print(character)
+        case "lost content":
+            characters = ["2b", "9s", "a2", "brs"]
+            index = random.randint(0, len(characters))
+            character = characters[index]
         case "lotus" | "lucia lotus":
             character = "lotus"
         case "eclipse" | "liv eclipse" | "小姐":
