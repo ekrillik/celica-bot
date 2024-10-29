@@ -116,7 +116,11 @@
     "dawn's flaming feathers"
   ],
   "power fists": ["night rakshasa", "purging levin", "morrow's executioner"],
-  "charge blade": ["prototype shield axe zl-07", "type zl-09 illuminance", "star tunnel of light"],
+  "charge blade": [
+    "prototype shield axe zl-07",
+    "type zl-09 illuminance",
+    "star tunnel of light"
+  ],
   "uniframe: greatsword": ["photophage", "glimpse", "thanatos"],
   "uniframe: glaive": ["iron star type vi", "guiyun", "qinghe"],
   "uniframe: cello blade": ["overture", "odette", "waldmeister"],
@@ -130,5 +134,5 @@
   "katana & greatsword": ["virtuous contract", "virtuous contract - mod"],
   "tactical lance": ["type-4o lance", "type-4o lance - mod"],
   "collab katana": ["cruel oath", "cruel oath - mod"],
-  "blade cannon": ["rock cannon", "black rock cannon"]
+  "bladed cannon": ["rock cannon", "black rock cannon"]
 }

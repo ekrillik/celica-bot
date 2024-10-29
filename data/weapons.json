@@ -1177,7 +1177,7 @@
   },
   "rock cannon": {
     "name": "Rock Cannon",
-    "weapon_type": "Blade Cannon",
+    "weapon_type": "Bladed Cannon",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3rockcannon5md010011.png",
     "atk": 365,
@@ -1969,7 +1969,7 @@
   },
   "black rock cannon": {
     "name": "\u2605Rock Cannon",
-    "weapon_type": "Blade Cannon",
+    "weapon_type": "Bladed Cannon",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3rockcannon6md010011.png",
     "atk": 450,
