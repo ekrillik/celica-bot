@@ -39,7 +39,7 @@ class Help(commands.Cog):
             )
             embed.add_field(
                 name="**Changelog**",
-                value="```Added exppc command for EXPPC boss info (Oct 25, 2024)```",
+                value="```- Added exppc command for EXPPC boss info (Oct 25, 2024)\n- Added various infographics (Oct 29, 2024)```",
                 inline=False
             )
             view = HelpView(ctx.author, bot_related=self.help['bot_related'], informational_commands=self.help['information'], informationpg2=self.help['information2'])
