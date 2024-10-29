@@ -97,6 +97,22 @@
     {
       "command": "exppc",
       "description": "Provides info for a particular EXPPC/Ultimate PPC boss."
+    },
+    {
+      "command": "roadmap",
+      "description": "Displays a roadmap diagram by llyodius."
+    },
+    {
+      "command": "580k",
+      "description": "Provides the approximate times required to hit 580K in EXPPC."
+    },
+    {
+      "command": "maxlevelmats",
+      "description": "Displays the required number of resources to max out a single frame."
+    },
+    {
+      "command": "harmoguide",
+      "description": "Displays the harmo guide infographic."
     }
   ],
   "links": {
@@ -282,5 +298,24 @@
     "syntax": ">exppc",
     "description": "Provides info for a particular EXPPC/Ultimate PPC boss.",
     "examples": [">exppc lamia"]
+  },
+  "roadmap": {
+    "syntax": ">roadmap",
+    "description": "Displays a roadmap diagram by llyodius."
+  },
+  "580k": {
+    "syntax": ">580k",
+    "aliases": ">580, >58w",
+    "description": "Provides the approximate times required to hit 580K in EXPPC."
+  },
+  "maxlevelmats": {
+    "syntax": ">maxlevelmats",
+    "aliases": ">maxlevel, >mlm",
+    "description": "Displays the required number of resources to max out a single frame."
+  },
+  "harmoguide": {
+    "syntax": ">harmoguide",
+    "aliases": ">hg",
+    "description": "Displays the harmo guide infographic."
   }
 }

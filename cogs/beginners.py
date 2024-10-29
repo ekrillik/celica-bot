@@ -47,7 +47,18 @@ class Beginners(commands.Cog):
         embed = discord.Embed(title=f"Current Roadmap (as of {date.strftime("%b %dth %Y")})")
         embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/NEW_PGR_ROADMAP-1.png")
         await ctx.send(embed=embed)
+        
+    @commands.hybrid_command(aliases=['maxlevel', 'mlm'], description="Displays the required number of resources to max out a single frame.")
+    async def maxlevelmats(self, ctx: commands.Context[commands.Bot]):
+        embed = discord.Embed(title="")
+        embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Picsart_23-12-07_15-11-35-788-2.png")
+        await ctx.send(embed=embed)
 
+    @commands.hybrid_command(aliases=['harmoguide', 'hg'], description="Displays the harmo guide infographic.")
+    async def harmoguide(self, ctx: commands.Context[commands.Bot]):
+        embed = discord.Embed(title="")
+        embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/HarmoGuideBRS.png")
+        await ctx.send(embed=embed)
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Beginners(bot))
