@@ -54,7 +54,7 @@ class Beginners(commands.Cog):
         embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Picsart_23-12-07_15-11-35-788-2.png")
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(aliases=['harmoguide', 'hg'], description="Displays the harmo guide infographic.")
+    @commands.hybrid_command(aliases=['hg'], description="Displays the harmo guide infographic.")
     async def harmoguide(self, ctx: commands.Context[commands.Bot]):
         embed = discord.Embed(title="")
         embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/HarmoGuideBRS.png")
