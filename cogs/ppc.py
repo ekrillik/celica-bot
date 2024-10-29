@@ -107,5 +107,15 @@ class Ppc(commands.Cog):
         else:
             await ctx.send(content="This boss does not have a valid Onslaught PPC variant!")
 
+    @commands.hybrid_command(name="580k", pass_context=True, description="Provides the times required to hit 580K in EXPPC.")
+    async def achieveminscore(self, ctx: commands.Context):
+        embed = discord.Embed(title="580K", description="Approximate time and score for each difficulty to reach 580k total score for an Ultimate Phantom Pain Cage boss.")
+        embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/580k.png")
+        # embed.add_field(name="Difficulty", value="Test\nElite\nKnight\nChaos\nHell")
+        # embed.add_field(name="Minimum Score", value="19903\n39522\n78480\n150900\n291200")
+        # embed.add_field(name="Time", value="14s\n16s\n18s\n29s\n39s")
+        await ctx.send(embed=embed)
+
+
 async def setup(bot: commands.Bot):
     await bot.add_cog(Ppc(bot))

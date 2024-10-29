@@ -1,5 +1,6 @@
 import json
 import discord
+import datetime
 from discord.ext import commands
 from utility.embedconfig import EmbedClass
 from utility.pagination import PaginationView
@@ -15,7 +16,7 @@ class Beginners(commands.Cog):
     async def on_ready(self):
         print('About loaded.')
 
-    @commands.hybrid_command(aliases=['bi', 'banners', 'banner'], description="Displays basic information about Celica.")
+    @commands.hybrid_command(aliases=['bi', 'banners', 'banner'], description="Displays information about PGR banners.")
     async def bannerinfo(self, ctx: commands.Context[commands.Bot]):
         embed = discord.Embed(title=f"PGR Banner Info")
         embed.add_field(name=f"1. Banners in Punishing: Gray Raven are broadly divided into 3 types", value=f"a. Character Banner\nb. Weapon Banner\nc. C.U.B. Banner")
@@ -38,6 +39,13 @@ class Beginners(commands.Cog):
         embed.add_field(
             name=f"Useful Information", 
             value=f"- A rank Omniframes are always guaranteed on 10 pulls in any Omniframe banner.\n- Arrival and Fate banners are generally not recommended to be pulled on as Fate banners take more Black cards than normal banner and Arrival banners have 70% droprate.\n- Uniframes must be avoided at all cost as they have no purpose anymore.\n- C.U.B.s are more or less for whales. F2Ps can ignore.")
+        await ctx.send(embed=embed)
+
+    @commands.hybrid_command(description="Displays a roadmap diagram by llyodius")
+    async def roadmap(self, ctx: commands.Context[commands.Bot]):
+        date = datetime.datetime(2024, 10, 29)
+        embed = discord.Embed(title=f"Current Roadmap (as of {date.strftime("%b %dth %Y")})")
+        embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/NEW_PGR_ROADMAP-1.png")
         await ctx.send(embed=embed)
 
 
