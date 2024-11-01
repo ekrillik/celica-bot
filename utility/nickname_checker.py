@@ -277,7 +277,7 @@ def check_nickname(nickname, caller):
             memory = "n/a"
         case "epitaph":
             character = "epitaph"
-            weapon = "night falcon"
+            weapon = "dark falcon"
             cub = "shadow wing"
             memory = "alphonse"
         case "shukra":
