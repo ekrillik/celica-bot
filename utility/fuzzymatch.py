@@ -17,10 +17,10 @@ def fuzzmatch(string, match_type = "character") -> str:
             nickname = choice
         
     match nickname:
-        case "beloved girl":
-            characters = ["tempest", "capriccio"]
-            index = random.randint(0, 1)
-            character = characters[index]
+        # case "beloved girl":
+        #     characters = ["tempest", "capriccio"]
+        #     index = random.randint(0, 1)
+        #     character = characters[index]
         case "best girl" | "bestgirl":
             characters = ["eclipse", "lux", "luminance", "empyrea"]
             index = random.randint(0, 3)
