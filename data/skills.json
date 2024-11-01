@@ -9494,34 +9494,34 @@
   "epitaph": {
     "basic_attack": [
       {
-        "name": "Scalding Blades",
+        "name": "Scalding Blade",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": "Alternates between using the Pioneer's Blade and gun to perform combination attacks, dealing Physical DMG. Deals Fire DMG instead while Paradigm: Assault is active.",
+        "description": "Unleashes a combination of attacks with Trailblade and shotgun, dealing Physical DMG (Fire DMG instead under Assault Mode).",
         "result": [
-          "- Deals a total of **{0}%** Physical DMG.",
-          "- Deals a total of **{1}%** Fire DMG while Paradigm: Assault is active."
+          "- Deals **{0}%** Physical DMG in total.",
+          "- Deals **{1}%** Fire DMG in total under Assault Mode."
         ],
         "res_lv18": [496, 646]
       },
       {
-        "name": "Scorching Bombardment",
-        "button_press": "Possess Live Ammunition + Tap Basic Attack",
+        "name": "Flaming Bombardment",
+        "button_press": "Have Shotshell + Tap Basic Attack",
         "switch_in": "no",
-        "description": "If Watanabe has Live Ammunition when performing Basic Attack, he will consume 1 point of Live Ammunition to fire at the enemy, dealing Fire DMG, gaining 1 Blaze Orb and 4 Energy. If Watanabe already has 3 Blaze Orbs when performing this skill, firing at the enemy will not consume Live Ammunition and no Blaze Orb or Energy will be obtained.",
-        "result": ["- Firing at the enemy deals **{0}%** Fire DMG."],
+        "description": "If Shotshell is available when Watanabe performs a Basic Attack, consumes 1 Shotshell to shoot at the target, dealing Fire DMG while granting 1 Blaze Orb and 4 Signature Energy. If there are already 3 Blaze Orbs, this shot will not consume Shotshell but will not generate Blaze Orb or Signature Energy.",
+        "result": ["- The shot deals **{0}%** Fire DMG."],
         "res_lv18": [280]
       }
     ],
     "red_orb": [
       {
-        "name": "Blazing Drive",
+        "name": "Blazing Burst",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": "Uses the hook to jump upwards, then performs slashing attacks, dealing Fire DMG. Watanabe gains Super Armor while performing this skill. If Watanabe uses this skill precisely the moment before being attacked, he will trigger parry and nullify incoming DMG. Tapping Basic Attack while performing this skill triggers Scorching Bombardment. Performing a 3-Ping triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP. Repeatedly triggering Rampart refreshes the shield.",
+        "description": "Leaps into the air using a grappling hook, then slashes the enemy to deal Fire DMG. Gains Super Armor while using this skill. If this skill is cast precisely at the moment of an incoming attack, Watanabe will Parry the attack and be immune to the DMG. Tapping Basic Attack during this skill immediately triggers Flaming Bombardment. Upon a 3-Ping, triggers Fortified Shield, granting a Shield equal to 30% of Max HP. Triggering Fortified Shield again replenishes the Shield's capacity.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Fire DMG based on the number of orbs pinged.",
-          "- Consecutively pinging orbs changes Watanabe's moves when performing this skill. Watanabe continuously slashes using the Pioneer's Blade in conjunction with the hook, dealing a total of **{3}%** / **{4}%** / **{5}%** Fire DMG."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG in total based on the number of orbs pinged.",
+          "- Pinging orbs consecutively will change the actions of this skill: Watanabe uses his grappling hook and Trailblade to perform consecutive slashing attacks, dealing **{3}%** / **{4}%** / **{5}%** Fire DMG in total."
         ],
         "res_lv18": [240, 480, 720, 240, 480, 720]
       },
@@ -9529,81 +9529,81 @@
         "name": "Thermal Erosion",
         "button_press": "Ping Blaze Orb",
         "switch_in": "no",
-        "description": "Continuously swings the blade to generate flames, pulling in nearby enemies, dealing Fire DMG and inflicting **Scorching Invasion** that reduces the target's Fire Resistance onto enemies hit by this attack. If Watanabe uses this skill precisely the moment before being attacked, he will trigger parry, nullifying incoming DMG and gaining Super Armor and 60% DMG Reduction. Gain 1 stack of Thermal Superconductivity and 12 Energy upon performing this skill. Thermal Superconductivity increases the Base DMG of Flaming Purgation.",
+        "description": "Swings the blade consecutively to unleash fire and pull in nearby enemy units, dealing Fire DMG while inflicting the targets hit with Scorching Invasion that reduces their Fire Resistance. If this skill is cast precisely at the moment of an incoming attack, Watanabe will Parry the attack and be immune to the DMG. While casting this skill, Watanabe gains Super Armor and 60% DMG Reduction. After casting, gains 1 stack of Thermal Superconductivity and 12 Signature Energy. Thermal Superconductivity increases the Base DMG of Signature - Explosive Purge.",
         "result": [
-          "- Deals a total of **{0}%** Fire DMG. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 8s."
+          "- Deals **{0}%** Fire DMG in total. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
         ],
         "res_lv18": [1200]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Fiery Siphon",
+        "name": "Flame Siphon",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": "Consecutively spins and slashes, pulling in nearby enemies and dealing Fire DMG.",
+        "description": "Spins and slashes continuously, pulling in nearby enemy units and dealing Fire DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Fire DMG based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [230, 460, 690]
       }
     ],
     "blue_orb": [
       {
-        "name": "Smelting Glimpse",
+        "name": "Fiery Glimpse",
         "button_press": "Ping Blue Orb",
         "switch_in": "yes",
-        "description": "Kicks the enemy away, then spins and slashes, dealing Fire DMG.",
+        "description": "Kicks the enemy away, then spins and slashes to deal Fire DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Fire DMG."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [220, 440, 660]
       }
     ],
     "core_passive": {
-      "name": "Warrior's Reflex",
+      "name": "Veteran's Reflex",
       "skills": [
         {
           "name": "Composite Structure",
           "button_press": "",
           "description": [
-            "While Paradigm: Patrol is active, Watanabe can only ping Yellow or Blue Orbs and Basic Attacks only generate Yellow or Blue Orbs. After activating Paradigm: Assault, Watanabe can only ping Red Orbs or Blaze Orbs and Basic Attacks only generate Red Orbs."
+            "Under Patrol Mode, Watanabe can only use Yellow or Blue Orbs, and his Basic Attacks only generate Yellow or Blue Orbs. When Assault Mode is activated, he can only use Red and Blaze Orbs, and his Basic Attacks only generate Red Orbs."
           ]
         },
         {
           "name": "Engine Optimization",
-          "button_press": "Any 3-Ping or enter Matrix",
+          "button_press": "Any 3-Ping or upon entering Matrix",
           "description": [
-            "Gain 1 point of Live Ammunition upon a 3-Ping. Maximum points of Live Ammunition: 3. Gain 1 Blaze Orb upon entering Matrix. Watanabe can hold up to 3 Blaze Orbs at once. Any excess Blaze Orbs will be converted to Signal Orbs of a random color."
+            "After any 3-Ping, Watanabe: Epitaph gains 1 Shotshell, up to 3. Upon entering Matrix, he gains 1 Blaze Orb. He may have up to 3 Blaze Orbs at the same time, and excess Blaze Orbs will be converted into random Signal Orbs."
           ]
         },
         {
-          "name": "Firewalker",
-          "button_press": "Paradigm: Assault is active + Hold Dodge",
+          "name": "Fire Walker",
+          "button_press": "Assault Mode + Press and hold Dodge",
           "description": [
-            "Watanabe uses the hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be grabbed, Watanabe himself will rush toward them instead. Gains Super Armor and  40% DMG Reduction while performing this skill. Using Basic Attack or the Red Orb skill while pulling in the enemy can immediately trigger  parry."
+            "Uses the grappling hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be pulled, Watanabe: Epitaph will dash toward the target instead. Gains Super Armor and  40% DMG Reduction while casting this skill. Using Basic Attack or the Red Orb skill during the pulling action immediately triggers Parry."
           ],
-          "result": ["- Deals a total of **{0}%** Fire DMG."],
+          "result": ["- Deals **{0}%** Fire DMG in total."],
           "res_lv18": [40]
         },
         {
-          "name": "Reprisal",
-          "button_press": "Trigger parry",
+          "name": "Resilient Strike",
+          "button_press": "Trigger Parry",
           "description": [
-            "Successfully  parrying an attack triggers Rampart, granting a shield equal to 30% of Watanabe's maximum HP, dealing Fire DMG and inflicting **Scorching Invasion** that reduces the target's Fire Resistance on the enemies. Repeatedly triggering  Rampart refreshes the shield. When triggering this skill, enter Matrix if not on cooldown."
+            "Upon Parry, triggers Fortified Shield that grants a Shield equal to 30% of Max HP, deals Fire DMG, and inflicts Scorching Invasion that reduces the target's Fire Resistance. Triggering Fortified Shield again will replenish the Shield capacity. Enters Matrix if its not on cooldown when Fortified Shield is triggered."
           ],
           "result": [
-            "- Deals a total of **{0}%** Fire DMG. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 8s."
+            "- Deals **{0}%** Fire DMG in toal. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
           ],
           "res_lv18": [360]
         },
         {
-          "name": "Infernal Eruption",
-          "button_press": "Paradigm: Assault is active + Possess 3 points of Live Ammunition + Hold Basic Attack",
+          "name": "Scorching Torrent",
+          "button_press": "Assault Mode + Have 3 Shotshells + Press and hold Basic Attack",
           "description": [
-            "Uses the hook to hover in the air, then dive downwards to attack, pulling in nearby enemies and dealing Fire DMG. This will consume 3 points of Live Ammunition. While performing Infernal Eruption, Watanabe is invincible, but cannot use Flaming Purgation. Gains 12 Energy upon performing this skill."
+            "Uses the grappling hook to glide around and descends from above, consuming 3 Shotshells to pull in nearby enemy units and deal Fire DMG. While casting Scorching Torrent, Watanabe becomes invincible but is unable to cast Signature - Explosive Purge. Gains 12 Signature Energy after casting."
           ],
-          "result": ["- Deals a total of **{0}%** Fire DMG."],
+          "result": ["- Deals **{0}%** Fire DMG in total."],
           "res_lv18": [1350]
         }
       ]
@@ -9612,40 +9612,40 @@
       "name": "Hyper Reversal",
       "skills": [
         {
-          "name": "Core Release",
-          "button_press": "Consume 15 Energy + Tap Signature Move",
+          "name": "Core Awakening",
+          "button_press": "15 Energy + Tap Signature",
           "description": [
-            "Watanabe releases the energy stored in his core to activate Paradigm: Assault. Time Lag Calculation is triggered while performing this skill. Deals Fire DMG to enemies in the area upon using this skill and inflicts them with **Scorching Invasion** which reduces the target's Fire Resistance."
+            "Releases the Core Energy to activate Assault Mode, dealing Fire DMG to nearby enemy units and inflicting Scorching Invasion that reduces their Fire Resistance. Time Lag Calculation is triggered while Watanabe casts this Signature Move."
           ],
           "result": [
-            "- Deals a total of **{0}%** Fire DMG. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 10s."
+            "- Deals **{0}%** Fire DMG in total. Scorching Invasion reduces the target's Fire Resistance by 25% for 10s."
           ],
           "res_lv18": [600]
         },
         {
-          "name": "Flaming Purgation",
-          "button_press": "Consume 100 Energy + Tap Signature Move",
+          "name": "Explosive Purgation",
+          "button_press": "100 Energy + Tap Signature",
           "description": [
-            "Performs interleaved attacks against enemy lines, dealing Fire DMG. After the attack, Watanabe generates Searing Bulwark that continuously damages enemies. Activate Paradigm: Patrol upon performing this skill. Time Lag Calculation is triggered while performing this skill."
+            "Dashes across enemy units and attacks them, pulling them together and dealing Fire DMG. After the attack, forms a Firepower Bulwark that deals DMG continuously, then activates Patrol Mode. Time Lag Calculation is triggered while Watanabe casts this Signature Move."
           ],
           "result": [
-            "- The interleaved attacks deal **{0}%** Fire DMG. Every stack of Thermal Superconductivity increases the Base DMG of Flaming Purgation by 50%. Maximum Thermal Superconductivity stacks: 3. Searing Bulwark bombards the target for **{1}%** Fire DMG every 3s for 12s. Every bombardment attack leaves behind flames that deal **{2}%** Fire DMG every 0.5s for 3s."
+            "- The dashing attacks deal **{0}%** Fire DMG in total. Each stack of Thermal Superconductivity increases the Base DMG of Signature - Explosive Purge by 50%, stacking up to 3 times. Firepower Bulwark bombards the target every 3s over 12s, dealing **{1}%** Fire DMG each time. Every bombardment leaves behind a fire that deals **{2}%** Fire DMG every 0.5s for 3s."
           ],
           "res_lv18": [1800, 42, 20]
         }
       ]
     },
     "qte": {
-      "name": "Pincer Besiegement",
-      "description": "Consecutively spins and slashes to pull in nearby enemies, dealing Fire DMG, and inflicting them with **Scorching Invasion** which reduces the target's Fire Resistance.",
+      "name": "Pincer Intimidation",
+      "description": "Spins and slashes continuously to pull in nearby enemy units, dealing Fire DMG to the target while inflicting Scorching Invasion that reduces their Fire Resistance.",
       "result": [
-        "- Deals **{0}%** Fire DMG. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 8s."
+        "- Deals **{0}%** Fire DMG in total. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
       ],
       "res_lv18": [600]
     },
     "leader": {
       "name": "Guardian's Aegis",
-      "description": "Fire DMG of all team members increases by 10%. DMG of Tank Omniframes increases by 5%."
+      "description": "Increases Fire DMG of all members by 10%. Increases DMG of all Tank Omniframes by 5%."
     },
     "class": {
       "name": "Tank",
@@ -9653,28 +9653,28 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Moment of Onslaught",
+      "name": "Onslaught",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Upon using  Infernal Eruption or  Thermal Erosion, trigger all available QTEs."
+          "desc": "Casting Scorching Torrent or Thermal Erosion will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Every time Watanabe enters the battlefield, accumulating  3 stacks of  Thermal Superconductivity for the first time grants  70 Energy. Extra DMG Bonus increases by  30% while  Paradigm: Assault is active. Gain  3 stacks of  Thermal Superconductivity upon using  Infernal Eruption."
+          "desc": "Every time Watanabe enters battle, he recovers 70 Signature Energy when Thermal Superconductivity reaches 3 stacks for the first time. Under Assault Mode, Extra DMG increases by  30%. Casting Scorching Torrent grants 3 stacks of Thermal Superconductivity."
         }
       ]
     },
     "sss_rank": {
-      "name": "Break the Siege",
+      "name": "Siege Break",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Fire Resistance reduction effect of  **Scorching Invasion** inflicted by Watanabe increases by  10%. Gain 1  Blaze Orb upon using  Infernal Eruption."
+          "desc": "Gains 1 Blaze Orb after casting Scorching Torrent. The effect of Watanabe: Epitaph's Scorching Invasion increases by 10%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Increases animation speed while consecutively performing  Thermal Erosion. Maximum stacks of  Thermal Superconductivity increases to  6. Increases the buff effect granted by each stack of  Thermal Superconductivity by  5%. When Watanabe successfully  parries an attack for the first time upon entering the battlefield, additionally gains 1  Blaze Orb. Fire Resistance reduction effect of  **Scorching Invasion** inflicted by Watanabe: Epitaph increases by  10%. Reduces swap cooldown of all party members by  3s."
+          "desc": "Acts faster when casting Thermal Erosion consecutively. Thermal Superconductivity can stack up  to 6 times, and each stack's bonus on the Base DMG of Signature - Explosive Purge increases by 5%. After enetering battle, the first successful Parry grants 1 extra Blaze Orb. The effect of Watanabe: Epitaph's Scorching Invasion increases by 10%. Reduces the cooldown of switching between characters by 3s."
         }
       ]
     },
@@ -9683,15 +9683,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of  Flaming Purgation increases by  35%."
+          "desc": "Extra DMG Bonus of Signature - Explosive Purse increases by  35%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of  Infernal Eruption increases by  35%."
+          "desc": "Extra DMG Bonus of Scorching Torrent increases by  35%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of  Thermal Erosion and 3-Pings increases by  35%."
+          "desc": "Extra DMG Bonus of Thermal Erosion and 3-Pings increases by  35%."
         }
       ]
     }
@@ -10202,9 +10202,9 @@
         "name": "Selenocentric Glimmer",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": "Alternates between using the Chakram and Bladed Wing to attack the enemy, dealing Void DMG. If the Chakram is present on the battlefield, the fifth move of the attack will retrieve the Chakram and recover additional Lingering Moonlight.",
+        "description": "Alternates between using the Chakram and Bladed Wing to attack the enemy, dealing Nihil DMG. If the Chakram is present on the battlefield, the fifth move of the attack will retrieve the Chakram and recover additional Lingering Moonlight.",
         "result": [
-          "- Deals a total of **{0}%** Void DMG. The fifth move of the attack sequence retrieves the Chakram and additionally recovers 20 points of Lingering Moonlight."
+          "- Deals a total of **{0}%** Nihil DMG. The fifth move of the attack sequence retrieves the Chakram and additionally recovers 20 points of Lingering Moonlight."
         ],
         "res_lv18": [810]
       },
@@ -10212,9 +10212,9 @@
         "name": "Lunar Assault",
         "button_press": "During Main Sequence / Parousía Télous + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Alternates between controlling the Chakram and Bladed Wing to attack the enemy, dealing Void DMG. During Main Sequence, the fourth and sixth move of the attack will recover additional Lingering Moonlight.",
+        "description": "Alternates between controlling the Chakram and Bladed Wing to attack the enemy, dealing Nihil DMG. During Main Sequence, the fourth and sixth move of the attack will recover additional Lingering Moonlight.",
         "result": [
-          "- Deals a total of **{0}%** Void DMG. During Main Sequence, the fourth and sixth move of the attack additionally recover 20 points of Lingering Moonlight."
+          "- Deals a total of **{0}%** Nihil DMG. During Main Sequence, the fourth and sixth move of the attack additionally recover 20 points of Lingering Moonlight."
         ],
         "res_lv18": [1410]
       },
@@ -10232,11 +10232,11 @@
         "name": "Breaking Moon",
         "button_press": "Reaping Moon + Release Basic Attack",
         "switch_in": "no",
-        "description": "During Reaping Moon, releasing Basic Attack when Lingering Moonlight reaches 0 / 45 / 90 points triggers Breaking Moon, during which Luna slowly ascends before smiting down the target, pulling in nearby enemies and dealing Void DMG. Luna gains Super Armor and 50% DMG Reduction while performing Breaking Moon. The dodge meter will not recover during Breaking Moon.",
+        "description": "During Reaping Moon, releasing Basic Attack when Lingering Moonlight reaches 0 / 45 / 90 points triggers Breaking Moon, during which Luna slowly ascends before smiting down the target, pulling in nearby enemies and dealing Nihil DMG. Luna gains Super Armor and 50% DMG Reduction while performing Breaking Moon. The dodge meter will not recover during Breaking Moon.",
         "result": [
           "- Luna will automatically perform Breaking Moon when Lingering Moonlight reaches the maximum value.",
-          "- While in the Protostar state, Breaking Moon deals **{0}%** / **{1}%** / **{2}%** Void DMG.",
-          "- While in Main Sequence / Parousía Télous, Luna will perform a different move: she swings the Bladed Wing to perform a slashing attack in a large area, dealing **{3}%** / **{4}%** / **{5}%** Void DMG.",
+          "- While in the Protostar state, Breaking Moon deals **{0}%** / **{1}%** / **{2}%** Nihil DMG.",
+          "- While in Main Sequence / Parousía Télous, Luna will perform a different move: she swings the Bladed Wing to perform a slashing attack in a large area, dealing **{3}%** / **{4}%** / **{5}%** Nihil DMG.",
           "- Luna is invincible when she performs Breaking Moon with maximum Lingering Moonlight. This also consumes all points of Lingering Moonlight, activates Mene Eskháte, and recovers 24 Energy."
         ],
         "res_lv18": [400, 600, 800, 500, 750, 1000]
@@ -10245,9 +10245,9 @@
         "name": "Orbital Blade",
         "button_press": "Second move of the Basic Attack / Yellow Signal Orb skill",
         "switch_in": "no",
-        "description": "After performing the second move of the Basic Attack or Yellow Signal Orb skill, the Chakram remains on the battlefield, continuously dealing Void DMG. When the Chakram is on the battlefield, Luna will begin her Basic Attack sequence from the third move.",
+        "description": "After performing the second move of the Basic Attack or Yellow Signal Orb skill, the Chakram remains on the battlefield, continuously dealing Nihil DMG. When the Chakram is on the battlefield, Luna will begin her Basic Attack sequence from the third move.",
         "result": [
-          "- The Chakram deals **{0}%** Void DMG to enemies in the area every 0.5s for 1.5s."
+          "- The Chakram deals **{0}%** Nihil DMG to enemies in the area every 0.5s for 1.5s."
         ],
         "res_lv18": [50]
       }
@@ -10257,9 +10257,9 @@
         "name": "Tenebrous Starspin",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": "Swings the Bladed Wing to attack the enemy, dealing Void DMG and gaining Lingering Moonlight and Apocalyptic Moonlight.",
+        "description": "Swings the Bladed Wing to attack the enemy, dealing Nihil DMG and gaining Lingering Moonlight and Apocalyptic Moonlight.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Void DMG based on the number of orbs pinged.",
+          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Nihil DMG based on the number of orbs pinged.",
           "- If the Chakram is present on the battlefield, Luna will retrieve it.",
           "- Gains 10 / 20 / 30 points of Lingering Moonlight based on the number of orbs pinged.",
           "- Gains 5 / 10 / 15 points of Apocalyptic Moonlight based on the number of orbs pinged."
@@ -10272,10 +10272,10 @@
         "name": "Crimson Voidcluster",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": "Leaps into the air and throws the Chakram, dealing Void DMG and gaining Lingering Moonlight and Apocalyptic Moonlight.",
+        "description": "Leaps into the air and throws the Chakram, dealing Nihil DMG and gaining Lingering Moonlight and Apocalyptic Moonlight.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Void DMG based on the number of orbs pinged.",
-          "- If the Chakram is present on the battlefield, Luna will perform a different move: she swings the Bladed Wing at the target and retrieves the Chakram, dealing a total of **{3}%** / **{4}%** / **{5}%** Void DMG.",
+          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Nihil DMG based on the number of orbs pinged.",
+          "- If the Chakram is present on the battlefield, Luna will perform a different move: she swings the Bladed Wing at the target and retrieves the Chakram, dealing a total of **{3}%** / **{4}%** / **{5}%** Nihil DMG.",
           "- Gains 10 / 20 / 30 points of Lingering Moonlight based on the number of orbs pinged.",
           "- Gains 5 / 10 / 15 points of Apocalyptic Moonlight based on the number of orbs pinged."
         ],
@@ -10287,9 +10287,9 @@
         "name": "Sinking Moontrail",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": "Dashes forward, leaps into the air, then spins to attack the target, dealing Void DMG and gaining Lingering Moonlight and Apocalyptic Moonlight.",
+        "description": "Dashes forward, leaps into the air, then spins to attack the target, dealing Nihil DMG and gaining Lingering Moonlight and Apocalyptic Moonlight.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Void DMG based on the number of orbs pinged.",
+          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Nihil DMG based on the number of orbs pinged.",
           "- If the Chakram is present on the battlefield, Luna will retrieve it.",
           "- Gains 10 / 20 / 30 points of Lingering Moonlight based on the number of orbs pinged.",
           "- Gains 5 / 10 / 15 points of Apocalyptic Moonlight based on the number of orbs pinged."
@@ -10323,11 +10323,11 @@
           "name": "Original Retribution",
           "button_press": "Main Sequence + Mene Eskháte is active + Reaping Moon + Release Basic Attack",
           "description": [
-            "If  Mene Eskháte is already active during  Main Sequence, releasing Basic Attack in the middle of  Reaping Moon will trigger  Original Retribution, in which Luna gathers energy and fires it toward the target to cause an explosion, pulling in nearby enemies, dealing Void DMG, and recovering  24 Energy. During this, Luna is invincible but cannot recover the dodge meter or perform  Signature - Moonfall."
+            "If  Mene Eskháte is already active during  Main Sequence, releasing Basic Attack in the middle of  Reaping Moon will trigger  Original Retribution, in which Luna gathers energy and fires it toward the target to cause an explosion, pulling in nearby enemies, dealing Nihil DMG, and recovering  24 Energy. During this, Luna is invincible but cannot recover the dodge meter or perform  Signature - Moonfall."
           ],
           "result": [
-            "- If Lingering Moonlight is not at the maximum value, Original Retribution deals **{0}%** Void DMG.",
-            "- If Lingering Moonlight is at the maximum value, Original Retribution grants 45 points of Apocalyptic Moonlight before dealing **{1}%** Void DMG and consuming all points of Lingering Moonlight.",
+            "- If Lingering Moonlight is not at the maximum value, Original Retribution deals **{0}%** Nihil DMG.",
+            "- If Lingering Moonlight is at the maximum value, Original Retribution grants 45 points of Apocalyptic Moonlight before dealing **{1}%** Nihil DMG and consuming all points of Lingering Moonlight.",
             "- Luna will automatically perform Original Retribution when Lingering Moonlight reaches the maximum value."
           ],
           "res_lv18": [1500, 3000]
@@ -10336,10 +10336,10 @@
           "name": "Final Retribution",
           "button_press": "Parousía Télous + Mene Eskháte is active + Reaping Moon + Release Basic Attack",
           "description": [
-            "If Mene Eskháte is already active during Parousía Télous, releasing Basic Attack in the middle of Reaping Moon will trigger Final Retribution, in which Luna gathers energy and fires it toward the target to cause an explosion, pulling in nearby enemies, dealing Void DMG, and amplifying the DMG of the attack by consuming all points of  Apocalyptic Moonlight. During this, Luna is invincible but cannot recover the dodge meter or perform Signature - Moonfall."
+            "If Mene Eskháte is already active during Parousía Télous, releasing Basic Attack in the middle of Reaping Moon will trigger Final Retribution, in which Luna gathers energy and fires it toward the target to cause an explosion, pulling in nearby enemies, dealing Nihil DMG, and amplifying the DMG of the attack by consuming all points of  Apocalyptic Moonlight. During this, Luna is invincible but cannot recover the dodge meter or perform Signature - Moonfall."
           ],
           "result": [
-            "- Final Retribution deals **{0}%** Void DMG. Every 10 points of Apocalyptic Moonlight amplifies the Base DMG of the attack by 4%."
+            "- Final Retribution deals **{0}%** Nihil DMG. Every 10 points of Apocalyptic Moonlight amplifies the Base DMG of the attack by 4%."
           ],
           "res_lv18": [3800]
         },
@@ -10347,11 +10347,11 @@
           "name": "Selenophany",
           "button_press": "Perform Signature - Parousía Télous",
           "description": [
-            "During  Parousía Télous, Luna continuously consumes  Lingering Moonlight and cannot continuously gain  Lingering Moonlight through  Reaping Moon. Every Basic Attack grants an  Telos Orb. Every cast of  Breaking Moon grants  30 points of  Lingering Moonlight and  3 Telos Orbs. Luna will exit  Parousía Télous when  Lingering Moonlight reaches  0. All  Telos Orbs will disappear upon exiting  Parousía Télous."
+            "During  Parousía Télous, Luna continuously consumes Lingering Moonlight and cannot continuously gain Lingering Moonlight through  Reaping Moon. Every Basic Attack grants an  Telos Orb. Every cast of Breaking Moon grants 30 points of Lingering Moonlight and 3 Telos Orbs. Luna will exit Parousía Télous when Lingering Moonlight reaches  0. All Telos Orbs will disappear upon exiting  Parousía Télous."
           ],
           "result": [
             "- During Parousía Télous, consume 10 points of Lingering Moonlight every second.",
-            "- Pinging an Telos Orb triggers Voidal Delamination, dealing **{0}%** Void DMG and recovering 12 Energy and 20 points of Lingering Moonlight. When Mene Eskháte is active, additionally gain 15 points of Apocalyptic Moonlight."
+            "- Pinging an Telos Orb triggers Voidal Delamination, dealing **{0}%** Nihil DMG and recovering 12 Energy and 20 points of Lingering Moonlight. When Mene Eskháte is active, additionally gain 15 points of Apocalyptic Moonlight."
           ],
           "res_lv18": [400]
         },
@@ -10359,7 +10359,7 @@
           "name": "Disorder Beacon",
           "button_press": "",
           "description": [
-            "During Main Sequence / Parousía Télous, Luna: Oblivion's Base DMG efficiency against Homeostatic Forcefield increases by 100%."
+            "During Main Sequence / Parousía Télous, Luna: Oblivion's Base DMG efficiency against Equilibrium Field increases by 100%."
           ]
         }
       ]
@@ -10371,19 +10371,19 @@
           "name": "Main Sequence",
           "button_press": "Consume 30 Energy + Tap Signature Move",
           "description": [
-            "Shatters the spatial dimension and pulls everything into a domain of dead stars, dealing Void DMG, triggering Time Lag Calculation, and entering Main Sequence."
+            "Shatters the spatial dimension and pulls everything into a domain of dead stars, dealing Nihil DMG, triggering Time Lag Calculation, and entering Main Sequence."
           ],
-          "result": ["- Deals a total of **{0}%** Void DMG."],
+          "result": ["- Deals a total of **{0}%** Nihil DMG."],
           "res_lv18": [1200]
         },
         {
           "name": "Parousía Télous",
           "button_press": "Consume 30 Energy + Hold Signature Move",
           "description": [
-            "Consume all Signal Orbs to rip apart the dimension and pull everything into a domain of dead stars, dealing Void DMG. Afterwards, gain Apocalyptic Moonlight based on the number of Signal Orbs consumed. This fills Lingering Moonlight to the maximum value, activates Mene Eskháte, and Luna enters Parousía Télous."
+            "Consume all Signal Orbs to rip apart the dimension and pull everything into a domain of dead stars, dealing Nihil DMG. Afterwards, gain Apocalyptic Moonlight based on the number of Signal Orbs consumed. This fills Lingering Moonlight to the maximum value, activates Mene Eskháte, and Luna enters Parousía Télous."
           ],
           "result": [
-            "- Deals a total of **{0}%** Void DMG.",
+            "- Deals a total of **{0}%** Nihil DMG.",
             "- Gain 10 / 20 / 30 / 60 / 90 / 150 points of Apocalyptic Moonlight based on the number of Signal Orbs consumed."
           ],
           "res_lv18": [1450]
@@ -10392,10 +10392,10 @@
           "name": "Moonfall",
           "button_press": "During Main Sequence / Parousía Télous + Consume 70 Energy + Tap Signature Move",
           "description": [
-            "Condenses consciousness to collapse the space and annihilate everything, dealing Void DMG and triggering Time Lag Calculation. Afterwards, exits Main Sequence / Parousía Télous and enters the Protostar state. If Luna performs Moonfall during Main Sequence, she will consume all Apocalyptic Moonlight to amplify the DMG of the attack."
+            "Condenses consciousness to collapse the space and annihilate everything, dealing Nihil DMG and triggering Time Lag Calculation. Afterwards, exits Main Sequence / Parousía Télous and enters the Protostar state. If Luna performs Moonfall during Main Sequence, she will consume all Apocalyptic Moonlight to amplify the DMG of the attack."
           ],
           "result": [
-            "- Deals a total of **{0}%** Void DMG.",
+            "- Deals a total of **{0}%** Nihil DMG.",
             "- If Luna performs Moonfall during Main Sequence, every 10 points of Apocalyptic Moonlight increases the Base DMG of the attack by 4%."
           ],
           "res_lv18": [3200]
@@ -10404,13 +10404,13 @@
     },
     "qte": {
       "name": "Cataclysmic Advent",
-      "description": "Slashes with the Bladed Wing, dealing Void DMG.",
-      "result": ["- Deals a total of **{0}%** Void DMG."],
+      "description": "Slashes with the Bladed Wing, dealing Nihil DMG.",
+      "result": ["- Deals a total of **{0}%** Nihil DMG."],
       "res_lv18": [600]
     },
     "leader": {
       "name": "Red Moon in the Empty Sky",
-      "description": "Increases Void DMG of all members by 10%. Increases ATK of all Annihilator Omniframes by 20%."
+      "description": "Increases Nihil DMG of all members by 10%. Increases ATK of all Annihilator Omniframes by 10%."
     },
     "class": {
       "name": "Annihilator",
@@ -10426,7 +10426,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Upon performing Signature - Main Sequence or Signature - Parousía Télous, trigger Matrix if available. During Main Sequence, every 10 points of Apocalyptic Moonlight amplifies Base DMG of Original Retribution by 4%. If Luna exits the battlefield during Parousía Télous, the Chakram will perform an attack that deals 2000% Void DMG."
+          "desc": "Upon performing Signature - Main Sequence or Signature - Parousía Télous, trigger Matrix if available. During Main Sequence, every 10 points of Apocalyptic Moonlight amplifies Base DMG of Original Retribution by 4%. If Luna exits the battlefield during Parousía Télous, the Chakram will perform an attack that deals 2000% Nihil DMG."
         }
       ]
     },
@@ -10435,15 +10435,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Base DMG of  Signature - Moonfall increases by  20%. Upon automatically dodging an incoming attack during  Reaping Moon, gain  20 points of  Lingering Moonlight.  Voidal Delamination can evade incoming attacks and grants  6 Telos Orbs upon successfully evading an attack."
+          "desc": "Base DMG of Signature - Moonfall increases by 20%. Upon automatically dodging an incoming attack during Reaping Moon, gain 20 points of  Lingering Moonlight. Voidal Delamination can evade incoming attacks and grants 6 Telos Orbs upon successfully evading an attack."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "The obtain rate of  Apocalyptic Moonlight doubles. Maximum points of  Apocalyptic Moonlight increases to  600."
+          "desc": "The obtain rate of Apocalyptic Moonlight doubles. Maximum points of Apocalyptic Moonlight increases to  600."
         },
         {
           "rank": "",
-          "desc": "When performing  Signature - Parousía Télous, each Signal Orb consumed amplifies Base DMG of  Signature - Parousía Télous by  40% (up to  240%). During  Main Sequence / Parousía Télous, Luna: Oblivion's Base DMG efficiency against Homeostatic Forcefield effect increases to  150%."
+          "desc": "When performing Signature - Parousía Télous, each Signal Orb consumed amplifies Base DMG of Signature - Parousía Télous by 40% (up to  240%). During  Main Sequence / Parousía Télous, Luna: Oblivion's Base DMG efficiency against Equilibrium Field effect increases to  150%."
         }
       ]
     },
@@ -10452,15 +10452,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG of  Signature - Moonfall and  Signature - Parousía Télous increases by  40%."
+          "desc": "Extra DMG of Signature - Moonfall and Signature - Parousía Télous increases by 40%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG of 3-Pings and  Voidal Delamination increases by  40%."
+          "desc": "Extra DMG of 3-Pings and Voidal Delamination increases by 40%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG of  Original Retribution,  Final Retribution, and  Breaking Moon cast with  Lingering Moonlight at the maximum value increases by  40%."
+          "desc": "Extra DMG of Original Retribution, Final Retribution, and Breaking Moon cast with Lingering Moonlight at the maximum value increases by 40%."
         }
       ]
     }

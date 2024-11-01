@@ -551,15 +551,15 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "midnight raven": {
-    "name": "Midnight Raven",
-    "weapon_type": "Pioneer's Blade",
+  "black raven": {
+    "name": "Black Raven",
+    "weapon_type": "Trailblade",
     "rarity": 4,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/7/78/1xm6b3e49n52d7x0tkgtl5aefftkq6j.png/60px-%E6%AD%A6%E5%99%A8_%E6%BC%86%E8%89%B2%E6%B8%A1%E9%B8%A6.png",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Heat Resonance",
+      "effect_name": "Resonance Heating",
       "effect_desc": "ATK increases by 5%."
     }
   },
@@ -669,18 +669,6 @@
     "effect": {
       "effect_name": "Night Tour",
       "effect_desc": "ATK increases by 5%."
-    }
-  },
-  "placeholder4": {
-    "name": "Placeholder",
-    "weapon_type": "Placeholder",
-    "rarity": 4,
-    "thumbnail": "",
-    "atk": 0,
-    "crit": 0,
-    "effect": {
-      "effect_name": "Placeholder",
-      "effect_desc": "Placeholder"
     }
   },
   "gloomlight": {
@@ -1177,7 +1165,7 @@
   },
   "rock cannon": {
     "name": "Rock Cannon",
-    "weapon_type": "Bladed Cannon",
+    "weapon_type": "Blade Cannon",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3rockcannon5md010011.png",
     "atk": 365,
@@ -1187,15 +1175,15 @@
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
-  "pale feather": {
-    "name": "Pale Feather",
-    "weapon_type": "Pioneer's Blade",
+  "pale plume": {
+    "name": "Pale Plume",
+    "weapon_type": "Trailblade",
     "rarity": 5,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/d/d0/ajxrjkp27vcob5z8l8z3is0cqbh3qu9.png/60px-%E6%AD%A6%E5%99%A8_%E8%8B%8D%E7%99%BD%E7%BE%BD%E8%B5%AB.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Rapid Eruption",
+      "effect_name": "Blade Surge",
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
@@ -1232,7 +1220,7 @@
     "crit": 201,
     "effect": {
       "effect_name": "Structural Collapse",
-      "effect_desc": "Void DMG increases by 10%."
+      "effect_desc": "Nihil DMG increases by 10%."
     }
   },
   "undying gleam": {
@@ -1305,18 +1293,6 @@
     "effect": {
       "effect_name": "Light's Benediction",
       "effect_desc": "Lightning DMG increases by 10%."
-    }
-  },
-  "placeholder5": {
-    "name": "Placeholder",
-    "weapon_type": "Placeholder",
-    "rarity": 5,
-    "thumbnail": "",
-    "atk": 0,
-    "crit": 0,
-    "effect": {
-      "effect_name": "Placeholder",
-      "effect_desc": "Placeholder"
     }
   },
   "lotus berserker": {
@@ -1969,7 +1945,7 @@
   },
   "black rock cannon": {
     "name": "\u2605Rock Cannon",
-    "weapon_type": "Bladed Cannon",
+    "weapon_type": "Blade Cannon",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3rockcannon6md010011.png",
     "atk": 450,
@@ -1979,16 +1955,16 @@
       "effect_desc": "ATK increases by 10%. Base DMG of Flare Strike, Starry Bayonet, Basic Attack - Skycrushing Blade, and Core Passive - Limit Released increases by 100%."
     }
   },
-  "night falcon": {
-    "name": "Night Falcon",
-    "weapon_type": "Pioneer's Blade",
+  "dark falcon": {
+    "name": "Dark Falcon",
+    "weapon_type": "Trailblade",
     "rarity": 6,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/4/47/qlk6b5nbp4dc3kt1ciuu2d92602h83h.png/100px-%E6%AD%A6%E5%99%A8_%E6%9A%97%E5%A4%9C%E7%8C%8E%E9%9A%BC.png",
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "Multimodal Release",
-      "effect_desc": "ATK increases by 10%. Gain 3 Red Orbs upon activating Paradigm: Assault; gaining at most 6 Red Orbs this way for each time Watanabe enters the battlefield. Watanabe can immediately use Infernal Eruption after pinging Red Orbs."
+      "effect_name": "Polymorphic Awakening",
+      "effect_desc": "ATK increases by 10%. Upon entering the Assault Mode, gains 3 Red Orbs, up to 6 orbs each time when entering the battlefield. Can quickly cast Scorching Torrent after pinging Red Orbs."
     }
   },
   "dwelling will of inscription's key": {

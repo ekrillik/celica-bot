@@ -1080,51 +1080,51 @@
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3bat1.webp",
     "skills_list": [
-      "Areal Soundwave",
-      "Close-Range Interference",
-      "Overlooking Envoy",
-      "Mirage Defender",
+      "Wide-Area Sound Waves",
+      "Proximity Interference",
+      "Overwatcher",
+      "Phantom Guard",
       "Output Synchronization",
-      "Flame Engine",
-      "Fire-Forged Chains"
+      "Propelled Incineration",
+      "Blazing Chain"
     ],
     "active_skills": [
       {
-        "skill_name": "Areal Soundwave",
+        "skill_name": "Wide-Area Sound Waves",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Shadow Wing will release sound waves, pulling in enemies and dealing 1650% DMG."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Shadow Wing will release sound waves to deal damageand pull in nearby enemies, dealing 1650% Fire DMG."
       },
       {
-        "skill_name": "Close-Range Interference",
+        "skill_name": "Proximity Interference",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Shadow Wing will fly around the carrier and grant them a shield equal to 200% of its ATK. After flying around, Shadow Wing spreads its wings and deals 750% DMG twice in the area around the enemy."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Shadow Wing will start to circle, granting the equipped character Shield equal to 200% of its ATK. At the end of the flight, Shadow Wing will spread its wings and deal 750% Fire DMG twice to the area around the target."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Overlooking Envoy",
+        "skill_name": "Overwatcher",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "Shadow Wing's Active Skills deal 70% more DMG."
+        "skill_desc": "Shadow Wing's Active Skills deals 70% more DMG."
       },
       {
-        "skill_name": "Mirage Defender",
+        "skill_name": "Phantom Guard",
         "skill_number": "Passive Skill 2",
-        "skill_desc": "Increases the ATK of Shadow Wing's carrier by 100."
+        "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
         "skill_name": "Output Synchronization",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Upon activating Shadow Wing's Active Skills, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time it is triggered."
+        "skill_desc": "Each time Shadow Wing casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Triggering this effect again will renew its duration."
       },
       {
-        "skill_name": "Flame Engine",
+        "skill_name": "Propelled Incineration",
         "skill_number": "Passive Skill 4",
         "skill_desc": "Increases the carrier's Fire DMG by 10%."
       },
       {
-        "skill_name": "Fire-Forged Chains",
+        "skill_name": "Blazing Chain",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Watanabe: Epitaph uses Infernal Eruption, he will launch the hook to link himself with Shadow Wing and perform a coordinated attack mid-air, during which Shadow Wing will deal 2500% Fire DMG. Increases the Base DMG of Thermal Erosion by 75%."
+        "skill_desc": "When Watanabe: Epitaph casts Flame Eruption, he will use his grappling hook to link with Shadow Wing and launch a joint attack together in mid-air, during which time Shadow Wing will attack and deal 2500% Fire DMG in total. Thermal Erosion's Base DMG increases by 75%."
       }
     ]
   },
@@ -1229,12 +1229,12 @@
       {
         "skill_name": "Sunless Void",
         "skill_number": "Passive Skill 4",
-        "skill_desc": "Increases the carrier's Void DMG by 10%."
+        "skill_desc": "Increases the carrier's Nihil DMG by 10%."
       },
       {
         "skill_name": "Apokálypsis Selenes Eskhátes",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Luna: Oblivion performs Original Retribution or Final Retribution while carrying Su E, the CUB is summoned to perform a coordinated attack, dealing 2500% Void DMG and increasing all amplification effects granted by Apocalyptic Moonlight by 25%."
+        "skill_desc": "When Luna: Oblivion performs Original Retribution or Final Retribution while carrying Su E, the CUB is summoned to perform a coordinated attack, dealing 2500% Nihil DMG and increasing all amplification effects granted by Apocalyptic Moonlight by 25%."
       }
     ]
   },

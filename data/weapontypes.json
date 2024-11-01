@@ -95,7 +95,7 @@
   "claw blades": ["lightning devourer", "trio-claws", "managarm"],
   "robotic arm": ["heart of gold", "fpt-ii - mod", "crimson howl"],
   "halberd blade": ["atoll", "reversal node", "metis"],
-  "pioneer's blade": ["midnight raven", "pale feather", "night falcon"],
+  "trailblade": ["black raven", "pale plume", "dark falcon"],
   "longsword": [
     "rising wings of emerald ink",
     "grand blessings of razor crest",
@@ -134,5 +134,5 @@
   "katana & greatsword": ["virtuous contract", "virtuous contract - mod"],
   "tactical lance": ["type-4o lance", "type-4o lance - mod"],
   "collab katana": ["cruel oath", "cruel oath - mod"],
-  "bladed cannon": ["rock cannon", "black rock cannon"]
+  "blade cannon": ["rock cannon", "black rock cannon"]
 }

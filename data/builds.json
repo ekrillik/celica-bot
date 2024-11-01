@@ -1959,10 +1959,6 @@
       {
         "name": "Harmony Tank/Sub-DPS Set",
         "memos": "4 Alphonse 4 Shakespeare"
-      },
-      {
-        "name": "Alternative Tank/Sub-DPS Set",
-        "memos": "4 Alphonse 2 Einsteina"
       }
     ],
     "builds": [
@@ -1972,11 +1968,7 @@
         "usage": "Main DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Watanabe+Epitaph/Main-DPS+Wata+%5BAlphonse+Cottie+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "General DPS set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
+        "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Alphonse", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Red Orb",
@@ -1991,11 +1983,11 @@
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Watanabe+Epitaph/Harmo+Wata+%5BAlphonse+Shakes+Shakes%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
-          "Recommended for all ranks",
+          "Recommended for all ranks for Luna: Oblivion and subsequently Lucia: Pyroath when they release",
           "Used for all future Void and Fire content",
+          "Recommended to use **after** Qu:Shukra patch release (Polaris Bond).",
           "Requires DLT weapon resonance and Harmony.",
-          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
         "memories": [
           "4x Alphonse",
@@ -2006,24 +1998,6 @@
           "Top Slot   : 6x Red Orb",
           "Bottom Slot: 6x Class Passive"
         ]
-      },
-      {
-        "set_name": "Alternative Tank/Sub-DPS Set",
-        "set_type": "Alternative Tank",
-        "usage": "Alternative Tank/Sub-DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Watanabe+Epitaph/Alt+Tank+Wata+%5BAlphonse+Eins%5D.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "Alternative tank set for sub-DPS role in future void or Lucia: Pyroath team.",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
-        "memories": ["4x Alphonse", "2x Einsteina"],
-        "memory_resonance": [
-          "Top Slot   : 6x Red Orb",
-          "Bottom Slot: 6x Class Passive"
-        ],
-        "harmony_rec": "None"
       }
     ]
   },

@@ -146,7 +146,7 @@
     "astraea",
     "metis",
     "black rock cannon",
-    "night falcon",
+    "dark falcon",
     "dwelling will of inscription's key",
     "hacker's tune",
     "reconstruction of law",
@@ -366,12 +366,8 @@
       "list": ["Metis ######", "Reversal Node #####", "Atoll ####"]
     },
     {
-      "name": "Pioneer's Blades",
-      "list": [
-        "Night Falcon ######",
-        "Pale Feather #####",
-        "Midnight Raven ####"
-      ]
+      "name": "Trailblades",
+      "list": ["Dark Falcon ######", "Pale Plume #####", "Black Raven ####"]
     },
     {
       "name": "Longswords",
@@ -486,7 +482,7 @@
       "list": ["Cruel Oath - Mod ######", "Cruel Oath #####"]
     },
     {
-      "name": "Bladed Cannons",
+      "name": "Blade Cannons",
       "list": ["\u2605Rock Cannon ######", "Rock Cannon #####"]
     }
   ]
