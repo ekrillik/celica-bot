@@ -738,7 +738,7 @@
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/ealphonsei01001.webp",
     "rarity": 6,
     "2pc": "Fire DMG increases by 10%.",
-    "4pc": "The Base DMG of Flame Eruption and Thermal Erosion increases by 100%. Firepower Bulwark will inflict Scorching Invasion on the target hit, which will reduce their Fire Resistance for 8s. Duration resets every time it is triggered.",
+    "4pc": "The Base DMG of Scorching Torrent and Thermal Erosion increases by 100%. Firepower Bulwark will inflict Scorching Invasion on the target hit, which will reduce their Fire Resistance for 8s. Duration resets every time it is triggered.",
     "atk": 132,
     "def": 223,
     "crit": 66,
