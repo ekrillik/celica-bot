@@ -162,7 +162,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "fulgor"
         case "nanami startrail" | "startrail" | "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi" | "fox's knight":
             character = "startrail"
-        case "ishmael parhelion" | "ishmael" | "parhelion" | "changli" | "mother" | "space god" | "god" | "god in the flesh":
+        case "ishmael parhelion" | "ishmael" | "parhelion" | "ish" | "changli" | "mother" | "space god" | "god" | "god in the flesh":
             character = "parhelion"
         # Boss nicknames
         case "machi":
