@@ -356,6 +356,8 @@ def abbreviation_checker(nickname):
         match nickname:
             case "dv" | "davinci":
                 memory = "da vinci"
+            case "adolf" | "adolphe" | "kulike":
+                memory = "adolphe"
             case "cot":
                 memory = "cottie"
             case "eins":
