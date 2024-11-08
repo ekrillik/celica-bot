@@ -1,5 +1,6 @@
 {
   "cublist": [
+    "zhu ling",
     "an ji",
     "yi kong",
     "rui xue",
@@ -150,6 +151,11 @@
     {
       "name": "<:s_rank:1287636749052412026><:lightning_element:1287636531321765959> An Ji",
       "sig_character": "Startrail",
+      "base_rank": "S"
+    },
+    {
+      "name": "<:s_rank:1287636749052412026><:void_element:1285900049909284864> Zhu Ling",
+      "sig_character": "Parhelion",
       "base_rank": "S"
     }
   ]

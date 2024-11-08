@@ -64,7 +64,8 @@
     "lucid dreamer",
     "pyroath",
     "fulgor",
-    "startrail"
+    "startrail",
+    "parhelion"
   ],
   "formatted": [
     {
@@ -317,6 +318,15 @@
         {
           "emojis": "<:s_rank:1287636749052412026><:annihilator:1285900128489701436><:void_element:1285900049909284864><:disorder:1288089672718876787>",
           "full_name": "Luna: Oblivion"
+        }
+      ]
+    },
+    {
+      "type": "Observers",
+      "constructs": [
+        {
+          "emojis": "<:s_rank:1287636749052412026><:observer:1304039040944705567><:void_element:1285900049909284864><:disorder:1288089672718876787>",
+          "full_name": "Ishmael: Parhelion"
         }
       ]
     },

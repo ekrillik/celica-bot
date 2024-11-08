@@ -48,6 +48,7 @@
     "hope of the village",
     "night rakshasa",
     "prototype shield axe zl-07",
+    "primeval key",
     "gloomlight",
     "kuji no sada",
     "guardian mount",
@@ -91,6 +92,7 @@
     "progressive knife",
     "purging levin",
     "type zl-09 illuminance",
+    "starpool connector",
     "lotus berserker",
     "type zero",
     "inverse chimera",
@@ -155,7 +157,8 @@
     "hemera's gaze",
     "dawn's flaming feathers",
     "morrow's executioner",
-    "star tunnel of light"
+    "star tunnel of light",
+    "epochal authority"
   ],
   "weaponlist_categorised": [
     {
@@ -439,6 +442,14 @@
         "Star Tunnel of Light ######",
         "Type ZL-09 Illuminance #####",
         "Prototype Shield Axe ZL-07 ####"
+      ]
+    },
+    {
+      "name": "Keystaffs",
+      "list": [
+        "Epochal Authority ######",
+        "Starpool Connector #####",
+        "Primeval Key ####"
       ]
     },
     {

@@ -823,13 +823,13 @@
   },
   "sothoth": {
     "name": "Sothoth",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/esothothi01001sp.png",
     "rarity": 6,
-    "2pc": "Void DMG increases by 10%.",
-    "4pc": "",
-    "atk": 0,
-    "def": 0,
-    "crit": 0,
-    "hp": 0
+    "2pc": "Nihil DMG increases by 10%.",
+    "4pc": "Upon casting Phantom Abysm, gain 18/36/36/36/54 Gravitational Collapse Points based on the current hit number. Upon casting Otherworldly Phantom, immediately gain 150 Transience Gauge. After casting Dimensional Collapse, increases the Base DMG of the next Signature - Extinction Sentence by 100%. In Tank state, the Hyperdimensional Realm applies the corresponding elemental resistance reduction effect to targets hit based on the Observation Chronicle; in Amplifier state, while the Hyperdimensional Realm exists, heals HP equal to 8% of ATK for allies every second and applies the corresponding elemental damage increase effect to allies based on the Observation Chronicle.",
+    "atk": 132,
+    "def": 223,
+    "crit": 66,
+    "hp": 1491
   }
 }

@@ -2453,9 +2453,34 @@
       }
     ]
   },
-  "ishmael": {
+  "parhelion": {
     "unit_name": "Ishmael",
-    "frame_name": "Parhelion\n<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:void_element:1285900049909284864><:disorder:1288089672718876787>",
+    "frame_name": "Parhelion\n<:s_rank:1287636749052412026><:observer:1304039040944705567><:void_element:1285900049909284864><:disorder:1288089672718876787>",
+    "set_list": [{ "name": "Main Support Set", "memos": "4 Sothoth 4 Cottie" }],
+    "builds": [
+      {
+        "set_name": "Main Support Set",
+        "set_type": "Main Support Sub-DPS",
+        "usage": "Support Sub-DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "Can be used for both her Tank and Amplifier forms",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Sothoth", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Cottie"
+      }
+    ]
+  },
+  "placeholder": {
+    "unit_name": "Placeholder",
+    "frame_name": "Placeholder",
     "set_list": [{ "name": "Placeholder", "memos": "Placeholder" }],
     "builds": [
       {

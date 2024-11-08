@@ -17,10 +17,11 @@ def fuzzmatch(string, match_type = "character") -> str:
             nickname = choice
         
     match nickname:
-        # case "beloved girl":
-        #     characters = ["tempest", "capriccio"]
-        #     index = random.randint(0, 1)
-        #     character = characters[index]
+        case "beloved girl":
+            character = "parhelion"
+            # characters = ["tempest", "capriccio"]
+            # index = random.randint(0, 1)
+            # character = characters[index]
         case "best girl" | "bestgirl":
             characters = ["eclipse", "lux", "luminance", "empyrea"]
             index = random.randint(0, 3)
@@ -161,6 +162,8 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "fulgor"
         case "nanami startrail" | "startrail" | "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi" | "fox's knight":
             character = "startrail"
+        case "ishmael parhelion" | "ishmael" | "parhelion" | "changli" | "mother" | "space god" | "god" | "god in the flesh":
+            character = "parhelion"
         # Boss nicknames
         case "machi":
             boss = "machiavelli"

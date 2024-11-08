@@ -325,6 +325,11 @@ def check_nickname(nickname, caller):
             weapon = "star tunnel of light"
             cub = "an ji"
             memory = "herschel"
+        case "parhelion":
+            character = "parhelion"
+            weapon = "epochal authority"
+            cub = "zhu ling"
+            memory = "sothoth"
 
         case _:
             if(caller == "character"):
@@ -729,6 +734,11 @@ def character_theme(nickname):
             colour = 0xfdee75
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr6yongyechao2q.webp"
             thumbnail_url = "https://assets.huaxu.app/cn/image/rolecharacter/roleheadr6yongyechao3.webp"
+        case "parhelion":
+            name = "Ishmael: Parhelion"
+            colour = 0xf5b8d7
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr3cibeizhe2q.png"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr3cibeizhe3.png"
         case _:
             name = ""
             colour = ""

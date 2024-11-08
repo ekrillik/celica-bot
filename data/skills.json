@@ -12123,6 +12123,314 @@
   "parhelion": {
     "basic_attack": [
       {
+        "name": "Maxim of Destruction - Efflux of Aquarius",
+        "button_press": "Wanderer Form + Tap Basic Attack",
+        "switch_in": "no",
+        "description": "Summons a physical body projection to attack the target, dealing Nihil DMG. While the **Incorporeal Inhibition Domain** is active, adds 4 additional hits to the Basic Attack sequence.",
+        "result": [
+          "- Basic Attacks deal **{0}%** Nihil DMG in total.",
+          "- While the **Incorporeal Inhibition Domain** is active, the additional Basic Attack sequence deals **{1}%** Nihil DMG in total."
+        ],
+        "res_lv18": [300, 550]
+      },
+      {
+        "name": "Maxim of Destruction - Chaotic Starshower",
+        "button_press": "Eminence Form + Tap Basic Attack",
+        "switch_in": "no",
+        "description": "Summons a planetary projection to attack the target, dealing Nihil DMG. Gain **Transience Gauge** after casting.",
+        "result": [
+          "- After casting, gain **10/20/30/30/60 Transience Gauge**.",
+          "- Deals **{0}%** Nihil DMG in total.",
+          "- After the 4th Basic Attack, tap Red Orb to cast **Sequence Disintegration**."
+        ],
+        "res_lv18": [620]
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Arcane Submergence - Resplendent Sweep",
+        "button_press": "Tap Red Orb",
+        "switch_in": "no",
+        "description": "Rams the target with her knee, dealing Nihil DMG. Gain **Transience Gauge** and **Gravitational Collapse Points** after casting, and triggers a special ability based on the **Observation Chronicle**.",
+        "result": [
+          "- After casting, gain **10/20/30 Transience Gauge** and **15/30/45 Gravitational Collapse Points** based on the number of orbs pinged.",
+          "- Deals **{0}%/{1}%/{2}%** Nihil DMG based on the number of orbs pinged.",
+          "- Gain Super Armor during this skill."
+        ],
+        "res_lv18": [140, 280, 420]
+      },
+      {
+        "name": "Arcane Submergence - Sequence Disintegration",
+        "button_press": "During Replendescent Sweep + Tap Red Orb",
+        "switch_in": "no",
+        "description": "Slams the target down with a kick, dealing Nihil DMG. Ishmael gains **Transience Gauge** and **Gravitational Collapse Points** after casting and can then immediately cast the 4th hit of **Phantom Abysm**, and triggers a special ability based on the **Observation Chronicle**.",
+        "result": [
+          "- After casting, gain **10/20/30 Transience Gauge** and **15/30/45 Gravitational Collapse Points** based on the number of orbs pinged.",
+          "- Deals **{0}%/{1}%/{2}%** Nihil DMG based on the number of orbs pinged.",
+          "- Gain Super Armor during this skill."
+        ],
+        "res_lv18": [150, 300, 450]
+      },
+      {
+        "name": "Arcane Submergence - Tank State",
+        "button_press": "",
+        "switch_in": "no",
+        "description": "**Fire**: Casting Red Orb - Arcane Submergence will apply the **Scorching Invasion** effect that reduces Fire Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for **8**s. The duration resets each time it is triggered.\n**Ice**: Casting Red Orb - Arcane Submergence will apply the **Frost Corrosion** effect that reduces Ice Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.",
+        "description2": "**Lightning**: Casting Red Orb - Arcane Submergence will apply the **Turbulence Interference** effect that reduces Lightning Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.\n**Dark**: Casting Red Orb - Arcane Submergence will apply the **Chain Fusion** effect that reduces Dark Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered."
+      },
+      {
+        "name": "Arcane Submergence - Amplifier State",
+        "button_press": "",
+        "switch_in": "no",
+        "description": "**Fire**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Ice**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "description2": "**Lightning**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Dark**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Otherworldly Phantom",
+        "button_press": "Wanderer Form + Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "Ishmael: Parhelion has only 1 Yellow Orb permanently located in the rightmost orb position. Tapping it will unleash an **Incorporeal Inhibition Domain**, dealing Nihil DMG.",
+        "result": [
+          "- After casting, gain **12 Signature Energy**.",
+          "- This skill is regarded as a 3-Ping and deals **{0}%** Nihil DMG.",
+          "- The **Incorporeal Inhibition Domain** lasts **6s**. While the **Incorporeal Inhibition Domain** is active, Base DMG of **Phantom Abysm** increases by **100%**.",
+          "- The Yellow Orb will not be consumed after this skill, but will enter a **20s** cooldown."
+        ],
+        "res_lv18": [270]
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Winding Stars",
+        "button_press": "Tap Blue Orb",
+        "switch_in": "no",
+        "description": "Summons binary star projections to assault the target, dealing Nihil DMG. Gain **Gravitational Collapse Points** after casting.",
+        "result": [
+          "- After casting, gain **15/30/45 Gravitational Collapse Points** based on the number of orbs pinged.",
+          "- Deals **{0}%/{1}%/{2}%** Nihil DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [60, 120, 180]
+      },
+      {
+        "name": "Supernova",
+        "button_press": "During Winding Stars + Tap Blue Orb",
+        "switch_in": "no",
+        "description": "Detonates a planetary projection, dealing Nihil DMG. Gain **Gravitational Collapse Points** after casting.",
+        "result": [
+          "- After casting, gain **15/30/45 Gravitational Collapse Points** based on the number of orbs pinged.",
+          "- Deals **{0}%/{1}%/{2}%** Nihil DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [70, 140, 210]
+      },
+      {
+        "name": "Afterglow of Worlds",
+        "button_press": "Wanderer Form + Hold Dodge",
+        "switch_in": "no",
+        "description": "Gathers energy and discharges it at the target, dealing Nihil DMG. Gain **Gravitational Collapse Points** after casting based on the number of previously pinged Blue Orbs.",
+        "result": [
+          "- Based on the cumulative number of Blue Orbs pinged, gain **15 Gravitational Collapse Points** per orb. A maximum of 6 Blue Orbs can be accumulated.",
+          "- Deals **{0}%** Nihil DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [400]
+      }
+    ],
+    "core_passive": {
+      "name": "Sanctified Event Horizon",
+      "skills": [
+        {
+          "name": "Observation Chronicle",
+          "button_press": "",
+          "description": [
+            "Ishmael: Parhelion's ability is determined by the **Observation Chronicle**. The Observation Chronicle's abilities will be strengthened along with the subsequent release of other Constructs."
+          ],
+          "result": [
+            "- If there is only one elemental Tank in the team, Ishmael: Parhelion will become an Amplifier of the corresponding element.",
+            "- If there is only one elemental Support/Amplifier in the team, Ishmael: Parhelion will become a Tank of the corresponding element."
+          ]
+        },
+        {
+          "name": "Parhelion's Halo",
+          "button_press": "",
+          "description": [
+            "When Ishmael: Parhelion is in **Wanderer Form**, all Signal Orbs are converted into Blue Orbs. In **Eminence Form**, all Signal Orbs are converted into Red Orbs."
+          ]
+        },
+        {
+          "name": "Phantom of Mirage",
+          "button_press": "Repeatedly Tap Dodge",
+          "description": [
+            "Dodging will release a projection that deals Nihil DMG. Tapping Dodge continuously will cast **Phantom Mysterium**. In **Eminence Form**, **30 Transience Gauge** can be consumed to cast **Phantom Abysm**, dealing Nihil DMG. **Phantom Abysm** deals more damage, restores **Signature Energy**, and does not consume Dodge Gauge.\nAfter casting the 5th hit of **Phantom Abysm**, gain a **Mark of Collapse**."
+          ],
+          "result": [
+            "- The projection released from dodging deals **{0}%** Nihil DMG.",
+            "- **Transience Gauge** has a maximum of **150**.",
+            "- Casting **Phantom Mysterium** in **Wanderer Form** deals **{1}%/{2}%/{3}%/{4}%/{5}%** Nihil DMG."
+          ],
+          "res_lv18": [80, 100, 120, 120, 180, 250],
+          "result2": [
+            "- Casting **Phantom Mysterium** in **Eminence Form** gathers nearby enemies and deals **{0}%/{1}%/{2}%/{3}%/{4}%** Nihil DMG.",
+            "- Casting **Phantom Abysm** in **Eminence Form** gathers nearby enemies, deals **{5}%/{6}%/{7}%/{8}%/{9}%** Nihil DMG, and restores **12 Signature Energy**.",
+            "- Gain invincibility during **Phantom Abysm**.",
+            "- If there is sufficient Dodge Gauge, gain invincibility during **Phantom Mysterium**. If there is insufficient Dodge Gauge, gain Super Armor and **50%** DMG Reduction during **Phantom Mysterium**."
+          ],
+          "res2_lv18": [180, 270, 330, 300, 420, 660, 990, 1210, 1100, 1540]
+        },
+        {
+          "name": "Dimensional Collapse",
+          "button_press": "Eminence Form + Have Mark of Collapse + Hold Dodge",
+          "description": [
+            "Draws power to shatter space at the target's location, dealing Nihil DMG and gaining Signature Energy.\n**Gravitational Collapse Points** will increase this skill's damage."
+          ],
+          "result": [
+            "- **Gravitational Collapse** has a maximum of **360** points. Each **Gravitational Collapse Point** increases the Base DMG of **Dimensional Collapse** by 0.5%.",
+            "- Deals **{0}%** Nihil DMG.",
+            "- During this skill, Ishmael is invincible but unable to cast **Signature - Extinction Sentence**.",
+            "- Gain **30 Signature Energy** after casting."
+          ],
+          "res_lv18": [3600]
+        },
+        {
+          "name": "Disorderly Beacon",
+          "button_press": "",
+          "description": [
+            "In **Eminence Form**, Ishmael's Base DMG efficiency against Equilibrium Fields increases by **100%**."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Merciful Sacrament",
+      "skills": [
+        {
+          "name": "Primordial True Form",
+          "button_press": "45 Energy + Tap Signature",
+          "description": [
+            "Connects to her higher-dimensional self, entering **Eminence Form** and dealing Nihil DMG. **Time Lag Calculation** is triggered during this skill. If the **Domain Overlimit** effect is active, its duration will be refreshed. After casting, triggers Matrix if it is not on cooldown, triggers a special ability based on the **Observation Chronicle**, and leaves behind a **Hyperdimensional Realm**."
+          ],
+          "result": [
+            "- Deals {0}% Nihil DMG.",
+            "- Applies different effects depending on the Observation Chronicle."
+          ],
+          "res_lv18": [1600]
+        },
+        {
+          "name": "Extinction Sentence",
+          "button_press": "20 Energy + Tap Signature",
+          "description": [
+            "Shatters reality and reshapes the universe, dealing Nihil DMG and exiting **Eminence Form**. **Time Lag Calculation** is triggered during this skill. Leaves behind a **Hyperdimensional Realm**."
+          ],
+          "result": ["- Deals {0}% Nihil DMG."],
+          "res_lv18": [4300]
+        },
+        {
+          "name": "Hyperdimensional Realm",
+          "button_press": "",
+          "description": [
+            "Casting **Signature - Primordial True Form** or **Signature - Extinction Sentence** will leave behind a **Hyperdimensional Realm** on the battlefield that deals Nihil DMG."
+          ],
+          "result": [
+            "- The **Hyperdimensional Realm** deals {0}% Nihil DMG to enemies within per second for 12s. Triggering this again will refresh the duration."
+          ],
+          "res_lv18": [10]
+        },
+        {
+          "name": "Tank State",
+          "button_press": "",
+          "description": [
+            "**Fire**: Casting **Signature - Primordial True Form** will apply the **Scorching Invasion** effect that reduces Fire Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for **8**s. The duration resets each time it is triggered.",
+            "**Ice**: Casting **Signature - Primordial True Form** will apply the **Frost Corrosion** effect that reduces Ice Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered."
+          ],
+          "description2": [
+            "**Lightning**: Casting **Signature - Primordial True Form** will apply the **Turbulence Interference** effect that reduces Lightning Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.",
+            "**Dark**: Casting **Signature - Primordial True Form** will apply the **Chain Fusion** effect that reduces Dark Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered."
+          ]
+        },
+        {
+          "name": "Amplifier State",
+          "button_press": "",
+          "description": [
+            "**Fire**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+            "**Ice**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+          ],
+          "description2": [
+            "**Lightning**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+            "**Dark**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+          ]
+        }
+      ]
+    },
+    "qte": {
+      "name": "Prayer for Refuge",
+      "description": "Kicks the Keystaff at the target, dealing Nihil DMG. Triggers a special ability based on the **Observation Chronicle** after casting.",
+      "result": [
+        "- Deals **{0}%** Nihil DMG.",
+        "- Applies different effects depending on the Observation Chronicle."
+      ],
+      "res_lv18": [600],
+      "extra1": "**Fire**: Applies the **Scorching Invasion** effect that reduces Fire Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for **8**s. The duration resets each time it is triggered.\n**Ice**: Applies the **Frost Corrosion** effect that reduces Ice Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.\n**Lightning**: Applies the **Turbulence Interference** effect that reduces Lightning Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.\n**Dark**: Applies the **Chain Fusion** effect that reduces Dark Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.",
+      "extra2": "**Fire**: Heals allies for 100% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Ice**: Heals allies for 100% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Lightning**: Heals allies for 100% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Dark**: Heals allies for 100% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+    },
+    "leader": {
+      "name": "Exalted Rectifier",
+      "description": "All members' Nihil DMG increases by **10%**. Observers' DMG increases by **10%**."
+    },
+    "class": {
+      "name": "Observer",
+      "description": "Gain different abilities based on the **Observation Chronicle**:\n- When Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for **5**s.\n- When Amplifier: All switched-in members gain an extra **{1}%** ATK and **{2}%** Elemental DMG Bonus of Ishmael: Parhelion's element for **10**s.",
+      "desc_lv18": [20, 10, 10]
+    },
+    "ss_rank": {
+      "name": "Inspiring Roll of Dice",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Casting **Signature - Primordial True Form/Signature - Extinction Sentence**, and **Dimensional Collapse** will activate all available QTEs."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "In **Eminence Form**, Extra DMG Bonus increases by 30%. Signature Energy required for **Signature - Primordial True Form** is reduced to **12**. While the **Incorporeal Inhibition Domain** is active, every **Phantom Abysm** generates 1 Signal Orb."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Churning Wheel of Fate",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Upon casting **Afterglow of Worlds** for the first time upon entering the battlefield, gain **180 Gravitational Collapse Points** and a **Mark of Collapse**. Base DMG of **Signature - Extinction Sentence** increases by **60%**. While the **Incorporeal Inhibition Domain** is active, every **Phantom Abysm** generates an extra **3** Signature Energy. Enhances the special abilities triggered based on the **Observation Chronicle**."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "**Gravitational Collapse Points**' damage amplification effect increases by **50%**. During the 5th hit of **Phantom Abysm**, you can input one 3-Ping to deal an additional **1000%** Nihil DMG and gain **180 Gravitational Collapse Points**. Enhances the special abilities triggered based on the **Observation Chronicle**. Base DMG efficiency increase against **Equilibrium Fields** increases to **150%**.",
+          "extra1": "**Tank State**\n**Fire**: **Unlocked at SS3**: **Scorching Invasion** and **Collapse Singularity** effects increases by **10%**.\n**Unlocked at SSS**: **Scorching Invasion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Ice**: **Unlocked at SS3**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.",
+          "extra2": "**Lightning**:**Unlocked at SS3**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Turbulence Interference** and **Collapse Singularity** effects increases by **10%**. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Dark**: **Unlocked at SSS**: Chain Fusion and Collapse Singularity effects increases by **10%**.",
+          "extra3": "**Amplfier State**\n**Fire**: Unlocked at SSS:  Amplifier Class Skill effect increases by **100%**.\n**Ice**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**.\n**Dark**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**"
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "A Poem to Shape Destiny",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of **Signature - Primordial True Form**, **Signature - Extinction Sentence** increases by **30%**."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of **Phantom Abysm** and Signal Orbs increases by **30%**."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of **Dimensional Collapse** increases by 30%."
+        }
+      ]
+    }
+  },
+  "placeholder": {
+    "basic_attack": [
+      {
         "name": "",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",

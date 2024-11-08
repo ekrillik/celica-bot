@@ -239,6 +239,12 @@ class EmbedClass:
                     value=f"{description}",
                     inline=False
                 )
+                if 'description2' in skill[cur_page]:
+                    embed.add_field(
+                        name="",
+                        value=f"{skill[cur_page]['description2']}",
+                        inline=False
+                    )
                 if 'result' in skill[cur_page]:
                     if 'res_lv18' in skill[cur_page]:
                         result = self.calculate_actual_damage("\n".join(skill[cur_page]['result']), skill[cur_page]['res_lv18'], level)
@@ -350,6 +356,18 @@ class EmbedClass:
                         value=f"{result}",
                         inline=False
                     )
+                if 'extra1' in skill:
+                    embed.add_field(
+                        name="",
+                        value=f"{skill['extra1']}",
+                        inline=False
+                    )
+                if 'extra2' in skill:
+                    embed.add_field(
+                        name="",
+                        value=f"{skill['extra2']}",
+                        inline=False
+                    )
             case "SS" | "SSS" | "S+":
                 emoji = ""
                 if selection == "SS":
@@ -369,6 +387,24 @@ class EmbedClass:
                         value=f"{level['desc']}",
                         inline=False
                     )
+                    if 'extra1' in level:
+                            embed.add_field(
+                            name="",
+                            value=f"{level['extra1']}",
+                            inline=False
+                        )
+                    if 'extra2' in level:
+                            embed.add_field(
+                            name="",
+                            value=f"{level['extra2']}",
+                            inline=False
+                        )
+                    if 'extra3' in level:
+                            embed.add_field(
+                            name="",
+                            value=f"{level['extra3']}",
+                            inline=False
+                        )
             case "Leap":
                 embed = discord.Embed(title=f"Skill - {selection}", description=f"**{skill[cur_page]['name']}**", color=colour)
                 embed.set_thumbnail(url=thumbnail)

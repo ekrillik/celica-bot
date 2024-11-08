@@ -1463,53 +1463,53 @@
     "sig_character": "Ishmael: Parhelion",
     "base_rank": "S",
     "cub_type": "Pull, Damage",
-    "thumbnail": "",
+    "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3pandora1.png",
     "skills_list": [
-      "Active Skill 1",
-      "Active Skill 2",
-      "Passive Skill 1",
-      "Passive Skill 2",
-      "Passive Skill 3",
-      "Passive Skill 4",
-      "Passive Skill 5"
+      "Comet Breakthrough",
+      "Eclipse's Advent",
+      "Patrol Shuttle",
+      "Extinguishing Array",
+      "Dark Meteor Decay",
+      "Web of Fate",
+      "Geometric Star Erasure"
     ],
     "active_skills": [
       {
-        "skill_name": "Lightlure Hunt",
+        "skill_name": "Comet Breakthrough",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, An Ji will rush towards the target, gathering nearby enemies and dealing 1800% Lightning DMG 1 time."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Zhu Ling will strike the target, dealing 2000% Nihil DMG 1 time."
       },
       {
-        "skill_name": "Fin Barrage",
+        "skill_name": "Eclipse's Advent",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, An Ji will jump in the air and fire a laser at the target that deals 500% Lightning DMG 1 time, then fire missiles that deal 250% Lightning DMG 6 times."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Zhu Ling will gather the surrounding enemies and smash downwards, dealing 1800% Nihil DMG 1 time."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Shielded Sortie",
+        "skill_name": "Patrol Shuttle",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "An Ji's Active Skill deals 70% more DMG."
+        "skill_desc": "Zhu Ling's Active Skill deals 70% more DMG."
       },
       {
-        "skill_name": "Fluorescent Dissolution",
+        "skill_name": "Extinguishing Array",
         "skill_number": "Passive Skill 2",
         "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
-        "skill_name": "Piercing Bite",
+        "skill_name": "Dark Meteor Decay",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Each time An Ji casts an Active Skill, increases the carrier's Extra DMG Bonus by 5% for 8s. Duration resets each time it is triggered."
+        "skill_desc": "Each time Zhu Ling casts an Active Skill, increases the carrier's Extra DMG Bonus by 5% for 8s. Duration resets each time it is triggered."
       },
       {
-        "skill_name": "Cosmic Fissure",
+        "skill_name": "Web of Fate",
         "skill_number": "Passive Skill 4",
-        "skill_desc": "Increases the carrier's Lightning DMG by 10%. When a Blaze Emblem or Cinder Emblem is held, increases Fire DMG by 10%."
+        "skill_desc": "Increases the carrier's Nihil DMG by 10%."
       },
       {
-        "skill_name": "Phosphorescent Twister",
+        "skill_name": "Geometric Star Erasure",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Nanami: Startrail casts Starfall Collapse or an enhanced Burning Breakaway with An Ji equipped, summons An Ji to perform a combined attack that deals 1250% Lightning DMG 2 times. Base DMG of lightstreams, Heavenly Star Piercer, and Gigabyte Star Sunder increases by 60%."
+        "skill_desc": "When Ishmael: Parhelion casts the 4th hit of **Phantom Abysm** with Zhu Ling equipped, summons Zhu Ling to launch a joint attack that deals **500%** Nihil DMG 6 times. Upon obtaining a Mark of Collapse, ATK increases by **40%** for 5s. The duration resets each time it is triggered."
       }
     ]
   }
