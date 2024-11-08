@@ -404,6 +404,17 @@
     "crit": 53,
     "hp": 1208
   },
+  "adolphe": {
+    "name": "Adolphe",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/eadaifui01001.png",
+    "rarity": 6,
+    "2pc": "Gains 20% more Energy when pinging an orb. Signature Move requires 20% less Energy.",
+    "4pc": "Extra DMG Bonus increases by 15% for 10s when performing a Signature Move. Gains Super Armor that increases Extra DMG Reduction by 20% for 5s after the Signature Move. Both duration will reset every time it is triggered.",
+    "atk": 135,
+    "def": 223,
+    "crit": 66,
+    "hp": 1453
+  },
   "cottie": {
     "name": "Cottie",
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/eadaifui01001.webp",
