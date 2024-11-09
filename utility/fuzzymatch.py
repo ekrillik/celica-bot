@@ -121,7 +121,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "arca"
         case "bianca stigmata" | "balter" | "stigmata" | "mommy" | "saber" | "excalibaa" | "Balter" | "gothic nun" | "balt" | "mint's pillow":
             character = "stigmata"
-        case "bambinata vitrum" | "vitrum" | "bambinata" | "bambi" | "bombi" | "doll" | "puppet" | "dementia doll":
+        case "bambinata vitrum" | "vitrum" | "bambinata" | "bambi" | "bombi" | "doll" | "puppet" | "dementia doll" | "swich's wife":
             character = "vitrum"
         case "lee hyperreal"| "supercar" | "car" | "hyper" | "hyperreal" | "xly" | "xiangli yao" | "hypertrash" | "hypermonke" | "hypercuck" | "zeru's sun" | "hyperbrick":
             character = "hyperreal"
