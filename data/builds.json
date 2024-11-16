@@ -1569,7 +1569,6 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Ayla+Kaleido/Kaleido+%5BAline+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "General DPS set",
@@ -1587,7 +1586,6 @@
         "set_name": "Alternative DPS Set",
         "set_type": "Alternative DPS",
         "usage": "Alternative DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Ayla+Kaleido/Kaleido+Main.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Alternative DPS set.",
