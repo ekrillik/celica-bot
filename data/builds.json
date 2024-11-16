@@ -1561,32 +1561,18 @@
     "unit_name": "Ayla",
     "frame_name": "Kaleido\n<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:ice_element:1290613933106925638>",
     "set_list": [
-      { "name": "Main DPS Set", "memos": "4 Aline 2 Darwin" },
-      { "name": "Alternative DPS Set", "memos": "4 Aline 2 Cottie" }
+      { "name": "Main DPS Set", "memos": "4 Aline 2 Cottie" },
+      { "name": "Alternative DPS Set", "memos": "4 Aline 2 Darwin" }
     ],
     "builds": [
       {
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Ayla+Kaleido/Kaleido+Main.png",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": ["General DPS set", "Requires SS0 Kaleido or higher."],
-        "memories": ["4x Aline", "2x Darwin"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Core Passive"
-        ],
-        "harmony_rec": "Chen Jiyuan"
-      },
-      {
-        "set_name": "Alternative DPS Set",
-        "set_type": "Alternative DPS",
-        "usage": "Alternative DPS",
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Ayla+Kaleido/Kaleido+%5BAline+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
-          "Alternative DPS set.",
+          "General DPS set",
           "Recommended to use for S rank Kaleido.",
           "Used for quick Pain Cage kills"
         ],
@@ -1596,6 +1582,23 @@
           "Bottom Slot: 6x Core Passive"
         ],
         "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "Alternative DPS Set",
+        "set_type": "Alternative DPS",
+        "usage": "Alternative DPS",
+        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Amps/Ayla+Kaleido/Kaleido+Main.png",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Alternative DPS set.",
+          "Requires SS0 Kaleido or higher."
+        ],
+        "memories": ["4x Aline", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core Passive"
+        ],
+        "harmony_rec": "Chen Jiyuan"
       }
     ]
   },

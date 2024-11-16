@@ -12369,8 +12369,20 @@
         "- Applies different effects depending on the Observation Chronicle."
       ],
       "res_lv18": [600],
-      "extra1": "**Fire**: Applies the **Scorching Invasion** effect that reduces Fire Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for **8**s. The duration resets each time it is triggered.\n**Ice**: Applies the **Frost Corrosion** effect that reduces Ice Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.\n**Lightning**: Applies the **Turbulence Interference** effect that reduces Lightning Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.\n**Dark**: Applies the **Chain Fusion** effect that reduces Dark Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.",
-      "extra2": "**Fire**: Heals allies for 100% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Ice**: Heals allies for 100% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Lightning**: Heals allies for 100% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Dark**: Heals allies for 100% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+      "extra1_title": "**Tank State**",
+      "extra1": [
+        "**Fire**: Applies the **Scorching Invasion** effect that reduces Fire Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for **8**s. The duration resets each time it is triggered.",
+        "**Ice**: Applies the **Frost Corrosion** effect that reduces Ice Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.",
+        "**Lightning**: Applies the **Turbulence Interference** effect that reduces Lightning Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.",
+        "**Dark**: Applies the **Chain Fusion** effect that reduces Dark Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered."
+      ],
+      "extra2_title": "**Amplifier State**",
+      "extra2": [
+        "**Fire**: Heals allies for 100% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "**Ice**: Heals allies for 100% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "**Lightning**: Heals allies for 100% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "**Dark**: Heals allies for 100% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+      ]
     },
     "leader": {
       "name": "Exalted Rectifier",

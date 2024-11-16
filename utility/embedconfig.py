@@ -358,16 +358,28 @@ class EmbedClass:
                     )
                 if 'extra1' in skill:
                     embed.add_field(
-                        name="",
-                        value=f"{skill['extra1']}",
+                        name=f"{skill['extra1_title']}",
+                        value=f"{skill['extra1'][0]}",
                         inline=False
                     )
+                    for i in range(1, len(skill['extra1'])):
+                        embed.add_field(
+                            name="",
+                            value=f"{skill['extra1'][i]}",
+                            inline=False
+                        )
                 if 'extra2' in skill:
                     embed.add_field(
-                        name="",
-                        value=f"{skill['extra2']}",
+                        name=f"{skill['extra2_title']}",
+                        value=f"{skill['extra2'][0]}",
                         inline=False
                     )
+                    for i in range(1, len(skill['extra2'])):
+                        embed.add_field(
+                            name="",
+                            value=f"{skill['extra2'][i]}",
+                            inline=False
+                        )
             case "SS" | "SSS" | "S+":
                 emoji = ""
                 if selection == "SS":
