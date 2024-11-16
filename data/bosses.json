@@ -880,5 +880,645 @@
         "dark_res": 2000
       }
     }
+  },
+  "shark-speare": {
+    "name": "Shark-speare",
+    "outlier": true,
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab20.png",
+    "weakness_name": "Super Cute (No Weakness/Neutral)",
+    "start_time": "3.20",
+    "exppc": {
+      "test": {
+        "hp": 372331,
+        "super_armor": 9850,
+        "edr": 197,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 729541,
+        "super_armor": 19300,
+        "edr": 386,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 1064071,
+        "super_armor": 28150,
+        "edr": 563,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 1536571,
+        "super_armor": 40650,
+        "edr": 813,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 1986391,
+        "super_armor": 52550,
+        "edr": 1051,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "pterygota queen": {
+    "name": "Pterygota Queen",
+    "outlier": true,
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab22.png",
+    "weakness_name": "Corrosion (Dark, When wings are open, +15% EDR and -15% EDR for attacks from behind. Effect is cancelled when wings are broken and enters weakened state, -30% EDR)",
+    "start_time": "3.22",
+    "exppc": {
+      "test": {
+        "hp": 561845,
+        "super_armor": 14775,
+        "edr": 197,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 1100873,
+        "super_armor": 28950,
+        "edr": 386,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 1605677,
+        "super_armor": 42225,
+        "edr": 563,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 2318677,
+        "super_armor": 60975,
+        "edr": 813,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 2977453,
+        "super_armor": 78825,
+        "edr": 1051,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "qu": {
+    "name": "Qu",
+    "outlier": true,
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab24.png",
+    "weakness_name": "Frail (Physical)",
+    "start_time": "6.15",
+    "exppc": {
+      "test": {
+        "hp": 520875,
+        "super_armor": 0,
+        "edr": 137,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 1022739,
+        "super_armor": 0,
+        "edr": 269,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 1494187,
+        "super_armor": 0,
+        "edr": 393,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 2159537,
+        "super_armor": 0,
+        "edr": 568,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 2794471,
+        "super_armor": 0,
+        "edr": 735,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "huaxu": {
+    "name": "Huaxu",
+    "outlier": true,
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab18.png",
+    "weakness_name": "IRes- (Ice)",
+    "start_time": "3.83",
+    "exppc": {
+      "test": {
+        "hp": 177301,
+        "super_armor": 9850,
+        "edr": 985,
+        "def": 986,
+        "phys_res": 0,
+        "fire_res": 2985,
+        "light_res": 2985,
+        "ice_res": 2985,
+        "dark_res": 2985
+      },
+      "elite": {
+        "hp": 292501,
+        "super_armor": 16250,
+        "edr": 1625,
+        "def": 1626,
+        "phys_res": 0,
+        "fire_res": 3625,
+        "light_res": 3625,
+        "ice_res": 3625,
+        "dark_res": 3625
+      },
+      "knight": {
+        "hp": 459901,
+        "super_armor": 25550,
+        "edr": 2555,
+        "def": 2556,
+        "phys_res": 0,
+        "fire_res": 4555,
+        "light_res": 4555,
+        "ice_res": 4555,
+        "dark_res": 4555
+      },
+      "chaos": {
+        "hp": 665101,
+        "super_armor": 36950,
+        "edr": 3695,
+        "def": 3696,
+        "phys_res": 0,
+        "fire_res": 5695,
+        "light_res": 5695,
+        "ice_res": 5695,
+        "dark_res": 5695
+      },
+      "hell": {
+        "hp": 826201,
+        "super_armor": 45900,
+        "edr": 4590,
+        "def": 4591,
+        "phys_res": 0,
+        "fire_res": 6590,
+        "light_res": 6590,
+        "ice_res": 6590,
+        "dark_res": 6590
+      }
+    }
+  },
+  "amberia": {
+    "name": "Amberia",
+    "outlier": true,
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab21.png",
+    "weakness_name": "Electrode (Lightning)",
+    "start_time": "4.72",
+    "exppc": {
+      "test": {
+        "hp": 295501,
+        "super_armor": 9850,
+        "edr": 197,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 579001,
+        "super_armor": 19300,
+        "edr": 386,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 844501,
+        "super_armor": 28150,
+        "edr": 563,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 1219501,
+        "super_armor": 40650,
+        "edr": 813,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 1576501,
+        "super_armor": 52550,
+        "edr": 1051,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "camu": {
+    "name": "Camu",
+    "outlier": true,
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab3.png",
+    "weakness_name": "DRes- (Dark, -40% Dark Resistance, -30% EDR for attacks from Kamui)",
+    "start_time": "5.33",
+    "exppc": {
+      "test": {
+        "hp": 212761,
+        "super_armor": 10000,
+        "edr": 985,
+        "def": 986,
+        "phys_res": 2000,
+        "fire_res": 2985,
+        "light_res": 2985,
+        "ice_res": 2985,
+        "dark_res": 2985
+      },
+      "elite": {
+        "hp": 351001,
+        "super_armor": 10000,
+        "edr": 1625,
+        "def": 1626,
+        "phys_res": 2000,
+        "fire_res": 3625,
+        "light_res": 3625,
+        "ice_res": 3625,
+        "dark_res": 3625
+      },
+      "knight": {
+        "hp": 551881,
+        "super_armor": 10000,
+        "edr": 2555,
+        "def": 2556,
+        "phys_res": 2000,
+        "fire_res": 4555,
+        "light_res": 4555,
+        "ice_res": 4555,
+        "dark_res": 4555
+      },
+      "chaos": {
+        "hp": 798121,
+        "super_armor": 10000,
+        "edr": 3695,
+        "def": 3696,
+        "phys_res": 2000,
+        "fire_res": 5695,
+        "light_res": 5695,
+        "ice_res": 5695,
+        "dark_res": 5695
+      },
+      "hell": {
+        "hp": 991441,
+        "super_armor": 10000,
+        "edr": 4590,
+        "def": 4591,
+        "phys_res": 2000,
+        "fire_res": 6590,
+        "light_res": 6590,
+        "ice_res": 6590,
+        "dark_res": 6590
+      }
+    }
+  },
+  "rosetta": {
+    "name": "Rosetta",
+    "outlier": true,
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab17.png",
+    "weakness_name": "None (Neutral, -40% EDR for attacks within 3m)",
+    "start_time": "7.03",
+    "exppc": {
+      "test": {
+        "hp": 177301,
+        "super_armor": 0,
+        "edr": 985,
+        "def": 986,
+        "phys_res": 3200,
+        "fire_res": 2985,
+        "light_res": 2985,
+        "ice_res": 2985,
+        "dark_res": 2985
+      },
+      "elite": {
+        "hp": 292501,
+        "super_armor": 0,
+        "edr": 1625,
+        "def": 1626,
+        "phys_res": 3200,
+        "fire_res": 3625,
+        "light_res": 3625,
+        "ice_res": 3625,
+        "dark_res": 3625
+      },
+      "knight": {
+        "hp": 459901,
+        "super_armor": 0,
+        "edr": 2555,
+        "def": 2556,
+        "phys_res": 3200,
+        "fire_res": 4555,
+        "light_res": 4555,
+        "ice_res": 4555,
+        "dark_res": 4555
+      },
+      "chaos": {
+        "hp": 665101,
+        "super_armor": 0,
+        "edr": 3695,
+        "def": 3696,
+        "phys_res": 3200,
+        "fire_res": 5695,
+        "light_res": 5695,
+        "ice_res": 5695,
+        "dark_res": 5695
+      },
+      "hell": {
+        "hp": 826201,
+        "super_armor": 0,
+        "edr": 4590,
+        "def": 4591,
+        "phys_res": 3200,
+        "fire_res": 6590,
+        "light_res": 6590,
+        "ice_res": 6590,
+        "dark_res": 6590
+      }
+    }
+  },
+  "musashi ix": {
+    "name": "Musashi IX",
+    "outlier": true,
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab10.png",
+    "weakness_name": "None (Neutral, -50% EDR for attacks from tanks)",
+    "start_time": "3.90",
+    "exppc": {
+      "test": {
+        "hp": 177301,
+        "super_armor": 59100,
+        "edr": 985,
+        "def": 395,
+        "phys_res": 0,
+        "fire_res": 2985,
+        "light_res": 2985,
+        "ice_res": 2985,
+        "dark_res": 2985
+      },
+      "elite": {
+        "hp": 292501,
+        "super_armor": 97500,
+        "edr": 1625,
+        "def": 651,
+        "phys_res": 0,
+        "fire_res": 3625,
+        "light_res": 3625,
+        "ice_res": 3625,
+        "dark_res": 3625
+      },
+      "knight": {
+        "hp": 459901,
+        "super_armor": 153300,
+        "edr": 2555,
+        "def": 1023,
+        "phys_res": 0,
+        "fire_res": 4555,
+        "light_res": 4555,
+        "ice_res": 4555,
+        "dark_res": 4555
+      },
+      "chaos": {
+        "hp": 665101,
+        "super_armor": 221700,
+        "edr": 3695,
+        "def": 1479,
+        "phys_res": 0,
+        "fire_res": 5695,
+        "light_res": 5695,
+        "ice_res": 5695,
+        "dark_res": 5695
+      },
+      "hell": {
+        "hp": 826201,
+        "super_armor": 275400,
+        "edr": 4590,
+        "def": 1837,
+        "phys_res": 0,
+        "fire_res": 6590,
+        "light_res": 6590,
+        "ice_res": 6590,
+        "dark_res": 6590
+      }
+    }
+  },
+  "gabriel": {
+    "name": "Gabriel",
+    "outlier": true,
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab19.png",
+    "weakness_name": "Combustible (Fire)",
+    "start_time": "5.80",
+    "exppc": {
+      "test": {
+        "hp": 295501,
+        "super_armor": 9850,
+        "edr": 197,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "elite": {
+        "hp": 579001,
+        "super_armor": 19300,
+        "edr": 386,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "knight": {
+        "hp": 844501,
+        "super_armor": 28150,
+        "edr": 563,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 1219501,
+        "super_armor": 40650,
+        "edr": 813,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 1576501,
+        "super_armor": 52550,
+        "edr": 1051,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "alpha": {
+    "name": "Unknown Construct α",
+    "outlier": true,
+    "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab16.png",
+    "weakness_name": "None (Neutral, -90% EDR for attacks from Rosetta)",
+    "start_time": "3.67",
+    "exppc": {
+      "test": {
+        "hp": 177301,
+        "super_armor": 0,
+        "edr": 985,
+        "def": 986,
+        "phys_res": 0,
+        "fire_res": 2985,
+        "light_res": 2985,
+        "ice_res": 2985,
+        "dark_res": 2985
+      },
+      "elite": {
+        "hp": 292501,
+        "super_armor": 0,
+        "edr": 1625,
+        "def": 1626,
+        "phys_res": 0,
+        "fire_res": 3625,
+        "light_res": 3625,
+        "ice_res": 3625,
+        "dark_res": 3625
+      },
+      "knight": {
+        "hp": 459901,
+        "super_armor": 0,
+        "edr": 2555,
+        "def": 2556,
+        "phys_res": 0,
+        "fire_res": 4555,
+        "light_res": 4555,
+        "ice_res": 4555,
+        "dark_res": 4555
+      },
+      "chaos": {
+        "hp": 665101,
+        "super_armor": 0,
+        "edr": 3695,
+        "def": 3696,
+        "phys_res": 0,
+        "fire_res": 5695,
+        "light_res": 5695,
+        "ice_res": 5695,
+        "dark_res": 5695
+      },
+      "hell": {
+        "hp": 826201,
+        "super_armor": 0,
+        "edr": 4590,
+        "def": 4591,
+        "phys_res": 0,
+        "fire_res": 6590,
+        "light_res": 6590,
+        "ice_res": 6590,
+        "dark_res": 6590
+      }
+    }
   }
 }

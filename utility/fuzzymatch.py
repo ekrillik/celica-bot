@@ -81,6 +81,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "crocotta"
         case "rosetta" | "juan" | "rigor" | "rose" | "kuda" | "kuda lumping" | "rosetta rigor":
             character = "rigor"
+            boss = "rosetta"
         case "changyu" | "changwho" | "qilin" | "who?" | "changyu qilin":
             character = "qilin"
         case "pavo" | "qu pavo":
@@ -165,6 +166,14 @@ def fuzzmatch(string, match_type = "character") -> str:
         case "ishmael parhelion" | "ishmael" | "parhelion" | "ish" | "changli" | "mother" | "space god" | "god" | "god in the flesh":
             character = "parhelion"
         # Boss nicknames
+        case "mado":
+            boss = "madorea"
+        case "moth":
+            boss = "pterygota queen"
+        case "musashi":
+            boss = "musashi ix"
+        case "baby shark":
+            boss = "shark-speare"
         case "machi":
             boss = "machiavelli"
         case "red liv":

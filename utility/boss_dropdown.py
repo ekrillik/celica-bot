@@ -20,7 +20,11 @@ class BossDropdownView(discord.ui.View):
         self.boss_thumbnail = boss['thumbnail']
         self.boss_weakness_name = boss['weakness_name']
         self.boss_start_time = boss['start_time']
-        
+        if 'outlier' in boss:
+            self.outlier_mode = boss['outlier']
+        else:
+            self.outlier_mode = False
+
         if post_luna:
             options = ["Knight", "Chaos", "Hell"]
         else:
@@ -52,15 +56,15 @@ class BossDropdownView(discord.ui.View):
 
     async def callback(self, interaction: discord.Interaction) -> None:
         if(self.menu.values[0] == "Test"):
-            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Test', self.boss_start_time, self.boss_stats['test'])
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Test', self.boss_start_time, self.boss_stats['test'], self.outlier_mode)
         elif(self.menu.values[0] == "Elite"):
-            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Elite', self.boss_start_time, self.boss_stats['elite'])
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Elite', self.boss_start_time, self.boss_stats['elite'], self.outlier_mode)
         elif(self.menu.values[0] == "Knight"):
-            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Knight', self.boss_start_time, self.boss_stats['knight'])
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Knight', self.boss_start_time, self.boss_stats['knight'], self.outlier_mode)
         elif(self.menu.values[0] == "Chaos"):
-            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Chaos', self.boss_start_time, self.boss_stats['chaos'])
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Chaos', self.boss_start_time, self.boss_stats['chaos'], self.outlier_mode)
         elif(self.menu.values[0] == "Hell"):
-            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Hell', self.boss_start_time, self.boss_stats['hell'])
+            embed = self.embedconf.create_boss_embed(self.boss_name, self.boss_thumbnail, self.boss_weakness_name, self.ppc_mode, 'Hell', self.boss_start_time, self.boss_stats['hell'], self.outlier_mode)
 
         await interaction.response.edit_message(embed=embed, view=self)
 

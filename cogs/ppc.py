@@ -84,7 +84,11 @@ class Ppc(commands.Cog):
 
         if 'exppc' in self.boss:
             view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='exppc', post_luna=False)
-            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'EXPPC', 'Test', self.boss['start_time'], self.boss['exppc']['test'])
+            if 'outlier' in self.boss:
+                outlier = self.boss['outlier']
+            else:
+                outlier = False
+            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'EXPPC', 'Test', self.boss['start_time'], self.boss['exppc']['test'], outlier)
             view.message = await ctx.send(embed=embed, view=view)
         else:
             await ctx.send(content="This boss does not have a valid EXPPC variant!")
@@ -111,9 +115,6 @@ class Ppc(commands.Cog):
     async def achieveminscore(self, ctx: commands.Context):
         embed = discord.Embed(title="580K", description="Approximate time and score for each difficulty to reach 580k total score for an Ultimate Phantom Pain Cage boss.")
         embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/580k.png")
-        # embed.add_field(name="Difficulty", value="Test\nElite\nKnight\nChaos\nHell")
-        # embed.add_field(name="Minimum Score", value="19903\n39522\n78480\n150900\n291200")
-        # embed.add_field(name="Time", value="14s\n16s\n18s\n29s\n39s")
         await ctx.send(embed=embed)
 
 

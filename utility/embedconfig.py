@@ -525,9 +525,9 @@ class EmbedClass:
         embed.set_footer(text=f"Page {curpage}/{maxlistcount}")
         return embed
 
-    def create_boss_embed(self, name, thumbnail, weakness, zone_type, difficulty, start_time, stats):
+    def create_boss_embed(self, name, thumbnail, weakness, zone_type, difficulty, start_time, stats, outlier=False):
         embed = discord.Embed(
-            title=f"{name}",
+            title=f"{name + " (Outlier)" if outlier == True else name}",
             description=f"",
             color=discord.Color(0xcd0000)
         )
@@ -536,7 +536,7 @@ class EmbedClass:
         embed.add_field(name=f"Zone Type: {zone_type}", value="", inline=False)
         embed.add_field(name=f"Start Time: {start_time}s", value="", inline=False)
         embed.add_field(
-            name=f"Difficulty: {difficulty}", 
+            name=f"Difficulty: {difficulty + " (Outlier)" if outlier == True else difficulty}", 
             value=f"HP: {stats['hp']:,}\nSuper Armor: {stats['super_armor']:,}\nExtra Damage Reduction: {stats['edr']/100}%\nDefence: {stats['def']:,}\nPhys Resist: {stats['phys_res']/100}%\nFire Resist: {stats['fire_res']/100}%\nLight Resist: {stats['light_res']/100}%\nIce Resist: {stats['ice_res']/100}%\nDark Resist: {stats['dark_res']/100}%\n",
             inline=False
         )
