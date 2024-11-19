@@ -96,7 +96,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "a2"
         case "wanshi hypnos" | "hypnos" | "sleepyboi" | "sleepyhead" | "sleepyboy" | "time to sleep" | "sleepytime":
             character = "hypnos"
-        case "selena tempest" |"tempest" | "shitlena" | "iris":
+        case "selena tempest" |"tempest" | "shitlena" | "iris" | "living corpse":
             character = "tempest"
         case "chrome glory" | "glory"| "daddy":
             character = "glory"
