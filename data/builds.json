@@ -1002,12 +1002,11 @@
           "Used post Qu: Shukra patch",
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
-        "memories": ["4x Tifa", "4x Heisen"],
+        "memories": ["4x Tifa", "2x Heisen", "2x Heisen (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Passive"
-        ],
-        "harmony_rec": "Heisen"
+        ]
       }
     ]
   },
