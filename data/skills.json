@@ -10414,7 +10414,7 @@
     },
     "class": {
       "name": "Annihilator",
-      "description": "Extra DMG Bonus increases by **{0}%**. Converts all members' Elemental Resistance Reduction and Elemental DMG Increase effects into Omni-elemental DMG Reduction and DMG Increase effects.",
+      "description": "Extra DMG Bonus increases by **{0}%**. Converts all members' Elemental Resistance Reduction and Elemental DMG Increase effects into Omni-elemental Resistance Reduction and DMG Increase effects.",
       "desc_lv18": [20]
     },
     "ss_rank": {
