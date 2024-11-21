@@ -79,7 +79,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "rozen"
         case "camu" | "crocotta" | "camu crocotta":
             character = "crocotta"
-        case "rosetta" | "juan" | "rigor" | "rose" | "kuda" | "kuda lumping" | "rosetta rigor":
+        case "rosetta" | "juan" | "rigor" | "rose" | "kuda" | "kuda lumping" | "rosetta rigor" | "choto's horsewife":
             character = "rigor"
             boss = "rosetta"
         case "changyu" | "changwho" | "qilin" | "who?" | "changyu qilin":
