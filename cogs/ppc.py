@@ -58,11 +58,17 @@ class Ppc(commands.Cog):
     async def advanced(self, ctx: commands.Context, *, boss_name):
         if boss_name.lower() in self.bossdata:
             self.boss = self.bossdata[boss_name.lower()]
-        elif fuzzmatch(boss_name.lower(), "boss") in self.bossdata:
-            self.boss = self.bossdata[fuzzmatch(boss_name.lower(), "boss")]
         else:
-            await ctx.send(content="This boss does not exist. Please try again.")
-            return
+            try:
+                nickname = fuzzmatch(boss_name.lower(), "boss")
+                self.boss = self.bossdata[nickname]
+            except:
+                await ctx.send(content="This boss does not exist. Please try again.")
+        # elif fuzzmatch(boss_name.lower(), "boss") in self.bossdata:
+        #     self.boss = self.bossdata[fuzzmatch(boss_name.lower(), "boss")]
+        # else:
+        #     await ctx.send(content="This boss does not exist. Please try again.")
+        #     return
 
         if 'advanced' in self.boss:
             view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='advanced', post_luna=False)
@@ -76,11 +82,12 @@ class Ppc(commands.Cog):
     async def exppc(self, ctx: commands.Context, *, boss_name):
         if boss_name.lower() in self.bossdata:
             self.boss = self.bossdata[boss_name.lower()]
-        elif fuzzmatch(boss_name.lower(), "boss") in self.bossdata:
-            self.boss = self.bossdata[fuzzmatch(boss_name.lower(), "boss")]
         else:
-            await ctx.send(content="This boss does not exist. Please try again.")
-            return
+            try:
+                nickname = fuzzmatch(boss_name.lower(), "boss")
+                self.boss = self.bossdata[nickname]
+            except:
+                await ctx.send(content="This boss does not exist. Please try again.")
 
         if 'exppc' in self.boss:
             if 'outlier' in self.boss:
