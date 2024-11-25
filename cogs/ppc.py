@@ -83,12 +83,17 @@ class Ppc(commands.Cog):
             return
 
         if 'exppc' in self.boss:
-            view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='exppc', post_luna=False)
             if 'outlier' in self.boss:
                 outlier = self.boss['outlier']
             else:
                 outlier = False
-            embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'EXPPC', 'Test', self.boss['start_time'], self.boss['exppc']['test'], outlier)
+            
+            if 'post-oblivion' in self.boss and self.boss['post-oblivion'] is True:
+                view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='exppc', post_luna=True)
+                embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'EXPPC', 'Knight', self.boss['start_time'], self.boss['exppc']['knight'], outlier)
+            else:
+                view = BossDropdownView(ctx.author, boss=self.boss, ppc_mode='exppc', post_luna=False)
+                embed = self.embedconf.create_boss_embed(self.boss['name'], self.boss['thumbnail'], self.boss['weakness_name'], 'EXPPC', 'Test', self.boss['start_time'], self.boss['exppc']['test'], outlier)
             view.message = await ctx.send(embed=embed, view=view)
         else:
             await ctx.send(content="This boss does not have a valid EXPPC variant!")

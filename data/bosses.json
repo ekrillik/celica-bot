@@ -1,4 +1,214 @@
 {
+  "cradle": {
+    "name": "Cradle",
+    "post-oblivion": true,
+    "thumbnail": "https://assets.huaxu.app/cn/image/uifubenchallengemapboss/bosssingletab40.png",
+    "weakness_name": "Electrode (Lightning)",
+    "start_time": "5.25",
+    "exppc": {
+      "knight": {
+        "hp": 10110000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 15170000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 22000000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "shorthalt": {
+    "name": "Shorthalt",
+    "post-oblivion": true,
+    "thumbnail": "https://assets.huaxu.app/cn/image/uifubenchallengemapboss/bosssingletab42.png",
+    "weakness_name": "Combustible (Fire)",
+    "start_time": "5.30",
+    "exppc": {
+      "knight": {
+        "hp": 10110000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 15170000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 22000000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "skych": {
+    "name": "Skych",
+    "post-oblivion": true,
+    "thumbnail": "https://assets.huaxu.app/cn/image/uifubenchallengemapboss/bosssingletab41.png",
+    "weakness_name": "Frail (Physical)",
+    "start_time": "5.25",
+    "exppc": {
+      "knight": {
+        "hp": 8280000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 12410000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 19000000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "emperor": {
+    "name": "Emperor",
+    "post-oblivion": true,
+    "thumbnail": "https://assets.huaxu.app/cn/image/uifubenchallengemapboss/bosssingletab38.png",
+    "weakness_name": "Frost (Ice)",
+    "start_time": "5.25",
+    "exppc": {
+      "knight": {
+        "hp": 8280000,
+        "super_armor": 39100,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 12410000,
+        "super_armor": 53650,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 19000000,
+        "super_armor": 73300,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
+  "ballard": {
+    "name": "Ballard",
+    "post-oblivion": true,
+    "thumbnail": "https://assets.huaxu.app/cn/image/uifubenchallengemapboss/bosssingletab39.png",
+    "weakness_name": "Combustible (Fire)",
+    "start_time": "5.45",
+    "exppc": {
+      "knight": {
+        "hp": 7360000,
+        "super_armor": 1188750,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 11030000,
+        "super_armor": 1275250,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 17000000,
+        "super_armor": 1392750,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
   "lilith": {
     "name": "Lilith",
     "thumbnail": "https://assets.huaxu.app/glb/image/uifubenchallengemapboss/bosssingletab36.png",
