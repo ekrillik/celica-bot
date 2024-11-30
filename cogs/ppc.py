@@ -57,7 +57,10 @@ class Ppc(commands.Cog):
             return
 
         power = difficulties.index(difficulty) + 2
-        hp_score_multiplier = difficulties.index(difficulty) + 1
+        if difficulty == 'knight':
+            hp_score_multiplier = difficulties.index(difficulty) + 1
+        else:
+            hp_score_multiplier = difficulties.index(difficulty)*2
         try:
             time_sec = min(abs(int(time_str)), max_seconds)
         except ValueError:
@@ -90,6 +93,8 @@ class Ppc(commands.Cog):
         factor = 2**power
         time = time+1
         hp_score = 9000 * multiplier
+        print(multiplier)
+        print(hp_score)
         score = (21000 * factor - round((74.875 * float(factor) * float(time)) - (0.25 * float(factor) * float(time) * (float(time)-1.0) / 2.0), 0)) + hp_score
         return int(score)
 
