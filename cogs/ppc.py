@@ -93,8 +93,6 @@ class Ppc(commands.Cog):
         factor = 2**power
         time = time+1
         hp_score = 9000 * multiplier
-        print(multiplier)
-        print(hp_score)
         score = (21000 * factor - round((74.875 * float(factor) * float(time)) - (0.25 * float(factor) * float(time) * (float(time)-1.0) / 2.0), 0)) + hp_score
         return int(score)
 
