@@ -18,10 +18,10 @@ def fuzzmatch(string, match_type = "character") -> str:
         
     match nickname:
         case "beloved girl":
-            character = "parhelion"
-            # characters = ["tempest", "capriccio"]
-            # index = random.randint(0, 1)
-            # character = characters[index]
+            # character = "parhelion"
+            characters = ["storm", "pulse", "starfarer", "startrail"]
+            index = random.randint(0, len(characters) - 1)
+            character = characters[index]
         case "best girl" | "bestgirl":
             characters = ["eclipse", "lux", "luminance", "empyrea"]
             index = random.randint(0, 3)
