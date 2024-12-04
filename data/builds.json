@@ -892,10 +892,6 @@
     "set_list": [
       {
         "name": "Main QTE Support Set",
-        "memos": "4 Chen Jiyuan 2 Einsteina"
-      },
-      {
-        "name": "Main Warzone Set",
         "memos": "2 Einsteina 2 Gloria 2 Da Vinci"
       },
       {
@@ -908,27 +904,10 @@
         "set_name": "Main QTE Support Set",
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Used at all ranks",
-          "General QTE Support Set.",
-          "Main post-Shukra QTE Support Set"
-        ],
-        "memories": ["4x Chen Jiyuan", "2x Einsteina"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Passive"
-        ],
-        "harmony_rec": "None"
-      },
-      {
-        "set_name": "Main Warzone Set",
-        "set_type": "Main Tank",
-        "usage": "QTE Tank Support",
         "game_modes": "Warzone",
         "description": [
           "Used at all ranks",
-          "Main post-Shukra QTE Support Warzone Set",
+          "Main post-Shukra QTE Support Set",
           "Use 2x Lantern over 2x Da Vinci if you have it."
         ],
         "memories": ["2x Einsteina", "2x Gloria", "2x Da Vinci"],
@@ -1402,10 +1381,10 @@
     "unit_name": "Bianca",
     "frame_name": "Stigmata\n<:s_rank:1287636749052412026><:attacker:1285839106240417803><:physical_element:1290613978057146379><:trueslash:1288090116790812712>",
     "set_list": [
-      { "name": "Main DPS Set", "memos": "4 Charlotte 2 Leeuwenhoek" },
+      { "name": "Main DPS Set", "memos": "4 Charlotte 2 Patton" },
       {
         "name": "High Rank Set",
-        "memos": "4 Charlotte 2 Cottie SS3"
+        "memos": "4 Patton 2 Cottie"
       },
       { "name": "Pain Cage Niche Set", "memos": "4 Charlotte 2 Darwin" },
       { "name": "Pain Cage Low Rank Set", "memos": "4 Charlotte 2 Cottie" },
@@ -1419,27 +1398,25 @@
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
         "usage": "Main DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Bianca+Stigmata+%5B5+Builds%5D/Balter+%5BCharlotte+Leeu+Signa%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Main DPS Set", "For SS0 and below"],
-        "memories": ["4x Charlotte", "2x Leeuwenhoek"],
+        "memories": ["4x Charlotte", "2x Patton"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
         ],
-        "harmony_rec": "Signa"
+        "harmony_rec": "Patton"
       },
       {
         "set_name": "High Rank Set",
         "set_type": "High Rank DPS",
         "usage": "Main DPS",
-        "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Bianca+Stigmata+%5B5+Builds%5D/High+Rank+Balter+%5BCharlotte+Cottie+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "High rank build (requires SS3 and beyond)",
           "Main DPS Set"
         ],
-        "memories": ["4x Charlotte", "2x Cottie"],
+        "memories": ["4x Patton", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
