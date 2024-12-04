@@ -89,10 +89,11 @@ class Memories(commands.Cog):
         
         view = MemorPageView(ctx.author, memory=memory)
         embed = self.embedconf.create_memory_embed(memory)
-        if '4pc_alt' in memory:
-            view.message = await ctx.send(view=view, embed=embed)
-        else:
-            await ctx.send(embed=embed)
+        await ctx.send(embed=embed)
+        # if '4pc_alt' in memory:
+        #     view.message = await ctx.send(view=view, embed=embed)
+        # else:
+        #     await ctx.send(embed=embed)
 
     @app_commands.command(name="minmax", description="Compares two memories and displays where they should be placed")
     @app_commands.autocomplete(first=memory_autocomplete, second=memory_autocomplete)
