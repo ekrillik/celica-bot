@@ -895,6 +895,10 @@
         "memos": "4 Chen Jiyuan 2 Einsteina"
       },
       {
+        "name": "Main Warzone Set",
+        "memos": "2 Einsteina 2 Gloria 2 Da Vinci"
+      },
+      {
         "name": "Alternative QTE Support Set",
         "memos": "4 Da Vinci 2 Einsteina"
       }
@@ -911,6 +915,23 @@
           "Main post-Shukra QTE Support Set"
         ],
         "memories": ["4x Chen Jiyuan", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Passive"
+        ],
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "Main Warzone Set",
+        "set_type": "Main Tank",
+        "usage": "QTE Tank Support",
+        "game_modes": "Warzone",
+        "description": [
+          "Used at all ranks",
+          "Main post-Shukra QTE Support Warzone Set",
+          "Use 2x Lantern over 2x Da Vinci if you have it."
+        ],
+        "memories": ["2x Einsteina", "2x Gloria", "2x Da Vinci"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Passive"
