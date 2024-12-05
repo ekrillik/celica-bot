@@ -282,7 +282,7 @@ def check_nickname(nickname, caller):
             memory = "alphonse"
         case "shukra":
             character = "shukra"
-            weapon = "dwelling will of inscription's key"
+            weapon = "akasha keyblade"
             cub = "huiyu"
             memory = "ji bo'an"
         case "decryptor":
