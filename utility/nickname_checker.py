@@ -396,7 +396,7 @@ def abbreviation_checker(nickname):
                 memory = "derketo"
             case "alph":
                 memory = "alphonse"
-            case "jba":
+            case "jba" | "jb":
                 memory = "ji bo'an"
             case "cleo":
                 memory = "cleopatra"

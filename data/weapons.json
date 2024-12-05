@@ -563,15 +563,15 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "rising wings of emerald ink": {
-    "name": "Rising Wings of Emerald Ink",
+  "emerald quill": {
+    "name": "Emerald Quill",
     "weapon_type": "Longsword",
     "rarity": 4,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/7/7c/4ulhhqj8cf0z93lyzfqthwib01t2hke.png/60px-%E6%AD%A6%E5%99%A8_%E7%BF%A0%E5%A2%A8%E9%9B%80%E5%87%8C.png",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Night Pulse",
+      "effect_name": "Night Surge",
       "effect_desc": "ATK increases by 5%."
     }
   },
@@ -1199,15 +1199,15 @@
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
-  "grand blessings of razor crest": {
-    "name": "Grand Blessings of Razor Crest",
+  "phoenix edge": {
+    "name": "Phoenix Edge",
     "weapon_type": "Longsword",
     "rarity": 5,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/3/3d/js8ax9cbr5wuesk4km0kpj8wg6zr9wt.png/60px-%E6%AD%A6%E5%99%A8_%E9%B8%BF%E6%B5%A9%E9%94%8B%E7%BE%BD.png",
     "atk": 379,
     "crit": 195,
     "effect": {
-      "effect_name": "Surveying the Dawn",
+      "effect_name": "Light Ranger",
       "effect_desc": "Ice DMG increases by 10%."
     }
   },
@@ -1991,16 +1991,16 @@
       "effect_desc": "ATK increases by 10%. Upon entering the Assault Mode, gains 3 Red Orbs, up to 6 orbs each time when entering the battlefield. Can quickly cast Scorching Torrent after pinging Red Orbs."
     }
   },
-  "dwelling will of inscription's key": {
-    "name": "Dwelling Will of Inscription's Key",
+  "akasha keyblade": {
+    "name": "Akasha Keyblade",
     "weapon_type": "Longsword",
     "rarity": 6,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/8/88/jqufhygrj7z8nxcxvlgs9xymqkl4ce1.png/100px-%E6%AD%A6%E5%99%A8_%E9%93%AD%E9%92%A5%E9%98%99%E5%BD%B1.png",
     "atk": 467,
     "crit": 241,
     "effect": {
-      "effect_name": "Lucent Insight",
-      "effect_desc": "ATK increases by 10%. When activating Enter the Fray, trigger Matrix if available and additionally gain 1 point of Engravement. When performing Tor Invocation, every attack additionally grants 3 Energy."
+      "effect_name": "Grand Wonder",
+      "effect_desc": "ATK increases by 10%. Upon activating Into the Fray, triggers Matrix if it is not in cooldown and grants a bonus Inscription. When casting Mountain Caller, each attack grants 3 extra Signature Energy."
     }
   },
   "hacker's tune": {

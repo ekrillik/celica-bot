@@ -9699,167 +9699,167 @@
   "shukra": {
     "basic_attack": [
       {
-        "name": "Tabula Akasha - Indite",
+        "name": "Tabula Akasha - Scribe",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": "Attacks the enemy using the Longsword, dealing Ice DMG.",
-        "result": ["- Deals a total of **{0}%** Ice DMG."],
+        "description": "Strikes the enemy with her Longsword, dealing Ice DMG.",
+        "result": ["- Deals **{0}%** Ice DMG in total."],
         "res_lv18": [670]
       },
       {
-        "name": "Tabula Akasha - Inscribe",
-        "button_press": "Enter the Fray + After Performing Any 3-Ping + Tap Basic Attack",
+        "name": "Tabula Akasha - Engrave",
+        "button_press": "Into the Fray + Any 3-Ping + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Additionally performs a follow-up attack, dealing Ice DMG, gaining Energy, and extending the duration of Enter the Fray.",
+        "description": "Performs an extra hit of follow-up attack, dealing Ice DMG. Gains Signature Energy and extends the duration of Into the Fray.",
         "result": [
-          "- When performing a 3-Ping, the follow-up attack deals **{0}%** Ice DMG.",
-          "- Extends the duration of Enter the Fray by 0.5s. The duration of Enter the Fray can be extended up to 8s.",
-          "- Gains 3 Energy."
+          "- The follow-up attack deals **{0}%** Ice DMG upon a 3-Ping.",
+          "- The duration of Into the Fray extends by 0.5s, up to 8s.",
+          "- Gains 3 Signature Energy."
         ],
         "res_lv18": [420]
       }
     ],
     "red_orb": [
       {
-        "name": "Advent",
+        "name": "Approach",
         "button_press": "Ping Red Orb",
         "switch_in": "yes",
-        "description": "Impales the target, dealing Ice DMG.",
+        "description": "Thrusts toward the target and deals Ice DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Ice DMG."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [180, 360, 540]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Judgment",
+        "name": "Adjudicate",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": "Jumps and spins, slashing nearby targets and dealing Ice DMG.",
+        "description": "Leaps and spins, striking the surrounding targets and dealing Ice DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Ice DMG."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG in total based on the number of orbs pinged."
         ],
-        "res_lv18": [150, 300, 450]
+        "res_lv18": [150, 360, 450]
       }
     ],
     "blue_orb": [
       {
-        "name": "Rend",
+        "name": "Asunder",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": "Jumps backward and releases sword aura, dealing Ice DMG.",
+        "description": "Leaps backward and unleashes a swordwave, dealing Ice DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Ice DMG."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG in total based on the number of orbs pinged.."
         ],
         "res_lv18": [180, 360, 540]
       }
     ],
     "core_passive": {
-      "name": "Blade of Mandate",
+      "name": "Blade of History",
       "skills": [
         {
-          "name": "Doubts Dispelled",
-          "button_press": "Any 3 Ping + Any Ping",
+          "name": "Whisper Breaker",
+          "button_press": "Any 3-Ping + Any Orb Ping",
           "description": [
-            "Immediately pinging any Signal Orb after performing a 3-Ping can trigger  Tabula Akasha - Inscribe and summon Huiyu to attack the target, during which Qu: Shukra gains Super Armor and 70% Damage Reduction. This action also rearranges all Signal Orbs into 3-Pings. Qu: Shukra activates  Enter the Fray, gaining 1 point of  Engravement and 1 Signal Orb. While  Enter the Fray is active, performing a 3-Ping will grant her  Engravement; upon performing a 3-Ping, or the 4th or 5th move of the Basic Attack sequence, Huiyu will deal additional Ice DMG."
+            "After a 3-Ping, pings any Signal Orb immediately to cast Tabula Akasha - Engrave and summons Huiyu to attack the target, gaining Super Armor and 70% DMG Reduction, rearranging Signal Orbs into 3-Ping sets, entering Into the Fray, and gaining 1 Inscription and 1 Signal Orb during so. During Into the Fray, any 3-Ping will grant Inscription, and Huiyu will deal Extra Ice DMG upon a 3-Ping or the 4th-or-5th hit of the Basic Attack."
           ],
           "result": [
-            "- When summoning Huiyu, deals a total of **{0}%** / **{1}%** / **{2}%** Ice DMG based on the number of orbs pinged.",
-            "- During a Red / Yellow / Blue 3-Ping, Huiyu performs an additional follow-up attack that deals **{3}%** / **{4}%** / **{5}%** Ice DMG.",
-            "- During the 4th / 5th move of the Basic Attack sequence, Huiyu performs a follow-up attack that deals **{6}%** / **{7}%** Ice DMG respectively.",
-            "- Pinging any Signal Orb after Qu: Shukra performs the 3-Ping skill upon switching-in allows her to directly activate Enter the Fray.",
-            "- Enter the Fray lasts for 8s. During this time, Qu: Shukra can gain a maximum of 3 points of Engravement."
+            "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG in total based on the number of orbs pinged when summoning Huiyu.",
+            "- Huiyu performs a follow-up attack and deals **{3}%** / **{4}%** / **{5}%** Ice DMG upon a Red/Yellow/Blue 3-Ping.",
+            "- Huiyu performs a follow-up attack and deals **{6}%** / **{7}%** Ice DMG upon the 4th/5th hit of the Basic Attack.",
+            "- Pings orbs during the Entrance Skill to enter Into the Fray immediately",
+            "- Into the Fray lasts for 8s. Gains up to 3 Inscription during so."
           ],
           "res_lv18": [200, 400, 600, 140, 130, 140, 140, 180]
         },
         {
-          "name": "Gnomon Dominion",
+          "name": "Sun Rider",
           "button_press": "",
           "description": [
-            "When Qu: Shukra enters Matrix activated by herself, activate Hands of Time for 4s. Gains 20 Energy every time she enters the battlefield."
+            "Upon entering a Matrix she has triggered, Qu: Shukra activates Sunshift for 4s. Gains 20 Signature Energy every time she is switched in."
           ]
         },
         {
-          "name": "Rimy Valediction",
-          "button_press": "Enter the Fray + Hands of Time is active + Hold Dodge",
+          "name": "Will Bearer",
+          "button_press": "Into the Fray + During Sunshift + Press and Hold Dodge",
           "description": [
-            "Immediately exits Enter the Fray and converts all points of Engravement into Inscriptions. Qu: Shukra performs a technique that pulls in enemies and summons Huiyu to continuously attack the targets, dealing Ice DMG and continuously gaining Energy. During this, Qu: Shukra is invincible. Gains buffs for the next cast of Star of Dawn, Indite Their Souls."
+            "Immediately exits Into the Fray and converts all Inscription to Glyphs. Qu: Shukra pulls in enemy units and summons feathers to continue attacking the target, dealing Ice DMG and gaining Signature Energy continuously. Qu: Shukra is invincible during so. The next Enlightened Soul cast is enhanced."
           ],
           "result": [
-            "- Deals a total of **{0}%** Ice DMG.",
-            "- Every attack grants 3 Energy.",
-            "- For the next cast of Star of Dawn, Indite Their Souls, gain 2 stacks of Soul Ripple for every 3-Ping performed during Sovereign's Accession. This effect does not overlap with the buffs toward Ascended Sovereign, Quell Their Spirits granted by Tor Invocation."
+            "- Deals **{0}%** Ice DMG in total.",
+            "- Each attack grants 3 Signature Energy.",
+            "- For the next cast of Enlightened Soul, every 3-Ping grants 2 stacks of Soul Ripples during Enthronement. This effect does not stack with the enhancement to Sovereign's Presence triggered by Mountain Caller."
           ],
           "res_lv18": [1870]
         },
         {
-          "name": "Fleeting Frost",
-          "button_press": "Enter the Fray + Less than 3 points of Engravement + Hold Basic Attack",
+          "name": "Snow Drifter",
+          "button_press": "Into the Fray + Inscription Not Full + Press and Hold Basic Attack",
           "description": [
-            "Assumes a sword stance and becomes briefly invincible, then rushes toward the target and leaps into the air, slashing at the target and dealing Ice DMG. During this, Qu: Shukra gains Super Armor and  50% DMG Reduction."
+            "Qu: Shukra assumes her sword stance and becomes Invincible briefly before dashing toward her target and leaping into the air, striking the target and dealing Ice DMG. Gains Super Armor and 50% DMG Reduction during this skill."
           ],
           "result": [
-            "- Deals a total of **{0}%** Ice DMG.",
-            "- Qu: Shukra can evade incoming attacks while rushing toward the target."
+            "- Deals **{0}%** Ice DMG in total.",
+            "- Automatically dodges during the dash."
           ],
           "res_lv18": [1600]
         },
         {
-          "name": "Tor Invocation",
-          "button_press": "Enter the Fray + 3 points of Engravement + Hold Basic Attack",
+          "name": "Mountain Caller",
+          "button_press": "Into the Fray + Inscription Full + Press and Hold Basic Attack",
           "description": [
-            "Immediately exits  Enter the Fray and converts all points of  Engravement into  Inscriptions. Qu: Shukra summons an iceberg to briefly freeze the enemy then shatters the iceberg, pulling in nearby enemies, dealing Ice DMG, and continuously gaining Energy. During this, Qu: Shukra is invincible. Gains buffs for the next cast of  Ascended Sovereign, Quell Their Spirits."
+            "Immediately exits Into the Fray and converts all Inscription to Glyphs. Qu: Shukra summons an ice mountain that freezes the target briefly before she shatters the mountain, pulling in enemy units, dealing Ice DMG, and gaining Signature Energy continuously. Qu: Shukra is Invincible during so. The next Sovereign's Presence cast is enhanced."
           ],
           "result": [
-            "- Deals a total of **{0}%** Ice DMG.",
-            "- Every attack grants 4 Energy.",
-            "- For the next cast of Ascended Sovereign, Quell Their Spirits, doubles the Base DMG increase effect from consuming Soul Ripple stacks. This effect does not overlap with the buffs toward Star of Dawn, Indite Their Souls granted by Rimy Valediction."
+            "- Deals **{0}%** Ice DMG in total.",
+            "- Each attack grants 4 Signature Energy.",
+            "- For the next cast of Sovereign's Presence, doubles the Base DMG increase on Sovereign's Presence from consuming Soul Ripples. This effect does not stack with the enhancement to Enlightened Soul triggered by Will Bearer."
           ],
           "res_lv18": [2000]
         }
       ]
     },
     "signature": {
-      "name": "Corporality of Peafowl, Spirit of Dragon",
+      "name": "Stance of Serpent and Songbird",
       "skills": [
         {
-          "name": "Star of Dawn, Indite Their Souls",
-          "button_press": "Consume 70 Energy + Tap Signature Move",
+          "name": "Enlightened Soul",
+          "button_press": "70 Energy + Tap Signature",
           "description": [
-            "Qu: Shukra begins Sovereign's Accession, briefly triggering Time Lag Calculation and continuously dealing Ice DMG in a large area around her. At the same time, each Inscription is converted into a 3-Ping and placed at the front of the Signal Orb bar. During Sovereign's Accession, Qu: Shukra can ping Signal Orbs or perform Basic Attacks to summon mirages from Tabula Akasha and deal Ice DMG to enemies, but cannot gain Energy. In addition, she gains Soul Ripple for every 3-Ping performed."
+            "Begins Enthronement, dealing Ice DMG to units in a large surrounding area continuously. Briefly triggers Time Lag Calculation during so. Meanwhile, each Glyph is converted into a set of 3-Ping placed at the front of the row. During Enthronement, pinging orbs or performing Basic Attacks will summon Tabula Vestige to deal the target Ice DMG. However, Signature Energy cannot be gained, and 3-Pings will grant Soul Ripple."
           ],
           "result": [
-            "- During Sovereign's Accession, deals a total of **{0}%** Ice DMG in a large area around Qu: Shukra.",
-            "- During Sovereign's Accession, deals **{1}%** / **{2}%** / **{3}%** Ice DMG based on the number of orbs pinged upon pinging Signal Orbs; deals **{4}%** Ice DMG upon performing Basic Attack.",
-            "- During Sovereign's Accession, gain 1 stack of Soul Ripple for every 3-Ping performed. Maximum stacks of Soul Ripple: 4.",
-            "- During Sovereign's Accession, Qu: Shukra can ping Signal Orbs or perform Basic Attacks up to 4 times."
+            "- During Enthronement, deals **{0}%** Ice DMG in total to units in a large surrounding area.",
+            "- During Enthronement, pinging orbs deals **{1}%** / **{2}%** / **{3}%** Ice DMG based on the number of orbs pinged, and Basic Attack deals **{4}%** Ice DMG.",
+            "- During Enthronement, each 3-Ping grants 1 stack of Soul Ripple, up to 4.",
+            "- During Enthronement, performs up to 4 pings or Basic Attacks."
           ],
           "res_lv18": [1200, 260, 520, 780, 260]
         },
         {
-          "name": "Ascended Sovereign, Quell Their Spirits",
-          "button_press": "Sovereign's Accession + Tap Signature Move or automatically triggered when Sovereign's Accession ends",
+          "name": "Sovereign's Presense",
+          "button_press": "Enthronement + Tap Signature or Cast Automatically When Enthronement Ends",
           "description": [
-            "Qu: Shukra brings together the will of Kowloong, consuming all Soul Ripple stacks and dealing Ice DMG in a large area. During this, Time Lag Calculation is triggered. If Qu: Shukra performs this skill while Enter the Fray is active, she will immediately exit Enter the Fray. If Qu: Shukra performs this skill when she does not have 4 stacks of Soul Ripple, all Signal Orbs she gained by converting Inscriptions will disappear."
+            "Qu: Shukra gathers the Will of Kowloong and consumes all Soul Ripples, dealing Ice DMG to enemies in a large area and triggering Time Lag Calculation during so. If this is cast during Into the Fray, Qu: Shukra exits it immediately. If there are fewer than 4 stacks of Soul Ripples, clears all Signal Orbs converted from Glyphs."
           ],
           "result": [
-            "- Deals a total of **{0}%** Ice DMG.",
-            "- For each stack of Soul Ripple consumed, Base DMG of Ascended Sovereign, Quell Their Spirits increases by 20%."
+            "- Deals **{0}%** Ice DMG in total.",
+            "- For each stack of Soul Ripple consumed, the Base DMG of Sovereign's Presence increases by 20%."
           ],
           "res_lv18": [1100]
         }
       ]
     },
     "qte": {
-      "name": "Peafowl's Luster",
-      "description": "Performs a powerful slash, dealing Ice DMG.",
-      "result": ["- Deals a total of **{0}%** Ice DMG."],
+      "name": "Blinding Wings",
+      "description": "Unleashes a powerful strike, dealing Ice DMG.",
+      "result": ["- Deals **{0}%** Ice DMG in total."],
       "res_lv18": [600]
     },
     "leader": {
-      "name": "Tabula Manushya-Loka",
-      "description": "Ice DMG of all team members increases by 10%. ATK of Attacker Omniframes increases by 10%."
+      "name": "Eternal Wisdom",
+      "description": "Increases Ice DMG of all members by 10%. Increases ATK of all Attackers in the team by 10%."
     },
     "class": {
       "name": "Attacker",
@@ -9867,45 +9867,45 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "To Climb Beyond an Endless World",
+      "name": "Supreme Ascendancy",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Upon performing  Rimy Valediction,  Tor Invocation, or  Ascended Sovereign,  Quell Their Spirits, trigger all available QTEs. Upon performing the fourth move of the Basic Attack sequence after a successful dodge, Qu: Shukra will immediately activate  Enter the Fray. Activating  Enter the Fray this way does not grant an  Engravement point."
+          "desc": "Casting Will Bearer, Mountain Caller, or Sovereign's Presence will activate all available QTEs. Activates Into the Fray immediately upon the 4th hit of the Basic Attack after a successful dodge. Qu: Shukra will not gain Inscription when triggering Into the Fray in this way."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Upon performing  Star of Dawn, Indite Their Souls, immediately gain  1 stack of  Soul Ripple. After performing  Rimy Valediction, Qu: Shukra gains  3 stacks of  Soul Ripple for every 3-Ping performed during  Sovereign's Accession for the next cast of  Star of Dawn, Indite Their Souls. After performing  Tor Invocation, Base DMG increase effect of  Ascended Sovereign, Quell Their Spirits granted by each stack of  Soul Ripple increases to  45%."
+          "desc": "Immediately gains 1 stack of Soul Ripple when casting Enlightened Soul. For the next cast of Enlightened Soul after casting Will Bearer, every 3-Ping grants 3 stacks of Soul Ripples during Enthronement. After casting Mountain Caller, each stack of Soul Ripple increases the Base DMG of Sovereign's Presence by 45% instead."
         }
       ]
     },
     "sss_rank": {
-      "name": "To Become Dawn's Star and Vanquish the Evil",
+      "name": "Sovereign Illumination",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "When Qu: Shukra activates  Enter the Fray, her Extra DMG Bonus increases by  25% for  8s."
+          "desc": "Qu: Shukra's Extra DMG Bonus increases by 25% for 8s during Into the Fray."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "When performing  Rimy Valediction or  Tor Invocation, Base DMG of the current cast of the skill increases by  50% for each point of  Engravement Qu: Shukra currently has. Upon performing  Fleeting Frost, performing  Rimy Valediction or  Tor Invocation during the current  Enter the Fray duration will consume 1 point of  Engravement to grant buffs from both  Rimy Valediction and  Tor Invocation for the next cast of  Star of Dawn, Indite Their Souls and  Ascended Sovereign, Quell Their Spirits."
+          "desc": "Upon casting Will Bearer or Mountain Caller, increases the Base DMG of the current attack by 50% for every 1 Inscription. Upon casting Snow Drifter, casting Will Bearer or Mountain Caller during the current Into the Fray will consume 1 Inscription so that the enhancements from Will Bearer and Mountain Caller on the next casts of Enlightened Soul and Sovereign's Presence can stack."
         }
       ]
     },
     "s+_rank": {
-      "name": "Mine Accession, Forevermore Etched in History",
+      "name": "Chronicle's Apex",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of  Rimy Valediction, Fleeting Frost, and  Tor Invocation increases by  50%."
+          "desc": "Extra DMG Bonus of Will Bearer, Snow Drifter, and Mountain Caller increases by 50%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of 3-Pings,  Tabula Akasha - Inscribe, and Star of Dawn, Indite Their Souls increases by  50%."
+          "desc": "Extra DMG Bonus of 3-Ping skills, Tabula Akasha - Engrave, and Enlightened Soul increases by 50%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of  Ascended Sovereign, Quell Their Spirits increases by  45%."
+          "desc": "Extra DMG Bonus of Sovereign's Presence increases by 45%."
         }
       ]
     }

@@ -1135,51 +1135,51 @@
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3peacock1.webp",
     "skills_list": [
-      "Flight of Azure",
-      "Feathers of Rime",
-      "Wings of Mortality",
-      "Wings of Grace",
-      "Frosty Beak",
-      "Soul Enters the Gate",
-      "The Song of the Dragon's Child in Battle"
+      "Emerald Wings",
+      "Chilling Plumes",
+      "Wing Storm",
+      "Neon Plumes",
+      "Frost Beak",
+      "Freezing Soul",
+      "Battle Song of Dragon Children"
     ],
     "active_skills": [
       {
-        "skill_name": "Flight of Azure",
+        "skill_name": "Emerald Wings",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Huiyu will rapidly dive close to the target and circle around them, dealing 1500% DMG and pulling in nearby enemies."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Huiyu will quickly dive to the target and hover around them, dealing 1500% Ice DMG and pulling in nearby enemies."
       },
       {
-        "skill_name": "Feathers of Rime",
+        "skill_name": "Chilling Plumes",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Huiyu will teleport above the target, then spread its wings and create ice spikes in front of the target. Afterwards, Huiyu flaps its wings to launch ice spikes at the target, dealing 600% DMG 3 times."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Huiyu will teleport above the target, spreading its wings and summoning ice spikes before the target. Then, Huiyu will flap its wings to launch ice spikes, dealing 600% Ice DMG 3 times."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Wings of Mortality",
+        "skill_name": "Wing Storm",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "Huiyu's Active Skills deal 70% more DMG."
+        "skill_desc": "Huiyu's Active Skills deals 70% more DMG."
       },
       {
-        "skill_name": "Wings of Grace",
+        "skill_name": "Neon Plumes",
         "skill_number": "Passive Skill 2",
-        "skill_desc": "Increases the ATK of Huiyu's carrier by 100."
+        "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
-        "skill_name": "Frosty Beak",
+        "skill_name": "Frost Beak",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Upon activating Huiyu's Active Skills, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time it is triggered."
+        "skill_desc": "Each time Huiyu casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Triggering this effect again will renew its duration."
       },
       {
-        "skill_name": "Soul Enters the Gate",
+        "skill_name": "Freezing Soul",
         "skill_number": "Passive Skill 4",
         "skill_desc": "Increases the carrier's Ice DMG by 10%."
       },
       {
-        "skill_name": "The Song of the Dragon's Child in Battle",
+        "skill_name": "Battle Song of Dragon Children",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Qu: Shukra performs Rimy Valediction or Tor Invocation while carrying Huiyu, ATK increases by 30% for 5s. When Qu: Shukra begins Sovereign's Accession, Huiyu is summoned to perform coordinated attack, dealing 2500% Ice DMG."
+        "skill_desc": "When Qu: Shukra casts Will Bearer or Mountain Caller with Huiyu equipped, her ATK will increase by 30% for 5s. When Enthronement begins, she will summon Huiyu to launch a joint attack, dealing 2500% Ice DMG."
       }
     ]
   },
