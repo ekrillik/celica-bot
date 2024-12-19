@@ -1512,5 +1512,60 @@
         "skill_desc": "When Ishmael: Parhelion casts the 4th hit of **Phantom Abysm** with Zhu Ling equipped, summons Zhu Ling to launch a joint attack that deals **500%** Nihil DMG 6 times. Upon obtaining a Mark of Collapse, ATK increases by **40%** for 5s. The duration resets each time it is triggered."
       }
     ]
+  },
+  "billy": {
+    "name": "Billy\n<:s_rank:1287636749052412026><:dark_element:1290613554923438102>",
+    "sig_character": "Lilith: Daemonissa",
+    "base_rank": "S",
+    "cub_type": "Gather, Damage",
+    "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3chiprobot1.png",
+    "skills_list": [
+      "Wheel of Fortune",
+      "Dance of Yesterday",
+      "Disorienting Spotlight",
+      "Drunken Blues",
+      "Extravagant Gifts",
+      "Favored by Fortune",
+      "Goodnight, Los Prados"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Wheel of Fortune",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Billy leaps into the air and fires at the target, dealing 225% Dark DMG 9 times."
+      },
+      {
+        "skill_name": "Dance of Yesterday",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Billy summons a spinning roulette from above that gathers nearby enemies and deals 150% Dark DMG 9 times. Afterwards, the roulette overloads and explodes to deal 650% Dark DMG 1 time."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Disorienting Spotlight",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Billy's Active Skill deals 70% more DMG"
+      },
+      {
+        "skill_name": "Drunken Blues",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Extravagant Gifts",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Billy casts an Active Skill, increases the carrier's Extra DMG Bonus by 5% for 8s. Duration resets each time it is triggered."
+      },
+      {
+        "skill_name": "Favored by Fortune",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Dark DMG by 10%. When Lilith has a Trickery Mark, increases Lightning DMG by 10%."
+      },
+      {
+        "skill_name": "Goodnight, Los Prados",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Lilith enters **Carnival Game** with Billy equipped, casting **Twilight's Embrace** or **Delusive Mirage** for the first time will summon Billy to launch a joint attack, dealing 3000% Dark DMG 1 time. Base DMG of **Disenchanting Reveal** increases by 15%; when Card Rank is at **C/B/A/S/SS**, Base DMG increases by an additional 2%/4%/6%/8%/10%."
+      }
+    ]
   }
 }

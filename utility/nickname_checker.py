@@ -330,6 +330,11 @@ def check_nickname(nickname, caller):
             weapon = "epochal authority"
             cub = "zhu ling"
             memory = "sothoth"
+        case "daemonissa":
+            character = "daemonissa"
+            weapon = "lament of night's debauchery"
+            cub = "billy"
+            memory = "barcelo"
 
         case _:
             if(caller == "character"):
@@ -741,6 +746,11 @@ def character_theme(nickname):
             colour = 0xf5b8d7
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr3cibeizhe2q.png"
             thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr3cibeizhe3.png"
+        case "daemonissa":
+            name = "Lilith: Daemonissa"
+            colour = 0x5e40b4
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr3lilith2q.png"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr3lilith3.png"
         case _:
             name = ""
             colour = ""

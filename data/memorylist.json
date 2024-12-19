@@ -72,7 +72,9 @@
     "liston",
     "heraclitus",
     "wilde",
-    "herschel"
+    "herschel",
+    "sothoth",
+    "barcelo"
   ],
   "memories_categorised": [
     { "type": "Two Star Memories", "memories": ["Merli ##"] },
@@ -180,7 +182,8 @@
         "Heraclitus ######",
         "Wilde ######",
         "Herschel ######",
-        "Sothoth ######"
+        "Sothoth ######",
+        "Barcelo ######"
       ]
     }
   ]

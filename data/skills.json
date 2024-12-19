@@ -12440,6 +12440,285 @@
       ]
     }
   },
+  "daemonissa": {
+    "basic_attack": [
+      {
+        "name": "Beguiling Exile - Umbrella Strike",
+        "button_press": "Tap Basic Attack",
+        "switch_in": "no",
+        "description": "Attacks with her umbrella, dealing **{0}%** Dark DMG in total.",
+        "desc_lv18": [590]
+      },
+      {
+        "name": "Beguiling Exile - Sidestep Sweep",
+        "button_press": "Dodge + Tap Basic Attack",
+        "switch_in": "no",
+        "description": "Unleashes phantom cards to attack, dealing **{0}%** Dark DMG. Afterwards, continues from the 4th hit of Basic Attack.",
+        "desc_lv18": [100]
+      },
+      {
+        "name": "Beguiling Exile - Twilight's Embrace",
+        "button_press": "During Carnival Game + At Least 3 Yellow Orbs + Hold Basic Attack",
+        "switch_in": "no",
+        "description": "Taunts the enemy and attacks with **Startling Daylight** to deal Electroconvergence DMG and gain a **Trickery Mark**, then continuously consumes Yellow Orbs to cast **Bewildering Pivot**, dealing Electroconvergence DMG, gaining Electric Charge Points, Signature Energy, and increasing the **Card Rank**. Gain Super Armor and DMG Reduction during this period, and triggers Matrix if not on cooldown.",
+        "result": [
+          "- **Startling Daylight** deals **{0}%** Electroconvergence DMG and heals Lilith for **{1}%** of ATK. Gain a **Trickery Mark**, 160 Electric Charge points, 10 Signature Energy, and Super Armor and 60% DMG reduction during the casting period.",
+          "- Every Orb consumed unleashes one instance of **Bewildering Pivot**, dealing **{2}%** Electroconvergence DMG. Gain 10 Signature Energy, 120 Electric Charge points, and Super Armor and 60% DMG Reduction during the casting period."
+        ],
+        "res_lv18": [390, 20, 233.34],
+        "result2": [
+          "- When Basic Attack is released or Yellow Orbs are depleted, casts **Silence's Return**, dealing **{0}%** Electroconvergence DMG. Lilith is invincible during this period but temporarily unable to cast **Invitation to Wildest Riches**. If **Bewildering Pivot** is successively cast 6 times, **Silencing Finish** will be automatically cast immediately and deal **{1}%** Electroconvergence DMG. Gain an extra 60 Signature Energy and 120 Electric Charge points, and increases **Card Rank** by 2.",
+          "- For every 3 Signal Orbs pinged during **Twilight's Embrace**, increases **Card Rank** by 1 after casting **Silencing Finish**.",
+          "- The **Trickery Mark** lasts for 15s. The duration is refreshed upon exiting the battlefield."
+        ],
+        "res2_lv18": [390, 1400]
+      },
+      {
+        "name": "Beguiling Exile - Roundabout",
+        "button_press": "Matrix not on cooldown + Tap Dodge without moving Joystick",
+        "switch_in": "no",
+        "description": "Blocks an incoming attack with the Moon Umbrella, triggering Matrix if successful and it is not on cooldown. Afterwards, tap Basic Attack to counterattack and deal Dark DMG.",
+        "result": ["- Deals {0}% Dark DMG."],
+        "res_lv18": [60]
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Delusive Mirage - Vanishing Act",
+        "button_press": "Tap Red Orb - Vanishing Act",
+        "switch_in": "no",
+        "description": "Rushes to the enemy, dealing Dark DMG, gathering enemies, gaining Super Armor and 60% DMG Reduction during this period, and triggering Matrix if not on cooldown.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged from **Spindle**."
+        ],
+        "res_lv18": [400, 800, 1200]
+      },
+      {
+        "name": "Delusive Mirage - Steady Focus",
+        "button_press": "Tap Red Orb - Steady Focus",
+        "switch_in": "no",
+        "description": "Swings her Moon Umbrella at the enemy, dealing Dark DMG, gathering enemies, gaining Super Armor and 60% DMG Reduction during this period, and triggering Matrix if not on cooldown.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged from **Flourish**."
+        ],
+        "res_lv18": [700, 1400, 2100]
+      },
+      {
+        "name": "Delusive Mirage - Mindbreak",
+        "button_press": "Tap Red Orb - Mindbreak",
+        "switch_in": "no",
+        "description": "Darts back and forth through the enemy, dealing Dark DMG, gathering enemies, increasing **Card Rank**, and gaining **invincibility**, and triggering Matrix if not on cooldown. Lilith is temporarily unable to cast **Invitation to Wildest Riches**.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged from **Shattered Facade**. If **Shattered Facade** is cast as a 3-Ping, increases **Card Rank** by an extra **2**."
+        ],
+        "res_lv18": [1600, 3200, 4800]
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Cunning Trick - Spindle",
+        "button_press": "Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "Launches a phantom card, dealing Dark DMG and entering **Spindle Combo**.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [180, 360, 540]
+      },
+      {
+        "name": "Cunning Trick - Flourish",
+        "button_press": "During Spindle Combo + Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "Transforms phantom cards into a blade, exiting **Spindle Combo**, dealing Dark DMG, and entering **Flourish Combo**.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged.",
+          "- Gain an additional 10 Signature Energy during a 3-Ping."
+        ],
+        "res_lv18": [500, 1000, 1500]
+      },
+      {
+        "name": "Cunning Trick - Shattered Facade",
+        "button_press": "During Flourish Combo + Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "Kicks the enemy, dealing Dark DMG and exiting **Flourish Combo**.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged.",
+          "- Gain an additional 10 Signature Energy during a 3-Ping."
+        ],
+        "res_lv18": [600, 1200, 1800]
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Waltz of Devastation - Twister",
+        "button_press": "Tap Blue Orb",
+        "switch_in": "no",
+        "description": "Tosses her magician's hat and enters **Twister Combo**, gathering enemies, dealing Dark DMG, and gaining Yellow Orbs.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG and gains 1/2/3 Yellow Orbs based on the number of orbs pinged, adding them to the upper Signal Orb lineup."
+        ],
+        "res_lv18": [100, 200, 300]
+      },
+      {
+        "name": "Waltz of Devastation - Advance",
+        "button_press": "During Twister Combo + Tap Blue Orb",
+        "switch_in": "no",
+        "description": "Unleashes the hat to continuously attack the enemy, exiting **Twister Combo** and dealing Dark DMG. Gain Super Armor and 50% DMG Reduction during this skill. Gain Yellow Orbs and Signature Energy.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG and gains 1/2/3 Yellow Orbs based on the number of orbs pinged, adding them to the upper Signal Orb lineup.",
+          "- Gain an extra 20 Signature Energy upon casting. This effect can only be triggered once per entry to the field. Casting **Disenchanting Reveal** will refresh the effect."
+        ],
+        "res_lv18": [280, 560, 840]
+      }
+    ],
+    "core_passive": {
+      "name": "Bewitching Magic Show",
+      "skills": [
+        {
+          "name": "Pursuit",
+          "button_press": "",
+          "description": [
+            "Casting **Cunning Trick** immediately grants a Red Orb. Only 1 Red Orb can be stored at a time. After a Yellow 3-Ping and casting **Delusive Mirage**, increases **Card Rank** and gain Signature Energy."
+          ],
+          "result": [
+            "- When 3 Yellow Orbs are pinged for **Spindle**/**Flourish**/**Shattered Facade**, stores 20/20/30 stackable Energy for the next **Delusive Mirage**, up to 70. The amount is cleared after exiting **Carnival Game**.",
+            "- After a Yellow 3-Ping, the next **Delusive Mirage** will increase Card Rank by 1.",
+            "- After casting **Spindle**/**Flourish**/**Shattered Facade**, obtain **Red Orb - Vanishing Act/Red Orb - Steady Focus/Red Orb - Mindbreak**. Only 1 Red Orb can be stored at a time. When another Red Orb is obtained, casts a skill based on the last Yellow Orb, and refreshes the Red Orb type. If **Red Orb - Mindbreak** is held, it will not be refreshed until pinged."
+          ]
+        },
+        {
+          "name": "Stroke of Luck",
+          "button_press": "",
+          "description": [
+            "Allies healed by Lilith: Daemonissa gain buff effects. Casting **Invitation to Wildest Riches** immediately heals Lilith."
+          ],
+          "result": [
+            "- Allies healed by Lilith: Daemonissa gain the **Dark Radiation** effect that increases Dark DMG by 20% for 8s. Repeated triggering refreshes the duration.",
+            "- If Lilith: Daemonissa has a **Trickery Mark**, gain the **Lightning Surge** effect that increases Lightning DMG by 20% for 8s instead. Repeated triggering refreshes the duration.",
+            "- Casting **Invitation to Wildest Riches** immediately heals Lilith for **{0}%** of ATK."
+          ],
+          "res_lv18": [40]
+        },
+        {
+          "name": "Shadow Stack",
+          "button_press": "",
+          "description": [
+            "If the team is in Electric Storm state, Lilith is regarded to have a **Trickery Mark**."
+          ]
+        },
+        {
+          "name": "Flash of Cards",
+          "button_press": "",
+          "description": [
+            "Lilith: Daemonissa automatically gains 1 Signal Orb upon triggering Matrix."
+          ],
+          "result": [
+            "- During **Carnival Game**, obtain a Yellow Orb. Outside of **Carnival Game**, obtain a Blue Orb."
+          ]
+        },
+        {
+          "name": "Affix: Electroconvergence",
+          "button_press": "",
+          "description": [
+            "Effect Resource: Maximum points of Ampere Accumulation: 1000."
+          ],
+          "result": [
+            "- When the Effect is triggered: Characters with the Electroconvergence Effect enter the Electronic Blast state and causes lightning to fall around themselves, dealing 800% Electroconvergence DMG every 2s for 12s (this cannot trigger the Tank Class passive)."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Invitation to Wildest Riches",
+      "skills": [
+        {
+          "name": "Night Encounter",
+          "button_press": "Outside of Carnival Game + 55 Energy + Tap Signature",
+          "description": [
+            "Flourishes a hand of cards and enters **Carnival Game**, drawing out **5 Trump Cards** and dealing Dark DMG. Yellow Orbs will be moved to the Signal Orb lineup. Gain 3 extra Yellow Orbs, up to 9 per entry. Time Lag Calculation is triggered during this skill."
+          ],
+          "result": ["- Deals **{0}%** Dark DMG."],
+          "res_lv18": [750]
+        },
+        {
+          "name": "Disenchanting Reveal",
+          "button_press": "During Carnival Game + 130 Energy + Tap Signature ",
+          "description": [
+            "Flings all of her phantom cards, dealing Dark DMG and exiting **Carnival Game**. The Base DMG increases based on **Card Rank**. Time Lag Calculation is triggered during this skill. Afterwards, leaves behind an **After-Party Field** that restores HP to allies within and converts unused Yellow/Red Orbs to an equal number of Blue Orbs."
+          ],
+          "result": [
+            "- Deals **{0}%** Dark DMG.",
+            "- If Lilith has a **Trickery Mark**, deals **{1}%** Ionization DMG instead and then clears the Trickery Mark. If Electric Charge reaches the maximum when the skill is cast, activates Electric Storm state.",
+            "- When **Card Rank** is at **C/B/A/S/SS**, Base DMG of **Disenchanting Reveal** increases by **175%/200%/225%/250%/275%**.",
+            "- Leaves behind an **After-Party Field** that lasts 12s, healing allies for **{2}%** of Lilith: Daemonissa's ATK per second."
+          ],
+          "res_lv18": [1375, 475, 12]
+        }
+      ]
+    },
+    "qte": {
+      "name": "Blessings of Gold",
+      "description": "Deals damage and heals.",
+      "result": [
+        "- Deals **{0}%** Dark DMG in total.",
+        "- If Lilith has a **Trickery Mark**, deals **{1}%** Electroconvergence DMG instead.",
+        "- Heals for **{2}%** of ATK."
+      ],
+      "res_lv18": [600, 600, 100]
+    },
+    "leader": {
+      "name": "House of Cards",
+      "description": "All members' ATK increases by 10%. Amplifiers' Dark DMG Bonus and Electroconvergence DMG Bonus increases by 5%."
+    },
+    "class": {
+      "name": "Amplifier",
+      "description": "All switched-in members gain an extra **{0}%** ATK and **{1}%** Elemental DMG Bonus of the Amplifier's element for 10s. If Lilith: Daemonissa has a **Trickery Mark**, her Element is regarded as Lightning.",
+      "desc_lv18": [20, 20]
+    },
+    "ss_rank": {
+      "name": "Fairytale of Captivity",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Casting **Twilight's Embrace**, **Delusive Mirage**, and **Disenchanting Reveal** will activate all available QTEs."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "When **Cunning Trick** consumes a cumulative total of 1-3/4-9 Signal Orbs, Base DMG of **Delusive Mirage** increases by 20%/3%, up to 78%. Effect resets after casing **Delusive Mirage** or **Disenchanting Reveal**. For every 1 Yellow Orb consumed by **Twilight's Embrace**, Base DMG of **Twilight's Embrace - Silencing Finish** increases by 20%."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Truth-Shattering Allegory",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Increases the **Dark Radiation** effect granted to allies healed by Lilith by 10%. If Lilith has a **Trickery Mark**, increases the **Lightning Surge** effect granted to allies healed by 10%. Base DMG of **Cunning Trick** increases by 120%. Base DMG of **Twilight's Embrace - Startling Daylight** and **Twilight's Embrace - Bewildering Pivot** increases by 80%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "All member switch-ins reset the cooldown of QTE skills. Increases the **Dark Radiation** effect granted to allies healed by Lilith by 10%. If Lilith has a **Trickery Mark**, increases the **Lightning Surge** effect granted to allies healed by 10%. Casting **Disenchanting Reveal** deals an additional 190% Dark DMG 4 times, or 70% Ionization DMG if there is a **Trickery Mark**; when **Card Rank** is at **C/B/A/S/SS**, adds an extra 3/4/5/6/8 instances of damage."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Final Act's Fantasia",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of **Delusive Mirage** and **Twilight's Embrace - Silencing Finish** increase by 50%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of **Cunning Trick**, **Twilight's Embrace - Startling Daylight** and **Twilight's Embrace - Bewildering Pivot** increase by 50%."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of **Invitation to Wildest Riches** increases by 45%."
+        }
+      ]
+    }
+  },
   "placeholder": {
     "basic_attack": [
       {

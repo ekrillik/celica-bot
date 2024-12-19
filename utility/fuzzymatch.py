@@ -165,6 +165,8 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "startrail"
         case "ishmael parhelion" | "ishmael" | "parhelion" | "ish" | "changli" | "mother" | "space god" | "god" | "god in the flesh":
             character = "parhelion"
+        case "lilith daemonissa" | "lilith" | "daemonissa" | "maso" | "masochist":
+            character = "daemonissa"
         # Boss nicknames
         case "mado":
             boss = "madorea"

@@ -65,7 +65,8 @@
     "pyroath",
     "fulgor",
     "startrail",
-    "parhelion"
+    "parhelion",
+    "daemonissa"
   ],
   "formatted": [
     {
@@ -309,6 +310,10 @@
         {
           "emojis": "<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:physical_element:1290613978057146379>",
           "full_name": "Alisa: Echo"
+        },
+        {
+          "emojis": "<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:dark_element:1290613554923438102><:electroconvergence:1288090218922119181>",
+          "full_name": "Lilith: Daemonissa"
         }
       ]
     },

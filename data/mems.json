@@ -842,5 +842,16 @@
     "def": 223,
     "crit": 66,
     "hp": 1491
+  },
+  "barcelo": {
+    "name": "Barcelo",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/ebarceloi01001sp.png",
+    "rarity": 6,
+    "2pc": "ATK increases by 7%. Dark DMG and Lightning DMG increase by 3%.",
+    "4pc": "Doubles the Base DMG of Invitation to Wildest Riches.",
+    "atk": 132,
+    "def": 223,
+    "crit": 66,
+    "hp": 1491
   }
 }
