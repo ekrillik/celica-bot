@@ -12182,8 +12182,8 @@
         "name": "Arcane Submergence - Amplifier State",
         "button_press": "",
         "switch_in": "no",
-        "description": "**Fire**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Ice**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "description2": "**Lightning**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Dark**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+        "description": "**Fire**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Ice**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "description2": "**Lightning**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Dark**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
       }
     ],
     "yellow_orb": [
@@ -12351,12 +12351,12 @@
           "name": "Amplifier State",
           "button_press": "",
           "description": [
-            "**Fire**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-            "**Ice**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+            "**Fire**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+            "**Ice**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
           ],
           "description2": [
-            "**Lightning**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-            "**Dark**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+            "**Lightning**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+            "**Dark**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
           ]
         }
       ]
@@ -12378,10 +12378,10 @@
       ],
       "extra2_title": "**Amplifier State**",
       "extra2": [
-        "**Fire**: Heals allies for 100% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "**Ice**: Heals allies for 100% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "**Lightning**: Heals allies for 100% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "**Dark**: Heals allies for 100% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+        "**Fire**: Heals allies for 100% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "**Ice**: Heals allies for 100% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "**Lightning**: Heals allies for 100% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "**Dark**: Heals allies for 100% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
       ]
     },
     "leader": {
@@ -12390,8 +12390,8 @@
     },
     "class": {
       "name": "Observer",
-      "description": "Gain different abilities based on the **Observation Chronicle**:\n- When Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for **5**s.\n- When Amplifier: All switched-in members gain an extra **{1}%** ATK and **{2}%** Elemental DMG Bonus of Ishmael: Parhelion's element for **10**s.",
-      "desc_lv18": [20, 10, 10]
+      "description": "Gain different abilities based on the **Observation Chronicle**:\n- When Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for **5**s.\n- When Dark Amplifier: All switched-in members gain an extra **{1}%** ATK and **{2}%** Elemental DMG Bonus of Ishmael: Parhelion's element for 10s.\n- When Amplifier: All switched-in members gain an extra **{3}%** ATK and **{4}%** Elemental DMG Bonus of Ishmael: Parhelion's element for **10**s.",
+      "desc_lv18": [20, 20, 20, 10, 10]
     },
     "ss_rank": {
       "name": "Inspiring Roll of Dice",
@@ -12418,7 +12418,7 @@
           "desc": "**Gravitational Collapse Points**' damage amplification effect increases by **50%**. During the 5th hit of **Phantom Abysm**, you can input one 3-Ping to deal an additional **1000%** Nihil DMG and gain **180 Gravitational Collapse Points**. Enhances the special abilities triggered based on the **Observation Chronicle**. Base DMG efficiency increase against **Equilibrium Fields** increases to **150%**.",
           "extra1": "**Tank State**\n**Fire**: **Unlocked at SS3**: **Scorching Invasion** and **Collapse Singularity** effects increases by **10%**.\n**Unlocked at SSS**: **Scorching Invasion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Ice**: **Unlocked at SS3**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.",
           "extra2": "**Lightning**:**Unlocked at SS3**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Turbulence Interference** and **Collapse Singularity** effects increases by **10%**. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Dark**: **Unlocked at SSS**: Chain Fusion and Collapse Singularity effects increases by **10%**.",
-          "extra3": "**Amplfier State**\n**Fire**: Unlocked at SSS:  Amplifier Class Skill effect increases by **100%**.\n**Ice**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**.\n**Dark**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**"
+          "extra3": "**Amplfier State**\n**Fire**: Unlocked at SSS:  Amplifier Class Skill effect increases by **100%**.\n**Ice**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**.\n**Dark**: **Unlocked at SS3**: **Dark Radiation** and **Void Disintegration** effects increases by 10%.\n**Unlocked at SSS**: **Dark Radiation** and **Void Disintegration** effects increases by 10%. All member switch-ins reset the cooldown of QTE skills."
         }
       ]
     },
