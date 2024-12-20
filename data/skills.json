@@ -12390,7 +12390,7 @@
     },
     "class": {
       "name": "Observer",
-      "description": "Gain different abilities based on the **Observation Chronicle**:\n- When Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for **5**s.\n- When Dark Amplifier: All switched-in members gain an extra **{1}%** ATK and **{2}%** Elemental DMG Bonus of Ishmael: Parhelion's element for 10s.\n- When Amplifier: All switched-in members gain an extra **{3}%** ATK and **{4}%** Elemental DMG Bonus of Ishmael: Parhelion's element for **10**s.",
+      "description": "Gain different abilities based on the **Observation Chronicle**:\n- When Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for **5**s.\n- When Dark Amplifier: All switched-in members gain an extra **{1}%** ATK and **{2}%** Elemental DMG Bonus of Ishmael: Parhelion's element for 10s.\n- All other Amplifiers: All switched-in members gain an extra **{3}%** ATK and **{4}%** Elemental DMG Bonus of Ishmael: Parhelion's element for **10**s.",
       "desc_lv18": [20, 20, 20, 10, 10]
     },
     "ss_rank": {
