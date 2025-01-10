@@ -21,7 +21,6 @@ class MyBot(commands.Bot):
 
     def __init__(self, prefix: str, ext_dir: str, *args: typing.Any, **kwargs: typing.Any) -> None:
         intents = discord.Intents.default()
-        intents.members = True
         intents.message_content = True
         super().__init__(*args, **kwargs, command_prefix=prefix, intents=intents, help_command=None)
         self.logger = logging.getLogger(self.__class__.__name__)
