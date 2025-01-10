@@ -982,12 +982,12 @@
       {
         "skill_name": "Night Laser",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Dawn Chorus will fire a laser at the Enemy, dealing 1500% Physical DMG."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Dawn Chorus will fire a laser at the Enemy, dealing 1500% DMG."
       },
       {
         "skill_name": "Flash Assault",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Dawn Chorus will charge toward the enemy from a distance in mid-air, dealing 1250% Physical DMG while granting the equipped character super armor for 3s, and shield equal to 200% of the CUB's ATK for 10s."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Dawn Chorus will charge toward the enemy from a distance in mid-air, dealing 1250% DMG while granting the equipped character super armor for 3s, and shield equal to 200% of the CUB's ATK for 10s."
       }
     ],
     "passive_skills": [
@@ -1092,12 +1092,12 @@
       {
         "skill_name": "Wide-Area Sound Waves",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Shadow Wing will release sound waves to deal damageand pull in nearby enemies, dealing 1650% Fire DMG."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Shadow Wing will release sound waves to deal damageand pull in nearby enemies, dealing 1650% DMG."
       },
       {
         "skill_name": "Proximity Interference",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Shadow Wing will start to circle, granting the equipped character Shield equal to 200% of its ATK. At the end of the flight, Shadow Wing will spread its wings and deal 750% Fire DMG twice to the area around the target."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Shadow Wing will start to circle, granting the equipped character Shield equal to 200% of its ATK. At the end of the flight, Shadow Wing will spread its wings and deal 750% DMG twice to the area around the target."
       }
     ],
     "passive_skills": [
@@ -1147,12 +1147,12 @@
       {
         "skill_name": "Emerald Wings",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Huiyu will quickly dive to the target and hover around them, dealing 1500% Ice DMG and pulling in nearby enemies."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Huiyu will quickly dive to the target and hover around them, dealing 1500% DMG and pulling in nearby enemies."
       },
       {
         "skill_name": "Chilling Plumes",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Huiyu will teleport above the target, spreading its wings and summoning ice spikes before the target. Then, Huiyu will flap its wings to launch ice spikes, dealing 600% Ice DMG 3 times."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Huiyu will teleport above the target, spreading its wings and summoning ice spikes before the target. Then, Huiyu will flap its wings to launch ice spikes, dealing 600% DMG 3 times."
       }
     ],
     "passive_skills": [
@@ -1183,58 +1183,58 @@
       }
     ]
   },
-  "su e": {
-    "name": "Su E\n<:s_rank:1287636749052412026><:void_element:1285900049909284864>",
+  "guardrake": {
+    "name": "Guardrake\n<:s_rank:1287636749052412026><:void_element:1285900049909284864>",
     "sig_character": "Oblivion",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3dragon1.webp",
     "skills_list": [
-      "Malefic Exhalation",
-      "Obliterating Ire",
-      "Dread Incarnate",
-      "Ruinous Fire",
-      "Incinerated Sky",
-      "Sunless Void",
-      "Apokálypsis Selenes Eskhátes"
+      "Abyssal Breath",
+      "Furious Annihilation",
+      "Menacing Form",
+      "Dominating Calamity",
+      "Crimson Ember",
+      "Dark Nihility",
+      "Retribution of Eclipse"
     ],
     "active_skills": [
       {
-        "skill_name": "Malefic Exhalation",
+        "skill_name": "Abyssal Breath",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Su E will breathe draconic flame from above, dealing 750% DMG, slowing the target for 3s, and dealing 250% DMG every second."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After castin, Guardrake will unleash Dragon Breath from above the target, dealing 750% DMG and slowing the enemy unit for 3s. During this, the target hit will take 250% DMG every second."
       },
       {
-        "skill_name": "Obliterating Ire",
+        "skill_name": "Furious Annihilation",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Su E will dive towards the target, dealing 1800% DMG."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Guardrake will take off and dive toward the target, dealing 1800% DMG."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Dread Incarnate",
+        "skill_name": "Menacing Form",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "Su E's Active Skills deal 70% more DMG."
+        "skill_desc": "Guardrake's Active Skills deal 70% more DMG."
       },
       {
-        "skill_name": "Ruinous Fire",
+        "skill_name": "Dominating Calamity",
         "skill_number": "Passive Skill 2",
-        "skill_desc": "Increases the ATK of Su E's carrier by 100."
+        "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
-        "skill_name": "Incinerated Sky",
+        "skill_name": "Crimson Ember",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Upon activating Su E's Active Skills, the carrier's Extra DMG Bonus will increase by 5% for 8s. Duration resets every time it is triggered."
+        "skill_desc": "Each time Guardrake casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Triggering this effect again will renew its duration."
       },
       {
-        "skill_name": "Sunless Void",
+        "skill_name": "Dark Nihility",
         "skill_number": "Passive Skill 4",
         "skill_desc": "Increases the carrier's Nihil DMG by 10%."
       },
       {
-        "skill_name": "Apokálypsis Selenes Eskhátes",
+        "skill_name": "Retribution of Eclipse",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Luna: Oblivion performs Original Retribution or Final Retribution while carrying Su E, the CUB is summoned to perform a coordinated attack, dealing 2500% Nihil DMG and increasing all amplification effects granted by Apocalyptic Moonlight by 25%."
+        "skill_desc": "When Luna: Oblivion casts Incipient Retribution or Final Retribution with Guardrake equipped, she will summon Guardrake to launch a joint attack, dealing 2500% Nihil DMG. The overall amplification effect of Eclipse Points increases by 25%."
       }
     ]
   },
@@ -1564,7 +1564,7 @@
       {
         "skill_name": "Goodnight, Los Prados",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Lilith enters **Carnival Game** with Billy equipped, casting **Twilight's Embrace** or **Delusive Mirage** for the first time will summon Billy to launch a joint attack, dealing 3000% Dark DMG 1 time. Base DMG of **Disenchanting Reveal** increases by 15%; when Card Rank is at **C/B/A/S/SS**, Base DMG increases by an additional 2%/4%/6%/8%/10%."
+        "skill_desc": "When Lilith enters **Carnival Game** with Billy equipped, casting **Twilight's Embrace** or **Delusive Mirage** for the first time will summon Billy to launch a joint attack, dealing 3000% Dark DMG 1 time. Base DMG of **Disenchanting Reveal** increases by 75%; when Card Rank is at **C/B/A/S/SS**, Base DMG increases by an additional 10%/20%/30%/40%/50%."
       }
     ]
   }

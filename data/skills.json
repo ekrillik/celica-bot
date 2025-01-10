@@ -637,7 +637,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Allies within the ion field created by EX Lightning Lure gain Lightning Surge that increases their Lightning DMG.\n- Lightning Surge increases Lightning DMG of allies by 20%."
+          "desc": "Allies within the ion field created by EX Lightning Lure gain **Lightning Surge** that increases their Lightning DMG.\n- **Lightning Surge** increases Lightning DMG of allies by 20%."
         }
       ]
     },
@@ -1335,14 +1335,14 @@
       {
         "name": "Spiritual Prayer Dance",
         "description": [
-          "[QTE - Heroic Dance] heals 20% more HP and grants Ultralimit Torque to the targets healed, increasing their Physical DMG Bonus by 10% for 8s. Its duration will reset every time it is triggered."
+          "[QTE - Heroic Dance] heals 20% more HP and grants **Ultralimit Torque** to the targets healed, increasing their Physical DMG Bonus by 10% for 8s. Its duration will reset every time it is triggered."
         ],
         "level9": [
           "**Level 9**: [QTE - Heroic Dance] triggers an additional Light Penalty of Core Passive's level"
         ],
         "level18": [
           "**Level 18**: [QTE - Heroic Dance] grants 12 Energy after triggering Light Penalty.",
-          "[Passive - Field Reinforcement] New Effect: The effect of Ultralimit Torque increases to 20%."
+          "[Passive - Field Reinforcement] New Effect: The effect of **Ultralimit Torque** increases to 20%."
         ]
       },
       {
@@ -1351,7 +1351,7 @@
           "[Goddess Connection System] will trigger an additional Light Penalty upon a 3-Ping. After Light Penalty has been triggered 4 times, the next Light Penalty triggered will become Divine Penalty, dealing 400% DMG. [Passive - Pioneer of Glory] also increases Divine Penalty's DMG as it does to Light Penalty."
         ],
         "level9": [
-          "**Level 9**: [Goddess Connection System] has a 50% chance to trigger Light Penalty and the targets healed will be granted Ultralimit Torque."
+          "**Level 9**: [Goddess Connection System] has a 50% chance to trigger Light Penalty and the targets healed will be granted **Ultralimit Torque**."
         ],
         "level18": [
           "**Level 18**: Liv: Luminance increases the CRIT DMG of the targets healed by 20%. Triggering Light Penalty and Divine Penalty will increase the next deployed character's CRIT Rate by 5% and 25% respectively for 10s until it reaches its maximum at 75%. [Passive - Pioneer of Glory] New Effect: Liv: Luminance gains 100 Energy upon entering the battlefield for the first time."
@@ -1946,10 +1946,10 @@
     },
     "qte": {
       "name": "Chain Spin",
-      "description": "Spins and cuts the targets as he enters the battlefield, dealing Dark DMG and inflicting them with  Chain Fusion, reducing their Dark Resistance.",
+      "description": "Spins and cuts the targets as he enters the battlefield, dealing Dark DMG and inflicting them with  **Chain Fusion**, reducing their Dark Resistance.",
       "result": [
         "- Deals **{0}%** Dark DMG in total.",
-        "- Chain Fusion reduces the target's Dark Resistance by **{1}%** for 6s."
+        "- **Chain Fusion** reduces the target's Dark Resistance by **{1}%** for 6s."
       ],
       "res_lv18": [580, 10]
     },
@@ -1967,7 +1967,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Dark Form grants  20% Extra DMG Reduction. Kamui: Tenebrion applies  Chain Fusion on targets damaged by him. The Resistance Reduction of Chain Fusion increases by 15%."
+          "desc": "Dark Form grants  20% Extra DMG Reduction. Kamui: Tenebrion applies  **Chain Fusion** on targets damaged by him. The Resistance Reduction of **Chain Fusion** increases by 15%."
         }
       ]
     },
@@ -2864,11 +2864,11 @@
           "name": "Core Passive",
           "button_press": "Last hit of Basic Attack / Any 3-Ping / Cast Signature Move / Cast QTE + Pick up Energy Ball",
           "description": [
-            "Sophia: Silverfang drops an Energy Ball after any of the following: the last hit of Basic Attack, dealing damage with a 3-Ping skill, casting Signature Move, or casting QTE. Picking up an Energy Ball heals all the allies within range and grants  Fire Tempered, increasing Fire DMG. Whenever an Energy Ball is picked up, Sophia: Silverfang gains Energy and Heat. Her ATK increases based on the current Heat."
+            "Sophia: Silverfang drops an Energy Ball after any of the following: the last hit of Basic Attack, dealing damage with a 3-Ping skill, casting Signature Move, or casting QTE. Picking up an Energy Ball heals all the allies within range and grants  **Fire Tempered**, increasing Fire DMG. Whenever an Energy Ball is picked up, Sophia: Silverfang gains Energy and Heat. Her ATK increases based on the current Heat."
           ],
           "result": [
             "- Picking up an Energy Ball heals all within range for HP equal to **{0}%** of Sophia: Silverfang's ATK.",
-            "- Fire Tempered increases the Fire DMG of the character who picked up the Energy Ball by **{1}%** for 5s.",
+            "- **Fire Tempered** increases the Fire DMG of the character who picked up the Energy Ball by **{1}%** for 5s.",
             "- Whenever an Energy Ball is picked up, Sophia: Silverfang gains 4 Energy and 75 Heat.",
             "- Sophia: Silverfang's ATK increases by 5% / 10% / 15% when her Heat is over 0 / 100 / 200."
           ],
@@ -2923,7 +2923,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Increases Sophia: Silverfang's  Fire Tempered effect by  10% for  5s when picking up an Energy Ball."
+          "desc": "Increases Sophia: Silverfang's  **Fire Tempered** effect by  10% for  5s when picking up an Energy Ball."
         }
       ]
     },
@@ -3030,11 +3030,11 @@
     },
     "qte": {
       "name": "Blue Bolt",
-      "description": "Upon entering the battlefield, blasts nearby targets to deal Lightning DMG and inflict them with Turbulent Interference that reduces their Lightning Resistance, then slams the Scythe to blast nearby targets, dealing Lightning DMG.",
+      "description": "Upon entering the battlefield, blasts nearby targets to deal Lightning DMG and inflict them with **Turbulence Interference** that reduces their Lightning Resistance, then slams the Scythe to blast nearby targets, dealing Lightning DMG.",
       "result": [
         "- The initial blast deals **{0}%** Lightning DMG to the targets.",
         "- The slam blast deals **{1}%** Lightning DMG to nearby targets.",
-        "- Turbulent Interference reduces the target's Lightning Resistance by **{2}%** for 6s."
+        "- **Turbulence Interference** reduces the target's Lightning Resistance by **{2}%** for 6s."
       ],
       "res_lv18": [250, 250, 10]
     },
@@ -3341,12 +3341,12 @@
           "name": "Signature Move",
           "button_press": "100 Energy + Tap Signature",
           "description": [
-            "Creates a dark field, dealing Dark DMG to nearby enemies. The dark field also deals Dark DMG every second and heals the ally units within. Ally units inside the dark field also gain the Dark Radiation effect and bonus movement speed. The dark field always moves with the character."
+            "Creates a dark field, dealing Dark DMG to nearby enemies. The dark field also deals Dark DMG every second and heals the ally units within. Ally units inside the dark field also gain the **Dark Radiation** effect and bonus movement speed. The dark field always moves with the character."
           ],
           "result": [
             "- Deals **{0}%** AOE Dark DMG upon casting.",
             "- The dark field deals **{1}%** Dark DMG and heals the ally units within for HP equal to **{2}%** of Vera: Rozen's ATK every second.",
-            "- Ally units within the dark field gain the Dark Radiation effect that increases their Dark DMG by 10% and 20% bonus movement speed.",
+            "- Ally units within the dark field gain the **Dark Radiation** effect that increases their Dark DMG by 10% and 20% bonus movement speed.",
             "-The dark field lasts 6s."
           ],
           "res_lv18": [320, 80, 16]
@@ -3355,10 +3355,10 @@
     },
     "qte": {
       "name": "Black Rose Impact",
-      "description": "Upon entering the battlefield, deals Dark DMG to nearby enemies and heals the ally units within range. Also grants them the  Dark Radiation effect that increases their Dark DMG.",
+      "description": "Upon entering the battlefield, deals Dark DMG to nearby enemies and heals the ally units within range. Also grants them the  **Dark Radiation** effect that increases their Dark DMG.",
       "result": [
         "- Deals **{0}%** Dark DMG to nearby enemies and heals the ally units within range for HP equal to **{1}%** of Vera: Rozen's ATK.",
-        "- Dark Radiation increases Dark DMG by 10% for 5s."
+        "- **Dark Radiation** increases Dark DMG by 10% for 5s."
       ],
       "res_lv18": [400, 100]
     },
@@ -3385,7 +3385,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Dark DMG Bonus of Vera: Rozen's  Dark Radiation increases to  20%."
+          "desc": "The Dark DMG Bonus of Vera: Rozen's  **Dark Radiation** increases to  20%."
         }
       ]
     },
@@ -3839,12 +3839,12 @@
         "name": "Air-Cracking Palm",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": "Hammers the ground to deal Physical DMG (Ice DMG instead on a 3-Ping) to all enemies within 4m. The palm strike will leave a Crystal Ice Mirror on the ground. The enemies inside the Crystal Ice Mirror have their movement speed decreased, and are affected by Frost Corrosion which reduces their Ice Resistance. A new Crystal Ice Mirror will replace the old one.",
+        "description": "Hammers the ground to deal Physical DMG (Ice DMG instead on a 3-Ping) to all enemies within 4m. The palm strike will leave a Crystal Ice Mirror on the ground. The enemies inside the Crystal Ice Mirror have their movement speed decreased, and are affected by **Frost Corrosion** which reduces their Ice Resistance. A new Crystal Ice Mirror will replace the old one.",
         "result": [
           "- The slam deals **{0}%** / **{1}%** / **{2}%** Physical DMG to the enemies based on the number of orbs pinged.",
           "- Enemies inside the Crystal Ice Mirror have their movement speed reduced by 30%.",
           "- Crystal Ice Mirror lasts 4 / 6 / 8s based on the number of orbs pinged.",
-          "- Frost Corrosion reduces the enemy's Ice Resistance by 5% and lasts 8s (the duration will refresh as long as the enemies are inside the Crystal Ice Mirror)."
+          "- **Frost Corrosion** reduces the enemy's Ice Resistance by 5% and lasts 8s (the duration will refresh as long as the enemies are inside the Crystal Ice Mirror)."
         ],
         "res_lv18": [100, 150, 200]
       }
@@ -3971,7 +3971,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Ice Resistance Reduction of Changyu: Qilin's Frost Corrosion increases to 10%. Air-Cracking Palm will increase his Ice DMG by 10% for  4 / 6 / 8s based on the number of orbs pinged."
+          "desc": "The Ice Resistance Reduction of Changyu: Qilin's **Frost Corrosion** increases to 10%. Air-Cracking Palm will increase his Ice DMG by 10% for  4 / 6 / 8s based on the number of orbs pinged."
         }
       ]
     },
@@ -4850,10 +4850,10 @@
       "name": "Hypnotic Gift",
       "description": "Hurls a frost grenade to slow enemies in the area briefly. Upon explosion, it deals Ice DMG and continuous Ice DMG afterward, while healing",
       "result": [
-        "allies in a large area and granting them Frost Crystal that increases their Ice DMG.",
+        "allies in a large area and granting them **Frost Crystal**l that increases their Ice DMG.",
         "- Grenade deals **{0}%** Ice DMG upon explosion and **{1}%** continuous Ice DMG in total.",
         "- Heals allies in a large area for HP equal to **{2}%** of Wanshi: Hypnos' ATK.",
-        "- Frost Crystal: Increases Ice DMG by 10% for 8s."
+        "- **Frost Crystal**l: Increases Ice DMG by 10% for 8s."
       ],
       "res_lv18": [360, 200, 100]
     },
@@ -4880,7 +4880,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Ice DMG Bonus of the  Frost Crystal effect from  Hypnotic Gift increases to  20%."
+          "desc": "The Ice DMG Bonus of the  **Frost Crystal**l effect from  Hypnotic Gift increases to  20%."
         }
       ]
     },
@@ -5141,10 +5141,10 @@
           "name": "Core Passive",
           "button_press": "Energy full + Press and hold Basic Attack",
           "description": [
-            "During battle, Chrome: Glory's HP is compressed to  40%, with the remaining  60% filled with  Glorious Shield that automatically regenerates over time. When he has full energy, press and hold Basic Attack to empty the  Glorious Shield capacity and activate  Frost Spirit form, rearranging all Signal Orbs. All 3-Pings made in this form will gain  Condensed Frost without consuming  Glorious Shield, but  Glorious Shield cannot automatically regenerate while  Frost Spirit is active. Chrome: Glory creates  Eroding Chill around himself, dealing Ice DMG to enemies periodically and inflicting them with  Frost Corrosion that reduces their Ice Resistance."
+            "During battle, Chrome: Glory's HP is compressed to  40%, with the remaining  60% filled with  Glorious Shield that automatically regenerates over time. When he has full energy, press and hold Basic Attack to empty the  Glorious Shield capacity and activate  Frost Spirit form, rearranging all Signal Orbs. All 3-Pings made in this form will gain  Condensed Frost without consuming  Glorious Shield, but  Glorious Shield cannot automatically regenerate while  Frost Spirit is active. Chrome: Glory creates  Eroding Chill around himself, dealing Ice DMG to enemies periodically and inflicting them with  **Frost Corrosion** that reduces their Ice Resistance."
           ],
           "result": [
-            "- Frost Corrosion: Deals **{0}%** Ice DMG to enemies every 0.5s and reduces their Ice Resistance by 15% for 8s. Triggering this effect again will renew its duration."
+            "- **Frost Corrosion**: Deals **{0}%** Ice DMG to enemies every 0.5s and reduces their Ice Resistance by 15% for 8s. Triggering this effect again will renew its duration."
           ],
           "res_lv18": [150]
         }
@@ -5193,7 +5193,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The effect of Chrome: Glory's  Frost Corrosion increases by  10%. Triggering  Condensed Frost also recovers  100% of  Glorious Shield and increases self ATK by  10% for  5s."
+          "desc": "The effect of Chrome: Glory's  **Frost Corrosion** increases by  10%. Triggering  Condensed Frost also recovers  100% of  Glorious Shield and increases self ATK by  10% for  5s."
         }
       ]
     },
@@ -5373,7 +5373,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When creating a Twilight Matrix, grants allies on the field  20% Extra DMG Reduction and  25% Extra Dodge Gauge Recovery Speed for  2s. This effect can stack up to  3 times. The duration will not reset when it is re-triggered. Enemies in the  Duskglow Realm will be afflicted with  Chain Fusion (Dark Resistance decreases by  10%) for  5s."
+          "desc": "When creating a Twilight Matrix, grants allies on the field  20% Extra DMG Reduction and  25% Extra Dodge Gauge Recovery Speed for  2s. This effect can stack up to  3 times. The duration will not reset when it is re-triggered. Enemies in the  Duskglow Realm will be afflicted with  **Chain Fusion** (Dark Resistance decreases by  10%) for  5s."
         }
       ]
     },
@@ -5933,7 +5933,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Entering Matrix outside of Empyreal State automatically triggers Divine Prayer with 4 stacks of amplification based on the color of currently available orbs. When Liv: Empyrea heals her allies, grants Fire Tempered to them for 8s. Fire Tempered: Fire DMG Bonus increases by  10%."
+          "desc": "Entering Matrix outside of Empyreal State automatically triggers Divine Prayer with 4 stacks of amplification based on the color of currently available orbs. When Liv: Empyrea heals her allies, grants **Fire Tempered** to them for 8s. **Fire Tempered**: Fire DMG Bonus increases by  10%."
         }
       ]
     },
@@ -5942,7 +5942,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Amplifiers' Class Skill effect increases by 100%, Core Passive - Ode for Everlight charges 100% faster, and the Fire DMG Bonus granted by Fire Tempered increases to 20%. While performing Signature - Sea of Sangharama, reaching 8 stacks of amplification within the first 2 pings during Empyreal Prayer will grant 3 random Signal Orbs of the same color."
+          "desc": "Amplifiers' Class Skill effect increases by 100%, Core Passive - Ode for Everlight charges 100% faster, and the Fire DMG Bonus granted by **Fire Tempered** increases to 20%. While performing Signature - Sea of Sangharama, reaching 8 stacks of amplification within the first 2 pings during Empyreal Prayer will grant 3 random Signal Orbs of the same color."
         }
       ]
     },
@@ -6138,7 +6138,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The effect of Amplifier Class Skill increases by 100%, and the Dark DMG Bonus of Dark Radiation is increased to 20%. The Extra DMG Bonus of Core Passive - Phantasia increases by 20%. The healing duration of Realm of Capriccio is extended by 5s."
+          "desc": "The effect of Amplifier Class Skill increases by 100%, and the Dark DMG Bonus of **Dark Radiation** is increased to 20%. The Extra DMG Bonus of Core Passive - Phantasia increases by 20%. The healing duration of Realm of Capriccio is extended by 5s."
         }
       ]
     },
@@ -6702,10 +6702,10 @@
         "name": "Gravity Beacon",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": "Karenina: Scire jumps up into the air for the Blast Hammer to transform into a cannon to fire a gravity shot against the ground to temporarily pull enemies around her and slow them down, dealing Dark DMG and inflicting Chain Fusion on them to reduce their Dark Resistance. Meanwhile, Karenina gains an Anti-gravity Shield. If any Blue or Yellow Orb is pinged while Karenina is launching an attack, she will stay in the attack status and attack again, dealing DMG based on the number of orbs pinged.",
+        "description": "Karenina: Scire jumps up into the air for the Blast Hammer to transform into a cannon to fire a gravity shot against the ground to temporarily pull enemies around her and slow them down, dealing Dark DMG and inflicting **Chain Fusion** on them to reduce their Dark Resistance. Meanwhile, Karenina gains an Anti-gravity Shield. If any Blue or Yellow Orb is pinged while Karenina is launching an attack, she will stay in the attack status and attack again, dealing DMG based on the number of orbs pinged.",
         "result": [
           "- Deals **{0}%** / **{1}%** / **{2}%** Dark DMG based on the number of orbs pinged.",
-          "- Chain Fusion reduces the target's Dark Resistance by 15% for 3s.",
+          "- **Chain Fusion** reduces the target's Dark Resistance by 15% for 3s.",
           "- Karenina gains an Anti-gravity Shield equal to 3% / 6% / 10% of her max HP based on the number of orbs pinged. This Anti-gravity Shield can be stacked up to 50% of her max HP."
         ],
         "res_lv18": [150, 300, 450]
@@ -6826,10 +6826,10 @@
     },
     "qte": {
       "name": "Dawn Fall",
-      "description": "Karenina: Scire hammers the ground, dealing Dark DMG to enemies within the area and inflicting the  Chain Fusion effect on them to reduce their Dark Resistance.",
+      "description": "Karenina: Scire hammers the ground, dealing Dark DMG to enemies within the area and inflicting the  **Chain Fusion** effect on them to reduce their Dark Resistance.",
       "result": [
         "- Deals **{0}%** Dark DMG.",
-        "- Chain Fusion reduces the target's Dark Resistance by 15% for 12s."
+        "- **Chain Fusion** reduces the target's Dark Resistance by 15% for 12s."
       ],
       "res_lv18": [600]
     },
@@ -6851,7 +6851,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SS Rank",
-          "desc": "Upon dealing damage, inflicts a  Chain Fusion effect that reduces the target's Dark Resistance by  15% for  3s. When Karenina: Scire starts charging, the Signal Orbs will be rearranged in the order of red, blue, and yellow."
+          "desc": "Upon dealing damage, inflicts a  **Chain Fusion** effect that reduces the target's Dark Resistance by  15% for  3s. When Karenina: Scire starts charging, the Signal Orbs will be rearranged in the order of red, blue, and yellow."
         }
       ]
     },
@@ -6860,7 +6860,7 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3 Rank",
-          "desc": "Gains an extra 3-Ping chance triggered by pressing and holding Basic Attack to charge (up to three times). Upon the third 3-Ping, the corresponding Leap Attack will deal  400% more Base DMG, and Radiant Whirlwind will deal  75% more Base DMG. Upon casting  Starshatter Horizon, Karenina: Scire will generate a  15s  Thermal Field, dealing  75% Dark DMG once to targets entering the field and inflicting them with  Chain Fusion that reduces Dark Resistance by  15% for  10s."
+          "desc": "Gains an extra 3-Ping chance triggered by pressing and holding Basic Attack to charge (up to three times). Upon the third 3-Ping, the corresponding Leap Attack will deal  400% more Base DMG, and Radiant Whirlwind will deal  75% more Base DMG. Upon casting  Starshatter Horizon, Karenina: Scire will generate a  15s  Thermal Field, dealing  75% Dark DMG once to targets entering the field and inflicting them with  **Chain Fusion** that reduces Dark Resistance by  15% for  10s."
         },
         {
           "rank": "Level 2 - Unlocked at SSS Rank",
@@ -6917,7 +6917,7 @@
         ],
         "level18": [
           "**Level 18**: Every 3-Ping consumed in charging [Leap Attack] increases Extra DMG Bonus of the next cast of [Signature-Starshatter Horizon] by 10%.",
-          "[Passive-Banishing Sunglow Level 2] added effect: Dark Resistance Reduction effect of Chain Fusion inflicted by Scire increases by 10%. "
+          "[Passive-Banishing Sunglow Level 2] added effect: Dark Resistance Reduction effect of **Chain Fusion** inflicted by Scire increases by 10%. "
         ]
       },
       {
@@ -7852,7 +7852,7 @@
           "name": "Art Influence",
           "button_press": "Receive Healing",
           "description": [
-            "Healed allies gain Frost Crystal, which increases Ice DMG by **{0}%** for 8s. The duration resets every time it is triggered."
+            "Healed allies gain **Frost Crystal**l, which increases Ice DMG by **{0}%** for 8s. The duration resets every time it is triggered."
           ],
           "desc_lv18": [10]
         }
@@ -8262,11 +8262,11 @@
         "name": "Verse of Breeze",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": "Leaps into the air and spins, dealing DMG to the surrounding enemies and restoring the HP of nearby allies. Activates the Ultralimit Torque effect that increases Physical DMG.",
+        "description": "Leaps into the air and spins, dealing DMG to the surrounding enemies and restoring the HP of nearby allies. Activates the **Ultralimit Torque** effect that increases Physical DMG.",
         "result": [
           "- Deals **{0}%** / **{1}%** / **{2}%** Physical DMG based on the number of orbs pinged.",
           "- Heals for **{3}%** / **{4}%** / **{5}%** of Hanying: Zitherwoe's ATK based on the number of orbs pinged.",
-          "- Ultralimit Torque: Increases Physical DMG by 10% for 8s. Duration refreshes when stacks overlap."
+          "- **Ultralimit Torque**: Increases Physical DMG by 10% for 8s. Duration refreshes when stacks overlap."
         ],
         "res_lv18": [140, 280, 420, 30, 60, 90]
       }
@@ -8285,12 +8285,12 @@
           "name": "Dance of Emerald Flow",
           "button_press": "At least 1 Dancer Point + Tap Dodge",
           "description": [
-            "After spending 1 Dancer Point, Hanying will perform a Choreography, entering Dancer Stance, recovering 16 Signature Energy, and gaining 1 stack of Emerald Flow. In Dancer Stance, all Signal Orbs will be converted into Dance Orbs (with color unchanged) that cast Poise of Emerald Flow when pinged, and Hanying can only perform 1-Pings.\n\nHanying gains Super Armor and 50% DMG Reduction while casting Poise of Emerald Flow. Each stack of Emerald Flow will increase the Base DMG of  Poise of Emerald Flow or Vision of Mountains by 20% (max 4 stacks). Exiting Dancer Stance will reset Emerald Flow to 0.\n\nPerforming 4 consecutive Choreographies will leave behind a healing zone that restores the HP of allies in the area and grants Ultralimit Torque, which increases Physical DMG."
+            "After spending 1 Dancer Point, Hanying will perform a Choreography, entering Dancer Stance, recovering 16 Signature Energy, and gaining 1 stack of Emerald Flow. In Dancer Stance, all Signal Orbs will be converted into Dance Orbs (with color unchanged) that cast Poise of Emerald Flow when pinged, and Hanying can only perform 1-Pings.\n\nHanying gains Super Armor and 50% DMG Reduction while casting Poise of Emerald Flow. Each stack of Emerald Flow will increase the Base DMG of  Poise of Emerald Flow or Vision of Mountains by 20% (max 4 stacks). Exiting Dancer Stance will reset Emerald Flow to 0.\n\nPerforming 4 consecutive Choreographies will leave behind a healing zone that restores the HP of allies in the area and grants **Ultralimit Torque**, which increases Physical DMG."
           ],
           "result": [
             "- Choreography deals **{0}%** Physical DMG.",
             "- The healing zone restores allies' HP equal to 20% of Hanying's ATK for 4s.",
-            "- Ultralimit Torque: Increases Physical DMG by 10% for 8s. Recasting will refresh the duration."
+            "- **Ultralimit Torque**: Increases Physical DMG by 10% for 8s. Recasting will refresh the duration."
           ],
           "res_lv18": [440]
         },
@@ -8339,11 +8339,11 @@
     },
     "qte": {
       "name": "Whirl of Stars",
-      "description": "Leaps into the air and spins, dealing DMG to the surrounding enemies and restoring the HP of nearby allies. Activates the  Ultralimit Torque effect that increases Physical DMG.",
+      "description": "Leaps into the air and spins, dealing DMG to the surrounding enemies and restoring the HP of nearby allies. Activates the  **Ultralimit Torque** effect that increases Physical DMG.",
       "result": [
         "- Deals **{0}%** Physical DMG in total.",
         "- Restores HP of allies in a large area equal to **{1}%** of Hanying's ATK.",
-        "- Ultralimit Torque: Increases Physical DMG by 10% for 8s. Duration refreshes when stacks overlap."
+        "- **Ultralimit Torque**: Increases Physical DMG by 10% for 8s. Duration refreshes when stacks overlap."
       ],
       "res_lv18": [420, 100]
     },
@@ -8378,7 +8378,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "The Physical DMG Bonus of Ultralimit Torque increases by 20%. ATK of other Kowloong Uniframes in the team increases by 30%."
+          "desc": "The Physical DMG Bonus of **Ultralimit Torque** increases by 20%. ATK of other Kowloong Uniframes in the team increases by 30%."
         }
       ]
     },
@@ -8395,7 +8395,7 @@
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Vision of Mountains increases by 50%. When Kowloong Uniframes are under the effect of Hanying's Ultralimit Torque, they gain a random set of 3-Ping Orbs, CD: 4s. They also gain a shield equal to 50% of Hanying's ATK for 8s."
+          "desc": "Extra DMG Bonus of Vision of Mountains increases by 50%. When Kowloong Uniframes are under the effect of Hanying's **Ultralimit Torque**, they gain a random set of 3-Ping Orbs, CD: 4s. They also gain a shield equal to 50% of Hanying's ATK for 8s."
         }
       ]
     }
@@ -8516,7 +8516,7 @@
           "name": "Sheltering Wolves",
           "button_press": "Receive Healing",
           "description": [
-            "Allies gain  Lightning Surge which increases their Lightning DMG by 10% for 8s after being healed. The duration resets every time it is triggered"
+            "Allies gain  **Lightning Surge** which increases their Lightning DMG by 10% for 8s after being healed. The duration resets every time it is triggered"
           ]
         }
       ]
@@ -8947,7 +8947,7 @@
           "name": "Blessing of Fortitude",
           "button_press": "Upon receiving Healing",
           "description": [
-            "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered."
+            "Allies are granted **Ultralimit Torque** which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered."
           ]
         }
       ]
@@ -9529,9 +9529,9 @@
         "name": "Thermal Erosion",
         "button_press": "Ping Blaze Orb",
         "switch_in": "no",
-        "description": "Swings the blade consecutively to unleash fire and pull in nearby enemy units, dealing Fire DMG while inflicting the targets hit with Scorching Invasion that reduces their Fire Resistance. If this skill is cast precisely at the moment of an incoming attack, Watanabe will Parry the attack and be immune to the DMG. While casting this skill, Watanabe gains Super Armor and 60% DMG Reduction. After casting, gains 1 stack of Thermal Superconductivity and 12 Signature Energy. Thermal Superconductivity increases the Base DMG of Signature - Explosive Purge.",
+        "description": "Swings the blade consecutively to unleash fire and pull in nearby enemy units, dealing Fire DMG while inflicting the targets hit with **Scorching Invasion** that reduces their Fire Resistance. If this skill is cast precisely at the moment of an incoming attack, Watanabe will Parry the attack and be immune to the DMG. While casting this skill, Watanabe gains Super Armor and 60% DMG Reduction. After casting, gains 1 stack of Thermal Superconductivity and 12 Signature Energy. Thermal Superconductivity increases the Base DMG of Signature - Explosive Purge.",
         "result": [
-          "- Deals **{0}%** Fire DMG in total. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
+          "- Deals **{0}%** Fire DMG in total. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 8s."
         ],
         "res_lv18": [1200]
       }
@@ -9590,10 +9590,10 @@
           "name": "Resilient Strike",
           "button_press": "Trigger Parry",
           "description": [
-            "Upon Parry, triggers Fortified Shield that grants a Shield equal to 30% of Max HP, deals Fire DMG, and inflicts Scorching Invasion that reduces the target's Fire Resistance. Triggering Fortified Shield again will replenish the Shield capacity. Enters Matrix if its not on cooldown when Fortified Shield is triggered."
+            "Upon Parry, triggers Fortified Shield that grants a Shield equal to 30% of Max HP, deals Fire DMG, and inflicts **Scorching Invasion** that reduces the target's Fire Resistance. Triggering Fortified Shield again will replenish the Shield capacity. Enters Matrix if its not on cooldown when Fortified Shield is triggered."
           ],
           "result": [
-            "- Deals **{0}%** Fire DMG in toal. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
+            "- Deals **{0}%** Fire DMG in toal. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 8s."
           ],
           "res_lv18": [360]
         },
@@ -9615,10 +9615,10 @@
           "name": "Core Awakening",
           "button_press": "15 Energy + Tap Signature",
           "description": [
-            "Releases the Core Energy to activate Assault Mode, dealing Fire DMG to nearby enemy units and inflicting Scorching Invasion that reduces their Fire Resistance. Time Lag Calculation is triggered while Watanabe casts this Signature Move."
+            "Releases the Core Energy to activate Assault Mode, dealing Fire DMG to nearby enemy units and inflicting **Scorching Invasion** that reduces their Fire Resistance. Time Lag Calculation is triggered while Watanabe casts this Signature Move."
           ],
           "result": [
-            "- Deals **{0}%** Fire DMG in total. Scorching Invasion reduces the target's Fire Resistance by 25% for 10s."
+            "- Deals **{0}%** Fire DMG in total. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 10s."
           ],
           "res_lv18": [600]
         },
@@ -9637,9 +9637,9 @@
     },
     "qte": {
       "name": "Pincer Intimidation",
-      "description": "Spins and slashes continuously to pull in nearby enemy units, dealing Fire DMG to the target while inflicting Scorching Invasion that reduces their Fire Resistance.",
+      "description": "Spins and slashes continuously to pull in nearby enemy units, dealing Fire DMG to the target while inflicting **Scorching Invasion** that reduces their Fire Resistance.",
       "result": [
-        "- Deals **{0}%** Fire DMG in total. Scorching Invasion reduces the target's Fire Resistance by 25% for 8s."
+        "- Deals **{0}%** Fire DMG in total. **Scorching Invasion** reduces the target's Fire Resistance by 25% for 8s."
       ],
       "res_lv18": [600]
     },
@@ -9670,11 +9670,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Gains 1 Blaze Orb after casting Scorching Torrent. The effect of Watanabe: Epitaph's Scorching Invasion increases by 10%."
+          "desc": "Gains 1 Blaze Orb after casting Scorching Torrent. The effect of Watanabe: Epitaph's **Scorching Invasion** increases by 10%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Acts faster when casting Thermal Erosion consecutively. Thermal Superconductivity can stack up to 6 times, and each stack's bonus on the Base DMG of Signature - Explosive Purge increases by 5%. After entering battle, the first successful Parry grants 1 extra Blaze Orb. The effect of Watanabe: Epitaph's Scorching Invasion increases by 10%. Reduces the cooldown of switching between characters by 3s."
+          "desc": "Acts faster when casting Thermal Erosion consecutively. Thermal Superconductivity can stack up to 6 times, and each stack's bonus on the Base DMG of Signature - Explosive Purge increases by 5%. After entering battle, the first successful Parry grants 1 extra Blaze Orb. The effect of Watanabe: Epitaph's **Scorching Invasion** increases by 10%. Reduces the cooldown of switching between characters by 3s."
         }
       ]
     },
@@ -9913,133 +9913,133 @@
   "decryptor": {
     "basic_attack": [
       {
-        "name": "Antiphase Waves - Basic Attack",
+        "name": "Reversal Sequence",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": "While in Unanalyzed Mode, alternates between using the left and right paw to perform a 2-part attack against the target. The third move of the Basic Attack sequence creates a soundwave that pushes back the target, dealing **{0}%** Dark DMG.\nWhile in Analyzed Mode, the third move of the Basic Attack sequence is strengthened. It instead creates a pulse that briefly imprisons the target, additionally dealing **{1}%** Dark DMG.",
+        "description": "Uses the two Grizzly Paws alternatively to launch a 2-hit attack at the target when not in Analysis Mode. The 3rd hit will unleash a soundwave, knocking back the target and dealing **{0}%** Dark DMG. The 3rd hit will form a pulse that pulls in the target instead when in Analysis Mode, dealing **{1}%** Dark DMG.",
         "desc_lv18": [250, 300]
       },
       {
-        "name": "Antiphase Waves - Basic Attack",
-        "button_press": "When the bear head is flying toward Teddy + Tap Basic Attack",
+        "name": "Reversal Sequence",
+        "button_press": "Incoming Grizzly Chomp + Tap Basic Attack",
         "switch_in": "no",
-        "description": "When the bear head is flying toward Teddy, swipes the area ahead horizontally with the paw, dealing **{0}%** Dark DMG.",
+        "description": "Sweeps the target with Grizzly Paws when Grizzly Chomp flies toward Decryptor, dealing **{0}%** Dark DMG.",
         "desc_lv18": [36]
       },
       {
-        "name": "Antiphase Waves - Coupling",
-        "button_press": "3 or more Computation Points + Hold Basic Attack",
+        "name": "Coupling",
+        "button_press": "At Least 3 Computing Points + Press and Hold Basic Attack",
         "switch_in": "no",
-        "description": "When Teddy has 3 or more Computation Points, hold Basic Attack to consume all Computation Points and perform Coupling against the target, dealing Dark DMG, healing Teddy, and granting her 10 Energy. Gains Super Armor and 25% DMG Reduction while performing Coupling.",
+        "description": "Pressing and holding Basic Attack when there are at least 3 Computing Points will spend all Computing Points, performing Coupling on the target, dealing Dark DMG, and restoring HP and 10 Signature Energy to Decryptor. She gains Super Armor and 25% DMG Reduction during so.",
         "result": [
-          "- Consuming 3-5 Computation Points triggers Coupling: Low Frequency, dealing **{0}%** Dark DMG and healing Teddy for **{1}%** of her ATK.",
-          "- Consuming 6-8 Computation Points triggers Coupling: Medium Frequency, dealing **{2}%** Dark DMG and healing Teddy for **{3}%** of her ATK.",
-          "- Consuming 9 Computation Points triggers Coupling: High Frequency, dealing **{4}%** Dark DMG and healing Teddy for **{5}%** of her ATK."
+          "- Spends 3-5 Computing Points to cast Coupling - Low Frequency, dealing **{0}%** Dark DMG and restoring HP equal to **{1}%** of her ATK.",
+          "- Spends 6-8 Computing Points to cast Coupling - Medium Frequency, dealing **{2}%** Dark DMG and restoring HP equal to **{3}%** of her ATK.",
+          "- Consuming 9 Computing Points to cast Coupling - High Frequency, dealing **{4}%** Dark DMG and restoring HP equal to **{5}%** of her ATK."
         ],
         "res_lv18": [200, 20, 300, 40, 400, 60]
       },
       {
-        "name": "Antiphase Waves - Overconstrue",
-        "button_press": "During Coupling + Release Basic Attack / Automatically triggered by holding Basic Attack until Coupling ends",
+          "name": "Overflow",
+        "button_press": "During Coupling + Release Basic Attack, or Press and Hold Basic Attack until Coupling Ends to Auto Cast",
         "switch_in": "no",
-        "description": "Teddy can dodge by releasing Basic Attack early during Coupling. Overconstrue is automatically triggered if she performs an Extreme Dodge; Overconstrue can also be triggered by releasing Basic Attack at the precise time during Coupling or holding Basic Attack until Coupling ends. Gains Super Armor and 50% DMG Reduction while performing Overconstrue.",
+        "description": "During Coupling, release Basic Attack in advance to dodge. When an Extreme Dodge is triggered, Decryptor will cast Overflow automatically. Releasing Basic Attack with perfect timing during Coupling or pressing and holding Basic Attack until Coupling ends will also cast Overflow automatically. Decryptor gains Super Armor and 50% DMG Reduction during so.",
         "result": [
-          "- Overconstrue shares the same Frequency as Coupling. In addition, each Computation Point increases the Base DMG of Overconstrue triggered by an Extreme Dodge or releasing Basic Attack at the precise time during Coupling by 20%.",
-          "- Overconstrue: Low Frequency throws an uppercut with the bear's paw, dealing **{0}%** Dark DMG.",
-          "- Overconstrue: Medium Frequency smashes the enemy down with the bear's paw, dealing **{1}%** Dark DMG and granting Teddy 10 Energy.",
-          "- Overconstrue: High Frequency smashes the enemy down with the enhanced bear's paw, dealing **{2}%** Dark DMG, granting Teddy 30 Energy, and activating Overflow Zone that lasts for 8s."
+          "- Overflow and Coupling share the same Frequencies, and every Computing Point will increase the Base DMG of Overflow caused by releasing Basic Attack with perfect timing or performing Extreme Dodge by 20%.",
+          "- Overflow - Low Frequency unleashes a powerful Grizzly Paws smash, dealing **{0}%** Dark DMG.",
+          "- Overflow - Medium Frequency unleashes a powerful Grizzly Paws smash, dealing **{1}%** Dark DMG and restoring 10 Signature Energy.",
+          "- Overflow - Low Frequency unleashes a powerful Grizzly Paws smash, dealing **{2}%** Dark DMG, restoring 30 Signature Energy, and generating an Integer Overflow Field for 8s."
         ],
         "res_lv18": [300, 500, 500],
         "result2": [
-          "- Overflow Zone heals the allies inside for **{0}%** of Teddy: Decryptor's ATK and grants them Dark Radiation and Homeostasis Dissociation every 4s. Dark Radiation increases Dark DMG by 10% for 4s. While Homeostasis Dissociation is active, Teddy: Decryptor deals 100% Extra DMG against enemies' Homeostatic Forcefield, and other allies deal 30% Extra DMG against enemies' Homeostatic Forcefield."
+          "- The Integer Overflow Field restores HP equal to **{0}%** of Decryptor's ATK to allies every 4s and applies **Dark Radiation** and Equilibrium Disintegration on them. While **Dark Radiation** is active, allies deal 10% more Dark DMG for 4s. While Equilibrium Disintegration is active, Decryptor deals 100% Extra DMG to Equilibrium Field, while allies deal 30% Extra DMG to Equilibrium Field."
         ],
         "res2_lv18": [80]
       }
     ],
     "red_orb": [
       {
-        "name": "Chromatic Ambush - Red Orb",
-        "button_press": "Have NOT started any Orb Combo + Ping Red Orb",
+        "name": "Sonic Intrusion",
+        "button_press": "No Ping Combo + Ping Red Orb",
         "switch_in": "yes",
-        "description": "Orb Combo 1: Swings the bear's paw to slap the target, immediately followed by the bear kicking the target toward Teddy, dealing Dark DMG",
+        "description": "Ping Combo 1: Smashes the target with the Grizzly Paw before kicking the target toward Decryptor with Grizzly Stomp, dealing Dark DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Dark DMG based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Dark DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [120, 240, 360]
       },
       {
-        "name": "Chromatic Ambush - Red Orb",
-        "button_press": "Have completed an Orb Combo 1 + Ping Red Orb",
+        "name": "Sonic Intrusion",
+        "button_press": "Complete Ping Combo 1 + Ping Red Orb",
         "switch_in": "no",
-        "description": "Orb Combo 2: Pulls in the targets ahead, then immediately rides the bear paw and throws musical notes, dealing Dark DMG.",
+        "description": "Ping Combo 2: Pulls in targets in the area ahead before riding the Grizzly Paw to scatter musical notes, dealing Dark DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Dark DMG based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Dark DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [160, 320, 480]
       },
       {
-        "name": "Chromatic Ambush - Red Orb",
-        "button_press": "Have completed an Orb Combo 2 + Ping Red Orb",
+        "name": "Sonic Intrusion",
+        "button_press": "Complete Ping Combo 2 + Ping Red Orb",
         "switch_in": "yes",
-        "description": "Orb Combo 3: Leaps into the air, activating the acoustic wave cable to summon the bear head. Teddy then throws the bear head downwards to smash the target.",
+        "description": "Ping Combo 3: Leaps into the air and produces the soundwave conveyor, summoning Grizzly Chomp before throwing it at the target, dealing Dark DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Dark DMG based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Dark DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [120, 240, 360]
       }
     ],
     "yellow_orb": [
       {
-        "name": "High-Frequency Concerto - Yellow Orb",
-        "button_press": "Have NOT started any Orb Combo + Ping Yellow Orb",
+        "name": "High-Frequency Synth",
+        "button_press": "No Ping Combo + Ping Yellow Orb",
         "switch_in": "yes",
-        "description": "Orb Combo 1: Swings the bear's paw to slap the target, immediately followed by the bear kicking the target toward Teddy, dealing Dark DMG.",
+        "description": "Ping Combo 1: Smashes the target with the Grizzly Paw before kicking the target toward Decryptor with Grizzly Stomp, dealing Dark DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Dark DMG based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Dark DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [120, 240, 360]
       },
       {
-        "name": "High-Frequency Concerto - Yellow Orb",
-        "button_press": "Have completed an Orb Combo 1 + Ping Yellow Orb",
+        "name": "High-Frequency Synth",
+        "button_press": "Complete Ping Combo 1 + Ping Yellow Orb",
         "switch_in": "no",
-        "description": "Orb Combo 2: Pulls in the targets ahead, then immediately rides the bear paw and throws musical notes, dealing Dark DMG.",
+        "description": "Ping Combo 2: Pulls in targets in the area ahead before riding the Grizzly Paw to scatter musical notes, dealing Dark DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Dark DMG based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Dark DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [160, 320, 480]
       },
       {
-        "name": "High-Frequency Concerto - Yellow Orb",
-        "button_press": "Have completed an Orb Combo 2 + Ping Yellow Orb",
+        "name": "High-Frequency Synth",
+        "button_press": "Complete Ping Combo 2 + Ping Yellow Orb",
         "switch_in": "no",
-        "description": "Orb Combo 3: Leaps into the air, activating the acoustic wave cable to summon the bear head. Teddy then throws the bear head downwards to smash the target.",
+        "description": "Ping Combo 3: Leaps into the air and produces the soundwave conveyor, summoning Grizzly Chomp before throwing it at the target, dealing Dark DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Dark DMG based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Dark DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [120, 240, 360]
       }
     ],
     "blue_orb": [
       {
-        "name": "Pursuit Order - Blue Orb",
-        "button_press": "Have NOT started any orb combo + Ping Blue Orb",
+        "name": "Pursue Command",
+        "button_press": "No Ping Combo + Ping Blue Orb",
         "switch_in": "no",
-        "description": "Orb Combo 1: Crosses both paws to pierce the target, dealing **{0}%** Dark DMG",
+        "description": "Ping Combo 1: Crosses the Grizzly Paws to pierce the target, dealing **{0}%** Dark DMG.",
         "desc_lv18": [200]
       },
       {
-        "name": "Pursuit Order - Blue Orb",
-        "button_press": "Have completed an Orb Combo 1 + Ping Blue Orb",
+        "name": "Pursue Command",
+        "button_press": "Complete Ping Combo 1 + Ping Blue Orb",
         "switch_in": "no",
-        "description": "Orb Combo 2: Claps both paws together to crush the target, dealing **{0}%** Dark DMG.",
+        "description": "Ping Combo 2: Puts the Grizzly Paws together to crush the target, dealing **{0}%** Dark DMG.",
         "desc_lv18": [240]
       },
       {
-        "name": "Pursuit Order - Blue Orb",
-        "button_press": "Have completed an Orb Combo 2 + Ping Blue Orb",
+        "name": "Pursue Command",
+        "button_press": "Complete Ping Combo 2 + Ping Blue Orb",
         "switch_in": "no",
-        "description": "Orb Combo 3: Rotates both paws to create a cyber cyclone while continuously kicking the target, dealing **{0}%** Dark DMG. Immediately afterwards, summons the bear head that comes flying toward Teddy, dealing **{1}%** Dark DMG to targets in its trajectory.",
+        "description": "Ping Combo 3: Creates a cyber tornado with both Grizzly Paws and kicks the target continuously, dealing **{0}%** Dark DMG. Then, summons Grizzly Chomp to fly toward herself, dealing **{1}%** Dark DMG to targets on the path.",
         "desc_lv18": [240, 60]
       }
     ],
@@ -10047,105 +10047,99 @@
       "name": "Source Infiltration",
       "skills": [
         {
-          "name": "Frequency Band Manipulation",
+          "name": "Fraudulent Frequency",
           "button_press": "",
           "description": [
-            "While Teddy is in Unanalyzed Mode, she can only gain and ping Red or Yellow Signal Orbs. While Teddy is in Analyzed Mode, she gains an unlimited amount of Blue Signal Orbs and can only ping Blue Signal Orbs."
+            "Decryptor can only gain and ping Red or Yellow Orbs when she is not in Analysis Mode. She gains infinite Blue Orbs and can only ping Blue Orbs when in Analysis Mode."
           ]
         },
         {
           "name": "Hacking",
           "button_press": "Any 3-Ping or QTE",
           "description": [
-            "Performing a 3-Ping or QTE inflicts Hacker's Mark onto the first target hit, lasting 10s. When the Hacked target receives DMG, Teddy: Decryptor recovers 30 Energy every second."
+            "3-Pings and QTEs will inflict a Hacked Mark on the first target hit for 10s. When the hacked target takes damage, Decryptor will restore 30 Signature Energy every second."
           ],
           "result": [
-            "- Only 1 Hacker's Mark can exist on the battlefield at any time. When the hacked target is defeated, Hacker's Mark spreads to another nearby target and its duration is reset."
+            "- There can only be 1 Hacked Mark on the battlefield. When the hacked target is taken down, the Hacked Mark will spread to the nearest target with its duration reset."
           ]
         },
         {
-          "name": "Computation Stack",
-          "button_press": "Ping Signal Orbs",
+          "name": "Programming Stack",
+          "button_press": "Ping Orb",
           "description": [
-            "Every Signal Orb pinged grants 1 Computation Point. Maximum Computation Points: 9."
-          ],
-          "result": [
-            "- After a 3-Ping, Teddy: Decryptor's computing power will be briefly overloaded. This allows her to tap Signature Move during the next cast of a 1- or 2-Ping to consume 15 Energy, upgrading the DMG of the skill to that of a 3-Ping and additionally granting 3 Computation Points."
+            "Decryptor gains 1 Computing Point for each orb pinged, storing up to 9 Computing Points in total. After a 3-Ping, Decryptor will overload her computing power temporarily. During her next 1-Ping or 2-Ping, tap Signature to spend 15 Signature Energy, boosting the ping's damage to a 3-Ping's and gaining 3 Computing Points."
           ]
         },
         {
-          "name": "Cadence Integration",
-          "button_press": "Ping Cadence Orb",
-          "description": [
-            "When Teddy has 9 Computation Points, she will gain 1 Cadence Orb. Maximum no. of Cadence Orb: 1."
-          ],
-          "result": [
-            "- Upon pinging Cadence Orb, Teddy: Decryptor will leap into the air and use the chance to throw the bear head, which explodes when it hits the ground and deals **{0}%** Dark DMG. This attack deals 150% extra DMG against Homeostatic Forcefield. Gains Super Armor and 50% DMG Reduction during this.",
-            "- Pinging Cadence Orb while in Unanalyzed Mode also grants 75 Energy to Teddy: Decryptor."
-          ],
-          "res_lv18": [1000]
+          "name": "Stress Integration",
+          "button_press": "Ping Stress Orb",
+          "description": "Gains 1 Stress Orb after obtaining 9 Computing Points, max 1 Stress Orb in total. Upon pinging the Stress Orb, Decryptor will leap up and summon the Grizzly Chomp, bombing the target and dealing **{0}%** Dark DMG upon landing plus 150% Extra DMG to Equilibrium Field. She gains Super Armor and 50% DMG Reduction during so.",
+          "desc_lv18": [1000],
+          "result": [ 
+            "- Pinging the Stress Orb when Decryptor is not in Analysis Mode will restore 75 Signature Energy."
+          ]
         },
         {
-          "name": "Vulnerability Shift",
-          "button_press": "When the bear head is flying toward Teddy + Tap Basic Attack / Tap Signature Move",
+          "name": "Iterative Glitch",
+          "button_press": "Incoming Grizzly Chomp + Tap Basic Attack or Signature",
           "description": [
-            "Orb Combo 3 summons the bear head that comes flying toward Teddy. Teddy can use it to perform an Extreme Dodge and trigger Matrix, or knock it away with the bear's paw or leg to perform an additional combination attack."
+            "Ping Combo 3 will summon Grizzly Chomp to fly toward Decryptor. She can either perform an Extreme Dodge to trigger the Matrix, or knock Grizzly Chomp away with Grizzly Paws or Grizzly Stomp for a follow-up joint attack."
           ],
           "result": [
-            "- Knocking the head away with the paw deals **{0}%** Dark DMG.",
-            "- While in Unanalyzed Mode, knocking the head away with the leg deals **{1}%** Dark DMG and grants 60 Energy to Teddy: Decryptor. While in Analyzed Mode, it deals **{2}%** Dark DMG and extends the duration of Analyzed Mode by 2s."
+            "- Grizzly Chomp will deal **{0}%** Dark DMG if knocked away by Grizzly Paws.",
+            "- Grizzly Chomp will deal **{1}%** Dark DMG and restore 60 Signature Energy to Decryptor if knocked away by Grizzly Stomp when Decryptor is not in Analysis Mode. If she is in Analysis Mode, Grizzly Chomp will deal **{2}%** Dark DMG and extend Analysis Mode for 2s."
           ],
           "res_lv18": [200, 50, 50]
         }
       ]
     },
     "signature": {
-      "name": "Audiovisual Cipher",
+      "name": "Anonymous Audiovisual",
       "skills": [
         {
-          "name": "Omni-Analysis",
-          "button_press": "Unanalyzed Mode + 200 or more Energy + Hold Signature Move",
+          "name": "Thorough Analysis",
+          "button_press": "Not in Analysis Mode + At least 200 Signature Energy + Press and Hold Signature",
           "description": [
-            "Teddy: Decryptor releases all her computing power to enter Analyzed Mode and deal **{0}%** Dark DMG. While in Analyzed Mode, she can gain up to 150 Analysis Points based on her actions."
+            "Decryptor unleashes all her computing power and enters Analysis Mode, dealing **{0}%** Dark DMG and gaining up to 150 Analysis Points based on her moves during so."
           ],
           "desc_lv18": [600],
           "result": [
-            "- Teddy: Decryptor cannot gain Energy while in Analyzed Mode and consumes 30 Energy every second (she will stop consuming Energy once she is switched out and exits the battlefield)."
+            "- In Analysis Mode, Decryptor cannot restore Signature Energy and will consume 30 Signature Energy every second (This effect stops when she leaves the battlefield)."
           ]
         },
         {
-          "name": "Clamorous Tuplet",
-          "button_press": "Analyzed Mode + Hold Signature Move / Automatically triggered when Energy runs out",
+          "name": "Chordal Dissonance",
+          "button_press": "Analysis Mode + Press and Hold Signature, or Use Up All Signature Energy to Auto Cast",
           "description": [
-            "When her Energy runs out, Teddy: Decryptor will exit Analyzed Mode and perform Clamorous Tuplet, dealing **{0}%** Dark DMG. When she accumulates 150 Analysis Points, she can replay Clamorous Tuplet, dealing **{1}%** Dark DMG one more time. Each Analysis Point increases the Base DMG of Clamorous Tuplet and its replay by 1%."
+            "Decryptor spends all Signature Energy and exits Analysis Mode to cast Chordal Dissonance, dealing **{0}%** Dark DMG. When Analysis Points reach 150, Chordal Dissonance is Played Back, dealing **{1}%** Dark DMG again. Each Analysis Point will increase the Base DMG of Chordal Dissonance and Play Back by 1%."
           ],
           "desc_lv18": [520, 520],
           "result": [
-            "- Clamorous Tuplet will make Hacker's Mark explode, dealing **{0}%** Dark DMG to the Hacked target. "
+            "- Chordal Dissonance also detonates the Hacked Mark, dealing **{0}%** Dark DMG to the hacked target. "
           ],
           "res_lv18": [600]
         },
         {
-          "name": "Circuit Mixing",
-          "button_press": "Tap Signature Move",
+          "name": "Ambient Mix",
+          "button_press": "Tap Signature",
           "description": [
-            "Teddy's attacks will charge the bear's leg. When cast, kicks the target with force depending on the charge level, dealing Dark DMG and resetting the charge level."
+            "Decryptor's attacks charge the Grizzly Stomp. Casting this skill will summon Grizzly Stomp to kick the target with different strengths based on the charge level, dealing Dark DMG before resetting the charge level."
           ],
           "result": [
-            "- Charge begins at Level 0, which deals **{0}%** Dark DMG. Basic Attack 1 increases charge to Level 1, which deals **{1}%** Dark DMG. Basic Attack 2 increases charge to Level 2, which deals **{2}%** Dark DMG. Basic Attack 3 increases charge to Level 3, which deals **{3}%** Dark DMG. Obtaining 3 Computation Points increases charge to Level 4, which deals **{4}%** Dark DMG. When a bear head is flying towards Teddy, charge momentarily increases to Level 5, which deals **{5}%** Dark DMG."
+            "- The charge level starts at Lv.0, dealing **{0}%** Dark DMG. It increases to Lv.1 after the 1st Basic Attack, dealing **{1}%** Dark DMG. It increases to Lv.2 after the 2nd Basic Attack, dealing **{2}%** Dark DMG. It increases to Lv.3 after the 3rd Basic Attack, dealing **{3}%** Dark DMG. It increases to Lv.4 every after gaining 3 Computing Points, dealing **{4}%** Dark DMG. It increases to Lv.5 for a limited time after Grizzly Chomp flies toward Decryptor, dealing **{5}%** Dark DMG."
           ],
           "res_lv18": [5, 20, 30, 40, 50, 60]
         }
       ]
     },
     "qte": {
-      "name": "Intrusion Protocol",
-      "description": "Teddy: Decryptor rides the bear paw and throws musical notes, dealing **{0}%** Dark DMG.\nAfterwards, activates Overflow Zone that lasts for 4s.",
+      "name": "Hacking Protocol",
+      "description": "Decryptor rides the Grizzly Paws to scatter musical notes, dealing **{0}%** Dark DMG. Afterward, generates the Integer Overflow Field for 4s.",
       "desc_lv18": [400]
     },
     "leader": {
-      "name": "\"Safe Domain Name\"",
-      "description": "HP of all party members increases by 10%."
+      "name": "\"Secured Domain\"",
+      "description": "Increases HP of all members by 10%."
     },
     "class": {
       "name": "Support",
@@ -10153,37 +10147,37 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Origin Equation",
+      "name": "Source Equation",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Base DMG of Coupling increases by 150%.\nUpon using Clamorous Tuplet, rearrange all Red and Yellow Signal Orbs into 3-Pings."
+          "desc": "The Base DMG of Coupling increases by 150%.\nChordal Dissonance will rearrange the Red and Yellow Orbs into sets of 3-Pings."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Every time Teddy: Decryptor enters the battlefield, gain 3 Computation Points.\nDark DMG of Teddy: Decryptor increases by 20% while she is in Analyzed Mode. "
+          "desc": "Gains 3 Computing Points every time upon entering the battlefield.\nDecryptor's Dark DMG increases by 20% when in Analysis Mode. "
         }
       ]
     },
     "sss_rank": {
-      "name": "Eschatological Paradox",
+      "name": "Doomsday Paradox",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Pinging Cadence Orb also activates Overflow Zone that lasts for 8s.\nDark DMG increase effect of Dark Radiation doubles."
+          "desc": "Pinging Stress Orb also generates the Integer Overflow Field for 8s.\nDoubles the Dark DMG increase from Decryptor's **Dark Radiation**."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Each Analysis Point additionally increases the Base DMG of Clamorous Tuplet and its replay by 0.4%. When Teddy accumulates 150 Analysis Points, the Base DMG of Clamorous Tuplet and its replay additionally increases by 150%, and she gains 3 Signal Orbs of a random color upon performing Clamorous Tuplet."
+          "desc": "Each Analysis Point will further increase the Base DMG of Chordal Dissonance and Play Back by 0.4%. When Analysis Points reach 150, the Base DMG of Chordal Dissonance and Play Back increases by 150%, and Chordal Dissonance grants 3 Signal Orbs of a random color."
         }
       ]
     },
     "s+_rank": {
-      "name": "Scion's Rainbow",
+      "name": "Successor's RGB",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Omni-Analysis and Clamorous Tuplet increases by 30%."
+          "desc": "Extra DMG Bonus of Thorough Analysis, Chordal Dissonance, and Play Back increases by 30%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
@@ -10191,7 +10185,7 @@
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Coupling and Overconstrue increases by 50%.\nDark Radiation granted by Teddy: Decryptor will additionally increase Karenina: Scire's ATK by 10%. "
+          "desc": "Extra DMG Bonus of Coupling and Overflow increases by 50%.\nDecryptor's **Dark Radiation** increases Karenina: Scire's ATK by 10%."
         }
       ]
     }
@@ -10199,268 +10193,264 @@
   "oblivion": {
     "basic_attack": [
       {
-        "name": "Selenocentric Glimmer",
+        "name": "Gibbous Halo",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": "Alternates between using the Chakram and Bladed Wing to attack the enemy, dealing Nihil DMG. If the Chakram is present on the battlefield, the fifth move of the attack will retrieve the Chakram and recover additional Lingering Moonlight.",
+        "description": "Alternates between the Chakram and the Wingblade to slash the enemy, dealing Nihil DMG. If the Chakram is present on the field, the 5th hit will retrieve the Chakram and restore additional Crescent Points.",
         "result": [
-          "- Deals a total of **{0}%** Nihil DMG. The fifth move of the attack sequence retrieves the Chakram and additionally recovers 20 points of Lingering Moonlight."
+          "- Deals **{0}%** Nihil DMG. The 5th hit will retrieve the Chakram and restore additional 20 Crescent Points."
         ],
         "res_lv18": [810]
       },
       {
         "name": "Lunar Assault",
-        "button_press": "During Main Sequence / Parousía Télous + Tap Basic Attack",
+        "button_press": "In Main Sequence / Finality + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Alternates between controlling the Chakram and Bladed Wing to attack the enemy, dealing Nihil DMG. During Main Sequence, the fourth and sixth move of the attack will recover additional Lingering Moonlight.",
+        "description": "Alternates between the Chakram and the Wingblade to attack the enemy, dealing Nihil DMG. When in Main Sequence, the 4th and 6th hit will restore additional Crescent Points.",
         "result": [
-          "- Deals a total of **{0}%** Nihil DMG. During Main Sequence, the fourth and sixth move of the attack additionally recover 20 points of Lingering Moonlight."
+          "- Deals **{0}%** Nihil DMG. When in Main Sequence, the 4th and 6th hit will restore additional 20 Crescent Points."
         ],
         "res_lv18": [1410]
       },
       {
         "name": "Reaping Moon",
-        "button_press": "Hold Basic Attack",
+        "button_press": "Press and Hold Basic Attack",
         "switch_in": "no",
-        "description": "Holding Basic Attack activates Reaping Moon, during which Luna pulls in enemies in the area and continuously gains Lingering Moonlight. Luna gains Super Armor and 50% DMG Reduction while performing Reaping Moon. The dodge meter will not recover during Reaping Moon, but Luna will automatically dodge incoming attacks.",
+        "description": "Press and hold Basic Attack to activate Reaping Moon, continuously pulling in nearby enemies and granting Crescent Points. During so, Luna: Oblivion gains Super Armor and 50% DMG Reduction, is unable to restore the Dodge Gauge, and triggers Dodge automatically when hit.",
         "result": [
-          "- During Reaping Moon, recover 40 points of Lingering Moonlight every second.",
-          "- Maximum points of Lingering Moonlight: 90."
+          "- During Reaping Moon, restores 40 Crescent Points per second.",
+          "- Can gain up to 90 Crescent Points."
         ]
       },
       {
-        "name": "Breaking Moon",
+        "name": "Shattering Moon",
         "button_press": "Reaping Moon + Release Basic Attack",
         "switch_in": "no",
-        "description": "During Reaping Moon, releasing Basic Attack when Lingering Moonlight reaches 0 / 45 / 90 points triggers Breaking Moon, during which Luna slowly ascends before smiting down the target, pulling in nearby enemies and dealing Nihil DMG. Luna gains Super Armor and 50% DMG Reduction while performing Breaking Moon. The dodge meter will not recover during Breaking Moon.",
+        "description": "During Reaping Moon, release Basic Attack at 0 / 45 / 90 Crescent Points to cast Shattering Moon. Upon casting, Luna: Oblivion slowly ascends into the air to execute a plunging attack, pulling in nearby enemies and dealing Nihil DMG. During so, she gains Super Armor, 50% DMG Reduction, and is unable to restore the Dodge Gauge.",
         "result": [
-          "- Luna will automatically perform Breaking Moon when Lingering Moonlight reaches the maximum value.",
-          "- While in the Protostar state, Breaking Moon deals **{0}%** / **{1}%** / **{2}%** Nihil DMG.",
-          "- While in Main Sequence / Parousía Télous, Luna will perform a different move: she swings the Bladed Wing to perform a slashing attack in a large area, dealing **{3}%** / **{4}%** / **{5}%** Nihil DMG.",
-          "- Luna is invincible when she performs Breaking Moon with maximum Lingering Moonlight. This also consumes all points of Lingering Moonlight, activates Mene Eskháte, and recovers 24 Energy."
+          "- Casts Shattering Moon automatically at max Crescent Points.",
+          "- When in Nova, Shattering Moon deals **{0}%** / **{1}%** / **{2}%** Nihil DMG.",
+          "- When in Main Sequence / Finality, Luna: Oblivion changes her attacks, slashing enemies with the Wingblade in a large area instead and dealing **{3}%** / **{4}%** / **{5}%** Nihil DMG.",
+          "- - Becomes invincible upon casting Shattering Moon at max Crescent Points. This will clear all Crescent Points, activate Eclipse Stance, and restore 24 Signature Energy."
         ],
         "res_lv18": [400, 600, 800, 500, 750, 1000]
       },
       {
-        "name": "Orbital Blade",
-        "button_press": "Second move of the Basic Attack / Yellow Signal Orb skill",
+        "name": "Gibbous Edge",
+        "button_press": "2nd hit of Basic Attack / Yellow Orb Skill",
         "switch_in": "no",
-        "description": "After performing the second move of the Basic Attack or Yellow Signal Orb skill, the Chakram remains on the battlefield, continuously dealing Nihil DMG. When the Chakram is on the battlefield, Luna will begin her Basic Attack sequence from the third move.",
+        "description": "After casting the 2nd hit of Basic Attack or Yellow Orb Skill, the Chakram remains on the field, continuously dealing Nihil DMG. When the Chakram is present, Basic Attack starts from the 3rd hit.",
         "result": [
-          "- The Chakram deals **{0}%** Nihil DMG to enemies in the area every 0.5s for 1.5s."
+          "- The Chakram deals **{0}%** Nihil DMG to nearby enemies every 0.5s for 1.5s."
         ],
         "res_lv18": [50]
       }
     ],
     "red_orb": [
       {
-        "name": "Tenebrous Starspin",
+        "name": "Swirdling Darkstar",
         "button_press": "Ping Red Orb",
         "switch_in": "no",
-        "description": "Swings the Bladed Wing to attack the enemy, dealing Nihil DMG and gaining Lingering Moonlight and Apocalyptic Moonlight.",
+        "description": "Wields the Wingblade to attack the enemy, dealing Nihil DMG and gaining Crescent Points and Eclipse Points.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Nihil DMG based on the number of orbs pinged.",
-          "- If the Chakram is present on the battlefield, Luna will retrieve it.",
-          "- Gains 10 / 20 / 30 points of Lingering Moonlight based on the number of orbs pinged.",
-          "- Gains 5 / 10 / 15 points of Apocalyptic Moonlight based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Nihil DMG based on the number of orbs pinged.",
+          "- Retrieves the Chakram if it's present on the field.",
+          "- Gains 10 / 20 / 30 Crescent Points based on the number of orbs pinged.",
+          "- Gains 5 / 10 / 15 Eclipse Points based on the number of orbs pinged."
         ],
         "res_lv18": [150, 300, 480]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Crimson Voidcluster",
+        "name": "Reddened Naught",
         "button_press": "Ping Yellow Orb",
         "switch_in": "yes",
-        "description": "Leaps into the air and throws the Chakram, dealing Nihil DMG and gaining Lingering Moonlight and Apocalyptic Moonlight.",
+        "description": "Leaps up and hurls the Chakram at the enemy, dealing Nihil DMG and gaining Crescent Points and Eclipse Points.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Nihil DMG based on the number of orbs pinged.",
-          "- If the Chakram is present on the battlefield, Luna will perform a different move: she swings the Bladed Wing at the target and retrieves the Chakram, dealing a total of **{3}%** / **{4}%** / **{5}%** Nihil DMG.",
-          "- Gains 10 / 20 / 30 points of Lingering Moonlight based on the number of orbs pinged.",
-          "- Gains 5 / 10 / 15 points of Apocalyptic Moonlight based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Nihil DMG based on the number of orbs pinged.",
+          "- If the Chakram is present on the field when the skill is cast, slashes the enemy with the Wingblade and retrieves the Chakram instead, dealing **{3}%** / **{4}%** / **{5}%** Nihil DMG.",
+          "- Gains 10 / 20 / 30 Crescent Points based on the number of orbs pinged.",
+          "- Gains 5 / 10 / 15 Eclipse Points based on the number of orbs pinged."
         ],
         "res_lv18": [140, 280, 420, 180, 360, 540]
       }
     ],
     "blue_orb": [
       {
-        "name": "Sinking Moontrail",
+        "name": "Waning Trajectory",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": "Dashes forward, leaps into the air, then spins to attack the target, dealing Nihil DMG and gaining Lingering Moonlight and Apocalyptic Moonlight.",
+        "description": "Dashes in and leaps up to launch a spin attack at the enemy, dealing Nihil DMG and gaining Crescent Points and Eclipse Points.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Nihil DMG based on the number of orbs pinged.",
-          "- If the Chakram is present on the battlefield, Luna will retrieve it.",
-          "- Gains 10 / 20 / 30 points of Lingering Moonlight based on the number of orbs pinged.",
-          "- Gains 5 / 10 / 15 points of Apocalyptic Moonlight based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Nihil DMG based on the number of orbs pinged.",
+          "- Retrieves the Chakram if it's present on the field.",
+          "- Gains 10 / 20 / 30 points Crescent Points based on the number of orbs pinged.",
+          "- Gains 5 / 10 / 15 points Eclipse Points based on the number of orbs pinged."
         ],
         "res_lv18": [190, 380, 570]
       }
     ],
     "core_passive": {
-      "name": "Exousia Selenes",
+      "name": "Moonlit Coronation",
       "skills": [
         {
-          "name": "The Moon Waxes",
+          "name": "Waxing Course",
           "button_press": "",
           "description": [
-            "Upon entry, Luna enters the Protostar state. While in the  Protostar state, all Signal Orbs are converted to Yellow Sigal Orbs, and Basic Attacks will only generate Yellow Signal Orbs. Upon entering  Main Sequence, all Signal Orbs are converted to Red or Blue Signal Orbs, and Basic Attacks will only generate Red or Blue Signal Orbs. Upon entering  Parousía Télous, Luna can no longer gain or ping Signal Orbs and can only ping Telos Orbs."
+            "Enters Nova upon entering the battlefield. When in Nova, all Signal Orbs will be converted into Yellow Orbs, and Basic Attacks will only generate Yellow Orbs. After entering Main Sequence, all Signal Orbs will be converted into Red and Blue Orbs, and Basic Attacks will only generate Red or Blue Orbs. After entering Finality, Basic Attacks will not generate Signal Orbs, and no Signal Orbs can be pinged except for Finality Orbs."
           ]
         },
         {
-          "name": "Apocalyptic Moonlight",
-          "button_press": "Perform Signal Orb skills / Automatically gained by performing Breaking Moon with maximum Lingering Moonlight",
+          "name": "Eclipse Points",
+          "button_press": "Gained automatically when casting Signal Orb Skills/casting Shattering Moon at max Crescent Points",
           "description": [
-            "Luna gains  Apocalyptic Moonlight by using a Signal Orb skill, performing  Breaking Moon with maximum  Lingering Moonlight, or performing  Original Retribution.  Apocalyptic Moonlight amplifies the Base DMG of  Signature - Moonfall during  Main Sequence, or Final Retribution during  Parousía Télous."
+            "Gains Eclipse Points whenever casting Signal Orb Skills, or casting Shattering Moon or Incipient Retribution at max Crescent Points. Eclipse Points will amplify the Base DMG of Signature - Lunar Downfall in Main Sequence and the Base DMG of Final Retribution in Finality."
           ],
           "result": [
-            "- Gains 5 / 10 / 15 points of Apocalyptic Moonlight based on the number of Signal Orbs pinged.",
-            "- Gains 45 points of Apocalyptic Moonlight upon performing Breaking Moon with maximum Lingering Moonlight or performing Original Retribution.",
-            "- Maximum Apocalyptic Moonlight: 300."
+            "- Gains 5 / 10 / 15 Eclipse Points based on the number of orbs pinged.",
+            "- Gains 45 Eclipse Points upon casting Shattering Moon or  Incipient Retribution at max Crescent Points.",
+            "- Can gain up to 300 Eclipse Points."
           ]
         },
         {
-          "name": "Original Retribution",
-          "button_press": "Main Sequence + Mene Eskháte is active + Reaping Moon + Release Basic Attack",
+          "name": "Incipient Retribution",
+          "button_press": "Main Sequence + Activated Eclipse Stance + Reaping Moon + Release Basic Attack",
           "description": [
-            "If  Mene Eskháte is already active during  Main Sequence, releasing Basic Attack in the middle of  Reaping Moon will trigger  Original Retribution, in which Luna gathers energy and fires it toward the target to cause an explosion, pulling in nearby enemies, dealing Nihil DMG, and recovering  24 Energy. During this, Luna is invincible but cannot recover the dodge meter or perform  Signature - Moonfall."
+            "When in Main Sequence with Eclipse Stance activated, release Basic Attack during Reaping Moon to cast Incipient Retribution. Upon casting, Luna: Oblivion gathers energy and charges toward the target to pull in nearby enemies and detonate them, dealing Nihil DMG and restoring 24 Signature Energy. She becomes invincible during so, unable to restore the Dodge Gauge or cast Signature - Lunar Downfall."
           ],
           "result": [
-            "- If Lingering Moonlight is not at the maximum value, Original Retribution deals **{0}%** Nihil DMG.",
-            "- If Lingering Moonlight is at the maximum value, Original Retribution grants 45 points of Apocalyptic Moonlight before dealing **{1}%** Nihil DMG and consuming all points of Lingering Moonlight.",
-            "- Luna will automatically perform Original Retribution when Lingering Moonlight reaches the maximum value."
+            "- When Crescent Points are not full, Incipient Retribution deals **{0}%** Nihil DMG.",
+            "- When cast at max Crescent Points, Incipient Retribution grants 45 Eclipse Points, deals **{1}%** Nihil DMG, and clears all Crescent Points.",
+            "- Casts Incipient Retribution automatically at max Crescent Points."
           ],
           "res_lv18": [1500, 3000]
         },
         {
           "name": "Final Retribution",
-          "button_press": "Parousía Télous + Mene Eskháte is active + Reaping Moon + Release Basic Attack",
+          "button_press": "Finality + Activated Eclipse Stance + Press and Hold Basic Attack",
           "description": [
-            "If Mene Eskháte is already active during Parousía Télous, releasing Basic Attack in the middle of Reaping Moon will trigger Final Retribution, in which Luna gathers energy and fires it toward the target to cause an explosion, pulling in nearby enemies, dealing Nihil DMG, and amplifying the DMG of the attack by consuming all points of  Apocalyptic Moonlight. During this, Luna is invincible but cannot recover the dodge meter or perform Signature - Moonfall."
+            "When in Finality with Eclipse Stance activated, press and hold Basic Attack to cast Final Retribution. Upon casting, Luna: Oblivion gathers energy and charges toward the target to pull in nearby enemies and detonate them, dealing Nihil DMG and amplifying this damage at the cost of all Eclipse Points. She becomes invincible during so, unable to restore the Dodge Gauge or cast Signature - Lunar Downfall."
           ],
           "result": [
-            "- Final Retribution deals **{0}%** Nihil DMG. Every 10 points of Apocalyptic Moonlight amplifies the Base DMG of the attack by 4%."
+            "- Final Retribution deals **{0}%** Nihil DMG. Every 10 Eclipse Points will amplify Base DMG by 4%."
           ],
           "res_lv18": [3800]
         },
         {
-          "name": "Selenophany",
-          "button_press": "Perform Signature - Parousía Télous",
+          "name": "Serene Advent",
+          "button_press": "Cast Signature - Finality",
           "description": [
-            "During  Parousía Télous, Luna continuously consumes Lingering Moonlight and cannot continuously gain Lingering Moonlight through  Reaping Moon. Every Basic Attack grants an  Telos Orb. Every cast of Breaking Moon grants 30 points of Lingering Moonlight and 3 Telos Orbs. Luna will exit Parousía Télous when Lingering Moonlight reaches  0. All Telos Orbs will disappear upon exiting  Parousía Télous."
+            "When in Finality, Luna: Oblivion consumes Crescent Points continuously but is unable to gain them back through Reaping Moon. Gains Finality Orbs upon Basic Attacks; restores 30 Crescent Points and gains 3 Finality Orbs upon casting Shattering Moon. When the number of Crescent Points falls to 0, exits Finality, and all Finality Orbs will disappear."
           ],
           "result": [
-            "- During Parousía Télous, consume 10 points of Lingering Moonlight every second.",
-            "- Pinging an Telos Orb triggers Voidal Delamination, dealing **{0}%** Nihil DMG and recovering 12 Energy and 20 points of Lingering Moonlight. When Mene Eskháte is active, additionally gain 15 points of Apocalyptic Moonlight."
+            "- In Finality, consumes 10 Crescent Points per second.",
+            "- Casts Void Dissipation upon pinging a Finality Orb, dealing **{0}%** Nihil DMG, restoring 12 Signature Energy and 20 Crescent Points. When Eclipse Stance is activated, gains additional 15 Eclipse Points."
           ],
           "res_lv18": [400]
         },
         {
-          "name": "Disorder Beacon",
+          "name": "Agitated Beacon",
           "button_press": "",
           "description": [
-            "During Main Sequence / Parousía Télous, Luna: Oblivion's Base DMG efficiency against Equilibrium Field increases by 100%."
+            "When in Main Sequence / Finality, Luna: Oblivion's Base DMG Efficiency dealt to Equilibrium Field increases by 100%."
           ]
         }
       ]
     },
     "signature": {
-      "name": "Crimson Moon, Star of Judgment",
+      "name": "Sanguine Verdict",
       "skills": [
         {
           "name": "Main Sequence",
-          "button_press": "Consume 30 Energy + Tap Signature Move",
+          "button_press": "30 Energy + Tap Signature",
           "description": [
-            "Shatters the spatial dimension and pulls everything into a domain of dead stars, dealing Nihil DMG, triggering Time Lag Calculation, and entering Main Sequence."
+            "Crushes spacial dimensions to pull all enemies into the Starfall Dome, dealing Nihil DMG. Triggers Time Lag Calculation in the duration and enters Main Sequence."
           ],
-          "result": ["- Deals a total of **{0}%** Nihil DMG."],
+          "result": ["- Deals **{0}%** Nihil DMG."],
           "res_lv18": [1200]
         },
         {
-          "name": "Parousía Télous",
-          "button_press": "Consume 30 Energy + Hold Signature Move",
+          "name": "Finality",
+          "button_press": "30 Energy + Press and Hold Signature Move",
           "description": [
-            "Consume all Signal Orbs to rip apart the dimension and pull everything into a domain of dead stars, dealing Nihil DMG. Afterwards, gain Apocalyptic Moonlight based on the number of Signal Orbs consumed. This fills Lingering Moonlight to the maximum value, activates Mene Eskháte, and Luna enters Parousía Télous."
+            "Tears apart dimensional bounds at the cost of all present Signal Orbs to pull all enemies into the Starfall Dome, dealing Nihil DMG and triggering Time Lag Calculation. After casting this skill, gains Eclipse Points based on the number of orbs pinged, increases Crescent Points to the max limit, activates Eclipse Stance, and enters Finality."
           ],
           "result": [
-            "- Deals a total of **{0}%** Nihil DMG.",
-            "- Gain 10 / 20 / 30 / 60 / 90 / 150 points of Apocalyptic Moonlight based on the number of Signal Orbs consumed."
+            "- Deals **{0}%** Nihil DMG.",
+            "- Gains 10 / 20 / 30 / 60 / 90 / 150 Eclipse Points based on the number of orbs pinged."
           ],
           "res_lv18": [1450]
         },
         {
-          "name": "Moonfall",
-          "button_press": "During Main Sequence / Parousía Télous + Consume 70 Energy + Tap Signature Move",
+          "name": "Lunar Downfall",
+          "button_press": "In Main Sequence / Finality + 70 Energy + Tap Signature",
           "description": [
-            "Condenses consciousness to collapse the space and annihilate everything, dealing Nihil DMG and triggering Time Lag Calculation. Afterwards, exits Main Sequence / Parousía Télous and enters the Protostar state. If Luna performs Moonfall during Main Sequence, she will consume all Apocalyptic Moonlight to amplify the DMG of the attack."
+            "Condenses consciousness to implode and obliterate space, dealing Nihil DMG and triggering Time Lag Calculation. Afterward, exits Main Sequence/Finality and enters Nova. When cast in Main Sequence, this skill's damage will be amplified at the cost of all Eclipse Points."
           ],
           "result": [
-            "- Deals a total of **{0}%** Nihil DMG.",
-            "- If Luna performs Moonfall during Main Sequence, every 10 points of Apocalyptic Moonlight increases the Base DMG of the attack by 4%."
+            "- Deals **{0}%** Nihil DMG.",
+            "- When cast in Main Sequence, every 10 Eclipse Points will amplify Base DMG by 4%."
           ],
           "res_lv18": [3200]
         }
       ]
     },
     "qte": {
-      "name": "Cataclysmic Advent",
-      "description": "Slashes with the Bladed Wing, dealing Nihil DMG.",
-      "result": ["- Deals a total of **{0}%** Nihil DMG."],
+      "name": "Befalling Demise",
+      "description": "Slashes the enemy with the Wingblade, dealing Nihil DMG.",
+      "result": ["- Deals **{0}%** Nihil DMG."],
       "res_lv18": [600]
     },
     "leader": {
-      "name": "Red Moon in the Empty Sky",
-      "description": "Increases Nihil DMG of all members by 10%. Increases ATK of all Annihilator Omniframes by 10%."
+      "name": "Blood Moon",
+      "description": "Increases Nihil DMG of all members by 10%. Increases ATK of all Annihilators by 20%."
     },
     "class": {
       "name": "Annihilator",
-      "description": "Extra DMG Bonus increases by **{0}%**. Converts all members' Elemental Resistance Reduction and Elemental DMG Increase effects into Omni-elemental Resistance Reduction and DMG Increase effects.",
+      "description": "Extra DMG Bonus increases by **{0}%**. Elemental Resistance Reduction and DMG Increase applied by any member will become universally effective for all elements.",
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Conformational Half-Moon",
+      "name": "Nebular Composition",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Upon performing Original Retribution / Final Retribution, Signature - Parousía Télous, or Signature - Moonfall, trigger all available QTEs."
+          "desc": "Casting Incipient Retribution/Final Retribution, Signature - Finality, or Signature - Lunar Downfall will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Upon performing Signature - Main Sequence or Signature - Parousía Télous, trigger Matrix if available. During Main Sequence, every 10 points of Apocalyptic Moonlight amplifies Base DMG of Original Retribution by 4%. If Luna exits the battlefield during Parousía Télous, the Chakram will perform an attack that deals 2000% Nihil DMG."
+          "desc": "Casting Signature - Main Sequence or Signature - Finality will trigger Matrix if it is not on cooldown. In Main Sequence, every 10 Eclipse Points amplify the Base DMG of Incipient Retribution by 4%. When exiting the battlefield in Finality, the Chakram will attack once to deal 2000% Nihil DMG."
         }
       ]
     },
     "sss_rank": {
-      "name": "Molding of a Phase Space",
+      "name": "Forged Universe",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Base DMG of Signature - Moonfall increases by 20%. Upon automatically dodging an incoming attack during Reaping Moon, gain 20 points of  Lingering Moonlight. Voidal Delamination can evade incoming attacks and grants 6 Telos Orbs upon successfully evading an attack."
+          "desc": "Base DMG of Signature - Lunar Downfall increases by 20%. Triggering Dodge automatically upon being hit in Reaping Moon will grant 20 Crescent Points. Void Dissipation can also dodge incoming attacks, and dodging successfully will grant 6 Finality Orbs."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "The obtain rate of Apocalyptic Moonlight doubles. Maximum points of Apocalyptic Moonlight increases to  600."
-        },
-        {
-          "rank": "",
-          "desc": "When performing Signature - Parousía Télous, each Signal Orb consumed amplifies Base DMG of Signature - Parousía Télous by 40% (up to  240%). During  Main Sequence / Parousía Télous, Luna: Oblivion's Base DMG efficiency against Equilibrium Field effect increases to  150%."
+          "desc": "The number of Eclipse Points obtained doubles, and the max capacity increases to 600 Points. When casting Signature - Finality, every Signal Orb pinged amplifies the Base DMG of Signature - Finality by 40%, up to 240%. When Luna: Oblivion is in Main Sequence/Finality, her Base DMG dealt to Equilibrium Field increases by 150% instead."
         }
       ]
     },
     "s+_rank": {
-      "name": "Moon's Crimson Fetters",
+      "name": "Interstellar Creator",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG of Signature - Moonfall and Signature - Parousía Télous increases by 40%."
+          "desc": "Extra DMG of Signature - Lunar Downfall and Signature - Finality increases by 40%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG of 3-Pings and Voidal Delamination increases by 40%."
+          "desc": "Extra DMG of 3-Ping Skills and Void Dissipation increases by 40%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG of Original Retribution, Final Retribution, and Breaking Moon cast with Lingering Moonlight at the maximum value increases by 40%."
+          "desc": "Extra DMG of Incipient Retribution, Final Retribution, and Shattering Moon cast at max Crescent Points increases by 40%."
         }
       ]
     }
@@ -10468,192 +10458,192 @@
   "ardeo": {
     "basic_attack": [
       {
-        "name": "Whirling Brawl - Combo 1",
-        "button_press": "Not in any Whirling Brawl Combo + Tap Basic Attack",
+        "name": "Whirling Strike - Combo 1",
+        "button_press": "Not in Whirling Strike Combo + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Spins and strikes the target, dealing **{0}%** Fire DMG.",
+        "description": "Turns and strikes the target, dealing **{0}%** Fire DMG.",
         "desc_lv18": [40]
       },
       {
-        "name": "Whirling Brawl - Combo 2",
+        "name": "Whirling Strike - Combo 2",
         "button_press": "Complete Combo 1 + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Throws a powerful criss-cross at the target, dealing **{0}%** Fire DMG. Can be followed up by Starry Impulse Combo 2.",
+        "description": "Strikes the target with cross attacks, dealing **{0}%** Fire DMG. Can combo into Flying Sparks - Combo 2.",
         "desc_lv18": [60]
       },
       {
-        "name": "Whirling Brawl - Combo 3",
+        "name": "Whirling Strike - Combo 3",
         "button_press": "Complete Combo 2 + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Leaps and throws an uppercut, dealing **{0}%** Fire DMG.",
+        "description": "Leaps and hits the target with an uppercut, dealing **{0}%** Fire DMG.",
         "desc_lv18": [100]
       },
       {
-        "name": "Whirling Brawl - Combo 4",
+        "name": "Whirling Strike - Combo 4",
         "button_press": "Complete Combo 3 + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Swings the Tonfas continuously to pull in and strike enemies, dealing **{0}%** Fire DMG. Can be followed up by Starry Impulse Combo Finisher.",
+        "description": "Wields the tonfas to pull in the target and performs consecutive attacks, dealing **{0}%** Fire DMG. Can combo into Flying Sparks - Final Combo.",
         "desc_lv18": [140]
       },
       {
-        "name": "Whirling Brawl - Combo Finisher",
+        "name": "Whirling Strike - Final Combo",
         "button_press": "Complete Combo 4 + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Pierces the target with the Tonfas, dealing **{0}%** Fire DMG. Gains Super Armor and 30% DMG Reduction.",
+        "description": "Performs a thrust attack on the target with the tonfas, dealing **{0}%** Fire DMG. Gains Super Armor and 30% DMG Reduction during so.",
         "desc_lv18": [200],
         "result": ["- Special Effect: Gains 3 Red Orbs."]
       }
     ],
     "red_orb": [
       {
-        "name": "Ironflame Strike - Dauntless Fighter",
+        "name": "Fearless Fighter",
         "button_press": "At least 1 Red Orb + Hold Red Orb + Release Red Orb",
         "switch_in": "no",
-        "description": "Hold Red Orb to begin charging. Release Red Orb to stop charging and thrust with the shield, consuming up to 1 / 2 / 3 Red Orbs to deal **{0}%** / **{1}%** / **{2}%** Fire DMG based on the time spent charging and inflict **Scorching Invasion** that reduces the target's Fire Resistance.",
+        "description": "Starts charging upon pressing and holding a Red Orb, then performs a shield bash upon releasing it, consuming 1 / 2 / 3 Red Orb(s) based on the charging time to deal **{0}%** / **{1}%** / **{2}%** Fire DMG. Additionally, applies **Scorching Invasion** that reduces the target's Fire Resistance.",
         "desc_lv18": [140, 180, 240],
         "result": [
-          "- Dauntless Fighter will convert a maximum of 50 Fortification Points to Ignition Points for each Red Orb pinged, and Bridget can possess a maximum of 300 Ignition Points. Each Fortification Point converted increases the Base DMG of Dauntless Fighter by 1.5% and grants 0.6 Signature Energy to Bridget: Ardeo.",
+          "- Fearless Fighter will convert up to 50 Fortification Points into Flash Points for each Red Orb consumed. Bridget: Ardeo can have up to 300 Flash Points. Each converted Fortification Point increases the Base DMG of Fearless Fighter by 1.5% and restores 0.6 Signature Energy to Ardeo.",
           "- **Scorching Invasion** reduces the target's Fire Resistance by 10% for 8s."
         ]
       },
       {
-        "name": "Ironflame Strike - Targeted Counterattack",
-        "button_press": "Get hit during Dauntless Fighter",
+        "name": "Detect and Counter",
+        "button_press": "Take Hit During Fearless Fighter",
         "switch_in": "no",
-        "description": "Bridget automatically performs a follow-up with Poised Grab if she gets hit while charging, leaping into the air then slamming the ground. This consumes up to 3 Red Orbs, recovers 90 Signature Energy, deals **{0}%** Fire DMG, and inflicts **Scorching Invasion** that reduces the target's Fire Resistance. Gains Super Armor and 50% DMG Reduction during this.\nGetting hit during the charging windup will upgrade Poised Grab to Swift Assault, during which Bridget dashes forward while engulfed in flames, additionally dealing **{1}%** Fire DMG. During this, Bridget is invincible.",
+        "description": "Upon taking a hit during charging, automatically performs a counterattack. Bridget: Ardeo leaps up and smashes the ground, spending up to 3 Red Orbs, recovering 90 Signature Energy, and dealing **{0}%** Fire DMG. Additionally, applies **Scorching Invasion** on the target, reducing the target's Fire Resistance. Gains Super Armor and 50% DMG Reduction during so.\nIf she takes a hit during the precast of the charge, the counterattack becomes a rapid assault instead. Bridget unleashes a wave of flame forward, dealing an additional **{1}%** Fire DMG. Becomes Invincible during so.",
         "desc_lv18": [180, 60],
         "result": [
-          "- Targeted Counterattack will convert up to 150 Fortification Points to an equal amount of Ignition Points, and Bridget can possess a maximum of 300 Ignition Points. Each Fortification Point converted increases the Base DMG of Targeted Counterattack by 1.5%.",
-          "- Targeted Counterattack is always considered a 3-Ping.",
+          "- Detect and Counter will convert up to 150 Fortification Points into Flash Points. Bridget can have up to 300 Flash Points. Each converted Fortification Points will increase the Base DMG of Detect and Counter by 1.5%.",
+          "- Detect and Counter is always considered a 3-Ping.",
           "- **Scorching Invasion** reduces the target's Fire Resistance by 10% for 8s."
         ]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Starry Impulse - Tempest Drop",
+        "name": "Whirldwind Kick",
         "button_press": "",
         "switch_in": "yes",
-        "description": "All Starry Impulse combos are considered 1-Pings. They do not consume Yellow Orbs and cannot recover Signature Energy.",
+        "description": "Flying Sparks Combos are always considered 1-Pings without consuming Yellow Orbs or restoring Signature Energy.",
         "result": [
-          "- Yellow Orbs obtained by Bridget: Ardeo will be randomly converted into Red or Blue Orbs."
+          "- Upon receiving Yellow Orbs, Ardeo will convert them into Red or Blue Orbs randomly."
         ]
       },
       {
-        "name": "Starry Impulse - Combo 1",
-        "button_press": "Not in any Starry Impulse combo + Tap Yellow Orb",
+        "name": "Flying Sparks - Combo 1",
+        "button_press": "Not in a Flying Sparks Combo + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Kicks the target, dealing **{0}%** Fire DMG. Can be followed up by Whirling Brawl Combo 3.",
+        "description": "Kicks the target, dealing **{0}%** Fire DMG. Can combo into Whirling Strike - Combo 3.",
         "desc_lv18": [160]
       },
       {
-        "name": "Starry Impulse - Combo 2",
+        "name": "Flying Sparks - Combo 2",
         "button_press": "Complete Combo 1 + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Leaps and rapid-kicks the target, dealing **{0}%** Fire DMG. Can be followed up by Whirling Brawl Combo Finisher.",
+        "description": "Leaps and unleashes multiple kicks at the target, dealing **{0}%** Fire DMG. Can combo into Whirling Strike - Final Combo.",
         "desc_lv18": [200]
       },
       {
-        "name": "Starry Impulse - Combo Finisher",
+        "name": "Flying Sparks - Final Combo",
         "button_press": "Complete Combo 2 + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Throw a powerful uppercut that pulls in targets, dealing **{0}%** Fire DMG and activating QTE on the Yellow slot if available. Gains Super Armor and 30% DMG Reduction during this.",
+        "description": "Swings the tonfas upward with great strength and pulls in targets, dealing **{0}%** Fire DMG and activating all available Yellow QTEs. Gains Super Armor and 30% DMG Reduction during so.",
         "desc_lv18": [300],
-        "result": ["- Special effect: Convert all Red Orbs into Blue Orbs."]
+        "result": ["- Special effect: Converts all Red Orbs into Blue Orbs."]
       }
     ],
     "blue_orb": [
       {
-        "name": "Steeled Drive - Molten Release",
-        "button_press": "Possess at least 1 Blue Orb + Energy Shield on hand + Ping Blue orb",
+        "name": "Enthalpy Released",
+        "button_press": "At Least 1 Blue Orb + Energy Shield in Hand + Ping Blue Orb",
         "switch_in": "no",
-        "description": "Hurls the Energy Shield that pulls in enemies in its trajectory, consuming up to 3 Blue Orbs and dealing **{0}%** / **{1}%** / **{2}%** Fire DMG.",
+        "description": "Hurls the Energy Shield, which continues to pulls in enemies as it travels, spending up to 3 Blue Orbs and dealing **{0}%** / **{1}%** / **{2}%** Fire DMG.",
         "desc_lv18": [120, 240, 360]
       },
       {
-        "name": "Steeled Drive - Molten Merge",
-        "button_press": "Energy shield on field + Ping Blue Orb",
+        "name": "Enthalpy Merged",
+        "button_press": "Energy shield on the Field + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Calls back the Energy Shield, dealing **{0}%** / **{1}%** / **{2}%** Fire DMG based on the number of Blue Orbs consumed when Energy Shield was thrown.",
+        "description": "Summons the Energy Shield back and deals **{0}%** / **{1}%** / **{2}%** Fire DMG to enemies on its path based on the number of Blue Orbs consumed when hurling the Energy Shield.",
         "desc_lv18": [120, 240, 360]
       },
       {
-        "name": "Steeled Drive - Crimson Ignition",
-        "button_press": " Possess at least 8 Blue Orbs (including Molten Release) + Press and Hold Blue Orb",
+        "name": "Prairie Fire",
+        "button_press": "At Least 8 Blue Orbs (including Enthalpy Released) + Press and Hold Blue Orb",
         "switch_in": "no",
-        "description": "Consume all Blue Orbs to discharge combustion power. For each Blue Orb consumed, deals **{0}%** Fire DMG, recovers 25 Signature Energy, and gains 250 Incendiary Points. Gains Super Armor during this.",
+        "description": "Spends all Blue Orbs to unleash the power of Ignition. Each Blue Orb spent will deal **{0}%** Fire DMG, recover 25 Signature Energy, and produce 250 Combustile Charges. Gains Super Armor during so.",
         "desc_lv18": [50]
       }
     ],
     "core_passive": {
-      "name": "Nimble Posture",
+      "name": "Surefooted",
       "skills": [
         {
-          "name": "Fortification",
-          "button_press": "Not in movement + Hold Dodge",
+          "name": "Fortify",
+          "button_press": "Not Moving + Press and Hold Dodge",
           "description": [
-            "Uses the Tonfas to block attacks, during which Bridget cannot move nor restore the Dodge Gauge. When attacked, consume the Dodge Gauge based on the amount of damage received and Bridget's maximum HP (Precise Block does not consume the Dodge Gauge)."
+            "Bridget: Ardeo blocks the attack with her Tactical Tonfas. She cannot move or restore Dodge Gauge during so, and Dodge Gauge is consumed based on the DMG prevented and her max HP when hit (Dodge Gauge is not consumed on a precise block)."
           ],
           "result": [
-            "- Upon a successful block, the damage taken is nullified if Bridget has sufficient Dodge Gauge; otherwise she gains 50% DMG Reduction against this attack.",
-            "- Recover 100 Fortification Points after a successful Block; additionally recover 50 Fortification Points after a Precise Block. Maximum Fortification Points: 300.",
-            "-If Bridget enters battle with less than 150 Fortification Points, it will be restored to 150 Fortification Points."
+            "- If there is enough Dodge Gauge, Bridget: Ardeo is immune to the hit upon a successful block. Otherwise, she gains 50% DMG Reduction for the hit instead.",
+            "- After a successful block, recovers 100 Fortification Points, and an additional 50 Fortification Points on a precise block. Bridget can have up to 300 Fortification Points.",
+            "- When she enters the battlefield, restores her Fortification Points to 150 if it is below 150."
           ]
         },
         {
-          "name": "Unleash",
+          "name": "Discharge",
           "button_press": "",
           "description": [
-            "The Energy Shield remains on the battlefield once hurled and possesses 6 Durability."
+            "After being thrown, the Energy Shield will stay on the field and gain 6 Durability."
           ],
           "result": [
-            "- Starry Impulse and Whirling Brawl can launch the Energy Shield, recovering 50 Fortification Points and consuming 1 Durability.",
-            "- The Energy Shield can trigger Targeted Counterattack and Fortification by consuming 1 Durability.",
-            "- Performing an EX Dodge on the Energy Shield will trigger Matrix if available.",
-            "- When Bridget: Ardeo retrieves the Energy Shield, she gains a shield equal to **{0}%** of her maximum HP and gains 1 Blue Orb."
+            "- Flying Sparks and Whirling Strike can launch the Energy Shield, recovering 50 Fortification Points and consuming 1 Durability.",
+            "- The Energy Shield can trigger Detect and Counter and Fortify, consuming 1 Durability",
+            "- Triggers available Matrix upon an Extreme Dodge on the Energy Shield.",
+            "- When Bridget: Ardeo recovers the Energy Shield, she receives a shield equal to **{0}%** of her Max HP and gains 1 Blue Orb."
           ],
           "res_lv18": [30]
         },
         {
-          "name": "Affix: Combustion",
+          "name": "Effect: Ignition",
           "button_press": "",
           "description": [
-            "Flammable: Every 250 Incendiary Points increases Flammable stack by 1. Maximum Flammable stacks: 20.\nCombustion: When a target is inflicted with the Combustion effect, they will receive Combustion DMG equal to the no. of Combustion Stacks x 30% every second for 10s. This does not trigger Tank Class Skill."
+            "Combustible: Every 250 Combustible Charges will add 1 Combustible stack, up to 20 stacks.\nIgnition: Ignited units take Ignition DMG equal to Ignition stacks x30% (Tank Skills will not be triggered) every second for 10s."
           ],
           "result": [
-            "- When the last enemy on the battlefield dies, subsequent incoming enemies will inherit its Flammable/Combustion status."
+            "- The subsequent unit will inherit the Combustible/Ignition status of the last unit on the battlefield upon its death."
           ]
         }
       ]
     },
     "signature": {
-      "name": "Blazing Sky",
+      "name": "Solar Reactor",
       "skills": [
         {
           "name": "Signature Move",
-          "button_press": "Consume 200 Energy + Tap Signature Move",
+          "button_press": "200 Energy + Tap Signature",
           "description": [
-            "Thrusts the Tonfas into the ground, consuming Ignition Points and triggering a firestorm, dealing **{0}%** Fire DMG. During this, Bridget: Ardeo is invincible. Triggers all available QTEs."
+              "Thrusts the tonfas into the ground and triggers a firestorm at the cost of all Flash Points, dealing **{0}%** Fire DMG. Becomes Invincible during so and activates all available QTEs."
           ],
           "desc_lv18": [300],
           "result": [
-            "- Each Ignition Point increases Base DMG of Blazing Sky by 1.5%.",
-            "- Blazing Sky will convert the Flammable state into the Combustion state with an equal number of stacks. "
+            "- Each Flash Point will increase the Base DMG of Solar Reactor by 1.5%.",
+            "- Solar Reactor will convert Combustible into Ignition of equal stacks."
           ]
         }
       ]
     },
     "qte": {
-      "name": "Powerful Fist",
-      "description": "Rushes and pulls in targets, dealing **{0}%** Fire DMG and inflicting **Scorching Invasion** that reduces the target's Fire Resistance.",
+      "name": "Shattering Punch",
+      "description": "Dashes forward and pulls in targets, dealing **{0}%** Fire DMG. Additionally, applies **Scorching Invasion** on the target, reducing the target's Fire Resistance.",
       "desc_lv18": [600],
       "result": [
         "- **Scorching Invasion** reduces the target's Fire Resistance by 10% for 8s."
       ]
     },
     "leader": {
-      "name": "Wholehearted Synergy ",
-      "description": "Increases DEF of all members by 10%. Increases DMG of Tank Omniframes by 5%."
+      "name": "Solidarity",
+      "description": "Increases DEF of all members by 10%. Increases DMG of Tank Omniframes in the team by 5%."
     },
     "class": {
       "name": "Tank",
@@ -10661,45 +10651,45 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Dissipating Uncertainty",
+      "name": "Dissipating Haze",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Base DMG of Starry Impulse and Whirling Brawl increases by 100%.\nUpon entering battle, additionally gain 2 Red Orbs and 2 Blue Orbs."
+          "desc": "Base DMG of Flying Sparks and Whirling Strike increases by 100%.\nBridget: Ardeo gains 2 additional Red Orbs and 2 additional Blue Orbs when she enters the field."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Each Fortification Point will increase the Base DMG of Ironflame Strike by 1%.\nAfter a successful block under any circumstance, recover 150 Fortification Points and upon entering battle additionally recover 150 Fortification Points. "
+          "desc": "Each Fortification Point will additionally increase the Base DMG of Steel Charge by 1%.\nAlways recovers 150 Fortification Points after a successful block. Recovers an additional 150 Fortification Points upon entering the battlefield."
         }
       ]
     },
     "sss_rank": {
-      "name": "Pursuit of Truth",
+      "name": "Seeking Truth",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Base DMG of Steeled Drive increases by 80%.\nThe Combo Finisher of Starry Impulse and Whirling Brawl will additionally inflict **Scorching Invasion** that reduces the target's Fire Resistance for 8s."
+          "desc": "Base DMG of Steadfast Foundation increases by 80%.\nFinal Combo of Flying Sparks and Whirling Strike also applies **Scorching Invasion**, reducing the target's Fire DMG Resistance for 8s."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Each Ignition Point will increase the Base DMG of Blazing Sky by 1%.\nCombustion DMG inflicted by Bridget: Ardeo increases by 30%.\nThe **Scorching Invasion** effect inflicted by Bridget: Ardeo additionally reduces enemies' Fire Resistance by 5%."
+          "desc": "Each Flash Point will additionally increase the Base DMG of Solar Reactor by 1%.\nIgnition DMG from Ardeo increases by 30%.\n**Scorching Invasion** inflicted by Ardeo can further reduce the target's Fire DMG Resistance by 5%."
         }
       ]
     },
     "s+_rank": {
-      "name": "The Weight of Life",
+      "name": "Weight of Life",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Ironflame Strike increases by 40%."
+          "desc": "Extra DMG Bonus of Steel Charge increases by 40%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of Steeled Drive increases by 60%."
+          "desc": "Extra DMG Bonus of Steadfast Foundation increases by 60%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Blazing Sky increases by 40%. Combustion DMG inflicted by Bridget: Ardeo increases by 30%."
+          "desc": "Extra DMG Bonus of Solar Reactor increases by 40%.\nIgnition DMG from Ardeo increases by 30%."
         }
       ]
     }
@@ -11107,7 +11097,7 @@
           "result": [
             "- Hold and release Red Orb to enter Calibration Mode: Quiescence, dealing **{0}%** Ice DMG.",
             "- Hold and release Dodge to enter Calibration Mode: Desolation, dealing **{1}%** Hiemal DMG.",
-            "- Inflicts enemies with the Frost Corrosion effect that reduces Ice Resistance by 25% for 8s when entering Calibration Mode.",
+            "- Inflicts enemies with the **Frost Corrosion** effect that reduces Ice Resistance by 25% for 8s when entering Calibration Mode.",
             "- While in Calibration Mode, Wanshi consumes 30 Calibration Points every second, and he will exit Calibration Mode when he fully depletes Calibration Points. Performing a 3-Ping in Calibration Mode grants 40 Calibration Points."
           ],
           "res_lv18": [500, 280],
@@ -11142,7 +11132,7 @@
             "Wanshi can debuff enemies when damaging them with Condensation Rounds."
           ],
           "result": [
-            "- Inflicts enemies with the Frost Corrosion effect that reduces Ice Resistance by 25% for 8s when damaging them with Condensation Rounds."
+            "- Inflicts enemies with the **Frost Corrosion** effect that reduces Ice Resistance by 25% for 8s when damaging them with Condensation Rounds."
           ]
         },
         {
@@ -11210,7 +11200,7 @@
       "name": "Point-blank Shooting",
       "description": "Rushes and strikes forward, firing at close range. Deals Ice DMG and debuffs enemies.",
       "result": [
-        "- Deals **{0}%** Ice DMG and inflicts enemies with the Frost Corrosion effect that reduces Ice Resistance by 25% for 8s."
+        "- Deals **{0}%** Ice DMG and inflicts enemies with the **Frost Corrosion** effect that reduces Ice Resistance by 25% for 8s."
       ],
       "res_lv18": [600]
     },
@@ -11241,11 +11231,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Frost Corrosion effect applied by Wanshi: Lucid Dreamer increases by 10%. Signal Orb recovery rate increases by 100% during Bullet Hail. Base DMG of  Cryonic Explosion increases by 200%. Base DMG of  Airdropped Revolver and  Effulgent Shatter increases by 100%."
+          "desc": "**Frost Corrosion** effect applied by Wanshi: Lucid Dreamer increases by 10%. Signal Orb recovery rate increases by 100% during Bullet Hail. Base DMG of  Cryonic Explosion increases by 200%. Base DMG of  Airdropped Revolver and  Effulgent Shatter increases by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Frost Corrosion effect applied by Wanshi: Lucid Dreamer increases by 10%. Base DMG of Diamond Dust performed by Wanshi: Lucid Dreamer increases by 30%. When performing Hyperlinked Flight or Ruinous Blizzard in  Calibration Mode, increases their Base Multiplier by 1.5 times. When Wanshi: Lucid Dreamer has the maximum number of Wounding stacks, Base DMG of  Hyperlinked Flight additionally increases by 60%. Reduces swap cooldown of all party members by  3s; this cannot be stacked with other swap cooldown-reducing effects."
+          "desc": "**Frost Corrosion** effect applied by Wanshi: Lucid Dreamer increases by 10%. Base DMG of Diamond Dust performed by Wanshi: Lucid Dreamer increases by 30%. When performing Hyperlinked Flight or Ruinous Blizzard in  Calibration Mode, increases their Base Multiplier by 1.5 times. When Wanshi: Lucid Dreamer has the maximum number of Wounding stacks, Base DMG of  Hyperlinked Flight additionally increases by 60%. Reduces swap cooldown of all party members by  3s; this cannot be stacked with other swap cooldown-reducing effects."
         }
       ]
     },
@@ -12182,8 +12172,8 @@
         "name": "Arcane Submergence - Amplifier State",
         "button_press": "",
         "switch_in": "no",
-        "description": "**Fire**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Ice**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "description2": "**Lightning**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Dark**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+        "description": "**Fire**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Ice**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "description2": "**Lightning**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Lightning Surge** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Dark**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
       }
     ],
     "yellow_orb": [
@@ -12351,12 +12341,12 @@
           "name": "Amplifier State",
           "button_press": "",
           "description": [
-            "**Fire**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-            "**Ice**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+            "**Fire**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+            "**Ice**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
           ],
           "description2": [
-            "**Lightning**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-            "**Dark**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+            "**Lightning**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the ** **Lightning Surge**** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+            "**Dark**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
           ]
         }
       ]
@@ -12378,10 +12368,10 @@
       ],
       "extra2_title": "**Amplifier State**",
       "extra2": [
-        "**Fire**: Heals allies for 100% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "**Ice**: Heals allies for 100% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "**Lightning**: Heals allies for 100% of ATK, grant the ** Lightning Surge** effect that increases Lightning DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "**Dark**: Heals allies for 100% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Void Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+        "**Fire**: Heals allies for 100% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "**Ice**: Heals allies for 100% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "**Lightning**: Heals allies for 100% of ATK, grant the ** **Lightning Surge**** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
+        "**Dark**: Heals allies for 100% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
       ]
     },
     "leader": {
@@ -12390,8 +12380,8 @@
     },
     "class": {
       "name": "Observer",
-      "description": "Gain different abilities based on the **Observation Chronicle**:\n- When Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for **5**s.\n- When Dark Amplifier: All switched-in members gain an extra **{1}%** ATK and **{2}%** Elemental DMG Bonus of Ishmael: Parhelion's element for 10s.\n- All other Amplifiers: All switched-in members gain an extra **{3}%** ATK and **{4}%** Elemental DMG Bonus of Ishmael: Parhelion's element for **10**s.",
-      "desc_lv18": [20, 20, 20, 10, 10]
+      "description": "Gain different abilities based on the **Observation Chronicle**:\n- When Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for **5**s.\n- When Amplifier: All switched-in members gain an extra **{1}%** ATK and **{2}%** Elemental DMG Bonus of Ishmael: Parhelion's element for **10**s.",
+      "desc_lv18": [20, 10, 10]
     },
     "ss_rank": {
       "name": "Inspiring Roll of Dice",
@@ -12417,8 +12407,8 @@
           "rank": "Level 2 - Unlocked at SSS",
           "desc": "**Gravitational Collapse Points**' damage amplification effect increases by **50%**. During the 5th hit of **Phantom Abysm**, you can input one 3-Ping to deal an additional **1000%** Nihil DMG and gain **180 Gravitational Collapse Points**. Enhances the special abilities triggered based on the **Observation Chronicle**. Base DMG efficiency increase against **Equilibrium Fields** increases to **150%**.",
           "extra1": "**Tank State**\n**Fire**: **Unlocked at SS3**: **Scorching Invasion** and **Collapse Singularity** effects increases by **10%**.\n**Unlocked at SSS**: **Scorching Invasion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Ice**: **Unlocked at SS3**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.",
-          "extra2": "**Lightning**:**Unlocked at SS3**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Turbulence Interference** and **Collapse Singularity** effects increases by **10%**. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Dark**: **Unlocked at SSS**: Chain Fusion and Collapse Singularity effects increases by **10%**.",
-          "extra3": "**Amplfier State**\n**Fire**: **Unlocked at SSS**:  Amplifier Class Skill effect increases by **100%**.\n**Ice**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Dark**: **Unlocked at SS3**: **Dark Radiation** and **Void Disintegration** effects increases by 10%.\n**Unlocked at SSS**: **Dark Radiation** and **Void Disintegration** effects increases by 10%. All member switch-ins reset the cooldown of QTE skills."
+          "extra2": "**Lightning**:**Unlocked at SS3**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Turbulence Interference** and **Collapse Singularity** effects increases by **10%**. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Dark**: **Unlocked at SSS**: **Chain Fusion** and Collapse Singularity effects increases by **10%**.",
+          "extra3": "**Amplfier State**\n**Fire**: Unlocked at SSS:  Amplifier Class Skill effect increases by **100%**.\n**Ice**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**.\n**Dark**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**"
         }
       ]
     },

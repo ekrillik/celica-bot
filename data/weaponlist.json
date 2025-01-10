@@ -42,15 +42,16 @@
     "atoll",
     "black raven",
     "emerald quill",
-    "pesw-ii mod",
-    "second coming",
+    "pesw-ii - mod",
+    "reappearance",
     "standard tactical tonfas",
     "autumn fringe",
     "locked and loaded",
     "prototype lb-lightspeed",
     "night rakshasa",
     "prototype shield axe zl-07",
-    "",
+    "primeval key",
+    "evening's grandeur",
     "photophage",
     "iron star type vi",
     "overture",
@@ -60,6 +61,7 @@
     "night rakshasa",
     "prototype shield axe zl-07",
     "primeval key",
+    "evening's grandeur",
     "gloomlight",
     "kuji no sada",
     "guardian mount",
@@ -98,15 +100,16 @@
     "reversal node",
     "pale plume",
     "phoenix edge",
-    "white night jam point",
-    "darkmoon decay",
-    "undying gleam",
+    "white night's noise",
+    "dark moon",
+    "everburning ray",
     "moon upon begonia",
     "eternal rest",
     "fogged glow",
     "purging levin",
     "type zl-09 illuminance",
     "starpool connector",
+    "skylit nightmare",
     "glimpse",
     "guiyun",
     "odette",
@@ -181,7 +184,8 @@
     "dawn's flaming feathers",
     "morrow's executioner",
     "star tunnel of light",
-    "epochal authority"
+    "epochal authority",
+    "lament of night's debauchery"
   ],
   "weaponlist_categorised": [
     {
@@ -407,23 +411,23 @@
       "name": "Tactical Headphones'",
       "list": [
         "Hacker's Tune ######",
-        "White Night Jam Point #####",
-        "PESW-II Mod ####"
+        "White Night's Noise #####",
+        "PESW-II - Mod ####"
       ]
     },
     {
       "name": "Chakrams",
       "list": [
         "Reconstruction of Law ######",
-        "Darkmoon Decay #####",
-        "Second Coming ####"
+        "Dark Moon #####",
+        "Reappearance ####"
       ]
     },
     {
       "name": "Tactical Tonfas",
       "list": [
         "Cestus ######",
-        "Undying Gleam #####",
+        "Everburning Ray #####",
         "Standard Tactical Tonfas ####"
       ]
     },

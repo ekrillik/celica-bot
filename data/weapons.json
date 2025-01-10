@@ -576,26 +576,26 @@
     }
   },
   "pesw ii mod": {
-    "name": "PESW-II Mod",
+    "name": "PESW-II - Mod",
     "weapon_type": "Tactical Headphones",
     "rarity": 4,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/d/da/t1v8y9dhroiheb6awzctgtxf5b69hi7.png/60px-%E6%AD%A6%E5%99%A8_PESW-%E2%85%A1%E6%94%B9.png",
     "atk": 224,
     "crit": 128,
     "effect": {
-      "effect_name": "Forced Seal",
+      "effect_name": "Forced Encapsulation",
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "second coming": {
-    "name": "Second Coming",
+  "reappearance": {
+    "name": "Reappearance",
     "weapon_type": "Chakram",
     "rarity": 4,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/4/40/puqnd1xucguunife6sjhzfe4ze1temu.png/60px-%E6%AD%A6%E5%99%A8_%E5%86%8D%E4%B8%B4.png",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Under the Crimson",
+      "effect_name": "Crimson Tide",
       "effect_desc": "ATK increases by 5%."
     }
   },
@@ -607,7 +607,7 @@
     "atk": 224,
     "crit": 129,
     "effect": {
-      "effect_name": "Gravitational Shock",
+      "effect_name": "Gravity Surge",
       "effect_desc": "ATK increases by 5%."
     }
   },
@@ -1223,39 +1223,39 @@
       "effect_desc": "Ice DMG increases by 10%."
     }
   },
-  "white night jam point": {
-    "name": "White Night Jam Point",
+  "white night's noise": {
+    "name": "White Night's Noise",
     "weapon_type": "Tactical Headphones",
     "rarity": 5,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/2/27/kc0wqvhnwxgvb3qa13fx4no07uj6wmm.png/60px-%E6%AD%A6%E5%99%A8_%E7%99%BD%E5%A4%9C%E5%99%AA%E7%82%B9.png",
     "atk": 354,
     "crit": 195,
     "effect": {
-      "effect_name": "Mimesis Interference",
+      "effect_name": "Mimic Interference",
       "effect_desc": "Dark DMG increases by 10%."
     }
   },
-  "darkmoon decay": {
-    "name": "Darkmoon Decay",
+  "dark moon": {
+    "name": "Dark Moon",
     "weapon_type": "Chakram",
     "rarity": 5,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/3/32/9ypxusg6ykjnena54wpys2hz11vnqf6.png/60px-%E6%AD%A6%E5%99%A8_%E9%BB%AF%E6%9C%88%E6%91%A7%E6%9C%BD.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Structural Collapse",
+      "effect_name": "Deconstruction",
       "effect_desc": "Nihil DMG increases by 10%."
     }
   },
-  "undying gleam": {
-    "name": "Undying Gleam",
+  "everburning ray": {
+    "name": "Everburning Ray",
     "weapon_type": "Tactical Tonfas",
     "rarity": 5,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/5/5f/0zn5139tmxqrmg8ed5nh4038vjwn4aa.png/60px-%E6%AD%A6%E5%99%A8_%E4%B8%8D%E6%AF%81%E7%8E%93%E5%85%89.png",
     "atk": 354,
     "crit": 197,
     "effect": {
-      "effect_name": "Passover Forbiddance",
+      "effect_name": "Defying Obstacles",
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
@@ -2035,8 +2035,8 @@
     "atk": 436,
     "crit": 241,
     "effect": {
-      "effect_name": "Soundwave Permeance",
-      "effect_desc": "ATK increases by 10%. Base DMG of Signal Orbs and Cadence Orbs increases by 30%. If the Signature Energy gauge is full when Teddy: Decryptor is swapped into the field while in Unanalyzed Mode, Teddy will automatically enter Analyzed Mode and gain 40 Analysis Points. Otherwise, Teddy will gain 100 Signature Energy."
+      "effect_name": "Soundwave Penetration",
+      "effect_desc": "ATK increases by 10%. Base DMG of Signal Orbs and Stress Orbs increases by 30%. When Teddy: Decryptor enters the battlefield while she is not in Analysis Mode, she will enter Analysis Mode automatically and gain 40 Analysis Points if she has full Signature Energy. Otherwise, she gains 100 Signature Energy."
     }
   },
   "reconstruction of law": {
@@ -2047,8 +2047,8 @@
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "Forma Obliteration",
-      "effect_desc": "ATK increases by 10%. After a 3-Ping or performing Breaking Moon with Lingering Moonlight at the maximum value, the next ping will count as a 3-Ping. The obtain rate of Lingering Moonlight increases by 50%."
+      "effect_name": "Obliteration",
+      "effect_desc": "ATK increases by 10%. After a 3-Ping or casting Shattering Moon with maximum Crescent Points, the next ping is regarded as a 3-Ping. Gains Crescent Points 50% faster."
     }
   },
   "cestus": {
@@ -2059,8 +2059,8 @@
     "atk": 436,
     "crit": 244,
     "effect": {
-      "effect_name": "Erect Barrier",
-      "effect_desc": "ATK increases by 10%. Base DMG of Ironflame Strike increases by 60%. When consuming Red Orbs, casting Precise Block during Ironflame Strike will immediately recover 1 Red Orb. The amount of Incendiary Points accumulated from Crimson Ignition increases by 40%."
+      "effect_name": "Radiant Barrier",
+      "effect_desc": "ATK increases by 10%. Base DMG of Steel Charge increases by 60%. When Red Orbs are depleted, casting Steel Charge or performing a precise block immediately restores 1 Red Orb. The Combustible Charges produced by Prairie Fire increase by 40%."
     }
   },
   "dreamer roamer": {
