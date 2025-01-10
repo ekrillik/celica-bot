@@ -18,8 +18,8 @@ class Ppc(commands.Cog):
     async def on_ready(self):
         print('PPC loaded.')
 
-    @commands.hybrid_command(pass_context=True, description="Accepts a difficulty and a time particular time in seconds to display a score for EX-PPC.")
-    async def timev2(self, ctx: commands.Context, difficulty, time_str):
+    @commands.hybrid_command(pass_context=True, aliases=['PPC', 'ppc'], description="Accepts a difficulty and a time particular time in seconds to display a score for EX-PPC.")
+    async def time(self, ctx: commands.Context, difficulty, time_str):
         max_seconds = 300
         difficulties = ["knight", "chaos", "hell"]
         if difficulty not in difficulties:
