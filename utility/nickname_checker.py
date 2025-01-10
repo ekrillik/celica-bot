@@ -293,7 +293,7 @@ def check_nickname(nickname, caller):
         case "oblivion":
             character = "oblivion"
             weapon = "reconstruction of law"
-            cub = "su e"
+            cub = "guardrake"
             memory = "cleopatra"
         case "ardeo":
             character = "ardeo"
