@@ -587,8 +587,8 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "reappearance": {
-    "name": "Reappearance",
+  "second coming": {
+    "name": "Second Coming",
     "weapon_type": "Chakram",
     "rarity": 4,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/4/40/puqnd1xucguunife6sjhzfe4ze1temu.png/60px-%E6%AD%A6%E5%99%A8_%E5%86%8D%E4%B8%B4.png",
@@ -1235,8 +1235,8 @@
       "effect_desc": "Dark DMG increases by 10%."
     }
   },
-  "dark moon": {
-    "name": "Dark Moon",
+  "darkmoon decay": {
+    "name": "Darkmoon Decay",
     "weapon_type": "Chakram",
     "rarity": 5,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/3/32/9ypxusg6ykjnena54wpys2hz11vnqf6.png/60px-%E6%AD%A6%E5%99%A8_%E9%BB%AF%E6%9C%88%E6%91%A7%E6%9C%BD.png",
