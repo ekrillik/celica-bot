@@ -77,7 +77,10 @@ class Weapons(commands.Cog):
         data = reso
 
         theme = character_theme(character)
-        embed = self.embedconf.create_reso_embed(name=theme[2], list=data['main'], colour=theme[0], thumbnail_url=theme[3])
+        if 'alternate' in data:
+            embed = self.embedconf.create_reso_embed(name=theme[2], main_list=data['main'], alt_list=data['alternate'], colour=theme[0], thumbnail_url=theme[3])
+        else:
+            embed = self.embedconf.create_reso_embed(name=theme[2], main_list=data['main'], colour=theme[0], thumbnail_url=theme[3])
         view = GeneralView(ctx.author)
         view.message = await ctx.send(view=view, embed=embed)
 

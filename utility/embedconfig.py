@@ -175,15 +175,22 @@ class EmbedClass:
         embed.set_footer(text=weapon['weapon_type'])
         return embed
 
-    def create_reso_embed(self, name, list, colour=0xffffff, thumbnail_url = ""):
+    def create_reso_embed(self, name, main_list, alt_list=[], colour=0xffffff, thumbnail_url = ""):
         embed = discord.Embed(
-            title=f"{name}",
+            title=f"Weapon Resonance Priority List - {name}",
             description="",
             color=discord.Color(colour)
         )
-        for item in list:
-            embed.add_field(name=f"{item}", value=f"", inline=False)
+
+        embed.add_field(name=f"Main Priority List", value=f"", inline=False)
+        for item in main_list:
+            embed.add_field(name=f"", value=f"{item}", inline=False)
         
+        if len(alt_list) > 0:
+            embed.add_field(name=f"Alternate Priority List", value=f"", inline=False)
+            for item in alt_list:
+                embed.add_field(name=f"", value=f"{item}", inline=False)
+
         embed.set_thumbnail(url=thumbnail_url)
         return embed
 
