@@ -190,6 +190,8 @@ def fuzzmatch(string, match_type = "character") -> str:
             boss = "trailblazer"
         case "poria":
             boss = "fushen"
+        case "emp":
+            boss = "emperor"
 
         case _:
             character = ""
