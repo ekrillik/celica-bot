@@ -140,7 +140,7 @@ class Ppc(commands.Cog):
     @commands.hybrid_command(name="580k", aliases=['580', '58w'], pass_context=True, description="Provides the approximate times required to hit 580K in EXPPC.")
     async def achieveminscore(self, ctx: commands.Context):
         embed = discord.Embed(title="580K", description="Approximate time and score for each difficulty to reach 580k total score for an Ultimate Phantom Pain Cage boss.")
-        embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/580k.png")
+        embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/new_580k.png")
         await ctx.send(embed=embed)
 
 
