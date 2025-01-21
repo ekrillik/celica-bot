@@ -101,6 +101,7 @@ class Ppc(commands.Cog):
                 self.boss = self.bossdata[nickname]
             except:
                 await ctx.send(content="This boss does not exist. Please try again.")
+                return()
 
         if 'exppc' in self.boss:
             if 'outlier' in self.boss:
