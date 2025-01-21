@@ -1,0 +1,628 @@
+{
+  "lotus": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "eclipse": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "storm": {
+    "main": [
+      "1. Polymerization Collapse (Physical Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Polymerization Collapse (Physical Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "dawn": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "lux": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "palefire": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "nightblade": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "zero": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "blast": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "luminance": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "entropy": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "ember": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "pulse": {
+    "main": [
+      "1. Torch Diode (Fire Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Torch Diode (Fire Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "tenebrion": {
+    "main": [
+      "1. Tenebrion Shock (Dark Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Tenebrion Shock (Dark Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "crimson abyss": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "bastion": {
+    "main": [
+      "1. Polymerization Collapse (Physical Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Polymerization Collapse (Physical Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "astral": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "brilliance": {
+    "main": [
+      "1. Polymerization Collapse (Physical Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Polymerization Collapse (Physical Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "veritas": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "silverfang": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "arclight": {
+    "main": [
+      "1. Thunder Shake (Lightning Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Thunder Shake (Lightning Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "plume": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "rozen": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "crocotta": {
+    "main": ["1. Limit Break", "2. Incandescence", "3. Matrix Lightning"]
+  },
+  "rigor": {
+    "main": [
+      "1. Polymerization Collapse (Physical Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Polymerization Collapse (Physical Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "qilin": {
+    "main": [
+      "1. Bose Hyperflow (Ice Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Bose Hyperflow (Ice Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "pavo": {
+    "main": ["1. Dead Line Timing", "2. Limit Break", "3. Matrix Lightning"]
+  },
+  "laurel": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "2b": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "9s": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "a2": {
+    "main": [
+      "1. Polymerization Collapse (Physical Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Polymerization Collapse (Physical Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "hypnos": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "tempest": {
+    "main": ["1. Dead Line Timing", "2. Limit Break", "3. Matrix Lightning"]
+  },
+  "glory": {
+    "main": [
+      "1. Bose Hyperflow (Ice Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Bose Hyperflow (Ice Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "xxi": {
+    "main": [
+      "1. Tenebrion Shock (Dark Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Tenebrion Shock (Dark Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "garnet": {
+    "main": [
+      "1. Thunder Shake (Lightning Resist Down)",
+      "2. Matrix Lightning",
+      "3. Resonant Echo"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Thunder Shake (Lightning Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "flambeau": {
+    "main": ["1. Limit Break", "2. Incandescence", "3. Matrix Lightning"]
+  },
+  "empyrea": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "capriccio": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "dragontoll": {
+    "main": ["1. Dead Line Timing", "2. Limit Break", "3. Matrix Lightning"]
+  },
+  "starfarer": {
+    "main": [
+      "1. Torch Diode (Fire Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Torch Diode (Fire Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "starveil": {
+    "main": ["1. Dead Line Timing", "2. Limit Break", "3. Matrix Lightning"]
+  },
+  "scire": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Tenebrion Shock (Dark Resist Down)",
+      "3. Matrix Lightning"
+    ],
+    "alternate": [
+      "1. Tenebrion Shock (Dark Resist Down)",
+      "2. Matrix Lightning",
+      "3. Resonant Echo"
+    ]
+  },
+  "arca": {
+    "main": ["1. Dead Line Timing", "2. Limit Break", "3. Matrix Lightning"]
+  },
+  "stigmata": {
+    "main": [
+      "1. Glorious Afterglow",
+      "2. Matrix Lightning",
+      "3. Incandescence"
+    ],
+    "alternate": [
+      "1. Glorious Afterglow",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ]
+  },
+  "vitrum": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "hyperreal": {
+    "main": ["1. Glorious Afterglow", "2. Matrix Lightning", "3. Incandescence"]
+  },
+  "kaleido": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "crimson weave": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "zitherwoe": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "feral": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "indomitus": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "echo": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "lost lullaby": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ],
+    "alternate": [
+      "1. Glorious Afterglow",
+      "2. Matrix Lightning",
+      "3. Incandescence"
+    ]
+  },
+  "brs": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "epitaph": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Torch Diode (Fire Resist Down)",
+      "3. Matrix Lightning"
+    ],
+    "alternate": [
+      "1. Torch Diode (Fire Resist Down)",
+      "2. Matrix Lightning",
+      "3. Resonant Echo"
+    ]
+  },
+  "shukra": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "decryptor": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "oblivion": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "ardeo": {
+    "main": [
+      "1. Torch Diode (Fire Resist Down)",
+      "2. Matrix Lightning",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Torch Diode (Fire Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "solacetune": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Polymerization Collapse (Physical Resist Down)",
+      "3. Matrix Lightning"
+    ],
+    "alternate": [
+      "1. Polymerization Collapse (Physical Resist Down)",
+      "2. Matrix Lightning",
+      "3. Resonant Echo"
+    ]
+  },
+  "lucid dreamer": {
+    "main": [
+      "1. Bose Hyperflow (Ice Resist Down)",
+      "2. Matrix Lightning",
+      "3. Resonant Echo"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Bose Hyperflow (Ice Resist Down)",
+      "3. Matrix Lightning"
+    ]
+  },
+  "pyroath": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "fulgor": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
+  "startrail": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Thunder Shake (Lightning Resist Down)",
+      "3. Matrix Lightning"
+    ],
+    "alternate": [
+      "1. Thunder Shake (Lightning Resist Down)",
+      "2. Matrix Lightning",
+      "3. Resonant Echo"
+    ]
+  },
+  "parhelion": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Omni-Elemental Resist Down",
+      "3. Matrix Lightning"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "daemonissa": {
+    "main": [
+      "1. Superconducting Axial Ray",
+      "2. Glorious Spear",
+      "3. Dead Line Timing"
+    ],
+    "alternate": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
+  "placeholder": {
+    "unit_name": "Placeholder",
+    "frame_name": "Placeholder"
+  }
+}

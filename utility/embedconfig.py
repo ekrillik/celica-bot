@@ -175,6 +175,18 @@ class EmbedClass:
         embed.set_footer(text=weapon['weapon_type'])
         return embed
 
+    def create_reso_embed(self, name, list, colour=0xffffff, thumbnail_url = ""):
+        embed = discord.Embed(
+            title=f"{name}",
+            description="",
+            color=discord.Color(colour)
+        )
+        for item in list:
+            embed.add_field(name=f"{item}", value=f"", inline=False)
+        
+        embed.set_thumbnail(url=thumbnail_url)
+        return embed
+
     def create_cub_embed(self, cub, choice, colour=0xffffff, chibi_avatar=""):
 
         active_skills = cub['active_skills']

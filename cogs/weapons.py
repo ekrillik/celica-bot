@@ -5,6 +5,7 @@ from discord.ext import commands
 from utility.embedconfig import EmbedClass
 from utility.nickname_checker import check_nickname, character_theme
 from utility.wep_pagination import WeaponPageView
+from utility.general_view import GeneralView
 from utility.fuzzymatch import fuzzmatch
 
 class Weapons(commands.Cog):
@@ -19,6 +20,8 @@ class Weapons(commands.Cog):
             self.weapons = json.load(file)
         with open('data/weapontypes.json') as file:
             self.weapon_types = json.load(file)
+        with open('data/resos.json') as file:
+            self.resos = json.load(file)
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -57,6 +60,26 @@ class Weapons(commands.Cog):
         view.update_buttons()
         view.message = await ctx.send(view=view, embed=embed)
 
+    @commands.hybrid_command(aliases=['reso'], description="Displays recommended resonances for each unit.")
+    async def resonance(self, ctx: commands.Context, *, frame_name) -> None:
+        name = fuzzmatch(frame_name)
+        if name == "":
+            name = frame_name
+        character = check_nickname(name, "character")
+
+        reso = self.resos.get(character, None)
+        if reso is None:
+            content = ('This character does not exist. Please try again.\nYou may be searching for a character with '
+                       'multiple frames as well.')
+            await ctx.send(content=content)
+            return
+        
+        data = reso
+
+        theme = character_theme(character)
+        embed = self.embedconf.create_reso_embed(name=theme[2], list=data['main'], colour=theme[0], thumbnail_url=theme[3])
+        view = GeneralView(ctx.author)
+        view.message = await ctx.send(view=view, embed=embed)
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Weapons(bot))
