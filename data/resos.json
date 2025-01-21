@@ -105,13 +105,13 @@
   },
   "pulse": {
     "main": [
-      "1. Torch Diode (Fire Resist Down)",
+      "1. Diode Torch (Fire Resist Down)",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Torch Diode (Fire Resist Down)",
+      "2. Diode Torch (Fire Resist Down)",
       "3. Matrix Lightning"
     ]
   },
@@ -319,23 +319,27 @@
     "alternate": [
       "1. Dead Line Timing",
       "2. Tenebrion Shock (Dark Resist Down)",
-      "3. Matrix Lightning"
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
   "garnet": {
     "main": [
       "1. Thunder Shake (Lightning Resist Down)",
       "2. Matrix Lightning",
-      "3. Resonant Echo"
+      "3. Incandescence"
     ],
     "alternate": [
       "1. Dead Line Timing",
       "2. Thunder Shake (Lightning Resist Down)",
-      "3. Matrix Lightning"
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
   "flambeau": {
-    "main": ["1. Limit Break", "2. Incandescence", "3. Matrix Lightning"]
+    "main": [
+      "1. Limit Break",
+      "2. Incandescence",
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
+    ]
   },
   "empyrea": {
     "main": [
@@ -362,47 +366,59 @@
     ]
   },
   "dragontoll": {
-    "main": ["1. Dead Line Timing", "2. Limit Break", "3. Matrix Lightning"]
+    "main": [
+      "1. Dead Line Timing",
+      "2. Limit Break",
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
+    ]
   },
   "starfarer": {
     "main": [
-      "1. Torch Diode (Fire Resist Down)",
-      "2. Matrix Lightning",
+      "1. Diode Torch (Fire Resist Down)",
+      "2. Incandescence/Matrix Lightning (adjust based on context)",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Torch Diode (Fire Resist Down)",
-      "3. Matrix Lightning"
+      "2. Diode Torch (Fire Resist Down)",
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
   "starveil": {
-    "main": ["1. Dead Line Timing", "2. Limit Break", "3. Matrix Lightning"]
+    "main": [
+      "1. Dead Line Timing",
+      "2. Limit Break",
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
+    ]
   },
   "scire": {
     "main": [
       "1. Dead Line Timing",
       "2. Tenebrion Shock (Dark Resist Down)",
-      "3. Matrix Lightning"
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ],
     "alternate": [
       "1. Tenebrion Shock (Dark Resist Down)",
       "2. Matrix Lightning",
-      "3. Resonant Echo"
+      "3. Incandescence"
     ]
   },
   "arca": {
-    "main": ["1. Dead Line Timing", "2. Limit Break", "3. Matrix Lightning"]
+    "main": [
+      "1. Dead Line Timing",
+      "2. Limit Break",
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
+    ]
   },
   "stigmata": {
     "main": [
       "1. Glorious Afterglow",
-      "2. Matrix Lightning",
+      "2. Incandescence/Matrix Lightning (adjust based on context)",
       "3. Incandescence"
     ],
     "alternate": [
       "1. Glorious Afterglow",
-      "2. Matrix Lightning",
+      "2. Incandescence/Matrix Lightning (adjust based on context)",
       "3. Dead Line Timing"
     ]
   },
@@ -410,11 +426,15 @@
     "main": [
       "1. Dead Line Timing",
       "2. Glorious Afterglow",
-      "3. Matrix Lightning"
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
   "hyperreal": {
-    "main": ["1. Glorious Afterglow", "2. Matrix Lightning", "3. Incandescence"]
+    "main": [
+      "1. Glorious Afterglow",
+      "2. Incandescence/Matrix Lightning (adjust based on context)",
+      "3. Incandescence"
+    ]
   },
   "kaleido": {
     "main": [
@@ -432,7 +452,7 @@
     "main": [
       "1. Dead Line Timing",
       "2. Glorious Afterglow",
-      "3. Matrix Lightning"
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
   "zitherwoe": {
@@ -463,7 +483,7 @@
     "main": [
       "1. Dead Line Timing",
       "2. Glorious Afterglow",
-      "3. Matrix Lightning"
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
   "echo": {
@@ -482,11 +502,11 @@
     "main": [
       "1. Dead Line Timing",
       "2. Glorious Afterglow",
-      "3. Matrix Lightning"
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ],
     "alternate": [
       "1. Glorious Afterglow",
-      "2. Matrix Lightning",
+      "2. Incandescence/Matrix Lightning (adjust based on context)",
       "3. Incandescence"
     ]
   },
@@ -494,19 +514,19 @@
     "main": [
       "1. Dead Line Timing",
       "2. Glorious Afterglow",
-      "3. Matrix Lightning"
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
   "epitaph": {
     "main": [
       "1. Dead Line Timing",
-      "2. Torch Diode (Fire Resist Down)",
-      "3. Matrix Lightning"
+      "2. Diode Torch (Fire Resist Down)",
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ],
     "alternate": [
-      "1. Torch Diode (Fire Resist Down)",
-      "2. Matrix Lightning",
-      "3. Resonant Echo"
+      "1. Diode Torch (Fire Resist Down)",
+      "2. Dead Line Timing",
+      "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
   "shukra": {
@@ -537,13 +557,13 @@
   },
   "ardeo": {
     "main": [
-      "1. Torch Diode (Fire Resist Down)",
+      "1. Diode Torch (Fire Resist Down)",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Torch Diode (Fire Resist Down)",
+      "2. Diode Torch (Fire Resist Down)",
       "3. Matrix Lightning"
     ]
   },
@@ -556,14 +576,14 @@
     "alternate": [
       "1. Polymerization Collapse (Physical Resist Down)",
       "2. Matrix Lightning",
-      "3. Resonant Echo"
+      "3. Incandescence"
     ]
   },
   "lucid dreamer": {
     "main": [
       "1. Bose Hyperflow (Ice Resist Down)",
       "2. Matrix Lightning",
-      "3. Resonant Echo"
+      "3. Incandescence"
     ],
     "alternate": [
       "1. Dead Line Timing",
@@ -594,7 +614,7 @@
     "alternate": [
       "1. Thunder Shake (Lightning Resist Down)",
       "2. Matrix Lightning",
-      "3. Resonant Echo"
+      "3. Incandescence"
     ]
   },
   "parhelion": {
