@@ -97,6 +97,7 @@ class Ppc(commands.Cog):
         else:
             try:
                 nickname = fuzzmatch(boss_name.lower(), "boss")
+                print(nickname)
                 self.boss = self.bossdata[nickname]
             except:
                 await ctx.send(content="This boss does not exist. Please try again.")
