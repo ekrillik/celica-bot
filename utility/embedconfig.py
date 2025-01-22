@@ -183,14 +183,14 @@ class EmbedClass:
         )
 
         embed.add_field(name=f"Main Priority List", value=f"", inline=False)
-        for item in main_list:
-            main_str = "\n".join(item)
+        # for item in main_list:
+        main_str = "\n".join(main_list)
         embed.add_field(name=f"", value=f"{main_str}", inline=False)
         
         if len(alt_list) > 0:
             embed.add_field(name=f"Alternate Priority List", value=f"", inline=False)
-            for item in alt_list:
-                alt_str = "\n".join(item)
+            # for item in alt_list:
+            alt_str = "\n".join(alt_list)
             embed.add_field(name=f"", value=f"{alt_str}", inline=False)
 
         embed.set_thumbnail(url=thumbnail_url)
