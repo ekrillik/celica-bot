@@ -335,6 +335,11 @@ def check_nickname(nickname, caller):
             weapon = "lament of night's debauchery"
             cub = "billy"
             memory = "barcelo"
+        case "pianissimo":
+            character = "pianissimo"
+            weapon = "orpheus' cradle"
+            cub = "xue ge"
+            memory = "burana"
 
         case _:
             if(caller == "character"):
@@ -750,7 +755,12 @@ def character_theme(nickname):
             name = "Lilith: Daemonissa"
             colour = 0x5e40b4
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr3lilith2q.png"
-            thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr3lilith3.png"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr3lilith3.png",
+        case "pianissimo":
+            name = "Selena: Pianissimo"
+            colour = 0x5e40b4
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr5sailinna2q.png"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr5sailinna3.png"
         case _:
             name = ""
             colour = ""

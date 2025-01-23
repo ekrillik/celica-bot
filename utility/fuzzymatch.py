@@ -167,6 +167,8 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "parhelion"
         case "lilith daemonissa" | "lilith" | "daemonissa" | "maso" | "masochist":
             character = "daemonissa"
+        case "selena pianissimo" | "elis" | "ntr musician":
+            character = "pianissimo"
         # Boss nicknames
         case "mado":
             boss = "madorea"
