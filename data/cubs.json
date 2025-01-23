@@ -1567,5 +1567,60 @@
         "skill_desc": "When Lilith enters **Carnival Game** with Billy equipped, casting **Twilight's Embrace** or **Delusive Mirage** for the first time will summon Billy to launch a joint attack, dealing 3000% Dark DMG 1 time. Base DMG of **Disenchanting Reveal** increases by 75%; when Card Rank is at **C/B/A/S/SS**, Base DMG increases by an additional 10%/20%/30%/40%/50%."
       }
     ]
+  },
+  "xue ge": {
+    "name": "Xue Ge\n<:s_rank:1287636749052412026><:physical_element:1290613978057146379>",
+    "sig_character": "Selena: Pianissimo",
+    "base_rank": "S",
+    "cub_type": "Gather, Damage",
+    "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3speaker1.png",
+    "skills_list": [
+      "Valorous March",
+      "Radiant Rondo",
+      "Prebattle Bugle",
+      "Paean of Victory",
+      "Ear-Pleasing Wonder",
+      "Preface of Light and Dark",
+      "Bellstrike Reverberation"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Valorous March",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Xue Ge slashes the target, dealing **2050%** Physical DMG 1 time."
+      },
+      {
+        "skill_name": "Radiant Rondo",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Xue Ge shoots blades in all directions and retracts them, gathering nearby enemies and dealing **1000%** Physical DMG 2 times."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Prebattle Bugle",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Xue Ge's Active Skill deals **70%** more DMG."
+      },
+      {
+        "skill_name": "Paean of Victory",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by **100**."
+      },
+      {
+        "skill_name": "Ear-Pleasing Wonder",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Xue Ge casts an Active Skill, increases the carrier's Extra DMG Bonus by **5%** for 8s. Triggering this effect will renew its duration."
+      },
+      {
+        "skill_name": "Preface of Light and Dark",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Physical DMG by **10%**. While an Ice Spike is active, increases Glaciation DMG by **10%**."
+      },
+      {
+        "skill_name": "Bellstrike Reverberation",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Selena: Pianissimo casts **Fullbloom Tuning** with Xue Ge equipped, she will summon Xue Ge to launch a joint attack, dealing **1000%** Physical DMG 3 times. After casting **Basic Attack - Bladed Resonance**, Selena's ATK increases by **40%** for 8s. Triggering this effect will renew its duration."
+      }
+    ]
   }
 }

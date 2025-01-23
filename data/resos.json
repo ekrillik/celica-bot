@@ -641,6 +641,13 @@
       "3. Glorious Spear"
     ]
   },
+  "pianissimo": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Glorious Afterglow",
+      "3. Matrix Lightning"
+    ]
+  },
   "placeholder": {
     "unit_name": "Placeholder",
     "frame_name": "Placeholder"

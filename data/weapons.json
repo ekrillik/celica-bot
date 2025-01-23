@@ -695,6 +695,18 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
+  "frost poem": {
+    "name": "Frost Poem",
+    "weapon_type": "Stringed Sword",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2lyreswordmd010011sp.png",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Remnants of Verglas",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
   "gloomlight": {
     "name": "Gloomlight",
     "weapon_type": "Dual Guns",
@@ -1341,6 +1353,18 @@
     "effect": {
       "effect_name": "Shadows at Sunrise",
       "effect_desc": "Dark DMG increases by 10%."
+    }
+  },
+  "laurel crown": {
+    "name": "Laurel Crown",
+    "weapon_type": "Stringed Sword",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2lyreswordmd020011sp.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Twilight Tune",
+      "effect_desc": "Physical DMG increases by 10%."
     }
   },
   "lotus berserker": {
@@ -2145,6 +2169,18 @@
     "effect": {
       "effect_name": "Partings and New Beginnings",
       "effect_desc": "ATK increases by 10%. Upon casting Disenchanting Reveal, if Card Rank is at least B, gain 12 Signature Energy."
+    }
+  },
+  "orpheus' cradle": {
+    "name": "Orpheus' Cradle",
+    "weapon_type": "Stringed Sword",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e3lyreswordmd010011sp.png",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Everlasting Harmony",
+      "effect_desc": "ATK increases by 10%. After Bladed Resonance is cast with increased Base DMG from Quavers, the next Bladed Cadence will receive the same Base DMG increase. After casting Signature - Rainfall Overture, gains 3 Signal Orbs, up to 6 per entry."
     }
   },
   "placeholder": {

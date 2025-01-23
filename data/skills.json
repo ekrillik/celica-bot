@@ -9025,7 +9025,48 @@
           "desc": "Extra DMG Bonus of Imprisoning Co-Strike and Soulbreaking Co-Strike increase by 30%."
         }
       ]
-    }
+    },
+    "leap": [
+      {
+        "name": "Ceaseless Strings",
+        "description": [
+          "[Core Passive - Echoing Twins] New Effect: Glaciation.**\n Certain skills fill the **Glaciation Gauge**. When full, the Gauge will clear itself and unleash **Diamond Dust**, dealing Hiemal DMG and accumulating a **Diamond Dust stack**. Casting an eligible skill will consume all **Diamond Dust stacks** and create an **Ice Spike** that deals Hiemal DMG to its surroundings.\n\nIf the character deals Hiemal DMG while the **Ice Spike** is on-field, triggers **Crystallization**, dealing additional Hiemal DMG and generating **Glaciation** points.\n\nWhen the Ice Spike's on-field duration expires, triggers **Icebreak**, dealing Hiemal DMG based on the current **Glaciation points**. The **Glaciation Gauge**, **Diamond Dust stacks**, **Ice Spike**, and **Glaciation points** will carry over between characters with the Glaciation Affix.\n",
+          "- When **Glaciation points** reaches **100**, unleashes **Diamond Dust** that deals 100% Hiemal DMG and accumulates **1 Diamond Dust stack**, up to **10** stacks.\n- If there is at least 1 **Diamond Dust stack**, certain skills can clear all **Diamond Dust stacks** and create an **Ice Spike** on-field, dealing **180%** Hiemal DMG. The **Ice Spike**'s duration increases by 1s for every Diamond Dust stack consumed.\n- While the **Ice Spike** exists, if the character deals Hiemal DMG, triggers **Crystallization**, dealing **100%** Hiemal DMG to enemies in a large area and generating **100 Glaciation points**. Can be triggered once every **0.25**s.\n- When the **Ice Spike**'s duration expires, triggers **Icebreak** to deal **100%** Hiemal DMG to enemies in a large area. Base DMG of **Icebreak** increases by **9%** for every **100 Glaciation points**. The maximum **Glaciation points** is **10000**.",
+          "When Judgement Zone is not active, Echo can hold Dodge to fire a Frigid Arrow, dealing 800% Glaciation DMG and activating Crystalline Zone for 8s. After Splendor Points reaches maximum inside Crystalline Zone, Echo can hold Basic Attack to consume all Spendor Points and cast Anguishing Co-Strike (gaining invincibility but unable to cancel with Signature - Celestial Edge), imprisoning and pulling in nearby enemies, dealing 2400% Glaciation DMG, restoring 50 Signature Energy to Echo, and activating all available QTEs.\nAnguishing Co-Strike consumes all Cipher Orbs, up to an equal number of Signal Orbs, and the Soul Shatter Mark if held, then grants corresponding bonuses for the Glaciation Effect.",
+          "- Each Cipher Orb increases the Base DMG of Gelid and the Ice Spike by 4%, and each Signal Orb increases the Base DMG of Crystallize by 25% for 24s. Triggering this effect will renew its duration. The Soul Shatter Mark enhances the effect of Crystalline Points, every 100 Crystalline Points increasing the Base DMG of the next Cryoshatter by 200% (does not stack)."
+        ],
+        "level9": [
+          "**Level 9**: While an Ice Spike is active, Echo's [Signature - Celestial Edge] resets the Ice Spike's duration to 10s, and [QTE - Advent of Justice] extends the duration by 4s and deals 600% Glaciation DMG instead. Cecily's Cipher attacks deal an additional 200% Glaciation DMG and accumulate 100 Crystalline Points for the team..\n- The Ice Spike's duration cannot exceed 10s."
+        ],
+        "level18": [
+          "**Level 18**: Base DMG of Anguishing Co-Strike, Imprisoning Co-Strike, and Soulbreaking Co-Strike increase by 50%.\n[Passive - Decisive Omen] added effect: Increases the final effect of Ultralimit Torque applied by [Core Passive - Blessing of Fortitude] by 5%. While Echo has an active Crystalline Emblem, she instead grants the Frostbound Nova effect that increases Glaciation DMG by 5%. While an Ice Spike is active, Cecily's Cipher attacks accumulate an additional 200 Crystalline Points for the team instead."
+        ]
+      },
+      {
+        "name": "Penetrating Icicles",
+        "description": [
+          "Inside Crystalline Zone, [Core Passive - Swift Archery] deals 160% Glaciation DMG instead, restores 20 Signature Energy and 30 Splendor Points for Echo, grants 4 Cipher Orbs to Cecily, and additionally casts Silver Rain, dealing 240% Glaciation DMG.\n- In every Crystalline Zone activated, Echo can cast [Core Passive - Swift Archery] a maximum of 6 times."
+        ],
+        "level9": [
+          "**Level 9**: Base DMG of [Core Passive - Swift Archery] and Silver Rain increases by 100%."
+        ],
+        "level18": [
+          "**Level 18**: Base DMG of Sinbreaker's Arrow increases by 100%. The first time this skill is cast upon entering the battlefield, restores 16 Signature Energy and 60 Splendor Points for Echo. \n- [Passive - Mark of Libra Lv.2] added effect: Increases the final effect of Ultralimit Torque applied by [Core Passive - Blessing of Fortitude] by 5%. While Echo has an active Crystalline Emblem, she instead grants the Frostbound Nova effect that increases Glaciation DMG by 5%. While Crystalline Zone is active, Echo gains 20% Extra DMG Bonus."
+        ]
+      },
+      {
+        "name": "Decisive Revelation",
+        "description": [
+          "Inside Crystalline Zone, [Signature - Celestial Edge] deals 3200% Glaciation DMG instead, and activates Crystalline Emblem for 15s. Triggering this effect or exiting the battlefield will renew its duration.\nWhile an Ice Spike is active, the Crystalline Emblem is regarded as active.\nWhile Echo has an active Crystalline Emblem, her [Class - Amplifier] grants an Ice buff instead, and [Core Passive - Blessing of Fortitude] instead grants the Frost Crystal effect that increases Ice DMG by the same amount."
+        ],
+        "level9": [
+          "**Level 9**: Consuming a Soul Shatter Mark increases the Base DMG of the next [Signature - Celestial Edge] by 50% (does not stack).\nAfter casting [Signature - Celestial Edge], Echo pings 2 Cipher Orbs for Cecily and leaves behind Snowmelt, healing allies for 20% of Echo's ATK every second for 12s."
+        ],
+        "level18": [
+          "**Level 18**: Inside Crystalline Zone, Echo deals 100% Glaciation DMG to nearby enemies per second. Inside Judgement Zone, Echo deals 100% Physical DMG to nearby enemies per second.\n[Passive - Dreamer's Shore Lv.3] added effect: When any Zone is active, Echo gains 30% Extra DMG Bonus."
+        ]
+      }
+    ]
   },
   "lost lullaby": {
     "basic_attack": [
@@ -12711,6 +12752,285 @@
       ]
     }
   },
+  "pianissimo": {
+    "basic_attack": [
+      {
+        "name": "Legato Reprise: Progression",
+        "button_press": "Swordbearer + Tap Basic Attack",
+        "switch_in": "no",
+        "description": "Unleashes a string of attacks with her sword while dancing, dealing Physical DMG.",
+        "result": [
+          "- Basic Attacks deal a total of **{0}%** Physical DMG and grant a total of **50 Glaciation Points**.",
+          "- On the 5th hit, gains invincibility, 1 additional Signal Orb and 1 **Quaver**."
+        ],
+        "res_lv18": [730]
+      },
+      {
+        "name": "Legato Reprise: Inversion",
+        "button_press": "Transcendence + Tap Basic Attack",
+        "switch_in": "no",
+        "description": "Plays music to attack the target, dealing Physical DMG.",
+        "result": [
+          "- Basic Attacks deal a total of **{0}%** Physical DMG and grant a total of **40 Glaciation Points**."
+        ],
+        "res_lv18": [888]
+      },
+      {
+        "name": "Legato Reprise: Bladed Resonance",
+        "button_press": "Hold Basic Attack",
+        "switch_in": "no",
+        "description": "After holding Basic Attack, Selena switches back to the sword and briefly charges before rushing through the enemy, dealing Physical DMG and gaining **Signature Energy**. During any Signal Orb skill, hold Basic Attack to cast this skill immediately.",
+        "result": [
+          "- Deals **{0}%** Physical DMG. After casting, gains **12 Signature Energy**.",
+          "- While an Ice Spike is active, deals **{1}%** Glaciation DMG instead.",
+          "- If Basic Attack is held, Selena will continuously consume **Quavers** to increase its Base DMG by **{2}%/{3}%/{4}%**. Selena can block incoming attacks while charging. Upon a successful block, all **Quavers** are consumed immediately. After casting, triggers Matrix if it is not on cooldown."
+        ],
+        "res_lv18": [320, 600, 50, 100, 200]
+      },
+      {
+        "name": "Legato Reprise: Transposed Divisi",
+        "button_press": "Swordbearer + Have 1 Quaver + Tap Dodge during any action",
+        "switch_in": "no",
+        "description": "Tap Dodge during any action as a **Swordbearer** to quickly cast this skill, consuming 1 **Quaver** to rapidly thrust forward and deal Physical DMG. If there are sufficient **Quavers**, tap Dodge to cast it again. Afterwards, tap Basic Attack to cast the 5th hit of **Basic Attack - Progression**.",
+        "result": [
+          "- Gains Super Armor and can dodge incoming attacks during this skill. A successful Dodge triggers Matrix if it is not on cooldown.",
+          "- Deals **{0}%** Physical DMG. After casting, gains 5 Signature Energy."
+        ],
+        "res_lv18": [400]
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Ardent Chord: Legato",
+        "button_press": "Tap Red Orb",
+        "switch_in": "no",
+        "description": "Lunges forward and stabs the target, dealing Physical DMG.",
+        "result": [
+          "- Gains 1 **Quaver** upon a 3-Ping, storing up to 3 **Quavers**.",
+          "- Deals **{0}%/{1}%/{2}%** Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [120, 240, 360]
+      },
+      {
+        "name": "Ardent Chord: Overtone",
+        "button_press": "During Legato + Tap Red Orb",
+        "switch_in": "no",
+        "description": "Unleashes a flurry of stabbing attacks at the target, dealing Physical DMG.",
+        "result": [
+          "- Gains 1 **Quaver** upon a 3-Ping, storing up to 3 **Quavers**.",
+          "- Deals **{0}%/{1}%/{2}%** Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [120, 240, 360]
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Thunderous Modulation: Slicing Bowstring",
+        "button_press": "Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "Twirls and slashes the target, dealing Physical DMG.",
+        "result": [
+          "- Gains 1 **Quaver** upon a 3-Ping, storing up to 3 **Quavers**.",
+          "- Deals **{0}%/{1}%/{2}%** Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [140, 280, 420]
+      },
+      {
+        "name": "Thunderous Modulation: Staccato",
+        "button_press": "During Slicing Bowstring + Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "Sends an Iris at the target, dealing Physical DMG.",
+        "result": [
+          "- Gains 1 **Quaver** upon a 3-Ping, storing up to 3 **Quavers**.",
+          "- Deals **{0}%/{1}%/{2}%** Physical DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [140, 280, 420]
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Piercing Cadence",
+        "button_press": "Solo + Tap Blue Orb",
+        "switch_in": "no",
+        "description": "Selena's Blue Orb is permanently located in the rightmost orb position, and can only be cast after entering **Solo**. Selena rushes back and forth through the enemy, dealing Physical DMG. After casting, gains **Signature Energy**, and additional **Variation Points** if in **Transcendence**.",
+        "result": [
+          "- Upon casting, deals **{0}%** Physical DMG and grants **12 Signature Energy**.",
+          "- If cast when in **Transcendence**, grants an additional **30 Variation Points**.",
+          "- While an Ice Spike is active, deals **{1}%** Glaciation DMG instead.",
+          "- Selena is invincible but unable to cast Signature Move.",
+          "- This skill does not consume the Blue Orb."
+        ],
+        "res_lv18": [640, 1300]
+      }
+    ],
+    "core_passive": {
+      "name": "Classical Romanticism",
+      "skills": [
+        {
+          "name": "Soloist's Stage",
+          "button_press": "",
+          "description": [
+            "Selena attacks as a **Swordbearer** by default, and attacks as an **Instrumentalist** in **Transcendence**. Selena is unable to enter Matrix by Dodging, and can only trigger it through **Basic Attack - Bladed Resonance/Basic Attack - Transposed Divisi**. When Selena triggers Matrix by herself, she enters **Solo**."
+          ]
+        },
+        {
+          "name": "Concerto Orb",
+          "button_press": "Transcendence + Tap Concerto Orb",
+          "description": [
+            "In **Transcendence**, 6 Signal Orbs will be converted into **Concerto Orbs**. Only **Concerto Orbs** can be obtained and pinged during **Transcendence**. After casting, deals Physical DMG and grants **Quavers**, **Variation Points**, **Temperament**, and **Signature Energy**. When **Transcendence** ends, the other Signal Orbs will be returned."
+          ],
+          "result": [
+            "- Deals **{0}%** Physical DMG.",
+            "- For every **Concerto Orbs** pinged, gains 1 **Quaver**.",
+            "- While an **Ice Spike** is active, deals **{1}%** Glaciation DMG instead.",
+            "- After casting, gains **5 Variation Points**, **10 Temperament**, and **5 Signature Energy**."
+          ],
+          "res_lv18": [600, 1600]
+        },
+        {
+          "name": "Fullbloom Tuning",
+          "button_press": "Transcendence + 60 Temperament + Hold Dodge",
+          "description": [
+            "When Selena is **Transcendence**, ping **Concerto Orbs** to gain **Temperament**, accumulating up to **60 points**. Casting this skill consumes **60 Temperament** to summon phantoms to attack, dealing Physical DMG and granting **Variation Points** and **Signature Energy**."
+          ],
+          "result": [
+            "- Deals **{0}%** Physical DMG.",
+            "- While an **Ice Spike** is active, deals **{1}%** Glaciation DMG instead.",
+            "- Selena is invincible but unable to cast Signature Move. After casting, gains 30 **Variation Points** and 60 Signature Energy."
+          ],
+          "res_lv18": [4000, 10000]
+        },
+        {
+          "name": "Finale's Prelude",
+          "button_press": "Transcendence + 100 Variation Points",
+          "description": [
+            "While Selena is in **Transcendence**, certain skills grant **Variation Points**, accumulating up to **100 points**. When **Variation Points** reach maximum, Selena enters **Finale's Prelude** and immediately gains **90 Signature Energy**."
+          ],
+          "result": [
+            "- Entering **Finale's Prelude** immediately clears all **Quavers**.",
+            "- **Finale's Prelude** lasts for 7s. Selena switches to attacking as a **Swordbearer** and automatically casts **Signature - Howling Tempest** when it ends.",
+            "- Signal Orbs are infinite during **Finale's Prelude**.",
+            "- After **Finale's Prelude** ends, all **Quavers** are cleared."
+          ]
+        },
+        {
+          "name": "Affix: Glaciation",
+          "button_press": "",
+          "description": [
+            "Certain skills fill the **Glaciation Gauge**. When full, the Gauge will clear itself and unleash **Diamond Dust**, dealing Hiemal DMG and accumulating a **Diamond Dust stack**. Casting an eligible skill will consume all **Diamond Dust stacks** and create an **Ice Spike** that deals Hiemal DMG to its surroundings.\n\nIf the character deals Hiemal DMG while the **Ice Spike** is on-field, triggers **Crystallization**, dealing additional Hiemal DMG and generating **Glaciation** points.\n\nWhen the Ice Spike's on-field duration expires, triggers **Icebreak**, dealing Hiemal DMG based on the current **Glaciation points**. The **Glaciation Gauge**, **Diamond Dust stacks**, **Ice Spike**, and **Glaciation points** will carry over between characters with the Glaciation Affix."
+          ],
+          "result": [
+            "- When **Glaciation points** reaches **100**, unleashes **Diamond Dust** that deals 100% Hiemal DMG and accumulates **1 Diamond Dust stack**, up to **10** stacks.",
+            "- If there is at least 1 **Diamond Dust stack**, certain skills can clear all **Diamond Dust stacks** and create an **Ice Spike** on-field, dealing **180%** Hiemal DMG. The **Ice Spike**'s duration increases by 1s for every Diamond Dust stack consumed.",
+            "- While the **Ice Spike** exists, if the character deals Hiemal DMG, triggers **Crystallization**, dealing **100%** Hiemal DMG to enemies in a large area and generating **100 Glaciation points**. Can be triggered once every **0.25**s.",
+            "- When the **Ice Spike**'s duration expires, triggers **Icebreak** to deal **100%** Hiemal DMG to enemies in a large area. Base DMG of **Icebreak** increases by **9%** for every **100 Glaciation points**. The maximum **Glaciation points** is **10000**."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Fugue e Sonata",
+      "skills": [
+        {
+          "name": "Rainfall Overture",
+          "button_press": "60 Energy + Tap/Hold Signature",
+          "description": [
+            "Selena prepares to perform and enters **Transcendence**, dealing Physical DMG. **Time Lag Calculation** is triggered during this skill. Immediately refreshes Matrix cooldown after casting. During **Transcendence**, gains Super Armor and accumulates **Variation Points** over time."
+          ],
+          "result": [
+            "- Deals **{0}%** Physical DMG",
+            "- If there are 10 **Diamond Dust Stacks**, holding this skill will generate an **Ice Spike**.",
+            "- Gains 3 **Variation Points** per second."
+          ],
+          "res_lv18": [480]
+        },
+        {
+          "name": "Howling Tempest",
+          "button_press": "Transcendence + 90 Energy + Tap Signature",
+          "description": [
+            "Selena conducts a magnificent performance, dealing Physical DMG and exiting **Transcendence**. **Time Lag Calculation** is triggered during this skill."
+          ],
+          "result": [
+            "- Deals **{0}%** Physical DMG",
+            "- While an **Ice Spike** is active, deals **{1}%** Glaciation DMG instead. After casting, the **Ice Spike**'s duration expires and triggers **Icebreak**.",
+            "- After casting, **Temperament** and **Variation Points** are cleared, and 1 stack of **Dissonance** is removed."
+          ],
+          "res_lv18": [1000, 3000]
+        },
+        {
+          "name": "Forlorn Flower's Final Rest",
+          "button_press": "Finale's Prelude + 90 Energy + Tap Signature",
+          "description": [
+            "Selena performs a curtain call finale, dealing Physical DMG and exiting **Finale's Prelude**. **Time Lag Calculation** is triggered during this skill. After casting, gains 2 stacks of **Dissonance**. While Selena still has **Dissonance**, she cannot cast **Signature - Forlorn Flower's Final Rest** and will cast **Signature - Howling Tempest** instead. Every entry to the battlefield or casting **Signature - Howling Tempest** removes a stack of **Dissonance**."
+          ],
+          "result": [
+            "- Deals **{0}%** Physical DMG",
+            "- While an **Ice Spike** is active, deals **{1}%** Glaciation DMG instead. After casting, the **Ice Spike**'s duration expires and triggers **Icebreak**.",
+            "- After casting, all **Temperament** and **Variation Points** are cleared. Gain 3 Signal Orbs."
+          ],
+          "res_lv18": [3500, 7500]
+        }
+      ]
+    },
+    "qte": {
+      "name": "Symphonic Splendor",
+      "description": "Selena attacks the target with a twirling dance, dealing Physical DMG.",
+      "result": ["- Deals **{0}%** Physical DMG."],
+      "res_lv18": [600]
+    },
+    "leader": {
+      "name": "Rimeflower Director",
+      "description": "Increases Physical DMG and Glaciation DMG of all members by **10%**. Increases DMG of all Attacker Omniframes by **5%**."
+    },
+    "class": {
+      "name": "Attacker",
+      "description": "Extra DMG Bonus increases by **{0}%**.",
+      "desc_lv18": [20]
+    },
+    "ss_rank": {
+      "name": "Prismatic Euphony",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Casting **Basic Attack - Bladed Resonance**, **Fullbloom Tuning**, **Signature - Howling Tempest/Signature - Forlorn Flower's Final Rest** will activate all available QTEs. Upon entering the battlefield, triggers all available QTEs."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "Upon casting **Signature - Rainfall Overture**, immediately gains **60 Temperament**. After casting **Fullbloom Tuning**, every **Concerto Orb** pinged deals double damage until exiting **Transcendence**. Base DMG of **Signature - Howling Tempest/Signature - Forlorn Flower's Final Rest** increases by **30%**. After casting **Signature - Howling Tempest/Signature - Forlorn Flower's Final Rest** and exiting the battlefield, Selena enters **Lingering Echo** state, unleashing an attack that deals 2000% Physical DMG every 2s, then exits **Lingering Echo** state after 4 attacks."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Stardust Echoes",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "When **Temperament is at 60**, **Concerto Orbs** grant twice the amount of **Variation Points**. Every 1 **Quaver** consumed increases the Base DMG of the next **Fullbloom Tuning** by **20%**, up to **100%**. After casting **Signature - Howling Tempest/Signature - Forlorn Flower's Final Rest**, Base DMG of QTE increases by 500% for the rest of the battle."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "Upon entering the battlefield, immediately gains 1 **Quaver**, **12 Signature Energy**, and 1 Signal Orb. Increase the maximum amount of **Quavers** to **5**. After an orb skill, the next **Basic Attack - Bladed Resonance** will consume up to 6 Signal Orbs and convert them into **Quavers**. When Selena has **4/5 Quavers**, DMG Amplification for **Basic Attack - Bladed Resonance** increases to **300%/600%**. Selena's Extra DMG Bonus increases by 100% during **Lingering Echo** state."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Song of Yesterday",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of **Signature - Howling Tempest/Signature - Forlorn Flower's Final Rest** increases by **60%**."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of **Basic Attack - Bladed Resonance** and **Fullbloom Tuning** increases by **30%**."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of **Piercing Cadence**, **Concerto Orbs**, and Signal Orbs increases by **40%**."
+        }
+      ]
+    }
+  },
   "placeholder": {
     "basic_attack": [
       {
@@ -12718,7 +13038,9 @@
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
         "description": "",
-        "desc_lv18": []
+        "desc_lv18": [],
+        "result": [],
+        "res_lv18": []
       }
     ],
     "red_orb": [

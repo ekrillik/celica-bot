@@ -2284,7 +2284,8 @@
       { "name": "Main Tank Set", "memos": "4 Liston 2 Einsteina" },
       { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Liston 4 Chen Jiyuan" },
       { "name": "Main Pain Cage Set", "memos": "4 Da Vinci 2 Einsteina" },
-      { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Chen Jiyuan" }
+      { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Chen Jiyuan" },
+      { "name": "Glaciation Affix DPS Set", "memos": "4 Liston 4 Klenova" }
     ],
     "builds": [
       {
@@ -2352,6 +2353,22 @@
           "2x Chen Jiyuan",
           "2x Chen Jiyuan (Harmony)"
         ],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Passive"
+        ]
+      },
+      {
+        "set_name": "Glaciation Affix DPS Set",
+        "set_type": "Glaciation Affix",
+        "usage": "Glaciation Affix Content",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "Harmony QTE tank support set **(Requires Harmony on Signature 6* Weapon)**",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Liston", "2x Klenova", "2x Klenova (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Passive"
@@ -2554,6 +2571,67 @@
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "Cottie"
+      }
+    ]
+  },
+  "pianissimo": {
+    "unit_name": "Selena",
+    "frame_name": "Pianissimo",
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "4 Burana 4 Patton" },
+      { "name": "Alternative DPS Set", "memos": "4 Burana 2 Cottie" },
+      { "name": "Glaciation Affix DPS Set", "memos": "4 Burana 4 Klenova" }
+    ],
+    "builds": [
+      {
+        "set_name": "Main DPS Set",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Burana", "2x Patton", "2x Patton (Harmony)"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ]
+      },
+      {
+        "set_name": "Alternative DPS Set",
+        "set_type": "Alternative DPS",
+        "usage": "Alternative DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "Alternative DPS Set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Burana", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "Glaciation Affix DPS Set",
+        "set_type": "Glaciation Affix",
+        "usage": "Glaciation Affix Content",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "Glaciation Affix Set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Burana", "2x Klenova", "2x Klenova (Harmony)"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ]
       }
     ]
   },

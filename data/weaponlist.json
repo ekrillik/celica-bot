@@ -62,6 +62,7 @@
     "prototype shield axe zl-07",
     "primeval key",
     "evening's grandeur",
+    "frost poem",
     "gloomlight",
     "kuji no sada",
     "guardian mount",
@@ -110,6 +111,7 @@
     "type zl-09 illuminance",
     "starpool connector",
     "skylit nightmare",
+    "laurel crown",
     "glimpse",
     "guiyun",
     "odette",
@@ -185,7 +187,8 @@
     "morrow's executioner",
     "star tunnel of light",
     "epochal authority",
-    "lament of night's debauchery"
+    "lament of night's debauchery",
+    "orpheus' cradle"
   ],
   "weaponlist_categorised": [
     {
@@ -485,6 +488,14 @@
         "Lament of Night's Debauchery ######",
         "Skylit Nightmare #####",
         "Evening's Grandeur ####"
+      ]
+    },
+    {
+      "name": "Stringed Swords",
+      "list": [
+        "Orpheus' Cradle ######",
+        "Laurel Crown #####",
+        "Frost Poem ####"
       ]
     },
     {

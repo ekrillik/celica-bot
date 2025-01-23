@@ -853,5 +853,27 @@
     "def": 223,
     "crit": 66,
     "hp": 1491
+  },
+  "burana": {
+    "name": "Burana",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/eburanai01001sp.png",
+    "rarity": 6,
+    "2pc": "ATK increases by 5%. Physical DMG and Glaciation DMG increase by 5%.",
+    "4pc": "Upon casting Piercing Cadence, immediately gains 2 Signal Orbs. Base DMG of Bladed Resonance, Piercing Cadence, Signature - Howling Tempest, and Signature - Forlorn Flower's Final Rest doubles.",
+    "atk": 132,
+    "def": 223,
+    "crit": 66,
+    "hp": 1491
+  },
+  "klenova": {
+    "name": "Klenova",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/eklenovai01001sp.png",
+    "rarity": 6,
+    "2pc": "Ice DMG increases by 5%. Glaciation DMG increases by 10%.",
+    "4pc": "While an Ice Spike is active, ATK increases by 5% and Glaciation DMG increases by 10%.",
+    "atk": 132,
+    "def": 223,
+    "crit": 66,
+    "hp": 1491
   }
 }
