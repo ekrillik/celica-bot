@@ -12423,8 +12423,8 @@
     },
     "class": {
       "name": "Observer",
-      "description": "Gain different abilities based on the **Observation Chronicle**:\n- When Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for **5**s.\n- When Amplifier: All switched-in members gain an extra **{1}%** ATK and **{2}%** Elemental DMG Bonus of Ishmael: Parhelion's element for **10**s.",
-      "desc_lv18": [20, 10, 10]
+      "description": "Gain different abilities based on the **Observation Chronicle**:\n- When Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for **5**s.\n- When Amplifier: All switched-in members gain an extra **{1}%** ATK and **{2}%** Elemental DMG Bonus of Ishmael: Parhelion's element for **10**s.\n- When Other Elemental Amplifier: All switched-in members gain an extra **{3}%** ATK and **{4}%** Elemental DMG Bonus of Ishmael: Parhelion's element for 10s.",
+      "desc_lv18": [20, 20, 20, 10, 10]
     },
     "ss_rank": {
       "name": "Inspiring Roll of Dice",
@@ -12450,8 +12450,8 @@
           "rank": "Level 2 - Unlocked at SSS",
           "desc": "**Gravitational Collapse Points**' damage amplification effect increases by **50%**. During the 5th hit of **Phantom Abysm**, you can input one 3-Ping to deal an additional **1000%** Nihil DMG and gain **180 Gravitational Collapse Points**. Enhances the special abilities triggered based on the **Observation Chronicle**. Base DMG efficiency increase against **Equilibrium Fields** increases to **150%**.",
           "extra1": "**Tank State**\n**Fire**: **Unlocked at SS3**: **Scorching Invasion** and **Collapse Singularity** effects increases by **10%**.\n**Unlocked at SSS**: **Scorching Invasion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Ice**: **Unlocked at SS3**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.",
-          "extra2": "**Lightning**:**Unlocked at SS3**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Turbulence Interference** and **Collapse Singularity** effects increases by **10%**. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Dark**: **Unlocked at SSS**: **Chain Fusion** and Collapse Singularity effects increases by **10%**.",
-          "extra3": "**Amplfier State**\n**Fire**: Unlocked at SSS:  Amplifier Class Skill effect increases by **100%**.\n**Ice**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**.\n**Dark**: Unlocked at SSS: Amplifier Class Skill effect increases by **100%**"
+          "extra2": "**Lightning**:**Unlocked at SS3**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Turbulence Interference** and **Collapse Singularity** effects increases by **10%**. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Dark**: **Unlocked at SSS**: **Chain Fusion** and **Collapse Singularity** effects increases by **10%**.",
+          "extra3": "**Amplfier State**\n**Fire**: **Unlocked at SSS**:  Amplifier Class Skill effect increases by **100%**.\n**Ice**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Dark**: **Unlocked at SS3**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**.\n**Unlocked at SSS**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**. All member switch-ins reset the cooldown of QTE skills."
         }
       ]
     },

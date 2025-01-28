@@ -117,6 +117,10 @@
     {
       "command": "resonance",
       "description": "Displays priority lists for weapon resonance on units."
+    },
+    {
+      "command": "observer",
+      "description": "Displays the Observer Class Passive Infographic (also known as the Observer Chronicle)."
     }
   ],
   "links": {
@@ -327,5 +331,10 @@
     "aliases": "/reso",
     "description": "Displays priority lists for weapon resonance on units.",
     "examples": ["/resonance uncle", "/reso epitaph"]
+  },
+  "observer"{
+    "syntax": "/observer",
+    "alisases": "/observer_infographic, /oi",
+    "description": "Displays the Observer Class Passive Infographic (also known as the Observer Chronicle)."
   }
 }
