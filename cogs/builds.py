@@ -43,7 +43,7 @@ class Builds(commands.Cog):
     @commands.hybrid_command(aliases=['AffixTeams', 'Affixteams', 'at'], description="Displays the affix teams infographic by Aethervoid used to explain affix teams.")
     async def affixteams(self, ctx: commands.Context):
         embed = discord.Embed(title="", description="")
-        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Affix_Teams.png')
+        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Affix_Teams_v2.png')
         await ctx.send(embed=embed)
 
     @commands.hybrid_command(aliases=['AffixMechs', 'Affixmechs', 'am'], description="Displays the affix teams infographic by Aethervoid used to explain affix teams.")
