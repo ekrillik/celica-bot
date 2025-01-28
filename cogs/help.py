@@ -28,7 +28,7 @@ class Help(commands.Cog):
 
     @commands.hybrid_command(aliases=['', 'Help'], description="Displays the command help menu.")
     async def help(self, ctx: commands.Context, command=""):
-        prefix = self.bot.command_prefix
+        prefix = "/"
         if command == "":
             embed = discord.Embed(title="Celica's Help Menu",
                                   description="I'm an informational bot for the game **Punishing: Gray Raven**",
