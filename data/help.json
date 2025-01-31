@@ -332,7 +332,7 @@
     "description": "Displays priority lists for weapon resonance on units.",
     "examples": ["/resonance uncle", "/reso epitaph"]
   },
-  "observer"{
+  "observer": {
     "syntax": "/observer",
     "alisases": "/observer_infographic, /oi",
     "description": "Displays the Observer Class Passive Infographic (also known as the Observer Chronicle)."
