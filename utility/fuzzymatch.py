@@ -138,7 +138,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "indomitus"
         case "alisa echo" | "alisa" | "echo" | "arrest me pls" | "altr's secretary":
             character = "echo"
-        case "lamia lost lullaby" | "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty" | "kev's waifu" | "skibidi" | "skibidi toilet":
+        case "lamia lost lullaby" | "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia" | "mermaid" | "shawty" | "kev's waifu" | "skibidi" | "skibidi toilet"|"sewage" |"sushi on seaweed" | "disapproved by uncle roger" | "haiyaa the fish so raw":
             character = "lost lullaby"
             boss = "lamia"
         case "brs" | "brick rock shooter" | "edgy miku" | "black rock shooter":
