@@ -1272,7 +1272,7 @@
       },
       {
         "name": "Alternative Tank/Sub-DPS Set",
-        "memos": "4 Boone 2 Einsteina"
+        "memos": "4 Bathlon 2 Einsteina"
       },
       { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Boone 4 Bathlon" },
       { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Bathlon" },
@@ -1301,10 +1301,10 @@
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Tanks/Karenina+Scire/Alternate+DPS.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Alternative Tank/Sub-DPS Set", "For SS0 and below"],
-        "memories": ["4x Boone", "2x Einsteina"],
+        "memories": ["4x Bathlon", "2x Einsteina"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Core Passive"
+          "Bottom Slot: 6x Class Passive"
         ],
         "harmony_rec": "None"
       },
