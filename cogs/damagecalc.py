@@ -55,7 +55,7 @@ class DamageCalc(commands.Cog):
         embed.add_field(name="", value=f"Total Base DMG Boost: {basedmg}%", inline=False)
         embed.add_field(name="", value=f"Total Extra DMG Boost (EDB): {extradmg}%", inline=False)
         embed.add_field(name="", value=f"Total Shred (Elemental Resist Down): {shred}%", inline=False)
-        embed.add_field(name="", value=f"Total EDR Down %: {edrdownpc}%", inline=False)
+        embed.add_field(name="", value=f"EDR %: {edrdownpc}%", inline=False)
 
         embed.add_field(name=f"Total Elemental DMG Estimate:", value=f"**{finaldmgestimate}**", inline=False)
         embed.add_field(name=f"Estimated Range:", value=f"**{finaldmglower} - {finaldmgupper}**", inline=False)
@@ -137,7 +137,7 @@ class DamageCalc(commands.Cog):
         embed.add_field(name="", value=f"Total Base DMG Boost: {basedmg}%", inline=False)
         embed.add_field(name="", value=f"Total Extra DMG Boost (EDB): {extradmg}%", inline=False)
         embed.add_field(name="", value=f"Total Phys Shred (Phys Resist Down): {physresshred}%", inline=False)
-        embed.add_field(name="", value=f"Total EDR Down %: {edrdownpc}%", inline=False)
+        embed.add_field(name="", value=f"EDR: {edrdownpc}%", inline=False)
 
         embed.add_field(name=f"Total Phys DMG Estimate - Low Float(No Crit):", value=f"**{finaldmg_nocrit_estimate_lowfloat}**", inline=False)
         embed.add_field(name=f"Estimated Range - Low Float(No Crit):", value=f"**{finaldmg_nocrit_lower_lowfloat} - {finaldmg_nocrit_upper_lowfloat}**", inline=False)
