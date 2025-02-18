@@ -62,7 +62,7 @@ class DamageCalc(commands.Cog):
         embed.add_field(name="", value=f"Total EDR Down %: {edrdownpc}%", inline=False)
 
         embed.add_field(name=f"Total Elemental DMG:", value=f"{finaldmglower}-{finaldmgupper}", inline=False)
-        embed.add_field(name=f"Disclaimer: Do note that this number does not take into account the context in which this damage is being dealt. It just calculates an estimate of a skill being used in **one instance** based on all the buffs applied to the unit dealing the damage as well as the debuffs applied to the enemy.")
+        embed.add_field(name=f"Disclaimer: Do note that this number does not take into account the context in which this damage is being dealt. It just calculates an estimate of a skill being used in **one instance** based on all the buffs applied to the unit dealing the damage as well as the debuffs applied to the enemy.", value=f"", inline=False)
         
         await inter.response.send_message(embed=embed)
 
