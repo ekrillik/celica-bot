@@ -129,6 +129,14 @@
     {
       "command": "/statpriority",
       "description": "Displays a list of stats to prioritise when doing decision making for building units."
+    },
+    {
+      "command": "/eledamagecalculator",
+      "description": "Calculates an estimate of elemental damage in a particular instant."
+    },
+    {
+      "command": "/physdamagecalculator",
+      "description": "Calculates an estimate of physical damage in a particular instant."
     }
   ],
   "links": {
@@ -352,5 +360,13 @@
   "statpriority": {
     "syntax": "/statpriority",
     "description": "Displays a list of stats to prioritise when doing decision making for building units."
+  },
+  "eledamagecalculator": {
+    "syntax": "/eledamagecalculator",
+    "description": "Calculates an estimate of elemental damage in a particular instant."
+  },
+  "physdamagecalculator": {
+    "syntax": "/physdamagecalculator",
+    "description": "Calculates an estimate of physical damage in a particular instant."
   }
 }
