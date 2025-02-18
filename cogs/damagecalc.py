@@ -24,7 +24,7 @@ class DamageCalc(commands.Cog):
     
     @app_commands.command(name="damagecalculator", description="Performs a calculation on the estimated damage for a particular skill.")
     @app_commands.describe(skillpc="Skill scaling percentage", baseatk="Base ATK of unit. This number is shown in the character stats screen and includes character base ATK stat, weapon ATK stat and total memory ATK stat.", atkpcup="Total ATK percentage increase", finalatk="Final ATK Stat. Obtained from CUB passive skill 2 and Incandescence/Glorious Afterglow weapon resonances", eledmg="Total elemental DMG % increase.", basedmg="Total Base DMG increase.", extradmg="Total Extra DMG Boost(EDB)/Increase", shred="Total Elemental Resist Down %", edrdownpc="Extra DMG Reduction Down %")
-    async def damagecalculator(self, ctx: commands.Context, skillpc: int, baseatk: int, atkpcup: int, finalatk: int, eledmg: int, basedmg: int, extradmg: int, shred: int, edrdownpc: int) -> None:
+    async def damagecalculator(self, inter: discord.Interaction, skillpc: int, baseatk: int, atkpcup: int, finalatk: int, eledmg: int, basedmg: int, extradmg: int, shred: int, edrdownpc: int) -> None:
 
         skillscaling = float(skillpc)/100
         attackpercentup = float(atkpcup)/100
@@ -58,7 +58,7 @@ class DamageCalc(commands.Cog):
 
         embed.add_field(name="Total DMG:", value=f"{finaldmg}", inline=False)
         
-        await ctx.send(embed=embed)
+        await inter.response.send_message(embed=embed)
 
 #Skill Scaling Percentage x (Base ATK x (1 + ATK Increase) + Final ATK) x (1 + Elemental DMG Increase) x (1 + Base DMG Increase) x (1 + Extra DMG Increase) x (1 - Elemental Resistance) x (1 - Extra DMG Reduction) = Final DMG Output
 
