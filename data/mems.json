@@ -308,6 +308,17 @@
     "crit": 53,
     "hp": 1208
   },
+  "kfc": {
+    "name": "Lucia - Summer Daze",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/ekfc01.png",
+    "rarity": 5,
+    "2pc": "After triggering 3-orbs or QTE, there is a 50% chance of dropping a Chicken Burger, 30s cooldown. The Chicken Burger remains on field for 10s. Picking it up grants the character 8 energy. ",
+    "4pc": "",
+    "atk": 109,
+    "def": 177,
+    "crit": 53,
+    "hp": 1208
+  },
   "shelley": {
     "name": "Shelley",
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/exuelaii01001.webp",
@@ -403,6 +414,18 @@
     "def": 177,
     "crit": 53,
     "hp": 1208
+  },
+  "liliana": {
+    "name": "Liliana",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/elilianai01001.png",
+    "rarity": 5,
+    "2pc": "ATK increases by 5%. Extra DMG Bonus increases by 5%.",
+    "4pc": "While in Matrix, Extra DMG Bonus increases by 10%. ",
+    "6pc": "Upon entry or switching in, all Elemental DMG and Physical DMG increase by 15% for 8s.",
+    "atk": 109,
+    "def": 177,
+    "crit": 53,
+    "hp": 1491
   },
   "adolphe": {
     "name": "Adolphe",

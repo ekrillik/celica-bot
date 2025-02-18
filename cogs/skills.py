@@ -96,8 +96,8 @@ class Skills(commands.Cog):
     async def on_ready(self):
         print('Skills loaded.')
 
-    @commands.hybrid_command(aliases=['Skill', 'skills', 'Skills'], description="Displays a skill menu for a particular character.")
-    async def skill(self, ctx: commands.Context, *, frame) -> None:
+    @commands.hybrid_command(description="Displays a skill menu for a particular character.")
+    async def skills(self, ctx: commands.Context, *, frame) -> None:
         level = 0
         nickname = ""
         str_array = frame.split(" ")

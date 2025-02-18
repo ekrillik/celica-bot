@@ -121,7 +121,13 @@
     {
       "command": "observer",
       "description": "Displays the Observer Class Passive Infographic (also known as the Observer Chronicle)."
+    },
+    {
+      "command": "damageformulas",
+      "description": "Displays the damage formulas used in PGR to calculate damage."
     }
+    
+  }
   ],
   "links": {
     "syntax": "/links",
@@ -336,5 +342,9 @@
     "syntax": "/observer",
     "alisases": "/observer_infographic, /oi",
     "description": "Displays the Observer Class Passive Infographic (also known as the Observer Chronicle)."
+  },
+  "damageformulas": {
+    "syntax": "/damageformulas",
+    "description": "Displays the damage formulas used in PGR to calculate damage."
   }
 }
