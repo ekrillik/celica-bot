@@ -1148,11 +1148,11 @@
     "frame_name": "Scire\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:dark_element:1290613554923438102><:electroconvergence:1288090218922119181>",
     "set_list": [
       {
-        "name": "Alternative Tank/Sub-DPS Set",
+        "name": "Main Tank Set",
         "memos": "4 Bathlon 2 Einsteina"
       },
       {
-        "name": "Main Tank/Sub-DPS Set",
+        "name": "Main Sub-DPS Set",
         "memos": "4 Boone 2 Condelina"
       },
       { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Boone 4 Bathlon" },
@@ -2044,7 +2044,7 @@
         "set_name": "Slash Affix Set",
         "set_type": "Slash Main DPS",
         "usage": "Harmony Tank/Sub-DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "game_modes": "Intensive Battle, Warzone",
         "description": [
           "Recommended for all ranks",
           "Slash Affix set",
@@ -2144,7 +2144,7 @@
         "set_name": "Glaciation Affix DPS Set",
         "set_type": "Glaciation Affix",
         "usage": "Glaciation Affix Content",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "game_modes": "PPC, Intensive Battle, Warzone",
         "description": [
           "Recommended for all ranks",
           "Harmony QTE tank support set **(Requires Harmony on Signature 6* Weapon)**",
@@ -2210,7 +2210,7 @@
         "game_modes": "PPC, Intensive Battle, Warzone",
         "description": [
           "Recommended for all ranks",
-          "This set will only be used for affix content with the electroconvergence affix enabled.",
+          "This set will only be used for affix content with the plasma affix enabled.",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Heraclitus", "2x Cottie"],
