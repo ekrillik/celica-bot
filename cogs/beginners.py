@@ -65,7 +65,7 @@ class Beginners(commands.Cog):
         embed = discord.Embed(title="PGR Damage Formulas")
         embed.add_field(name=f"Physical Damage (Non-Crit) - **White Numbers**", value=f"Skill Scaling Percentage x (Base ATK x (1 + ATK Increase) + Final ATK) x (1 + Phys DMG Increase) x (1 + Base DMG Increase) x (1 + Extra DMG Increase) x (1 - New DEF Stat) x (1 - Physical Resistance) x (1 - Extra DMG Reduction) x Float = Final DMG Output", inline=False)
         embed.add_field(name=f"Physical Damage (Crit) - **Yellow Numbers**", value=f"(2 + Crit DMG Increase) x Skill Scaling Percentage x (Base ATK x (1 + ATK Increase) + Final ATK) x (1 + Phys DMG Increase) x (1 + Base DMG Increase) x (1 + Extra DMG Increase) x (1 - New DEF Stat) x (1 - Physical Resistance) x (1 - Extra DMG Reduction) x Float = Final DMG Output", inline=False)
-        embed.add_field(name=f"Elemental - **Yellow Numbers**/Affix Damage - **Orange Numbers**", value=f"Skill Scaling Percentage x (Base ATK x (1 + ATK Increase) + Final ATK) x (1 + Elemental DMG Increase) x (1 + Base DMG Increase) x (1 + Extra DMG Increase) x (1 - Elemental Resistance Resistance) x (1 - Extra DMG Reduction) = Final DMG Output", inline=False)
+        embed.add_field(name=f"Elemental - **White Numbers with elemental icon**/Affix Damage - **Orange Numbers with affix icon**", value=f"Skill Scaling Percentage x (Base ATK x (1 + ATK Increase) + Final ATK) x (1 + Elemental DMG Increase) x (1 + Base DMG Increase) x (1 + Extra DMG Increase) x (1 - Elemental Resistance Resistance) x (1 - Extra DMG Reduction) = Final DMG Output", inline=False)
         await ctx.send(embed=embed)
 
 async def setup(bot: commands.Bot):
