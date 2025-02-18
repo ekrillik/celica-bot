@@ -44,6 +44,9 @@ class DamageCalc(commands.Cog):
 
         finaldmg = skillscaling*(baseatk*(1+attackpercentup)+finalatk)*(1+elementalboost)*(1+basedmgboost)*(1+extradmgboost)*(1-finaleleresist)*(1-finaledr)
 
+        finaldmglower = round(finaldmg*0.9,2)
+        finaldmgupper = round(finaldmg*1.1,2)
+
         embed = discord.Embed(
             title="Elemental DMG Calculator",
             description=f""
@@ -58,7 +61,8 @@ class DamageCalc(commands.Cog):
         embed.add_field(name="", value=f"Total Shred (Elemental Resist Down): {shred}%", inline=False)
         embed.add_field(name="", value=f"Total EDR Down %: {edrdownpc}%", inline=False)
 
-        embed.add_field(name="Total DMG:", value=f"{finaldmg}", inline=False)
+        embed.add_field(name=f"Total Elemental DMG:", value=f"{finaldmglower}-{finaldmgupper}", inline=False)
+        embed.add_field(name=f"Disclaimer: Do note that this number does not take into account the context in which this damage is being dealt. It just calculates an estimate of a skill being used in **one instance** based on all the buffs applied to the unit dealing the damage as well as the debuffs applied to the enemy.")
         
         await inter.response.send_message(embed=embed)
 
