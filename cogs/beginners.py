@@ -68,5 +68,18 @@ class Beginners(commands.Cog):
         embed.add_field(name=f"Elemental - **White Numbers with elemental icon**/Affix Damage - **Orange Numbers with affix icon**", value=f"Skill Scaling Percentage x (Base ATK x (1 + ATK Increase) + Final ATK) x (1 + Elemental DMG Increase) x (1 + Base DMG Increase) x (1 + Extra DMG Increase) x (1 - Elemental Resistance Resistance) x (1 - Extra DMG Reduction) = Final DMG Output", inline=False)
         await ctx.send(embed=embed)
 
+    @commands.hybrid_command(description="Displays the priority list for stats.")
+    async def statpriority(self, ctx: commands.Context[commands.Bot]):
+        physical = ["1. DEF/Phys DEF Down(**only up to 100%**)", "2. Physical Resist Down", "3. Extra DMG Reduction Down", "4. Crit DMG", "5. Extra DMG Boost (EDB)", "6. Base DMG % Up", "7. ATK % Up", "8. Final ATK Up (Cub ATK Boost)"]
+        elemental = ["1. Elemental Resist Down", "2. Extra DMG Reduction Down", "3. Extra DMG Boost (EDB)", "4. Elemental DMG % Up", "5. Base DMG % Up", "6. ATK % Up", "7. Final ATK Up (Cub ATK Boost)"]
+
+        phys_list = "\n".join(physical)
+        element_list = "\n".join(elemental)
+
+        embed = discord.Embed(title="PGR Stat Priority")
+        embed.add_field(name=f"Physical Damage", value=f"{phys_list}", inline=False)
+        embed.add_field(name=f"Elemental Damage", value=f"{element_list}", inline=False)
+        await ctx.send(embed=embed)
+
 async def setup(bot: commands.Bot):
     await bot.add_cog(Beginners(bot))

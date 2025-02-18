@@ -125,6 +125,10 @@
     {
       "command": "damageformulas",
       "description": "Displays the damage formulas used in PGR to calculate damage."
+    },
+    {
+      "command": "/statpriority",
+      "description": "Displays a list of stats to prioritise when doing decision making for building units."
     }
   ],
   "links": {
@@ -344,5 +348,9 @@
   "damageformulas": {
     "syntax": "/damageformulas",
     "description": "Displays the damage formulas used in PGR to calculate damage."
+  },
+  "statpriority": {
+    "syntax": "/statpriority",
+    "description": "Displays a list of stats to prioritise when doing decision making for building units."
   }
 }
