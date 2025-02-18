@@ -21,8 +21,9 @@ class DamageCalc(commands.Cog):
         print('DamageCalc loaded.')
 
     
-    # @app_commands.describe(skillpc="Skill scaling percentage", baseatk="Base ATK of unit. This number is shown in the character stats screen and includes character base ATK stat, weapon ATK stat and total memory ATK stat.", atkpcup="Total ATK percentage increase", finalatk="Final ATK Stat. Obtained from CUB passive skill 2 and Incandescence/Glorious Afterglow weapon resonances", eledmg="Total elemental DMG % increase.", basedmg="Total Base DMG increase.", extradmg="Total Extra DMG Boost(EDB)/Increase", shred="Total Elemental Resist Down %", edrdownpc="Extra DMG Reduction Down %")
+    
     @app_commands.command(name="damagecalculator", description="Performs a calculation on the estimated damage for a particular skill.")
+    @app_commands.describe(skillpc="Skill scaling percentage", baseatk="Base ATK of unit. This number is shown in the character stats screen and includes character base ATK stat, weapon ATK stat and total memory ATK stat.", atkpcup="Total ATK percentage increase", finalatk="Final ATK Stat. Obtained from CUB passive skill 2 and Incandescence/Glorious Afterglow weapon resonances", eledmg="Total elemental DMG % increase.", basedmg="Total Base DMG increase.", extradmg="Total Extra DMG Boost(EDB)/Increase", shred="Total Elemental Resist Down %", edrdownpc="Extra DMG Reduction Down %")
     async def damagecalculator(self, ctx: commands.Context, skillpc: int, baseatk: int, atkpcup: int, finalatk: int, eledmg: int, basedmg: int, extradmg: int, shred: int, edrdownpc: int) -> None:
 
         skillscaling = float(skillpc)/100
