@@ -99,7 +99,7 @@ class DamageCalc(commands.Cog):
         finaldmgnocrit_lowfloat = finaldmgnocrit*0.95
         finaldmgnocrit_highfloat = finaldmgnocrit*1.05
 
-        finaldmgcrit = (2 + critdmg)*skillscaling*(baseatk*(1+attackpercentup)+finalatk)*(1+physboost)*(1+basedmgboost)*(1+extradmgboost)*(1-finalphysresist)*(1-finaledr)
+        finaldmgcrit = (2 + critdmgpercentup)*skillscaling*(baseatk*(1+attackpercentup)+finalatk)*(1+physboost)*(1+basedmgboost)*(1+extradmgboost)*(1-finalphysresist)*(1-finaledr)
 
         finaldmgcrit_lowfloat = finaldmgcrit*0.95
         finaldmgcrit_highfloat = finaldmgcrit*1.05
