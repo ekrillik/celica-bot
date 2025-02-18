@@ -60,7 +60,7 @@ class Beginners(commands.Cog):
         embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/HarmoGuideBRS.png")
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(aliases=['hg'], description="Displays the damage formulas for damage calculation on PGR.")
+    @commands.hybrid_command(description="Displays the damage formulas for damage calculation on PGR.")
     async def damageformulas(self, ctx: commands.Context[commands.Bot]):
         embed = discord.Embed(title="PGR Damage Formulas")
         embed.add_field(name=f"Physical Damage (Non-Crit) - **White Numbers**", value=f"Skill Scaling Percentage x (Base ATK x (1 + ATK Increase) + Final ATK) x (1 + Phys DMG Increase) x (1 + Base DMG Increase) x (1 + Extra DMG Increase) x (1 - New DEF Stat) x (1 - Physical Resistance) x (1 - Extra DMG Reduction) x Float = Final DMG Output", inline=False)
