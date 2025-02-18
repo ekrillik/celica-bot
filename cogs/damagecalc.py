@@ -48,13 +48,15 @@ class DamageCalc(commands.Cog):
             title="Elemental DMG Calculator",
             description=f""
         )
-        embed.add_field(name="", value=f"Skill Scaling: {skillpc}", inline=False)
-        embed.add_field(name="", value=f"Total ATK Percent Boost: {atkpcup}", inline=False)
-        embed.add_field(name="", value=f"Total Elemental DMG Boost: {elementalboost}", inline=False)
-        embed.add_field(name="", value=f"Total Base DMG Boost: {elementalboost}", inline=False)
-        embed.add_field(name="", value=f"Total Extra DMG Boost (EDB): {elementalboost}", inline=False)
-        embed.add_field(name="", value=f"Total Shred (Elemental Resist Down): {elementalboost}", inline=False)
-        embed.add_field(name="", value=f"Total EDR Down %: {elementalboost}", inline=False)
+        embed.add_field(name="", value=f"Skill Scaling: {skillpc}%", inline=False)
+        embed.add_field(name="", value=f"Base ATK: {baseatk}", inline=False)
+        embed.add_field(name="", value=f"Total ATK Percent Boost: {atkpcup}%", inline=False)
+        embed.add_field(name="", value=f"Final ATK: {finalatk}", inline=False)
+        embed.add_field(name="", value=f"Total Elemental DMG Boost: {eledmg}%", inline=False)
+        embed.add_field(name="", value=f"Total Base DMG Boost: {basedmg}%", inline=False)
+        embed.add_field(name="", value=f"Total Extra DMG Boost (EDB): {extradmg}%", inline=False)
+        embed.add_field(name="", value=f"Total Shred (Elemental Resist Down): {shred}%", inline=False)
+        embed.add_field(name="", value=f"Total EDR Down %: {edrdownpc}%", inline=False)
 
         embed.add_field(name="Total DMG:", value=f"{finaldmg}", inline=False)
         
