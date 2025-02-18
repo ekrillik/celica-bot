@@ -2356,7 +2356,10 @@
   "daemonissa": {
     "unit_name": "Lilith",
     "frame_name": "Daemonissa\n<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:dark_element:1290613554923438102><:electroconvergence:1288090218922119181>",
-    "set_list": [{ "name": "Main Support Set", "memos": "4 Barcelo 2 Cottie" }],
+    "set_list": [
+      { "name": "Main Support Set", "memos": "4 Barcelo 2 Cottie" },
+      { "name": "Plasma Affix DPS Set", "memos": "4 Da Vinci 2 Einsteina" }
+    ],
     "builds": [
       {
         "set_name": "Main Support Set",
@@ -2374,6 +2377,23 @@
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "Plasma Affix DPS Set",
+        "set_type": "Plasma Affix Support",
+        "usage": "Support Sub-DPS",
+        "game_modes": "PPC, Intensive Battle, Warzone",
+        "description": [
+          "Recommended for all ranks",
+          "Plasma Affix Support Set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Guinevere"
       }
     ]
   },
