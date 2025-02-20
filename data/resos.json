@@ -20,13 +20,13 @@
   },
   "storm": {
     "main": [
-      "1. Polymerization Collapse (Physical Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Polymerization Collapse (Physical Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
@@ -105,25 +105,25 @@
   },
   "pulse": {
     "main": [
-      "1. Diode Torch (Fire Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Diode Torch (Fire Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
   "tenebrion": {
     "main": [
-      "1. Tenebrion Shock (Dark Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Tenebrion Shock (Dark Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
@@ -136,13 +136,13 @@
   },
   "bastion": {
     "main": [
-      "1. Polymerization Collapse (Physical Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Polymerization Collapse (Physical Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
@@ -155,13 +155,13 @@
   },
   "brilliance": {
     "main": [
-      "1. Polymerization Collapse (Physical Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Polymerization Collapse (Physical Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
@@ -186,13 +186,13 @@
   },
   "arclight": {
     "main": [
-      "1. Thunder Shake (Lightning Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Thunder Shake (Lightning Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
@@ -220,25 +220,25 @@
   },
   "rigor": {
     "main": [
-      "1. Polymerization Collapse (Physical Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Polymerization Collapse (Physical Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
   "qilin": {
     "main": [
-      "1. Bose Hyperflow (Ice Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Bose Hyperflow (Ice Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
@@ -273,13 +273,13 @@
   },
   "a2": {
     "main": [
-      "1. Polymerization Collapse (Physical Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Polymerization Collapse (Physical Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
@@ -300,37 +300,37 @@
   },
   "glory": {
     "main": [
-      "1. Bose Hyperflow (Ice Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Bose Hyperflow (Ice Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
   "xxi": {
     "main": [
-      "1. Tenebrion Shock (Dark Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Tenebrion Shock (Dark Resist Down)",
+      "2. Domain Deconstruction",
       "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
   "garnet": {
     "main": [
-      "1. Thunder Shake (Lightning Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Incandescence"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Thunder Shake (Lightning Resist Down)",
+      "2. Domain Deconstruction",
       "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
@@ -374,13 +374,13 @@
   },
   "starfarer": {
     "main": [
-      "1. Diode Torch (Fire Resist Down)",
+      "1. Domain Deconstruction",
       "2. Incandescence/Matrix Lightning (adjust based on context)",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Diode Torch (Fire Resist Down)",
+      "2. Domain Deconstruction",
       "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
   },
@@ -394,11 +394,11 @@
   "scire": {
     "main": [
       "1. Dead Line Timing",
-      "2. Tenebrion Shock (Dark Resist Down)",
+      "2. Domain Deconstruction",
       "3. Incandescence/Matrix Lightning (adjust based on context)"
     ],
     "alternate": [
-      "1. Tenebrion Shock (Dark Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Incandescence"
     ]
@@ -520,11 +520,11 @@
   "epitaph": {
     "main": [
       "1. Dead Line Timing",
-      "2. Diode Torch (Fire Resist Down)",
+      "2. Domain Deconstruction",
       "3. Incandescence/Matrix Lightning (adjust based on context)"
     ],
     "alternate": [
-      "1. Diode Torch (Fire Resist Down)",
+      "1. Domain Deconstruction",
       "2. Dead Line Timing",
       "3. Incandescence/Matrix Lightning (adjust based on context)"
     ]
@@ -557,37 +557,37 @@
   },
   "ardeo": {
     "main": [
-      "1. Diode Torch (Fire Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Dead Line Timing"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Diode Torch (Fire Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
   "solacetune": {
     "main": [
       "1. Dead Line Timing",
-      "2. Polymerization Collapse (Physical Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ],
     "alternate": [
-      "1. Polymerization Collapse (Physical Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Incandescence"
     ]
   },
   "lucid dreamer": {
     "main": [
-      "1. Bose Hyperflow (Ice Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Incandescence"
     ],
     "alternate": [
       "1. Dead Line Timing",
-      "2. Bose Hyperflow (Ice Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ]
   },
@@ -608,11 +608,11 @@
   "startrail": {
     "main": [
       "1. Dead Line Timing",
-      "2. Thunder Shake (Lightning Resist Down)",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ],
     "alternate": [
-      "1. Thunder Shake (Lightning Resist Down)",
+      "1. Domain Deconstruction",
       "2. Matrix Lightning",
       "3. Incandescence"
     ]
@@ -620,7 +620,7 @@
   "parhelion": {
     "main": [
       "1. Dead Line Timing",
-      "2. Omni-Elemental Resist Down",
+      "2. Domain Deconstruction",
       "3. Matrix Lightning"
     ],
     "alternate": [
