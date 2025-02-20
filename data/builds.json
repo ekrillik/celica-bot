@@ -2019,7 +2019,9 @@
     "unit_name": "Hanying",
     "frame_name": "Solacetune\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:physical_element:1290613978057146379><:trueslash:1288090116790812712>",
     "set_list": [
-      { "name": "Main DPS Set", "memos": "4 Changwuzi 2 Patton" },
+      { "name": "Main DPS Set", "memos": "4 Changwuzi 4 Patton" },
+      { "name": "Alternative DPS Set", "memos": "4 Changwuzi 2 Cottie" },
+      { "name": "High Rank DPS Set", "memos": "4 Changwuzi 4 Cottie" },
       { "name": "Slash Affix Set", "memos": "4 Changwuzi 2 Patton" }
     ],
     "builds": [
@@ -2029,27 +2031,55 @@
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
-          "Recommended for all ranks",
+          "Recommended for all ranks up to SS0",
           "Main DPS Set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
-        "memories": ["4x Changwuzi", "2x Patton"],
+        "memories": ["4x Changwuzi", "2x Patton", "2x Patton (Harmony)"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core Passive"
+        ]
+      },
+      {
+        "set_name": "Alternative DPS Set",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "Alternative DPS Set",
+          "Used if you lack Solacetune's signature weapon"
+        ],
+        "memories": ["4x Changwuzi", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Core Passive"
         ],
-        "harmony_rec": "Patton"
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "High Rank DPS Set",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Requires SS3 Solacetune or above",
+          "Main DPS Set",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
+        ],
+        "memories": ["4x Changwuzi", "2x Cottie", "2x Cottie (Harmony)"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core Passive"
+        ]
       },
       {
         "set_name": "Slash Affix Set",
         "set_type": "Slash Main DPS",
         "usage": "Harmony Tank/Sub-DPS",
         "game_modes": "Intensive Battle, Warzone",
-        "description": [
-          "Recommended for all ranks",
-          "Slash Affix set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
+        "description": ["Recommended for all ranks", "Slash Affix set"],
         "memories": ["4x Changwuzi", "2x Patton"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2077,8 +2107,7 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "General Tank/Sub-DPS set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+          "General Tank/Sub-DPS set"
         ],
         "memories": ["4x Liston", "2x Einsteina"],
         "memory_resonance": [
@@ -2094,8 +2123,7 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
         "memories": ["4x Liston", "2x Chen Jiyuan", "2x Chen Jiyuan (Harmony)"],
         "memory_resonance": [
@@ -2110,8 +2138,7 @@
         "game_modes": "Pain Cage",
         "description": [
           "Recommended for all ranks",
-          "QTE support set for solo Qu:Shukra DPS in Pain Cage without swapping.",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+          "QTE support set for solo Qu:Shukra DPS in Pain Cage without swapping."
         ],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
@@ -2127,8 +2154,7 @@
         "game_modes": "Pain Cage",
         "description": [
           "Recommended for all ranks",
-          "Harmony QTE tank support set **(Requires Harmony on Signature 6* Weapon)**",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+          "Harmony QTE tank support set **(Requires Harmony on Signature 6* Weapon)**"
         ],
         "memories": [
           "4x Da Vinci",
@@ -2148,7 +2174,7 @@
         "description": [
           "Recommended for all ranks",
           "Harmony QTE tank support set **(Requires Harmony on Signature 6* Weapon)**",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+          "**The Klenova memory set has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Liston", "2x Klenova", "2x Klenova (Harmony)"],
         "memory_resonance": [
