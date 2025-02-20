@@ -2021,7 +2021,6 @@
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Changwuzi 4 Patton" },
       { "name": "Alternative DPS Set", "memos": "4 Changwuzi 2 Cottie" },
-      { "name": "High Rank DPS Set", "memos": "4 Changwuzi 4 Cottie" },
       { "name": "Slash Affix Set", "memos": "4 Changwuzi 2 Patton" }
     ],
     "builds": [
@@ -2057,22 +2056,6 @@
           "Bottom Slot: 6x Core Passive"
         ],
         "harmony_rec": "None"
-      },
-      {
-        "set_name": "High Rank DPS Set",
-        "set_type": "Main DPS",
-        "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Requires SS3 Solacetune or above",
-          "Main DPS Set",
-          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
-        ],
-        "memories": ["4x Changwuzi", "2x Cottie", "2x Cottie (Harmony)"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Core Passive"
-        ]
       },
       {
         "set_name": "Slash Affix Set",
