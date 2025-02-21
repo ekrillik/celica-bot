@@ -1633,7 +1633,7 @@
   },
   "echo": {
     "unit_name": "Alisa",
-    "frame_name": "Echo\n<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:physical_element:1290613978057146379>",
+    "frame_name": "Echo\n<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:physical_element:1290613978057146379><:glaciation:1288090076001210398>",
     "set_list": [
       { "name": "Main Support Set", "memos": "4 Signa 2 Da Vinci" },
       { "name": "Harmony Support Set", "memos": "4 Signa 4 Da Vinci" },
@@ -2408,7 +2408,7 @@
   },
   "pianissimo": {
     "unit_name": "Selena",
-    "frame_name": "Pianissimo",
+    "frame_name": "Pianissimo\n<:s_rank:1287636749052412026><:attacker:1285839106240417803><:physical_element:1290613978057146379><:glaciation:1288090076001210398>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Burana 4 Patton" },
       { "name": "Alternative DPS Set", "memos": "4 Burana 2 Cottie" },
