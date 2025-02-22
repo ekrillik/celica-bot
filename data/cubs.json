@@ -1300,51 +1300,51 @@
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3fox1.webp",
     "skills_list": [
-      "Footsteps in the Snow",
-      "Snow Crystals",
-      "Glistening Fortuity",
-      "Niveous Prosperity",
-      "Glacial Grace",
-      "Light-hearted",
-      "Oneiro's Ward"
+      "Frostwalker",
+      "Scattered Snow",
+      "Bright Destiny",
+      "Snowdust Blessing",
+      "Frosty Favor",
+      "Lucent Heart",
+      "Dream Ward"
     ],
     "active_skills": [
       {
-        "skill_name": "Footsteps in the Snow",
+        "skill_name": "Frostwalker",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Rui Xue will leap toward the target, slamming the ground and dealing 1800% DMG once."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Snowveil will fly toward the target then crash into the ground, dealing 1800% DMG once."
       },
       {
-        "skill_name": "Snow Crystals",
+        "skill_name": "Scattered Snow",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Rui Xue will flick its tail to fire crystal shards, inflicting enemies in the area with Rigidness and dealing 200% DMG 7 times.\n- Rigidness: Enemies will be rooted for 2s."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Snowveil will flick its tail to fire crystal shards forward, inflicting nearby enemies with Rigidity and dealing 200% DMG 7 times.\n- Rigidness: Immobilizes the enemy for 2s."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Glistening Fortuity",
+        "skill_name": "Bright Destiny",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "Rui Xue's Active Skills deal 70% more DMG."
+        "skill_desc": "Snowveil's Active Skills deal 70% more DMG."
       },
       {
-        "skill_name": "Niveous Prosperity",
+        "skill_name": "Snowdust Blessing",
         "skill_number": "Passive Skill 2",
-        "skill_desc": "Increases the ATK of Rui Xue's carrier by 100."
+        "skill_desc": "Increases the ATK of Snowveil's carrier by 100."
       },
       {
-        "skill_name": "Glacial Grace",
+        "skill_name": "Frosty Favor",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Upon activating Rui Xue's Active Skills, the carrier's Extra DMG Bonus will increase by 5% for 8s. Duration resets every time it is triggered."
+        "skill_desc": "Each time Snowveil casts an Active Skill, the carrier's Extra DMG Bonus will increase by 5% for 8s. Triggering this effect again will renew its duration."
       },
       {
-        "skill_name": "Light-hearted",
+        "skill_name": "Lucent Heart",
         "skill_number": "Passive Skill 4",
         "skill_desc": "Increases the carrier's Ice DMG by 10%."
       },
       {
-        "skill_name": "Oneiro's Ward",
+        "skill_name": "Dream Ward",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Wanshi: Lucid Dreamer enters Calibration Mode while carrying Rui Xue, Rui Xue is summoned to perform a coordinated attack, dealing 250% Ice DMG 10 times. Base DMG of Hyperlinked Flight increases by 60%; if Wanshi: Lucid Dreamer has the maximum no. of Wounding stacks when performing Hyperlinked Flight, Base DMG additionally increases by 90%. Base DMG of Ruinous Blizzard increases by 75%; if 30 Correcting Rounds have been consumed, Base DMG additionally increases by 175%."
+        "skill_desc": "When Wanshi: Lucid Dreamer enters **Calibration Mode** while carrying Snowveil, Snowveil will be summoned to assist in attacks, dealing 250% Ice DMG 10 times. Base DMG of **Superlink Flight** increases by 60%; if **Maim** has maximum stacks when **Superlink Flight** is cast, its Base DMG increases by a further 90%. Base DMG of **Destructive Wave** increases by 75%; if **30 Correction Projectiles** are consumed when **Destructive Wave** is cast, its Base DMG increases by an additional 175%."
       }
     ]
   },
