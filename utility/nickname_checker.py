@@ -302,13 +302,13 @@ def check_nickname(nickname, caller):
             memory = "n/a"
         case "solacetune":
             character = "solacetune"
-            weapon = "dreamer roamer"
-            cub = "mei wu"
-            memory = "changwuzi"
+            weapon = "dream roamer"
+            cub = "dreamwing"
+            memory = "chang wuzi"
         case "lucid dreamer":
             character = "lucid dreamer"
-            weapon = "hemera's gaze"
-            cub = "rui xue"
+            weapon = "renewed dawn"
+            cub = "snowveil"
             memory = "liston"
         case "pyroath":
             character = "pyroath"

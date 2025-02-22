@@ -45,8 +45,8 @@
     "pesw-ii - mod",
     "reappearance",
     "standard tactical tonfas",
-    "autumn fringe",
-    "locked and loaded",
+    "frontier foliage",
+    "load & rest",
     "prototype lb-lightspeed",
     "night rakshasa",
     "prototype shield axe zl-07",
@@ -104,8 +104,8 @@
     "white night's noise",
     "dark moon",
     "everburning ray",
-    "moon upon begonia",
-    "eternal rest",
+    "moonside petal",
+    "eternal peace",
     "fogged glow",
     "purging levin",
     "type zl-09 illuminance",
@@ -181,8 +181,8 @@
     "hacker's tune",
     "reconstruction of law",
     "cestus",
-    "dreamer roamer",
-    "hemera's gaze",
+    "dream roamer",
+    "renewed dawn",
     "dawn's flaming feathers",
     "morrow's executioner",
     "star tunnel of light",
@@ -437,17 +437,17 @@
     {
       "name": "Pipas",
       "list": [
-        "Dreamer Roamer ######",
-        "Moon Upon Begonia #####",
-        "Autumn Fringe ####"
+        "Dream Roamer ######",
+        "Moonside Petal #####",
+        "Frontier Foliage ####"
       ]
     },
     {
       "name": "Revolvers",
       "list": [
-        "Hemera's Gaze ######",
-        "Eternal Rest #####",
-        "Locked and Loaded ####"
+        "Renewed Dawn ######",
+        "Eternal Peace #####",
+        "Load & Rest ####"
       ]
     },
     {

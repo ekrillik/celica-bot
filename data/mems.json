@@ -309,7 +309,7 @@
     "hp": 1208
   },
   "kfc": {
-    "name": "Lucia - Summer Daze",
+    "name": "Lucia - KFC",
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/ekfc01.png",
     "rarity": 5,
     "2pc": "After triggering 3-orbs or QTE, there is a 50% chance of dropping a Chicken Burger, 30s cooldown. The Chicken Burger remains on field for 10s. Picking it up grants the character 8 energy. ",
@@ -800,12 +800,12 @@
     "crit": 66,
     "hp": 1491
   },
-  "changwuzi": {
-    "name": "Changwuzi",
+  "chang wuzi": {
+    "name": "Chang Wuzi",
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/echangwuzii01001.webp",
     "rarity": 6,
     "2pc": "Physical DMG increases by 10%.",
-    "4pc": "Base DMG of Harmonics Orb increases by 100%. Piercing Strike effect applied by Hanying: Solacetune increases by 20%. Upon exiting Moonsong Realm, the area of effect will continue to last for 12s, dealing 50% Physical DMG to enemies once every second.",
+    "4pc": "Harmonic Orb's Base DMG increases by 100%. The effect of **Piercing Blow** launched by Hanying: Solacetune increases by 20%. Upon quitting the Lunartone Field, the field will still exist for 12s and deal 50% Physical DMG to enemies within it once every second.",
     "atk": 132,
     "def": 223,
     "crit": 66,
@@ -816,7 +816,7 @@
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/elistoni01001.webp",
     "rarity": 6,
     "2pc": "Ice DMG increases by 10%.",
-    "4pc": "Frostbound Zone inflicts enemies inside with the Frost Corrosion effect that lasts for 8s when dealing DMG. Triggering this effect again refreshes its duration. While in Burst Mode, each shot additionally grants 1 stack of Wounding; the maximum number of Wounding stacks increases to 24. When performing Ruinous Blizzard, the Base DMG increase effect granted by each Correcting Round increases to 10%.",
+    "4pc": "When Frozen Zone deals DMG, triggers **Frost Corrosion** and reduces the target's Ice Resistance for 8s. Triggering this effect again will renew its duration. In Repeater Mode, each shot adds an extra stack of Maim, with a stacking limit of 24. When casting Destructive Wave, the Base DMG increase effect of each Correction Projectile increases to 10%.",
     "atk": 132,
     "def": 223,
     "crit": 66,

@@ -466,7 +466,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Within the Lightning Field, Lightning DMG increases by  20%."
+          "desc": "Within the Lightning Field, Lightning DMG increases by 20%."
         }
       ]
     },
@@ -475,7 +475,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG of  Lightning Lure increases by  20%."
+          "desc": "Extra DMG of Lightning Lure increases by 20%."
         }
       ]
     },
@@ -484,7 +484,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus increases by  15% for 10 seconds after performing a Signature Move. Triggering this effect again can refresh its duration"
+          "desc": "Extra DMG Bonus increases by 15% for 10 seconds after performing a Signature Move. Triggering this effect again can refresh its duration"
         }
       ]
     },
@@ -584,7 +584,7 @@
           "name": "Core Passive",
           "button_press": "Ping Red Orb (chance to trigger) / Ping Blue Orb + Tap Basic Attack (chance to trigger)",
           "description": [
-            "When Basic Attacks hit marked enemies, there is a chance to trigger Lightning Lure and deal Lightning DMG. Pinging Red Orbs also has a chance to trigger  Lightning Lure. After triggering Lightning Lure for 4 times, the next Lightning Lure will summon EX Lightning Lure, dealing Lightning DMG and healing allies in the area."
+            "When Basic Attacks hit marked enemies, there is a chance to trigger Lightning Lure and deal Lightning DMG. Pinging Red Orbs also has a chance to trigger Lightning Lure. After triggering Lightning Lure for 4 times, the next Lightning Lure will summon EX Lightning Lure, dealing Lightning DMG and healing allies in the area."
           ],
           "result": [
             "- Basic Attacks have a 30% chance to trigger Lightning Lure when they hit marked enemies.",
@@ -1050,7 +1050,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of Basic Attack increases by  15%."
+          "desc": "Extra DMG Bonus of Basic Attack increases by 15%."
         }
       ]
     },
@@ -1059,7 +1059,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Increases CRIT by  30%."
+          "desc": "Increases CRIT by 30%."
         }
       ]
     },
@@ -1068,7 +1068,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of Signature Move increases by  20%."
+          "desc": "Extra DMG Bonus of Signature Move increases by 20%."
         }
       ]
     }
@@ -1116,7 +1116,7 @@
         "switch_in": "no",
         "description": "Fires a special projectile at the ground that continues to pull enemies in. The projectile deals Physical DMG upon hitting the enemy, then deals Physical DMG over time to the enemies in the area.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%**  Physical DMG based on the number of orbs pinged.",
+          "- Deals **{0}%** / **{1}%** / **{2}%** Physical DMG based on the number of orbs pinged.",
           "- Deals **{3}%** Physical DMG to the enemies in the area every second over 1 / 2 / 3s based on the number of orbs pinged."
         ],
         "res_lv18": [100, 200, 300, 50]
@@ -1309,7 +1309,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus against enemies in Gray Raven Field increases by  15%."
+          "desc": "Extra DMG Bonus against enemies in Gray Raven Field increases by 15%."
         }
       ]
     },
@@ -1318,7 +1318,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of  Light Penalty increases by  50%."
+          "desc": "Extra DMG Bonus of Light Penalty increases by 50%."
         }
       ]
     },
@@ -1327,7 +1327,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "After using a Signature Move, Extra DMG of all party members increases by  15% for 5 seconds."
+          "desc": "After using a Signature Move, Extra DMG of all party members increases by 15% for 5 seconds."
         }
       ]
     },
@@ -1469,7 +1469,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus increases by  15% when attacking a target within an energy ring."
+          "desc": "Extra DMG Bonus increases by 15% when attacking a target within an energy ring."
         }
       ]
     },
@@ -1478,7 +1478,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus increases by  20% when attacking a target by Backstep Firing."
+          "desc": "Extra DMG Bonus increases by 20% when attacking a target by Backstep Firing."
         }
       ]
     },
@@ -1487,7 +1487,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Increases Physical DMG by  10% for 5 seconds after a 3-Ping, can be stacked up to 3 times. Duration refreshes when stacks overlap."
+          "desc": "Increases Physical DMG by 10% for 5 seconds after a 3-Ping, can be stacked up to 3 times. Duration refreshes when stacks overlap."
         }
       ]
     }
@@ -1764,7 +1764,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "30% chance to cause an explosion that deals  25% Fire DMG when performing attacks that deal Fire DMG."
+          "desc": "30% chance to cause an explosion that deals 25% Fire DMG when performing attacks that deal Fire DMG."
         }
       ]
     },
@@ -1773,7 +1773,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Gains Super Armor after casting a Signature Move. Extra DMG Reduction increases by  20% and Fire DMG increases by  15% for  8s."
+          "desc": "Gains Super Armor after casting a Signature Move. Extra DMG Reduction increases by 20% and Fire DMG increases by 15% for 8s."
         }
       ]
     },
@@ -1782,7 +1782,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus increases by  15% for  8s after casting a Signature Move."
+          "desc": "Extra DMG Bonus increases by 15% for 8s after casting a Signature Move."
         }
       ]
     },
@@ -1946,7 +1946,7 @@
     },
     "qte": {
       "name": "Chain Spin",
-      "description": "Spins and cuts the targets as he enters the battlefield, dealing Dark DMG and inflicting them with  **Chain Fusion**, reducing their Dark Resistance.",
+      "description": "Spins and cuts the targets as he enters the battlefield, dealing Dark DMG and inflicting them with **Chain Fusion**, reducing their Dark Resistance.",
       "result": [
         "- Deals **{0}%** Dark DMG in total.",
         "- **Chain Fusion** reduces the target's Dark Resistance by **{1}%** for 6s."
@@ -1967,7 +1967,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Dark Form grants  20% Extra DMG Reduction. Kamui: Tenebrion applies  **Chain Fusion** on targets damaged by him. The Resistance Reduction of **Chain Fusion** increases by 15%."
+          "desc": "Dark Form grants 20% Extra DMG Reduction. Kamui: Tenebrion applies **Chain Fusion** on targets damaged by him. The Resistance Reduction of **Chain Fusion** increases by 15%."
         }
       ]
     },
@@ -2113,7 +2113,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Physical DMG increases by  10% upon a Red 3-Ping for  4s."
+          "desc": "Physical DMG increases by 10% upon a Red 3-Ping for 4s."
         }
       ]
     },
@@ -2122,7 +2122,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG increases by  5%. Gains 2 additional Signal Orbs when  Blade Will State ends."
+          "desc": "Extra DMG increases by 5%. Gains 2 additional Signal Orbs when Blade Will State ends."
         }
       ]
     },
@@ -2131,7 +2131,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Physical Damage increases by  20% while under the Blue Orb's effect."
+          "desc": "Physical Damage increases by 20% while under the Blue Orb's effect."
         }
       ]
     },
@@ -2312,7 +2312,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Reduces Physical DMG taken by  10% and deals  8% more Physical DMG when there are over  60 Charge Points."
+          "desc": "Reduces Physical DMG taken by 10% and deals 8% more Physical DMG when there are over 60 Charge Points."
         }
       ]
     },
@@ -2321,7 +2321,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Physical DMG increases by  10% when a shield is present."
+          "desc": "Physical DMG increases by 10% when a shield is present."
         }
       ]
     }
@@ -2446,7 +2446,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "After hitting an enemy with  Trailblade, Watanabe: Astral's Extra DMG Bonus against the target increases by 10% over the next 4s."
+          "desc": "After hitting an enemy with Trailblade, Watanabe: Astral's Extra DMG Bonus against the target increases by 10% over the next 4s."
         }
       ]
     },
@@ -2550,7 +2550,7 @@
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Ping Blue Orb",
           "description": [
-            "When pinging a Blue Orb after any 3-Ping, charges in place to pull the nearby enemies in and gains Shield before unleashing a heavy strike to the targets ahead, dealing Physical DMG. Extra DMG Reduction increases by  70% when charging."
+            "When pinging a Blue Orb after any 3-Ping, charges in place to pull the nearby enemies in and gains Shield before unleashing a heavy strike to the targets ahead, dealing Physical DMG. Extra DMG Reduction increases by 70% when charging."
           ],
           "result": [
             "- Gains Shield equal to 8% of max HP for 7s.",
@@ -2864,7 +2864,7 @@
           "name": "Core Passive",
           "button_press": "Last hit of Basic Attack / Any 3-Ping / Cast Signature Move / Cast QTE + Pick up Energy Ball",
           "description": [
-            "Sophia: Silverfang drops an Energy Ball after any of the following: the last hit of Basic Attack, dealing damage with a 3-Ping skill, casting Signature Move, or casting QTE. Picking up an Energy Ball heals all the allies within range and grants  **Fire Tempered**, increasing Fire DMG. Whenever an Energy Ball is picked up, Sophia: Silverfang gains Energy and Heat. Her ATK increases based on the current Heat."
+            "Sophia: Silverfang drops an Energy Ball after any of the following: the last hit of Basic Attack, dealing damage with a 3-Ping skill, casting Signature Move, or casting QTE. Picking up an Energy Ball heals all the allies within range and grants **Fire Tempered**, increasing Fire DMG. Whenever an Energy Ball is picked up, Sophia: Silverfang gains Energy and Heat. Her ATK increases based on the current Heat."
           ],
           "result": [
             "- Picking up an Energy Ball heals all within range for HP equal to **{0}%** of Sophia: Silverfang's ATK.",
@@ -2923,7 +2923,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Increases Sophia: Silverfang's  **Fire Tempered** effect by  10% for  5s when picking up an Energy Ball."
+          "desc": "Increases Sophia: Silverfang's **Fire Tempered** effect by 10% for 5s when picking up an Energy Ball."
         }
       ]
     },
@@ -2932,7 +2932,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Hitting a target with Signature Move also reduces their Fire Resistance by  15% for  5s."
+          "desc": "Hitting a target with Signature Move also reduces their Fire Resistance by 15% for 5s."
         }
       ]
     }
@@ -3052,7 +3052,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Passive: While  Arclight Shield is active, Lightning DMG increases by  10%."
+          "desc": "Passive: While Arclight Shield is active, Lightning DMG increases by 10%."
         }
       ]
     },
@@ -3061,7 +3061,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When Chrome: Arclight is switched in, he will enter with  Storm World active for up to  4s bonus duration."
+          "desc": "When Chrome: Arclight is switched in, he will enter with Storm World active for up to 4s bonus duration."
         }
       ]
     },
@@ -3070,7 +3070,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Fulgurant Flurry reduces the target's Lightning Resistance by  15% for  8s."
+          "desc": "Fulgurant Flurry reduces the target's Lightning Resistance by 15% for 8s."
         }
       ]
     }
@@ -3240,7 +3240,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Gains max Energy and 2 Signature Points at the start of battle. While Plume still has Energy in Arctic Form, Extra DMG Bonus of Signal Orb skills increases by 5%.\n\nOr:\n\nGain max Energy at the start of battle. While you still have Energy in Arctic Form, Extra DMG Bonus of Signal Orb Skills increases by  10%."
+          "desc": "Gains max Energy and 2 Signature Points at the start of battle. While Plume still has Energy in Arctic Form, Extra DMG Bonus of Signal Orb skills increases by 5%.\n\nOr:\n\nGain max Energy at the start of battle. While you still have Energy in Arctic Form, Extra DMG Bonus of Signal Orb Skills increases by 10%."
         }
       ]
     },
@@ -3355,7 +3355,7 @@
     },
     "qte": {
       "name": "Black Rose Impact",
-      "description": "Upon entering the battlefield, deals Dark DMG to nearby enemies and heals the ally units within range. Also grants them the  **Dark Radiation** effect that increases their Dark DMG.",
+      "description": "Upon entering the battlefield, deals Dark DMG to nearby enemies and heals the ally units within range. Also grants them the **Dark Radiation** effect that increases their Dark DMG.",
       "result": [
         "- Deals **{0}%** Dark DMG to nearby enemies and heals the ally units within range for HP equal to **{1}%** of Vera: Rozen's ATK.",
         "- **Dark Radiation** increases Dark DMG by 10% for 5s."
@@ -3376,7 +3376,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Increases ATK by  5% for  5s when casting core attacks. This effect stacks up to  3 times."
+          "desc": "Increases ATK by 5% for 5s when casting core attacks. This effect stacks up to 3 times."
         }
       ]
     },
@@ -3385,7 +3385,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Dark DMG Bonus of Vera: Rozen's  **Dark Radiation** increases to  20%."
+          "desc": "The Dark DMG Bonus of Vera: Rozen's **Dark Radiation** increases to 20%."
         }
       ]
     },
@@ -3394,7 +3394,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The duration of Dark Field increases by  4s."
+          "desc": "The duration of Dark Field increases by 4s."
         }
       ]
     },
@@ -3657,10 +3657,10 @@
         "name": "Hunter of Sin",
         "button_press": "Ping Blue Orb",
         "switch_in": "yes",
-        "description": "Throws a shield to drag an enemy closer, dealing Physical DMG and inflicting Lance of Perception that reduces the target's Physical DEF.",
+        "description": "Throws a shield to drag an enemy closer, dealing Physical DMG and inflicting **Piercing Blow** that reduces the target's Physical DEF.",
         "result": [
           "- Deals **{0}%** / **{1}%** / **{2}%** Physical DMG in total based on the number of orbs pinged.",
-          "- Lance of Perception reduces the target's Physical DEF by 20% for 8s."
+          "- **Piercing Blow** reduces the target's Physical DEF by 20% for 8s."
         ],
         "res_lv18": [220, 440, 660]
       }
@@ -3690,12 +3690,12 @@
           "name": "Core Passive",
           "button_press": "Full Burst Form + Press and hold Basic Attack",
           "description": [
-            "When all Energy Points are used up, Rosetta: Rigor enters Full Burst Form. Press and hold the Basic Attack button in this form to charge and fire the  Wide-area Electromagnetic Cannon once the charging reaches maximum, dealing Physical DMG while restoring Signature Energy, and inflicting the target with Lance of Perception. While charging, her Extra DMG Reduction increases. Energy Points will be restored after firing the Wide-area Electromagnetic Cannon."
+            "When all Energy Points are used up, Rosetta: Rigor enters Full Burst Form. Press and hold the Basic Attack button in this form to charge and fire the Wide-area Electromagnetic Cannon once the charging reaches maximum, dealing Physical DMG while restoring Signature Energy, and inflicting the target with **Piercing Blow**. While charging, her Extra DMG Reduction increases. Energy Points will be restored after firing the Wide-area Electromagnetic Cannon."
           ],
           "result": [
             "- Wide-area Electromagnetic Cannon deals **{0}%** Physical DMG.",
             "- Wide-area Electromagnetic Cannon restores 8 Signature Energy.",
-            "- Lance of Perception lasts 20s.",
+            "- **Piercing Blow** lasts 20s.",
             "- While charging, her Extra DMG Reduction increases by 90%.",
             "- 3 Energy Points will be restored in 8s after firing the Wide-area Electromagnetic Cannon."
           ],
@@ -3737,7 +3737,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "QTE inflicts  Lance of Perception for  8s. After hitting an enemy with a Red Orb skill, Extra DMG Bonus against this enemy increases by  10% for  8s."
+          "desc": "QTE inflicts **Piercing Blow** for 8s. After hitting an enemy with a Red Orb skill, Extra DMG Bonus against this enemy increases by 10% for 8s."
         }
       ]
     },
@@ -3746,7 +3746,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Physical DEF Reduction of  Lance of Perception increases by  20%."
+          "desc": "Physical DEF Reduction of **Piercing Blow** increases by 20%."
         }
       ]
     },
@@ -3755,7 +3755,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of 3-Pings and Signature Move increases by  20%."
+          "desc": "Extra DMG Bonus of 3-Pings and Signature Move increases by 20%."
         }
       ]
     },
@@ -3779,7 +3779,7 @@
           "**Level 9**: Wide-area Electromagnetic Cannon also pulls in nearby enemies. After casting [Signature - Absolving Spear], the next low/mid-power electromagnetic cannon's Base DMG increases by 100%."
         ],
         "level18": [
-          "**Level 18**: Low/Mid-power/Wide-area Electromagnetic Cannon generates an extra 3 Signature Energy. After casting Wide-area Electromagnetic Cannon, Rosetta: Rigor becomes Overloaded for 4s, during which all 3-Pings and Signature Move will receive the maximum Energy Point bonus. New effect of [Passive - Lance of Eternity] added: Lance of Perception inflicts Penetrating Pivot that reduces target's Physical Resistance by 5%."
+          "**Level 18**: Low/Mid-power/Wide-area Electromagnetic Cannon generates an extra 3 Signature Energy. After casting Wide-area Electromagnetic Cannon, Rosetta: Rigor becomes Overloaded for 4s, during which all 3-Pings and Signature Move will receive the maximum Energy Point bonus. New effect of [Passive - Lance of Eternity] added: Lance of Perception inflicts **Penetrating Pivot** that reduces target's Physical Resistance by 5%."
         ]
       },
       {
@@ -3791,7 +3791,7 @@
           "**Level 9**: Rosetta: Rigor recovers 10 Signature Energy each time she enters battle."
         ],
         "level18": [
-          "**Level 18**: When [Signature - Absolving Spear] is cast, press and hold Basic Attack to start charging. Rosetta: Rigor becomes invincible while charging and will fire a Low/Mid-power/Wide-area Electromagnetic Cannon based on the charging time and whether she is in Full Burst Form. New effect of [Passive - Hyper-Burst] added: The Penetrating Pivot effect from Lance of Perception increases to 10%."
+          "**Level 18**: When [Signature - Absolving Spear] is cast, press and hold Basic Attack to start charging. Rosetta: Rigor becomes invincible while charging and will fire a Low/Mid-power/Wide-area Electromagnetic Cannon based on the charging time and whether she is in Full Burst Form. New effect of [Passive - Hyper-Burst] added: The **Penetrating Pivot** effect from Lance of Perception increases to 10%."
         ]
       }
     ]
@@ -3962,7 +3962,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Ice DMG and DEF increase by  15% when in the  Selfless State."
+          "desc": "Ice DMG and DEF increase by 15% when in the Selfless State."
         }
       ]
     },
@@ -3971,7 +3971,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Ice Resistance Reduction of Changyu: Qilin's **Frost Corrosion** increases to 10%. Air-Cracking Palm will increase his Ice DMG by 10% for  4 / 6 / 8s based on the number of orbs pinged."
+          "desc": "The Ice Resistance Reduction of Changyu: Qilin's **Frost Corrosion** increases to 10%. Air-Cracking Palm will increase his Ice DMG by 10% for 4 / 6 / 8s based on the number of orbs pinged."
         }
       ]
     },
@@ -4049,7 +4049,7 @@
           "name": "Core Passive",
           "button_press": "Concentrated Will State",
           "description": [
-            "In the Concentrated Will State, Signal Orbs can only be pinged individually. Pinging an orb consumes Sync Rate and triggers the corresponding 3-Ping skill and  Concentrated Will, and will consume Sync Rate but generates no energy. In the Concentrated Will State, Sync Rate goes down over time. Once Sync Rate is empty, the Concentrated Will State will end and Signal Orbs are no longer enhanced."
+            "In the Concentrated Will State, Signal Orbs can only be pinged individually. Pinging an orb consumes Sync Rate and triggers the corresponding 3-Ping skill and Concentrated Will, and will consume Sync Rate but generates no energy. In the Concentrated Will State, Sync Rate goes down over time. Once Sync Rate is empty, the Concentrated Will State will end and Signal Orbs are no longer enhanced."
           ],
           "result": [
             "- Each enhanced Signal Orb pinged consumes 20 Sync Rate. In the Concentrated Will State, Sync Rate goes down by 5 per second."
@@ -4121,7 +4121,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Extra DMG Bonus of Basic Attack increases by  10%. Extra DMG Bonus of  Concentrated Will increases by  5%."
+          "desc": "Extra DMG Bonus of Basic Attack increases by 10%. Extra DMG Bonus of Concentrated Will increases by 5%."
         }
       ]
     },
@@ -4130,7 +4130,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Gains  100 Energy upon first entering the battlefield. Physical DMG Bonus increases by  10% for  8s after performing Signature Move."
+          "desc": "Gains 100 Energy upon first entering the battlefield. Physical DMG Bonus increases by 10% for 8s after performing Signature Move."
         }
       ]
     },
@@ -4139,7 +4139,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Huiyu's Extra DMG Bonus increases by  25%."
+          "desc": "Huiyu's Extra DMG Bonus increases by 25%."
         }
       ]
     }
@@ -4210,7 +4210,7 @@
           "name": "Core Passive",
           "button_press": "At least 15 Annihilation Pts + Press and hold Basic Attack",
           "description": [
-            "Luna: Laurel gains Annihilation Pts after every 3-Ping. Her next ping will be counted as a 3-Ping. 3-Pings generated by the Matrix will be consumed first. When there are a certain amount of Annihilation Pts, press and hold the Basic Attack button to enter  Annihilation State, deal AOE Dark DMG, hide the original Signal Orbs, and gain  Annihilation Orbs based on the current Annihilation Pts. When this skill is cast, Luna will become invincible, and QTEs not in cooldown will be activated. In  Annihilation State, entering the Matrix will grant  1 Annihilation Orb, launching Basic Attacks will consume Annihilation Pts. When the Annihilation Pts drop to  0 or when another character is switched in, Luna will exit  Annihilation State. Switching to another character will consume all Annihilation Pts. Exiting  Annihilation State will rearrange the Signal Orbs into 3-Pings."
+            "Luna: Laurel gains Annihilation Pts after every 3-Ping. Her next ping will be counted as a 3-Ping. 3-Pings generated by the Matrix will be consumed first. When there are a certain amount of Annihilation Pts, press and hold the Basic Attack button to enter Annihilation State, deal AOE Dark DMG, hide the original Signal Orbs, and gain Annihilation Orbs based on the current Annihilation Pts. When this skill is cast, Luna will become invincible, and QTEs not in cooldown will be activated. In Annihilation State, entering the Matrix will grant 1 Annihilation Orb, launching Basic Attacks will consume Annihilation Pts. When the Annihilation Pts drop to 0 or when another character is switched in, Luna will exit Annihilation State. Switching to another character will consume all Annihilation Pts. Exiting Annihilation State will rearrange the Signal Orbs into 3-Pings."
           ],
           "result": [
             "- Every 3-Ping grants 15 Annihilation Pts, up to 60.",
@@ -4267,7 +4267,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Increases Dark DMG Bonus of targeted spikes by  5% and releases  2 additional spikes."
+          "desc": "Increases Dark DMG Bonus of targeted spikes by 5% and releases 2 additional spikes."
         }
       ]
     },
@@ -4276,7 +4276,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Dark DMG increases by  5% while in  Annihilation State. The DMG Bonus continues for  4s after leaving  Annihilation State. When Annihilation Pts are full, entering  Annihilation State will trigger a separate Matrix with a  12s cooldown."
+          "desc": "Dark DMG increases by 5% while in Annihilation State. The DMG Bonus continues for 4s after leaving Annihilation State. When Annihilation Pts are full, entering Annihilation State will trigger a separate Matrix with a 12s cooldown."
         }
       ]
     },
@@ -4285,7 +4285,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "After pinging  Annihilation Orbs, the Extra DMG Bonus of  Signature - Finale Descends will increase by  15% / 30% / 45% / 60% / 75% based on the number of  Annihilation Orbs pinged."
+          "desc": "After pinging Annihilation Orbs, the Extra DMG Bonus of Signature - Finale Descends will increase by 15% / 30% / 45% / 60% / 75% based on the number of Annihilation Orbs pinged."
         }
       ]
     }
@@ -4353,7 +4353,7 @@
           "name": "Core Passive",
           "button_press": "Yellow 3-Ping + Any 3-Ping",
           "description": [
-            "Any 3-Ping after a Yellow 3-Ping grants 2B Stability. Stability decreases over time (re-triggering does not refresh the duration), While 2B has  Stability, she enters Battle Stance. Once 2B exits Battle Stance, all  Data Correction stacks will be removed. Obtaining additional stacks or unleashing Signature Move will refresh the duration of  Data Correction. While Signature Move is active,  Stability will not decrease."
+            "Any 3-Ping after a Yellow 3-Ping grants 2B Stability. Stability decreases over time (re-triggering does not refresh the duration), While 2B has Stability, she enters Battle Stance. Once 2B exits Battle Stance, all Data Correction stacks will be removed. Obtaining additional stacks or unleashing Signature Move will refresh the duration of Data Correction. While Signature Move is active, Stability will not decrease."
           ],
           "result": [
             "- Any 3-Ping after a Yellow 3-Ping grants 2B 160 Stability.",
@@ -4373,7 +4373,7 @@
           "name": "Core Passive",
           "button_press": "Battle Stance + Ping Red Orb",
           "description": [
-            "In Battle Stance, Red Orbs also launch Swordwaves that deal Physical DMG and add  Data Correction, granting Physical DMG Bonus."
+            "In Battle Stance, Red Orbs also launch Swordwaves that deal Physical DMG and add Data Correction, granting Physical DMG Bonus."
           ],
           "result": [
             "- Each Swordwave deals **{0}%** Physical DMG.",
@@ -4428,7 +4428,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "If 2B, 9S or A2 in the team casts a Signature Move, CRIT Rate of 9S and A2 increases by  10% while 2B's CRIT Rate increases by  25% for  12s."
+          "desc": "If 2B, 9S or A2 in the team casts a Signature Move, CRIT Rate of 9S and A2 increases by 10% while 2B's CRIT Rate increases by 25% for 12s."
         }
       ]
     },
@@ -4437,7 +4437,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Physical DMG Bonus of Swordwave increases by  50%. While casting a Signature Move, all Yellow Orbs will be consumed to charge the greatsword and randomly converted into Signal Orbs of other colors. Upon hitting an enemy with Swordwave, 2B and 9S gain  5 Signature Energy, while A2 recovers  1% max HP for POD: Shield. Both effects have a 1.5s cooldown. The Physical DMG Bonus of every stack of  Data Correction increases to  4% (if 9S and A2 are also in the team, this effect increases to  8%)."
+          "desc": "Physical DMG Bonus of Swordwave increases by 50%. While casting a Signature Move, all Yellow Orbs will be consumed to charge the greatsword and randomly converted into Signal Orbs of other colors. Upon hitting an enemy with Swordwave, 2B and 9S gain 5 Signature Energy, while A2 recovers 1% max HP for POD: Shield. Both effects have a 1.5s cooldown. The Physical DMG Bonus of every stack of Data Correction increases to 4% (if 9S and A2 are also in the team, this effect increases to 8%)."
         }
       ]
     },
@@ -4446,7 +4446,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Gains 30% Extra DMG Reduction while casting skills. Becomes invincible for 0.3s after casting R020: Mirage. Physical DMG increases by 10% while  Battle Stance is active (if 9S and A2 are also in the team, this effect increases to 20%)."
+          "desc": "Gains 30% Extra DMG Reduction while casting skills. Becomes invincible for 0.3s after casting R020: Mirage. Physical DMG increases by 10% while Battle Stance is active (if 9S and A2 are also in the team, this effect increases to 20%)."
         }
       ]
     }
@@ -4518,7 +4518,7 @@
           "name": "Core Passive",
           "button_press": "At least 50 Overclock Energy + Any 3-Ping",
           "description": [
-            "Gains Overclock Energy at the start of the battle. During a 3-Ping, if there is sufficient  Overclock Energy, consumes  Overclock Energy to generate  Overclock Indicator of the corresponding color (up to 1) on the right of the Signal Orb bar.  Overclock Energy regenerates over time."
+            "Gains Overclock Energy at the start of the battle. During a 3-Ping, if there is sufficient Overclock Energy, consumes Overclock Energy to generate Overclock Indicator of the corresponding color (up to 1) on the right of the Signal Orb bar. Overclock Energy regenerates over time."
           ],
           "result": [
             "- Gains 100 Overclock Energy at the start of the battle.",
@@ -4530,7 +4530,7 @@
           "name": "Core Passive",
           "button_press": "Ping Overclock Indicator",
           "description": [
-            "Tapping the Overclock Indicator will consume all orbs of the same color and summon a POD to unleash multiple projectiles that deal Physical DMG (pinging  Overclock Indicator is not considered a ping). If the  Overclock Indicator effect pings more than 3 Signal Orbs, gains a number of random Signal Orbs equal to the excess number of orbs pinged. When 9S leaves the field, reduces his swap cooldown according to how many times  Overclock Indicator has been triggered."
+            "Tapping the Overclock Indicator will consume all orbs of the same color and summon a POD to unleash multiple projectiles that deal Physical DMG (pinging Overclock Indicator is not considered a ping). If the Overclock Indicator effect pings more than 3 Signal Orbs, gains a number of random Signal Orbs equal to the excess number of orbs pinged. When 9S leaves the field, reduces his swap cooldown according to how many times Overclock Indicator has been triggered."
           ],
           "result": [
             "- Deals **{0}%** / **{1}%** / **{2}%** Physical DMG in total based on the number of orbs pinged.",
@@ -4583,7 +4583,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Signal Orb recovery interval is reduced to 1.5s. While on standby, 9S will continue to recover Signal Orbs. Physical DMG Bonus of Overclock Indicator increases by 50%. E-Drug's effect increases to 20%, and its duration increases to  12s."
+          "desc": "Signal Orb recovery interval is reduced to 1.5s. While on standby, 9S will continue to recover Signal Orbs. Physical DMG Bonus of Overclock Indicator increases by 50%. E-Drug's effect increases to 20%, and its duration increases to 12s."
         }
       ]
     },
@@ -4657,7 +4657,7 @@
           "name": "Core Passive",
           "button_press": "Any 3-Ping",
           "description": [
-            "Any 3-Ping grants A2 POD: Shield and summons POD to launch 6 seeker missiles toward random targets in front, dealing Physical DMG and granting  POD: Shield after hitting enemies. Missiles also  Taunt the enemy. (While taunted, the target's DEF is reduced. If 2B and 9S are also in the team, the  effect is doubled.)"
+            "Any 3-Ping grants A2 POD: Shield and summons POD to launch 6 seeker missiles toward random targets in front, dealing Physical DMG and granting POD: Shield after hitting enemies. Missiles also Taunt the enemy. (While taunted, the target's DEF is reduced. If 2B and 9S are also in the team, the effect is doubled.)"
           ],
           "result": [
             "- 3-Ping grants A2 POD: Shield equal to **{0}%** of max HP, stacking up to 30% of max HP.",
@@ -4670,7 +4670,7 @@
           "name": "Sliding",
           "button_press": "Moving + Press and hold Dodge",
           "description": [
-            "While moving, press and hold the Dodge Button to cause A2 to begin sliding. Gains  POD: Shield after sliding for a period of time. The Dodge Gauge will not recover while sliding, but A2 will emit electricity to  continuously pull nearby enemies."
+            "While moving, press and hold the Dodge Button to cause A2 to begin sliding. Gains POD: Shield after sliding for a period of time. The Dodge Gauge will not recover while sliding, but A2 will emit electricity to continuously pull nearby enemies."
           ],
           "result": [
             "- Gains up to 10% of max HP of POD: Shield during the 1st second of sliding. Sliding lasts up to 2s."
@@ -4682,7 +4682,7 @@
       "name": "Berserk",
       "skills": [
         {
-          "name": "Signature Move -  POD",
+          "name": "Signature Move - POD",
           "button_press": "Shield full + Tap Signature",
           "description": [
             "Signature Move: Once POD: Shield is fully charged, unleashes Berserk Mode to grant A2 Super Armor and increase her Extra DMG Reduction, movement speed, and Extra DMG Bonus. Berserk Mode will consume max HP every second (prioritizing POD: Shield if POD: Shield is present). Berserk Mode can be deactivated manually or will automatically deactivate once A2's current HP falls to a certain level. Once deactivated, it cannot be activated again for a certain duration. If A2 leaves the field while Berserk Mode is active, POD: Shield will continue to diminish until fully depleted. While A2 is on standby, Berserk Mode will deactivate if POD: Shield is fully depleted."
@@ -4726,7 +4726,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Grants  50% POD: Shield each time A2 enters the battlefield. While Berserk Mode is active, the POD will automatically launch a round of seeker missiles every  4s. Additionally, if 2B and 9S are on the team while leaving the battlefield with Berserk Mode active, Physical DMG of the next character entering the battlefield will increase by  10% until A2's Berserk Mode is deactivated."
+          "desc": "Grants 50% POD: Shield each time A2 enters the battlefield. While Berserk Mode is active, the POD will automatically launch a round of seeker missiles every 4s. Additionally, if 2B and 9S are on the team while leaving the battlefield with Berserk Mode active, Physical DMG of the next character entering the battlefield will increase by 10% until A2's Berserk Mode is deactivated."
         }
       ]
     },
@@ -4735,7 +4735,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Enemies within the range of  A140: Gravity have their Extra DMG Bonus reduced by  70%. The Physical DMG Bonus of POD's seeker missiles increases by  100%, and their Taunt effect increases to  40%."
+          "desc": "Enemies within the range of A140: Gravity have their Extra DMG Bonus reduced by 70%. The Physical DMG Bonus of POD's seeker missiles increases by 100%, and their Taunt effect increases to 40%."
         }
       ]
     },
@@ -4744,7 +4744,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Berserk Mode's automatic deactivation threshold is lowered to  30% of max HP. Additionally, while A2 has Berserk Mode activated with  POD: Shield,  Signature - Berserk's cost is reduced to  2.5% of max HP per second, and its Extra DMG Bonus increases by  10%."
+          "desc": "Berserk Mode's automatic deactivation threshold is lowered to 30% of max HP. Additionally, while A2 has Berserk Mode activated with POD: Shield, Signature - Berserk's cost is reduced to 2.5% of max HP per second, and its Extra DMG Bonus increases by 10%."
         }
       ]
     }
@@ -4816,7 +4816,7 @@
           "name": "Core Passive",
           "button_press": "Tactical Stance + Release Basic Attack",
           "description": [
-            "Releasing the Basic Attack button during  Tactical Stance will trigger  Blooming Shot, dealing Ice DMG in a straight line."
+            "Releasing the Basic Attack button during Tactical Stance will trigger Blooming Shot, dealing Ice DMG in a straight line."
           ],
           "result": ["- Deals **{0}%** Ice DMG in total."],
           "res_lv18": [200]
@@ -4825,7 +4825,7 @@
           "name": "Core Passive",
           "button_press": "Tactical Stance + Release Basic Attack + Successful Dodge",
           "description": [
-            "The backstep of  Blooming Shot is able to evade enemy attacks. If this move successfully dodges an attack, Wanshi will become invincible for a long time during the follow-up sniping shot and deal Ice DMG."
+            "The backstep of Blooming Shot is able to evade enemy attacks. If this move successfully dodges an attack, Wanshi will become invincible for a long time during the follow-up sniping shot and deal Ice DMG."
           ],
           "result": ["- Deals **{0}%** Ice DMG in total."],
           "res_lv18": [700]
@@ -4871,7 +4871,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Extra DMG Bonus of  Blooming Shot increases by  50%. Automatically gains  5% Energy every second while on standby."
+          "desc": "The Extra DMG Bonus of Blooming Shot increases by 50%. Automatically gains 5% Energy every second while on standby."
         }
       ]
     },
@@ -4880,7 +4880,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Ice DMG Bonus of the  **Frost Crystal**l effect from  Hypnotic Gift increases to  20%."
+          "desc": "The Ice DMG Bonus of the **Frost Crystal**l effect from Hypnotic Gift increases to 20%."
         }
       ]
     },
@@ -4889,7 +4889,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Extra DMG Bonus of  Signature - Zero Point Bloom increases by  100%.  Blooming Shot generates  5% Energy. If the backstep successfully dodges an attack, generates additional  10% Energy."
+          "desc": "The Extra DMG Bonus of Signature - Zero Point Bloom increases by 100%. Blooming Shot generates 5% Energy. If the backstep successfully dodges an attack, generates additional 10% Energy."
         }
       ]
     }
@@ -4948,14 +4948,14 @@
           "name": "Chord",
           "button_press": "Any 3-Ping + Ping any orb",
           "description": [
-            "3-Ping will generate a  Triad of the same color, and the next Orb pinged will trigger  Chord. Selena gains  Tune based on the number of orbs pinged when  Chord is triggered."
+            "3-Ping will generate a Triad of the same color, and the next Orb pinged will trigger Chord. Selena gains Tune based on the number of orbs pinged when Chord is triggered."
           ]
         },
         {
           "name": "Concerto",
           "button_press": "Any 3-Ping + Ping orbs with the same color as the 3-Ping",
           "description": [
-            "If the orbs pinged have the same color as the  Triad, applies  Concerto on the target, dealing Lightning DMG and reducing the target's Extra DMG Bonus."
+            "If the orbs pinged have the same color as the Triad, applies Concerto on the target, dealing Lightning DMG and reducing the target's Extra DMG Bonus."
           ],
           "result": [
             "- Deals **{0}%** Lightning DMG in total.",
@@ -4967,7 +4967,7 @@
           "name": "Solo",
           "button_press": "Any 3-Ping + Ping orbs with a different color from the 3-Ping",
           "description": [
-            "If the color of orbs pinged is different from the  Triad, applies  Solo on self instead, increasing Extra DMG Bonus."
+            "If the color of orbs pinged is different from the Triad, applies Solo on self instead, increasing Extra DMG Bonus."
           ],
           "result": ["- Increases Extra DMG Bonus by **{0}%** for 8s."],
           "res_lv18": [20]
@@ -5020,7 +5020,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Lightning DMG increases by  10%.  Concerto is applied to all the enemies within 12m instead."
+          "desc": "Lightning DMG increases by 10%. Concerto is applied to all the enemies within 12m instead."
         }
       ]
     },
@@ -5029,7 +5029,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Chord triggers  Concerto and  Solo at the same time. The Extra DMG Bonus of  Solo increases by  20%, and the Extra DMG Bonus of  Concerto increases by  50%."
+          "desc": "Chord triggers Concerto and Solo at the same time. The Extra DMG Bonus of Solo increases by 20%, and the Extra DMG Bonus of Concerto increases by 50%."
         }
       ]
     },
@@ -5038,7 +5038,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Lightning DMG increases by  10%. The Extra DMG Bonus of  Tempest Finale increases by  20%."
+          "desc": "Lightning DMG increases by 10%. The Extra DMG Bonus of Tempest Finale increases by 20%."
         }
       ]
     }
@@ -5141,7 +5141,7 @@
           "name": "Core Passive",
           "button_press": "Energy full + Press and hold Basic Attack",
           "description": [
-            "During battle, Chrome: Glory's HP is compressed to  40%, with the remaining  60% filled with  Glorious Shield that automatically regenerates over time. When he has full energy, press and hold Basic Attack to empty the  Glorious Shield capacity and activate  Frost Spirit form, rearranging all Signal Orbs. All 3-Pings made in this form will gain  Condensed Frost without consuming  Glorious Shield, but  Glorious Shield cannot automatically regenerate while  Frost Spirit is active. Chrome: Glory creates  Eroding Chill around himself, dealing Ice DMG to enemies periodically and inflicting them with  **Frost Corrosion** that reduces their Ice Resistance."
+            "During battle, Chrome: Glory's HP is compressed to 40%, with the remaining 60% filled with Glorious Shield that automatically regenerates over time. When he has full energy, press and hold Basic Attack to empty the Glorious Shield capacity and activate Frost Spirit form, rearranging all Signal Orbs. All 3-Pings made in this form will gain Condensed Frost without consuming Glorious Shield, but Glorious Shield cannot automatically regenerate while Frost Spirit is active. Chrome: Glory creates Eroding Chill around himself, dealing Ice DMG to enemies periodically and inflicting them with **Frost Corrosion** that reduces their Ice Resistance."
           ],
           "result": [
             "- **Frost Corrosion**: Deals **{0}%** Ice DMG to enemies every 0.5s and reduces their Ice Resistance by 15% for 8s. Triggering this effect again will renew its duration."
@@ -5184,7 +5184,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Extra DMG Bonus of  Signature - Rime Blast increases by  20%. 3-Ping skills with  Condensed Frost have their  Extra DMG Bonus increased by 10%.  Condensed Frost's Slow effect is upgraded to the  Freeze effect, freezing all enemies within a certain distance from self."
+          "desc": "The Extra DMG Bonus of Signature - Rime Blast increases by 20%. 3-Ping skills with Condensed Frost have their Extra DMG Bonus increased by 10%. Condensed Frost's Slow effect is upgraded to the Freeze effect, freezing all enemies within a certain distance from self."
         }
       ]
     },
@@ -5193,7 +5193,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The effect of Chrome: Glory's  **Frost Corrosion** increases by  10%. Triggering  Condensed Frost also recovers  100% of  Glorious Shield and increases self ATK by  10% for  5s."
+          "desc": "The effect of Chrome: Glory's **Frost Corrosion** increases by 10%. Triggering Condensed Frost also recovers 100% of Glorious Shield and increases self ATK by 10% for 5s."
         }
       ]
     },
@@ -5202,7 +5202,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Activating  Frost Spirit now retains  25% of  Glorious Shield's max capacity and recovers  40 Signature Energy. While in  Frost Spirit form, Chrome: Glory's Ice DMG increases by  20%. When  Condensed Frost is triggered, the duration of  Freeze increases by  1s."
+          "desc": "Activating Frost Spirit now retains 25% of Glorious Shield's max capacity and recovers 40 Signature Energy. While in Frost Spirit form, Chrome: Glory's Ice DMG increases by 20%. When Condensed Frost is triggered, the duration of Freeze increases by 1s."
         }
       ]
     }
@@ -5287,7 +5287,7 @@
           "name": "Shadow Prism Attack",
           "button_press": "Tap Basic Attack consecutively",
           "description": [
-            "No. 21: XXI's Basic Attack will generate  Shadow Prism Energy. Upon reaching a certain level of  Shadow Prism Energy, the next Basic Attack will empty all  Shadow Prism Energy to cast a  Shadow Prism Attack and create  1 Twilight Matrix on the targets location that deals Dark DMG and knocks the target down. When generated, the Twilight Matrix grants No.21: XXI Signature Energy and Dodge Energy."
+            "No. 21: XXI's Basic Attack will generate Shadow Prism Energy. Upon reaching a certain level of Shadow Prism Energy, the next Basic Attack will empty all Shadow Prism Energy to cast a Shadow Prism Attack and create 1 Twilight Matrix on the targets location that deals Dark DMG and knocks the target down. When generated, the Twilight Matrix grants No.21: XXI Signature Energy and Dodge Energy."
           ],
           "result": [
             "- Each Basic Attack generates 1 Shadow Prism Energy. Upon reaching 4 Shadow Prism Energy, Shadow Prism Attack will be unleashed.",
@@ -5300,7 +5300,7 @@
           "name": "Resonance Pulse",
           "button_press": "Co-Bot + Twilight Matrix present",
           "description": [
-            "When the Co-Bot's Force Wave destroys a Twilight Matrix, it will trigger a  Resonance Pulse, dealing Dark DMG to nearby enemies."
+            "When the Co-Bot's Force Wave destroys a Twilight Matrix, it will trigger a Resonance Pulse, dealing Dark DMG to nearby enemies."
           ],
           "result": ["- Deals **{0}%** Dark DMG to nearby enemies."],
           "res_lv18": [50]
@@ -5309,7 +5309,7 @@
           "name": "Instant Dodge",
           "button_press": "Uncontrollable state + Tap Dodge",
           "description": [
-            "When No. 21: XXI is uncontrollable (when attacked, downed, or in mid-air), press the Dodge button to perform Instant Dodge with extra Dodge Energy to negate all uncontrollable states and create  1 Twilight Matrix on the target's location. Instant Dodge grants No. 21: XXI Super Armor and Shield."
+            "When No. 21: XXI is uncontrollable (when attacked, downed, or in mid-air), press the Dodge button to perform Instant Dodge with extra Dodge Energy to negate all uncontrollable states and create 1 Twilight Matrix on the target's location. Instant Dodge grants No. 21: XXI Super Armor and Shield."
           ],
           "result": [
             "- Instant Dodge costs 1.2x Dodge Energy (300).",
@@ -5346,7 +5346,7 @@
     },
     "qte": {
       "name": "Twilight Shackles",
-      "description": "Expands a  Duskglow Realm on the target's location to deal Dark DMG, creates  3 Twilight Matrices, and triggers a realm collapse.",
+      "description": "Expands a Duskglow Realm on the target's location to deal Dark DMG, creates 3 Twilight Matrices, and triggers a realm collapse.",
       "result": ["- Deals **{0}%** Dark DMG."],
       "res_lv18": [200]
     },
@@ -5364,7 +5364,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When No. 21: XXI has Shield, her Extra DMG Bonus increases by  5%. If not, her Extra DMG Reduction increases by  10%. A Blue 3-Ping will fully restore Shadow Prism Energy (inactive when performing her Signature Move)."
+          "desc": "When No. 21: XXI has Shield, her Extra DMG Bonus increases by 5%. If not, her Extra DMG Reduction increases by 10%. A Blue 3-Ping will fully restore Shadow Prism Energy (inactive when performing her Signature Move)."
         }
       ]
     },
@@ -5373,7 +5373,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When creating a Twilight Matrix, grants allies on the field  20% Extra DMG Reduction and  25% Extra Dodge Gauge Recovery Speed for  2s. This effect can stack up to  3 times. The duration will not reset when it is re-triggered. Enemies in the  Duskglow Realm will be afflicted with  **Chain Fusion** (Dark Resistance decreases by  10%) for  5s."
+          "desc": "When creating a Twilight Matrix, grants allies on the field 20% Extra DMG Reduction and 25% Extra Dodge Gauge Recovery Speed for 2s. This effect can stack up to 3 times. The duration will not reset when it is re-triggered. Enemies in the Duskglow Realm will be afflicted with **Chain Fusion** (Dark Resistance decreases by 10%) for 5s."
         }
       ]
     },
@@ -5382,7 +5382,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When her Signature Move achieves an S rank, the Extra DMG Bonus of the explosion from  Duskglow Realm increases by  210%. The Co-Bots attacks will grant all allies on the field Shield equal to  2% (stacking up to  10%) of No. 21: XXI's max HP."
+          "desc": "When her Signature Move achieves an S rank, the Extra DMG Bonus of the explosion from Duskglow Realm increases by 210%. The Co-Bots attacks will grant all allies on the field Shield equal to 2% (stacking up to 10%) of No. 21: XXI's max HP."
         }
       ]
     }
@@ -5459,7 +5459,7 @@
           "name": "Lightning Fall",
           "button_press": "Electric Charge present + Press and hold Basic Attack",
           "description": [
-            "When there is at least 1  Electric Charge, press and hold the Basic Attack button to consume  Electric Charge and cast  Lightning Fall to pull in a large area of enemies ahead, deal Lightning DMG, and inflict  **Turbulence Interference** (reduces enemies' Lightning Resistance). Every additional stack of  Electric Charge consumed will double the DMG of  Lightning Fall. Gains Super Armor when casting Lightning Fall."
+            "When there is at least 1 Electric Charge, press and hold the Basic Attack button to consume Electric Charge and cast Lightning Fall to pull in a large area of enemies ahead, deal Lightning DMG, and inflict **Turbulence Interference** (reduces enemies' Lightning Resistance). Every additional stack of Electric Charge consumed will double the DMG of Lightning Fall. Gains Super Armor when casting Lightning Fall."
           ],
           "result": [
             "- Lightning Fall deals **{0}%** Lightning DMG.",
@@ -5506,7 +5506,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Performs Victorious War Flag when switched out. Signature - Shining Piercer costs 20% less Energy and Lightning Fall can be cast immediately after  Signature - Shining Piercer."
+          "desc": "Performs Victorious War Flag when switched out. Signature - Shining Piercer costs 20% less Energy and Lightning Fall can be cast immediately after Signature - Shining Piercer."
         }
       ]
     },
@@ -5515,7 +5515,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "When Vera: Garnet has Shield, she gains Super Armor and her Extra DMG Reduction increases by  50%. The effect of **Turbulence Interference** increases by 10%. Extra DMG Bonus of Signature - Shining Piercer increases by 100%."
+          "desc": "When Vera: Garnet has Shield, she gains Super Armor and her Extra DMG Reduction increases by 50%. The effect of **Turbulence Interference** increases by 10%. Extra DMG Bonus of Signature - Shining Piercer increases by 100%."
         }
       ]
     },
@@ -5708,7 +5708,7 @@
           "name": "Core Passive",
           "button_press": "Trigger valid combos",
           "description": [
-            "The Basic Attack combo DMG ratio is adjusted. Gains  Deception Points based on the combo type upon triggering  valid combos. Roland's Red / Yellow / Blue Orbs are unlocked when there are a certain amount of  Deception Points. Each time the 1st or 2nd hit of a Signal Orb skill is cast,  Deception Points will be consumed to generate Energy. The combos of Basic Attacks and Signal Orb skills can be viewed in the description of each skill.  Valid combos: The Basic Attack combo launched within 1s after dealing DMG from Basic Attacks. Upon triggering Matrix, the next Signal Orb skill cast does not consume any  Deception Points or  Trickery Points. Roland cannot gain Signal Orbs from Basic Attacks. When he is switched off battle, he gains  Deception Points. Signal Orbs gained from any other source would be directly converted into  Deception Points or Energy, prioritizing  Deception Points."
+            "The Basic Attack combo DMG ratio is adjusted. Gains Deception Points based on the combo type upon triggering valid combos. Roland's Red / Yellow / Blue Orbs are unlocked when there are a certain amount of Deception Points. Each time the 1st or 2nd hit of a Signal Orb skill is cast, Deception Points will be consumed to generate Energy. The combos of Basic Attacks and Signal Orb skills can be viewed in the description of each skill. Valid combos: The Basic Attack combo launched within 1s after dealing DMG from Basic Attacks. Upon triggering Matrix, the next Signal Orb skill cast does not consume any Deception Points or Trickery Points. Roland cannot gain Signal Orbs from Basic Attacks. When he is switched off battle, he gains Deception Points. Signal Orbs gained from any other source would be directly converted into Deception Points or Energy, prioritizing Deception Points."
           ],
           "result": [
             "- The Basic Attack combo DMG ratio changes to **{0}%**.",
@@ -5779,7 +5779,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Extra DMG Bonus of regular Signal Orb skills increases by  15%. Gains  2 extra enhanced Signal Orbs when triggering Matrix in the regular form."
+          "desc": "The Extra DMG Bonus of regular Signal Orb skills increases by 15%. Gains 2 extra enhanced Signal Orbs when triggering Matrix in the regular form."
         }
       ]
     },
@@ -5788,7 +5788,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The  Deception Points limit increases by  60. Gains  30 bonus  Deception Points each time entering the battlefield. Gains  5 bonus Energy after casting a basic Signal Orb skill. The Extra DMG Bonus of Signature Move increases by  100%."
+          "desc": "The Deception Points limit increases by 60. Gains 30 bonus Deception Points each time entering the battlefield. Gains 5 bonus Energy after casting a basic Signal Orb skill. The Extra DMG Bonus of Signature Move increases by 100%."
         }
       ]
     },
@@ -5797,7 +5797,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "During  Apex of Trickery, Fire DMG increases by  15% and the Extra DMG Bonus of Signal Orb skills increases by  30%. After casting a Signature Move, the cooldown of Matrix is reset."
+          "desc": "During Apex of Trickery, Fire DMG increases by 15% and the Extra DMG Bonus of Signal Orb skills increases by 30%. After casting a Signature Move, the cooldown of Matrix is reset."
         }
       ]
     }
@@ -5857,7 +5857,7 @@
           "name": "Divine Prayer",
           "button_press": "Double tap dodge",
           "description": [
-            "Basic Attacks and pinging orbs accumulate Prayer. When it is full,  double tapping the Dodge button triggers  Divine Prayer that grants DMG Reduction. While in Divine Prayer, it is allowed to ping 2 sets of orbs. The orbs pinged during the prayer will amplify it and increase the base multiplier. Each time orbs are pinged, triggers  Prayer Ripple that deals Fire DMG to enemies, imprisons them, and heals allies. When  Core Passive - Ode for Everlight reaches Lv.22, entering Divine Prayer will grant 1 random Signal Orb, and casting Oaths will restore Dodge Energy."
+            "Basic Attacks and pinging orbs accumulate Prayer. When it is full, double tapping the Dodge button triggers Divine Prayer that grants DMG Reduction. While in Divine Prayer, it is allowed to ping 2 sets of orbs. The orbs pinged during the prayer will amplify it and increase the base multiplier. Each time orbs are pinged, triggers Prayer Ripple that deals Fire DMG to enemies, imprisons them, and heals allies. When Core Passive - Ode for Everlight reaches Lv.22, entering Divine Prayer will grant 1 random Signal Orb, and casting Oaths will restore Dodge Energy."
           ],
           "result": [
             "- Divine Prayer grants 70% DMG Reduction.",
@@ -5871,7 +5871,7 @@
           "name": "Purity Oath",
           "button_press": "Divine Prayer + Same-colored 3-Pings",
           "description": [
-            "If both sets of Signal Orbs are of the same color, triggers  Purity Oath that deals AOE Fire DMG."
+            "If both sets of Signal Orbs are of the same color, triggers Purity Oath that deals AOE Fire DMG."
           ],
           "result": ["- Deals **{0}%** Fire DMG."],
           "res_lv18": [400]
@@ -5880,7 +5880,7 @@
           "name": "Chaos Oath",
           "button_press": "Divine Prayer + Different-colored 3-Pings",
           "description": [
-            "If the two sets of Signal Orbs have different colors, triggers  Chaos Oath that pulls enemies in an extremely large area, dealing Fire DMG to them and a small amount of dodgeable DMG to Liv: Empyrea."
+            "If the two sets of Signal Orbs have different colors, triggers Chaos Oath that pulls enemies in an extremely large area, dealing Fire DMG to them and a small amount of dodgeable DMG to Liv: Empyrea."
           ],
           "result": ["- Deals **{0}%** Fire DMG."],
           "res_lv18": [400]
@@ -5933,7 +5933,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Entering Matrix outside of Empyreal State automatically triggers Divine Prayer with 4 stacks of amplification based on the color of currently available orbs. When Liv: Empyrea heals her allies, grants **Fire Tempered** to them for 8s. **Fire Tempered**: Fire DMG Bonus increases by  10%."
+          "desc": "Entering Matrix outside of Empyreal State automatically triggers Divine Prayer with 4 stacks of amplification based on the color of currently available orbs. When Liv: Empyrea heals her allies, grants **Fire Tempered** to them for 8s. **Fire Tempered**: Fire DMG Bonus increases by 10%."
         }
       ]
     },
@@ -5951,7 +5951,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Liv: Empyrea gains 40 Signature Energy when switched in. If the amplification stacks are maximized during Empyreal Prayer while casting Signature - Sea of Sangharama, Empyreal Oath will deal  1.5x DMG."
+          "desc": "Liv: Empyrea gains 40 Signature Energy when switched in. If the amplification stacks are maximized during Empyreal Prayer while casting Signature - Sea of Sangharama, Empyreal Oath will deal 1.5x DMG."
         }
       ]
     },
@@ -6052,7 +6052,7 @@
           "name": "Core Passive",
           "button_press": "Any 3-Ping + Hold the joystick",
           "description": [
-            "Upon a 3-Ping, moving the joystick will cause Selena: Capriccio to summon a phantom. The phantom will continue to cast the original skill, and Selena herself will gain Super Armor and cast  Reprise: Echo instead."
+            "Upon a 3-Ping, moving the joystick will cause Selena: Capriccio to summon a phantom. The phantom will continue to cast the original skill, and Selena herself will gain Super Armor and cast Reprise: Echo instead."
           ],
           "result": [
             "- Each Reprise: Echo cast by pinging Red/Yellow/Blue Orbs deals **{0}%** / **{1}%** / **{2}%** Dark DMG."
@@ -6094,7 +6094,7 @@
         },
         {
           "name": "Reprise",
-          "button_press": "Twin Stars -  All Shooting Star Orbs consumed",
+          "button_press": "Twin Stars - All Shooting Star Orbs consumed",
           "description": [
             "When all Shooting Stars are consumed, Selena: Capriccio will control all phantoms to launch a follow-up attack to cast Reprise: Twin Stars again, then she will play her Flute Sword to trigger Time Lag Calculation and order all phantoms to attack the enemy, each phantom dealing Dark DMG. Meanwhile, Realm of Capriccio will be detonated, dealing Dark DMG while leaving a phantom behind, healing ally units within the range every second."
           ],
@@ -6228,14 +6228,14 @@
           "name": "Core Passive",
           "button_press": "Whenever catching Dragon Axe",
           "description": [
-            "Whenever Pulao: Dragontoll catches Dragon Axe, she will throw it again, dealing the same effect as  Spirit Blade: Dragon Throw."
+            "Whenever Pulao: Dragontoll catches Dragon Axe, she will throw it again, dealing the same effect as Spirit Blade: Dragon Throw."
           ]
         },
         {
           "name": "Core Passive",
           "button_press": "Tap Basic Attack / Ping any orb",
           "description": [
-            "Basic Attacks or pinging orbs will generate  Dragon Force."
+            "Basic Attacks or pinging orbs will generate Dragon Force."
           ],
           "result": [
             "- Basic Attacks generate 3 Dragon Force.",
@@ -6247,7 +6247,7 @@
           "name": "Core Passive",
           "button_press": "Ping Yellow Orb + Pina Red Orb",
           "description": [
-            "If Pulao: Dragontoll catches Dragon Axe when performing her Red/Blue/Yellow Orb skill, consumes Dragon Force to unleash  Dragon Force Combo, with which tapping the Basic Attack button repeatedly will perform a follow-up combo that deals Physical DMG. While performing Dragon Force Combo and the follow-up combo, Pulao: Dragontoll gains Super Armor and Extra DMG Reduction."
+            "If Pulao: Dragontoll catches Dragon Axe when performing her Red/Blue/Yellow Orb skill, consumes Dragon Force to unleash Dragon Force Combo, with which tapping the Basic Attack button repeatedly will perform a follow-up combo that deals Physical DMG. While performing Dragon Force Combo and the follow-up combo, Pulao: Dragontoll gains Super Armor and Extra DMG Reduction."
           ],
           "result": [
             "- Dragon Force Combo consumes 25 Dragon Force.",
@@ -6262,7 +6262,7 @@
       "name": "Spirit Blade Dance",
       "skills": [
         {
-          "name": "Spirit Blade -  Dragon Throw",
+          "name": "Spirit Blade - Dragon Throw",
           "button_press": "20 Energy + Tap Signature",
           "description": [
             "Casts Spirit Blade: Dragon Throw, throwing Dragon Axe and dealing DMG to enemies in its path."
@@ -6272,7 +6272,7 @@
         },
         {
           "name": "Spirit Blade",
-          "button_press": "Falling Stars -  Dragon Axe present + 100 Energy + Press and hold Signature",
+          "button_press": "Falling Stars - Dragon Axe present + 100 Energy + Press and hold Signature",
           "description": [
             "Press and hold the Signature button to cast Spirit Blade: Falling Stars and deal wide AOE Physical DMG."
           ],
@@ -6323,7 +6323,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Physical DMG increases by 10%. Each Dragon Force Combo restores an additional 12 Signature Energy (up to  36 per combo). Gains 25 Dragon Force upon entering battle each time."
+          "desc": "Physical DMG increases by 10%. Each Dragon Force Combo restores an additional 12 Signature Energy (up to 36 per combo). Gains 25 Dragon Force upon entering battle each time."
         }
       ]
     },
@@ -6415,7 +6415,7 @@
           "name": "\"Bzzz\" Mode",
           "button_press": "\"Rumbling\" Mode + Cast Ironsoul Slice + Press and hold Basic Attack",
           "description": [
-            "When in the \"Rumbling\" Mode, Nanami: Starfarer will gain a Pressure Gauge. When Ironsoul Slice hits an enemy press and hold Basic Attack to trigger the  \"Bzzz\" Mode, during which releasing the Basic Attack button at different timings will trigger \"Oops! Missed it!\" or \"Perfect!\""
+            "When in the \"Rumbling\" Mode, Nanami: Starfarer will gain a Pressure Gauge. When Ironsoul Slice hits an enemy press and hold Basic Attack to trigger the \"Bzzz\" Mode, during which releasing the Basic Attack button at different timings will trigger \"Oops! Missed it!\" or \"Perfect!\""
           ],
           "result": ["- The Pressure Gauge has a limit of 200."]
         },
@@ -6528,7 +6528,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Nanami: Starfarer's **Scorching Invasion** effect increases. The Extra DMG Bonuses of Burning Blow and Signature - Ace Star increase. When Nanami is in the  \"Bzzz\" Mode, press and hold until the charge limit to automatically trigger \"Perfect!\". When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores Shield.\n- **Scorching Invasion**'s effect increases by 10%.\n- The Extra DMG Bonus of Burning Blow increases by 25%.\n- The Extra DMG Bonus of Signature - Ace Star increases by 25%.\n- When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores shield equal to 10% of max HP per second, up to 50%."
+          "desc": "Nanami: Starfarer's **Scorching Invasion** effect increases. The Extra DMG Bonuses of Burning Blow and Signature - Ace Star increase. When Nanami is in the \"Bzzz\" Mode, press and hold until the charge limit to automatically trigger \"Perfect!\". When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores Shield.\n- **Scorching Invasion**'s effect increases by 10%.\n- The Extra DMG Bonus of Burning Blow increases by 25%.\n- The Extra DMG Bonus of Signature - Ace Star increases by 25%.\n- When Nanami is in the Slide Mode or the \"Bzzz\" Mode, she restores shield equal to 10% of max HP per second, up to 50%."
         }
       ]
     },
@@ -6537,7 +6537,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The damage recorded by Soul of Molten Steel increases. Max Pressure increases. The \"Rumbling\" Mode grants pressure every second. \"Oops! Missed it!\" /  \"Perfect!\" grants bonus Pressure.\n- The damage recorded by Soul of Molten Steel increases to 100%.\n- Max Pressure increases to 999.\n- The \"Rumbling\" Mode grants 50 Pressure every second. \"Oops! Missed it!\" grants 80 more Pressure."
+          "desc": "The damage recorded by Soul of Molten Steel increases. Max Pressure increases. The \"Rumbling\" Mode grants pressure every second. \"Oops! Missed it!\" / \"Perfect!\" grants bonus Pressure.\n- The damage recorded by Soul of Molten Steel increases to 100%.\n- Max Pressure increases to 999.\n- The \"Rumbling\" Mode grants 50 Pressure every second. \"Oops! Missed it!\" grants 80 more Pressure."
         }
       ]
     }
@@ -6652,7 +6652,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "The Base DMG of  Frost-Treated Blade: Quench increases by  15%.  Froststream Level recovers  6.7% every second."
+          "desc": "The Base DMG of Frost-Treated Blade: Quench increases by 15%. Froststream Level recovers 6.7% every second."
         }
       ]
     },
@@ -6661,7 +6661,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Ice DMG increases by  10%. Gains  30 Signature Energy upon entering the battlefield."
+          "desc": "Ice DMG increases by 10%. Gains 30 Signature Energy upon entering the battlefield."
         }
       ]
     },
@@ -6670,7 +6670,7 @@
       "levels": [
         {
           "rank": "",
-          "desc": "Gives all enemies  Frozen Status upon entering Matrix."
+          "desc": "Gives all enemies Frozen Status upon entering Matrix."
         }
       ]
     }
@@ -6763,7 +6763,7 @@
           "name": "Radiant Whirlwind",
           "button_press": "Character is airborne + Tap Basic Attack repeatedly",
           "description": [
-            "While in the Anti-gravity status, tapping the Basic Attack button repeatedly will cast  Radiant Whirlwind that deals Dark DMG (each Basic Attack increases Karenina: Scire's airborne duration and spin speed)."
+            "While in the Anti-gravity status, tapping the Basic Attack button repeatedly will cast Radiant Whirlwind that deals Dark DMG (each Basic Attack increases Karenina: Scire's airborne duration and spin speed)."
           ],
           "result": ["- Deals **{0}%** Dark DMG."],
           "res_lv18": [10]
@@ -6772,7 +6772,7 @@
           "name": "Gravity Overload",
           "button_press": "Triggered when character lands",
           "description": [
-            "Upon landing,  Gravity Overload will be triggered to grant Signature Energy and deal Dark DMG. If Karenina: Scire has sufficient Anti-gravity Energy, she will automatically leap up into the air again by consuming certain Anti-gravity Energy, Once Anti-gravity Energy is insufficient, she will exit the Anti-gravity Status with empty Anti-gravity Energy."
+            "Upon landing, Gravity Overload will be triggered to grant Signature Energy and deal Dark DMG. If Karenina: Scire has sufficient Anti-gravity Energy, she will automatically leap up into the air again by consuming certain Anti-gravity Energy, Once Anti-gravity Energy is insufficient, she will exit the Anti-gravity Status with empty Anti-gravity Energy."
           ],
           "result": [
             "- Triggering Gravity Overload grants 20 Signature Energy.",
@@ -6826,7 +6826,7 @@
     },
     "qte": {
       "name": "Dawn Fall",
-      "description": "Karenina: Scire hammers the ground, dealing Dark DMG to enemies within the area and inflicting the  **Chain Fusion** effect on them to reduce their Dark Resistance.",
+      "description": "Karenina: Scire hammers the ground, dealing Dark DMG to enemies within the area and inflicting the **Chain Fusion** effect on them to reduce their Dark Resistance.",
       "result": [
         "- Deals **{0}%** Dark DMG.",
         "- **Chain Fusion** reduces the target's Dark Resistance by 15% for 12s."
@@ -6847,11 +6847,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5 Rank",
-          "desc": "Karenina: Scire gains an Anti-gravity Shield equal to  10% of max HP for every set of 3-Ping Orbs consumed when charging."
+          "desc": "Karenina: Scire gains an Anti-gravity Shield equal to 10% of max HP for every set of 3-Ping Orbs consumed when charging."
         },
         {
           "rank": "Level 2 - Unlocked at SS Rank",
-          "desc": "Upon dealing damage, inflicts a  **Chain Fusion** effect that reduces the target's Dark Resistance by  15% for  3s. When Karenina: Scire starts charging, the Signal Orbs will be rearranged in the order of red, blue, and yellow."
+          "desc": "Upon dealing damage, inflicts a **Chain Fusion** effect that reduces the target's Dark Resistance by 15% for 3s. When Karenina: Scire starts charging, the Signal Orbs will be rearranged in the order of red, blue, and yellow."
         }
       ]
     },
@@ -6860,11 +6860,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3 Rank",
-          "desc": "Gains an extra 3-Ping chance triggered by pressing and holding Basic Attack to charge (up to three times). Upon the third 3-Ping, the corresponding Leap Attack will deal  400% more Base DMG, and Radiant Whirlwind will deal  75% more Base DMG. Upon casting  Starshatter Horizon, Karenina: Scire will generate a  15s  Thermal Field, dealing  75% Dark DMG once to targets entering the field and inflicting them with  **Chain Fusion** that reduces Dark Resistance by  15% for  10s."
+          "desc": "Gains an extra 3-Ping chance triggered by pressing and holding Basic Attack to charge (up to three times). Upon the third 3-Ping, the corresponding Leap Attack will deal 400% more Base DMG, and Radiant Whirlwind will deal 75% more Base DMG. Upon casting Starshatter Horizon, Karenina: Scire will generate a 15s Thermal Field, dealing 75% Dark DMG once to targets entering the field and inflicting them with **Chain Fusion** that reduces Dark Resistance by 15% for 10s."
         },
         {
           "rank": "Level 2 - Unlocked at SSS Rank",
-          "desc": "When in the Anti-gravity status, Karenina: Scire deals  10% more Dark DMG. Dealing damage will reduce the target's Extra DMG Reduction by  5% for  8s. Triggering this effect again will renew its duration. Press and hold Basic Attack to start charging and immediately activate QTEs that are not in cooldown.  Radiant Whirlwind's spin speed will automatically increase."
+          "desc": "When in the Anti-gravity status, Karenina: Scire deals 10% more Dark DMG. Dealing damage will reduce the target's Extra DMG Reduction by 5% for 8s. Triggering this effect again will renew its duration. Press and hold Basic Attack to start charging and immediately activate QTEs that are not in cooldown. Radiant Whirlwind's spin speed will automatically increase."
         }
       ]
     },
@@ -6873,15 +6873,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3 Rank",
-          "desc": "When a teammate casts their Signature Move, it will provide a set of 3-Ping Orbs to Karenina: Scire who is on standby. (Each teammate can only trigger this once after entering the field.) Karenina gains an extra 3-Ping chance triggered by pressing and holding Basic Attack to charge (up to four times). Upon the fourth 3-Ping, the Base DMG of  Leap Attack increases by  600% and the Base DMG of  Radiant Whirlwind increases by  200%."
+          "desc": "When a teammate casts their Signature Move, it will provide a set of 3-Ping Orbs to Karenina: Scire who is on standby. (Each teammate can only trigger this once after entering the field.) Karenina gains an extra 3-Ping chance triggered by pressing and holding Basic Attack to charge (up to four times). Upon the fourth 3-Ping, the Base DMG of Leap Attack increases by 600% and the Base DMG of Radiant Whirlwind increases by 200%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6 Rank",
-          "desc": "Radiant Whirlwind gains  30% Extra DMG Bonus."
+          "desc": "Radiant Whirlwind gains 30% Extra DMG Bonus."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+ Rank",
-          "desc": "Starshatter Horizon gains  40% Extra DMG Bonus. Karenina: Scire will gain 3 Signal Orbs of a random color every time being switched in."
+          "desc": "Starshatter Horizon gains 40% Extra DMG Bonus. Karenina: Scire will gain 3 Signal Orbs of a random color every time being switched in."
         }
       ]
     },
@@ -6993,7 +6993,7 @@
           "name": "Charge Engine",
           "button_press": "Any 3-Ping + Tap Basic Attack repeatedly",
           "description": [
-            "After casting a 3-Ping, tap Basic Attack repeatedly to charge up the Rising Engine. When the tapping stops or goes over a certain period of time, Noan: Arca will perform  Gear-Break Combo based on the color of Signal Orbs pinged, and its DMG will depend on the current Gear Level. Triggering a Combo Strike also consumes all  Rising Energy charged to increase its DMG dealt. The Rising Energy consumed will be converted into Rotational Speed."
+            "After casting a 3-Ping, tap Basic Attack repeatedly to charge up the Rising Engine. When the tapping stops or goes over a certain period of time, Noan: Arca will perform Gear-Break Combo based on the color of Signal Orbs pinged, and its DMG will depend on the current Gear Level. Triggering a Combo Strike also consumes all Rising Energy charged to increase its DMG dealt. The Rising Energy consumed will be converted into Rotational Speed."
           ],
           "result": [
             "- Deals **{0}%** / **{1}%** / **{2}%** / **{3}%** Lightning DMG based on the current Gear Level.",
@@ -7052,11 +7052,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5 Rank",
-          "desc": "Movement speed increases by  50% for  5s after dodging."
+          "desc": "Movement speed increases by 50% for 5s after dodging."
         },
         {
           "rank": "Level 2 - Unlocked at SS Rank",
-          "desc": "ATK increases by  5% and, every time entering battle,  Gear Level goes up by 1."
+          "desc": "ATK increases by 5% and, every time entering battle, Gear Level goes up by 1."
         }
       ]
     },
@@ -7069,7 +7069,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SSS Rank",
-          "desc": "Upon entering battle, Signal Orbs will be returned and rearranged into 3-Pings according to the number of existing orbs. Lightning DMG increases by  20% with each Gear Level. This effect stacks up to  3 times, and each lasts  8s. Triggering this effect again will refresh its duration."
+          "desc": "Upon entering battle, Signal Orbs will be returned and rearranged into 3-Pings according to the number of existing orbs. Lightning DMG increases by 20% with each Gear Level. This effect stacks up to 3 times, and each lasts 8s. Triggering this effect again will refresh its duration."
         }
       ]
     },
@@ -7078,15 +7078,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3 Rank",
-          "desc": "Lightning DMG of 3-Ping skills increases by  30%."
+          "desc": "Lightning DMG of 3-Ping skills increases by 30%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6 Rank",
-          "desc": "Lightning DMG of Signature Move increases by  30%."
+          "desc": "Lightning DMG of Signature Move increases by 30%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+ Rank",
-          "desc": "Lightning DMG of  Gear-Break Combo and  Assault-Rising Combo increases by  30%."
+          "desc": "Lightning DMG of Gear-Break Combo and Assault-Rising Combo increases by 30%."
         }
       ]
     }
@@ -7200,7 +7200,7 @@
           "name": "Glowing Lanternlight",
           "button_press": "Tap Signal Orbs of the same color as Afterglow Orbs while in Luminous Realm",
           "description": [
-            "Pinging a set of Signal Orbs in  Luminous Realm can also consume the Afterglow Orbs that are of the same color and aligned directly above them. Upon successful pinging of Afterglow Orbs, Bianca: Stigmata will launch Glowing Lanternlight to deal Physical DMG to targets within range. Pinging Signal Orbs and Afterglow Orbs in Luminous Realm will both generate Afterglow Points."
+            "Pinging a set of Signal Orbs in Luminous Realm can also consume the Afterglow Orbs that are of the same color and aligned directly above them. Upon successful pinging of Afterglow Orbs, Bianca: Stigmata will launch Glowing Lanternlight to deal Physical DMG to targets within range. Pinging Signal Orbs and Afterglow Orbs in Luminous Realm will both generate Afterglow Points."
           ],
           "result": [
             "- Glowing Lanternlight deals **{0}%** / **{1}%** / **{2}%** Physical DMG based on the total number of Signal Orbs and Afterglow Orbs pinged.",
@@ -7282,7 +7282,7 @@
         },
         {
           "rank": "Lv 2 - Unlocked at SSS Rank",
-          "desc": "Signature - Bright Candle will record a 100% multiplier of the Signal Orbs pinged and Core Passive - Glowing Lanternlight cast in Luminous Realm. When  Signature - Bright Candle is unleashed, an attack will deal the recorded multiplier of Physical DMG to all units within range. This will not deal CRIT DMG, and Bianca: Stigmata will gain 20 stacks of Stigmata Will instantly. When launching  Basic Attack - Sword Dance, the first 2 hits of Basic Attack - Sword Dance can be performed additionally before landing.\n- When dealing DMG to multiple targets at the same time by pinging Signal Orbs or  Core Passive - Glowing Lanternlight in Luminous Realm, only the highest DMG dealt to a single target will be recorded. No record will be made if no DMG is dealt."
+          "desc": "Signature - Bright Candle will record a 100% multiplier of the Signal Orbs pinged and Core Passive - Glowing Lanternlight cast in Luminous Realm. When Signature - Bright Candle is unleashed, an attack will deal the recorded multiplier of Physical DMG to all units within range. This will not deal CRIT DMG, and Bianca: Stigmata will gain 20 stacks of Stigmata Will instantly. When launching Basic Attack - Sword Dance, the first 2 hits of Basic Attack - Sword Dance can be performed additionally before landing.\n- When dealing DMG to multiple targets at the same time by pinging Signal Orbs or Core Passive - Glowing Lanternlight in Luminous Realm, only the highest DMG dealt to a single target will be recorded. No record will be made if no DMG is dealt."
         }
       ]
     },
@@ -7291,7 +7291,7 @@
       "levels": [
         {
           "rank": "Lv 1 - Unlocked at SSS3 Rank",
-          "desc": "Extra DMG Bonus of pinging orbs and Core Passive - Glowing Lanternlight  increases by 30% in Staff Form."
+          "desc": "Extra DMG Bonus of pinging orbs and Core Passive - Glowing Lanternlight increases by 30% in Staff Form."
         },
         {
           "rank": "Lv 2 - Unlocked at SSS6 Rank",
@@ -7513,7 +7513,7 @@
       "levels": [
         {
           "rank": "Lv. 1- Unlocked at SS3 Rank",
-          "desc": "Gains  1 Signal Orb when entering the Solitary Dance Form via a successful dodge. For every 1 stack of Pact of Memory, the Ice DMG of Signature - Stringless Cage increases by 8%"
+          "desc": "Gains 1 Signal Orb when entering the Solitary Dance Form via a successful dodge. For every 1 stack of Pact of Memory, the Ice DMG of Signature - Stringless Cage increases by 8%"
         },
         {
           "rank": "Lv. 2 - Unlocked at SSS Rank",
@@ -7648,7 +7648,7 @@
           "name": "Realm Travel",
           "button_press": "Full core gauge + Press and Hold Basic Attack",
           "description": [
-            "When Hypermatrix cooldown is over, press and hold Basic Attack to attack the enemy in front with a high-power sniper rifle, dealing Fire DMG and triggering  Hypermatrix. Upon entering Hypermatrix, Blue Orbs will be converted into Red or Yellow Signal Orbs."
+            "When Hypermatrix cooldown is over, press and hold Basic Attack to attack the enemy in front with a high-power sniper rifle, dealing Fire DMG and triggering Hypermatrix. Upon entering Hypermatrix, Blue Orbs will be converted into Red or Yellow Signal Orbs."
           ],
           "result": [
             "- Deals **{0}%** Fire DMG.",
@@ -7720,7 +7720,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "When casting  Signature - Collapsing Realm, the Base DMG of Signature - End of Time increases by 15% for each Sight Point. When SS Rank Passive Skill - Realm Walk is active, casting Signature - Collapsing Realm will restore double Signature Energy instead."
+          "desc": "When casting Signature - Collapsing Realm, the Base DMG of Signature - End of Time increases by 15% for each Sight Point. When SS Rank Passive Skill - Realm Walk is active, casting Signature - Collapsing Realm will restore double Signature Energy instead."
         }
       ]
     },
@@ -7909,7 +7909,7 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Casting  Signature - Color Rendering will activate all available QTEs."
+          "desc": "Casting Signature - Color Rendering will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
@@ -8030,7 +8030,7 @@
         "switch_in": "yes",
         "description": "Slashes the enemy rapidly and deals Lightning DMG.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%**  Lighting DMG based on the number of orbs pinged.",
+          "- Deals **{0}%** / **{1}%** / **{2}%** Lighting DMG based on the number of orbs pinged.",
           "- Performing a Blue Orb 2/3-Ping again will change Alpha's move into jumping up before slashing the enemy, dealing **{3}%** / **{4}%** Lightning DMG."
         ],
         "res_lv18": [150, 300, 450, 320, 480]
@@ -8143,7 +8143,7 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Upon entering battle, the first Resolute Blow cast will restore an addition of 20 Signature Energy. Base DMG of Signal Orb Skills and Resolute Blow increases by  50%."
+          "desc": "Upon entering battle, the first Resolute Blow cast will restore an addition of 20 Signature Energy. Base DMG of Signal Orb Skills and Resolute Blow increases by 50%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
@@ -8151,7 +8151,7 @@
         },
         {
           "rank": "",
-          "desc": "- When enhanced, swordwave's Base DMG increases by 100%. Casting enhanced swordwaves also restores 3 Signature Energy every 0.3s and 25 Aphotic Points every  0.5s."
+          "desc": "- When enhanced, swordwave's Base DMG increases by 100%. Casting enhanced swordwaves also restores 3 Signature Energy every 0.3s and 25 Aphotic Points every 0.5s."
         }
       ]
     },
@@ -8160,7 +8160,7 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Unquenchable Flare's Thunderous Bash and  Resolute Blow increases by 30%."
+          "desc": "Extra DMG Bonus of Unquenchable Flare's Thunderous Bash and Resolute Blow increases by 30%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
@@ -8168,7 +8168,7 @@
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of  Signature - Weave: Karmic Inferno increases by 50%."
+          "desc": "Extra DMG Bonus of Signature - Weave: Karmic Inferno increases by 50%."
         }
       ]
     },
@@ -8209,7 +8209,7 @@
           "**Level 9**: Base DMG of Signal Orbs increases by 50%.\n- When any orb is pinged for the first time upon triggering Matrix, a maximum of 1 orb will be consumed."
         ],
         "level18": [
-          "**Level 18**:  While holding the kodachi, all Signal Orbs are converted into Blue Orbs.\n- [SSS+ Passive - Glimpse Into All] added effect: Gain 15% Extra DMG Bonus when holding the odachi."
+          "**Level 18**: While holding the kodachi, all Signal Orbs are converted into Blue Orbs.\n- [SSS+ Passive - Glimpse Into All] added effect: Gain 15% Extra DMG Bonus when holding the odachi."
         ]
       }
     ]
@@ -8285,7 +8285,7 @@
           "name": "Dance of Emerald Flow",
           "button_press": "At least 1 Dancer Point + Tap Dodge",
           "description": [
-            "After spending 1 Dancer Point, Hanying will perform a Choreography, entering Dancer Stance, recovering 16 Signature Energy, and gaining 1 stack of Emerald Flow. In Dancer Stance, all Signal Orbs will be converted into Dance Orbs (with color unchanged) that cast Poise of Emerald Flow when pinged, and Hanying can only perform 1-Pings.\n\nHanying gains Super Armor and 50% DMG Reduction while casting Poise of Emerald Flow. Each stack of Emerald Flow will increase the Base DMG of  Poise of Emerald Flow or Vision of Mountains by 20% (max 4 stacks). Exiting Dancer Stance will reset Emerald Flow to 0.\n\nPerforming 4 consecutive Choreographies will leave behind a healing zone that restores the HP of allies in the area and grants **Ultralimit Torque**, which increases Physical DMG."
+            "After spending 1 Dancer Point, Hanying will perform a Choreography, entering Dancer Stance, recovering 16 Signature Energy, and gaining 1 stack of Emerald Flow. In Dancer Stance, all Signal Orbs will be converted into Dance Orbs (with color unchanged) that cast Poise of Emerald Flow when pinged, and Hanying can only perform 1-Pings.\n\nHanying gains Super Armor and 50% DMG Reduction while casting Poise of Emerald Flow. Each stack of Emerald Flow will increase the Base DMG of Poise of Emerald Flow or Vision of Mountains by 20% (max 4 stacks). Exiting Dancer Stance will reset Emerald Flow to 0.\n\nPerforming 4 consecutive Choreographies will leave behind a healing zone that restores the HP of allies in the area and grants **Ultralimit Torque**, which increases Physical DMG."
           ],
           "result": [
             "- Choreography deals **{0}%** Physical DMG.",
@@ -8298,7 +8298,7 @@
           "name": "Ballad of Wilting Bamboos",
           "button_press": "Dancer Stance + Ping Red Orb",
           "description": [
-            "Poise of Emerald Flow - Red: Swings the fan to deal DMG, exiting Dancer Stance afterward."
+           "Poise of Emerald Flow - Red: Swings the fan to deal DMG, exiting Dancer Stance afterward."
           ],
           "result": ["- Deals a total of **{0}%** Physical DMG."],
           "res_lv18": [600]
@@ -8307,7 +8307,7 @@
           "name": "Coda of Scattering Butterflies",
           "button_press": "Dancer Stance + Ping Yellow Orb",
           "description": [
-            "Poise of Emerald Flow - Yellow: Steps on the airborne fan and dashes forward, gathering surrounding enemies and dealing DMG. Exits  Dancer Stance afterward."
+            "Poise of Emerald Flow - Yellow: Steps on the airborne fan and dashes forward, gathering surrounding enemies and dealing DMG. Exits Dancer Stance afterward."
           ],
           "result": ["- Deals a total of **{0}%** Physical DMG."],
           "res_lv18": [600]
@@ -8339,7 +8339,7 @@
     },
     "qte": {
       "name": "Whirl of Stars",
-      "description": "Leaps into the air and spins, dealing DMG to the surrounding enemies and restoring the HP of nearby allies. Activates the  **Ultralimit Torque** effect that increases Physical DMG.",
+      "description": "Leaps into the air and spins, dealing DMG to the surrounding enemies and restoring the HP of nearby allies. Activates the **Ultralimit Torque** effect that increases Physical DMG.",
       "result": [
         "- Deals **{0}%** Physical DMG in total.",
         "- Restores HP of allies in a large area equal to **{1}%** of Hanying's ATK.",
@@ -8365,7 +8365,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Gains 1 Dancer Point every time upon entering the battlefield. The Base DMG Increase effect additionally increases by 40% when there are 4 stacks of  Emerald Flow."
+          "desc": "Gains 1 Dancer Point every time upon entering the battlefield. The Base DMG Increase effect additionally increases by 40% when there are 4 stacks of Emerald Flow."
         }
       ]
     },
@@ -8457,14 +8457,14 @@
           "name": "Fledgling Wings",
           "button_press": "3-Ping",
           "description": [
-            "No. 21: Feral generates a Shield equal to  50% of Max HP for 12s at the cost of  25% of her current HP when casting a 3-Ping Skill. Triggering this again will refresh the duration and increase the Shield value up to  100% of No. 21's Max HP. No. 21 gains Super Armor when having Shield."
+            "No. 21: Feral generates a Shield equal to 50% of Max HP for 12s at the cost of 25% of her current HP when casting a 3-Ping Skill. Triggering this again will refresh the duration and increase the Shield value up to 100% of No. 21's Max HP. No. 21 gains Super Armor when having Shield."
           ]
         },
         {
           "name": "Dusk Fluorescence",
           "button_press": "3-Ping + Tap Basic Attack",
           "description": [
-            "After casting a 3-Ping Skill, No. 21 will enter the  Predator Stance. Tap Basic Attack in this stance to cast  Forceful Pounce to deal Lightning DMG, gain  Wolfspirit Points, and restore HP to allies within range. When a  purple mark appears, immediately tapping Basic Attack will cast a more powerful  Dead-on Pounce and gain more  Wolfspirit Points. During  Forceful Pounce and  Dead-on Pounce, No. 21 will gain Super Armor and  70% DMG Reduction."
+            "After casting a 3-Ping Skill, No. 21 will enter the Predator Stance. Tap Basic Attack in this stance to cast Forceful Pounce to deal Lightning DMG, gain Wolfspirit Points, and restore HP to allies within range. When a purple mark appears, immediately tapping Basic Attack will cast a more powerful Dead-on Pounce and gain more Wolfspirit Points. During Forceful Pounce and Dead-on Pounce, No. 21 will gain Super Armor and 70% DMG Reduction."
           ],
           "result": [
             "- Red Orb 3-Ping: Forceful Pounce deals **{0}%** Lightning DMG in total. Dead-on Pounce deals **{1}%** Lightning DMG in total.",
@@ -8480,7 +8480,7 @@
           "name": "Forest Predator",
           "button_press": "During a 3-Ping + Ping Signal Orb",
           "description": [
-            "Every time entering the battlefield or casting  Signature - Sky-ripping Arcflash, No. 21: Feral will activate  Forest Predator, during which extra Signal Orbs can be pinged when casting a 3-Ping Skill to generate a  Deceleration Field and add additional Lightning DMG to  Dusk Fluorescence. When there is a  Deceleration Field, No. 21 will be invincible, the enemies will be slowed down temporarily, and  Dusk Fluorescence's purple mark will last until the  Deceleration Field is gone. Casting  Dusk Fluorescence will deactivate the  Deceleration Field. When No. 21 casts  Dusk Fluorescence and deals Lightning DMG, the Signal Orbs will be rearranged into 3-Ping sets."
+            "Every time entering the battlefield or casting Signature - Sky-ripping Arcflash, No. 21: Feral will activate Forest Predator, during which extra Signal Orbs can be pinged when casting a 3-Ping Skill to generate a Deceleration Field and add additional Lightning DMG to Dusk Fluorescence. When there is a Deceleration Field, No. 21 will be invincible, the enemies will be slowed down temporarily, and Dusk Fluorescence's purple mark will last until the Deceleration Field is gone. Casting Dusk Fluorescence will deactivate the Deceleration Field. When No. 21 casts Dusk Fluorescence and deals Lightning DMG, the Signal Orbs will be rearranged into 3-Ping sets."
           ],
           "result": [
             "- Up to 3 extra Signal Orbs can be pinged when casting Forest Predator. The record will be reset when Forest Predator is cast again.",
@@ -8493,7 +8493,7 @@
           "name": "Wolfspirit Release",
           "button_press": "Press and Hold Basic Attack/Press and Hold Basic Attack and Then Tap Basic Attack Repeatedly",
           "description": [
-            "With max  Wolfspirit Points, press and hold Basic Attack to enter  Wolfspirit Form. When continuously holding or repeatedly tapping Basic Attack,  Growling Wolfspirit will be cast with  Wolfspirit Points. It will end with  Scratch Reap once all  Wolfspirit Points are depleted.  Growling Wolfspirit and  Scratch Reap will pull targets within range and deal Lightning DMG, granting Signature Energy to No. 21 and restoring HP to her allies within range. No. 21 can adjust her position by dodging with Super Armor and  30% DMG Reduction granted in  Wolfspirit Form."
+            "With max Wolfspirit Points, press and hold Basic Attack to enter Wolfspirit Form. When continuously holding or repeatedly tapping Basic Attack, Growling Wolfspirit will be cast with Wolfspirit Points. It will end with Scratch Reap once all Wolfspirit Points are depleted. Growling Wolfspirit and Scratch Reap will pull targets within range and deal Lightning DMG, granting Signature Energy to No. 21 and restoring HP to her allies within range. No. 21 can adjust her position by dodging with Super Armor and 30% DMG Reduction granted in Wolfspirit Form."
           ],
           "result": [
             "- Each Growling Wolfspirit consumes 15 Wolfspirit Points, deals **{0}%** Lightning DMG, grants No. 21 2 Signature Energy, and restores HP equal to **{1}%** of her ATK to her allies within range.",
@@ -8505,7 +8505,7 @@
           "name": "Critical Arclight",
           "button_press": "",
           "description": [
-            "Wolfspirit Release attacks grant  Critical Arclight. Casting  Signature - Sky-ripping Arcflash will consume all  Critical Arclight and increase  Signature - Sky-ripping Arcflash's Base DMG."
+            "Wolfspirit Release attacks grant Critical Arclight. Casting Signature - Sky-ripping Arcflash will consume all Critical Arclight and increase Signature - Sky-ripping Arcflash's Base DMG."
           ],
           "result": [
             "- Critical Arclight is capped at 100 points with each Critical Arclight point increasing Signature - Sky-ripping Arcflash's Base DMG by 1%.",
@@ -8516,7 +8516,7 @@
           "name": "Sheltering Wolves",
           "button_press": "Receive Healing",
           "description": [
-            "Allies gain  **Lightning Surge** which increases their Lightning DMG by 10% for 8s after being healed. The duration resets every time it is triggered"
+            "Allies gain **Lightning Surge** which increases their Lightning DMG by 10% for 8s after being healed. The duration resets every time it is triggered"
           ]
         }
       ]
@@ -8557,11 +8557,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Casting  Signature - Sky-ripping Arcflash or unleashing  Forest Predator's Deceleration Field will activate QTEs that are not on cooldown."
+          "desc": "Casting Signature - Sky-ripping Arcflash or unleashing Forest Predator's Deceleration Field will activate QTEs that are not on cooldown."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Gains  10 Signature Energy when casting  Dusk Fluorescence. Each  Critical Arclight point will increase  Signature - Sky-ripping Arcflash's Base DMG by  2% instead."
+          "desc": "Gains 10 Signature Energy when casting Dusk Fluorescence. Each Critical Arclight point will increase Signature - Sky-ripping Arcflash's Base DMG by 2% instead."
         }
       ]
     },
@@ -8570,11 +8570,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "After the  Wolfspirit Release, each  Growling Wolfspirit will consume double  Wolfspirit Points, cause damage and healing of the same amount  one more time, and make No. 21 gain Signature Energy and  Critical Arclight 100% faster. Signal Orb Skills' Base DMG increases by  30%."
+          "desc": "After the Wolfspirit Release, each Growling Wolfspirit will consume double Wolfspirit Points, cause damage and healing of the same amount one more time, and make No. 21 gain Signature Energy and Critical Arclight 100% faster. Signal Orb Skills' Base DMG increases by 30%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Increases the effects of the Amplifier Class Skill by  100%.  Each extra Signal Orb pinged in the  Forest Predator Form will make No. 21 deal Lightning DMG  2 times through  Dusk Fluorescence instead."
+          "desc": "Increases the effects of the Amplifier Class Skill by 100%. Each extra Signal Orb pinged in the Forest Predator Form will make No. 21 deal Lightning DMG 2 times through Dusk Fluorescence instead."
         }
       ]
     },
@@ -8583,15 +8583,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Signature - Sky-ripping Arcflash's Extra DMG Bonus increases by  20%."
+          "desc": "Signature - Sky-ripping Arcflash's Extra DMG Bonus increases by 20%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of 3-Pings and  Wolfspirit Release increases by  30%."
+          "desc": "Extra DMG Bonus of 3-Pings and Wolfspirit Release increases by 30%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of  Dusk Fluorescence and  Forest Predator increases by  20%."
+          "desc": "Extra DMG Bonus of Dusk Fluorescence and Forest Predator increases by 20%."
         }
       ]
     }
@@ -8676,7 +8676,7 @@
         "switch_in": "no",
         "description": "Kicks forward twice, dealing Lightning DMG to the target in front.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%**  Lightning DMG in total based on the number of orbs pinged."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Lightning DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [110, 220, 340]
       },
@@ -9622,7 +9622,7 @@
           "name": "Fire Walker",
           "button_press": "Assault Mode + Press and hold Dodge",
           "description": [
-            "Uses the grappling hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be pulled, Watanabe: Epitaph will dash toward the target instead. Gains Super Armor and  40% DMG Reduction while casting this skill. Using Basic Attack or the Red Orb skill during the pulling action immediately triggers Parry."
+            "Uses the grappling hook to pull in the target from a distance, dealing Fire DMG. If the target cannot be pulled, Watanabe: Epitaph will dash toward the target instead. Gains Super Armor and 40% DMG Reduction while casting this skill. Using Basic Attack or the Red Orb skill during the pulling action immediately triggers Parry."
           ],
           "result": ["- Deals **{0}%** Fire DMG in total."],
           "res_lv18": [40]
@@ -9702,7 +9702,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Every time Watanabe enters battle, he recovers 70 Signature Energy when Thermal Superconductivity reaches 3 stacks for the first time. Under Assault Mode, Extra DMG increases by  30%. Casting Scorching Torrent grants 3 stacks of Thermal Superconductivity."
+          "desc": "Every time Watanabe enters battle, he recovers 70 Signature Energy when Thermal Superconductivity reaches 3 stacks for the first time. Under Assault Mode, Extra DMG increases by 30%. Casting Scorching Torrent grants 3 stacks of Thermal Superconductivity."
         }
       ]
     },
@@ -9724,15 +9724,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Signature - Explosive Purse increases by  35%."
+          "desc": "Extra DMG Bonus of Signature - Explosive Purse increases by 35%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of Scorching Torrent increases by  35%."
+          "desc": "Extra DMG Bonus of Scorching Torrent increases by 35%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Thermal Erosion and 3-Pings increases by  35%."
+          "desc": "Extra DMG Bonus of Thermal Erosion and 3-Pings increases by 35%."
         }
       ]
     }
@@ -10686,7 +10686,7 @@
     },
     "leader": {
       "name": "Solidarity",
-      "description": "Increases DEF of all members by 10%. Increases DMG of Tank Omniframes in the team by 5%."
+      "description": "Increases DEF of all members by 10%. Increases DMG of all Tank Omniframes in the team by 5%."
     },
     "class": {
       "name": "Tank",
@@ -10740,171 +10740,171 @@
   "solacetune": {
     "basic_attack": [
       {
-        "name": "Splendorous Tone - Exquisite Rhyme",
-        "button_press": "Way of the Strings + Tap Basic Attack",
+        "name": "Gem Tone - Refined Rhythm",
+        "button_press": "Chord Mode + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Uses the Pipa's melody in conjunction with dance moves to attack the target, dealing Physical DMG and gaining Complex Time.",
+        "description": "Attacks the target with a blend of music and dance, dealing Physical DMG and gaining Sonority.",
         "result": [
           "- Deals a total of **{0}%** Physical DMG.",
-          "- Each move of the attack sequence grants 2 / 4 / 6 / 8 points of Complex Time respectively."
+          "- - Gains 2 / 4 / 6 / 8 Sonority based on the number of attacks."
         ],
         "res_lv18": [340]
       },
       {
-        "name": "Splendorous Tone - Rippling Reflection",
-        "button_press": "Way of the Strings + Hold Basic Attack",
+        "name": "Gem Tone - Rippling Shadows",
+        "button_press": "Chord Mode + Press and Hold Basic Attack",
         "switch_in": "no",
-        "description": "Rapidly plays consecutive notes with the Pipa to attack the target, continuously dealing Physical DMG and gaining Complex Time. While performing this skill, Hanying can move and recover Signal Orbs at an increased rate. Upon releasing Basic Attack, Hanying rushes toward the target, dealing Physical DMG. Hanying can evade incoming attacks during the rush.",
+        "description": "Keeps playing the chords to quickly attack the target, dealing continuous Physical DMG and gaining Sonority. Moving is allowed while casting this skill, and it increases the recovery rate of Signal Orbs. Releasing Basic Attack will trigger a dash, dealing Physical DMG with Dodge.",
         "result": [
-          "- Deals **{0}%** Physical DMG and gains 6 points of Complex Time every second.",
-          "- The rush deals **{1}%** Physical DMG."
+          "- Deals **{0}%** Physical DMG and gains 6 Sonority per second.",
+          "- Upon releasing Basic Attack, a sprint deals **{1}%** Physical DMG."
         ],
         "res_lv18": [60, 40]
       },
       {
-        "name": "Splendorous Tone - Keen Inflection",
+        "name": "Gem Tone - Silken Tear",
         "button_press": "Way of Strife + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Uses the hairpin to perform a series of attacks against the target, dealing Physical DMG and gaining Complex Time. While performing this skill, Hanying recovers Signal Orbs at an increased rate. Attacking after dodging will directly perform the 4th move of the attack sequence.",
+        "description": "Unleashes a series of attacks with the Hairpin, dealing Physical DMG and gaining Sonority. The recovery rate of Signal Orbs increases while casting this skill. Attacks after dodge and the fourth attack will be cast immediately.",
         "result": [
           "- Deals a total of **{0}%** Physical DMG.",
-          "- Each move of the attack sequence grants 3 / 6 / 9 / 12 points of Complex Time respectively."
+          "- Gains 3 / 6 / 9 / 12 Sonority based on the number of attacks."
         ],
         "res_lv18": [460]
       }
     ],
     "red_orb": [
       {
-        "name": "Strings Plucked, Sound Abound",
-        "button_press": "Red Orb - Possess at least 1 White Orb + Tap Red Orb",
+        "name": "Shattered Melody",
+        "button_press": "Owns at Least 1 White Orb + Tap Red Orb",
         "switch_in": "no",
-        "description": "Quickly plays notes with the Pipa, dealing Physical DMG. Performing this skill consumes 1 White Orb while granting Complex Time, Veiled Edge, and Super Armor. Performing this skill in Matrix is considered a 3-Ping and immediately grants 2 White Orbs.",
+        "description": "Quickly plays the chords to deal Physical DMG. While casting this skill, consumes 1 White Orb and grants Super Armor, gaining Sonority and Sharp Reserve. When cast in the Matrix, instantly gains 2 White Orbs and triggers a 3-Ping.",
         "result": [
           "- Deals a total of **{0}%** Physical DMG.",
-          "- Performing this skill grants 15 points of Complex Time and 5 points of Veiled Edge.",
-          "- Performing this skill grants in Matrix grants 45 points of Complex Time and 15 points of Veiled Edge."
+          "- Once cast, gains 15 Sonority and 5 Sharp Reserve.",
+          "- When cast in the Matrix, gains 45 Sonority and 15 Sharp Reserve."
         ],
         "res_lv18": [150]
       }
     ],
     "yellow_orb": [
       {
-        "name": "As I Haltingly Lingered",
-        "button_press": "Possess at least 1 White Orb + Tap Yellow Orb",
+        "name": "Lingering Notes",
+        "button_press": " Owns at least 1 White Orb + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Turns around and plays the Pipa, gathering surrounding targets and dealing Physical DMG. While turning around, Hanying can evade incoming attacks. Performing this skill requires consuming at least 1 White Orb. This skill grants Complex Time and Veiled Edge based on the number of White Orbs consumed. Performing this skill in Matrix consumes only 1 White Orb and will be considered as a 3-Ping.",
+        "description": "Spins and plays the chords to deal Physical DMG, and can dodge attacks during the spin. Casting requires at least 1 White Orb and grants Sonority and Sharp Reserve based on the number of White Orbs consumed. When cast in the Matrix, only 1 White Orb is consumed and is regarded as a 3-Ping.",
         "result": [
           "- Deals a total of **{0}%** / **{1}%** / **{2}%** Physical DMG based on the number of orbs pinged.",
-          "- Gains 5 / 10 / 15 points of Complex Time based on the number of orbs pinged.",
-          "- Gains 5 / 10 / 15 points of Veiled Edge based on the number of orbs pinged."
+          "- Gains 5 / 10 / 15 Sonority based on the number of orbs pinged.",
+          "- Gains 5 / 10 / 15 Sharp Reserve based on the number of orbs pinged."
         ],
         "res_lv18": [60, 120, 180]
       }
     ],
     "blue_orb": [
       {
-        "name": "Shattered Spring Songs",
-        "button_press": "Ping Blue Orb",
+        "name": "Yearning in Spring",
+        "button_press": "Ping Blue Orbs",
         "switch_in": "no",
-        "description": "Summons a double to consecutively stab the target together, dealing Physical DMG. This skill grants Complex Time and Veiled Edge.",
+        "description": "Casts a clone to keep thrusting the target, dealing Physical DMG and gaining Sonority and Sharp Reserve.",
         "result": [
           "- Deals a total of **{0}%** / **{1}%** / **{2}%** Physical DMG based on the number of orbs pinged.",
-          "- Gains 10 / 20 / 30 points of Complex Time based on the number of orbs pinged.",
-          "- Gains 5 / 10 / 50 points of Veiled Edge based on the number of orbs pinged."
+          "- Gains 10 / 20 / 30 Sonority based on the number of orbs pinged.",
+          "- Gains 5 / 10 / 50 Sharp Reserve based on the number of orbs pinged."
         ],
         "res_lv18": [120, 240, 360]
       }
     ],
     "core_passive": {
-      "name": "Celestial Cadence",
+      "name": "Court Ballad",
       "skills": [
         {
-          "name": "Fleeting Grace",
+          "name": "Ethereal Elegance",
           "button_press": "",
           "description": [
-            "While Way of the Strings is active, all Signal Orbs will be converted into White Signal Orbs. While Way of Strife is active, all Signal Orbs will be converted into Blue Signal Orbs. Hanying: Solacetune gains 30% DMG Reduction while she has a shield."
+            "When in Chord Mode, all Signal Orbs transform into White Orbs. When in Attacker Mode, all Signal Orbs transform into Blue Orbs. Gains a 30% DMG Reduction while Hanying: Solacetune has a shield."
           ]
         },
         {
           "name": "Open String",
-          "button_press": "Ping Harmonics Orb",
+          "button_press": "Ping Harmonic Orbs",
           "description": [
-            "Pinging 6 White Orbs in  Way of the Strings grants a  Harmonics Orb. When the  Harmonics Orb is present, Red and Yellow Orbs are temporarily hidden. Pinging the  Harmonics Orb activates  Moonsong Realm.  Moonsong Realm weakens enemies and strengthens allies inside its area of effect while active. Hanying: Solacetune will exit  Moonsong Realm upon leaving the battlefield or performing  Signature-Hymn of the Pale Moon."
+            "Gains the Harmonic Orb in Chord Mode after pinging 6 White Orbs. While a Harmonic Orb exists, Red and Yellow Orbs are temporarily hidden. Upon pinging the Harmonic Orb, the Lunartone Field will unfold. While the Lunartone Field exists, it will weaken enemy units within the field and strengthen friendly units. When Hanying: Solacetune leaves or casts Signature - Moon Chill, exits the Lunartone Field."
           ],
           "result": [
-            "- Gains Super Armor during the animation of activating Moonsong Realm and deals **{0}%** Physical DMG after inflicting 1 stack of the Mark of Evanescence on nearby enemies. Gains 20 Signature Energy and 55 points of Veiled Edge.",
-            "- Every second, Moonsong Realm inflicts enemies inside with Piercing Strike effect that reduces Physical Defense by 20% and the Penetrating Pivot effect that reduces Physical Resistance by 10% for 8s. Triggering these effects again refreshes their duration.",
-            "- Moonsong Realm imbues allies inside with the Mingling Moon and Lantern effect and grants them 1 stack of Song of Red Clouds every second.",
-            "- Mingling Moon and Lantern: Accumulation rate of Veiled Edge increases by 50% for 8s. Triggering it again will refresh its duration.",
-            "- Song of Red Clouds: Gains a shield equal to 5% of Hanying: Solacetune's Max HP for 3s; this effect can stack up to 4 times, and triggering it again will refresh its duration."
+            "- While Lunartone Field is unfolding, Super Armor is activated and applies 1 stack of Dream Mark to nearby enemies, dealing **{0}%** Physical DMG and gaining 20 Signature Energy and 55 Sharp Reserve.",
+            "- Inflicts **Piercing Blow** on enemies within the field every second, reducing their Physical Defense by 20% for 8s; inflicts **Penetrating Pivot**, reducing their Physical Resistance by 10% for 8s. The duration resets every time the effect is triggered again.",
+            "- Friendly units within the field gain the Lamplight & Moonlight effect and gain 1 stack of Returning Clouds effect every second.",
+            "- Lamplight & Moonlight: Increases Sharp Reserve accumulation speed by 50% for 8s. The duration resets every time the effect is triggered again.",
+            "- Returning Clouds: Gains a shield equal to 5% of maximum HP of Hanying: Solacetune. Stacks up to 4 times. Each stack lasts for 3s. The duration resets every time the effect is triggered again."
           ],
           "res_lv18": [1000]
         },
         {
-          "name": "Azure Allure",
-          "button_press": "Way of Strife + 30 Complex Time + Tap Signature Move",
+          "name": "Jade Bloom",
+          "button_press": "Attacker Mode + 30 Sonority + Tap Signature",
           "description": [
-            "Basic Attacks and Signal Orb skills grant  Complex Time. Maximum points of  Complex Time: 120. Tap Signature Move while in Way of Strife to consume 30 points of Complex Time to unleash Azure Allure and deal Physical DMG to the target. This skill can trigger Trueslash when it hits the target.\n\nWhile performing this skill, Hanying: Solacetune gains Super Armor and can evade incoming attacks. When performed consecutively, the Base DMG of Azure Allure increases by 50% every cast. This effect can stack up to twice, and subsequent casts of Azure Allure will retain the maximum multiplier after the Base DMG increase effect reaches the maximum value.\n\nGain 5 Signature Energy upon performing this skill. When performed consecutively, the amount of Signature Energy granted by this skill doubles every cast. The maximum value of Signature Energy granted by a single cast of this skill is 40."
+            "Basic Attack and Signal Orb Skill generate Sonority, up to a maximum of 120 points. In Attacker Mode, tapping Signature button consumes 30 Sonority to cast Jade Bloom, dealing Physical DMG to the target. A successful hit triggers Ultima Slash. While casting Jade Bloom, gains Super Armor and can dodge attacks. Consecutive casting of Jade Bloom increases its Base DMG by 50% each time, up to a maximum of 2 stacks. Once the maximum damage is reached, subsequent casting will maintain this highest damage. Each casting grants 5 Signature Energy. Consecutive casting doubles the amount of Signature Energy gained, up to a maximum of 40 Energy per casting."
           ],
           "result": [
-            "- Azure Allure deals **{0}%** Physical DMG; triggers Trueslash when this skill hits the target.",
-            "- Lavish Azure Allure: If performed with maximum points of Complex Time, trigger Phoenix Down once.",
-            "- Sonorous Azure Allure: Upon performing the fourth move of the Basic Attack sequence or a Blue 3-Ping, the Seal of Flow will briefly appear. Performing Azure Allure while the Seal of Flow is present causes a double to attack the target together, dealing **{1}%** Trueslash DMG."
+            "- Jade Bloom deals **{0}%** Physical DMG. A successful hit triggers Ultima Slash.",
+            "- Jade Bloom: Full: When Sonority reaches its maximum, cast to trigger one Phoenix Tail Dragon Fragrance.",
+            "- Jade Bloom: Play: After casting the fourth Basic Attack/Blue 3-Ping Orbs, a Chime Mark will briefly appear. During this time, casting Jade Bloom will cast a clone to attack together, dealing **{1}%** Slash DMG."
           ],
           "res_lv18": [300, 150]
         },
         {
-          "name": "Phoenix Down",
-          "button_press": "Moonsong Realm + Lavish Azure Allure",
+          "name": "Ethereal Symphony",
+          "button_press": "Lunartone Field + Jade Bloom: Full",
           "description": [
-            "Performing Lavish Azure Allure inside Moonsong Realm triggers Phoenix Down. The realm reverberates, releasing sound waves that travel to the realm's edge and pulling in enemies in the area. Deals Trueslash DMG and inflicts 1 stack of the Mark of Evanescence on enemies; one enemy can be inflicted with up to 3 stacks of the Mark of Evanescence. At the same time, Hanying: Solacetune gains 1 stack of Relentless. Maximum number of Relentless stacks: 3. Hanying: Solacetune can enter Matrix by dodging with Phoenix Down."
+            "Within the Lunartone Field, activating Jade Bloom: Full will trigger Ethereal Symphony. This will send out shockwaves, drawing nearby enemies, dealing Slash DMG and applying 1 stack of Dream Mark to each target. This mark can stack up to 3 times on a single target. At the same time, gains 1 stack of Frost on Bamboo, which can stack up to 3 times. By dodging Ethereal Symphony, Hanying: Solacetune enters the Matrix."
           ],
-          "result": ["- Deals **{0}%** Trueslash DMG."],
+          "result": ["- Deals **{0}%** Slash DMG."],
           "res_lv18": [200]
         },
         {
-          "name": "Sublimity",
-          "button_press": "Way of Strife + Mark of Evanescence + Tap Basic Attack",
+          "name": "Ringing",
+          "button_press": "Attacker Mode + Dream Mark + Tap Basic Attack",
           "description": [
-            "Performing Basic Attacks against a target that is inflicted with the  Mark of Evanescence triggers  Sublimity, during which Hanying: Solacetune gains Super Armor. When the attack hits the target, deals Trueslash DMG based on the number of the  Mark of Evanescence stacks and recovers Signal Orbs based on the number of  Relentless stacks by consuming all  Mark of Evanescence stacks on the target and  Relentless stacks on self."
+            "Basic Attacks against enemies with the Dream Mark will cast Ringing. Once cast, Super Armor is activated. On hit, all Dream Mark stacks on the target and all stacks of inherent Frost on Bamboo are consumed. The attack deals Slash DMG based on the number of Dream Mark stacks and restores Signal Orbs based on the number of Frost on Bamboo stacks."
           ],
           "result": [
-            "- Sublimity deals **{0}%** Trueslash DMG and can trigger Trueslash when it hits the target.",
-            "- Increases the Base DMG of Sublimity by 0% / 150% / 300% based on the number of the Mark of Evanescence stacks consumed.",
-            "- Recovers 2 / 3 / 4 Signal Orbs based on the number of Relentless stacks consumed."
+            "- Ringing deals **{0}%** Slash DMG. A successful hit triggers Ultima Slash.",
+            "- The Base DMG of Ringing increases by 0% / 150% / 300% based on the number of consumed Dream Mark stacks.",
+            "- Recovers 2 / 3 / 4 Signal Orbs based on the number of consumed Frost on Bamboo stacks."
           ],
           "res_lv18": [300]
         },
         {
-          "name": "Affix: Trueslash",
+          "name": "Effect: Ultima Slash",
           "button_press": "",
           "description": [
-            "Certain skills can accumulate Veiled Edge points. Veiled Edge points can be inherited by the next character with the Trueslash Effect. Maximum points of Veiled Edge: 999."
+            "Certain skills build up Sharp Reserve. Sharp Reserve can be passed on to the next character affected by Ultima Slash effect, up to a maximum of 999 points."
           ],
           "result": [
-            "- When Veiled Edge points reach 100, perform Trueslash by consuming 100 Veiled Edge points upon hitting the enemy with the next cast of a skill that can trigger Trueslash, dealing 400% Trueslash DMG.",
-            "- Gains 1 point of Veracity every time Trueslash is triggered. Maximum points of Veracity: 90."
+            "- When Sharp Reserve reaches 100 points, the next skill with a Ultima Slash effect that hits an enemy will consume 100 points of Sharp Reserve to trigger a Ultima Slash, dealing 400% Slash DMG.",
+            "- Gains 1 point of Truewill each time it triggers, up to a maximum of 90 points."
           ]
         }
       ]
     },
     "signature": {
-      "name": "Forgotten Strings",
+      "name": "Lost Chord",
       "skills": [
         {
-          "name": "Viridian Flutter",
-          "button_press": "Consume 40 Energy + Tap Signature Move",
+          "name": "Flying Leafpoint",
+          "button_press": "40 Signature Energy + Tap Signature",
           "description": [
-            "Pulls out the hairpin and enters Way of Strife, launching a blitz strike at the target to deal Physical DMG while activating Time Lag Calculation. If the target has the Mark of Evanescence, consume 1 stack of the Mark of Evanescence to make this cast of Viridian Flutter a guaranteed CRIT with the Base DMG increased by 100%."
+            "Draws the Hairpin and enters Attacker Mode to launch a surprise attack on the target, dealing Physical DMG and triggering a Time Lag Calculation. If the target has a Dream Mark, consumes one Dream Mark to guarantee a critical hit and increase Base DMG by 100%."
           ],
           "result": ["- Deals **{0}%** Physical DMG."],
           "res_lv18": [250]
         },
         {
-          "name": "Hymn of the Pale Moon",
-          "button_press": "Way of Strife + Consume 100 Energy + Hold Signature Move",
+          "name": "Moon Chill",
+          "button_press": "Attacker Mode + 100 Signature Energy + Press and Hold Signature",
           "description": [
-            "After a string of piercing strikes, unleashes a finishing blow to the target, gathering surrounding targets and dealing Physical DMG while activating Time Lag Calculation. Afterwards, exits Moonsong Realm."
+            "After a series of dashes, unleashes a final blow, pulling nearby enemies together and dealing Physical DMG. A Time Lag Calculation is triggered during this attack. Once cast, quits Lunartone Field."
           ],
           "result": ["- Deals **{0}%** Physical DMG."],
           "res_lv18": [2500]
@@ -10912,18 +10912,18 @@
       ]
     },
     "qte": {
-      "name": "Hegemon's Fall",
-      "description": "Gathers the surrounding enemy units while dealing Physical DMG, inflicting the targets with the  Piercing Strike effect that reduces Physical Defense and the  Penetrating Pivot effect that reduces Physical Resistance.",
+      "name": "Embattled",
+      "description": "Pulls nearby enemies together and deals Physical DMG. Inflicts **Piercing Blow** that reduces the target's Physical Defense and **Penetrating Pivot** that reduces the target's Physical Resistance.",
       "result": [
-        "- Deals a total of **{0}%** Physical DMG.",
-        "- Piercing Strike reduces the target's Physical Defense by 20% for 8s.",
-        "- Penetrating Pivot reduces the target's Physical Resistance by 10% for 8s."
+        "- Deals **{0}%** Physical DMG.",
+        "- **Piercing Blow** reduces the target's Physical Defense by 20% for 8s.",
+        "- **Penetrating Pivot** reduces the target's Physical Resistance by 10% for 8s."
       ],
       "res_lv18": [600]
     },
     "leader": {
-      "name": "Jolted From a Dream",
-      "description": "Increases Physical DMG of all members by 10%. Increases DMG of Tank Omniframes by 5%."
+      "name": "Awakened Strings",
+      "description": "Increases Physical DMG of all members by 10%. Increases DMG of all Tank Omniframes by 5%."
     },
     "class": {
       "name": "Tank",
@@ -10931,45 +10931,45 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "A Butterfly, Smitten by Flowers",
+      "name": "Wings and Petals",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Upon unleashing  Signature-Viridian Flutter,  Signature-Hymn of the Pale Moon, activate all available QTEs."
+          "desc": "Casting Signature - Flying Leafpoint or Signature - Moon Chill will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Gains  15 Complex Time every time Hanying: Solacetune enters the battlefield. Upon pinging  Harmonics Orb, immediately gain 3 Signal Orbs. If lacking  Complex Time when continuously unleashing  Azure Allure, can consume 3 Signal Orbs to substitute for the consumption of  Complex Time.  Signature-Hymn of the Pale Moon Base DMG increases by  100%.  Piercing Strike effect applied by Hanying: Solacetune increases by  20%."
+          "desc": "Gains 15 Sonority immediately upon entering and 3 Signal Orbs after casting the Harmonic Orb. While consecutively casting Jade Bloom without Sonority, uses 3 Signal Orbs for an equivalent consumption of Sonority. The Base DMG of Signature - Moon Chill increases by 100%. The **Piercing Blow** effect granted by Hanying: Solacetune increases by 20%."
         }
       ]
     },
     "sss_rank": {
-      "name": "A Magpie, Perched on the Branch",
+      "name": "Magpie Stroll",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Gains 3 Signal Orbs every time Hanying: Solacetune enters the battlefield. While in  Way of Strife, Extra DMG Bonus increases by  15%.  Mingling Moon and Lantern effect applied by Hanying: Solacetune increases by  50%;  Penetrating Pivot effect increases by  5%."
+          "desc": "Gains 3 Signal Orbs immediately upon entering. During Attacker Mode, Extra DMG increases by 15%. The Lamplight & Moonlight effect granted by Hanying: Solacetune increases by 50%, and the **Penetrating Pivot** effect increases by 5%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Base DMG amplifying effect from each consecutive cast of  Azure Allure increases to  100%. While in  Way of Strife, triggers a single cast of  Phoenix Down upon completely filling  Complex Time points inside  Moonsong Realm. Extra DMG of  Trueslash performed by Hanying: Solacetune increases by  100%.  Penetrating Pivot effect applied by Hanying: Solacetune increases by  10%. Reduces swap cooldown of all party members by  3s; this cannot be stacked with other swap cooldown-reducing effects."
+          "desc": "The consecutive casting of each stack of Jade Bloom increases to 100%. While in Attacker Mode, filling the Lunartone Field with Sonority immediately triggers one Ethereal Symphony. The Extra DMG of Ultima Slash triggered by Hanying: Solacetune increases by 100%. The Penetrating Pivot effect granted by Hanying: Solacetune increases by 10%. A 3-second reduction to the cooldown time for switching between all characters in the team occurs. This effect does not stack with other effects of the same type."
         }
       ]
     },
     "s+_rank": {
-      "name": "We, Enveloped in Longing",
+      "name": "Perched Phoenix",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of  Signature-Viridian Flutter, Signature-Hymn of the Pale Moon increases by  30%."
+          "desc": "Extra DMG of Signature - Flying Leafpoint and Signature - Moon Chill increases by 30%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of  Phoenix Down, Harmonics Orb, and  Signal Orbs increase by  30%."
+          "desc": "Extra DMG of Ethereal Symphony, Harmonic Orb, and Signal Orb Skill increases by 30%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of  Azure Allure and  Sublimity increases by  30%."
+          "desc": "Extra DMG of Jade Bloom and Ringing increases by 30%."
         }
       ]
     }
@@ -10977,279 +10977,276 @@
   "lucid dreamer": {
     "basic_attack": [
       {
-        "name": "Hawk's Flutter - Quick Draw",
+        "name": "Biting Wind - Sharp Gunslinger",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": "Uses the Revolver to perform consecutive attacks against the enemy and summons lightweight drones to aid in the battle.",
+        "description": "Launches consecutive attacks with the revolver and summons a drone to aid.",
         "result": ["- Deals a total of **{0}%** Ice DMG."],
         "res_lv18": [464]
       },
       {
-        "name": "Hawk's Flutter - Bullet Hail",
-        "button_press": "Calibration Mode + Cylinder is not empty + Hold Basic Attack",
+        "name": "Biting Wind - Frosty Barrage",
+        "button_press": "Calibration Mode + Cylinder Bot Empty + Press and Hold Basic Attack",
         "switch_in": "no",
-        "description": "Activates Double-Action Mode, using the hidden Cylinder to continuously consume Condensation Rounds and fire at the enemy. Gains Super Armor and 50% DMG Reduction during this. Depending on the current Calibration Mode, deals Ice DMG or Hiemal DMG while gaining additional Signature Energy.",
+        "description": "Enables Double Action Mode to activate a hidden cylinder and continuously shoot Condensation Projectiles, while gaining Super Armor and 50% DMG Reduction. Depending on the current Calibration Mode, deals Ice DMG or Glaciation DMG and gains additional Signature Energy.",
         "result": [
-          "- If fired in Calibration Mode: Quiescence, each shot consumes 2 Condensation rounds, dealing **{0}%** Ice DMG.",
-          "- If fired in Calibration Mode: Desolation, each shot consumes 2 Condensation rounds, dealing **{1}%** Hiemal DMG and granting 100 Glaciation Points.",
-          "- Each shot additionally grants 5 / 9 / 13 / 17 / 21 / 40 Signature Energy based on the current number of shots fired. Exiting Double-Action Mode resets the counter.",
-          "- When Wanshi runs out of Condensation Rounds or exits Calibration Mode, he will exit Double-Action Mode after a short delay.",
-          "- If Wanshi has an Ancillary Revolver, holding Basic Attack will automatically trigger Frosty Ascent and reload the gun, then continue shooting."
+          "- In Quiet Calibration Mode, each shot consumes 2 Condensation Projectiles to deal **{0}%** Ice DMG.",
+          "- In Frigid Calibration Mode, each shot consumes 2 Condensation Projectiles to deal **{1}%** Glaciation DMG and granting 100 Glaciation Points.",
+          "- Based on the current shot count, each shot generates 5 / 9 / 13 / 17 / 21 / 40 extra Signature Energy. The count resets when Double Action Mode ends.",
+          "- When Condensation Projectiles run out or Calibration Mode ends, Double Action Mode will also end after a short delay.",
+          "- If Wanshi has a Backup Revolver Revolver, holding Basic Attack will automatically trigger Snow Storm and reload the gun, then continue shooting."
         ],
         "res_lv18": [220, 140]
       }
     ],
     "red_orb": [
       {
-        "name": "Hyperborean Current - Gale Strike",
+        "name": "Arctic Current - Flurry Blitz",
         "button_press": "Calibration Mode + Ping Red Orb",
         "switch_in": "no",
-        "description": "Consumes 1 Condensation Round to fire at the enemy, dealing Ice or Hiemal DMG depending on the current Calibration Mode. When this skill is performed consecutively, Wanshi enters Burst Mode, during which he gains Super Armor, 50% DMG Reduction, Wounding buff, and additional Signature Energy.",
+        "description": "Shoots 1 Condensation Projectile to deal Ice DMG or Glaciation DMG depending on the current Calibration Mode. On consecutive casts, enters Repeater Mode to gain Super Armor, 50% DMG Reduction and Maim, while gaining additional Signature Energy.",
         "result": [
-          "- When fired in Calibration Mode: Quiescence, deals **{0}%** Ice DMG.",
-          "- When fired in Calibration Mode: Desolation, deals **{1}%** Hiemal DMG and grants 100 Glaciation Points.",
-          "- When performed consecutively, Wanshi enters Burst Mode, gaining the Wounding buff. The Wounding buff increases the Base DMG of the next Gale Strike cast by 7.5% for 3s. Triggering this effect again refreshes its duration. Maximum no. of Wounding stacks: 12. Exiting Burst Mode clears all Wounding stacks. Wanshi additionally gains 25% Base DMG Increase when he has the maximum no. of Wounding stacks.",
-          "- Exiting Calibration Mode automatically ends Burst Mode.",
-          "- When in Burst Mode, each shot additionally grants 2 / 6 / 10 / 14 / 18 / 37 Signature Energy based on the current number of shots fired. Exiting Burst Mode resets the counter."
+          "- In Quiet Calibration Mode, shots deal **{0}%** Ice DMG.",
+          "- In Frigid Calibration Mode, shots deal **{1}%** Glaciation DMG and generate 100 Glaciation.",
+          "- On consecutive casts, enters Repeater Mode to gain Maim, increasing the Base DMG of the next Flurry Blitz by 7.5%, lasting 3s, max 12 stacks. Triggering this effect again will refresh its duration. All stacks will be lost when Repeater Mode ends. On maximum stacks, additionally increases Base DMG by 25%.",
+          "- When Calibration Mode ends, Repeater Mode will also end.",
+          "- In Repeater Mode, shots generate 2 / 6 / 10 / 14 / 18 / 37 extra Signature Energy based on the current shot count. The count resets when Repeater Mode ends."
         ],
         "res_lv18": [220, 140]
       },
       {
-        "name": "Hyperborean Current - Airdropped Revolver",
-        "button_press": "Ancillary Revolver + Calibration Mode + Empty Cylinder + Tap Red Orb",
+        "name": "Arctic Current - Revolver Launch",
+        "button_press": "Backup Revolver + Calibration Mode + Cylinder Empty + Tap Red Orb",
         "switch_in": "no",
-        "description": "Commands the lightweight drone to consume and toss out an Ancillary Revolver, pulling in enemies and dealing Ice DMG. Freezes the Calibration Meter while performing this skill. After catching the thrown revolver, Wanshi can replace his gun to reload the Cylinder and refresh the duration of Calibration Mode.",
+        "description": "Commands the drone to launch the Backup Revolver, consuming it in the process. While casting, freezes Calibration Gauge, pulls enemies and deals Ice DMG. After catching it, swaps the revolver, refills the cylinder and renews the duration of Calibration Mode.",
         "result": [
-          "- Deals **{0}%** Ice DMG when throwing the Ancillary Revolver. Tapping Red Orb again or dodging will make Wanshi: Lucid Dreamer automatically rush to the Ancillary Revolver's landing point, during which he will be invincible. Upon successfully catching the thrown revolver, reload the Cylinder and refresh the duration of Calibration Mode."
+          "- Launching the Backup Revolver deals **{0}%** Ice DMG. Tap Red Orb or Dodge again to make Lucid Dreamer dash to the landing point of the Backup Revolver and become Invincible in the process. Catching it will refill the cylinder and renew the duration of Calibration Mode."
         ],
         "res_lv18": [800]
       },
       {
-        "name": "Hyperborean Current - Effulgent Shatter",
-        "button_press": "Ancillary Revolver + Calibration Mode + During Bullet Hail + Empty Cylinder + Tap Red Orb",
+        "name": "Arctic Current - Shattered Light",
+        "button_press": "Backup Revolver + Calibration Mode + Frosty Barrage Active + Cylinder Empty + Tap Red Orb",
         "switch_in": "no",
-        "description": "Expends the Ancillary Revolver to reload the Cylinder and consumes Condensation Rounds to trigger Frosty Ascent. Freezes the Calibration Meter and grants invincibility to Wanshi while performing this skill. Deals Ice or Hiemal DMG depending on the current Calibration Mode. Tapping Red Orb again or dodging during Frosty Ascent will make Wanshi command the lightweight drone to throw an Ancillary Revolver; this freezes the Calibration Meter, pulls in enemies, and deals Ice DMG. Upon successfully catching the thrown revolver, reload the Cylinder and refresh the duration of Calibration Mode.",
+        "description": "Consumes the Backup Revolver to refill the cylinder and consumes a Condensation Projectile to cast Snow Storm. While casting, becomes Invincible, and the Calibration Gauge is frozen, while dealing Ice DMG or Glaciation DMG depending on the current Calibration Mode. When Snow Storm is active, tap Red Orb again to command the drone to launch the Backup Revolver, freezing the Calibration Gauge, pulling enemies and dealing Ice DMG. After catching it, swaps the revolver to refill the cylinder and renew the duration of Calibration Mode.",
         "result": [
-          "- Frosty Ascent deals **{0}%** Ice DMG; deals **{1}%** Hiemal DMG instead and gains 400 Glaciation Points if in Calibration Mode: Desolation. Every 2 Condensation Rounds consumed while performing Frosty Ascent grants 13 Signature Energy.",
-          "- Wanshi can replace his gun during Frosty Ascent by tapping Red Orb again, dealing **{2}%** Ice DMG. Tapping Red Orb or dodging at that moment will make Wanshi: Lucid Dreamer automatically rush to the Ancillary Revolver's landing point, during which he will be invincible. Upon successfully catching the thrown revolver, reload the Cylinder and refresh the duration of Calibration Mode."
+          "- Snow Storm deals **{0}%** Ice DMG. In Frigid Calibration Mode, deals **{1}%** Glaciation DMG instead and gains 400 Glaciation. While casting, gains 13 Signature Energy for every 2 Condensation Projectiles used.",
+          "- While casting Snow Storm, tap Red Orb again to swap the Revolver, dealing **{2}%** Ice DMG, then tap Red Orb or Dodge to make Lucid Dreamer dash to the landing point of the Backup Revolver and become Invincible in the process. Catching it will refill the cylinder and renew the duration of Calibration Mode."
         ],
         "res_lv18": [750, 420, 800]
       },
       {
-        "name": "Hyperborean Current - Swift Phantom",
+        "name": "Arctic Current - Fleeting Flash",
         "button_press": "Not in Calibration Mode + When dodging + Ping Red Orb",
         "switch_in": "no",
-        "description": "Summons a lightweight drone projection to attack the enemy, dealing Ice DMG. Gain 3 Condensation Rounds upon performing this skill.",
+        "description": "Projects a drone to attack the enemy, dealing Ice DMG. After casting, gains 3 Condensation Projectiles.",
         "result": ["- Deals **{0}%** Ice DMG."],
         "res_lv18": [500]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Strix Dash - Keen-Sighted Strike",
+        "name": "Strigine Assault - Blink Assault",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": "Draws the gun and charges forward, dealing Ice DMG, gaining Calibration Points, and accumulating Glaciation Points. Gains additional Signature Energy upon a 3-Ping.",
+        "description": "Draws the weapon and rushes forward to deal Ice DMG, while gaining Calibration and Glaciation. Upon 3-Ping, additionally gains Signature Energy.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG, gains 20 / 40 / 80 Calibration Points, and accumulates 10 / 20 / 30 Glaciation Points based on the number of orbs pinged. Calibration Meter can be charged up to 80% using this method.",
-          "- Additionally, gains 8 Signature Energy upon a 3-Ping."
+          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation. The Calibration Gauge can only be filled up to 80% in this way.",
+          "- Upon a 3-Ping, additionally gains 8 Signature Energy."
         ],
         "res_lv18": [90, 180, 270]
       },
       {
-        "name": "Strix Dash - Pinion Volley",
+        "name": "Strigine Assault - Fluttering Interception",
         "button_press": "Yellow Orb + Yellow Orb",
         "switch_in": "no",
-        "description": "Steps back before slamming forward, dealing Ice DMG, gaining Calibration Points, and accumulating Glaciation Points. Gains additional Signature Energy upon a 3-Ping.",
+        "description": "Steps back then bumps forward to deal Ice DMG, while gaining Calibration and Glaciation. Upon a 3-Ping, additionally gains Signature Energy.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG, gains 20 / 40 / 80 Calibration Points, and accumulates 10 / 20 / 30 Glaciation Points based on the number of orbs pinged. Calibration Meter can be charged up to 80% using this method.",
-          "- Additionally, gains 8 Signature Energy upon a 3-Ping."
+          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation. The Calibration Gauge can only be filled up to 80% in this way.",
+          "- Upon a 3-Ping, additionally gains 8 Signature Energy."
         ],
         "res_lv18": [120, 240, 360]
       },
       {
-        "name": "Strix Dash - Rending Plume",
+        "name": "Strigine Assault - Feather Blast",
         "button_press": "Yellow Orb + Red Orb",
         "switch_in": "no",
-        "description": "Depending on the timing of casting this skill, Wanshi will either perform a close-range shot or provide covering fire, dealing Ice DMG.",
+        "description": "Depending on the release timing, launches point-blank shots or covering fire to deal Ice DMG.",
         "result": [
-          "- Deals a total of **{0}%** / **{1}%** / **{2}%** Ice DMG based on the number of Yellow Orbs pinged.",
-          "- If Wanshi is attacked while performing a close-range shot, he will instead trigger covering fire, dealing **{3}%** Ice DMG and gaining 40 Calibration Points. If Calibration Meter is already full when the covering fire is triggered, Wanshi can immediately enter Calibration Mode: Quiescence.",
-          "- When this skill is performed in Calibration Mode, it will be considered as performing Gale Strike."
+          "- Based on the number of Yellow Orbs pinged, deals a total of **{0}%** / **{1}%** / **{2}%** Ice DMG.",
+          "- If Lucid Dreamer is hit during point-blank shots, launches covering fire instead to deal **{3}%**% Ice DMG and gain 40 Calibration. If the Calibration Gauge is full when covering fire is triggered, enters Quiet Calibration Mode.",
+          "- Casting this in Calibration Mode will count as casting Flurry Blitz."
         ],
         "res_lv18": [90, 180, 270, 600]
       }
     ],
     "blue_orb": [
       {
-        "name": "Skytearing Frost - Gelid Burst",
+        "name": "Frosty Fusillade - Icicle Burst",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": "Steps back and throws a tactical grenade that explodes after a short delay, dealing Ice DMG to enemies, gaining Calibration Points, and accumulating Glaciation Points. If Wanshi: Lucid Dreamer is within the area of the explosion, it will be considered as dealing DMG to himself. Gains additional Signature Energy upon a 3-Ping.",
+        "description": "Steps back and throws a tactical grenade that explodes after a delay to deal Ice DMG to enemies, while gaining Calibration and Glaciation. If Lucid Dreamer is within the explosion range, this will count as self damage. Upon a 3-Ping, additionally gains Signature Energy.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG, gains 20 / 40 / 80 Calibration Points, and accumulates 10 / 20 / 30 Glaciation Points based on the number of orbs pinged. Calibration Meter can be charged up to 80% using this method.",
-          "- Additionally, gains 8 Signature Energy upon a 3-Ping."
+          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation. The Calibration Gauge can only be filled up to 80% in this way.",
+          "- Upon a 3-Ping, additionally gains 8 Signature Energy."
         ],
         "res_lv18": [70, 140, 210]
       },
       {
-        "name": "Skytearing Frost - Suppressing Airstrike",
+        "name": "Frosty Fusillade - Aerial Suppression",
         "button_press": "Blue Orb + Blue Orb",
         "switch_in": "no",
-        "description": "Summons a lightweight drone to immediately detonate the grenade, dealing Ice DMG to enemies, gaining Calibration Points, and accumulating Glaciation Points. If Wanshi: Lucid Dreamer is within the area of the explosion, it will be considered as dealing DMG to himself. Gains additional Signature Energy upon a 3-Ping.",
+        "description": "Summons a drone to instantly detonate the grenade, dealing Ice DMG to enemies and gaining Calibration and Glaciation. If Lucid Dreamer is within the explosion range, this will count as self damage. Upon a 3-Ping, additionally gains Signature Energy.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG, gains 20 / 40 / 80 Calibration Points, and accumulates 10 / 20 / 30 Glaciation Points based on the number of orbs pinged. Calibration Meter can be charged up to 80% using this method.",
-          "- Additionally, gains 8 Signature Energy upon a 3-Ping."
+          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation. The Calibration Gauge can only be filled up to 80% in this way.",
+          "- Upon a 3-Ping, additionally gains 8 Signature Energy."
         ],
         "res_lv18": [160, 320, 480]
       },
       {
-        "name": "Skytearing Frost - Targeted Explosion",
+        "name": "Frosty Fusillade - Reticle Detonation",
         "button_press": "Blue Orb + Red Orb",
         "switch_in": "no",
-        "description": "Attacks the tactical grenade to immediately trigger an explosion, dealing Ice DMG to enemies. If Wanshi: Lucid Dreamer is within the area of the explosion, it will be considered as dealing DMG to himself.",
+        "description": "Attacks the tactical grenade to instantly detonate it, dealing Ice DMG to enemies. If Lucid Dreamer is within the explosion range, this will count as self damage.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG based on the number of Blue Orbs pinged.",
-          "- If Wanshi is attacked while he is raising the gun during the Red Orb animation, he will instead trigger covering fire, dealing **{3}%** Ice DMG and gaining 40 Calibration Points. If Calibration Meter is already full when the covering fire is triggered, Wanshi can immediately enter Calibration Mode: Quiescence.",
-          "- When this skill is performed in Calibration Mode, it will be considered as performing Gale Strike."
+          "- Based on the number of Blue Orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG in total.",
+          "- If Lucid Dreamer is hit while aiming with Red Orb, launches covering fire instead to deal **{3}%**Ice DMG and gains 40 Calibration. If the Calibration Gauge is full when covering fire is triggered, enters Quiet Calibration Mode.",
+          "- Casting this in Calibration Mode will count as casting Flurry Blitz."
         ],
         "res_lv18": [90, 180, 270, 600]
       }
     ],
     "core_passive": {
-      "name": "Tranquility",
+      "name": "Moment of Clarity",
       "skills": [
         {
-          "name": "Silence in the Snow",
-          "button_press": "Hold Red Orb or Hold Dodge",
+          "name": "Silence Snow",
+          "button_press": "Press and Hold Red Orb or Dodge",
           "description": [
-            "Enters the charging state, continuously accumulating Calibration Points. During this, gains Super Armor and 90% DMG Reduction."
+            "Starts charging to generate Calibration, while gaining Super Armor and 90% DMG Reduction."
           ],
           "result": [
-            "- When the current value of Calibration Points is less than 80, gains 20 Calibration Points every second; when the current value of Calibration Points is 80 or more but less than 160, gains 40 Calibration Points every second; when the current value of Calibration Points is 160 or more, gains 80 Calibration Points every second.",
-            "- Maximum number of Calibration Points: 200",
-            "- Releasing the button early during charging will automatically trigger dodge; Calibration Points will accumulate as normal during the dodge. Additionally, gains a Signal Orb if Wanshi successfully dodges an attack."
+            "- When Calibration is lower than 80, gains 20 Calibration every second. When Calibration is lower than 160 but no lower than 80, gains 40 Calibration every second. When Calibration is no lower than 160, gains 80 Calibration every second.",
+            "- Max 200 Calibration.",
+            "- Releasing the button early while charging will automatically dodge. Gains Calibration normally while dodging. Upon a successful dodge, additionally gains a Signal Orb."
           ]
         },
         {
-          "name": "Cryonic Explosion",
-          "button_press": "Calibration Meter full + Release Red Orb or Release Dodge",
+          "name": "Transient Blizzard",
+          "button_press": "Calibration Gauge full + Release Red Orb or Dodge",
           "description": [
-            "Depending on whether Red Orb or Dodge was held to begin charging, enter different Calibration Modes. This move pulls in and debuffs enemies, deals DMG, grants 3 Signature Energy and an  Ancillary Revolver, and triggers Matrix if available. Gains a shield when performing Gale Strike or Bullet Hail in Calibration Mode."
+            "Depending on the charging method, enters one of the Calibration Modes to pull, weaken and damage enemies, while gaining 3 Signature Energy and a Backup Revolver. Triggers all available Matrix on cast. In Calibration Mode, casting Flurry Blitz or Frosty Barrage grants Shield."
           ],
           "result": [
-            "- Hold and release Red Orb to enter Calibration Mode: Quiescence, dealing **{0}%** Ice DMG.",
-            "- Hold and release Dodge to enter Calibration Mode: Desolation, dealing **{1}%** Hiemal DMG.",
-            "- Inflicts enemies with the **Frost Corrosion** effect that reduces Ice Resistance by 25% for 8s when entering Calibration Mode.",
-            "- While in Calibration Mode, Wanshi consumes 30 Calibration Points every second, and he will exit Calibration Mode when he fully depletes Calibration Points. Performing a 3-Ping in Calibration Mode grants 40 Calibration Points."
+            "- Press and hold Red Orb then release to enter Quiet Calibration Mode and deal **{0}%** Ice DMG.",
+            "- Press and hold Dodge then release to enter Frigid Calibration Mode and deal **{1}%** Glaction DMG.",
+            "- Upon entering Calibration Mode, inflicts **Frost Corrosion** that reduces Ice Resistance by 25% for 8s.",
+            "- Calibration Mode drains 30 Calibration every second. Once Calibration is depleted, Calibration Mode will end. In Calibration Mode, 3-Pings generate 40 Calibration.",
+            "- In Calibration Mode, casting Flurry Blitz or Frosty Barrage will grant a shield equal to 5% of max HP, stacking up to 6 times.",
+            "- If the cylinder is empty upon entering Calibration Mode, instantly gains 1 Condensation Projectile."
           ],
-          "res_lv18": [500, 280],
-          "result2": [
-            "- While in Calibration Mode, each cast of Gale Strike or Bullet Hail grants a shield equal to 5% of Wanshi's maximum HP. This shield can stack up to 6 times.",
-            "- If the Cylinder is empty when entering Calibration Mode, Wanshi will immediately gain 1 Condensation Round"
-          ]
+          "res_lv18": [500, 280]
         },
         {
-          "name": "Flash Freezing",
+          "name": "LN2 Freeze",
           "button_press": "",
           "description": [
-            "Every time Wanshi is switched in, automatically fully reloads the Cylinder."
+            "When switched in, automatically refills the cylinder"
           ]
         },
         {
-          "name": "Shot Correction",
+          "name": "Efficiency Correction",
           "button_press": "",
           "description": [
-            "Every time Wanshi consumes Condensation Rounds, gains Correcting Rounds and charges the CUB."
+            "Whenever consuming a Condensation Projectile, gains a Correction Projectile and charges CUB."
           ],
           "result": [
-            "- When charging the CUB, every Condensation Round consumed is considered 1 Signal Orb pinged.",
-            "- Gains 1 Correcting Round for every Condensation Round consumed.",
-            "- Maximum number of Correcting Rounds: 30"
+            "- While charging the CUB, consuming 1 Condensation Projectile will also count as pinging 1 basic Signal Orb.",
+            "- Consumes 1 Condensation Projectile to gain 1 Correction Projectile.",
+            "- Max 30 Correction Projectiles."
           ]
         },
         {
-          "name": "Hollow Fracture",
+          "name": "Cavity Tear",
           "button_press": "",
           "description": [
-            "Wanshi can debuff enemies when damaging them with Condensation Rounds."
+            "Dealing damage with Condensation Projectiles will also weaken the enemy."
           ],
           "result": [
-            "- Inflicts enemies with the **Frost Corrosion** effect that reduces Ice Resistance by 25% for 8s when damaging them with Condensation Rounds."
+            "- Dealing damage with Condensation Projectiles will also inflict **Frost Corrosion** that reduces Ice Resistance by 25% for 8s."
           ]
         },
         {
-          "name": "Affix: Glaciation",
+          "name": "Effect: Glaciation",
           "button_press": "",
           "description": [
-            "Certain skills fill the Glaciation Gauge. When full, the Gauge will clear itself and unleash Diamond Dust, dealing Hiemal DMG and accumulating a Diamond Dust stack. Casting an eligible skill will consume all Diamond Dust stacks and create an Ice Spike that deals Hiemal DMG to its surroundings.\n\nIf the character deals Hiemal DMG while the Ice Spike is on-field, triggers Crystallization, dealing additional Hiemal DMG and generating Glaciation points.\n\nWhen the Ice Spike's on-field duration expires, triggers Icebreak, dealing Hiemal DMG based on the current Glaciation points. The Glaciation Gauge, Diamond Dust stacks, Ice Spike, and Glaciation points will carry over between characters with the Glaciation Affix."
+            "Some of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies. While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation."
           ],
           "result": [
-            "- When Glaciation points reaches 100, unleashes Diamond Dust that deals 100% Hiemal DMG and accumulates 1 Diamond Dust stack, up to 10 stacks.",
-            "- If there is at least 1 Diamond Dust stack, certain skills can clear all Diamond Dust stacks and create an Ice Spike on-field, dealing 180% Hiemal DMG. The Ice Spike's duration increases by 1s for every Diamond Dust stack consumed.",
-            "- While the Ice Spike exists, if the character deals Hiemal DMG, triggers Crystallization, dealing 100% Hiemal DMG to enemies in a large area and generating 100 Glaciation points. Can be triggered once every 0.25s.",
-            "- When the Ice Spike's duration expires, triggers Icebreak to deal 100% Hiemal DMG to enemies in a large area. Base DMG of Icebreak increases by 9% for every 100 Glaciation points. The maximum Glaciation points is 10000."
+            "- At 100 Glaciation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.",
+            "- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.",
+            "- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.",
+            "- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation."
+
           ]
         }
       ]
     },
     "signature": {
-      "name": "Forlorn Rime",
+      "name": "Bleak Oblivion",
       "skills": [
         {
-          "name": "Hyperlinked Flight",
-          "button_press": "Consume 160 Energy + Not during Bullet Hail/Frosty Ascent + Tap Signature Move",
+          "name": "Superlink Flight",
+          "button_press": "160 Signature Energy + Frosty Barrage/Snow Storm Inactive + Tap Signature",
           "description": [
-            "Summons a lightweight drone to generate a forcefield, pulling in enemies and firing a strengthened Condensation Round. Deals Ice or Hiemal DMG depending on the current Calibration Mode. Upon performing this skill, immediately gains 1 Signal Orb and rearranges Signal Orbs into 3-Pings. Time Lag Calculation is activated while performing this skill. If Wanshi has the Domain Overlimit effect when performing this skill, its duration is refreshed."
+            "Summons a drone to create a field that pulls enemy units, then shoots Enhanced Condensation Projectiles to deal Ice or Glaciation DMG depending on the current Calibration Mode. After casting, instantly gains 1 orb and rearranges Signal Orbs into 3-Ping sets. While casting, triggers Time Lag Calculation. If Field Ultralimit is active while casting, renews its duration."
           ],
           "result": [
-            "- When Wanshi is in Calibration Mode: Quiescence or has not entered Calibration Mode, deals **{0}%** Ice DMG. If Wanshi is in Calibration Mode: Quiescence when performing this skill, resets the Calibration Meter upon performing this skill and exits Calibration Mode: Quiescence.",
-            "- When Wanshi is in Calibration Mode: Desolation, deals **{1}%** Hiemal DMG instead; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Desolation.",
-            "- Performing Hyperlinked Flight while in Burst Mode can grant the Wounding buff.",
-            "- Generates an Ice Spike upon performing this skill based on the number of Diamond Dust Stacks."
+            "- When in Quiet Calibration Mode or not in any Calibration Mode, deals **{0}%** Ice DMG. When in Quiet Calibration Mode, depletes the Calibration Gauge and ends Quiet Calibration Mode after casting.",
+            "- When in Frigid Calibration Mode, deals **{1}%** Glaciation DMG instead, then depletes the Calibration Gauge and ends Frigid Calibration Mode after casting.",
+            "- In Repeater Mode, casting Superlink Flight will trigger Maim.",
+            "- After casting, forms Ice Spikes based on the current Arctic Ice Layers."
           ],
           "res_lv18": [2400, 1400]
         },
         {
-          "name": "Ruinous Blizzard",
-          "button_press": "Consume 160 Energy + During Bullet Hail/Frosty Ascent + Tap Signature Move",
+          "name": "Destructive Wave",
+          "button_press": "160 Signature Energy + Frosty Barrage/Snow Storm Active + Tap Signature",
           "description": [
-            "The lightweight drone propels Wanshi: Lucid Dreamer into the air, pulling in enemies and strafing the ground. Deals Ice DMG or Hiemal DMG depending on the current  Calibration Mode. Upon performing this skill, immediately gain 1 Signal Orb and rearrange Signal Orbs into 3-Pings.  Time Lag Calculation is activated while performing this skill. If Wanshi has the  Overlimit Domain effect when performing this skill, its duration is refreshed."
+            "Boosted by the drone, Lucid Dreamer leaps into the air, pulls enemies and rains down fire, dealing Ice or Glaciation DMG depending on the current Calibration Mode. After casting, instantly gains 1 orb and rearranges Signal Orbs into 3-Ping sets. While casting, triggers Time Lag Calculation. If Field Ultralimit is active while casting, renews its duration."
           ],
           "result": [
-            "- When Wanshi is in Calibration Mode: Quiescence, immediately deals **{0}%** Ice DMG; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Quiescence. After exiting the battlefield, Wanshi: Lucid Dreamer will additionally deal **{1}%** Ice DMG when performing Point-blank Shooting; this effect can be triggered only once every time he exits the battlefield.",
-            "- When Wanshi is in Calibration Mode: Desolation, deals **{2}%** Hiemal DMG instead; resets the Calibration Meter upon performing this skill and exits Calibration Mode: Desolation. After exiting the battlefield, Wanshi: Lucid Dreamer will additionally deal **{3}%** Hiemal DMG when performing Point-blank Shooting; this effect can be triggered only once every time he exits the battlefield."
+            "- In Quiet Calibration Mode, instantly deals **{0}%** Ice DMG, then depletes the Calibration Gauge and ends Quiet Calibration Mode. After leaving the battlefield, Lucid Dreamer deals **{1}%** extra Ice DMG when casting Point Blank. This effect only triggers once per switch-out.",
+            "- In Frigid Calibration Mode, deals **{2}%** Glaciation DMG instead, then depletes the Calibration Gauge and ends Frigid Calibration Mode. After leaving the battlefield, Lucid Dreamer deals **{3}%** extra Glaciation DMG when casting Point Blank. This effect only triggers once per switch-out.",
+            "- Casting this will consume all Correction Projectiles. For every 1 projectile consumed, the Base DMG of Destructive Wave increases by 5%. If 30 Correction Projectiles are consumed in a single cast, the Base DMG will be increased by another 100%, and gains 1 Signal Orb.",
+            "- After casting, form Ice Spikes based on the current Arctic Ice Layers."
           ],
-          "res_lv18": [1850, 900, 1030, 500],
-          "result2": [
-            "- Performing this skill consumes all Correcting Rounds. Each Correcting Round consumed increases the Base DMG of this cast of Ruinous Blizzard by 5%. If 30 Correcting Rounds have been consumed when performing this skill, additionally gains 100% Base DMG Increase and 1 Signal Orb.",
-            "- Generates an Ice Spike upon performing this skill based on the number of Diamond Dust Stacks."
-          ]
+          "res_lv18": [1850, 900, 1030, 500]
         },
         {
-          "name": "Icerealm Brand",
+          "name": "Inscription of Icefield",
           "button_press": "",
           "description": [
-            "Leaves behind the Frostbound Zone that deals Ice DMG and debuffs enemies upon performing Hyperlinked Flight or Ruinous Blizzard."
+            "After casting Superlink Flight or Destructive Wave, leaves a Frozen Zone on the battlefield that deals Ice DMG and weakens enemies."
           ],
           "result": [
-            "- The Frostbound Zone deals **{0}%** Ice DMG to enemies inside every second for 12s."
+            "- The Frozen Zone deals **{0}%** Ice DMG every second to enemies in the zone and lasts 12s."
           ],
           "res_lv18": [50]
         }
       ]
     },
     "qte": {
-      "name": "Point-blank Shooting",
-      "description": "Rushes and strikes forward, firing at close range. Deals Ice DMG and debuffs enemies.",
+      "name": "Point Blank",
+      "description": "Dashes forward, then shoots at point-blank range to deal Ice DMG and weaken the enemy.",
       "result": [
-        "- Deals **{0}%** Ice DMG and inflicts enemies with the **Frost Corrosion** effect that reduces Ice Resistance by 25% for 8s."
+        "- Deals **{0}%** Ice DMG and inflicts **Frost Corrosion** that reduces Ice Resistance by 25% for 8s."
       ],
       "res_lv18": [600]
     },
     "leader": {
-      "name": "A Clear Heart Drowned in Illusions",
-      "description": "Increases Ice DMG of all members by 10%. Increases DMG of Tank Omniframes by 5%."
+      "name": "Lucidity of Mind",
+      "description": "Increases Ice DMG of all members by 10%. Increases DMG of all Tank Omniframes by 5%."
     },
     "class": {
       "name": "Tank",
@@ -11257,45 +11254,45 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Shadows of the Past",
+      "name": "Yesterday's Doubts",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "When entering or refreshing Calibration Mode or performing Hyperlinked Flight/Ruinous Blizzard, activates all available QTEs."
+          "desc": "Entering or refreshing Calibration Mode or casting Superlink Flight or Destructive Wave will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "The entry skill is considered a Blue 3-Ping. When entering the battlefield via switch-in, gains 1 Signal Orb. When entering Calibration Mode, gains 12 Signature Energy. While in Calibration Mode: Desolation, Glaciation Point accumulation rate of Gale Strike and Bullet Hail doubles. Base DMG of Gale Strike and Bullet Hail increases by 100%."
+          "desc": "Entrance Skill also counts as a Blue Orb 3-Ping. When switched in, gains a Signal Orb. Entering Calibration Mode grants 12 Signature Energy. In Frigid Calibration Mode, doubles the amount of Glaciation generated by Flurry Blitz and Frosty Barrage. Base DMG of Flurry Blitz and Frosty Barrage increases by 100%."
         }
       ]
     },
     "sss_rank": {
-      "name": "Drifting Memories",
+      "name": "Hypnotic Levitation",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "**Frost Corrosion** effect applied by Wanshi: Lucid Dreamer increases by 10%. Signal Orb recovery rate increases by 100% during Bullet Hail. Base DMG of  Cryonic Explosion increases by 200%. Base DMG of  Airdropped Revolver and  Effulgent Shatter increases by 100%."
+          "desc": "Effectiveness of **Frost Corrosion** inflicted by Lucid Dreamer increases by 10%. When Frosty Barrage is active, Signal Orb Recovery increases by 100%. Base DMG of Transient Blizzard increases by 200%. Base DMG of Revolver Launch and Shattered Light increases by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "**Frost Corrosion** effect applied by Wanshi: Lucid Dreamer increases by 10%. Base DMG of Diamond Dust performed by Wanshi: Lucid Dreamer increases by 30%. When performing Hyperlinked Flight or Ruinous Blizzard in  Calibration Mode, increases their Base Multiplier by 1.5 times. When Wanshi: Lucid Dreamer has the maximum number of Wounding stacks, Base DMG of  Hyperlinked Flight additionally increases by 60%. Reduces swap cooldown of all party members by  3s; this cannot be stacked with other swap cooldown-reducing effects."
+          "desc": "Effectiveness of **Frost Corrosion** inflicted by Lucid Dreamer increases by 10%. Base DMG of Arctic Ice cast by Lucid Dreamer increases by 30%. In Calibration Mode, Base Multiplier of Superlink Flight and Destructive Wave increases to 1.5x. At maximum stacks of Maim, Base DMG of Superlink Flight further increases by 60%. Reduces the cooldown of switching between characters by 3s. This effect does not stack with other effects of the same type."
         }
       ]
     },
     "s+_rank": {
-      "name": "Dreams of Hope",
+      "name": "Hollow Land",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Gale Strike, Bullet Hail, and Frosty Ascent increases by 30%. Extra DMG Bonus of the DMG when generating an Ice Spike increases by 100%."
+          "desc": "Extra DMG of Flurry Blitz, Frosty Barrage and Snow Storm increases by 30%. When Ice Spikes are formed, their Extra DMG increases by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of Wanshi: Lucid Dreamer increases by 10% in Calibration Mode."
+          "desc": "In Calibration Mode, Extra DMG increases by 10%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Hyperlinked Flight and Ruinous Blizzard increases by 35%. Extra DMG Bonus of the DMG dealt by Diamond Dust increases by 30%."
+          "desc": "Extra DMG of Superlink Flight and Destructive Wave increases by 35%. Extra DMG of Arctic Ice increases by 30%."
         }
       ]
     }
@@ -12451,7 +12448,7 @@
           "desc": "**Gravitational Collapse Points**' damage amplification effect increases by **50%**. During the 5th hit of **Phantom Abysm**, you can input one 3-Ping to deal an additional **1000%** Nihil DMG and gain **180 Gravitational Collapse Points**. Enhances the special abilities triggered based on the **Observation Chronicle**. Base DMG efficiency increase against **Equilibrium Fields** increases to **150%**.",
           "extra1": "**Tank State**\n**Fire**: **Unlocked at SS3**: **Scorching Invasion** and **Collapse Singularity** effects increases by **10%**.\n**Unlocked at SSS**: **Scorching Invasion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Ice**: **Unlocked at SS3**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.",
           "extra2": "**Lightning**:**Unlocked at SS3**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Turbulence Interference** and **Collapse Singularity** effects increases by **10%**. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Dark**: **Unlocked at SSS**: **Chain Fusion** and **Collapse Singularity** effects increases by **10%**.",
-          "extra3": "**Amplfier State**\n**Fire**: **Unlocked at SSS**:  Amplifier Class Skill effect increases by **100%**.\n**Ice**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Dark**: **Unlocked at SS3**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**.\n**Unlocked at SSS**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**. All member switch-ins reset the cooldown of QTE skills."
+          "extra3": "**Amplfier State**\n**Fire**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Ice**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Dark**: **Unlocked at SS3**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**.\n**Unlocked at SSS**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**. All member switch-ins reset the cooldown of QTE skills."
         }
       ]
     },

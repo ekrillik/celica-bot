@@ -1238,63 +1238,63 @@
       }
     ]
   },
-  "mei wu": {
-    "name": "Mei Wu\n<:s_rank:1287636749052412026><:physical_element:1290613978057146379>",
+  "dreamwing": {
+    "name": "Dreamwing\n<:s_rank:1287636749052412026><:physical_element:1290613978057146379>",
     "sig_character": "Solacetune",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3die1.webp",
     "skills_list": [
-      "Lunar Footfalls",
-      "Lonesome Phoenix",
-      "Spring Steps",
-      "Fragrant Verse",
-      "Intoxicated by Flowers",
-      "Daffodil's Song",
-      "Moonlight Upon Thy Visage"
+      "Moon Stroll",
+      "Solitary Crane",
+      "Spring Excursion",
+      "Grass Crossing",
+      "Tipsy Flowers",
+      "River Immortal",
+      "Moonlight Follows"
     ],
     "active_skills": [
       {
-        "skill_name": "Lunar Footfalls",
+        "skill_name": "Moon Stroll",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Mei Wu will fire energy waves, inflicting enemies in the area with Rigidness and dealing 250% DMG 6 times.\n- Rigidness: Enemies will be rooted for 2s."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Dreamwing will attack with an energy wave, applying Rigidity to nearby enemies, dealing 250% DMG 6 times. Rigidity: Immobilizes the enemy for 2s."
       },
       {
-        "skill_name": "Lonesome Phoenix",
+        "skill_name": "Solitary Crane",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon tapping the CUB button, Mei Wu will fly towards the target and strike the ground, dealing 450% DMG 4 Times."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Dreamwing will fly toward the target then crash into the ground, dealing 450% Physical DMG 4 times."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Spring Steps",
+        "skill_name": "Spring Excursion",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "Mei Wu's Active Skills deal 70% more DMG."
+        "skill_desc": "Dreamwing's Active Skills deal 70% more DMG."
       },
       {
-        "skill_name": "Fragrant verse",
+        "skill_name": "Grass Crossing",
         "skill_number": "Passive Skill 2",
-        "skill_desc": "Increases the ATK of Mei Wu's carrier by 100."
+        "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
-        "skill_name": "Intoxicated by Flowers",
+        "skill_name": "Tipsy Flowers",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Upon activating Mei Wu's Active Skills, the carrier's Extra DMG Bonus will increase by 5% for 8s. Duration resets every time it is triggered."
+        "skill_desc": "Each time Dreamwing casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s.Triggering this effect again will renew its duration."
       },
       {
-        "skill_name": "Daffodil's Song",
+        "skill_name": "River Immortal",
         "skill_number": "Passive Skill 4",
-        "skill_desc": "Increases the carrier's Physical DMG by 10%."
+        "skill_desc": "The carrier's Physical DMG increases by 10%."
       },
       {
         "skill_name": "Moonlight Upon Thy Visage",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Hanying: Solacetune activates Moonsong Realm or triggers Phoenix Down while carrying Mei Wu, Mei Wu is summoned to perform a coordinated attack, dealing 1250% Physical DMG twice. CRIT DMG of Azure Allure and Sublimity increases by 75%."
+        "skill_desc": "When Hanying: Solacetune deploys Lunartone Field or triggers Ethereal Symphony with Dreamwing equipped, summons Dreamwing to launch a joint attack, dealing 1250% Physical DMG 2 times. The CRIT DMG of Jade Bloom and Ringing increases by 75%."
       }
     ]
   },
-  "rui xue": {
-    "name": "Rui Xue\n<:s_rank:1287636749052412026><:ice_element:1290613933106925638>",
+  "snowveil": {
+    "name": "Snowveil\n<:s_rank:1287636749052412026><:ice_element:1290613933106925638>",
     "sig_character": "Lucid Dreamer",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",

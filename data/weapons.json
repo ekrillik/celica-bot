@@ -611,27 +611,27 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "autumn fringe": {
-    "name": "Autumn Fringe",
+  "frontier foliage": {
+    "name": "Frontier Foliage",
     "weapon_type": "Pipa",
     "rarity": 4,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/9/9c/eehimao6ftwc0lamtvbqdonpatxnxaz.png/60px-%E6%AD%A6%E5%99%A8_%E5%A1%9E%E4%B8%8A%E7%A7%8B.png",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Lone Light",
+      "effect_name": "Mellow Cadence",
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "locked and loaded": {
-    "name": "Locked and Loaded",
+  "load & rest": {
+    "name": "Load & Rest",
     "weapon_type": "Revolver",
     "rarity": 4,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/0/01/bri43phx5ztxhi6ugiozr6tpvf3suaj.png/60px-%E6%AD%A6%E5%99%A8_%E8%90%BD%E8%86%9B%E4%B9%8B%E6%97%B6.png",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Dust to Dust",
+      "effect_name": "Bite the Dust",
       "effect_desc": "ATK increases by 5%."
     }
   },
@@ -1271,20 +1271,20 @@
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
-  "moon upon begonia": {
-    "name": "Moon Upon Begonia",
+  "moonside petal": {
+    "name": "Moonside Petal",
     "weapon_type": "Pipa",
     "rarity": 5,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/2/2b/ck1k8wypykia6ap2mz2m8iv10y7jpsh.png/60px-%E6%AD%A6%E5%99%A8_%E6%9C%88%E4%B8%8A%E6%B5%B7%E6%A3%A0.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Fallacy",
+      "effect_name": "Faerie Melisma",
       "effect_desc": "Physical DMG increases by 10%."
     }
   },
-  "eternal rest": {
-    "name": "Eternal Rest",
+  "eternal peace": {
+    "name": "Eternal Peace",
     "weapon_type": "Revolver",
     "rarity": 5,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/e/ec/jezhpg79lb3fimnxpwktesbh5ecb2aw.png/100px-%E6%AD%A6%E5%99%A8_%E6%95%85%E9%AD%82%E6%B0%B8%E6%81%AF.png",
@@ -2087,7 +2087,7 @@
       "effect_desc": "ATK increases by 10%. Base DMG of Steel Charge increases by 60%. When Red Orbs are depleted, casting Steel Charge or performing a precise block immediately restores 1 Red Orb. The Combustible Charges produced by Prairie Fire increase by 40%."
     }
   },
-  "dreamer roamer": {
+  "dream roamer": {
     "name": "Dream Roamer",
     "weapon_type": "Pipa",
     "rarity": 6,
@@ -2095,20 +2095,20 @@
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "Endless Waxing Moon",
-      "effect_desc": "ATK increases by 10%. Piercing Strike effect applied by Hanying: Solacetune increases by 20%. DMG increase effect from consecutive casts of Azure Allure can stack up to 3 times. Triggering Phoenix Down additionally grants 50 points of Veiled Edge."
+      "effect_name": "Ephemeral Dream",
+      "effect_desc": "ATK increases by 10%. The effect of Piercing Blow launched by Hanying: Solacetune increases by 20%. Casting Jade Bloom continuously will stack damage up to 3 times instead. Triggering Ethereal Symphony grants additional 50 Sharp Reserve."
     }
   },
-  "hemera's gaze": {
-    "name": "Hemera's Gaze",
+  "renewed dawn": {
+    "name": "Renewed Dawn",
     "weapon_type": "Revolver",
     "rarity": 6,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/4/49/bbi1mnv58ymzlf7ylacd5wjbg649maw.png/100px-%E6%AD%A6%E5%99%A8_%E6%98%8E%E7%9E%B3%E7%BB%AD%E6%98%BC.png",
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "What Dreams May Come",
-      "effect_desc": "ATK increases by 10%. Base DMG of Gale Strike, Bullet Hail, and Frosty Ascent doubles."
+      "effect_name": "Twilight Dreams",
+      "effect_desc": "ATK increases by 10%. Doubles the Base DMG of Flurry Blitz, Frosty Barrage, and Snow Storm."
     }
   },
   "dawn's flaming feathers": {
