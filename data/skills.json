@@ -8298,7 +8298,7 @@
           "name": "Ballad of Wilting Bamboos",
           "button_press": "Dancer Stance + Ping Red Orb",
           "description": [
-           "Poise of Emerald Flow - Red: Swings the fan to deal DMG, exiting Dancer Stance afterward."
+            "Poise of Emerald Flow - Red: Swings the fan to deal DMG, exiting Dancer Stance afterward."
           ],
           "result": ["- Deals a total of **{0}%** Physical DMG."],
           "res_lv18": [600]
@@ -10848,7 +10848,7 @@
           ],
           "result": [
             "- Jade Bloom deals **{0}%** Physical DMG. A successful hit triggers Ultima Slash.",
-            "- Jade Bloom: Full: When Sonority reaches its maximum, cast to trigger one Phoenix Tail Dragon Fragrance.",
+            "- Jade Bloom: Full: When Sonority reaches its maximum, cast to trigger Ethereal Symphony.",
             "- Jade Bloom: Play: After casting the fourth Basic Attack/Blue 3-Ping Orbs, a Chime Mark will briefly appear. During this time, casting Jade Bloom will cast a clone to attack together, dealing **{1}%** Slash DMG."
           ],
           "res_lv18": [300, 150]
@@ -11187,7 +11187,6 @@
             "- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.",
             "- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.",
             "- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation."
-
           ]
         }
       ]
