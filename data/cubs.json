@@ -1257,7 +1257,7 @@
       {
         "skill_name": "Moon Stroll",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Dreamwing will attack with an energy wave, applying Rigidity to nearby enemies, dealing 250% DMG 6 times. Rigidity: Immobilizes the enemy for 2s."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Dreamwing will attack with an energy wave, applying Rigidity to nearby enemies, dealing 250% DMG 6 times.\nRigidity: Immobilizes the enemy for 2s."
       },
       {
         "skill_name": "Solitary Crane",
@@ -1300,7 +1300,7 @@
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3fox1.webp",
     "skills_list": [
-      "Frostwalker",
+      "Frost Walker",
       "Scattered Snow",
       "Bright Destiny",
       "Snowdust Blessing",
@@ -1310,9 +1310,9 @@
     ],
     "active_skills": [
       {
-        "skill_name": "Frostwalker",
+        "skill_name": "Frost Walker",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Snowveil will fly toward the target then crash into the ground, dealing 1800% DMG once."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Snowveil will fly toward the target then crash into the ground, dealing 1800% DMG 1 time."
       },
       {
         "skill_name": "Scattered Snow",
@@ -1329,7 +1329,7 @@
       {
         "skill_name": "Snowdust Blessing",
         "skill_number": "Passive Skill 2",
-        "skill_desc": "Increases the ATK of Snowveil's carrier by 100."
+        "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
         "skill_name": "Frosty Favor",
@@ -1344,7 +1344,7 @@
       {
         "skill_name": "Dream Ward",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Wanshi: Lucid Dreamer enters **Calibration Mode** while carrying Snowveil, Snowveil will be summoned to assist in attacks, dealing 250% Ice DMG 10 times. Base DMG of **Superlink Flight** increases by 60%; if **Maim** has maximum stacks when **Superlink Flight** is cast, its Base DMG increases by a further 90%. Base DMG of **Destructive Wave** increases by 75%; if **30 Correction Projectiles** are consumed when **Destructive Wave** is cast, its Base DMG increases by an additional 175%."
+        "skill_desc": "When Wanshi: Lucid Dreamer enters **Calibration Mode** with Snowveil equipped, Snowveil will be summoned to assist in attacks, dealing 250% Ice DMG 10 times. Base DMG of **Superlink Flight** increases by 60%; if **Maim** has maximum stacks when **Superlink Flight** is cast, its Base DMG increases by a further 90%. Base DMG of **Destructive Wave** increases by 75%; if **30 Correction Projectiles** are consumed when **Destructive Wave** is cast, its Base DMG increases by a further 175%."
       }
     ]
   },
