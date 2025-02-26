@@ -10986,7 +10986,7 @@
       },
       {
         "name": "Biting Wind - Frosty Barrage",
-        "button_press": "Calibration Mode + Cylinder Bot Empty + Press and Hold Basic Attack",
+        "button_press": "Calibration Mode + Cylinder Not Empty + Press and Hold Basic Attack",
         "switch_in": "no",
         "description": "Enables Double Action Mode to activate a hidden cylinder and continuously shoot Condensation Projectiles, while gaining Super Armor and 50% DMG Reduction. Depending on the current Calibration Mode, deals Ice DMG or Glaciation DMG and gains additional Signature Energy.",
         "result": [
