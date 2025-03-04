@@ -45,7 +45,7 @@ class Beginners(commands.Cog):
     async def roadmap(self, ctx: commands.Context[commands.Bot]):
         date = datetime.date.today()
         embed = discord.Embed(title=f"Current Roadmap (as of {date.strftime("%b %dth %Y")})")
-        embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/NEW_PGR_ROADMAP-3.png")
+        embed.set_image(url="https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/NEW_PGR_ROADMAP-4.png")
         await ctx.send(embed=embed)
         
     @commands.hybrid_command(aliases=['maxlevel', 'mlm'], description="Displays the required number of resources to max out a single frame.")
