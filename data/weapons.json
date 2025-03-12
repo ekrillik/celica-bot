@@ -707,6 +707,18 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
+  "generic mk-2": {
+    "name": "Generic MK-2",
+    "weapon_type": "Energy Sword & Gun",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/cn/image/icontools/e2pistolmd010011.png",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Constellation",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
   "gloomlight": {
     "name": "Gloomlight",
     "weapon_type": "Dual Guns",
@@ -1365,6 +1377,18 @@
     "effect": {
       "effect_name": "Twilight Tune",
       "effect_desc": "Physical DMG increases by 10%."
+    }
+  },
+  "nightstrider": {
+    "name": "Nightstrider",
+    "weapon_type": "Energy Sword & Gun",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2pistolmd020011.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Transcending Form",
+      "effect_desc": "Dark DMG increases by 10%."
     }
   },
   "lotus berserker": {
@@ -2181,6 +2205,18 @@
     "effect": {
       "effect_name": "Everlasting Harmony",
       "effect_desc": "ATK increases by 10%. After Bladed Resonance is cast with increased Base DMG from Quavers, the next Bladed Cadence will receive the same Base DMG increase. After casting Signature - Rainfall Overture, gains 3 Signal Orbs, up to 6 per entry."
+    }
+  },
+  "ultimate arbiter": {
+    "name": "Ultimate Arbiter",
+    "weapon_type": "Energy Sword & Gun",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e3pistolmd010011.png",
+    "atk": 436,
+    "crit": 244,
+    "effect": {
+      "effect_name": "The Other Side",
+      "effect_desc": "ATK increases by 10%. Every 3 Munitions Orbs consumed restores 1 orb. Extra DMG Bonus of Reflective Chain and Inflow Incendiary increase by 20%."
     }
   },
   "placeholder": {

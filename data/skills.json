@@ -11912,7 +11912,7 @@
     "red_orb": [
       {
         "name": "Dazzling Thunder Cyclone - Red Orb Combo 1",
-        "button_press": "Tap Red Orb",
+        "button_press": "Not in Red Orb Combo + Tap Red Orb",
         "switch_in": "no",
         "description": "Performs a spinning slash on the enemy and enters Red Orb Combo, dealing Lightning DMG and applying a **Dazzling Thunder Mark** to enemies hit. The **Dazzling Thunder Mark** lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when cast, it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
         "result": [
@@ -11946,7 +11946,7 @@
       },
       {
         "name": "Astral Assemblage - Rainbow Arc Thrust",
-        "button_press": " Holding Shield Axe + Tap Yellow Or",
+        "button_press": " Holding Shield Axe + Tap Yellow Orb",
         "switch_in": "no",
         "description": "Dashes into the enemy and dismantles the **Shield Axe** into a **Sword and Shield**, dealing Lightning DMG and gaining Super Armor.",
         "result": ["- Deals **{0}%** Lightning DMG."],
@@ -12030,7 +12030,7 @@
         },
         {
           "name": "Exceed Adaptability",
-          "button_press": "Blazing Thunder Form + Basic Attack / Ping Signal Orbs",
+          "button_press": "",
           "description": [
             "After switching to the Shield Axe, gain a shield equal to 30% of Max HP; when switching to the Sword and Shield, removes the shield. Every time Nanami enters the battlefield, gain 1 Signal Orb. "
           ]
@@ -13023,6 +13023,288 @@
         {
           "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of **Piercing Cadence**, **Concerto Orbs**, and Signal Orbs increases by **40%**."
+        }
+      ]
+    }
+  },
+  "daybreak": {
+    "basic_attack": [
+      {
+        "name": "Algorithmic Analysis - Alternate",
+        "button_press": "Tap Basic Attack",
+        "switch_in": "no",
+        "description": "Unleashes a combination of gun and physical attacks, dealing Dark DMG.",
+        "result": ["- Basic Attacks deal a total of **{0}%** Dark DMG."],
+        "res_lv18": [340]
+      },
+      {
+        "name": "Algorithmic Analysis - Connect",
+        "button_press": "Hold Basic Attack",
+        "switch_in": "no",
+        "description": "Raises her gun to enter **Charging Mode** and continuously fires at the target, dealing Dark DMG.",
+        "result": ["- Each shot deals **{0}%** Dark DMG."],
+        "res_lv18": [30]
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Duskwing Blade - Dispel",
+        "button_press": "Tap Red Orb",
+        "switch_in": "no",
+        "description": "Hurls her Greatsword at the target, dealing Dark DMG.",
+        "result": [
+          "- Deals **{0}%/{1}%** Dark DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [45, 90]
+      },
+      {
+        "name": "Duskwing Blade - Whirling Slam",
+        "button_press": "At least 1 Munitions Orb + During Dispel + Tap Red Orb",
+        "switch_in": "no",
+        "description": "Pivots and swings her Greatsword at the target, dealing Dark DMG.",
+        "result": [
+          "- This action is repeated for every 1 Munitions Orb consumed, dealing **{0}%** Dark DMG."
+        ],
+        "res_lv18": [50]
+      },
+      {
+        "name": "Duskwing Blade - Discharge",
+        "button_press": "Hold Red Orb to enter Charging Mode + Absurdum Points are full",
+        "switch_in": "no",
+        "description": "Enters **Charging Mode**. After releasing, unleashes a sword technique that deals Dark DMG.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%/{3}%** Dark DMG and restores 2/3/4/5 Signature Energy when 0/1/2/3 orbs are pinged."
+        ],
+        "res_lv18": [250, 500, 750, 1000]
+      },
+      {
+        "name": "Duskwing Blade - Ignite",
+        "button_press": "Hold Red Orb to enter Charging Mode + Absurdum Points are not full",
+        "switch_in": "no",
+        "description": "Enters **Charging Mode**. After releasing, unleashes a sword technique that deals Ignition DMG and applies Combustible Charges.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%/{3}%** Ignition DMG, applies **1250** Combustible Charges, and restores **2/3/4/5** Signature Energy when **0/1/2/3** orbs are pinged. While **Absurdum Points** are not full, gains **Super Armor**."
+        ],
+        "res_lv18": [250, 500, 750, 1000]
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Revolving Barrage - Fusillade",
+        "button_press": "Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "Leaps backwards and fires ahead, dealing Dark DMG.",
+        "result": [
+          "- Deals **{0}%/{1}%** Dark DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [120, 240]
+      },
+      {
+        "name": "Revolving Barrage - Ambusher",
+        "button_press": "Hold Yellow Orb to enter Charging Mode",
+        "switch_in": "no",
+        "description": "Leaps backwards and enters **Charging Mode**. After releasing, fires ahead to deal Dark DMG.",
+        "result": [
+          "- Deals a total of **{0}%/{1}%/{2}%/{3}%** Dark DMG and restores 2/3/4/5 Signature Energy when 0/1/2/3 orbs are pinged."
+        ],
+        "res_lv18": [220, 440, 540, 640]
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Lead Perforation - Tricky Gleam",
+        "button_press": "Tap Blue Orb",
+        "switch_in": "no",
+        "description": "Throws her gun at the target, dealing Dark DMG.",
+        "result": [
+          "- Deals **{0}%/{1}%** Dark DMG based on the number of orbs pinged."
+        ],
+        "res_lv18": [45, 90]
+      },
+      {
+        "name": "Lead Perforation - Structural Attrition",
+        "button_press": "Hold Blue Orb to enter Charging Mode",
+        "switch_in": "no",
+        "description": "Raises her gun to enter **Charging Mode** and unleashes continuous fire. After releasing, retreats and deals Dark DMG.",
+        "result": [
+          "- Each shot deals {0}% Dark DMG",
+          "- The retreat deals {1}%/{2}%/{3}%/{4}% Dark DMG and restores 2/3/4/5 Signature Energy when 0/1/2/3 orbs are pinged."
+        ],
+        "res_lv18": [30, 100, 200, 300, 400]
+      }
+    ],
+    "core_passive": {
+      "name": "Devilish Beauty's Assault",
+      "skills": [
+        {
+          "name": "Cluster Analysis",
+          "button_press": "",
+          "description": [
+            "All color Signal Orbs obtained by Jetavie are converted into **Munitions Orbs**. When Jetavie is not in **Panoramic Breakdown** Mode, only Yellow and Blue Orb skills can be used. After entering **Panoramic Breakdown**, Red Orb skills become available. Any Signal Orb can be used to enter **Charging Mode** and continuously recover Signature Energy, up to **40**. Charged skills can be enhanced by consuming **Munitions Orbs**, up to **3**. When Jetavie triggers an Extreme Dodge via Dodging, she does not enter Matrix and instead gains **30** Electrical Load Points. When Dodge Gauge is 0, Jetavie can Dodge at the cost of **10** Electrical Load Points."
+          ]
+        },
+        {
+          "name": "Reflective Chain",
+          "button_press": "During Discharge enhanced by Munitions Orb + Hold/Tap Basic Attack",
+          "description": [
+            "Rush at the target for a slash, dealing Dark DMG and restoring **80** Signature Energy."
+          ],
+          "result": ["- Deals a total of {0}% Dark DMG."],
+          "res_lv18": [1800]
+        },
+        {
+          "name": "Inflow Incendiary",
+          "button_press": "During Ignite enhanced by Munitions Orb + Hold/Tap Basic Attack",
+          "description": [
+            "Plunge down for a slash, converting Combustible into Ignition of equal stacks, dealing Ignition DMG and restoring **80** Signature Energy."
+          ],
+          "result": [
+            "- Deals a total of {0}% Ignition DMG. Gains an **Incendiary Emblem** for **10**s, refreshing when obtained repeatedly."
+          ],
+          "res_lv18": [2500]
+        },
+        {
+          "name": "Uncrossable Boundary",
+          "button_press": "Charging Mode + Release the Corresponding Button + Successful Dodge",
+          "description": [
+            "The action of releasing Charging Mode can dodge incoming attacks. If the Dodge is successful, the charged skill gains **30**% Extra DMG Bonus. Successful Dodges through **Discharge** and **Ignite** restore **2** Munitions Orbs."
+          ]
+        },
+        {
+          "name": "Sector Reconfiguration",
+          "button_press": "",
+          "description": [
+            "During Charging Mode, every incoming attack will be blocked by Jetavie at the cost of **250** Dodge Gauge. When Dodge Gauge is insufficient, **10 Electrical Load Points** will be consumed instead."
+          ]
+        },
+        {
+          "name": "Relentless Overflow",
+          "button_press": "During a Greatsword attack + Continuously Tap Basic Attack",
+          "description": [
+            "Continuously swings the Greatsword at the target, dealing Dark DMG."
+          ],
+          "result": ["- Deals a total of {0}% Dark DMG."],
+          "res_lv18": [440]
+        },
+        {
+          "name": "Diffusion Function",
+          "button_press": "During a Greatsword attack + Dodge + Tap/Hold Basic Attack",
+          "description": [
+            "Changes tactics during a sword attack skill to rapidly cast **Crystallized Effect** on the target instead, dealing Ignition DMG."
+          ],
+          "result": [
+            "- Tap Dodge deals a total of **{0}%** Ignition DMG, and applies a total of **1250** Combustible Charges.",
+            "- Hold Dodge followed by release deals a total of **{1}%** Ignition DMG, and applies a total of **2500** Combustible Charges."
+          ],
+          "res_lv18": [300, 600]
+        },
+        {
+          "name": "Transmuted Code",
+          "button_press": "During a Greatsword attack + Hold Basic Attack to start Charging",
+          "description": [
+            "Changes tactics during a sword attack skill to rapidly cast **Discharge/Ignite** instead, dealing DMG. **Discharge/Ignite** through this method cannot be followed-up."
+          ],
+          "result": [
+            "- Casting **Ignite** at incomplete charge deals a total of **{0}%** Ignition DMG.",
+            "- Casting **Discharge** at complete charge deals a total of **{1}%** Dark DMG."
+          ],
+          "res_lv18": [250, 250]
+        },
+        {
+          "name": "Effect: Ignition",
+          "button_press": "",
+          "description": [
+            "Combustible: Every 250 Combustible Charges will add 1 Combustible stack, up to 20 stacks.\nIgnition: Ignited units take Ignition DMG equal to Ignition stacks x30% (Tank Skills will not be triggered) every second for 10s."
+          ],
+          "result": [
+            "- The subsequent unit will inherit the Combustible/Ignition status of the last unit on the battlefield upon its death."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Terminal Deduction",
+      "skills": [
+        {
+          "name": "Invariable Origin",
+          "button_press": "100 Signature Energy + Tap Signature",
+          "description": [
+            "Jetavie enters **Panoramic Breakdown** Mode, dealing massive Dark DMG to surrounding enemies."
+          ],
+          "result": [
+            "- **Invariable Origin** deals a total of **{0}%** Dark DMG."
+          ],
+          "res_lv18": [1300]
+        },
+        {
+          "name": "Apocalyptic Rebellion",
+          "button_press": "Panoramic Breakdown + 100 Signature Energy + Tap Signature",
+          "description": [
+            "Jetavie leaps into the air and sunders the ground with great momentum to deal DMG, then exits **Panoramic Breakdown**."
+          ],
+          "result": [
+            "- Deals a total of **{0}%** Dark DMG.",
+            "- If Jetavie has an **Incendiary Emblem**, casts **Apocalyptic Rebellion: Ignition** instead, dealing **{1}%** Ignition DMG, then removes the target's Ignition status and deals Ignition DMG equal to **100% x Ignition stacks**."
+          ],
+          "res_lv18": [3000, 2000]
+        }
+      ]
+    },
+    "qte": {
+      "name": "Dark Concealment",
+      "description": "Throws her gun at the target, dealing Dark DMG.",
+      "result": ["- Deals a total of **{0}%** Dark DMG."],
+      "res_lv18": [660]
+    },
+    "leader": {
+      "name": "Remote Monitoring",
+      "description": "Increases Dark DMG of all members by 10%."
+    },
+    "class": {
+      "name": "Attacker",
+      "description": "Extra DMG Bonus increases by **{0}%**.",
+      "desc_lv18": [20]
+    },
+    "ss_rank": {
+      "name": "Autonomous Program",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Casting **Invariable Origin** triggers all available QTEs."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "Gain **70 Signature Energy** upon entering the battlefield. During **Panoramic Breakdown**, Extra DMG Bonus increases by 30%. When there are no **Munitions Orbs**, charged skills can be enhanced at the cost of **10 Electrical Load Points** instead."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Overfitted Model",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "DMG of Signal Orb charged skills increases by **100%**, and triggering Extreme Dodge via release restores **30 Electrical Load Points**."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "For every 1 **Munitions Orb** or **10 Electrical Load Points** consumed, Base DMG of **Reflective Chain** and **Inflow Incendiary** increases by **25%**, up to **75%**."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Central Recursion",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of **Invariable Origin** increases by **100%**."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of **Discharge** and **Ignite** increases by **70%**."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of **Apocalyptic Rebellion** increases by **40%**."
         }
       ]
     }

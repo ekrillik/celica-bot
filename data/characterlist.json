@@ -67,7 +67,8 @@
     "startrail",
     "parhelion",
     "daemonissa",
-    "pianissimo"
+    "pianissimo",
+    "daybreak"
   ],
   "formatted": [
     {
@@ -168,6 +169,10 @@
         {
           "emojis": "<:s_rank:1287636749052412026><:attacker:1285839106240417803><:physical_element:1290613978057146379><:glaciation:1288090076001210398>",
           "full_name": "Selena: Pianissimo"
+        },
+        {
+          "emojis": "<:s_rank:1287636749052412026><:attacker:1285839106240417803><:dark_element:1290613554923438102><:combustion:1288089747952107581>",
+          "full_name": "Jetavie: Daybreak"
         }
       ]
     },

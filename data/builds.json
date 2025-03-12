@@ -2467,6 +2467,30 @@
       }
     ]
   },
+  "daybreak": {
+    "unit_name": "Jetavie",
+    "frame_name": "Daybreak",
+    "set_list": [{ "name": "Main DPS Set", "memos": "4 Bathlon 2 Barcelo" }],
+    "builds": [
+      {
+        "set_name": "Main DPS Set",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Bathlon", "2x Barcelo"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Flamel"
+      }
+    ]
+  },
   "placeholder": {
     "unit_name": "Placeholder",
     "frame_name": "Placeholder",

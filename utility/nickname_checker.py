@@ -340,6 +340,11 @@ def check_nickname(nickname, caller):
             weapon = "orpheus' cradle"
             cub = "xue ge"
             memory = "burana"
+        case "daybreak":
+            character = "daybreak"
+            weapon = "ultimate arbiter"
+            cub = "n/a"
+            memory = "n/a"
 
         case _:
             if(caller == "character"):
@@ -761,6 +766,11 @@ def character_theme(nickname):
             colour = 0x5e40b4
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr5sailinna2q.png"
             thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr5sailinna3.png"
+        case "daybreak":
+            name = "Jetavie: Daybreak"
+            colour = 0x3e3c3e
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2jietawei2q.png"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr2jietawei3.png"
         case _:
             name = ""
             colour = ""

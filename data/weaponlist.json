@@ -444,11 +444,7 @@
     },
     {
       "name": "Revolvers",
-      "list": [
-        "Renewed Dawn ######",
-        "Eternal Peace #####",
-        "Load & Rest ####"
-      ]
+      "list": ["Renewed Dawn ######", "Eternal Peace #####", "Load & Rest ####"]
     },
     {
       "name": "Lustrous Katanas",
@@ -496,6 +492,14 @@
         "Orpheus' Cradle ######",
         "Laurel Crown #####",
         "Frost Poem ####"
+      ]
+    },
+    {
+      "name": "Energy Swords & Guns",
+      "list": [
+        "The Other Side ######",
+        "Nightstrider #####",
+        "Generic MK-2 ####"
       ]
     },
     {
