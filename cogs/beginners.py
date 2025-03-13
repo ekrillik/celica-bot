@@ -41,7 +41,7 @@ class Beginners(commands.Cog):
             value=f"- A rank Omniframes are always guaranteed on 10 pulls in any Omniframe banner.\n- Arrival and Fate banners are generally not recommended to be pulled on as Fate banners take more Black cards than normal banner and Arrival banners have 70% droprate.\n- Uniframes must be avoided at all cost as they have no purpose anymore.\n- C.U.B.s are more or less for whales. F2Ps can ignore.")
         await ctx.send(embed=embed)
 
-    @commands.hybrid_command(description="Displays a roadmap diagram by llyodius")
+    @commands.hybrid_command(description="Displays a roadmap diagram by FabioJo40")
     async def roadmap(self, ctx: commands.Context[commands.Bot]):
         date = datetime.date.today()
         embed = discord.Embed(title=f"Current Roadmap (as of {date.strftime("%b %dth %Y")})")
