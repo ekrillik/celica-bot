@@ -33,7 +33,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = characters[index]
         case "lotus" | "lucia lotus":
             character = "lotus"
-        case "eclipse" | "liv eclipse" | "小姐":
+        case "eclipse" | "liv eclipse" | "小姐" | "livblush":
             character = "eclipse"
         case "storm" | "nanami storm":
             character = "storm"
