@@ -53,7 +53,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "luminance"
         case "entropy" | "entrobrick" | "entropiss" | "entrokek" | "lee entropy":
             character = "entropy"
-        case "ember" | "queso" | "karenina ember":
+        case "ember" | "cheese's wife" | "karenina ember":
             character = "ember"
         case "pulse" | "nanami pulse":
             character = "pulse"
@@ -128,7 +128,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "hyperreal"
         case "ayla kaleido" | "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi" | "booba":
             character = "kaleido"  
-        case "lucia crimson weave" | "crimson weave" | "weave" | "motivation" | "vergil's daughter" | "cw" | "blanc's curse" | "bury the light" | "matt's girl" | "ojek" | "kang ojek":
+        case "lucia crimson weave" | "crimson weave" | "weave" | "cw" | "blanc's curse" | "matt's girl" | "ojek" | "kang ojek" | "aloha" | "sayonara" | "sayonara cw" | "creamson weeb":
             character = "crimson weave"
         case "hanying zitherwoe" | "zitherwoe" | "zitherhoe":
             character = "zitherwoe"
@@ -143,7 +143,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             boss = "lamia"
         case "brs" | "brick rock shooter" | "edgy miku" | "black rock shooter":
             character = "brs"
-        case "watanabe epitaph" | "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss" | "green guy" | "boomer" | "shi-yori's husband":
+        case "watanabe epitaph" | "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss" | "green guy" | "boomer" | "epipen":
             character = "epitaph"
         case "qu shukra" |"shukra"| "qukra" | "queen" | "legs" | "cryo's empress":
             character = "shukra"
@@ -169,7 +169,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "daemonissa"
         case "selena pianissimo" | "pianissimo" | "elis" | "ntr musician" | "piano":
             character = "pianissimo"
-        case "jetavie daybreak" | "daybreak" | "jetavie" | "omgkawaiiangel-chan" | "vtuber" | "gyaru":
+        case "jetavie daybreak" | "daybreak" | "jetavie" | "omgkawaiiangel-chan" | "vtuber" | "gyaru" | "shi-yori's wife":
             character = "daybreak"
         # Boss nicknames
         case "mado":
