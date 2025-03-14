@@ -108,7 +108,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "flambeau"
         case "liv empyrea" | "empy" | "solaeter" | "empyrea" | "flashbang" | "sol" | "angel" | "liv's gingerbread":
             character = "empyrea"
-        case "selena capriccio" | "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2" | "magikarp" | "kuyang" | "capybara" | "selena hallucinations":
+        case "selena capriccio" | "capriccio" | "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq" | "red soup" | "grimace shake" | "irisv2" | "magikarp" | "kuyang" | "capybara" | "selena hallucinations" | "hallucinations":
             character = "capriccio"
         case "pulao dragontoll" | "dragontoll" | "pulao" | "windbell's girl" | "windbell's wife":
             character = "dragontoll"
