@@ -2410,8 +2410,8 @@
     "unit_name": "Selena",
     "frame_name": "Pianissimo\n<:s_rank:1287636749052412026><:attacker:1285839106240417803><:physical_element:1290613978057146379><:glaciation:1288090076001210398>",
     "set_list": [
-      { "name": "Main DPS Set", "memos": "4 Burana 4 Patton" },
-      { "name": "Alternative DPS Set", "memos": "4 Burana 2 Cottie" },
+      { "name": "Main DPS Set", "memos": "4 Burana 2 Cottie" },
+      { "name": "Alternative DPS Set", "memos": "4 Burana 4 Patton" },
       { "name": "Glaciation Affix DPS Set", "memos": "4 Burana 4 Klenova" }
     ],
     "builds": [
@@ -2423,6 +2423,24 @@
         "description": [
           "Recommended for all ranks",
           "General DPS set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Burana", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core Passive"
+        ],
+        "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "Alternative DPS Set",
+        "set_type": "Alternative DPS",
+        "usage": "Alternative DPS",
+        "game_modes": "Pain Cage",
+        "description": [
+          "Recommended for all ranks",
+          "Alternative DPS Set",
+          "High Rank PPC Set",
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
@@ -2431,23 +2449,6 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Core Passive"
         ]
-      },
-      {
-        "set_name": "Alternative DPS Set",
-        "set_type": "Alternative DPS",
-        "usage": "Alternative DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "Alternative DPS Set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
-        "memories": ["4x Burana", "2x Cottie"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Core Passive"
-        ],
-        "harmony_rec": "None"
       },
       {
         "set_name": "Glaciation Affix DPS Set",
