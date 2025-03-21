@@ -81,5 +81,16 @@ class Beginners(commands.Cog):
         embed.add_field(name=f"Elemental Damage", value=f"{element_list}", inline=False)
         await ctx.send(embed=embed)
 
+    @commands.hybrid_command(description="Displays Kuro's stupid rank name change translation.")
+    async def rankstl(self, ctx: commands.Context[commands.Bot]):
+        embed = discord.Embed(title="Rank names translation (库洛傻逼/Fk you Kuro/クロカス)")
+        embed.add_field(name=f"", value=f"Elite = **B** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Professional = **A** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Concept = **S** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Zero Style/Zero = **SS** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Discovery = **SSS** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Ultra Instinct = **SSS+** RANK", inline=False)
+        await ctx.send(embed=embed)
+
 async def setup(bot: commands.Bot):
     await bot.add_cog(Beginners(bot))

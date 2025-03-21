@@ -157,9 +157,9 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "solacetune"
         case "wanshi lucid dreamer" | "lucid dreamer" | "lucid" | "ld" | "ocelot" | "aurora's wife":
             character = "lucid dreamer"
-        case "lucia pyroath" | "pyroath" | "hyperdawn" | "pyro":
+        case "lucia pyroath" | "pyroath" | "hyperdawn" | "pyro" | "newlywed":
             character = "pyroath"
-        case "yata fulgor" | "fulgor" | "yata" | "tomboy" | "oraora":
+        case "yata fulgor" | "fulgor" | "yata" | "tomboy" | "oraora" | "knockmeout":
             character = "fulgor"
         case "nanami startrail" | "startrail" | "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi" | "fox's knight":
             character = "startrail"
