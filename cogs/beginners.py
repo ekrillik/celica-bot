@@ -84,12 +84,12 @@ class Beginners(commands.Cog):
     @commands.hybrid_command(description="Displays Kuro's stupid rank name change translation.")
     async def rankstl(self, ctx: commands.Context[commands.Bot]):
         embed = discord.Embed(title="Rank names translation (库洛傻逼/Fk you Kuro/クロカス)")
-        embed.add_field(name=f"", value=f"Elite = **B** RANK", inline=False)
-        embed.add_field(name=f"", value=f"Professional = **A** RANK", inline=False)
-        embed.add_field(name=f"", value=f"Concept = **S** RANK", inline=False)
-        embed.add_field(name=f"", value=f"Zero Style/Zero = **SS** RANK", inline=False)
-        embed.add_field(name=f"", value=f"Discovery = **SSS** RANK", inline=False)
-        embed.add_field(name=f"", value=f"Ultra Instinct = **SSS+** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Elite/精英 = **B** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Expert/专家 = **A** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Concept/概念 = **S** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Zero grade/零式 = **SS** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Top grade/拓式 = **SSS** RANK", inline=False)
+        embed.add_field(name=f"", value=f"Ultra grade/极式 = **SSS+** RANK", inline=False)
         await ctx.send(embed=embed)
 
 async def setup(bot: commands.Bot):
