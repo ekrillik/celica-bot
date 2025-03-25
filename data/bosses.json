@@ -1,4 +1,46 @@
 {
+  "gwynplaine": {
+    "name": "Gwynplaine",
+    "post-oblivion": true,
+    "thumbnail": "",
+    "weakness_name": "Combustible (Fire)",
+    "start_time": "N/A",
+    "exppc": {
+      "knight": {
+        "hp": 13790000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 20690000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 30000000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
   "veronica": {
     "name": "Veronica",
     "post-oblivion": true,
