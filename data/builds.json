@@ -1668,11 +1668,10 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "Alternative Harmony Support set",
-          "Used when another character has equipped the Da Vinci 4pc set.",
+          "Harmony Support set",
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
-        "memories": ["4x Signa", "2x Philip II", "2x Philip II (Harmony)"],
+        "memories": ["4x Signa", "2x Da Vinci", "2x Da Vinci (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill"
@@ -1685,10 +1684,11 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "Harmony Support set",
+          "Alternative Harmony Support set",
+          "Used when another character has equipped the Da Vinci 4pc set.",
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
-        "memories": ["4x Signa", "2x Da Vinci", "2x Da Vinci (Harmony)"],
+        "memories": ["4x Signa", "2x Philip II", "2x Philip II (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill"
