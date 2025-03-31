@@ -48,6 +48,8 @@ class MyBot(commands.Bot):
         print('------')
         synced = await self.tree.sync()
         print(f"Synced {len(synced)} commands globally")
+        channel = self.get_channel(1280332533883600907)
+        await channel.send("Hello there. This is an announcement that I have taken dear Ek captive and he will be occupied with me doing my every bidding until I let him go. No amount of begging from any of you will get me to let him be free. I am also now in control of this server and this bot. Have a lovely day. ;)")
 
     async def setup_hook(self) -> None:
         self.client = aiohttp.ClientSession()

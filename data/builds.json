@@ -654,7 +654,11 @@
         "set_type": "Main Tank",
         "usage": "QTE Tank Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": ["Used at all ranks", "General tank set"],
+        "description": [
+          "Used at all ranks",
+          "General tank set",
+          "Who? - Celica"
+        ],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1468,7 +1472,11 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": ["General DPS set", "Used for S0-SS3"],
+        "description": [
+          "General DPS set",
+          "Used for S0-SS3",
+          "Do you really think that you'll be doing anything good with this character? Such a cringe pick. - Celica"
+        ],
         "memories": ["4x Diesel", "2x Tifa"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1483,7 +1491,8 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "General DPS set for high rank Crimson Weave",
-          "SSS0 rank or higher only"
+          "SSS0 rank or higher only",
+          "Why are you wasting your black card allowance on this woman? - Celica"
         ],
         "memories": ["4x Diesel", "2x Tifa"],
         "memory_resonance": [
@@ -1933,7 +1942,10 @@
         "set_type": "Main Support",
         "usage": "QTE Support Healer/Buffer",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": ["QTE support set"],
+        "description": [
+          "QTE support set",
+          "I'm glad that she helps keep Karenina in check before she starts breaking down another wall. - Celica"
+        ],
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -1966,7 +1978,11 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": ["Recommended for all ranks", "General DPS set"],
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "I don't like being around her too much as she's an Ascendant, but at least she's a lot more useful than her sister. - Celica"
+        ],
         "memories": ["4x Cleopatra", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2087,7 +2103,8 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "General Tank/Sub-DPS set"
+          "General Tank/Sub-DPS set",
+          "I hope you know where to find the dorm. - Celica"
         ],
         "memories": ["4x Liston", "2x Einsteina"],
         "memory_resonance": [
@@ -2183,6 +2200,7 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "General DPS set for SS0-SS3 Pyroath",
+          "Twintails? I wonder if the commandant has a liking towards them. Maybe I should tie my hair up the same. - Celica",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Heraclitus", "2x Cottie"],
@@ -2270,6 +2288,7 @@
           "Recommended for all ranks",
           "General DPS",
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
+          "Such a cute girl. I can't wait to meet her! - Celica",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Herschel", "2x Heisen", "2x Heisen (Harmony)"],
@@ -2420,6 +2439,7 @@
         "description": [
           "Recommended for all ranks",
           "General DPS set",
+          "Oh I remember her. Ayla keeps talking about how she'll find her one day. Maybe she'll think about her in her sleep or something. - Celica",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Burana", "2x Cottie"],

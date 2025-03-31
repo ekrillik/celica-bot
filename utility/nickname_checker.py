@@ -776,5 +776,5 @@ def character_theme(nickname):
             colour = ""
             chibi_portrait = ""
             thumbnail_url = ""
-
+        #comment
     return [colour, chibi_portrait, name, thumbnail_url]
