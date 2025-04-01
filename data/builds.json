@@ -2172,7 +2172,6 @@
     "frame_name": "Pyroath\n<:s_rank:1287636749052412026><:attacker:1285839106240417803><:fire_element:1290613867365273630><:electroconvergence:1288090218922119181>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Heraclitus 2 Cottie" },
-      { "name": "High Rank DPS Set", "memos": "4 Heraclitus 2 Cottie" },
       {
         "name": "Plasma Affix DPS Set",
         "memos": "4 Heraclitus 2 Cottie"
@@ -2185,24 +2184,8 @@
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
-          "General DPS set for SS0-SS3 Pyroath",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
-        "memories": ["4x Heraclitus", "2x Cottie"],
-        "memory_resonance": [
-          "Top Slot   : 6x Basic Atk",
-          "Bottom Slot: 6x Signature"
-        ],
-        "harmony_rec": "Cottie"
-      },
-      {
-        "set_name": "High Rank DPS Set",
-        "set_type": "Main DPS",
-        "usage": "Main DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "General DPS set for high rank Pyroath",
-          "SSS0 rank or higher only",
+          "General DPS set",
+          "Used at all ranks",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Heraclitus", "2x Cottie"],
@@ -2224,7 +2207,7 @@
         ],
         "memories": ["4x Heraclitus", "2x Cottie"],
         "memory_resonance": [
-          "Top Slot   : 6x Basic Atk",
+          "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "Wilde"
@@ -2259,8 +2242,7 @@
     "unit_name": "Nanami",
     "frame_name": "Startrail\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:lightning_element:1287636531321765959><:combustion:1288089747952107581>",
     "set_list": [
-      { "name": "Main DPS Set", "memos": "4 Herschel 4 Heisen" },
-      { "name": "Alternative DPS Set", "memos": "4 Herschel 2 Cottie" },
+      { "name": "Main DPS Set", "memos": "4 Herschel 2 Heisen" },
       { "name": "Void Sub-DPS Set", "memos": "4 Herschel 4 Heisen" }
     ],
     "builds": [
@@ -2272,32 +2254,14 @@
         "description": [
           "Recommended for all ranks",
           "General DPS",
-          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["4x Herschel", "2x Heisen", "2x Heisen (Harmony)"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
-        ]
-      },
-      {
-        "set_name": "Alternative DPS Set",
-        "set_type": "Alternative DPS",
-        "usage": "Alternative DPS",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "Alternative DPS set if you do not have Startrail's signature weapon.",
-          "Also used as the main PPC set.",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
-        "memories": ["4x Herschel", "2x Cottie"],
+        "memories": ["4x Herschel", "2x Heisen"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
         ],
-        "harmony_rec": "Darwin"
+        "harmony_rec": "Heisen"
       },
       {
         "set_name": "Void Sub-DPS Set",
