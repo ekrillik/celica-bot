@@ -2183,11 +2183,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "General DPS set",
-          "Used at all ranks",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
+        "description": ["General DPS set", "Used at all ranks"],
         "memories": ["4x Heraclitus", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2202,8 +2198,7 @@
         "game_modes": "PPC, Intensive Battle, Warzone",
         "description": [
           "Recommended for all ranks",
-          "This set will only be used for affix content with the plasma affix enabled.",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+          "This set will only be used for affix content with the plasma affix enabled."
         ],
         "memories": ["4x Heraclitus", "2x Cottie"],
         "memory_resonance": [
@@ -2224,11 +2219,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "General DPS set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
+        "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Heisen", "2x Darwin"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2251,11 +2242,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "General DPS",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
+        "description": ["Recommended for all ranks", "General DPS"],
         "memories": ["4x Herschel", "2x Heisen"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2268,10 +2255,7 @@
         "set_type": "Alternative Sub-DPS",
         "usage": "Void Sub-DPS",
         "game_modes": "Void Warzone",
-        "description": [
-          "Only used for Void Warzone.",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
+        "description": ["Only used for Void Warzone."],
         "memories": ["4x Herschel", "2x Heisen", "2x Heisen (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
