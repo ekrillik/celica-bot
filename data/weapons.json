@@ -635,7 +635,7 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "lb flash prototype": {
+  "lb - flash prototype": {
     "name": "LB - Flash Prototype",
     "weapon_type": "Pyro Katana",
     "rarity": 4,
@@ -659,7 +659,7 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "shield axe zl 07 prototype": {
+  "shield axe zl-07 prototype": {
     "name": "Shield Axe ZL-07 Prototype",
     "weapon_type": "Shield Axe",
     "rarity": 4,
