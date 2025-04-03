@@ -1457,7 +1457,7 @@
   },
   "crimson weave": {
     "unit_name": "Lucia",
-    "frame_name": "Crimson Weave\n<:s_rank:1287636749052412026><:attacker:1285839106240417803><:lightning_element:1287636531321765959><:umbrasurge:1288090169303371828>",
+    "frame_name": "Tsubricki\n<:s_rank:1287636749052412026><:attacker:1285839106240417803><:lightning_element:1287636531321765959><:umbrasurge:1288090169303371828>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Diesel 2 Cottie" },
       { "name": "High Rank DPS Set", "memos": "4 Diesel 2 Cottie" }
@@ -1484,7 +1484,7 @@
         "infographic": "https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/Builds/Attackers/Lucia+Crimson+Weave+%5B3+Builds%5D/High+Rank+CW+%5BDiesel+Cottie+Cottie%5D.png",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
-          "General DPS set for high rank Crimson Weave",
+          "General DPS set for high rank Tsubricki",
           "SSS0 rank or higher only"
         ],
         "memories": ["4x Diesel", "2x Cottie"],

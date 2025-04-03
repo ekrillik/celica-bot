@@ -128,7 +128,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "hyperreal"
         case "ayla kaleido" | "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi" | "booba":
             character = "kaleido"  
-        case "lucia crimson weave" | "crimson weave" | "weave" | "cw" | "blanc's curse" | "matt's girl" | "ojek" | "kang ojek" | "aloha" | "sayonara" | "sayonara cw" | "creamson weeb":
+        case "lucia crimson weave" | "crimson weave" | "weave" | "cw" | "blanc's curse" | "matt's girl" | "ojek" | "kang ojek" | "aloha" | "sayonara" | "sayonara cw" | "creamson weeb" | "tsubrickie" | "tsubricki":
             character = "crimson weave"
         case "hanying zitherwoe" | "zitherwoe" | "zitherhoe":
             character = "zitherwoe"

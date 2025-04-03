@@ -312,7 +312,7 @@
   },
   "toniris": {
     "name": "Toniris\n<:s_rank:1287636749052412026><:lightning_element:1287636531321765959>",
-    "sig_character": "Veritas",
+    "sig_character": "Bianca: Veritas",
     "base_rank": "S",
     "cub_type": "Pull, Charge",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3he2.webp",
@@ -379,7 +379,7 @@
   },
   "frost oath": {
     "name": "Frost Oath\n<:s_rank:1287636749052412026><:physical_element:1290613978057146379>",
-    "sig_character": "Rigor",
+    "sig_character": "Rosetta: Rigor",
     "base_rank": "S",
     "cub_type": "Crowd Control, Protection",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3ma1.webp",
@@ -446,7 +446,7 @@
   },
   "nitor": {
     "name": "Nitor\n<:s_rank:1287636749052412026><:fire_element:1290613867365273630>",
-    "sig_character": "Ember",
+    "sig_character": "Karenina: Ember",
     "base_rank": "S",
     "cub_type": "Damage",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3mao1.webp",
@@ -501,7 +501,7 @@
   },
   "boreas": {
     "name": "Boreas\n<:s_rank:1287636749052412026><:ice_element:1290613933106925638>",
-    "sig_character": "Glory",
+    "sig_character": "Chrome: Glory",
     "base_rank": "S",
     "cub_type": "Charge",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3ying1.webp",
@@ -568,7 +568,7 @@
   },
   "jet jaeger": {
     "name": "Jet Jaeger\n<:s_rank:1287636749052412026><:fire_element:1290613867365273630>",
-    "sig_character": "Starfarer",
+    "sig_character": "Nanami: Starfarer",
     "base_rank": "S",
     "cub_type": "Slice",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3hu.webp",
@@ -635,7 +635,7 @@
   },
   "moonhopper": {
     "name": "<:s_rank:1287636749052412026><:dark_element:1290613554923438102> Moonhopper",
-    "sig_character": "Scire",
+    "sig_character": "Karenina: Scire",
     "base_rank": "S",
     "cub_type": "Control",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3tu1.webp",
@@ -690,7 +690,7 @@
   },
   "shimmer": {
     "name": "Shimmer\n<:s_rank:1287636749052412026><:physical_element:1290613978057146379>",
-    "sig_character": "Stigmata",
+    "sig_character": "Bianca: Stigmata",
     "base_rank": "S",
     "cub_type": "Pull, Charge",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3yu1.webp",
@@ -745,7 +745,7 @@
   },
   "punchy": {
     "name": "Punchy\n<:s_rank:1287636749052412026><:fire_element:1290613867365273630>",
-    "sig_character": "Hyperreal",
+    "sig_character": "Lee: Hyperreal",
     "base_rank": "S",
     "cub_type": "Damage",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3quan1.webp",
@@ -800,7 +800,7 @@
   },
   "rainbow": {
     "name": "Rainbow\n<:s_rank:1287636749052412026><:ice_element:1290613933106925638>",
-    "sig_character": "Kaleido",
+    "sig_character": "Ayla: Kaleido",
     "base_rank": "S",
     "cub_type": "Pull, Damage",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3wuzei1.webp",
@@ -855,7 +855,7 @@
   },
   "motorbolt": {
     "name": "Motorbolt\n<:s_rank:1287636749052412026><:lightning_element:1287636531321765959>",
-    "sig_character": "Crimson Weave",
+    "sig_character": "Lucia: Crimson Weave",
     "base_rank": "S",
     "cub_type": "Pull, Damage",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3motor1.webp",
@@ -910,7 +910,7 @@
   },
   "hades fangs": {
     "name": "Hades Fangs\n<:s_rank:1287636749052412026><:lightning_element:1287636531321765959>",
-    "sig_character": "Feral",
+    "sig_character": "No. 21: Feral",
     "base_rank": "S",
     "cub_type": "Crowd Control, Damage",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3wolf1.webp",
@@ -965,7 +965,7 @@
   },
   "dawn chorus": {
     "name": "Dawn Chorus\n<:s_rank:1287636749052412026><:physical_element:1290613978057146379>",
-    "sig_character": "Echo",
+    "sig_character": "Alisa: Echo",
     "base_rank": "S",
     "cub_type": "Damage, Super Armor",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3griffon1.webp",
@@ -1020,7 +1020,7 @@
   },
   "cetus": {
     "name": "Cetus\n<:s_rank:1287636749052412026><:dark_element:1290613554923438102>",
-    "sig_character": "Lost Lullaby",
+    "sig_character": "Lamia: Lost Lullaby",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3dolphin1.webp",
@@ -1075,7 +1075,7 @@
   },
   "shadow wing": {
     "name": "Shadow Wing\n<:s_rank:1287636749052412026><:fire_element:1290613867365273630>",
-    "sig_character": "Epitaph",
+    "sig_character": "Watanabe: Epitaph",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3bat1.webp",
@@ -1130,7 +1130,7 @@
   },
   "huiyu": {
     "name": "Huiyu\n<:s_rank:1287636749052412026><:ice_element:1290613933106925638>",
-    "sig_character": "Shukra",
+    "sig_character": "Qu: Shukra",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3peacock1.webp",
@@ -1185,7 +1185,7 @@
   },
   "guardrake": {
     "name": "Guardrake\n<:s_rank:1287636749052412026><:void_element:1285900049909284864>",
-    "sig_character": "Oblivion",
+    "sig_character": "Luna: Oblivion",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3dragon1.webp",
@@ -1240,7 +1240,7 @@
   },
   "dreamwing": {
     "name": "Dreamwing\n<:s_rank:1287636749052412026><:physical_element:1290613978057146379>",
-    "sig_character": "Solacetune",
+    "sig_character": "Hanying: Solacetune",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3die1.webp",
@@ -1295,7 +1295,7 @@
   },
   "snowveil": {
     "name": "Snowveil\n<:s_rank:1287636749052412026><:ice_element:1290613933106925638>",
-    "sig_character": "Lucid Dreamer",
+    "sig_character": "Wanshi: Lucid Dreamer",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3fox1.webp",
@@ -1348,113 +1348,113 @@
       }
     ]
   },
-  "yi kong": {
-    "name": "Yi Kong\n<:s_rank:1287636749052412026><:fire_element:1290613867365273630>",
-    "sig_character": "Pyroath",
+  "corvus": {
+    "name": "Corvus\n<:s_rank:1287636749052412026><:fire_element:1290613867365273630>",
+    "sig_character": "Lucia: Pyroath",
     "base_rank": "S",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3raven1.webp",
     "skills_list": [
-      "Swiping Pound",
-      "Pouring Flames",
-      "Shiny Flight",
-      "Magnificent Grip",
-      "Brilliant Radiance",
-      "Devouring Conflagration",
-      "Apricity of Tomorrow"
+      "Falling Meteorite",
+      "Soaring Flame",
+      "Platinum Spark",
+      "Brilliant Light",
+      "Wing Blaze",
+      "Burning Torchlight",
+      "Bright Star"
     ],
     "active_skills": [
       {
-        "skill_name": "Swiping Pound",
+        "skill_name": "Falling Meteorite",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Yi Kong will circle around the target before slamming down, grouping surrounding enemies and dealing 1800% DMG once."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Corvus will circle around the target, dive, and pull in nearby enemies, dealing 1800% DMG once."
       },
       {
-        "skill_name": "Pouring Flames",
+        "skill_name": "Soaring Flame",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Yi Kong will breathe flames at the target from the sky, dealing 500% DMG 4 times."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Corvus will spit fire at the target from above, dealing 500% DMG 4 times."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Shiny FLight",
+        "skill_name": "Platinum Spark",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "Yi Kong's Active Skills deal 70% more DMG."
+        "skill_desc": "Corvus' Active Skills deal 70% more DMG."
       },
       {
-        "skill_name": "Magnificent Grip",
+        "skill_name": "Brilliant Light",
         "skill_number": "Passive Skill 2",
-        "skill_desc": "Increases the ATK of Yi Kong's carrier by 100."
+          "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
-        "skill_name": "Brilliant Radiance",
+        "skill_name": "Wing Blaze",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Upon activating Yi Kong's Active Skills, the carrier's Extra DMG Bonus will increase by 5% for 8s. Duration resets every time it is triggered."
+        "skill_desc": "Each time Corvus casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time the effect is triggered."
       },
       {
-        "skill_name": "Devouring Conflagration",
+        "skill_name": "Burning Torchlight",
         "skill_number": "Passive Skill 4",
-        "skill_desc": "Increases the carrier's Fire DMG by 10% and the carrier's Lightning DMG during Electronic Blast state by 10%."
+        "skill_desc": "Increases the carrier's Fire DMG by 10%; Lightning DMG during Electric Storm Flash status increases by 10%."
       },
       {
-        "skill_name": "Apricity of Tomorrow",
+        "skill_name": "Bright Star",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Lucia: Pyroath casts Basic Attack - Air-splitting Rays with Yi Kong equipped, summon Yi Kong to assist, dealing 2500% Fire DMG once. Base DMG increase effect of Radiant Engraving towards Signature Move - Auxiliary Precision Slash and Signature Move - Endless Eclipse increases by 20%"
+        "skill_desc": "When Lucia: Pyroath casts Basic Attack - Aura Blast with Corvus equipped, she will summon Corvus to launch a joint attack, dealing 2500% Fire DMG once. Aura Marks will further amplify the Base DMG Boost of Signature - Crowd Slash and Signature -Eclipse Daybreak by 20%."
       }
     ]
   },
-  "an ji": {
-    "name": "An Ji\n<:s_rank:1287636749052412026><:lightning_element:1287636531321765959>",
+  "bramble angler": {
+    "name": "Bramble Angler\n<:s_rank:1287636749052412026><:lightning_element:1287636531321765959>",
     "sig_character": "Nanami: Startrail",
     "base_rank": "S",
     "cub_type": "Pull, Damage",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3anglerfish1.webp",
     "skills_list": [
-      "Lightlure Hunt",
+      "Glowbait Hunt",
       "Fin Barrage",
-      "Shielded Sortie",
-      "Fluorescent Dissolution",
-      "Piercing Bite",
-      "Cosmic Fissure",
-      "Phosphorescent Twister"
+      "Shield Bash Ambush",
+      "Luminase Unravel",
+      "Fangpierce",
+      "Cosmic Flame Rift",
+      "Luminous Tornado"
     ],
     "active_skills": [
       {
-        "skill_name": "Lightlure Hunt",
+        "skill_name": "Glowbait Hunt",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, An Ji will rush towards the target, gathering nearby enemies and dealing 1800% Lightning DMG 1 time."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Bramble Angler will charge toward the target and pull in nearby enemies, dealing 1800% DMG once."
       },
       {
         "skill_name": "Fin Barrage",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, An Ji will jump in the air and fire a laser at the target that deals 500% Lightning DMG 1 time, then fire missiles that deal 250% Lightning DMG 6 times."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Bramble Angler will leap in the air, unleash laser, deal 500% DMG once, and fire missiles, dealing 250% DMG for 6 times."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Shielded Sortie",
+        "skill_name": "Shield Bash Ambush",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "An Ji's Active Skill deals 70% more DMG."
+        "skill_desc": "Bramble Angler's Active Skills deal 70% more damage."
       },
       {
-        "skill_name": "Fluorescent Dissolution",
+        "skill_name": "Luminase Unravel",
         "skill_number": "Passive Skill 2",
         "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
-        "skill_name": "Piercing Bite",
+        "skill_name": "Fangpierce",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Each time An Ji casts an Active Skill, increases the carrier's Extra DMG Bonus by 5% for 8s. Duration resets each time it is triggered."
+        "skill_desc": "Each time Bramble Angler casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time the effect is triggered."
       },
       {
-        "skill_name": "Cosmic Fissure",
+        "skill_name": "Cosmic Flame Rift",
         "skill_number": "Passive Skill 4",
-        "skill_desc": "Increases the carrier's Lightning DMG by 10%. When a Blaze Emblem or Cinder Emblem is held, increases Fire DMG by 10%."
+        "skill_desc": "Increases the carrier's Lightning DMG by 10%. If the carrier has the Blazing Mark or the Ember Mark, their Fire DMG increases by 10%."
       },
       {
-        "skill_name": "Phosphorescent Twister",
+        "skill_name": "Luminous Tornado",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Nanami: Startrail casts Starfall Collapse or an enhanced Burning Breakaway with An Ji equipped, summons An Ji to perform a combined attack that deals 1250% Lightning DMG 2 times. Base DMG of lightstreams, Heavenly Star Piercer, and Gigabyte Star Sunder increases by 60%."
+        "skill_desc": "When Startrail casts Meteoric Doom or an enhanced version of Blazing Rift with Bramble Angler equipped, she will summon Bramble Angler to launch a joint attack, dealing 1250% Lightning DMG twice. Base DMG of Flowing Light, Cosmic Starstrike, and Starshard Slash increases by 60%."
       }
     ]
   },
@@ -1614,7 +1614,7 @@
       {
         "skill_name": "Preface of Light and Dark",
         "skill_number": "Passive Skill 4",
-        "skill_desc": "Increases the carrier's Physical DMG by **10%**. While an Ice Spike is active, increases Glaciation DMG by **10%**."
+        "skill_desc": "Increases the carrier's Physical DMG by **10%**. While Ice Spikes persist, increases Glaciation DMG by **10%**."
       },
       {
         "skill_name": "Bellstrike Reverberation",

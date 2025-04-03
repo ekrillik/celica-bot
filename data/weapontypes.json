@@ -106,16 +106,16 @@
   "tactical tonfas": ["standard tactical tonfas", "everburning ray", "cestus"],
   "pipa": ["frontier foliage", "moonside petal", "dream roamer"],
   "revolver": ["load & rest", "eternal peace", "renewed dawn"],
-  "lustrous katana": [
+  "pyro katana": [
     "prototype lb lightspeed",
     "fogged glow",
-    "dawn's flaming feathers"
+    "flamewing of dawn"
   ],
-  "power fists": ["night rakshasa", "purging levin", "morrow's executioner"],
-  "charge blade": [
+  "powered arms": ["night rakshasa", "purging levin", "fudo myo-o"],
+  "shield axe": [
     "prototype shield axe zl-07",
     "type zl-09 illuminance",
-    "star tunnel of light"
+    "starlight glare"
   ],
   "keystaff": ["primeval key", "starpool connector", "epochal authority"],
   "moon umbrella": [

@@ -47,19 +47,15 @@
     "standard tactical tonfas",
     "frontier foliage",
     "load & rest",
-    "prototype lb-lightspeed",
-    "night rakshasa",
-    "prototype shield axe zl-07",
-    "primeval key",
-    "evening's grandeur",
+    "lb - flash prototype",
     "photophage",
     "iron star type vi",
     "overture",
     "pioneer",
     "gray iron",
     "hope of the village",
-    "night rakshasa",
-    "prototype shield axe zl-07",
+    "rasetsu",
+    "shield axe zl-07 prototype",
     "primeval key",
     "evening's grandeur",
     "frost poem",
@@ -106,9 +102,9 @@
     "everburning ray",
     "moonside petal",
     "eternal peace",
-    "fogged glow",
-    "purging levin",
-    "type zl-09 illuminance",
+    "mist netherlight",
+    "raijin",
+    "sparkle zl-09 - mod",
     "starpool connector",
     "skylit nightmare",
     "laurel crown",
@@ -118,8 +114,6 @@
     "blooming rose",
     "whitefrost ruler",
     "progressive knife",
-    "purging levin",
-    "type zl-09 illuminance",
     "starpool connector",
     "lotus berserker",
     "type zero",
@@ -183,9 +177,9 @@
     "cestus",
     "dream roamer",
     "renewed dawn",
-    "dawn's flaming feathers",
-    "morrow's executioner",
-    "star tunnel of light",
+    "flamewing of dawn",
+    "fudo myo-o",
+    "starlight glare",
     "epochal authority",
     "lament of night's debauchery",
     "orpheus' cradle"
@@ -447,27 +441,27 @@
       "list": ["Renewed Dawn ######", "Eternal Peace #####", "Load & Rest ####"]
     },
     {
-      "name": "Lustrous Katanas",
+      "name": "Pyro Katana",
       "list": [
-        "Dawn's Flaming Feathers ######",
-        "Fogged Glow #####",
-        "Prototype LB-Lightspeed ####"
+        "Flamewing of Dawn ######",
+        "Mist Netherlight #####",
+        "LB - Flash Prototype ####"
       ]
     },
     {
-      "name": "Power Fists",
+      "name": "Powered Arms",
       "list": [
-        "Morrow's Executioner ######",
-        "Purging Levin #####",
-        "Night Rakshasa ####"
+        "Fudo Myo-o ######",
+        "Raijin #####",
+        "Rasetsu ####"
       ]
     },
     {
-      "name": "Charge Blades",
+      "name": "Shield Axe",
       "list": [
-        "Star Tunnel of Light ######",
-        "Type ZL-09 Illuminance #####",
-        "Prototype Shield Axe ZL-07 ####"
+        "Starlight Glare ######",
+        "Sparkle ZL-09 - Mod #####",
+        "Shield Axe ZL-07 Prototype ####"
       ]
     },
     {

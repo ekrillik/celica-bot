@@ -2773,39 +2773,35 @@
     "leap": [
       {
         "name": "Overclocked Magnetic Storm",
-        "description": ["Base DMG of Lightning Flash increases by 30%."],
-        "level9": ["**Level 9**: Lightning Flash pulls in nearby enemies."],
+        "description": ["Base DMG of [Lightning Flash] increases by 30%."],
+        "level9": ["**Level 9**: Pulls in nearby enemies when casting [Lightning Flash]."],
         "level18": [
-          "**Level 18**: Bianca: Veritas can also enter Sniping Mode by pinging Yellow Orbs after a Red 3-Ping.",
-          "Passive: Light Trail's Flash added: Bianca: Veritas can quickly ping Yellow Orbs after a Red 3-Ping. This action is able to evade enemy attacks.",
-          "Passive: Gravity Trap added: Effect of Executioner increases to 25%."
+          "**Level 18**: After a Red Orb 3-Ping, pinging Yellow Orbs will also activate Sniping Form. New Effect [Passive -Thunderbolt Streak]: Yellow Orb can be immediately pinged after a Red Orb 3-Ping. Veritas will dodge incoming attacks during this action.\nNew Effect [Passive - Gravitational Trap]: The effect of [Executioner] increases to 25%."
         ]
       },
       {
-        "name": "Instant Spike",
+        "name": "Swift Archer",
         "description": [
-          "Base DMG of lightning arrows fired while in Sniping Mode increases by 20%. Base DMG of lightning arrows fired while Bianca: Veritas has Electro Charge increases by 20%."
+          "Base DMG of the lightning arrows fired in Sniping Form increases by 20%. Base DMG of the lightning arrows fired in the Electro Charge Form increases by 20%."
         ],
         "level9": [
-          "**Level 9**: After entering Sniping Mode and firing three lightning arrows, hold Basic Attack to charge power and fire Finale Arrows, exiting Sniping Mode early. Fires 1 / 2 / 3 Finale Arrows based on the time spent charging. Each Finale Arrow deals 725% Lightning DMG. While charging, Bianca: Veritas gains Super Armor.",
-          "Passive: Thunderbolt Mirage added: Bianca: Veritas can quickly ping Blue Signal Orbs after a Red 3-Ping. This action is able to evade enemy attacks.",
-          "Passive: Chain Magnetism added: The first target to be hit by Bianca: Veritas' lightning arrow will be marked and immobilized (except Bosses) until Bianca: Veritas exits Sniping Mode or the target is defeated. If another lightning arrow hits the marked target, the immobilization effect will be spread to nearby unaffected targets (except Bosses). This effect lasts for 2.5s. Triggering this effect again refreshes the duration."
+          "**Level 9**: - Lv.9: After firing 3 lightning arrows in Sniping Form, holding Basic Attack can charge and launch 1/2/3 Terminating Arrows based on the charging duration and exit Sniping Form early. Each Terminating Arrow deals 725% Lightning DMG. While charging, Bianca: Veritas gains Super Armor. New Effect [Passive - Thunderous Illusion]: Blue Orbs can be immediately pinged after a Red Orb 3-Ping. Veritas will dodge incoming attacks during this action.",
+          "New Effect [Passive - Magnetic Chain]: The first enemy (except Boss enemies) hit by Bianca: Veritas's lightning arrow will be marked and immobilized until Veritas leaves Sniping Form or when the enemy dies. If the marked enemy is hit by the lightning arrow again, the immobilization effect will spread to nearby enemies that are not immobilized (except Boss enemies). This effect lasts 2.5s, and the duration will reset when the enemy is immobilized again."
         ],
         "level18": [
-          "**Level 18**: Exiting Sniper Mode by firing either 6 lightning arrows or Finale Arrows is followed up by Resounding Grace, a 6-hit AOE attack that locks on to the target's position and deals 600% DMG in total. Bianca: Veritas is immune to all incoming attacks and DMG while performing Resounding Grace.",
-          "Passive: Fulmination's Awe added: Effect of Fulminology increases to 20%."
+          "**Level 18**: After firing 6 lightning arrows or 3 Terminating Arrows to exit Sniping Form, launches [Reverberating Flash] to strike the locked target's location 6 times, dealing 600% AOE DMG in total. Bianca: Veritas becomes immune to DMG and Hit effects while casting [Reverberating Flash].",
+          "New Effect [Passive - Tapetum Viola]: The effect of [Fulminology] increases to 20%."
         ]
       },
       {
-        "name": "Indignant Bolt",
-        "description": ["Base DMG of Ire of Lightning increases by 15%."],
+        "name": "Lightning Bloom",
+        "description": ["Base DMG of [Signature - Ire of Lightning] increases by 15%."],
         "level9": [
-          "**Level 9**: Every lightning arrow fired while in Sniping Mode additionally grants 4 Energy. Furthermore, every lightning arrow grants one Red Signal Orb. Bianca: Veritas can gain up to 3 Red Signal Orbs this way every time she enters the battlefield."
+          "**Level 9**: Firing a lightning arrow in Sniping Form grants 4 extra Signature Energy. Each lightning arrow grants one extra Red Orb, up to 3 Red Orbs for each entrance."
         ],
         "level18": [
-          "**Level 18**: Performing Ire of Lightning rearranges Bianca: Veritas' Signal Orbs so that Red Signal Orbs will be pushed to the front (up to 3 Red Signal Orbs).",
-          "Passive: Reverse Surge added: Bianca: Veritas gains 76 Energy when she enters the battlefield for the first time. Every subsequent entry grants 18 Energy.",
-          "Passive: Vow of Thunder added: Effect of Greased Lightning increases to 30%."
+          "**Level 18**: Casting [Signature - Ire of Lightning] will move up to 3 Red Orbs to the front of the orb bar. New Effect [Passive - Reversed Arc]: Gains an extra 76 Signature Energy upon entering battle for the first time, and 18 Signature Energy for each entrance later.",
+          "New Effect [Passive - Thunderstruck]: The effect of [Greased Lightning] increases to 30%."
         ]
       }
     ]
@@ -5530,43 +5526,39 @@
     },
     "leap": [
       {
-        "name": "Channeling Pursuit",
+        "name": "Thunderous Lunge",
         "description": [
-          "Before the animation of a Red or Yellow 3-Ping ends, Signal Orbs can be additionally input once to add Thunderbolt to the final hit of the current Red or Yellow 3-Ping. During the animation of a Blue 3-Ping, Signal Orbs can be additionally input once to immediately use [Spear Lunge] and add Thunderbolt. Thunderbolt deals 300% / 600% / 900% Lightning DMG based on the number of orbs pinged during the additional input."
+          "Pinging before the Red/Yellow 3-Ping Skill ends to attach a lightning bolt to the last Red/Yellow Orb hit. Pinging during a Blue 3-Ping to cast [Spear Lunge] immediately with an extra lightning bolt. The lightning bolt deals 300%/600%/900% Lightning DMG based on the number of orbs pinged."
         ],
         "level9": [
-          "**Level 9**: Upon the additional input of a 3-Ping during the animation of a 3-Ping, gain 1 stack of Lightning Conduit. Maximum Lightning Conduit stacks: 2. When performing [Spear Lunge], Lightning Conduit stacks are consumed to grant additional [Electric Charge]."
+          "**Level 9**: Gains 1 stack of Lightning Capacity upon a 3-Ping during a 3-Ping Skill, stacking up to 2 times. When [Spear Lunge] is triggered, all Lightning Capacity stacks are consumed, granting the same number of stacks of [Electric Charge]."
         ],
         "level18": [
-          "**Level 18**: Upon consuming Lightning Conduit stacks, each stack of Lightning Conduit recovers 2 Signal Orbs of the same random color.",
-          "[Passive: Eternal Battlefield] added effect: Upon consuming Lightning Conduit stacks, each stack of Lightning Conduit recovers 16 Energy."
+          "**Level 18**: Each stack of Lightning Capacity consumed will restore 2 random Signal Orbs of the same color. New Effect of [Passive - Eternal Battlefield] added: Each stack of Lightning Capacity consumed will restore 16 Signature Energy."
         ]
       },
       {
-        "name": "Rumbling Might",
+        "name": "Thundering Crash",
         "description": [
-          "When performed with maximum [Electric Charge] stacks, Base DMG of [Lightning Fall] increases by 30%."
+          "Base DMG of [Lightning Fall] with max stacks increases by 30%."
         ],
         "level9": [
-          "**Level 9**: Upon switch-in, the first cast of [Lightning Fall] grants 20 Energy. Performing [Lightning Fall] with maximum [Electric Charge] stacks rearranges Signal Orbs into 3-Pings."
+          "**Level 9**: Vera: Garnet gains 20 Signature Energy when casting [Lightning Fall] for the first time after she is switched in. Casting [Lightning Fall] with max stacks will rearrange the Signal Orbs into 3-Pings."
         ],
         "level18": [
-          "**Level 18**: When performed with maximum [Electric Charge] stacks, Extra DMG Bonus of [Lightning Fall] increases by 30%.",
-          "[Passive: Unyielding Breacher] added effect: Lightning Resistance Reduction effect of **Turbulence Interference** inflicted by Vera: Garnet increases by 10%."
+          "**Level 18**: Extra DMG Bonus of [Lightning Fall] with max stacks increases by 30%. New Effect of [Passive - Unyielding Breacher]: The **Turbulence Interference** effect inflicted by Vera: Garnet increases by 10%."
         ]
       },
       {
-        "name": "Refulgent Piercer",
+        "name": "Blazing Spear",
         "description": [
-          "While performing [Shining Piercer], a 3-Ping can be additionally input to end the animation early and perform Refulgent Piercer that pierces the enemy, dealing 2500% Lightning DMG, and gaining a stack of [Electric Charge]. Vera: Garnet then smites the enemy with thunderbolt, dealing 600% Lightning DMG.",
-          "[Passive: Eternal Battlefield] added effect: [Lightning Fall] can be cast immediately after Refulgent Piercer."
+          "Vera: Garnet can ping an extra set of 3-Ping Orbs when casting [Signature - Shining Piercer] to end the skill early and cast Blazing Spear, piercing the target, dealing 2500% Lightning DMG, and gaining 1 stack of Electric Charge. Afterward, she calls down lightning to deal 600% Lightning DMG. New Effect of [Passive - Eternal Battlefield]: Vera can cast Lightning Fall immediately after Blazing Spear."
         ],
         "level9": [
-          "**Level 9**: Upon performing QTE, recover Energy to 20 if Vera: Garnet has less than 20 Energy. Upon using [Shining Piercer], trigger all available QTEs."
+          "**Level 9**: Replenishes Signature Energy to 20 when casting a QTE if it's below 20. Casting [Signature - Shining Piercer] will activate all available QTEs."
         ],
         "level18": [
-          "**Level 18**: While performing Refulgent Piercer, a 3-Ping can be additionally input to increase the skill's Extra DMG Bonus by 50%.",
-          "[Passive: Goddess of War] added effect: When performing Refulgent Piercer, Base DMG of Refulgent Piercer increases by 30% for every stack of [Electric Charge] Vera: Garnet currently has."
+          "**Level 18**: Pinging an extra set of 3-Ping Orbs when casting Blazing Spear increases its Extra DMG Bonus by 50%. New Effect of [Passive - Goddess of War]: When casting Blazing Spear, each stack of [Electric Charge] increases its Base DMG by 30%."
         ]
       }
     ]
@@ -5957,41 +5949,39 @@
     },
     "leap": [
       {
-        "name": "Illustrious Ceremony",
+        "name": "Splendorous Rite",
         "description": [
-          "Base DMG of Signal Orbs increases by 30%. Another set of Signal Orbs can be immediately pinged while using any Orb Skill, but cannot be performed consecutively."
+          "Signal Orbs deal 30% more Base DMG. Liv can immediately perform another ping during any ping but can't cast this continuously."
         ],
         "level9": [
-          "**Level 9**: When entering battle, rearrange all Signal Orbs into 3-Pings upon the first activation of Divine Prayer."
+          "**Level 9**: The first Prayer Liv makes after entering the battlefield will rearrange the Signal Orbs into 3-Pings."
         ],
         "level18": [
-          "**Level 18**: Upon swapping in, immediately activate [Chaos Oath], gaining 12 Signature Energy and 12 Prayer. [Passive:Hierophany] added effect: Upon activating [Chaos Oath] or [Purity Oath], if Prayer is full, automatically activate [Divine Prayer]."
+          "**Level 18**: When switched in, casts [Chaos Oath] and gains 12 Signature Energy and 12 Prayer. New Effect of [Passive - Hierophany]: After Liv casts [Chaos Oath] or [Purity Oath] through orb pings, full Prayer will automatically trigger [Divine Prayer]."
         ]
       },
       {
-        "name": "Pious Promise",
+        "name": "Devout Promise",
         "description": [
-          "Increase the Extra DMG Bonus of [Chaos Oath] and [Purity Oath] by 20%. [Signature - Sea of Sangharama] can be immediately activated after performing [Chaos Oath] or [Purity Oath]."
+          "Extra DMG Bonus of [Chaos Oath] and [Purity Oath] increases by 20%. Liv can cast [Signature - Sea of Sangharama] immediately after [Chaos Oath] or [Purity Oath]."
         ],
         "level9": [
-          "**Level 9**: Upon activating [Purity Oath], gather surrounding enemies."
+          "**Level 9**: Pulls in nearby enemy units after casting [Purity Oath]."
         ],
         "level18": [
-          "**Level 18**: When entering battle, gain a set of 3-Ping upon the first activation of Divine Prayer. After casting any type of [Oath] with maximum stacks of amplification, obtain 24 Energy.",
-          "[Passive: Martyrdom] added effect: After pinging the 3rd set of orbs during [Empyreal Prayer], if there are any remaining Signal Orbs of the same color as the 3rd set of orbs pinged, consume up to 3 Signal Orbs of the same color and increase the Extra DMG Bonus of [Empyreal Prayer] by 5% / 10% / 15% based on the number of orbs consumed. "
+          "**Level 18**: Liv gains 1 set of random 3-Ping Orbs through the first Prayer she makes after entering the battlefield. Gains 24 Signature Energy after casting full stacks of any [Oath]. New Effect of [Passive - Martyrdom]: After pinging the 3rd set of orbs during [Empyreal Prayer], if there are still orbs of the set's color, pings up to 3 orbs of that color and grants a 5%/10%/15% Extra DMG Bonus to [Empyreal Oath] based on the number of orbs pinged."
         ]
       },
       {
-        "name": "Conjunction of Grace and Might",
+        "name": "Blessing and Retribution",
         "description": [
-          "The activation of [Empyreal Oath] will generate Purifying Blaze that heals allies for 20% of Emyprea's ATK and deals 60% Fire DMG every 0.5s in a large area. Purifying Blaze lasts for 5s."
+          "[Empyreal Oath] will generate Rain of Incineration, healing allies for 20% ATK and dealing 60% Fire DMG to enemies within a large area every 0.5s for 5s."
         ],
         "level9": [
-          "**Level 9**: The 6 Signal Orbs gained upon activation of [Signature - Sea of Sangharama] will be 2 sets of 3-Pings and will be placed at the front of the Signal Orb bar."
+          "**Level 9**: The 6 orbs granted by [Signature - Sea of Sangharama] are guaranteed to be 2 sets of 3-Ping Orbs and put at the front of the line."
         ],
         "level18": [
-          "**Level 18**: The activation speed of Empyreal Prayer is increased, and the activation will trigger all available QTEs.",
-          "[Passive: Revelation] added effect: Base DMG of [Prayer Ripple] during [Empyreal Prayer] increases by 100%."
+          "**Level 18**: Casts [Empyreal Oath] faster and activates all available QTEs during so. New Effect of [Passive -Revelation]: [Prayer Ripple] triggered during [Empyreal Prayer] deals 100% more Base DMG."
         ]
       }
     ]
@@ -6887,54 +6877,49 @@
     },
     "leap": [
       {
-        "name": "Phosphorescent Dawn",
+        "name": "Faint Light",
         "description": [
-          "Base DMG of Signal Orbs increases by 50%.",
-          "Upon performing [Comet Propulsion], Scire becomes combo-ready. Pinging Signal Orbs in this state will be considered as Comet Combos, during which Scire gains Super Armor.",
-          "Comet Combo 1: Deals 200% / 400% / 600% Dark DMG, rearranges Signal Orbs into 3-Pings, and triggers Matrix if available (gains 1 Signal Orb upon successfully triggering Matrix).",
-          "Comet Combo 2: Deals 240% / 480% / 720% Dark DMG.",
-          "Comet Combo Finisher: Deals 300% / 600% / 900% Dark DMG."
+          "The Base DMG of pinging Signal Orbs increases by 50%.\nAfter casting [Comet Propulsion], Scire enters a combo preparation state. During this state, pinging Signal Orbs is considered a comet combo, granting Super Armor. Comet Combo 1: Deals 200% / 400% / 600% Dark DMG, rearranges Signal Orbs into 3-Pings, and triggers Matrix if it is not on cooldown (upon successful trigger, randomly gains 1 Signal Orb). Comet Combo 2: Deals 240% / 480% / 720% Dark DMG. Comet Finish: 300% / 600% / 900% Dark DMG."
         ],
         "level9": [
-          "**Level 9**: When pinging orbs during the Comet Combo, Scire grants 120 / 240 / 360 points of Ampere Accumulation to the party. Comet Combo Finisher additionally grants 24 / 48 / 72 points of Ampere Accumulation.",
-          "[Core Passive-Space Walk] added effect: Affix: Electroconvergence",
-          "- Effect Resource: Maximum points of Ampere Accumulation: 1000.",
-          "- When the Effect is triggered: Character with the Electroconvergence Effect enters the Electronic Blast state and causes lightning to fall around themselves, dealing 800% Electroconvergence DMG every 2s for 12s (this cannot trigger the Tank Class passive).",
-          "[QTE-Dawn Fall] added effect: Deals 100% Electroconvergence DMG."
+          "**Level 9**: When pinging Singal Orbs during a comet combo, Scire will grant 120 / 240 / 360 electric charge; Comet Finish grants an additional grants 24 / 48 / 72 electric charge.",
+          "[Core Passive - Space Walk] New Effect: [Plasma Beam]:",
+          "- Effect Charge: Maximum electric charge is 1000 points.",
+          "- Effect Activation: The character enters the Electric Storm Flash state, dealing 800% Plasma Beam DMG to nearby units every 2s (does not trigger Tank Class skills), lasting 12s.",
+          "New effect of [QTE - Dawn Fall] added: Deals 100% Plasma Beam DMG."
         ],
         "level18": [
-          "**Level 18**: When pinging Red Signal Orbs, Scire gains an Anti-Gravity Shield equal to 3% / 6% / 10% of max HP.",
-          "[Passive-Faint Light Level 2] added effect: When Scire has an Anti-Gravity Shield, her ATK increases by 15%."
+          "**Level 18**: When pinging Red Orbs, Scire will gain an anti-gravity shield equal to 3% / 6% / 10% of maximum HP.",
+          "New effect of [Passive - Faint Light Lv.2] added: While the anti-gravity shield exists, Scire gains a 15% ATK increase."
         ]
       },
       {
         "name": "Mass-Energy Conversion",
         "description": [
-          "Every 3-Ping consumed in charging [Leap Attack] increases Extra DMG Bonus of the current cast of the skill by 8%."
+          "Each set of 3-Ping Signal Orbs consumed while charging [Leap Attack] increases the Extra DMG Bonus of this Leap Attack by 8%."
         ],
         "level9": [
-          "**Level 9**: Pulls in nearby enemies while charging [Leap Attack]. Trigger Matrix if available."
+          "**Level 9**: While charging [Leap Attack], it will pull in nearby targets and trigger Matrix if it is available."
         ],
         "level18": [
-          "**Level 18**: Every 3-Ping consumed in charging [Leap Attack] increases Extra DMG Bonus of the next cast of [Signature-Starshatter Horizon] by 10%.",
-          "[Passive-Banishing Sunglow Level 2] added effect: Dark Resistance Reduction effect of **Chain Fusion** inflicted by Scire increases by 10%. "
+          "**Level 18**: Each set of 3-Ping Signal Orbs consumed while charging [Leap Attack] increases the Extra DMG Bonus of the next [Signature Move - Stardust Horizon] by 10%.",
+          "New effect of [Passive - Banishing Sunglow Lv.2] added: The **Chain Fusion** applied by Scire reduces the target's Dark Resistance by a further 10%. "
         ]
       },
       {
-        "name": "Edge of Perception",
+        "name": "Vision Edge",
         "description": [
-          "While in Anti-gravity Status or performing Comet Combos, hold Basic Attack to exit the current status and perform [Disintegration Strike], dealing 480% Dark DMG and recovering 88 Signature Energy. During this, gains Super Armor and 30% DMG Reduction.",
-          "- Performing [Disintegration Strike] while in Anti-gravity Status additionally grants 12 Signature Energy and 999 Kinetic Energy. In addition, every 3-Ping consumed in charging [Leap Attack] increases Base DMG of [Disintegration Strike] by 50%.",
-          "- While performing [Disintegration Strike] and subsequent [Signature-Starshatter Horizon], Scire is considered to be in Anti-gravity Status."
+          "While in Anti-gravity Form or during Comet Combos, press and hold Basic Attack to cast [Shattering Strike], dealing 480% Dark DMG and restoring 88 Signature Energy. During this time, Karenina: Scire gains Super Armor and 30% DMG Reduction.",
+          "- While in Anti-gravity Form, casting [Shattering Strike] additionally restores 12 Signature Energy and 999 Kinetic Energy. Each set of 3-Ping Signal Orbs consumed while charging [Leap Attack] increases the Base DMG of [Shattering Strike] by 50%.",
+          "- During [Shattering Strike] and the subsequent [Signature Move - Stardust Horizon], Scire is considered to be in Anti-gravity Form."
         ],
         "level9": [
-          "**Level 9**: When Ampere Accumulation of the party reaches the maximum value, [Disintegration Strike] will trigger the Electronic Blast state and activate the Electrodissociation Field that lasts for 14s.",
-          "- The Electrodissociation Field inflicts enemies inside with **Turbulence Interference** that reduces Lightning Resistance every 2s. **Turbulence Interference** reduces Lightning Resistance by 15% for 2s.",
-          "- While in the Electronic Blast state, performing [Signature-Starshatter Horizon] additionally triggers [Signature-Meteoric Thunderbolt], dealing 900% Electroconvergence DMG."
+          "**Level 9**: When the team's Electric Charge reaches its maximum, [Shattering Strike] will activate Electric Storm Flash state, deploying a Dissociation Electric Field for 14s.\nWhile in Electric Storm Flash state, casting [Signature Move - Stardust Horizon] will additionally cast",
+          "- Dissociation Electric Field deals 75% Plasma Beam DMG once to targets caught within, and inflicts them with a **Turbulence Interference** effect every 2s, reducing their Lightning Resistance by 15% for 2s."
         ],
         "level18": [
-          "**Level 18**: An additional 3-Ping can be consumed while charging [Disintegration Strike] to increase Extra DMG Bonus of the cast by 200%, trigger all available QTEs, and grant 240 points of Ampere Accumulation to the party.",
-          "[Passive-Unquenchable Willpower Level 3] added effect: Extra DMG Bonus of [Disintegration Strike] increases by 50%. The additional 3-Ping consumed while charging [Disintegration Strike] will also double the DMG dealt by the next cast of [Signature-Meteoric Thunderbolt]."
+          "**Level 18**: During the charge-up phase of [Shattering Strike], an additional set of 3-Ping Signal Orbs can be pinged to increase the Extra DMG Bonus of the subsequent release by 200%, activating all available QTEs, and granting the team 240 Electric Charge.",
+          "New effect of [Passive - Unquenchable Willpower Lv.3] added: The Extra DMG Bonus of [Shattering Strike] increases by 50%; the additional 3-Ping consumed during the charge-up phase will cause the next [Signature Move - Starstream Electric Shock] to deal double damage."
         ]
       }
     ]
@@ -7305,48 +7290,48 @@
     },
     "leap": [
       {
-        "name": "Nightblade Vortex",
+        "name": "Spinning Flare",
         "description": [
-          "After performing Basic Attack Combo 5 while in Sword Form, tap Basic Attack to follow up with 5 combos of [Stormlight Chaos]. Stigmata is invincible during [Stormlight Chaos]. Unleashing [Stormlight Chaos] will transform all stacks of Stigmata Will into Mark of Shadow, up to a maximum of 150 stacks. All stacks of Mark of Shadow will be cleared when Stigmata exits Sword Form.",
-          "- [Stormlight Chaos] deals a total of 800% Physical DMG. Each combo grants an additional 3 Energy.",
-          "- While Afterglow Enhancement is active, hits from [Stormlight Chaos] can trigger Trueslash.",
-          "- While Stigmata is performing [Stormlight Chaos], each stack of Mark of Shadow will increase the Base DMG of Trueslash triggered by 1.2%.",
-          "- While Resolution is active, dodge and tap Basic Attack in succession to directly perform Basic Attack Combo 5.",
-          "- After unleashing [Stormlight Chaos], Stigmata's attacks will not be able to activate the Afterglow Shadow effect.",
-          "- Affix: Trueslash: Certain skills can accumulate Veiled Edge points. Veiled Edge points can be inherited by the next character with the Trueslash Effect. Maximum points of Veiled Edge: 999. When Veiled Edge points reach 100, perform Trueslash by consuming 100 Veiled Edge points upon hitting the enemy with the next cast of a skill that can trigger Trueslash, dealing 400% Trueslash DMG. Gains 1 point of Veracity every time Trueslash is triggered. Maximum points of Veracity: 90."
+          "After Basic Attack phase 5 in the Sword Form, tap Basic Attack to follow up with a 5-phase [Dispersed Radiance]. Stigmata is Invincible when [Dispersed Radiance] is active. [Dispersed Radiance] will turn all Stigmata Will into Glow Mark up to 150 stacks. The Glow Mark will be removed once Stigmata exits the Sword Form.",
+          "- [Dispersed Radiance] deals 800% Physical DMG in total with each phase restoring extra 3 Energy.",
+          "- During Afterglow Enhancement, [Dispersed Radiance] will trigger Ultima Slash on hit.",
+          "- Each stack of Glow Mark will increase the Base DMG of the Ultima Slash(es) Stigmata triggered during [Dispersed Radiance] by 1.2%.",
+          "- When having Resolution, dodge and then tap Basic Attack to directly launch Basic Attack phase 5.",
+          "- After casting [Dispersed Radiance), Stigmata's attacks will not be able to trigger the Afterglow Shadow effect.",
+          "[Effect: Ultima Slash]: Some skills can accumulate Sharp Reserve. The Sharp Reserve can be inherited by the next Ultima Slash character and is capped at 999. When there is 100 Sharp Reserve, the next skill that could trigger the Ultima Slash will trigger Ultima Slash once at the cost of 100 Sharp Reserve, dealing 400% Ultima Slash DMG. Each triggering of this will grant 1 Truewill, up to 90."
         ],
         "level9": [
-          "**Level 9**: Activating Sword Form when Afterglow Points is at least half full increases CRIT DMG by 10% while Afterglow Enhancement is active."
+          "**Level 9**: When the Sword Form is activated with more than 50% Afterglow Points, gains a 10% CRIT DMG Bonus during Afterglow Enhancement."
         ],
         "level18": [
-          "**Level 18**: While unleashing [Sword Dance], move the joystick to leave an afterimage that continues to attack, dealing Physical DMG at 80% of Stigmata's ATK stat.",
-          "[Passive - Severed Light Lv.2] added effect: Every time [Stormlight Chaos] triggers Trueslash, grant 10 Signature Energy. "
+          "**Level 18**: Drag the joystick when [Sword Dance] is being cast to leave behind a phantom to launch an attack, dealing Physical DMG equal to 80% of Stigmata's ATK.",
+          "New effect added to [Passive - Severed Light Lv.2]: Gains 10 Signature Energy every time when [Dispersed Radiance] triggers an Ultima Slash."
         ]
       },
       {
-        "name": "Piercing Splendor",
+        "name": "Cold Illumination",
         "description": [
-          "After unleashing [Stormlight Chaos], the next activation of [Signature Move: Illuminated Abyss] will consume up to 10 Veracity to follow up with [Shatter Dark], dealing 450% / 500% / 550% / 600% / 650% / 700% / 750% / 800% / 850% / 900% Trueslash DMG according to the amount of consumed Veracity. When Stigmata unleashes [Shatter Dark], consume all Mark of Shadow, with each stack increasing the Base DMG of [Shatter Dark] by 3.5%."
+          "Upon launching the first [Illuminated Abyss] after [Dispersed Radiance), Stigmata will follow up with [Shattered Darkness] at the cost of maximum 10 Truewill and deal 450% / 500% / 550% / 600% / 650% / 700% / 750% / 800% / 850% / 900% Ultima Slash DMG based on the Truewill spent. Stigmata spends all stacks of Glow Mark to cast [Shattered Darkness]. Each stack of Glow Mark will increase the Base DMG of [Shattered Darkness] by 3.5%."
         ],
         "level9": [
-          "**Level 9**: When [Stormlight Chaos] triggers Trueslash, gains 18 stacks of Mark of Shadow."
+          "**Level 9**: Gains 18 stacks of Glow Mark when [Dispersed Radiance] triggers an Ultima Slash."
         ],
         "level18": [
-          "**Level 18**: Activates all available QTEs when activating Luminous Realm.",
-          "[Mass Decree Lv.3] added effect: The Base DMG increase effect of each stack of Stigmata Will toward [Blade Abyss: Illuminated Abyss] is increased to 7.5%. The Base DMG increase of each stack of Mark of Shadow toward Trueslash while performing [Stormlight Chaos] and toward [Shatter Dark] is increased to 2.0% and 4.5% respectively."
+          "**Level 18**: Activates all available QTEs when Luminous Realm is triggered.",
+          "New effect added to [Passive - Mass Decree Lv.3]: Each stack of Stigmata Will will increase [Blade Abyss -Illuminated Abyss]'s Base DMG by 7.5% instead. Each stack of Glow Mark will increase the Base DMG of the Ultima Slash(es) triggered during [Dispersed Radiance] by 2.0% and that of the [Shattered Darkness] by 4.5% instead."
         ]
       },
       {
-        "name": "Cleansing Light of Dawn",
+        "name": "Shower of Dawnlight",
         "description": [
-          "Base DMG of Signal Orb skills increases by 20%. When performing Signal Orb skills in Luminous Realm, gains 17 / 34 / 50 Veiled Edge points based on the number of orbs pinged."
+          "Base DMG of Signal Orbs increases by 20%. When casting Ping Skills, gains 17 / 34 / 50 Sharp Reserve based on the number of orbs pinged."
         ],
         "level9": [
-          "**Level 9**: Extra DMG of [Glowing Lanternlight] increases by 15%. Upon hitting the opponent with this, gains 100 Veiled Edge points."
+          "**Level 9**: Glowing Lanternlight deals 15% more Extra DMG and grants 100 Sharp Reserve on hit."
         ],
         "level18": [
-          "**Level 18**: When performing [Glowing Lanternlight] or 3-Pings in Luminous Realm, the Extra DMG of the next use of [Signature Move: Bright Candle] increases by 25%. This effect can be stacked 3 times.",
-          "[Carved Darkness Lv.2] added effect: The recorded damage multiplier of [Signature Move: Bright Candle] increases to 110%. Extra DMG Bonus of [Shatter Dark] increases by 30%."
+          "**Level 18**: Casting [Glowing Lanternlight] or performing a 3-Ping during the Luminous Realm will make the next [Bright Candle] deal 25% more Extra DMG. This effect can stack up to 3 times.",
+          "New effect added to [Passive - Carved Darkness Lv.2]: [Signature - Bright Candle]'s DMG Record Multiplier will be 110% instead. [Shattered Darkness]'s Extra DMG Bonus increases by 30%."
         ]
       }
     ]
@@ -8174,42 +8159,42 @@
     },
     "leap": [
       {
-        "name": "Mist-Trailing Bolt",
+        "name": "Flashstorm",
         "description": [
-          "**Setting 1(Lightning gameplay):**\nWhile casting Leaping Thrust, Red and Yellow Signal Orbs are converted into Shadow Strike Orbs. Pinging any Shadow Strike Orb will transition into Shadow Strike.\n- Lucia throws the odachi to deal 60% Umbrasurge DMG. Each Shadow Strike Orb pinged unleashes 1 hit of Shadow Strike (up to 6 hits) that deals 450% Umbrasurge DMG, restores 1 Signature Energy and 15 Aphotic Points. Afterwards, casts Shadow: Thunderous Bash, dealing 940% Umbrasurge DMG.\n- After fully casting 6 hits of Shadow Strike, the next [Signature Move - Weave: Karmic Inferno] will deal 2600% Umbrasurge DMG instead.",
-          "**Setting 2(Umbra gameplay):**\nWhile casting Leaping Thrust, continuing holding Basic Attack will convert Red Orbs and Yellow Orbs into Shadow Strike Orbs and transition into Shadow Strike.\n- Lucia throws the odachi to deal 60% Umbrasurge DMG. Each Shadow Strike Orb pinged unleashes 1 hit of Shadow Strike (up to 6 hits, continuously tapping or holding Basic Attack automatically pings Shadow Strike Orbs) that deals 450% Umbrasurge DMG, restores 1 Signature Energy and 15 Aphotic Points. Afterwards, casts Shadow: Thunderous Bash, dealing 940% Umbrasurge DMG.\n- After fully casting 6 hits of Shadow Strike, the next [Signature Move - Weave: Karmic Inferno] will deal 2600% Umbrasurge DMG instead.\n- If CUB Motorbolt is in Standby Mode, you must ping any Shadow Strike Orb during Leaping Thrust to transition into Shadow Strike."
+          "**Setting 1(Lightning gameplay):**\nDuring Leaping Thrust, Red and Yellow Orbs are converted into Shadow Strike Orbs. Pinging any Shadow Strike Orb unleashes Shadow Strike.\n- Crimson Weave throws the odachi, dealing 60% Darkflow DMG. For each Shadow Strike Orb pinged, unleashes one stage of Shadow Strike (up to 6 stages), dealing 450% Darkflow DMG and restoring 1 Signature Energy and 15 Aphotic Points. Then, unleashes Shadow: Thunderous Bash, dealing 940% Darkflow DMG.\n- Upon fully unleashing 6 stages of Shadow Strike, the next use of [Signature - Weave: Karmic Inferno] will instead deal 2600% Darkflow DMG.",
+          "**Setting 2(Umbra gameplay):**\nDuring Leaping Thrust, press and hold Basic Attack to convert Red and Yellow Orbs into Shadow Strike Orbs. Pinging any Shadow Strike Orb unleashes Shadow Strike.\n- Crimson Weave throws the odachi, dealing 60% Darkflow DMG. For each Shadow Strike Orb pinged, unleashes one stage of Shadow Strike (up to 6 stages, automatically pinged by continuous taps or pressing and holding Basic Attack), dealing 450% Darkflow DMG and restoring 1 Signature Energy and 15 Aphotic Points. Then, unleashes Shadow: Thunderous Bash, dealing 940% Darkflow DMG.\n- After fully casting 6 hits of Shadow Strike, the next [Signature Move - Weave: Karmic Inferno] will deal 2600% Umbrasurge DMG instead.\n- While Motorbolt is on standby, ping any Shadow Strike Orb during Leaping Thrust to unleash Shadow Strike."
         ],
         "level9": [
-          "**Level 9**: Each Umbrasurge stack increases the Base DMG of Shadow Strike by 10%.\n- [Signature Move - Weave: Karmic Inferno] will clear all Umbrasurge stacks and add Umbrasurge DMG equal to the number of stacks consumed x 400%."
+          "**Level 9**: Each stack of Darkflow increases Shadow Strike's Base DMG by 10%.\n[Signature - Weave: Karmic Inferno] will clear all Darkflow stacks and deal an extra 400% Darkflow DMG per stack cleared."
         ],
         "level18": [
-          "**Level 18**: For every Aphotic Point consumed by Thunderous Bash or Shadow: Thunderous Bash, increases the Base DMG of the next [Signature Move - Weave: Karmic Inferno] by 0.15% (does not stack).\n- [SS Passive - Drifting Vain] added effect: Each Umbrasurge stack increases the Base DMG of Shadow Strike by an additional 5%."
+          "**Level 18**: Each time Thunderous Bash or Shadow: Thunderous Bash consumes 1 Aphotic Point, increases the Base DMG of the next [Signature - Weave: Karmic Inferno] by 0.15% (cannot stack).\nNew effect of [Passive - Drifting Vain Lv.2] added: Each stack of Darkflow increases Shadow Strike's Base DMG by a further 5%."
         ]
       },
       {
-        "name": "Conviction of Nimitta",
+        "name": "Unmanifest Will",
         "description": [
-          "Base DMG of [Core Passive - Resolute Blow] increases by 60%. Allows 2 additional parries during Parry Stance."
+          "Increases [Core Passive - Resolute Blow] Base DMG by 60%, and can fend off 2 extra attacks while parrying."
         ],
         "level9": [
-          "**Level 9**: If a Red 3-Ping or Yellow 3-Ping is cast, followed by [Core Passive - Sundered Delusion] within the next 3s, increases the gain rate of Blade Aura and automatically rapid casts [Core Passive - Resolute Blow] once Blade Aura reaches maximum."
+          "**Level 9**: Within 3s after pinging 3 Red or Yellow Orbs, Blade Aura drop rate increases when casting [Core Passive - Sundered Delusion), and [Core Passive - Resolute Blow) is automatically and quickly cast when Blade Aura reaches its maximum."
         ],
         "level18": [
-          "**Level 18**: Upon entering the battlefield, gain 9 Signature Energy.\n- [SSS Passive - Facets of Delusions] added effect: After casting [Signature Move - Weave: Karmic Inferno], increases the Base DMG of [QTE - Flashes of Steel] by 1000% for the rest of the battle. Adds additional Umbrasurge DMG to [Signature Move - Weave: Karmic Inferno] equal to the number of stacks consumed x 200%."
+          "**Level 18**: Gains 9 Signature Energy upon entering the battle.\nNew effect of [Passive - Facets of Delusions Lv.2] added: Casting [Signature - Weave: Karmic Inferno] increases Base DMG of [QTE - Flashes of Steel] by 1000% throughout the battle. [Signature - Weave: Karmic Inferno] deals 200% extra Darkflow DMG per stack cleared."
         ]
       },
       {
-        "name": "Thunder-Ruling Armaments",
+        "name": "Thunderforge",
         "description": [
-          "Adds [Affix: Umbrasurge] to [Core Passive - Path of Anatta]:\n",
-          "Every 200 Umbrasurge points accumulated will increase the number of Umbrasurge stacks by 1, up to 15 stacks. Characters with the Umbrasurge Affix will obtain an Umbrasurge Aura based on the current number of Umbrasurge stacks, continuously dealing a small amount of Umbrasurge DMG to enemies and reducing their HP recovery. Reaching a threshold number of Umbrasurge stacks will upgrade the Umbrasurge Aura, expand its range, and deal a large amount of Umbrasurge DMG to enemies within.",
-          "- At 1/3/6/10/15 stacks: Deals 100%/200%/400%/800%/1600% Umbrasurge DMG, then deals 20%/40%/60%/80%/100% Umbrasurge per second and reduces the enemy's HP regeneration by 10%/20%/30%/50%/100%.; pinging Blue Signal Orbs generates 50/100/200 Umbrasurge points. Casting [Core Passive - Resolute Blow] while holding the kodachi generates 50/100/200 Umbrasurge points. Continuously unleashing swordwaves through [Basic Attack - Blading Radiance] generates 60 Umbrasurge points every 0.5s and enhanced swordwaves generate an additional 100 Umbrasurge points."
+          "[Core Passive - Path of Anatta] New Effect: [Darkflow]:\n",
+          "For every 200 Darkflow Reserve, gain 1 Darkflow stack, up to a maximum of 15. The character gains a Darkflow Aura based on the current number of stacks, dealing a small amount of Darkflow DMG over time to enemies and reducing their HP recovery. When the number of stacks reaches a threshold, the aura upgrades, increasing its range and dealing a large amount of Darkflow DMG to enemies within the area.",
+          "- At 1 / 3 / 6 / 10 / 15 stacks: Deals 100% / 200% / 400% / 800% / 1600% Darkflow DMG, then deals 20% / 40% / 60% / 80% / 100% Darkflow DMG per second, reducing enemy HP recovery by 10% / 20% / 30% / 50% / 100%;\nPinging a Blue Orb grants 50 / 100 / 200 Darkflow Reserve. Casting [Core Passive - Resolute Blow] while wielding a kodachi grants 50 / 100 / 200 Darkflow Reserve. Continuously casting the Swordwave of [Basic Attack - Blading Radiance] grants 60 Darkflow Reserve every 0.5s, and an extra 100 Darkflow Reserve while the Swordwave is enhanced."
         ],
         "level9": [
-          "**Level 9**: Base DMG of Signal Orbs increases by 50%.\n- When any orb is pinged for the first time upon triggering Matrix, a maximum of 1 orb will be consumed."
+          "**Level 9**: Base DMG from pinging Signal Orbs increases by 50%.\nWhen pinging for the first time upon entering Matrix, only 1 Signal Orb will be consumed."
         ],
         "level18": [
-          "**Level 18**: While holding the kodachi, all Signal Orbs are converted into Blue Orbs.\n- [SSS+ Passive - Glimpse Into All] added effect: Gain 15% Extra DMG Bonus when holding the odachi."
+          "**Level 18**: While wielding a kodachi, all Signal Orbs are converted to Blue Orbs.\nNew effect added to [Passive - Glimpse Into All Lv.3]: While wielding an odachi, gain a 15% Extra DMG Bonus."
         ]
       }
     ]
@@ -9030,16 +9015,16 @@
       {
         "name": "Ceaseless Strings",
         "description": [
-          "[Core Passive - Echoing Twins] **New Effect: Glaciation.**\n Certain skills fill the **Glaciation Gauge**. When full, the Gauge will clear itself and unleash **Diamond Dust**, dealing Hiemal DMG and accumulating a **Diamond Dust stack**. Casting an eligible skill will consume all **Diamond Dust stacks** and create an **Ice Spike** that deals Hiemal DMG to its surroundings.\n\nIf the character deals Hiemal DMG while the **Ice Spike** is on-field, triggers **Crystallization**, dealing additional Hiemal DMG and generating **Glaciation** points.\n\nWhen the Ice Spike's on-field duration expires, triggers **Icebreak**, dealing Hiemal DMG based on the current **Glaciation points**. The **Glaciation Gauge**, **Diamond Dust stacks**, **Ice Spike**, and **Glaciation points** will carry over between characters with the Glaciation Affix.\n",
-          "- When **Glaciation points** reaches **100**, unleashes **Diamond Dust** that deals 100% Hiemal DMG and accumulates **1 Diamond Dust stack**, up to **10** stacks.\n- If there is at least 1 **Diamond Dust stack**, certain skills can clear all **Diamond Dust stacks** and create an **Ice Spike** on-field, dealing **180%** Hiemal DMG. The **Ice Spike**'s duration increases by 1s for every Diamond Dust stack consumed.\n- While the **Ice Spike** exists, if the character deals Hiemal DMG, triggers **Crystallization**, dealing **100%** Hiemal DMG to enemies in a large area and generating **100 Glaciation points**. Can be triggered once every **0.25**s.\n- When the **Ice Spike**'s duration expires, triggers **Icebreak** to deal **100%** Hiemal DMG to enemies in a large area. Base DMG of **Icebreak** increases by **9%** for every **100 Glaciation points**. The maximum **Glaciation points** is **10000**.",
+          "[Core Passive - Echoing Twins] **New Effect: Glaciation.**\n Some of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies.\n\nWhile Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation.\n\nWhen Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation.\n",
+          "- At 100 Glaciation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.\n- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.\n- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.\n- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation.",
           "When Judgement Zone is not active, Echo can hold Dodge to fire a Frigid Arrow, dealing 800% Glaciation DMG and activating Crystalline Zone for 8s. After Splendor Points reaches maximum inside Crystalline Zone, Echo can hold Basic Attack to consume all Spendor Points and cast Anguishing Co-Strike (gaining invincibility but unable to cancel with Signature - Celestial Edge), imprisoning and pulling in nearby enemies, dealing 2400% Glaciation DMG, restoring 50 Signature Energy to Echo, and activating all available QTEs.\nAnguishing Co-Strike consumes all Cipher Orbs, up to an equal number of Signal Orbs, and the Soul Shatter Mark if held, then grants corresponding bonuses for the Glaciation Effect.",
-          "- Each Cipher Orb increases the Base DMG of Gelid and the Ice Spike by 4%, and each Signal Orb increases the Base DMG of Crystallize by 25% for 24s. Triggering this effect will renew its duration. The Soul Shatter Mark enhances the effect of Crystalline Points, every 100 Crystalline Points increasing the Base DMG of the next Cryoshatter by 200% (does not stack)."
+          "- Each Cipher Orb increases the Base DMG of Arctic Ice and Ice Spikes by 4%, and each Signal Orb increases the Base DMG of Ice Accumulation by 25% for 24s. Triggering this effect will renew its duration. The Soul Shatter Mark enhances the effect of Congelation, every 100 Congelation increasing the Base DMG of the next Ice Burst by 200% (does not stack)."
         ],
         "level9": [
-          "**Level 9**: While an Ice Spike is active, Echo's [Signature - Celestial Edge] resets the Ice Spike's duration to 10s, and [QTE - Advent of Justice] extends the duration by 4s and deals 600% Glaciation DMG instead. Cecily's Cipher attacks deal an additional 200% Glaciation DMG and accumulate 100 Crystalline Points for the team..\n- The Ice Spike's duration cannot exceed 10s."
+          "**Level 9**: While Ice Spikes persist, Echo's [Signature - Celestial Edge] resets the Ice Spikes’ duration to 10s, and [QTE - Advent of Justice] extends the duration by 4s and deals 600% Glaciation DMG instead. Cecily's Cipher attacks deal an additional 200% Glaciation DMG and accumulate 100 Congelation for the team..\n- Ice Spikes’ duration cannot exceed 10s."
         ],
         "level18": [
-          "**Level 18**: Base DMG of Anguishing Co-Strike, Imprisoning Co-Strike, and Soulbreaking Co-Strike increase by 50%.\n[Passive - Decisive Omen] added effect: Increases the final effect of Ultralimit Torque applied by [Core Passive - Blessing of Fortitude] by 5%. While Echo has an active Crystalline Emblem, she instead grants the Frostbound Nova effect that increases Glaciation DMG by 5%. While an Ice Spike is active, Cecily's Cipher attacks accumulate an additional 200 Crystalline Points for the team instead."
+          "**Level 18**: Base DMG of Anguishing Co-Strike, Imprisoning Co-Strike, and Soulbreaking Co-Strike increase by 50%.\n[Passive - Decisive Omen] added effect: Increases the final effect of Ultralimit Torque applied by [Core Passive - Blessing of Fortitude] by 5%. While Echo has an active Crystalline Emblem, she instead grants the Frostbound Nova effect that increases Glaciation DMG by 5%. While Ice Spikes persist, Cecily's Cipher attacks accumulate an additional 200 Congelation for the team instead."
         ]
       },
       {
@@ -9057,7 +9042,7 @@
       {
         "name": "Decisive Revelation",
         "description": [
-          "Inside Crystalline Zone, [Signature - Celestial Edge] deals 3200% Glaciation DMG instead, and activates Crystalline Emblem for 15s. Triggering this effect or exiting the battlefield will renew its duration.\nWhile an Ice Spike is active, the Crystalline Emblem is regarded as active.\nWhile Echo has an active Crystalline Emblem, her [Class - Amplifier] grants an Ice buff instead, and [Core Passive - Blessing of Fortitude] instead grants the Frost Crystal effect that increases Ice DMG by the same amount."
+          "Inside Crystalline Zone, [Signature - Celestial Edge] deals 3200% Glaciation DMG instead, and activates Crystalline Emblem for 15s. Triggering this effect or exiting the battlefield will renew its duration.\nWhile Ice Spikes persist, the Crystalline Emblem is regarded as active.\nWhile Echo has an active Crystalline Emblem, her [Class - Amplifier] grants an Ice buff instead, and [Core Passive - Blessing of Fortitude] instead grants the Frost Crystal effect that increases Ice DMG by the same amount."
         ],
         "level9": [
           "**Level 9**: Consuming a Soul Shatter Mark increases the Base DMG of the next [Signature - Celestial Edge] by 50% (does not stack).\nAfter casting [Signature - Celestial Edge], Echo pings 2 Cipher Orbs for Cecily and leaves behind Snowmelt, healing allies for 20% of Echo's ATK every second for 12s."
@@ -11299,318 +11284,318 @@
   "pyroath": {
     "basic_attack": [
       {
-        "name": "Feather Storm - Searing Slash",
+        "name": "Pyro Blade - Blazing Slash",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": "Swings dual blades at the enemy to slash continuously, dealing Fire DMG. While in Levitating Mode, Basic Attacks deal Fire DMG and obtain Radiance Points. Tapping Basic Attack at a certain timing will trigger a special attack.",
+        "description": "Wields the dual blades to slash the target repetitively, dealing Fire DMG. While airborne, Basic Attacks will deal Fire DMG and grant Aura Value. Tapping Basic Attack with specific timing will trigger a special attack.",
         "result": [
-          "- Deals a total of **{0}%** Fire DMG.",
-          "- While in Levitating Mode, Basic Attacks deal a total of **{1}%** Fire DMG and each Basic Attack obtains 25 Radiance Points.",
-          "- Searing Slash - Shatter: Tapping Basic Attack at the precise timing after performing Basic Attack Combo 5, or tapping Basic Attack after dodging successfully will perform Searing Slash - Shatter, dealing **{2}%** Fire DMG and recovering 30 Radiance Points. During this, gains Super Armor. After performing this skill, using Basic Attack will start from Basic Attack Combo 4."
+          "- Deals **{0}%** Fire DMG in total.",
+          "- While airborne, gains Super Armor during Basic Attack and deals **{1}%** Fire DMG in total. Each Basic Attack grants 25 Aura Value.",
+          "- Blazing Slash: Break: Tap Basic Attack with precise timing after Basic Attack phase 5, or tap Basic Attack after a successful dodge to cast Blazing Slash: Break, dealing **{2}%** Fire DMG and restoring 30 Aura Value. Lucia will gain Super Armor while casting. Can follow up with Basic Attack phase 4 after casting."
         ],
         "res_lv18": [760, 330, 200]
       },
       {
-        "name": "Feather Storm - Air-splitting Rays",
-        "button_press": "Blazing Thunder Form + Radiance Points full + Hold Basic Attack",
+        "name": "Pyro Blade - Aura Blast",
+        "button_press": "Fire Thunder Form + Max Aura Value + Press and Hold Basic Attack",
         "switch_in": "no",
-        "description": "Continuously phases and rips through the space, consuming all Radiance Points and dealing Fire DMG. After performing this skill, obtains Radiance Engraving and Signature Energy.",
+        "description": "Dashes continuously and slashes the space open, dealing Fire DMG at the cost of all Aura Value. After casting, gains the Aura Mark and Signature Energy.",
         "result": [
           "- Deals **{0}%** Fire DMG.",
-          "- Gains 32 Signature Energy while performing this skill.",
-          "- While in the Electronic Blast state, deals **{1}%** Electroconvergence DMG instead of Fire DMG.",
-          "- Lucia: Pyroath is invincible when performing this skill.",
-          "- Radiance Engraving will disappear when exiting Blazing Thunder Form or Levitating Mode."
+          "- Gains 32 Signature Energy over time while casting.",
+          "- Deals no Fire DMG but **{1}%** Plasma Beam DMG in the Electric Storm Flash status.",
+          "- Becomes Invincible while casting.",
+          "- The Aura Mark will disappear when Lucia exits Fire Thunder Form or lands."
         ],
         "res_lv18": [800, 1600]
       },
       {
-        "name": "Feather Storm - Radiant Feather Storm",
-        "button_press": "Blazing Thunder Form + After performing Air-splitting Rays + Tap Basic Attack",
+        "name": "Pyro Blade - Aura Feather",
+        "button_press": "Fire Thunder Form + After Aura Blast + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Turns and slashes the space in a single strike, dealing Fire DMG.",
+        "description": "Turns around and slashes the space open, dealing Fire DMG.",
         "result": [
           "- Deals **{0}%** Fire DMG.",
-          "- While in the Electronic Blast state, deals **{1}%** Electroconvergence DMG instead of Fire DMG.",
-          "- Lucia is invincible when performing this skill."
+          "- Deals no Fire DMG but **{1}%** Plasma Beam DMG in the Electric Storm Flash status.",
+          "- Becomes Invincible while casting."
         ],
         "res_lv18": [1500, 3000]
       },
       {
-        "name": "Feather Storm - Gala Ablaze",
-        "button_press": "Levitating Mode + Possess 30 Radiance Points + Hold / Tap Basic Attack Repeatedly",
+        "name": "Pyro Blade - Aura Dance",
+        "button_press": "Airborne + 30 Aura Value + Press and Hold / Tap Basic Attack",
         "switch_in": "no",
-        "description": "While in Levitating Mode, hold Basic Attack to shift into a fighting stance. Continue holding onto Basic Attack or tapping Basic Attack repeatedly shall perform Gala Ablaze continuously, slashing and grouping surrounding enemy targets from the air, consuming Radiance Points, granting Signature Energy and dealing Fire DMG.",
+        "description": "While airborne, press and hold Basic Attack to make Lucia enter the Standby Stance. Hold/tap Basic Attack repetitively to make her cast Aura Dance, pulling in nearby enemies from midair, slashing enemies repetitively, spending Aura Value, gaining Signature Energy, and dealing Fire DMG.",
         "result": [
-          "- Gala Ablaze consumes 30 Radiance Points, granting 11 Signature Energy and dealing **{0}%** Fire DMG.",
-          "- While in the Electronic Blast state, deals **{1}%** Electroconvergence DMG instead of Fire DMG.",
-          "- Lucia is invincible when performing this skill."
+          "- Spends 30 Aura Value, gains 11 Signature Energy, and deals **{0}%** Fire DMG every time when casting Aura Dance.",
+          "- Deals no Fire DMG but **{1}%** Plasma Beam DMG in the Electric Storm Flash status.",
+          "- Becomes Invincible while casting."
         ],
         "res_lv18": [2000, 4000]
       }
     ],
     "red_orb": [
       {
-        "name": "Scorching Polarizer - Revolving Twister",
+        "name": "Whirl of Light - Spiral Flame",
         "button_press": "Tap Red Orb",
         "switch_in": "no",
-        "description": "Uses dual blades to spin and fly upwards, obtaining Temper Points and dealing Fire DMG.",
+        "description": "Uses the dual blades to fly up, gaining Quench Value and dealing Fire DMG.",
         "result": [
-          "- Gains 20 / 40 / 60 Temper Points while performing the skill based on the number of orbs pinged.",
-          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG based on the number of orbs pinged.",
-          "- Performing this skill requires at least 1 White Orb to be consumed, after which Lucia remains in the air momentarily."
+          "- Gains 20 / 40 / 60 Quench Value over time while casting based on the orbs pinged.",
+          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG based on the orbs pinged.",
+          "- Casting the skill requires at least 1 White Orb. Lucia will temporarily stay airborne after casting."
         ],
         "res_lv18": [240, 480, 720]
       },
       {
-        "name": "Scorching Polarizer - Inferno Gust",
-        "button_press": "In the air + Tap Red Orb",
+        "name": "Whirl of Light - Burning Wind",
+        "button_press": "Airborne + Tap Red Orb",
         "switch_in": "no",
-        "description": "Rotates in the air before rapidly plunging downwards, obtaining Temper Points and dealing Fire DMG.",
+        "description": "Turns around in midair and immediately slashes down, gaining Quench Value and dealing Fire DMG.",
         "result": [
-          "- Gains 20 / 40 / 60 Temper Points while performing the skill based on the number of orbs pinged. Gains Super Armor while performing this skill.",
-          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG based on the number of orbs pinged.",
-          "- Performing this skill requires at least 1 White Orb to be consumed, after which Lucia remains in the air momentarily.",
-          "- Lucia is able to evade attacks when rotating."
+          "- Gains 20 / 40 / 60 Quench Value over time based on the orbs pinged and gains Super Armor while casting.",
+          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG based on the orbs pinged.",
+          "- Casting the skill requires at least 1 White Orb. Lucia will temporarily stay airborne after casting.",
+          "- Lucia can dodge attacks while turning around."
         ],
         "res_lv18": [420, 840, 1260]
       },
       {
-        "name": "Scorching Polarizer - Flickering Sparks",
-        "button_press": "After a Red 3-Ping + Tap Basic Attack",
+        "name": "Whirl of Light - Blazing Spark",
+        "button_press": "After Red Orb 3-Ping + Tap Basic Attack",
         "switch_in": "no",
-        "description": "After a 3-Ping that performs the Red Orb skill, tap Basic Attack to follow up with Lightspeed Rend - Flickering Sparks once, coordinating an attack with afterimages of self on the target, dealing Fire DMG. During this, gains Super Armor. After performing this skill, obtains Signature Energy and Radiance Points based on the number of Red Orbs consumed earlier (up to 9 Orbs).",
+        "description": "After each 3-Ping Red Orb Skill, tap Basic Attack to follow up with Flare Combo - Blazing Spark once and make Lucia launch a joint attack with her phantom at the enemy, dealing Fire DMG. Lucia gains Super Armor during casting. After casting, she will gain Signature Energy and Aura Value based on the number of Red Orbs pinged (max 9 orbs).",
         "result": [
           "- Deals **{0}%** Fire DMG.",
-          "- Obtains 1 / 2 / 5 / 6 / 7 / 10 / 11 / 12 / 15 Signature Energy after landing on the ground based on the number of orbs pinged.",
-          "- Obtains 10 / 20 / 30 / 40 / 50 / 60 / 70 / 80 / 90 Radiance Points immediately based on the number of orbs pinged.",
-          "- After performing this skill, Lucia lands on the ground. "
+          "- Gains 1 / 2 / 5 / 6 / 7 / 10 / 11 / 12 / 15 Signature Energy upon landing based on the orbs pinged.",
+          "- Immediately gains 10 / 20 / 30 / 40 / 50 / 60 / 70 / 80 / 90 Aura Value based on the orbs pinged.",
+          "- Lands after casting."
         ],
         "res_lv18": [120]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Omnidirectional Glare - Soaring Strike ",
-        "button_press": "Ping Yellow Orb",
+        "name": "Flying Flare - Wing Blade",
+        "button_press": "Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Lunges at the target, obtaining Temper Points and dealing Fire DMG. ",
+        "description": "Quickly thrusts the target, gaining Quench Value and dealing Fire DMG.",
         "result": [
-          "- Gains 20 / 40 / 60 Temper Points while performing the skill based on the number of orbs pinged.",
-          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG based on the number of orbs pinged.",
-          "- Performing this skill requires at least 1 White Orb to be consumed."
+          "- Gains 20 / 40 / 60 Quench Value over time while casting based on the orbs pinged.",
+          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG based on the orbs pinged.",
+          "- Casting the skill requires at least 1 White Orb."
         ],
         "res_lv18": [160, 320, 500]
       },
       {
-        "name": "Omnidirectional Glare - Return of Lustrous Wings",
-        "button_press": "In the air + Tap Yellow Orb",
+        "name": "Flying Flare - Plume Slash",
+        "button_press": "Airbone + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Spins and dives to slash at the target, obtaining Temper Points and dealing Fire DMG. During this, gains Super Armor.",
+        "description": "Turns around and dives to slash the target, gaining Quench Value and dealing Fire DMG. Gains Super Armor while casting.",
         "result": [
-          "- Gains 20 / 40 / 60 Temper Points while performing the skill based on the number of orbs pinged.",
-          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG based on the number of orbs pinged.",
-          "- Performing this skill requires at least 1 White Orb to be consumed, after which Lucia descends to the ground.",
-          "- Gains 30 Radiance Points while performing this skill.",
-          "- After performing this skill, tapping Basic Attack at the precise timing will perform Searing Slash - Shatter."
+          "- Gains 20 / 40 / 60 Quench Value over time while casting based on the orbs pinged.",
+          "- Deals **{0}%** / **{1}%** / **{2}%** Fire DMG based on the orbs pinged.",
+          "- Casting this skill requires at least 1 White Orb. Lands after casting.",
+          "- Gains 30 Aura Value over time while casting.",
+          "- ap Basic Attack with precise timing after casting to cast Blazing Slash: Break."
         ],
         "res_lv18": [180, 360, 540]
       },
       {
-        "name": "Omnidirectional Glare - Dual-wielding Arcflash",
-        "button_press": "After a Yellow 3-Ping + Tap Basic Attack repeatedly",
+        "name": "Flying Flare - Duo Flash",
+        "button_press": "After Yellow 3-Ping + Tap Basic Attack Repeatedly",
         "switch_in": "no",
-        "description": "After a 3-Ping that performs the Yellow Orb skill, tap Basic Attack repeatedly to follow up with Lightspeed Rend - Dual-wielding Arcflash up to four times, dealing Fire DMG and gaining Radiance Points. During this, gains Super Armor.",
+        "description": "After each 3-Ping Yellow Orb Skill, tap Basic Attack repetitively to follow up with Flare Combo - Duo Flash up to 4 times, gain Aura Value, and deal Fire DMG. Lucia will gain Super Armor while casting.",
         "result": [
-          "- Gains 20 Radiance Points throughout the first three combos of Lightspeed Rend - Dual-wielding Arcflash.",
-          "- Gains 30 Radiance Points and 5 Signature Energy during the fourth combo of Lightspeed Rend - Dual-wielding Arcflash. After performing this skill, tapping Basic Attack at the precise timing will perform Searing Slash - Shatter.",
-          "- Deals a total of **{0}%** Fire DMG."
+          "- For the first 3 Flare Combo - Duo Flash, gains 20 Aura Value over time while casting.",
+          "- For the 4th Flare Combo - Duo Flash, gains 30 Aura Value and 5 Signature Energy over time while casting. After casting, tap Basic Attack with precise timing to cast Blazing Slash: Break.",
+          "- Deals **{0}%** Fire DMG in total."
         ],
         "res_lv18": [1250]
       }
     ],
     "blue_orb": [
       {
-        "name": "Roaring Firestorm - Solar Pierce",
-        "button_press": "Ping Blue Orb",
+        "name": "Fiery Thunderclap - Solar Thrust",
+        "button_press": "Tap Blue Orb",
         "switch_in": "no",
-        "description": "Jumps and knocks the target airborne, dealing Fire DMG.",
+        "description": "Thrusts while leaping up, dealing Fire DMG.",
         "result": [
           "- Deals **{0}%** Fire DMG.",
-          "- After performing this skill, Lucia remains in the air momentarily.",
-          "- Performing this skill does not consume any White Orbs."
+          "- Temporarily stays airborne after casting.",
+          "- Casting does not consume White Orbs."
         ],
         "res_lv18": [120]
       },
       {
-        "name": "Roaring Firestorm - Lightcrushing",
-        "button_press": "In the air + Tap Blue Orb",
+        "name": "Fiery Thunderclap - Falling Light",
+        "button_press": "Airbone + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Rapidly slams down from the air, dealing Fire DMG.",
+        "description": "Quickly slashes from midair, dealing Fire DMG.",
         "result": [
           "- Deals **{0}%** Fire DMG.",
-          "- After performing this skill, Lucia lands on the ground.",
-          "- Performing this skill does not consume any White Orbs."
+          "- Lands after casting.",
+          "- Casting does not consume White Orbs."
         ],
         "res_lv18": [180]
       },
       {
-        "name": "Roaring Firestorm - Tempest Gathering",
-        "button_press": "After Basic Attack Combo 5 + Tap Blue Orb",
+        "name": "Fiery Thunderclap - Thunder Charge",
+        "button_press": "After Basic Attack Phase 5 + Tap Blue Orb",
         "switch_in": "no",
-        "description": "After performing Basic Attack Combo 5, tap Blue Orb to turn and perform a heavy strike, dealing Fire DMG and gaining points of Ampere Accumulation. During this, gains Super Armor. After performing this skill, performing Basic Attack continues from Combo 3.",
+        "description": "Tap Blue Orb after Basic Attack phase 5 to make Lucia turn around and slash hard, dealing Fire DMG and gaining Electric Charge. Lucia will gain Super Armor while casting. Can follow up with Basic Attack phase 3 after casting.",
         "result": [
-          "- Deals **{0}%** Electroconvergence DMG.",
-          "- Gains 250 points of Ampere Accumulation while performing this skill."
+          "- Deals **{0}%** Plasma Beam DMG.",
+          "- Gains 250 Electric Charge over time while casting."
         ],
         "res_lv18": [240]
       },
       {
-        "name": "Roaring Firestorm - Tempest Unleash",
-        "button_press": "Ampere Accumulation full + Hold Blue Orb",
+        "name": "Fiery Thunderclap - Walking Thunder",
+        "button_press": "Max Electric Charge + Press and Hold Blue Orb",
         "switch_in": "no",
-        "description": "When Ampere Accumulation of the party reaches the maximum value, hold Blue Orb to trigger the Electronic Blast state. During Signature Move - Forged in Molten, Blue Orb can also be held."
+        "description": "When the team reaches the Max Electric Charge, press and hold Blue Orb to activate the Electric Storm Flash status. Can also press and hold Blue Orb while Signature: Melting Quench is being cast."
       },
       {
-        "name": "Roaring Firestorm - Thunderous Trial",
-        "button_press": "Ping Electrofuge Orb",
+        "name": "Fiery Thunderclap - Thunderbolt",
+        "button_press": "Ping Plasma Orb",
         "switch_in": "no",
-        "description": "When in the Electronic Blast state, all Signal Orbs are converted into Electrofuge Orbs. After pinging Electrofuge Orbs, jumps and slashes at the target from the air, obtaining Radiance Points and dealing Electroconvergence DMG. During this, gains Super Armor. After exiting the Electronic Blast state, all Electrofuge Orbs are converted into White Orbs. ",
+        "description": "During the Electric Storm Flash status, all Signal Orbs will be turned into Plasma Orbs. After a Plasma Orb ping, leaps and slashes the target from midair, gaining Aura Value and dealing Plasma Beam DMG. Gains Super Armor while casting. Upon exiting the Electric Storm Flash status, turns all Plasma Orbs into White Orbs.",
         "result": [
-          "- Gains 20 / 40 / 60 Radiance Points while performing the skill based on the number of orbs pinged.",
-          "- Deals **{0}%** / **{1}%** / **{2}%** Electroconvergence DMG based on the number of orbs pinged."
+          "- Gains 20 / 40 / 60 Aura Value based on the orbs pinged.",
+          "- Deals **{0}%** / **{1}%** / **{2}%** Plasma Beam DMG based on the orbs pinged."
         ],
         "res_lv18": [180, 360, 540]
       }
     ],
     "core_passive": {
-      "name": "Night Irradiance",
+      "name": "Night Flare",
       "skills": [
         {
-          "name": "Raven Flight",
-          "button_press": "Hold Dodge",
+          "name": "Flying Raven",
+          "button_press": "Press and Hold Dodge",
           "description": [
-            "All of Lucia's Signal Orbs are converted into White Orbs. After performing certain skills, Lucia will stay airborne momentarily. Dodging grants an additional effect."
+            "Lucia turns all Signal Orbs into White Orbs. Lucia can temporarily stay airborne after casting some skills. Dodges will grant extra effects."
           ],
           "result": [
-            "- When a successful dodge is performed on the ground, hold dodge to counter attack for **{0}%** Fire DMG and obtain 30 Radiance Points.",
-            "- Hold dodge while in the air to perform a spinning slash, dealing **{1}%** Fire DMG."
+            "- After a successful dodge on the ground, press and hold Dodge to make Lucia counterattack the enemy, dealing **{0}%** Fire DMG and gaining 30 Aura Value.",
+            "- Press and hold Dodge when Lucia is in midair to launch a spin slash, dealing **{1}%** Fire DMG."
           ],
           "res_lv18": [400, 300]
         },
         {
-          "name": "Relentless Refinement",
+          "name": "Firmus",
           "button_press": "Ping Signal Orbs",
           "description": [
-            "Lucia automatically recovers Temper Points over time and pinging Signal Orbs will obtain additional Temper Points."
+            "Lucia automatically restores Quench Value over time. Each ping grants extra Quench Value."
           ],
           "result": [
-            "- Gains 20 Temper Points each second that continues when switched out. Maximum Temper Points: 120. When Temper Points reach the maximum value, hold Signature Move to enter Blazing Thunder Form.",
-            "- Upon switching in for the first time, gains 120 Temper Points.",
-            "- Temper Points cannot be obtained during Blazing Thunder Form and Levitating Mode."
+            "- Gains 20 Quench Value every second both on and off the battlefield, up to 120 points. When the limit is reached, press and hold Signature to make Lucia enter the Fire Thunder Form.",
+            "- Gains 120 Quench Value when entering the battlefield for the first time.",
+            "- Unable to gain Quench Value in the Fire Thunder Form and the Airborne Mode."
           ]
         },
         {
-          "name": "Trailing Light",
-          "button_press": "3-Ping + Tap Basic Attack",
+          "name": "Lightchaser",
+          "button_press": "Orb 3-Ping + Tap Basic Attack",
           "description": [
-            "After a 3-Ping, tap Basic Attack to follow up with Lightspeed Rend. Performing Lightspeed Rend will grant Radiance Points."
+            "After a 3-Ping, tap Basic Attack to follow up with a Flare Combo. Casting the Flare Combo will grant Aura Value."
           ],
           "result": [
-            "- Radiance Points can be used to perform Basic Attack - Air-splitting Rays and Basic Attack - Gala Ablaze. Maximum Radiance Points: 240."
+            "- The Aura Value are capped at 240 points and can be used to cast Basic Attack - Aura Blast and Basic Attack - Aura Dance."
           ]
         },
         {
-          "name": "Crimson Blades",
-          "button_press": "Blazing Thunder Form + Basic Attack / Ping Signal Orbs",
+          "name": "Crimson Blade",
+          "button_press": "Fire Thunder Form + Basic Attack / Ping Signal Orb",
           "description": [
-            "While in Blazing Thunder Form, upon performing Basic Attack - Searing Slash, Signal Orb Skills or Lightspeed Rend, trigger Crimson Blades support attacks, dealing Fire DMG."
+            "In the Fire Thunder Form, each Basic Attack - Blazing Slash / Orb Skill / Flare Combo cast will trigger Crimson Blade to assist, dealing Fire DMG."
           ],
           "result": [
-            "- Each follow up of Crimson Blades deals **{0}%** Fire DMG."
+            "- Each Crimson Blade strike deals **{0}%** Fire DMG."
           ],
           "res_lv18": [20]
         },
         {
-          "name": "Affix: Electroconvergence",
+          "name": "Effect: Plasma Beam",
           "button_press": "",
           "description": [
-            "Effect Resource: Maximum points of Ampere Accumulation: 1000."
+            "Effect Charging: The Electric Charge is capped at 1000."
           ],
           "result": [
-            "- When the Effect is triggered: Characters with the Electroconvergence Effect enter the Electronic Blast state and causes lightning to fall around themselves, dealing 800% Electroconvergence DMG every 2s for 12s (this cannot trigger the Tank Class passive)."
+            "- Effect Activated: The character enters the Electric Storm Flash status, launching lightning bolt strikes at nearby enemies every 2s for 12s. Each strike deals 800% Plasma Beam DMG (cannot trigger Tank Class Skills)."
           ]
         }
       ]
     },
     "signature": {
-      "name": "Glorious Sol",
+      "name": "Dazzling Flare",
       "skills": [
         {
-          "name": "Jump",
-          "button_press": "Tap Signature Move",
+          "name": "Leap",
+          "button_press": "Tap Signature",
           "description": [
-            "Jumps up from the ground, staying in the air momentarily."
+            "Leaps and temporarily stays airborne."
           ],
-          "result": ["- Jumping is able to evade attacks."]
+          "result": ["- Lucia can dodge attacks while leaping."]
         },
         {
-          "name": "Forged in Molten",
-          "button_press": "Temper Points full + Hold Signature Move",
+          "name": "Melting Quench",
+          "button_press": "Max Quench Value + Press and Hold Signature",
           "description": [
-            "Raises the blade to absorb solar energy and enter Blazing Thunder Form, dealing Fire DMG. Triggers Time Lag Calculation when performing this skill. If Lucia has the Domain Overlimit effect when performing this skill, its duration is refreshed. After performing this skill, Lucia remains in the air momentarily."
+            "Raises the blade to absorb the solar power, entering the Fire Thunder Form and dealing Fire DMG. Triggers Time Lag Calculation while casting. If casting with the Field Ultralimit effect, refreshes its duration.\nTemporarily stays airborne after casting."
           ],
           "result": [
             "- Deals **{0}%** Fire DMG.",
-            "- Blazing Thunder Form lasts for 12s, during which Temper Points will be continuously consumed. Exit Blazing Thunder Form when all Temper Points are exhausted."
+            "- The Fire Thunder Form lasts 12s, during which time Quench Value will be consumed over time. Exits the Fire Thunder Form when Quench Value drops to 0."
           ],
           "res_lv18": [180]
         },
         {
-          "name": "Auxiliary Precision Slash",
-          "button_press": "Blazing Thunder Form + 90 Energy + Hold Signature Move",
+          "name": "Crowd Slash",
+          "button_press": "Fire Thunder Form + 90 Signature Energy + Press and Hold Signature",
           "description": [
-            "Flies upwards before slashing at a large area, dealing Fire DMG. If in possession of Radiance Engraving, consume it to amplify the damage of this Signature Move. Triggers Time Lag Calculation when performing this skill. If Lucia has the Domain Overlimit effect when performing this skill, its duration is refreshed. After performing this skill, re-enter Blazing Thunder Form and restore the amount of Temper Points to the maximum."
+            "Leaps and slashes enemies in a large area, dealing Fire DMG. When having the Aura Mark, spends the Aura Mark to amplify the damage. Triggers Time Lag Calculation while casting. When having the Field Ultralimit effect while casting, refreshes its duration. After casting, enters the Fire Thunder Form again and resets Quench Value to the maximum."
           ],
           "result": [
             "- Deals **{0}%** Fire DMG.",
-            "- While in the Electronic Blast state, deals **{1}%** Electroconvergence DMG instead of Fire DMG.",
-            "- When in possession of Radiance Engraving, consume it to increase the Base DMG of this Signature Move by 50%."
+            "- Deals no Fire DMG but **{1}%** Plasma Beam DMG in the Electric Storm Flash status.",
+            "- When having the Aura Mark, spends the Aura Mark and gains 50% Base DMG."
           ],
           "res_lv18": [2550, 4500]
         },
         {
-          "name": "Over the Flaming Valley",
-          "button_press": "Blazing Thunder Form + 90 Energy + Tap Signature Move",
-          "description": ["Rises and enters Levitating Mode."],
+          "name": "Soaring Fire",
+          "button_press": "Fire Thunder Form + 90 Signature Energy + Tap Signature",
+          "description": ["Leaps and becomes airborne."],
           "result": [
-            "- After performing this skill, consumes all Temper Points."
+            "- Spends all Quench Value after casting."
           ]
         },
         {
-          "name": "Endless Eclipse",
-          "button_press": "Levitating Mode + 90 Energy + Tap Signature Move",
+          "name": "Endless Daybreak",
+          "button_press": "Fire Thunder Form + 90 Signature Energy + Tap Signature",
           "description": [
-            "Gathers energy after flying upwards, then dives at the enemy target and explodes, dealing Fire DMG. If in possession of Radiance Engraving, consume it to amplify the damage of this Signature Move. Triggers Time Lag Calculation when performing this skill. If Lucia has the Domain Overlimit effect when performing this skill, its duration is refreshed. Exits Levitating Mode after performing this skill."
+            "Leaps to gather energy, dives at the enemy target, dealing Fire DMG. When having the Aura Mark, spends the Aura Mark to amplify the damage. Meanwhile, triggers Time Lag Calculation. When casting with the Field Ultralimit effect, refreshes its duration. Lands after casting."
           ],
           "result": [
             "- Deals **{0}%** Fire DMG.",
-            "- While in the Electronic Blast state, deals **{1}%** Electroconvergence DMG instead of Fire DMG.",
-            "- When in possession of Radiance Engraving, consume it to increase the Base DMG of this Signature Move by 50%."
+            "- Deals no Fire DMG but **{1}%** Plasma Beam DMG in the Electric Storm Flash status.",
+            "- When having the Aura Mark, spends the Aura Mark and increases the Base DMG by 50%."
           ],
           "res_lv18": [3500, 5000]
         }
       ]
     },
     "qte": {
-      "name": "Haze Erasure",
-      "description": "Quickly slashes at the enemy target, dealing Fire DMG.",
+      "name": "Raging Blaze",
+      "description": "Quickly slashes the target, dealing Fire DMG.",
       "result": ["- Deals **{0}%** Fire DMG."],
       "res_lv18": [600]
     },
     "leader": {
-      "name": "Burning Oath",
-      "description": "Increases Fire and Electroconvergence DMG of all members by 10%. Increases ATK of Attacker Omniframes by 10%. "
+      "name": "Fire of Oath",
+      "description": "Increases Fire DMG and Plasma Beam DMG of all members by 10%. Increases ATK of all Attacker Omniframes in the team by 10%. "
     },
     "class": {
       "name": "Attacker",
@@ -11618,45 +11603,45 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Ashen Edge",
+      "name": "Pale Blade",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Performing Basic Attack - Air-splitting Rays, Basic Attack - Gala Ablaze, Signature Move - Auxiliary Precision Slash or Signature Move - Endless Eclipse activates all available QTEs."
+          "desc": "Casting Basic Attack - Aura Blast / Basic Attack - Aura Dance / Signature - Crowd Slash/Signature - Eclipse Daybreak will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Gains 25% Extra DMG Bonus when in Blazing Thunder Form or Levitating Mode. Immediately obtains 120 Radiance Points when entering Levitating Mode. When switching out after performing Signature Move - Endless Eclipse, Lucia will enter the Embers of Wildfire state, attacking surrounding enemies once every 2s, dealing 4000% Fire DMG. Exits the Embers of Wildfire state after attacking 4 times."
+          "desc": "Gains a 25% Extra DMG Bonus during the Fire Thunder Form or when airborne. Immediately gains 120 Aura Value upon becoming airborne. When exiting the battlefield after casting Signature: Eclipse Daybreak, Lucia will enter the Flickering Ember status and launch an attack at nearby enemies every 2s, dealing 4000% Fire DMG. Lucia will exit the Flickering Ember status after 4 attacks."
         }
       ]
     },
     "sss_rank": {
-      "name": "Fiery Goldburn Plumage",
+      "name": "Blazing Plumes",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Base DMG of Basic Attack - Gala Ablaze increases by 100%. The first use of Basic Attack - Radiant Feather Storm after switching in grants 40 Signature Energy. After performing Signature Move - Auxiliary Precision Slash or Signature Move - Endless Eclipse, Base DMG of QTE - Haze Erasure in this battle increases by 1000%. "
+          "desc": "Base DMG of Basic Attack - Aura Blast increases by 100%. Gains 40 Signature Energy upon casting Basic Attack - Aura Feather for the first time after entering the battlefield. Casting Signature - Crowd Slash / Signature - Eclipse Daybreak will increase the Base DMG of QTE - Raging Blaze by 1000% throughout the battle."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "The first use of Lightspeed Rend - Flickering Sparks after switching in immediately obtains Radiance Engraving. The Base DMG increase effect of Radiance Engraving for Signature Move - Auxiliary Precision Slash and Signature Move - Endless Eclipse doubles. Obtains 6 additional Signature Energy each time Basic Attack - Gala Ablaze is performed. While in the Embers of Wildfire state, Lucia's Extra DMG Bonus increases by 100%."
+          "desc": "Immediately gains the Aura Mark when casting Flare Combo - Blazing Spark for the first time after entering the battlefield. The Aura Mark's Base DMG increase effect on Signature - Crowd Slash / Signature - Eclipse Daybreak doubles. Gains extra 6 Signature Energy every time when casting Basic Attack - Aura Dance. Deals 100% more Extra DMG during the Flickering Ember status."
         }
       ]
     },
     "s+_rank": {
-      "name": "Silvery Vow",
+      "name": "Silver Oath",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Basic Attack - Air-splitting Rays, Basic Attack - Radiant Feather Storm and Basic Attack - Gala Ablaze increases by 40%."
+          "desc": "Extra DMG of Basic Attack - Aura Blast, Basic Attack - Aura Feather, and Basic Attack - Aura Dance increases by 40%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of 3-Ping Signal Orb skills and Lightspeed Rend increases by 40%."
+          "desc": "Extra DMG of 3-Ping Skills and Flare Combo increases by 40%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Signature Move - Auxiliary Precision Slash and Signature Move - Endless Eclipse increases by 40%. "
+          "desc": "Extra DMG of Signature - Crowd Slash and Signature - Eclipse Daybreak increases by 40%."
         }
       ]
     }
@@ -11664,180 +11649,179 @@
   "fulgor": {
     "basic_attack": [
       {
-        "name": "Swift Storm",
+        "name": "Raging Gust",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": "Attacks the enemy with martial arts",
+        "description": "Attacks the enemy with martial arts moves, dealing Lightning DMG.",
         "result": ["- Deals a total of **{0}%** Lightning DMG."],
         "res_lv18": [610]
       }
     ],
     "red_orb": [
       {
-        "name": "Upanishad-Rampart - Red Orb Combo 1",
-        "button_press": "No Orb Combo + Ping Red Orb",
+        "name": "Esotericism: Homer - Red Orb Combo 1",
+        "button_press": "Not in Ping Combo + Ping Red Signal Orb",
         "switch_in": "no",
-        "description": "Condenses electrical current into her bat and swings it, dealing Lightning DMG and generating Flow Gauge.",
+        "description": "Gathers electric currents and releases a batting strike, dealing Lightning DMG and gaining Heartflow.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%** Lightning DMG and generates 10/20/30 Flow Gauge based on the number of orbs pinged.",
-          "- If an Ice Spike exists on the field, deals **{3}%** / **{4}%** / **{5}%** Hiemal DMG instead.",
-          "- Yata can dodge or block the returning bat to trigger Matrix"
+          "- Deals **{0}%** / **{1}%** / **{2}%** Lightning DMG and gains 10 / 20 / 30 Heartflow based on the orbs pinged.",
+          "- When there are Ice Spikes, deals **{3}%** / **{4}%** / **{5}%** Glaciation DMG instead.",
+          "- Dodge or block the baseball bat when it's flying back to trigger the Matrix."
         ],
         "res_lv18": [100, 200, 300, 80, 160, 240]
       },
       {
-        "name": "Upanishad-Rampart - Red Orb Combo 2",
-        "button_press": "Red Orb Combo 1 + Ping Red Orb",
+        "name": "Esotericism: Homer - Red Orb Combo 2",
+        "button_press": "Red Orb Combo 1 + Ping Red Signal Orb",
         "switch_in": "no",
-        "description": "Catches the bat and rushes forward, dealing Lightning DMG and generating Flow Gauge.",
+        "description": "Catches the bat and launches an attack forward, dealing Lightning DMG and gaining Heartflow.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%** Lightning DMG and generates 10/20/30 Flow Gauge based on the number of orbs pinged.",
-          "- If an Ice Spike exists on the field, deals **{3}%** / **{4}%** / **{5}%** Hiemal DMG instead."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Lightning DMG and gains 10 / 20 / 30 Heartflow based on the orbs pinged.",
+          "- When there are Ice Spikes, deals **{3}%** / **{4}%** / **{5}%** Glaciation DMG instead."
         ],
         "res_lv18": [160, 320, 480, 130, 260, 390]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Upanishad-Collapse - Yellow Orb Combo 1",
-        "button_press": "No Orb Combo + Ping Yellow Or",
+        "name": "Esotericism: Collapse - Yellow Orb Combo 1",
+        "button_press": ": Not in Ping Combo + Ping Yellow Signal Orb",
         "switch_in": "no",
-        "description": "Performs a powerful forward charge, dealing Lightning DMG and generating Flow Gauge.",
+        "description": "Accumulates energy to dash forward, dealing Lightning DMG and gaining Heartflow.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%** Lightning DMG and generates 10/20/30 Flow Gauge based on the number of orbs pinged.",
-          "- if an Ice Spike exists on the field, deals **{3}%** / **{4}%** / **{5}%** Hiemal DMG instead."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Lightning DMG and gaining 10 / 20 / 30 Heartflow based on the orbs pinged.",
+          "- When there are Ice Spikes, deals **{3}%** / **{4}%** / **{5}%** Glaciation DMG instead."
         ],
         "res_lv18": [120, 240, 360, 90, 180, 270]
       },
       {
-        "name": "Upanishad-Collapse - Yellow Orb Combo 2",
-        "button_press": "Yellow Orb Combo 1 + Ping Yellow Orb",
+        "name": "Esotericism: Collapse - Yellow Orb Combo 2",
+        "button_press": "Yellow Orb Combo 1 + Ping Yellow Signal Orb",
         "switch_in": "no",
-        "description": "Jumps into the air and launches a downward fist, dealing Lightning DMG and generating Flow Gauge",
+        "description": "Leaps up and throws a punch at the enemy, dealing Lightning DMG and gaining Heartflow.",
         "result": [
-          "- Deals **{0}%** / **{1}%** /**{2}%** Lightning DMG and generates 10/20/30 Flow Gauge based on the number of orbs pinged.",
-          "- If an Ice Spike exists on the field, deals **{3}%** / **{4}%** / **{5}%** Hiemal DMG instead."
+          "- Deals **{0}%** / **{1}%** /**{2}%** Lightning DMG and gaining 10 / 20 / 30 Heartflow based on the orbs pinged.",
+          "- When there are Ice Spikes, deals **{3}%** / **{4}%** / **{5}%** Glaciation DMG instead."
         ],
         "res_lv18": [180, 360, 540, 150, 300, 450]
       }
     ],
     "blue_orb": [
       {
-        "name": "Upanishad-Slice - Emptiness",
-        "button_press": "Tap Profound Principle Orb",
+        "name": "Esotericism: Slash - Emptiness",
+        "button_press": "Tap Esoteric Orb",
         "switch_in": "no",
-        "description": "Slices across the enemy with a beam of lightning, dealing Lightning DMG.",
+        "description": "Harnesses the power of electricity and light to slash the enemy, dealing Lightning DMG.",
         "result": [
-          "- Deals **{0}%** Lightning DMG. Gain 1 stack of Concentration and 1 stack of Illuminated Guidance.",
-          "- If an Ice Spike exists on the field, deals **{1}%** Hiemal DMG instead.",
-          "- Consuming a Profound Principle Orb is regarded as a 3-Ping."
+          "- Deals **{0}%** Lightning DMG and gains 1 stack of Will and 1 stack of Illumination.",
+          "- When there are Ice Spikes, deals **{1}%** Glaciation DMG instead.",
+          "- Using an Esoteric Orb will be regarded as a 3-Ping."
         ],
         "res_lv18": [420, 330]
       },
       {
-        "name": "Upanishad-Slice - Cycle",
-        "button_press": "Enhanced Profound Principle Orb + Tap Profound Principle Orb",
+        "name": "Esotericism: Slash - Loop",
+        "button_press": "Enhanced Esoteric Orb + Tap Esoteric Orb",
         "switch_in": "no",
-        "description": "Launches an attack across the vicinity, dealing Lightning DMG",
+        "description": "Launches an attack at nearby enemies, dealing Lightning DMG.",
         "result": [
-          "- Deals **{0}%** Lightning DMG. Gain 1 stack of Concentration and 1 stack of Illuminated Guidance.",
-          "- If an Ice Spike exists on the field, deals **{1}%** Hiemal DMG instead.",
-          "- Consuming a Profound Principle Orb is regarded as a 3-Ping."
+          "- Deals **{0}%** Lightning DMG and gains 2 stacks of Will and 2 stacks of Illumination",
+          "- When there are Ice Spikes, deals **{1}%** Glaciation DMG instead.",
+          "- Using an Esoteric Orb will be regarded as a 3-Ping."
         ],
         "res_lv18": [630, 500]
       },
       {
-        "name": "Upanishad-Slice - Vessel of Mirages",
-        "button_press": "Diamond Dust stack(s) + Hold Profound Principle Orb",
+        "name": "Esotericism: Slash - Mirage",
+        "button_press": "With Arctic Ice Layers + Press and Hold Esoteric Orb",
         "switch_in": "no",
-        "description": "Press and hold the Profound Principle Orb to create an Ice Spike using all Diamond Dust stacks"
+        "description": "Press and hold Esoteric Orb to generate Ice Spikes based on the existing Arctic Ice Layers."
       }
     ],
     "core_passive": {
-      "name": "Regulated Thunder Flow",
+      "name": "Thunder Outflux",
       "skills": [
         {
-          "name": "Vortex Breathing",
+          "name": "Vortex Absortion",
           "button_press": "",
           "description": [
-            "Basic Attacks only generate Red and Yellow Signal Orbs. Pinging Red and Yellow Orbs generates Flow Gauge."
+            "Basic Attack only grants Red or Yellow Orbs. Ping Red or Yellow Orbs to gain Heartflow."
           ]
         },
         {
-          "name": "Divine Cultivation",
+          "name": "Divine Teaching",
           "button_press": "",
-          "description": ["Filling the Flow Gauge will enhance Yata."],
+          "description": ["Yata can enhance herself through Heartflow."],
           "result": [
-            "- Yata enters the battlefield in Empty Realm state. After obtaining 90 Flow Gauge, enter Instructed Realm and obtain a Profound Principle Orb. Gain Super Armor when casting Regulated Thunder Flow.",
-            "- After obtaining 60 Flow Gauge in Instructed Realm, enter Enlightened Realm and gain a Profound Principle Orb and a 10% ATK bonus. Afterwards, gain a Profound Principle Orb for every 30 Flow Gauge obtained.",
-            "- Obtaining a Profound Principle Orb when one is already held will enhance it.",
-            "- When Yata exits the battlefield, returns to Empty Realm and clears all Flow Gauge, Illuminated Guidance, and the Profound Principle Orb."
+            "- Yata is in the Void Realm upon entering the battlefield. After gaining 90 Heartflow, she will enter the Sanctuary Realm and gains an Esoteric Orb, granting her Super Armor when casting Thunder Outflux - Night Raid.",
+            "- After gaining 60 Heartflow in the Sanctuary Realm, Yata will enter the Epiphany Realm and gain an Esoteric Orb and a 10% ATK Bonus. After that, every 30 Heartflow will grant an Esoteric Orb.",
+            "- Gaining an Esoteric Orb will enhance the existing Esoteric Orbs.",
+            "- Upon exiting the battlefield, Yata will reenter the Void Realm and clear her Heartflow, Illumination, and Esoteric Orbs."
           ]
         },
         {
-          "name": "Reflective Counter",
-          "button_press": "Not Moving + Tap Dodge and Successful Block + Tap Basic Attac",
+          "name": "Mirror Return",
+          "button_press": "Not Moving + Tap Dodge to Block Successfully + Tap Basic Attack",
           "description": [
-            "Tap Dodge when the movement joystick is not held to perform a block. After a successful block, tap Basic Attack to launch a counterattack, dealing 540% Lightning DMG. If the block triggers Matrix, this skill restores an extra set of Signal Orbs."
+            "Tap Dodge without moving the joystick to perform a Block. After a successful Block, tap Basic Attack to counterattack, dealing 540% Lightning DMG. If the Block triggers a Matrix, Mirror Return will additionally restore a set of Signal Orbs"
           ],
           "desc_lv18": [610]
         },
         {
-          "name": "Nocturne Rush",
-          "button_press": "Illuminated Guidance + Hold Basic Attack",
+          "name": "Night Raid",
+          "button_press": "With Illumination + Press and Hold Basic Attack",
           "description": [
-            "Casting Upanishad - Slice will accumulate Illuminated Guidance, up to 2 stacks.\nWith at least 1 stack, hold Basic Attack to consume all Illuminated Guidance and cast Nocturne Rush, dealing damage based on the number of Illuminated Guidance stacks consumed."
+            "Yata gains Illumination by casting Esotericism: Slash. Illumination can stack up to 2 times. With Illumination, press and hold Basic Attack to spend all Illumination stacks and cast Night Raid, dealing damage based on Illumination stacks spent."
           ],
           "result": [
-            "- Nocturne Rush: Swing deals 240%/400% Lightning DMG, and will then transition into Nocturne Rush: Seize. If an Ice Spike exists on the field, deals 216%/360% Hiemal DMG instead.",
-            "Nocturne Rush: Seize deals 360%/600% Lightning DMG per second and restores 1 Signal Orb every 1.5s. Release Basic Attack to cast Nocturne Rush: Finisher. If an Ice Spike exists on the field, deals 288%/480% Hiemal DMG per second.",
-            "After 1 second of continuously casting Nocturne Rush: Seize, Yata will gain Glaciation Gauge over time and the gain rate will gradually increase. After 1s of sustained casting, gain 100 Glaciation points per second. After 2s of sustained casting, gain 200 Glaciation points per second. After 4s of sustained casting, gain 250 Glaciation points per second.",
-            "Nocturne Rush: Finisher deals 600%/1000% Lightning DMG. After this skill is cast, gain 10 Energy. If an Ice Spike exists on the field, deals 540%/900% Hiemal DMG instead."
-          ],
-          "res_lv18": [610]
+            "- Night Raid - Patrol deals 240% / 400% Lightning DMG, then followed by Night Raid - Snatch that can be channeled. When there are Ice Spikes, deals 216% / 360% Glaciation DMG instead.",
+            "- Night Raid - Snatch deals 360% / 600% Lightning DMG every second. When casting it, Yata will automatically block incoming attacks at the cost of Dodge Gauge value and gain 1 Signal Orb every 1.5s. Release Basic Attack to cast Night Raid - Halt in advance. When there are Ice Spikes, deals 288% / 480% Glaciation DMG every second.",
+            "- Channeling Night Raid - Snatch for more than 1s to accumulate Glaciation Gauge value over time and at an increasing speed. After 1s, gains 100 Glaciation Value every second. After 2s, gains 200 Glaciation Value every second. After 4s, gains 250 Glaciation Value every second.",
+            "- Night Raid - Halt deals 600% / 1000% Lightning DMG. Gains 10 Signature Energy after casting it. When there are Ice Spikes, deals 540% / 900% Glaciation DMG instead."
+          ]
         },
         {
-          "name": "Affix: Glaciation",
+          "name": "Effect: Glaciation",
           "button_press": "",
           "description": [
-            "Certain skills fill the Glaciation Gauge. When full, the Gauge will clear itself and unleash Diamond Dust, dealing Hiemal DMG and accumulating a Diamond Dust stack. Casting an eligible skill will consume all Diamond Dust stacks and create an Ice Spike that deals Hiemal DMG to its surroundings. If the character deals Hiemal DMG while the Ice Spike is on-field, triggers Crystallization, dealing additional Hiemal DMG and generating Glaciation points. When the Ice Spike's on-field duration expires, triggers Icebreak, dealing Hiemal DMG based on the current Glaciation points. The Glaciation Gauge, Diamond Dust stacks, Ice Spike, and Glaciation points will carry over between characters with the Glaciation Affix."
+            "Some of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies. While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Glaciation Value. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Glaciation Value. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Glaciation Value can transfer to the next character with Effect: Glaciation."
           ],
           "result": [
-            "- When Glaciation points reaches 100, unleashes Diamond Dust that deals 100% Hiemal DMG and accumulates 1 Diamond Dust stack, up to 10 stacks.",
-            "- If there is at least 1 Diamond Dust stack, certain skills can clear all Diamond Dust stacks and create an Ice Spike on-field, dealing 180% Hiemal DMG. The Ice Spike's duration increases by 1s for every Diamond Dust stack consumed.",
-            "- While the Ice Spike exists, if the character deals Hiemal DMG, triggers Crystallization, dealing 100% Hiemal DMG to enemies in a large area and generating 100 Glaciation points. Can be triggered once every 0.25s.",
-            "- When the Ice Spike's duration expires, triggers Icebreak to deal 100% Hiemal DMG to enemies in a large area. Base DMG of Icebreak increases by 9% for every 100 Glaciation points. The maximum Glaciation points is 10000."
+            "- At 100 Glaciation Value, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers",
+            "- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.",
+            "- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Glaciation Value. This can only trigger once every 0.25s.",
+            "- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Glaciation Value owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Glaciation Value."
           ]
         }
       ]
     },
     "signature": {
-      "name": "Sky-Shaking Afterglow",
+      "name": "Skyward Flash",
       "skills": [
         {
           "name": "Signature Move",
-          "button_press": "80 Energy + Tap Signature Move",
+          "button_press": "80 Energy + Tap Signature",
           "description": [
-            "Mobilizes all energy to launch an explosive bomb, dealing **{0}%** Lightning DMG. Gain invincibility during this skill. Triggers all available QTEs."
+            "Uses all energy to fire a blast shell, dealing **{0}%** Lightning DMG, during which time, becomes Invincible and activates all available QTEs."
           ],
           "desc_lv18": [2400],
           "result": [
-            "- If an Ice Spike exists on the field, deals **{0}%** Hiemal DMG instead.",
-            "- Consumes all stacks of Concentration to increase the Base DMG of this skill by 50% each, up to 2 stacks.",
-            "- Afterwards, Yata returns to Empty Realm state and clears all Flow Gauge."
+            "- When there are Ice Spikes, deals 2000% Glaciation DMG instead.",
+            "- Spend the existing Will stacks. Each stack will increase Skyward Flash's Base DMG by 50%. Max 2 stacks.",
+            "- Casting Skyward Flash will reset Yata's status back to the Void Realm and empty the existing Heartflow."
           ],
           "res_lv18": [2000]
         }
       ]
     },
     "qte": {
-      "name": "Rampart Breaker",
-      "description": "Swings her bat, dealing a total of **{0}%** Lightning DMG.",
+      "name": "Homer Break",
+      "description": "Releases a batting strike, dealing a total of **{0}%** Lightning DMG.",
       "desc_lv18": [600]
     },
     "leader": {
-      "name": "Apex Thunderclap",
-      "description": "Increases all members' Lightning DMG by 10%."
+      "name": "Absolute Thunder",
+      "description": "Lightning DMG of all team members increases by 10%."
     },
     "class": {
       "name": "Attacker",
@@ -11845,45 +11829,45 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Surging Electrical Dash",
+      "name": "Thunder Walker",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "After casting Nocturne Rush: Finisher, obtain a Red 3-Ping."
+          "desc": "Casting Night Raid - Halt grants 1 set of Red Orbs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Base DMG of Red and Yellow Orbs increases by 50%. Gain 30 Flow Gauge upon entering the battlefield."
+          "desc": "Red and Yellow Orb Pings deal 50% more Base DMG. Gains 30 Heartflow when switched to and entering the battlefield."
         }
       ]
     },
     "sss_rank": {
-      "name": "Path of Discipline",
+      "name": "Discipline Practitioner",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Base DMG of Upanishad - Slice increases by 100%."
+          "desc": "Esotericism: Slash's Base DMG increases by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Gain an extra 60 Flow Gauge upon entering the battlefield. If Nocturne Rush consumes stacks of Illuminated Guidance, Nocturne Rush: Finisher will restore an extra 25 Energy."
+          "desc": "Gains 60 extra Heartflow every time when entering the battlefield. If 2 stacks of Illumination were consumed to cast Thunder Outflux - Night Raid, then casting Night Raid - Halt will grant 25 extra Signature Energy"
         }
       ]
     },
     "s+_rank": {
-      "name": "Realm of Samadhi",
+      "name": "Mushin State",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Nocturne Rush and Reflective Counter increases by 30%."
+          "desc": "Extra DMG of Thunder Outflux - Night Raid and Thunder Outflux - Mirror Return increases by 30%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of Upanishad-Rampart, Upanishad-Collapse, and Upanishad-Slice increases by 40%."
+          "desc": "Extra DMG of Esotericism: Homer, Esotericism: Collapse, and Esotericism: Slash increases by 40%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Sky-Shaking Afterglow increases by 20%."
+          "desc": "Skyward Flash deals 20% more Extra DMG."
         }
       ]
     }
@@ -11891,129 +11875,129 @@
   "startrail": {
     "basic_attack": [
       {
-        "name": "Effulgent Offensive - Roving Starburst",
-        "button_press": "Holding Sword and Shield + Tap Basic Attack",
+        "name": "Radiant Surge - Wandering Starburst",
+        "button_press": "Sword Shield in Hand + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Performs alternating attacks with the Sword and Shield, dealing a total of **{0}%** Lightning DMG.",
+        "description": "Perform alternating attacks with the Sword Shield, dealing a total of **{0}%** Lightning DMG.",
         "desc_lv18": [510]
       },
       {
-        "name": "Effulgent Offensive - Thundering Whirlwind",
-        "button_press": "Holding Shield Axe + Tap Basic Attack",
+        "name": "Radiant Surge - Thunder Vortex",
+        "button_press": "Shield Axe in Hand + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Attacks with the Shield Axe, dealing Lightning DMG. If there is sufficient **Astra Gauge**, then attacks will consume **Astra Gauge**, generate **Exceed Points**, and deal additional Lightning DMG. Gain Super Armor and DMG Reduction during this skill.",
+        "description": "Attacks with the Shield Axe, dealing Lightning DMG. If there are sufficient Starlight Points, consuming them during the attack will grant Overload, dealing Lightning DMG while granting Super Armor and DMG Reduction.",
         "result": [
           "- Deals a total of **{0}%** Lightning DMG.",
-          "- If there is sufficient **Astra Gauge**, this skill unleashes additional **lightstreams**. Each hit will consume 10/25/30/35 **Astra Gauge**, generate 30/75/90/105 **Exceed Points** and 3/7/9/11 Signature Energy, and deal an extra **{1}%**/**{2}%**/**{3}%**/**{4}%** Lightning DMG respectfully. During this period, gain Super Armor and 60% DMG Reduction. **Exceed Points** limit: 300 points."
+          "- If there are sufficient Starlight Points, extra Flowing Light will be released. Each attack consumes 10 / 25 / 30 / 35 Starlight Points, granting 30 / 75 / 90 / 105 Overload and 3 / 7 / 9 / 11 Signature Energy, and deals an extra **{1}%** / **{2}%** / **{3}%** / **{4}%** Lightning DMG while granting Super Armor and 60% DMG Reduction. The maximum Overload is 300 points."
         ],
         "res_lv18": [680, 400, 1100, 2100, 2600]
       }
     ],
     "red_orb": [
       {
-        "name": "Dazzling Thunder Cyclone - Red Orb Combo 1",
+        "name": "Thunderflare Storm - Red Orb Combo 1",
         "button_press": "Not in Red Orb Combo + Tap Red Orb",
         "switch_in": "no",
-        "description": "Performs a spinning slash on the enemy and enters Red Orb Combo, dealing Lightning DMG and applying a **Dazzling Thunder Mark** to enemies hit. The **Dazzling Thunder Mark** lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when cast, it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
+        "description": "Startrail performs a spinning slash attack and enters the Red Orb Combo, dealing Lightning DMG and applying a Thunderflare Mark on hit. The Thunderflare Mark explodes after 0.7s, dealing Lightning DMG. If a Thunderflare Mark already exists when this skill is cast, it will detonate immediately, creating a shockwave that deals damage to the user.",
         "result": [
-          "- The spinning slash deals **{0}%** Lightning DMG. The **Dazzling Thunder Mark** detonation deals **{1}%** Lightning DMG.",
-          "- If attacked during this skill, Nanami will automatically raise her shield to block it and gain 1 extra stack of Crystalline Forcefield, up to 2 stacks.",
-          "- If the target has a **Dazzling Thunder Mark** when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 extra stack of Crystalline Forcefield, up to 2 stacks."
+          "- The slash attack deals **{0}%** Lightning DMG. The Thunderflare Mark explosion deals **{1}%** Lightning DMG.",
+          "- If hit while casting this skill, blocks with a shield and gains 1 stack of Crystal Field, up to a maximum of 2 stacks.",
+          "- If the target has a Thunderflare Mark when this skill is cast, the Thunderflare Mark will detonate immediately and block the shockwave, gaining an extra 1 stack of Crystal Field, up to a maximum of 2 stacks."
         ],
         "res_lv18": [100, 100]
       },
       {
-        "name": "Dazzling Thunder Cyclone - Red Orb Combo 2",
-        "button_press": "During Red Orb Combo + Ping Red Orb",
+        "name": "Thunderflare Storm - Red Orb Combo 2",
+        "button_press": "In Red Orb Combo + Ping Red Orb",
         "switch_in": "no",
-        "description": "Leaps into the air and strikes downwards, dealing Lightning DMG and generating **Astra Gauge**.",
+        "description": "Leaps and performs a downward slash, dealing Lightning DMG and gaining Starlight Points.",
         "result": [
-          "- Deals **{0}%**/**{1}%**/**{2}%** Lightning DMG and generates 15/30/50 **Astra Gauge** based on the number of orbs pinged, up to 100 points."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Lightning DMG and gains 15 / 30 / 50 Starlight Points based on the number of orbs pinged, up to a maximum of 100 points."
         ],
         "res_lv18": [220, 440, 660]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Astral Assemblage - Celestial Convene",
-        "button_press": "Holding Sword and Shield + At least 50 **Astra Gauge** + Tap Yellow Orb",
+        "name": " Starbeam Deconstruction - Aetherstrike",
+        "button_press": "Sword Shield in Hand + At Least 50 Starlight Points + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Spins to attack the enemy and assembles the weapon into a **Shield Axe**, gaining Super Armor and DMG Reduction, dealing Lightning DMG and clearing the **Blaze Emblem**.",
+        "description": "Spins to attack enemies, combining the weapon into a Shield Axe. Gains Super Armor and DMG Reduction during the attack, dealing Lightning DMG and clearing the Blazing Mark.",
         "result": [
-          "- Deals **{0}%** Lightning DMG. During this skill, gain Super Armor and 80% DMG Reduction."
+          "- Deals **{0}%** Lightning DMG and grants Super Armor and 80% DMG Reduction while casting."
         ],
         "res_lv18": [950]
       },
       {
-        "name": "Astral Assemblage - Rainbow Arc Thrust",
-        "button_press": " Holding Shield Axe + Tap Yellow Orb",
+        "name": " Starbeam Deconstruction - Prismatic Thrust",
+        "button_press": "Shield Axe in Hand + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Dashes into the enemy and dismantles the **Shield Axe** into a **Sword and Shield**, dealing Lightning DMG and gaining Super Armor.",
+        "description": "Sprints and attacks enemies, splitting the Shield Axe into a Sword Shield, dealing Lightning DMG while gaining Super Armor.",
         "result": ["- Deals **{0}%** Lightning DMG."],
         "res_lv18": [150]
       },
       {
-        "name": "Astral Assemblage - Searing Buzzsaw",
-        "button_press": "Holding Sword and Shield + At least 50 **Astra Gauge** + Hold Yellow Orb",
+        "name": "Starbeam Deconstruction - Inferno Cyclone",
+        "button_press": "Sword Shield in Hand + At Least 50 Starlight Points + Press and Hold Yellow Orb",
         "switch_in": "no",
-        "description": "Immediately assembles the **Sword and Shield** into a **Shield Axe**, then continuously consumes **Astra Gauge** to attack the enemy, gathering enemies, dealing Combustion DMG, applying **Incendiary points**, gaining a **Blaze Emblem** and restoring Signature Energy. During this skill, Nanami gains Super Armor and DMG Reduction but is unable to cast **Big Bang Victory!**.",
+        "description": "Immediately combines the Sword Shield into a Shield Axe and continuously attacks enemies while consuming Starlight Points. Pulls enemies together and deals Ignition DMG, applying Combustible Charge, gaining a Blazing Mark and Signature Energy. While this skill is cast, gains Super Armor and DMG Reduction, and cannot cast Decisive Detonation!.",
         "result": [
-          "- Each instance consumes a maximum of **100 Astra Gauge**, deals a total of **{0}%** Combustion DMG, applies 5000 **Incendiary points**, restores 60 Signature Energy, and grants Super Armor and 70% DMG Reduction.",
-          "- Releasing the Yellow Orb button midway will immediately cast **Burning Breakaway**.",
-          "- The **Blaze Emblem** lasts **10**s. Gaining this effect again will reset its duration."
+          "- Continuously consumes up to 100 Starlight Points each time, dealing **{0}%** Ignition DMG in total, applying 5000 Combustible Charge, and gaining 60 Signature Energy. While this skill is cast, gains Super Armor and 70% DMG Reduction.",
+          "- Releasing Yellow Orb prematurely will immediately trigger Blazing Rift.",
+          "- Blazing Mark lasts 10 seconds. Duration resets every time the effect is triggered."
         ],
         "res_lv18": [4000]
       }
     ],
     "blue_orb": [
       {
-        "name": "Comet Dash - Blue Orb Combo 1",
+        "name": "Comet Burst - Blue Orb Combo 1",
         "button_press": "Not in Blue Orb Combo + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Dashes into the enemy and enters **Blue Orb Combo**, dealing Lightning DMG and applying a **Dazzling Thunder Mark** to enemies hit. The **Dazzling Thunder Mark** lasts 0.7s before detonating to deal Lightning DMG. If there is already a mark when cast, then it will immediately detonate and release a shockwave that is considered as dealing damage to herself.",
+        "description": "Startrail performs a sprint attack and enters the Blue Orb Combo, dealing Lightning DMG and applying a Thunderflare Mark on hit. The Thunderflare Mark explodes after 0.7s, dealing Lightning DMG. If a Thunderflare Mark already exists when this skill is cast, it will detonate immediately, creating a shockwave that deals damage to the user.",
         "result": [
-          "- The dash attack deals **{0}%** Lightning DMG. The **Dazzling Thunder Mark** detonation deals **{1}%** Lightning DMG.",
-          "- If attacked during this skill, Nanami will automatically raise her shield to block it and gain 1 extra stack of **Crystalline Forcefield**, up to 2 stacks.",
-          "- If the target has a **Dazzling Thunder Mark** when casting this skill, immediately detonates the mark and blocks the shockwave, gaining 1 extra stack of **Crystalline Forcefield**, up to 2 stacks."
+          "- The sprint attack deals **{0}%** Lightning DMG. The Thunderflare Mark explosion deals **{1}%** Lightning DMG.",
+          "- If hit while using this skill, block with a shield and gain 1 stack of Crystal Field, up to a maximum of 2 stacks.",
+          "- If the target has a Thunderflare Mark when this skill is cast, the Thunderflare Mark will detonate immediately and block the shockwave, gaining an extra 1 stack of Crystal Field, up to a maximum of 2 stacks."
         ],
         "res_lv18": [100, 100]
       },
       {
-        "name": "Comet Dash - Blue Orb Combo 2",
-        "button_press": "During Blue Orb Combo + Ping Blue Orb",
+        "name": "Comet Burst - Blue Orb Combo 2",
+        "button_press": "In Blue Orb Combo + Ping Blue Signal Orb",
         "switch_in": "no",
-        "description": "Turns around and slashes the enemy, dealing Lightning DMG and generating **Astra Gauge**.",
+        "description": "Turns around and performs a slash, dealing Lightning DMG and gaining Starlight Points",
         "result": [
-          "- Deals **{0}%**/**{1}%**/**{2}%** Lightning DMG, and generates **15/30/50** **Astra Gauge** based on the number of orbs pinged, up to 100 points."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Lightning DMG and gains 15 / 30 / 50 Starlight Points based on the number of orbs pinged, up to a maximum of 100 points."
         ],
         "res_lv18": [220, 440, 660]
       }
     ],
     "core_passive": {
-      "name": "Coronal Might",
+      "name": "Astral Armament",
       "skills": [
         {
-          "name": "Starfall Collapse",
-          "button_press": "Holding Shield Axe + At least 100 **Exceed Points** or 100 **Astra Gauge** + Hold Basic Attack",
+          "name": "Meteoric Doom",
+          "button_press": "Shield Axe in Hand + At Least 100 points of Overload or Starlight + Press and Hold Basic Attack",
           "description": [
-            "Consumes all **Exceed Points** and **Astra Gauge** to cast **Starfall Collapse**, gathering nearby enemies, triggering Matrix if it is not on cooldown, dealing Lightning DMG and restoring Signature Energy. During this skill, Nanami is invincible but unable to cast **Big Bang Victory!**."
+            "Consumes all Overload and Starlight Points to cast Meteoric Doom, pulling nearby enemies and triggering Matrix if it is not on cooldown. Becomes Invincible while casting and it is not allowed to cast Decisive Detonation!. Deals Lightning DMG and grants Signature Energy."
           ],
           "result": [
-            "- Deals a total of **{0}%** Lightning DMG and restores 30 Signature Energy.",
-            "- All **Astra Gauge** consumed is converted into an equal amount of **Exceed Points**.",
-            "- For every 15 **Exceed Points** consumed, increases this **Starfall Collapse**'s Base DMG by 3%."
+            "- Deals a total of **{0}%** Lightning DMG and gains 30 Signature Energy.",
+            "- Consumes all Starlight Points when this skill is cast, converting them into an equal amount of Overload.",
+            "- - For every 15 points of Overload consumed, the Base DMG of this Meteoric Doom increases by 3%."
           ],
           "res_lv18": [3800]
         },
         {
-          "name": "Burning Breakaway",
-          "button_press": "During Searing Buzzsaw + Release Yellow Orb or Deplete all **Astra Gauge** during Searing Buzzsaw",
+          "name": "Blazing Rift",
+          "button_press": "During Inferno Cyclone + Release Yellow Orb or Starlight Points are depleted During Inferno Cyclone",
           "description": [
-            "Immediately dismantles her weapon into a Sword and Shield, dealing Combustion DMG, triggering Matrix if it is not on cooldown, and gaining Gain Super Armor and DMG Reduction during this skill. The first **Burning Breakaway** cast upon entering the battlefield receives enhancement effects."
+            "Immediately switches the weapon to the Sword Shield, dealing Ignition DMG and triggering Matrix if it is not on cooldown. Gains Super Armor and DMG Reduction while this skill is cast. Upon first casting, gains an enhanced effect."
           ],
           "result": [
-            "- Deals a total of **{0}%** Combustion DMG. During this skill, gain Super Armor and 80% DMG Reduction.",
-            "- The first **Burning Breakaway** cast upon entering the battlefield will be enhanced, restoring 12 Signature Energy, and for every 5 **Astra Gauge** consumed by the previous **Searing Buzzsaw**, increases the Base DMG of this **Burning Breakaway** by 10%. Casting **Big Bang Victory!** will refresh the available enhancement effect."
+            "- Deals a total of **{0}%** Ignition DMG. Gains Super Armor and 80% DMG Reduction while this skill is cast.",
+            "- Upon first casting, Blazing Rift is enhanced, granting 12 Signature Energy. Additionally, for each 5 Starlight Points consumed by Inferno Cyclone, the Base DMG of Blazing Rift increases by 10%. After casting Decisive Detonation!, the next Blazing Rift will be granted an enhanced effect again."
           ],
           "res_lv18": [700]
         },
@@ -12021,67 +12005,67 @@
           "name": "Structural Meltdown",
           "button_press": "",
           "description": [
-            "Damage dealt by Nanami when using the **Shield Axe** debuffs enemies."
+            "When Startrail deals damage using the Shield Axe, enemies will be weakened."
           ],
           "result": [
-            "- Applies the **Turbulence Interference** effect that reduces enemies' Lightning Resistance by 25% for 2s.",
-            "- If Nanami has a **Blaze Emblem** when damage is dealt, applies the **Scorching Invasion** effect instead that reduces enemies' Fire Resistance by 25% for 2s."
+            "- Applies a **Turbulence Interference** effect to enemies, reducing their Lightning Resistance by 25% for 2s.",
+            "- If a Blazing Mark is active when dealing damage, it will instead apply a **Scorching Invasion** effect to enemies, reducing their Fire Resistance by 25% for 2s."
           ]
         },
         {
-          "name": "Exceed Adaptability",
+          "name": "Hyper Mecha",
           "button_press": "",
           "description": [
-            "After switching to the Shield Axe, gain a shield equal to 30% of Max HP; when switching to the Sword and Shield, removes the shield. Every time Nanami enters the battlefield, gain 1 Signal Orb. "
+            "When Startrail switches to the Shield Axe, gains a Shield equal to 30% of the maximum HP. The Shield is removed when switching back to the Sword Shield. Upon entering battle each time, gains a Signal Orb."
           ]
         },
         {
-          "name": "Affix: Incineration",
+          "name": "Effect: Ignition",
           "button_press": "",
           "description": [
-            "Flammable: Every 250 Incendiary points will apply 1 Flammable stack, up to 20 stacks.\nBurn: Burning enemies receive Combustion DMG equal to **Burning** stacks x 30% (does not trigger Tank class passive) every second for 10s."
+            "Combustible: Every 250 Combustible Charges will add 1 Combustible stack, up to 20 stacks.\nIgnition: Ignited units take Ignition DMG equal to Ignition stacks x30% (Tank Skills will not be triggered) every second for 10s"
           ],
           "result": [
-            "- When the last enemy on the battlefield dies, the enemy(s) that spawn afterwards will inherit their Flammable/Burning stacks."
+            "- The subsequent unit will inherit the Combustible / Ignition status of the last unit on the battlefield upon its death."
           ]
         }
       ]
     },
     "signature": {
-      "name": "Big Bang Victory!",
+      "name": "Decisive Detonation!",
       "skills": [
         {
-          "name": "Heavenly Star Piercer",
-          "button_press": "80 Energy + Holding Sword and Shield + Tap Signature",
+          "name": "Cosmic Starstrike",
+          "button_press": "80 Signature Energy + Sword Shield in Hand + Tap Signature",
           "description": [
-            "Assembles the weapon into a **Shield Axe** and cleaves through the enemy, dealing DMG. This skill triggers Time Lag Calculation. If Nanami has the **Domain Overlimit** effect (the orb-tripling effect from Matrix), refreshes its duration."
+            "Combines the weapon into a Shield Axe and performs a slash on enemies, dealing damage. During the attack, Time Lag Calculation is triggered, and the weapon automatically switches back to the Sword Shield after the attack. If the Field Ultralimit effect is active when casting this skill, its duration is refreshed."
           ],
           "result": [
             "- Deals a total of **{0}%** Lightning DMG.",
-            "- If there is a **Blaze Emblem**, clears the emblem and casts **Heavenly Star Piercer: Burn** instead, converting Flammable stacks into an equal number of **Burning** stacks and dealing **{1}%** Combustion DMG. Afterwards, gain a **Cinder Emblem** that lasts 15s.",
-            "- If Nanami exits the battlefield with a **Cinder Emblem**, resets the mark's duration to 15s. Triggering this effect again will reset its duration.",
-            "- Afterwards, return to **Sword and Shield**."
+            "- If the Blazing Mark is active when casting this skill, the Blazing Mark will be cleared, and Cosmic Starstrike: Burn will be cast instead. Turns Combustible state into Ignition state of equal stacks, dealing **{1}%** Ignition DMG. Gains the Ember Mark for 15s.",
+            "- If the Ember Mark is active upon leaving the battle, the mark's duration is refreshed to 15s. Duration resets every time the effect is triggered.",
+            "- Afterwards, return to Sword Shield."
           ],
           "res_lv18": [4000, 4000]
         },
         {
-          "name": "Gigabyte Star Sunder",
-          "button_press": "80 Energy + Holding Shield Axe + Tap Signature",
+          "name": "Starshard Slash",
+          "button_press": "80 Signature Energy + Shield Axe in Hand + Tap Signature",
           "description": [
-            "Cleaves through the enemy with the **Shield Axe**, dealing **{0}%** Lightning DMG. This skill triggers Time Lag Calculation. If Nanami has the **Domain Overlimit** effect (the orb-tripling effect from Matrix), refreshes its duration."
+            "Attack enemies with the Shield Axe, dealing **{0}%** % Lightning DMG. During the attack, Time Lag Calculation is triggered, and the weapon automatically switches back to the Sword Shield after the attack. If the Field Ultralimit effect is active when casting this skill, its duration is reset."
           ],
           "desc_lv18": [4000],
-          "result": ["- Afterwards, return to **Sword and Shield.**"]
+          "result": ["- Afterwards, return to Sword Shield"]
         },
         {
-          "name": "Glowing Embers Field",
+          "name": "Thunderfire Domain",
           "button_press": "",
           "description": [
-            "After casting **Heavenly Star Piercer** or **Gigabyte Star Sunder**, leaves behind a field that continuously deals damage and debuffs enemies."
+            "After casting Cosmic Starstrike or Starshard Slash, a domain is left behind, dealing continuous damage and weakening enemies."
           ],
           "result": [
-            "- The field deals **{0}%** Lightning DMG every second for 12s. Triggering this effect again will reset its duration.",
-            "- If Nanami has a **Blaze Emblem** when this skill is cast, deals **{1}%** Combustion DMG every second for 12s instead. Triggering this effect again will reset its duration."
+            "- The domain deals **{0}%** Lightning DMG per second for 12s. Duration resets every time it is triggered.",
+            "- If the Blazing Mark is active when casting this skill, the domain will instead deal **{1}%** Ignition DMG per second for 12s. Duration resets every time it is triggered."
           ],
           "res_lv18": [50, 50]
         }
@@ -12089,16 +12073,16 @@
     },
     "qte": {
       "name": "Orbital Interference",
-      "description": "Deals damage and debuffs enemies.",
+      "description": "Deals damage and weakens enemies.",
       "result": [
-        "- Deals an initial **{0}%** Lightning DMG. Upon dealing damage, applies the **Turbulence Interference** effect that reduces enemies' Lightning Resistance by 25% for 8s. Afterwards, deals **{1}%** Lightning DMG every second for 8s.",
-        "If Nanami has a **Cinder Emblem** when this skill is cast, deals an initial **{2}%** Combustion DMG instead and applies the **Scorching Invasion** effect that reduces enemies' Fire Resistance by 25% for 8s. Afterwards, deals **{3}%** Combustion DMG every second for 8s."
+        "- Deals **{0}%** Lightning DMG upon the first hit and applies a **Turbulence Interference** effect that reduces Lightning Resistance by 25% for 8s. Deals **{1}%** Lightning DMG per second for the following 8s.",
+        "- If the Ember Mark is active when casting this skill, it will instead deal **{2}%** Ignition DMG upon the first hit and apply a **Scorching Invasion** effect that reduces Fire Resistance by 25% for 8s. Deals **{3}%** Ignition DMG per second for the following 8s."
       ],
       "res_lv18": [300, 50, 300, 50]
     },
     "leader": {
-      "name": "Stella Caeli",
-      "description": "Increases Lightning DMG and Combustion DMG of all members by 10%. Increases DMG of all Tank Omniframes by 5%."
+      "name": "Astral Beacon",
+      "description": "Increases Lightning DMG and Ignition DMG of all members by 10%. Increases DMG of all Tank Omniframes in the team by 5%."
     },
     "class": {
       "name": "Tank",
@@ -12106,45 +12090,45 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Hyperspeed Frequency Tuning",
+      "name": "Quantum Beat",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Switching to the Shield Axe, casting **Starfall Collapse**, **Burning Breakaway**, **Heavenly Star Piercer** and **Gigabyte Star Sunder** trigger all available QTEs."
+          "desc": "Switching to the Shield Axe and casting Meteoric Doom, Blazing Rift, Cosmic Starstrike, or Starshard Slash will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Upon exiting the battlefield, automatically uses QTE. After casting **Red Orb Combo 2** or **Blue Orb Combo 2**, tap Red Orb or Blue Orb again to immediately cast the respective Combo 2 skill. Base DMG of **Celestial Convene** and **Red Orb**/**Blue Orb Combo 2** increases by 60%. Base DMG of **lightstreams** increases by 100%. Base DMG of **Searing Buzzsaw** increases by 110%. If **Starfall Collapse** is cast and consumes 100 **Astra Gauge**, generates an additional 50 **Exceed Points** and increases the Base DMG of this **Starfall Collapse** by 50%. After switching to **Shield Axe** for the first time upon entering the battlefield, gain 15 Signature Energy."
+          "desc": "Automatically uses a QTE when exiting the battle. After casting Red/Blue Orb Combo 2, tapping on the Red / Blue Orb again will directly cast the corresponding Combo 2. Aetherstrike and Red / Blue Orb Combo 2 Base DMG increase by 60%. Flowing Light Base DMG increases by 100%. Inferno Cyclone Base DMG increases by 110%. If Meteoric Doom is cast and consumes 100 points of Starlight, gains 50 extra points of Overload. This instance of Meteoric Doom increases its Base DMG by 50%.Gains 15 Signature Energy the first time Shield Axe is switched on upon entering the battle."
         }
       ]
     },
     "sss_rank": {
-      "name": "Blazing Meteor",
+      "name": "Blazing Shooting Star",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Resistance Reduction effects of **Turbulence Interference** and **Scorching Invasion** increase by 10%. Base DMG of **Starfall Collapse** increases by 100%. Base DMG of **Burning Breakaway** increases by 60%. **Searing Buzzsaw**'s rate of applying Combustibility points increases by 100%."
+          "desc": "Resistance Reduction of **Turbulence Interference** and **Scorching Invasion** increases by 10%. Base DMG of Meteoric Doom increases by 100%, and Base DMG of Blazing Rift increases by 60%. Inferno Cyclone applies Combustible Charge 100% faster."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Resistance Reduction effects of **Turbulence Interference** and **Scorching Invasion** increase by 10%. For every 75 **Exceed Points** consumed by **Starfall Collapse**, increases the Base DMG of the next **Gigabyte Star Sunder** by 25%; stacks are cleared upon dismantling the Shield Axe. For every 5 Combustible stacks applied to the target, increases the Base DMG of **Heavenly Star Piercer**: Burn by 16%. Upon entering the battlefield, the first **Big Bang Victory!** cast will generate 100 **Astra Gauge**, and the first 4th-hit **lightstream** will restore an extra 16 Signature Energy. Reduces the swap cooldown of all members in the team by 3s; this does not stack with other effects of the same type."
+          "desc": "Resistance Reduction of **Turbulence Interference** and **Scorching Invasion** increases by 10%. Each time Meteoric Doom consumes 75 points of Overload, the next casting of Starshard Slash increases its Base DMG by 25%. Stacks are cleared when separating the Shield Axe. For each 5 stacks of Combustible on the target, casting Cosmic Starstrike: Burn increases its Base DMG by 16%. Upon entering the battle, casting Decisive Detonation! for the first time grants 100 points of Starlight. The phase 4 of the first Flowing Light cast grants a 16 extra points of Signature Energy. Cooldown time for switching between all characters in the team reduces by 3s. This effect does not stack with other effects of the same type."
         }
       ]
     },
     "s+_rank": {
-      "name": "Mechanical Soul of Stars",
+      "name": "Starforge Core",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of **Starfall Collapse** increases by 20%. Extra DMG Bonus of **lightstreams** increases by 35%. Extra DMG Bonus of **Burning Breakaway** increases by 100%."
+          "desc": "Extra DMG of Meteoric Doom, Flowing Light, and Blazing Rift increases by 20%, 35%, and 100% respectively."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of **Celestial Convene** and Red Orb/**Blue Orb Combo 2** increases by 100%. Extra DMG Bonus of **Searing Buzzsaw** increases by 50%."
+          "desc": "Extra DMG of Aetherstrike and Red / Blue Orb Combo 2 increases by 100%. Extra DMG of Inferno Cyclone increases by 50%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of **Heavenly Star Piercer** and **Gigabyte Star Sunder** increases by 40%."
+          "desc": "Extra DMG of Cosmic Starstrike and Starshard Slash increases by 40%."
         }
       ]
     }
@@ -12489,14 +12473,14 @@
         "name": "Beguiling Exile - Twilight's Embrace",
         "button_press": "During Carnival Game + At Least 3 Yellow Orbs + Hold Basic Attack",
         "switch_in": "no",
-        "description": "Taunts the enemy and attacks with **Startling Daylight** to deal Electroconvergence DMG and gain a **Trickery Mark**, then continuously consumes Yellow Orbs to cast **Bewildering Pivot**, dealing Electroconvergence DMG, gaining Electric Charge Points, Signature Energy, and increasing the **Card Rank**. Gain Super Armor and DMG Reduction during this period, and triggers Matrix if not on cooldown.",
+        "description": "Taunts the enemy and attacks with **Startling Daylight** to deal Plasma Beam DMG and gain a **Trickery Mark**, then continuously consumes Yellow Orbs to cast **Bewildering Pivot**, dealing Plasma Beam DMG, granting Electric Charge, Signature Energy, and increasing the **Card Rank**. Gain Super Armor and DMG Reduction during this period, and triggers Matrix if not on cooldown.",
         "result": [
-          "- **Startling Daylight** deals **{0}%** Electroconvergence DMG and heals Lilith for **{1}%** of ATK. Gain a **Trickery Mark**, 160 Electric Charge points, 10 Signature Energy, and Super Armor and 60% DMG reduction during the casting period.",
-          "- Every Orb consumed unleashes one instance of **Bewildering Pivot**, dealing **{2}%** Electroconvergence DMG. Gain 10 Signature Energy, 120 Electric Charge points, and Super Armor and 60% DMG Reduction during the casting period."
+          "- **Startling Daylight** deals **{0}%** Plasma Beam DMG and heals Lilith for **{1}%** of ATK. Gain a **Trickery Mark**, 160 Electric Charge, 10 Signature Energy, and Super Armor and 60% DMG reduction during the casting period.",
+          "- Every Orb consumed unleashes one instance of **Bewildering Pivot**, dealing **{2}%** Plasma Beam DMG. Gain 10 Signature Energy, 120 Electric Charge, and Super Armor and 60% DMG Reduction during the casting period."
         ],
         "res_lv18": [390, 20, 233.34],
         "result2": [
-          "- When Basic Attack is released or Yellow Orbs are depleted, casts **Silence's Return**, dealing **{0}%** Electroconvergence DMG. Lilith is invincible during this period but temporarily unable to cast **Invitation to Wildest Riches**. If **Bewildering Pivot** is successively cast 6 times, **Silencing Finish** will be automatically cast immediately and deal **{1}%** Electroconvergence DMG. Gain an extra 60 Signature Energy and 120 Electric Charge points, and increases **Card Rank** by 2.",
+          "- When Basic Attack is released or Yellow Orbs are depleted, casts **Silence's Return**, dealing **{0}%** Plasma Beam DMG. Lilith is invincible during this period but temporarily unable to cast **Invitation to Wildest Riches**. If **Bewildering Pivot** is successively cast 6 times, **Silencing Finish** will be automatically cast immediately and deal **{1}%** Plasma Beam DMG. Gain an extra 60 Signature Energy and 120 Electric Charge, and increases **Card Rank** by 2.",
           "- For every 3 Signal Orbs pinged during **Twilight's Embrace**, increases **Card Rank** by 1 after casting **Silencing Finish**.",
           "- The **Trickery Mark** lasts for 15s. The duration is refreshed upon exiting the battlefield."
         ],
@@ -12632,7 +12616,7 @@
           "name": "Shadow Stack",
           "button_press": "",
           "description": [
-            "If the team is in Electric Storm state, Lilith is regarded to have a **Trickery Mark**."
+            "If the team is in Electric Storm Flash state, Lilith is regarded to have a **Trickery Mark**."
           ]
         },
         {
@@ -12646,13 +12630,13 @@
           ]
         },
         {
-          "name": "Affix: Electroconvergence",
+          "name": "Effect: Plasma Beam",
           "button_press": "",
           "description": [
-            "Effect Resource: Maximum points of Ampere Accumulation: 1000."
+            "Effect Charge: Maximum electric charge is 1000 points."
           ],
           "result": [
-            "- When the Effect is triggered: Characters with the Electroconvergence Effect enter the Electronic Blast state and causes lightning to fall around themselves, dealing 800% Electroconvergence DMG every 2s for 12s (this cannot trigger the Tank Class passive)."
+            "- Effect Activation: The character enters the Electric Storm Flash state, dealing 800% Plasma Beam DMG to nearby units every 2s (does not trigger Tank Class skills), lasting 12s."
           ]
         }
       ]
@@ -12677,7 +12661,7 @@
           ],
           "result": [
             "- Deals **{0}%** Dark DMG.",
-            "- If Lilith has a **Trickery Mark**, deals **{1}%** Ionization DMG instead and then clears the Trickery Mark. If Electric Charge reaches the maximum when the skill is cast, activates Electric Storm state.",
+            "- If Lilith has a **Trickery Mark**, deals **{1}%** Plasma Beam DMG instead and then clears the Trickery Mark. If Electric Charge reaches the maximum when the skill is cast, activates Electric Storm Flash state..",
             "- When **Card Rank** is at **C/B/A/S/SS**, Base DMG of **Disenchanting Reveal** increases by **175%/200%/225%/250%/275%**.",
             "- Leaves behind an **After-Party Field** that lasts 12s, healing allies for **{2}%** of Lilith: Daemonissa's ATK per second."
           ],
@@ -12690,14 +12674,14 @@
       "description": "Deals damage and heals.",
       "result": [
         "- Deals **{0}%** Dark DMG in total.",
-        "- If Lilith has a **Trickery Mark**, deals **{1}%** Electroconvergence DMG instead.",
+        "- If Lilith has a **Trickery Mark**, deals **{1}%** Plasma Beam DMG instead.",
         "- Heals for **{2}%** of ATK."
       ],
       "res_lv18": [600, 600, 100]
     },
     "leader": {
       "name": "House of Cards",
-      "description": "All members' ATK increases by 10%. Amplifiers' Dark DMG Bonus and Electroconvergence DMG Bonus increases by 5%."
+      "description": "All members' ATK increases by 10%. Amplifiers' Dark DMG Bonus and Plasma Beam DMG Bonus increases by 5%."
     },
     "class": {
       "name": "Amplifier",
@@ -12722,11 +12706,11 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Increases the **Dark Radiation** effect granted to allies healed by Lilith by 10%. If Lilith has a **Trickery Mark**, increases the **Lightning Surge** effect granted to allies healed by 10%. Base DMG of **Cunning Trick** increases by 120%. Base DMG of **Twilight's Embrace - Startling Daylight** and **Twilight's Embrace - Bewildering Pivot** increases by 80%."
+          "desc": "Effect of **Dark Radiation** granted to friendly units healed by Lilith: Daemonissa increases by 10%. If there is a Trickery Mark, friendly units healed additionally gain 10% of the **Ionization Catalyst** effect. Base DMG of **Cunning Trick** increases by 120%. Base DMG of **Twilight's Embrace - Startling Daylight** and **Twilight's Embrace - Bewildering Pivot** increases by 80%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "All member switch-ins reset the cooldown of QTE skills. Increases the **Dark Radiation** effect granted to allies healed by Lilith by 10%. If Lilith has a **Trickery Mark**, increases the **Lightning Surge** effect granted to allies healed by 10%. Casting **Disenchanting Reveal** deals an additional 190% Dark DMG 4 times, or 70% Ionization DMG if there is a **Trickery Mark**; when **Card Rank** is at **C/B/A/S/SS**, adds an extra 3/4/5/6/8 instances of damage."
+          "desc": "All member switch-ins reset the cooldown of QTE skills. Effect of **Dark Radiation** granted to friendly units healed by Lilith: Daemonissa increases by 10%. If there is a Trickery Mark, friendly units healed additionally gain 10% of the **Ionization Catalyst** effect. Casting **Disenchanting Reveal** deals an additional 190% Dark DMG 4 times, or 70% Plasma Beam DMG if there is a **Trickery Mark**; when **Card Rank** is at **C/B/A/S/SS**, adds an extra 3/4/5/6/8 instances of damage."
         }
       ]
     },
@@ -12778,7 +12762,7 @@
         "description": "After holding Basic Attack, Selena switches back to the sword and briefly charges before rushing through the enemy, dealing Physical DMG and gaining **Signature Energy**. During any Signal Orb skill, hold Basic Attack to cast this skill immediately.",
         "result": [
           "- Deals **{0}%** Physical DMG. After casting, gains **12 Signature Energy**.",
-          "- While an Ice Spike is active, deals **{1}%** Glaciation DMG instead.",
+          "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
           "- If Basic Attack is held, Selena will continuously consume **Quavers** to increase its Base DMG by **{2}%/{3}%/{4}%**. Selena can block incoming attacks while charging. Upon a successful block, all **Quavers** are consumed immediately. After casting, triggers Matrix if it is not on cooldown."
         ],
         "res_lv18": [320, 600, 50, 100, 200]
@@ -12852,7 +12836,7 @@
         "result": [
           "- Upon casting, deals **{0}%** Physical DMG and grants **12 Signature Energy**.",
           "- If cast when in **Transcendence**, grants an additional **30 Variation Points**.",
-          "- While an Ice Spike is active, deals **{1}%** Glaciation DMG instead.",
+          "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
           "- Selena is invincible but unable to cast Signature Move.",
           "- This skill does not consume the Blue Orb."
         ],
@@ -12878,7 +12862,7 @@
           "result": [
             "- Deals **{0}%** Physical DMG.",
             "- For every **Concerto Orbs** pinged, gains 1 **Quaver**.",
-            "- While an **Ice Spike** is active, deals **{1}%** Glaciation DMG instead.",
+            "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
             "- After casting, gains **5 Variation Points**, **10 Temperament**, and **5 Signature Energy**."
           ],
           "res_lv18": [600, 1600]
@@ -12891,7 +12875,7 @@
           ],
           "result": [
             "- Deals **{0}%** Physical DMG.",
-            "- While an **Ice Spike** is active, deals **{1}%** Glaciation DMG instead.",
+            "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
             "- Selena is invincible but unable to cast Signature Move. After casting, gains 30 **Variation Points** and 60 Signature Energy."
           ],
           "res_lv18": [4000, 10000]
@@ -12903,23 +12887,23 @@
             "While Selena is in **Transcendence**, certain skills grant **Variation Points**, accumulating up to **100 points**. When **Variation Points** reach maximum, Selena enters **Finale's Prelude** and immediately gains **90 Signature Energy**."
           ],
           "result": [
-            "- Entering **Finale's Prelude** immediately clears all **Quavers**.",
+            "- Entering **Finale's Prelude** immediately clears all **Temperament**.",
             "- **Finale's Prelude** lasts for 7s. Selena switches to attacking as a **Swordbearer** and automatically casts **Signature - Howling Tempest** when it ends.",
             "- Signal Orbs are infinite during **Finale's Prelude**.",
             "- After **Finale's Prelude** ends, all **Quavers** are cleared."
           ]
         },
         {
-          "name": "Affix: Glaciation",
+          "name": "Effect: Glaciation",
           "button_press": "",
           "description": [
-            "Certain skills fill the **Glaciation Gauge**. When full, the Gauge will clear itself and unleash **Diamond Dust**, dealing Hiemal DMG and accumulating a **Diamond Dust stack**. Casting an eligible skill will consume all **Diamond Dust stacks** and create an **Ice Spike** that deals Hiemal DMG to its surroundings.\n\nIf the character deals Hiemal DMG while the **Ice Spike** is on-field, triggers **Crystallization**, dealing additional Hiemal DMG and generating **Glaciation** points.\n\nWhen the Ice Spike's on-field duration expires, triggers **Icebreak**, dealing Hiemal DMG based on the current **Glaciation points**. The **Glaciation Gauge**, **Diamond Dust stacks**, **Ice Spike**, and **Glaciation points** will carry over between characters with the Glaciation Affix."
+            "Some of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies. While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation."
           ],
           "result": [
-            "- When **Glaciation points** reaches **100**, unleashes **Diamond Dust** that deals 100% Hiemal DMG and accumulates **1 Diamond Dust stack**, up to **10** stacks.",
-            "- If there is at least 1 **Diamond Dust stack**, certain skills can clear all **Diamond Dust stacks** and create an **Ice Spike** on-field, dealing **180%** Hiemal DMG. The **Ice Spike**'s duration increases by 1s for every Diamond Dust stack consumed.",
-            "- While the **Ice Spike** exists, if the character deals Hiemal DMG, triggers **Crystallization**, dealing **100%** Hiemal DMG to enemies in a large area and generating **100 Glaciation points**. Can be triggered once every **0.25**s.",
-            "- When the **Ice Spike**'s duration expires, triggers **Icebreak** to deal **100%** Hiemal DMG to enemies in a large area. Base DMG of **Icebreak** increases by **9%** for every **100 Glaciation points**. The maximum **Glaciation points** is **10000**."
+            "- At 100 Glaciation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.",
+            "- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.",
+            "- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.",
+            "- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation."
           ]
         }
       ]
@@ -12935,7 +12919,7 @@
           ],
           "result": [
             "- Deals **{0}%** Physical DMG",
-            "- If there are 10 **Diamond Dust Stacks**, holding this skill will generate an **Ice Spike**.",
+            "- If there are 10 Arctic Ice Layers, holding this skill will form Ice Spikes.",
             "- Gains 3 **Variation Points** per second."
           ],
           "res_lv18": [480]
@@ -12948,7 +12932,7 @@
           ],
           "result": [
             "- Deals **{0}%** Physical DMG",
-            "- While an **Ice Spike** is active, deals **{1}%** Glaciation DMG instead. After casting, the **Ice Spike**'s duration expires and triggers **Icebreak**.",
+            "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead. After casting, the Ice Spikes expire and trigger Ice Burst.",
             "- After casting, **Temperament** and **Variation Points** are cleared, and 1 stack of **Dissonance** is removed."
           ],
           "res_lv18": [1000, 3000]
@@ -12961,7 +12945,7 @@
           ],
           "result": [
             "- Deals **{0}%** Physical DMG",
-            "- While an **Ice Spike** is active, deals **{1}%** Glaciation DMG instead. After casting, the **Ice Spike**'s duration expires and triggers **Icebreak**.",
+            "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead. After casting, the Ice Spikes expire and trigger Ice Burst.",
             "- After casting, all **Temperament** and **Variation Points** are cleared. Gain 3 Signal Orbs."
           ],
           "res_lv18": [3500, 7500]

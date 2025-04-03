@@ -312,19 +312,19 @@ def check_nickname(nickname, caller):
             memory = "liston"
         case "pyroath":
             character = "pyroath"
-            weapon = "dawn's flaming feathers"
-            cub = "yi kong"
+            weapon = "flamewing of dawn"
+            cub = "corvus"
             memory = "heraclitus"
         case "fulgor":
             character = "fulgor"
-            weapon = "morrow's executioner"
+            weapon = "fudo myo-o"
             cub = "n/a"
             memory = "n/a"
         case "startrail":
             character = "startrail"
-            weapon = "star tunnel of light"
-            cub = "an ji"
-            memory = "herschel"
+            weapon = "starlight glare"
+            cub = "bramble angler"
+            memory = "herschell"
         case "parhelion":
             character = "parhelion"
             weapon = "epochal authority"
@@ -667,7 +667,7 @@ def character_theme(nickname):
             chibi_portrait = "https://assets.huaxu.app/glb/image/role/roleheadr3aila2q.webp"
             thumbnail_url = "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3aila3.256.webp"
         case "crimson weave":
-            name = "Lucia: Crimson Weave"
+            name = "Lucia: Tsubrickie"
             colour = 0xd54847
             chibi_portrait = "https://assets.huaxu.app/glb/image/role/roleheadr5luxiya2q.webp"
             thumbnail_url = "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr5luxiya3.256.webp"

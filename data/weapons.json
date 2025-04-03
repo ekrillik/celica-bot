@@ -635,39 +635,39 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "prototype lb lightspeed": {
-    "name": "Prototype LB-Lightspeed",
-    "weapon_type": "Lustrous Katana",
+  "lb flash prototype": {
+    "name": "LB - Flash Prototype",
+    "weapon_type": "Pyro Katana",
     "rarity": 4,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/6/6a/kxd4slpxr4g4j06083agkcr6w5bcveh.png/60px-%E6%AD%A6%E5%99%A8_%E8%AF%95%E4%BD%9C%E5%9E%8BLB-%E7%96%BE%E5%85%89.png",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Breaking the Limit",
+      "effect_name": "Shattering the Chains",
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "night rakshasa": {
-    "name": "Night Rakshasa",
-    "weapon_type": "Power Fists",
+  "rasetsu": {
+    "name": "Rasetsu",
+    "weapon_type": "Powered Arms",
     "rarity": 4,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2packmd010011sp.webp",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Blinding Bloom",
+      "effect_name": "Rapid Radiance",
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "prototype shield axe zl-07": {
-    "name": "Prototype Shield Axe ZL-07",
-    "weapon_type": "Charge Blade",
+  "shield axe zl 07 prototype": {
+    "name": "Shield Axe ZL-07 Prototype",
+    "weapon_type": "Shield Axe",
     "rarity": 4,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2swordaxemd010011.webp",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Night Tour",
+      "effect_name": "Night Wandering",
       "effect_desc": "ATK increases by 5%."
     }
   },
@@ -1307,39 +1307,39 @@
       "effect_desc": "Ice DMG increases by 10%."
     }
   },
-  "fogged glow": {
-    "name": "Fogged Glow",
-    "weapon_type": "Lustrous Katana",
+  "mist netherlight": {
+    "name": "Mist Netherlight",
+    "weapon_type": "Pyro Katana",
     "rarity": 5,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/d/d4/o478srhpm590j1pojwendt63nq7xx3x.png/60px-%E6%AD%A6%E5%99%A8_%E9%9B%BE%E9%9A%90%E5%86%A5%E5%85%89.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Abyssal Spirit",
-      "effect_desc": "Fire DMG increases by 10%."
+      "effect_name": "Haunting Abyss Spirit",
+      "effect_desc": "Increases Fire DMG by 10%."
     }
   },
-  "purging levin": {
-    "name": "Purging Levin",
-    "weapon_type": "Power Fists",
+  "raijin": {
+    "name": "Raijin",
+    "weapon_type": "Powered Arms",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2packmd020011sp.webp",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Thunderclap Purification",
+      "effect_name": "Thunderous Purge",
       "effect_desc": "Lightning DMG increases by 10%."
     }
   },
-  "type zl-09 illuminance": {
-    "name": "Type ZL-09 Illuminance",
-    "weapon_type": "Charge Blade",
+  "sparkle zl 09 mod": {
+    "name": "Sparkle ZL-09 - Mod",
+    "weapon_type": "Shield Axe",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2swordaxemd020011.webp",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Light's Benediction",
+      "effect_name": "Guiding Light",
       "effect_desc": "Lightning DMG increases by 10%."
     }
   },
@@ -2135,40 +2135,40 @@
       "effect_desc": "ATK increases by 10%. Doubles the Base DMG of Flurry Blitz, Frosty Barrage, and Snow Storm."
     }
   },
-  "dawn's flaming feathers": {
-    "name": "Dawn's Flaming Feathers",
-    "weapon_type": "Lustrous Katana",
+  "flamewing of dawn": {
+    "name": "Flamewing of Dawn",
+    "weapon_type": "Pyro Katana",
     "rarity": 6,
     "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/3/3a/1eggeh383ssi01sd15u7d8qeqg1rpup.png/100px-%E6%AD%A6%E5%99%A8_%E6%8B%82%E6%99%93%E7%82%8E%E7%BF%8E.png",
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "Everlasting Pyroath",
-      "effect_desc": "ATK increases by 10%. After performing Signature Move - Auxiliary Precision Slash, recovers 3 Signal Orbs. Entering Blazing Thunder Form will trigger Matrix if it is not on cooldown."
+      "effect_name": "The Vow of Eternal Flame",
+      "effect_desc": "ATK +10%. Recover 3 Signal Orbs after casting Signature - Crowd Slash. Entering Fire Thunder Form will trigger Matrix if it is not on cooldown."
     }
   },
-  "morrow's executioner": {
-    "name": "Morrow's Executioner",
-    "weapon_type": "Power Fists",
+  "fudo myo-o": {
+    "name": "Fudo Myo-o",
+    "weapon_type": "Powered Arms",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e3packmd010011.webp",
     "atk": 436,
     "crit": 244,
     "effect": {
-      "effect_name": "Return to Depths",
-      "effect_desc": "ATK increases by 10%. During Empty Realm and Instructed Realm, Nocturne Rush: Finisher generates an extra 30 Flow gauge. During Enlightened Realm, Base DMG of Nocturne Rush and Reflective Counter increases by 50%."
+      "effect_name": "Thunderbow's Return",
+      "effect_desc": "ATK increases by 10%. While in Void and Sanctuary Realm, casting Night Raid - Halt grants 30 Heartflow. In Epiphany Realm, Base DMG of Thunder Outflux - Night Raid and Thunder Outflux - Mirror Return increases by 50%."
     }
   },
-  "star tunnel of light": {
-    "name": "Star Tunnel of Light",
-    "weapon_type": "Charge Blade",
+  "starlight glare": {
+    "name": "Starlight Glare",
+    "weapon_type": "Shield Axe",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e3swordaxemd010011.webp",
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "Sublime Omnislash",
-      "effect_desc": "ATK increases by 10%. Exceed Points' Base DMG boost towards Starfall Collapse doubles. Base DMG of Burning Breakaway doubles."
+      "effect_name": "Transcendant Omni Slash",
+      "effect_desc": "Increases ATK by 10%. Overload doubles Base DMG effect of Meteoric Doom. Base DMG of Blazing Rift doubles."
     }
   },
   "epochal authority": {
