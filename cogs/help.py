@@ -39,7 +39,7 @@ class Help(commands.Cog):
             )
             embed.add_field(
                 name="**Changelog**",
-                value="```- Added resonance command (21st Jan 2025)\n- Added damageformulas command + adjusted all builds for post-Shukra patch (18th Feb 2025)\n- Added experimental damage calculators (18th Feb 2025)```",
+                value="```- GLB Pyroath/Fulgor/Startrail patch additions```",
                 inline=False
             )
             view = HelpView(ctx.author, bot_related=self.help['bot_related'], informational_commands=self.help['information'], informationpg2=self.help['information2'])
