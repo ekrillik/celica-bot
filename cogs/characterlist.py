@@ -1,5 +1,6 @@
 from __future__ import annotations
 import json
+import discord
 from discord.ext import commands
 from utility.embedconfig import EmbedClass
 from utility.pagination import PaginationView
@@ -24,6 +25,19 @@ class CharacterList(commands.Cog):
 
         embed = self.embedconf.create_characterlist_embed(self.construct_list[0])
         view.message = await ctx.send(embed=embed, view=view)
+
+    @commands.hybrid_command(description="Displays the current priority list for SS3 rank upgrades")
+    async def ss3priority(self, ctx: commands.Context) -> None:
+
+        ss3prioritylist = ["1. Lucia: Pyroath", "2. Selena: Pianissimo", "Ishmael: Parhelion", "Nanami: Startrail", "Hanying: Solacetune", "Vera: Geivaror"]
+
+        names = "\n".join(f"{character}" for character in ss3prioritylist)
+
+        embed =  discord.Embed(
+            title=f"SS3 Priority List of gacha-only units",
+            description=names
+        )
+        await ctx.send(embed=embed)
 
 
 async def setup(bot: commands.Bot):
