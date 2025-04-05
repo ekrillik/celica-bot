@@ -29,12 +29,12 @@ class CharacterList(commands.Cog):
     @commands.hybrid_command(description="Displays the current priority list for SS3 rank upgrades")
     async def ss3priority(self, ctx: commands.Context) -> None:
 
-        ss3prioritylist = ["1. Lucia: Pyroath", "2. Selena: Pianissimo", "Ishmael: Parhelion", "Nanami: Startrail", "Hanying: Solacetune", "Vera: Geivaror"]
+        ss3prioritylist = ["Lucia: Pyroath", "Selena: Pianissimo", "Ishmael: Parhelion", "Nanami: Startrail", "Hanying: Solacetune", "Vera: Geivaror"]
 
-        names = "\n".join(f"{character}" for character in ss3prioritylist)
+        names = "\n".join(f"{index + 1}. {character}" for (index, character) in ss3prioritylist)
 
         embed =  discord.Embed(
-            title=f"SS3 Priority List of gacha-only units",
+            title=f"SS3 Priority List of Gacha-Only Units",
             description=names
         )
         await ctx.send(embed=embed)
