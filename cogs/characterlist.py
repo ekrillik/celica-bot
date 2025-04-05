@@ -31,7 +31,7 @@ class CharacterList(commands.Cog):
 
         ss3prioritylist = ["Lucia: Pyroath", "Selena: Pianissimo", "Ishmael: Parhelion", "Nanami: Startrail", "Hanying: Solacetune", "Vera: Geivaror"]
 
-        names = "\n".join(f"{index + 1}. {character}" for (index, character) in ss3prioritylist)
+        names = "\n".join(f"{index + 1}. {character}" for (index, character) in enumerate(ss3prioritylist))
 
         embed =  discord.Embed(
             title=f"SS3 Priority List of Gacha-Only Units",
