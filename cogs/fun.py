@@ -58,7 +58,7 @@ class Fun(commands.Cog):
 
         start = time.time()
         if self.pasta_command_ran:
-            if (start - self.last_pasta_command_ran) > 5:
+            if (start - self.last_pasta_command_ran) > 2:
                 self.pasta_command_ran = False
 
         if not self.pasta_command_ran:
@@ -111,7 +111,7 @@ class Fun(commands.Cog):
 
         start = time.time()
         if self.pasta_command_ran:
-            if (start - self.last_pasta_command_ran) > 5:
+            if (start - self.last_pasta_command_ran) > 2:
                 self.pasta_command_ran = False
 
         if not self.pasta_command_ran:
