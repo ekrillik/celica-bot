@@ -2774,7 +2774,9 @@
       {
         "name": "Overclocked Magnetic Storm",
         "description": ["Base DMG of [Lightning Flash] increases by 30%."],
-        "level9": ["**Level 9**: Pulls in nearby enemies when casting [Lightning Flash]."],
+        "level9": [
+          "**Level 9**: Pulls in nearby enemies when casting [Lightning Flash]."
+        ],
         "level18": [
           "**Level 18**: After a Red Orb 3-Ping, pinging Yellow Orbs will also activate Sniping Form. New Effect [Passive -Thunderbolt Streak]: Yellow Orb can be immediately pinged after a Red Orb 3-Ping. Veritas will dodge incoming attacks during this action.\nNew Effect [Passive - Gravitational Trap]: The effect of [Executioner] increases to 25%."
         ]
@@ -2795,7 +2797,9 @@
       },
       {
         "name": "Lightning Bloom",
-        "description": ["Base DMG of [Signature - Ire of Lightning] increases by 15%."],
+        "description": [
+          "Base DMG of [Signature - Ire of Lightning] increases by 15%."
+        ],
         "level9": [
           "**Level 9**: Firing a lightning arrow in Sniping Form grants 4 extra Signature Energy. Each lightning arrow grants one extra Red Orb, up to 3 Red Orbs for each entrance."
         ],
@@ -11511,9 +11515,7 @@
           "description": [
             "In the Fire Thunder Form, each Basic Attack - Blazing Slash / Orb Skill / Flare Combo cast will trigger Crimson Blade to assist, dealing Fire DMG."
           ],
-          "result": [
-            "- Each Crimson Blade strike deals **{0}%** Fire DMG."
-          ],
+          "result": ["- Each Crimson Blade strike deals **{0}%** Fire DMG."],
           "res_lv18": [20]
         },
         {
@@ -11534,9 +11536,7 @@
         {
           "name": "Leap",
           "button_press": "Tap Signature",
-          "description": [
-            "Leaps and temporarily stays airborne."
-          ],
+          "description": ["Leaps and temporarily stays airborne."],
           "result": ["- Lucia can dodge attacks while leaping."]
         },
         {
@@ -11568,9 +11568,7 @@
           "name": "Soaring Fire",
           "button_press": "Fire Thunder Form + 90 Signature Energy + Tap Signature",
           "description": ["Leaps and becomes airborne."],
-          "result": [
-            "- Spends all Quench Value after casting."
-          ]
+          "result": ["- Spends all Quench Value after casting."]
         },
         {
           "name": "Endless Daybreak",
@@ -12861,7 +12859,7 @@
           ],
           "result": [
             "- Deals **{0}%** Physical DMG.",
-            "- For every **Concerto Orbs** pinged, gains 1 **Quaver**.",
+            "- For every 3 **Concerto Orbs** pinged, gains 1 **Quaver**.",
             "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
             "- After casting, gains **5 Variation Points**, **10 Temperament**, and **5 Signature Energy**."
           ],
