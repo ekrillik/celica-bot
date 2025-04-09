@@ -2233,8 +2233,8 @@
     "unit_name": "Nanami",
     "frame_name": "Startrail\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:lightning_element:1287636531321765959><:combustion:1288089747952107581>",
     "set_list": [
-      { "name": "Main DPS Set", "memos": "4 Herschel 2 Heisen" },
-      { "name": "Void Sub-DPS Set", "memos": "4 Herschel 4 Heisen" }
+      { "name": "Main DPS Set", "memos": "4 Herschell 2 Heisen" },
+      { "name": "Void Sub-DPS Set", "memos": "4 Herschell 4 Heisen" }
     ],
     "builds": [
       {
@@ -2243,7 +2243,7 @@
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "General DPS"],
-        "memories": ["4x Herschel", "2x Heisen"],
+        "memories": ["4x Herschell", "2x Heisen"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
@@ -2256,7 +2256,7 @@
         "usage": "Void Sub-DPS",
         "game_modes": "Void Warzone",
         "description": ["Only used for Void Warzone."],
-        "memories": ["4x Herschel", "2x Heisen", "2x Heisen (Harmony)"],
+        "memories": ["4x Herschell", "2x Heisen", "2x Heisen (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill"
