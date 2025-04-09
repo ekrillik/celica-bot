@@ -24,7 +24,8 @@ class Fun(commands.Cog):
             712404390207815761, # Shahrivar's Server
             431234590372265994, # Ew's Server
             887647011904557068, # Exaltair
-            1180200696474251355
+            1180200696474251355,
+            1204144729529393202 # LostSanity
         ]
         self.pasta_command_ran = False
         self.bubblewrap_command_ran = False
