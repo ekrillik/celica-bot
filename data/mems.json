@@ -898,5 +898,16 @@
     "def": 223,
     "crit": 66,
     "hp": 1491
+  },
+  "hervor": {
+    "name": "Hervor",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/ehervori01001sp.png",
+    "rarity": 6,
+    "2pc": "ATK increases by 5%. Fire DMG and Darkflow DMG increase by 5%.",
+    "4pc": "After casting Sky-Scorching Spear, gains an extra 3 Blue Orbs. Pinging a set of Red Orbs extends the duration of Unrivaled Flame by twice the amount.",
+    "atk": 132,
+    "def": 223,
+    "crit": 66,
+    "hp": 1491
   }
 }

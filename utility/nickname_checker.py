@@ -345,6 +345,11 @@ def check_nickname(nickname, caller):
             weapon = "ultimate arbiter"
             cub = "n/a"
             memory = "n/a"
+        case "geiravor":
+            character = "geiravor"
+            weapon = "ashen deathbringer"
+            cub = "howl fang"
+            memory = "hervor"
 
         case _:
             if(caller == "character"):
@@ -771,6 +776,11 @@ def character_theme(nickname):
             colour = 0x3e3c3e
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2jietawei2q.png"
             thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr2jietawei3.png"
+        case "geiravor":
+            name = "Vera: Geiravor"
+            colour = 0xe14942
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr4weila2q.png"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr4weila3.png"
         case _:
             name = ""
             colour = ""

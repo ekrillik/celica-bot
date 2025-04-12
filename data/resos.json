@@ -650,6 +650,13 @@
       "3. Matrix Lightning"
     ]
   },
+  "geiravor": {
+    "main": [
+      "1. Dead Line Timing",
+      "2. Superconducting Axial Ray",
+      "3. Glorious Spear"
+    ]
+  },
   "placeholder": {
     "unit_name": "Placeholder",
     "frame_name": "Placeholder"

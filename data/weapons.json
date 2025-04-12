@@ -711,11 +711,23 @@
     "name": "Generic MK-2",
     "weapon_type": "Energy Sword & Gun",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/browse/cn/image/icontools/e2pistolmd010011.png",
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2pistolmd010011.png",
     "atk": 224,
     "crit": 131,
     "effect": {
       "effect_name": "Constellation",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
+  "fiery meteor": {
+    "name": "Fiery Meteor",
+    "weapon_type": "Dual-Bladed Spear",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2bladespearmd010011sp.png",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Falling Star",
       "effect_desc": "ATK increases by 5%."
     }
   },
@@ -1389,6 +1401,18 @@
     "effect": {
       "effect_name": "Transcending Form",
       "effect_desc": "Dark DMG increases by 10%."
+    }
+  },
+  "kindled night": {
+    "name": "Kindled Night",
+    "weapon_type": "Dual-Bladed Spear",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2bladespearmd020011sp.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Burning Sky",
+      "effect_desc": "Fire DMG increases by 10%."
     }
   },
   "lotus berserker": {
@@ -2217,6 +2241,18 @@
     "effect": {
       "effect_name": "The Other Side",
       "effect_desc": "ATK increases by 10%. Every 3 Munitions Orbs consumed restores 1 orb. Extra DMG Bonus of Reflective Chain and Inflow Incendiary increase by 20%."
+    }
+  },
+  "ashen deathbringer": {
+    "name": "Ashen Deathbringer",
+    "weapon_type": "Dual-Bladed Spear",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e3bladespearmd010011sp.png",
+    "atk": 436,
+    "crit": 244,
+    "effect": {
+      "effect_name": "Inextinguishable Flame",
+      "effect_desc": "ATK increases by 10%. Base DMG of Sky-Scorching Spear doubles."
     }
   },
   "placeholder": {

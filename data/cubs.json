@@ -1384,7 +1384,7 @@
       {
         "skill_name": "Brilliant Light",
         "skill_number": "Passive Skill 2",
-          "skill_desc": "Increases the carrier's ATK by 100."
+        "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
         "skill_name": "Wing Blaze",
@@ -1620,6 +1620,61 @@
         "skill_name": "Bellstrike Reverberation",
         "skill_number": "Passive Skill 5",
         "skill_desc": "When Selena: Pianissimo casts **Fullbloom Tuning** with Xue Ge equipped, she will summon Xue Ge to launch a joint attack, dealing **1000%** Physical DMG 3 times. After casting **Basic Attack - Bladed Resonance**, Selena's ATK increases by **40%** for 8s. Triggering this effect will renew its duration."
+      }
+    ]
+  },
+  "howl fang": {
+    "name": "Howl Fang\n<:s_rank:1287636749052412026><:fire_element:1290613867365273630>",
+    "sig_character": "Vera: Geiravor",
+    "base_rank": "S",
+    "cub_type": "Gather, Damage",
+    "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3redwolf1.png",
+    "skills_list": [
+      "Stalking Hunter",
+      "Ecliptic Maw",
+      "Shadow Imprint",
+      "Flaming Fangs",
+      "Nightfall Patrol",
+      "Razortooth Maul",
+      "Moment of the Hunt"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Stalking Hunter",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Howl Fang fires a laser beam at the target, dealing **550%** Fire DMG 4 times."
+      },
+      {
+        "skill_name": "Ecliptic Maw",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Howl Fang clenches a light blade in its jaws and strikes the target, gathering nearby enemy units and dealing **1000%** Fire DMG 2 times."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Shadow Imprint",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Howl Fang's Active Skill deals **70%** more DMG."
+      },
+      {
+        "skill_name": "Flaming Fangs",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by **100**."
+      },
+      {
+        "skill_name": "Nightfall Patrol",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Howl Fang casts an Active Skill, increases the carrier's Extra DMG Bonus by **5%** for 8s. Triggering this effect will renew its duration."
+      },
+      {
+        "skill_name": "Razortooth Maul",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Fire DMG by **10%**. If there is at least 1 Darkflow stack, increases Dark DMG by **10%**."
+      },
+      {
+        "skill_name": "Moment of the Hunt",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Vera: Geiravor casts **Smelted Soul** with Howl Fang equipped, summons Howl Fang to launch a joint attack, gathering nearby enemy units and dealing **1500%** Fire DMG 2 times. Base DMG of **Flame-Forged Night** increases by **10%/20%/30%/40%/50%/60%** when **1/2/3/4/5/6** Yellow Orbs are consumed."
       }
     ]
   }

@@ -68,7 +68,8 @@
     "parhelion",
     "daemonissa",
     "pianissimo",
-    "daybreak"
+    "daybreak",
+    "geiravor"
   ],
   "formatted": [
     {
@@ -324,6 +325,10 @@
         {
           "emojis": "<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:dark_element:1290613554923438102><:electroconvergence:1288090218922119181>",
           "full_name": "Lilith: Daemonissa"
+        },
+        {
+          "emojis": "<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:fire_element:1290613867365273630><:umbrasurge:1288090169303371828>",
+          "full_name": "Vera: Geiravor"
         }
       ]
     },
