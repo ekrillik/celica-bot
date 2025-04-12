@@ -2348,7 +2348,7 @@
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
+          "Bottom Slot: 6x Class Skill"
         ],
         "harmony_rec": "Guinevere"
       }
@@ -2360,7 +2360,7 @@
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Burana 2 Cottie" },
       { "name": "Alternative DPS Set", "memos": "4 Burana 4 Patton" },
-      { "name": "Glaciation Affix DPS Set", "memos": "4 Burana 4 Klenova" }
+      { "name": "Glaciation Affix DPS Set", "memos": "4 Burana 2 Cottie" }
     ],
     "builds": [
       {
@@ -2394,7 +2394,7 @@
         ],
         "memories": ["4x Burana", "2x Patton", "2x Patton (Harmony)"],
         "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
+          "Top Slot   : 6x Blue Orb",
           "Bottom Slot: 6x Core Passive"
         ]
       },
@@ -2408,11 +2408,12 @@
           "Glaciation Affix Set",
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
-        "memories": ["4x Burana", "2x Klenova", "2x Klenova (Harmony)"],
+        "memories": ["4x Burana", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
-        ]
+        ],
+        "harmony_rec": "Klenova"
       }
     ]
   },
@@ -2499,7 +2500,7 @@
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Passive"
+          "Bottom Slot: 6x Class Skill"
         ],
         "harmony_rec": "Guinevere"
       }
