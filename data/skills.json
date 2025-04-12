@@ -9025,7 +9025,7 @@
           "- Each Cipher Orb increases the Base DMG of Arctic Ice and Ice Spikes by 4%, and each Signal Orb increases the Base DMG of Ice Accumulation by 25% for 24s. Triggering this effect will renew its duration. The Soul Shatter Mark enhances the effect of Congelation, every 100 Congelation increasing the Base DMG of the next Ice Burst by 200% (does not stack)."
         ],
         "level9": [
-          "**Level 9**: While Ice Spikes persist, Echo's [Signature - Celestial Edge] resets the Ice Spikes’ duration to 10s, and [QTE - Advent of Justice] extends the duration by 4s and deals 600% Glaciation DMG instead. Cecily's Cipher attacks deal an additional 200% Glaciation DMG and accumulate 100 Congelation for the team..\n- Ice Spikes’ duration cannot exceed 10s."
+          "**Level 9**: While Ice Spikes persist, Echo's [Signature - Celestial Edge] resets the Ice Spikes' duration to 10s, and [QTE - Advent of Justice] extends the duration by 4s and deals 600% Glaciation DMG instead. Cecily's Cipher attacks deal an additional 200% Glaciation DMG and accumulate 100 Congelation for the team..\n- Ice Spikes' duration cannot exceed 10s."
         ],
         "level18": [
           "**Level 18**: Base DMG of Anguishing Co-Strike, Imprisoning Co-Strike, and Soulbreaking Co-Strike increase by 50%.\n[Passive - Decisive Omen] added effect: Increases the final effect of Ultralimit Torque applied by [Core Passive - Blessing of Fortitude] by 5%. While Echo has an active Crystalline Emblem, she instead grants the Frostbound Nova effect that increases Glaciation DMG by 5%. While Ice Spikes persist, Cecily's Cipher attacks accumulate an additional 200 Congelation for the team instead."
@@ -13287,6 +13287,299 @@
         {
           "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of **Apocalyptic Rebellion** increases by **40%**."
+        }
+      ]
+    }
+  },
+  "geiravor": {
+    "basic_attack": [
+      {
+        "name": "Razing Torrent - Swift Break",
+        "button_press": "Rallying Spirit + Tap Basic Attack",
+        "switch_in": "no",
+        "description": "When Vera: Geiravor is in **Rallying Spirit**, Basic Attacks deal **{0}**% Fire DMG.",
+        "desc_lv18": [900]
+      },
+      {
+        "name": "Razing Torrent - Reversed Blades",
+        "button_press": " Deathmatch + Tap Basic Attack",
+        "switch_in": "no",
+        "description": "When Vera: Geiravor is in **Deathmatch**, Basic Attacks deal **{0}%** Fire DMG.",
+        "result": [
+          "- Each hit of Basic Attack converts **2%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
+          "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead."
+        ],
+        "res_lv18": [1200, 1200]
+      },
+      {
+        "name": "Razing Torrent - Valorous Dance",
+        "button_press": "Deathmatch + Tap Dodge to Block + Repeatedly Tap Basic Attack",
+        "switch_in": "no",
+        "description": "When an enemy attack is about to land or Dodge is tapped when stationary to trigger a successful block, tap Basic Attack to unleash a counterattack that deals **{0}%** Fire DMG. Can counterattack up to **3 times**. When attacked (excluding knockback), tap Basic Attack to immediately counterattack.",
+        "result": [
+          "- Each hit of **Valorous Dance** converts **5%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
+          "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead."
+        ],
+        "res_lv18": [600, 600]
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Skyward Flamelash - Beacon",
+        "button_press": "Not in Beacon Combo + Tap Red Orb",
+        "switch_in": "no",
+        "description": "Vera: Geiravor brandishes her spear, dealing Fire DMG and entering **Beacon Combo**.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged.",
+          "- Restores **2%/5%/10%** of Max HP based on the number of orbs pinged.",
+          "- Each set of Red Orbs extends the duration of **Unrivaled Flame** by **1s**. The maximum duration of **Unrivaled Flame** is **10s**.",
+          "- Each Red Orb grants **10 Rekindled Spark**, up to **60**.",
+          "- When Vera: Geiravor has **Stygian Punishment**, deals **{3}%/{4}%/{5}%** Darkflow DMG instead and grants **200** Darkflow Reserve for every **1** Red Orb pinged."
+        ],
+        "res_lv18": [200, 400, 600, 100, 200, 300]
+      },
+      {
+        "name": "Skyward Flamelash - Inferno",
+        "button_press": "In Beacon Combo + Tap Red Orb",
+        "switch_in": "no",
+        "description": "Vera: Geiravor rushes the enemy with her spear, dealing Fire DMG and exiting **Beacon Combo**.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged.",
+          "- Restores **2%/5%/10%** of Max HP based on the number of orbs pinged.",
+          "- Each set of Red Orbs extends the duration of **Unrivaled Flame** by **1s**. The maximum duration of **Unrivaled Flame** is **10s**.",
+          "- Each Red Orb grants **10 Rekindled Spark**, up to **60**.",
+          "- When Vera: Geiravor has **Stygian Punishment**, deals **{3}%/{4}%/{5}%** Darkflow DMG instead and grants **200** Darkflow Reserve for every **1** Red Orb pinged."
+        ],
+        "res_lv18": [400, 800, 1200, 200, 400, 600]
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Fireborn Pact",
+        "button_press": "Flame-Forged Night automatically consumes all Yellow Orbs",
+        "switch_in": "no",
+        "description": "When Vera: Geiravor is in **Rallying Spirit**, every 3 Blue Orbs pinged will generate 2 Yellow Orbs.",
+        "result": [
+          "- **Flame-Forged Night** consumes all Yellow Orbs.",
+          "- Max **6** Yellow Orbs."
+        ]
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Prevailing Spark",
+        "button_press": "Tap Blue Orb",
+        "switch_in": "no",
+        "description": "Vera: Geiravor sweeps the enemy, dealing **{0}%/{1}%/{2}%** Fire DMG.",
+        "desc_lv18": [300, 600, 900],
+        "result": [
+          "- Every **3** Blue Orbs pinged generates **2** Yellow Orbs."
+        ]
+      }
+    ],
+    "core_passive": {
+      "name": "Hellfire Judgement",
+      "skills": [
+        {
+          "name": "Split Assault",
+          "button_press": "",
+          "description": [
+            "During **Rallying Spirit**, only Blue Orbs can be used, and Basic Attacks will generate Blue Orbs."
+          ],
+          "result": [
+            "- After entering **Deathmatch**, only Red Orbs can be pinged, and Basic Attacks will generate Red Orbs.",
+            "- When entering **Deathmatch**, unused Blue Orbs are stored in **Rallying Spirit**.",
+            "- Exiting **Deathmatch** converts unused Red Orbs into Blue Orbs.",
+            "- When Vera: Geiravor exits the battlefield during **Deathmatch**, clears all current Blue Orbs and Red Orbs. Gains 2 Blue Orbs on re-entry.",
+            "- Each time Vera casts **QTE - Ardent Adversary**, the next time she enters **Unrivaled Flame** state, gains **25%** Base DMG Bonus, up to **50%**."
+          ]
+        },
+        {
+          "name": "Hunter's Thrill",
+          "button_press": "Rallying Spirit + Press and Hold Basic Attack",
+          "description": [
+            "Vera: Geiravor smashes downward with her spear, dealing Fire DMG and gaining Super Armor."
+          ],
+          "result": [
+            "- Releasing **Hunter's Thrill** at half charge deals {0}% Fire DMG, stores **12** Signature Energy, restores **50%** of Vera: Geiravor's Max HP.",
+            "- Releasing **Hunter's Thrill** at full charge deals {1}% Fire DMG, stores **24** Signature Energy, restores **100%** of Vera: Geiravor's Max HP."
+          ],
+          "res_lv18": [400, 1000]
+        },
+        {
+          "name": "Smelted Soul",
+          "button_press": "Deathmatch + 20 Rekindled Spark + Press and Hold Basic Attack",
+          "description": [
+            "Vera: Geiravor fervently swings her spear, dealing **{0}%** Fire DMG, entering **Smelted Soul** Combo, storing **10** Signature Energy and gaining Super Armor. This skill consumes **20 Rekindled Spark**."
+          ],
+          "result": [
+            "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
+            "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **10%/15%/20%/25%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
+            "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **10%/15%** of Vera: Geiravor's Max HP into real HP.",
+            "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead and grants **200** Darkflow Reserve."
+          ],
+          "res_lv18": [1000, 300]
+        },
+        {
+          "name": "Bladetwister Stride",
+          "button_press": "Deathmatch + After Smelted Soul Combo + 20 Rekindled Spark + Press and Hold/Repeatedly Tap Basic Attack",
+          "description": [
+            "Vera: Geiravor sets her speartip ablaze, exiting **Smelted Soul** Combo, dealing **{0}%** Fire DMG, entering **Bladetwister Stride** Combo, storing **20** Signature Energy and gaining Super Armor. This skill consumes **20 Rekindled Spark**."
+          ],
+          "result": [
+            "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
+            "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **10%/15%/20%/25%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
+            "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **10%/15%** of Vera: Geiravor's Max HP into real HP.",
+            "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead and grants **400** Darkflow Reserve."
+          ],
+          "res_lv18": [1600, 500]
+        },
+        {
+          "name": "Ruinous Cleave",
+          "button_press": "Deathmatch + After Bladetwister Stride Combo + 20 Rekindled Spark + Press and Hold/Repeatedly Tap Basic Attack",
+          "description": [
+            "Vera: Geiravor imbues inexhaustible fighting spirit into her spear, dealing **{0}%** Fire DMG, exiting **Bladetwister Stride** Combo, storing **70** Signature Energy and gaining Super Armor. This skill consumes **20 Rekindled Spark**."
+          ],
+          "result": [
+            "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
+            "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **30%/50%/70%/90%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
+            "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **50%/55%** of Vera: Geiravor's Max HP into real HP.",
+            "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead and grants **100** Darkflow Reserve."
+          ],
+          "res_lv18": [3200, 700]
+        },
+        {
+          "name": "Race to Dawn",
+          "button_press": "",
+          "description": [
+            "When Vera: Geiravor takes damage during **Deathmatch**, 20% of her real HP is deducted and converted into Shadow Embers."
+          ],
+          "result": [
+            "- Maximum Shadow Embers is equal to Max HP.",
+            "- Vera: Geiravor gains varying amounts of DMG Reduction when she has Shadow Embers.",
+            "- When Shadow Embers is less than 50% of Max HP, gains 20% DMG Reduction.",
+            "- When Shadow Embers is at least 50% of Max HP and less than 75%, gains 50% DMG Reduction.",
+            "- When Shadow Embers is at least 75% of Max HP, gains 75% DMG Reduction.",
+            "- 5s after Shadow Embers is obtained, it will gradually expire and convert back to real HP, unless the duration is reset by triggering the effect again.",
+            "- At the end of battle, all Shadow Embers is converted to real HP."
+          ]
+        },
+        {
+          "name": "Night-Vanquishing Blaze",
+          "button_press": "",
+          "description": [
+            "Friendly units healed by Vera: Geiravor gain the Fire Tempered effect that increases Fire DMG by 20% for 8s. Triggering this effect again refreshes its duration."
+          ],
+          "result": [
+            "- If there is at least 1 Darkflow stack, friendly units healed by Vera: Geiravor instead gain the Dark Radiation effect that increases Dark DMG by 20% for 8s. Triggering this effect again refreshes its duration.",
+            "- The conversion of Shadow Embers to real HP is not regarded as a healing action."
+          ]
+        },
+        {
+          "name": "Effect: Darkflow",
+          "button_press": "",
+          "description": [
+            "For every **200** Darkflow Reserve, gain 1 Darkflow stack, up to a maximum of 15. The character gains a Darkflow Aura based on the current number of stacks, dealing a small amount of Darkflow DMG over time to enemies and reducing their HP recovery. When the number of stacks reaches a threshold, the aura upgrades, increasing its range and dealing a large amount of Darkflow DMG to enemies within the area."
+          ],
+          "result": [
+            "- At **1/3/6/10/15** stacks: Deals **100%/200%/400%/800%/1600%** Darkflow DMG, then deals **20%/40%/60%/80%/100%** Darkflow DMG per second, reducing enemy HP recovery by **10%/20%/30%/50%/100%**."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Immutable Beacon",
+      "skills": [
+        {
+          "name": "Flame-Forged Night",
+          "button_press": "45 Signature Energy + Tap/Press and Hold Signature",
+          "description": [
+            "Condenses fighting spirit into the ends of her spear, dealing DMG. Clears all Yellow Orbs and grants an equal number of Red Orbs. Triggers Time Lag Calculation and enters **Deathmatch**. After casting **Flame-Forged Night**, triggers Matrix if it is not on cooldown."
+          ],
+          "result": [
+            "- Vera: Geiravor's maximum Signature Energy is **45**. After entering **Deathmatch**, the maximum increases to **120**.",
+            "- Converts **15%/30%/45%/60%/75%/90%** of Vera: Geiravor's current HP into **Shadow Embers**, and grants her the **Unrivaled Flame** effect that increases Base DMG Bonus by **10%/20%/30%/40%/50%/60%** for **4**s if **1/2/3/4/5/6** Yellow Orbs were consumed.",
+            "- If Vera: Geiravor has the **Shadow Embers** and **Unrivaled Flame** effects, casting **Flame-Forged Night** will clear **Shadow Embers** and **Unrivaled Flame** and reapply them.",
+            "- Deals **{0}%** Fire DMG.",
+            "- Press and Hold to gain **Stygian Punishment**, grant 200 Darkflow Reserve, and deal **{1}%** Darkflow DMG instead."
+          ],
+          "res_lv18": [2400, 1500]
+        },
+        {
+          "name": "Sky-Scorching Spear",
+          "button_press": "**Deathmatch** + 120 Signature Energy + Tap Signature",
+          "description": [
+            "Flourishes her dual blades in the embodiment of a war dance, dealing DMG. Triggers Time Lag Calculation, then exits **Deathmatch** and enters **Rallying Spirit**. After casting, leaves behind **Evernight Blaze** that continuously restores HP to friendly units."
+          ],
+          "result": [
+            "- After casting **Sky-Scorching Spear**, converts all unused Red Orbs into Blue Orbs.",
+            "- Deals **{0}%** Fire DMG.",
+            "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead. Exits **Deathmatch** and clears **Stygian Punishment**.",
+            "- Leaves behind **Evernight Blaze** that lasts **12**s, healing friendly units for **5%** of Vera: Geiravor's Max HP per second."
+          ],
+          "res_lv18": [5800, 3000]
+        }
+      ]
+    },
+    "qte": {
+      "name": "Ardent Adversary",
+      "description": "Vera: Geiravor swings her weapon, dealing DMG and restoring HP.",
+      "result": [
+        "- Deals a total of {0}% Fire DMG.",
+        "- If there is **at least 1 Darkflow stack**, deals **{1}%** Darkflow DMG instead.",
+        "- Heals for 20% of Max HP."
+      ],
+      "res_lv18": [600, 600]
+    },
+    "leader": {
+      "name": "Profound Condemnation",
+      "description": "Increases ATK of all members by **10%**. Increases Fire DMG and Darkflow DMG of all Amplifier Omniframes in the team by **5%**."
+    },
+    "class": {
+      "name": "Amplifier",
+      "description": "All switched-in members gain an extra **{0}**% ATK and **{1}**% Elemental DMG Bonus of the Amplifier's element for 10s. If there is **at least 1 Darkflow stack**, Vera: Geiravor's Element is regarded as Dark.",
+      "desc_lv18": [20, 20]
+    },
+    "ss_rank": {
+      "name": "Unscorched Bastion",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Casting **Hunter's Thrill**, **Smelted Soul**, **Bladetwister Stride**, **Ruinous Cleave**, and **Sky-Scorching Spear** will activate all available QTEs."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "- The conversion rate of Blue Orbs to Yellow Orbs increases by **50%**, each **1** Blue Orb pinged generating **1** Yellow Orb.\n- **Hunter's Thrill** at full charge will automatically ping Blue Orbs, up to **3**.\n- While **Unrivaled Flame** is active, **Sky-Scorching Spear** deals an additional **1/1/2/2/3/3** instances of DMG when **1/2/3/4/5/6** Yellow Orbs are consumed by **Flame-Forged Night**."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Conflagration's Lament",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Effect of **Fire Tempered** granted to friendly units healed by Vera: Geiravor increases by **10%**.\n - If there is **at least 1 Darkflow stack**, friendly units healed by Vera: Geiravor additionally gain **10%** of the **Ashen Decay** effect.\n- While **Unrivaled Flame** is active, **Ruinous Cleave** deals an additional **1/1/2/2/3/3** instances of DMG when **1/2/3/4/5/6** Yellow Orbs are consumed by **Flame-Forged Night**."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "All member switch-ins reset the cooldown of QTE skills.\n - Effect of **Fire Tempered** granted to friendly units healed by Vera: Geiravor increases by **10%**.\n- If there is **at least 1 Darkflow stack**, friendly units healed by Vera: Geiravor additionally gain **10%** of the **Ashen Decay** effect. Upon **initial entry and switch-in**, gains an extra **3 Yellow Orbs** and **10** Signature Energy, and gains **10** Signature Energy and **30 Rekindled Spark** upon entering **Deathmatch** for the first time.\n- Pinging a set of Blue Orbs grants an additional **12 Signature Energy**.\n- While **Unrivaled Flame** is active, Base DMG of **Hunter's Thrill, Smelted Soul, Bladetwister Stride**, and **Ruinous Cleave** increases by 50%."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Vermillion Unsheathed",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "DMG Bonus from **Unrivaled Flame** increases by 50%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of **Hunter's Thrill, Smelted Soul, Bladetwister Stride**, and **Ruinous Cleave** increases by 50%."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of **Flame-Forged Night** and **Sky-Scorching Spear** increases by **50%**."
         }
       ]
     }

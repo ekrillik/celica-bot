@@ -171,6 +171,8 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "pianissimo"
         case "jetavie daybreak" | "daybreak" | "jetavie" | "omgkawaiiangel-chan" | "vtuber" | "gyaru" | "shi-yori's wife":
             character = "daybreak"
+        case "vera geiravor" | "geiravor" | "valkyrie" | "valk":
+            character = "geiravor"
         # Boss nicknames
         case "mado":
             boss = "madorea"

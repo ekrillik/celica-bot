@@ -78,7 +78,8 @@
     "sothoth",
     "barcelo",
     "burana",
-    "klenova"
+    "klenova",
+    "hervor"
   ],
   "memories_categorised": [
     { "type": "Two Star Memories", "memories": ["Merli ##"] },
@@ -139,7 +140,7 @@
       ]
     },
     {
-      "type": "Six Star Memories - 1/3",
+      "type": "Six Star Memories - 1/2",
       "memories": [
         "Condelina ######",
         "Shakespeare ######",
@@ -155,12 +156,7 @@
         "Guinevere ######",
         "Frederick ######",
         "Bathlon ######",
-        "Patton ######"
-      ]
-    },
-    {
-      "type": "Six Star Memories - 2/3",
-      "memories": [
+        "Patton ######",
         "Chen Jiyuan ######",
         "Leeuwenhoek ######",
         "Flamel ######",
@@ -170,17 +166,17 @@
         "Unimate ######",
         "Boone ######",
         "Charlotte ######",
-        "Turing ######",
+        "Turing ######"
+      ]
+    },
+    {
+      "type": "Six Star Memories - 2/2",
+      "memories": [
         "Aline ######",
         "Diesel ######",
         "Fran ######",
         "Signa ######",
-        "Derketo ######"
-      ]
-    },
-    {
-      "type": "Six Star Memories - 3/3",
-      "memories": [
+        "Derketo ######",
         "Alphonse ######",
         "Ji Bo'an ######",
         "Cleopatra ######",
@@ -192,7 +188,8 @@
         "Sothoth ######",
         "Barcelo ######",
         "Burana ######",
-        "Klenova ######"
+        "Klenova ######",
+        "Hervor ######"
       ]
     }
   ]

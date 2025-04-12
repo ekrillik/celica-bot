@@ -59,6 +59,8 @@
     "primeval key",
     "evening's grandeur",
     "frost poem",
+    "generic mk-2",
+    "fiery meteor",
     "gloomlight",
     "kuji no sada",
     "guardian mount",
@@ -108,6 +110,8 @@
     "starpool connector",
     "skylit nightmare",
     "laurel crown",
+    "nightstrider",
+    "kindled night",
     "glimpse",
     "guiyun",
     "odette",
@@ -182,7 +186,9 @@
     "starlight glare",
     "epochal authority",
     "lament of night's debauchery",
-    "orpheus' cradle"
+    "orpheus' cradle",
+    "the other side",
+    "ashen deathbringer"
   ],
   "weaponlist_categorised": [
     {
@@ -450,11 +456,7 @@
     },
     {
       "name": "Powered Arms",
-      "list": [
-        "Fudo Myo-o ######",
-        "Raijin #####",
-        "Rasetsu ####"
-      ]
+      "list": ["Fudo Myo-o ######", "Raijin #####", "Rasetsu ####"]
     },
     {
       "name": "Shield Axe",
@@ -491,9 +493,17 @@
     {
       "name": "Energy Swords & Guns",
       "list": [
-        "The Other Side ######",
+        "Ultimate Arbiter ######",
         "Nightstrider #####",
         "Generic MK-2 ####"
+      ]
+    },
+    {
+      "name": "Dual-Bladed Spear",
+      "list": [
+        "Ashen Deathbringer ######",
+        "Kindled Night #####",
+        "Fiery Meteor ####"
       ]
     },
     {

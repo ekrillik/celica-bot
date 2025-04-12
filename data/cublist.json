@@ -1,5 +1,6 @@
 {
   "cublist": [
+    "howl fang",
     "xue ge",
     "billy",
     "zhu ling",
@@ -168,6 +169,11 @@
     {
       "name": "<:s_rank:1287636749052412026><:physical_element:1290613978057146379> Xue Ge",
       "sig_character": "Pianissimo",
+      "base_rank": "S"
+    },
+    {
+      "name": "<:s_rank:1287636749052412026><:fire_element:1290613867365273630> Howl Fang",
+      "sig_character": "Geiravor",
       "base_rank": "S"
     }
   ]
