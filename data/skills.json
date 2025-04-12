@@ -12204,7 +12204,7 @@
         "switch_in": "no",
         "description": "Ishmael: Parhelion has only 1 Yellow Orb permanently located in the rightmost orb position. Tapping it will unleash an **Incorporeal Inhibition Domain**, dealing Nihil DMG.",
         "result": [
-          "- After casting, gain **12 Signature Energy**.",
+          "- After casting, gain **12** Signature Energy.",
           "- This skill is regarded as a 3-Ping and deals **{0}%** Nihil DMG.",
           "- The **Incorporeal Inhibition Domain** lasts **6s**. While the **Incorporeal Inhibition Domain** is active, Base DMG of **Phantom Abysm** increases by **100%**.",
           "- The Yellow Orb will not be consumed after this skill, but will enter a **20s** cooldown."
@@ -12282,7 +12282,7 @@
           "res_lv18": [80, 100, 120, 120, 180, 250],
           "result2": [
             "- Casting **Phantom Mysterium** in **Eminence Form** gathers nearby enemies and deals **{0}%/{1}%/{2}%/{3}%/{4}%** Nihil DMG.",
-            "- Casting **Phantom Abysm** in **Eminence Form** gathers nearby enemies, deals **{5}%/{6}%/{7}%/{8}%/{9}%** Nihil DMG, and restores **12 Signature Energy**.",
+            "- Casting **Phantom Abysm** in **Eminence Form** gathers nearby enemies, deals **{5}%/{6}%/{7}%/{8}%/{9}%** Nihil DMG, and restores **12** Signature Energy.",
             "- Gain invincibility during **Phantom Abysm**.",
             "- If there is sufficient Dodge Gauge, gain invincibility during **Phantom Mysterium**. If there is insufficient Dodge Gauge, gain Super Armor and **50%** DMG Reduction during **Phantom Mysterium**."
           ],
@@ -12298,7 +12298,7 @@
             "- **Gravitational Collapse** has a maximum of **360** points. Each **Gravitational Collapse Point** increases the Base DMG of **Dimensional Collapse** by 0.5%.",
             "- Deals **{0}%** Nihil DMG.",
             "- During this skill, Ishmael is invincible but unable to cast **Signature - Extinction Sentence**.",
-            "- Gain **30 Signature Energy** after casting."
+            "- Gain **30** Signature Energy after casting."
           ],
           "res_lv18": [3600]
         },
@@ -12759,7 +12759,7 @@
         "switch_in": "no",
         "description": "After holding Basic Attack, Selena switches back to the sword and briefly charges before rushing through the enemy, dealing Physical DMG and gaining **Signature Energy**. During any Signal Orb skill, hold Basic Attack to cast this skill immediately.",
         "result": [
-          "- Deals **{0}%** Physical DMG. After casting, gains **12 Signature Energy**.",
+          "- Deals **{0}%** Physical DMG. After casting, gains **12** Signature Energy.",
           "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
           "- If Basic Attack is held, Selena will continuously consume **Quavers** to increase its Base DMG by **{2}%/{3}%/{4}%**. Selena can block incoming attacks while charging. Upon a successful block, all **Quavers** are consumed immediately. After casting, triggers Matrix if it is not on cooldown."
         ],
@@ -12832,7 +12832,7 @@
         "switch_in": "no",
         "description": "Selena's Blue Orb is permanently located in the rightmost orb position, and can only be cast after entering **Solo**. Selena rushes back and forth through the enemy, dealing Physical DMG. After casting, gains **Signature Energy**, and additional **Variation Points** if in **Transcendence**.",
         "result": [
-          "- Upon casting, deals **{0}%** Physical DMG and grants **12 Signature Energy**.",
+          "- Upon casting, deals **{0}%** Physical DMG and grants **12** Signature Energy.",
           "- If cast when in **Transcendence**, grants an additional **30 Variation Points**.",
           "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
           "- Selena is invincible but unable to cast Signature Move.",
@@ -12861,7 +12861,7 @@
             "- Deals **{0}%** Physical DMG.",
             "- For every 3 **Concerto Orbs** pinged, gains 1 **Quaver**.",
             "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
-            "- After casting, gains **5 Variation Points**, **10 Temperament**, and **5 Signature Energy**."
+            "- After casting, gains **5 Variation Points**, **10 Temperament**, and **5** Signature Energy."
           ],
           "res_lv18": [600, 1600]
         },
@@ -12882,7 +12882,7 @@
           "name": "Finale's Prelude",
           "button_press": "Transcendence + 100 Variation Points",
           "description": [
-            "While Selena is in **Transcendence**, certain skills grant **Variation Points**, accumulating up to **100 points**. When **Variation Points** reach maximum, Selena enters **Finale's Prelude** and immediately gains **90 Signature Energy**."
+            "While Selena is in **Transcendence**, certain skills grant **Variation Points**, accumulating up to **100 points**. When **Variation Points** reach maximum, Selena enters **Finale's Prelude** and immediately gains **90** Signature Energy."
           ],
           "result": [
             "- Entering **Finale's Prelude** immediately clears all **Temperament**.",
@@ -12987,7 +12987,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Upon entering the battlefield, immediately gains 1 **Quaver**, **12 Signature Energy**, and 1 Signal Orb. Increase the maximum amount of **Quavers** to **5**. After an orb skill, the next **Basic Attack - Bladed Resonance** will consume up to 6 Signal Orbs and convert them into **Quavers**. When Selena has **4/5 Quavers**, DMG Amplification for **Basic Attack - Bladed Resonance** increases to **300%/600%**. Selena's Extra DMG Bonus increases by 100% during **Lingering Echo** state."
+          "desc": "Upon entering the battlefield, immediately gains 1 **Quaver**, **12** Signature Energy, and 1 Signal Orb. Increase the maximum amount of **Quavers** to **5**. After an orb skill, the next **Basic Attack - Bladed Resonance** will consume up to 6 Signal Orbs and convert them into **Quavers**. When Selena has **4/5 Quavers**, DMG Amplification for **Basic Attack - Bladed Resonance** increases to **300%/600%**. Selena's Extra DMG Bonus increases by 100% during **Lingering Echo** state."
         }
       ]
     },
@@ -13256,7 +13256,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Gain **70 Signature Energy** upon entering the battlefield. During **Panoramic Breakdown**, Extra DMG Bonus increases by 30%. When there are no **Munitions Orbs**, charged skills can be enhanced at the cost of **10 Electrical Load Points** instead."
+          "desc": "Gain **70** Signature Energy upon entering the battlefield. During **Panoramic Breakdown**, Extra DMG Bonus increases by 30%. When there are no **Munitions Orbs**, charged skills can be enhanced at the cost of **10 Electrical Load Points** instead."
         }
       ]
     },
@@ -13452,27 +13452,27 @@
           "name": "Race to Dawn",
           "button_press": "",
           "description": [
-            "When Vera: Geiravor takes damage during **Deathmatch**, 20% of her real HP is deducted and converted into Shadow Embers."
+            "When Vera: Geiravor takes damage during **Deathmatch**, 20% of her real HP is deducted and converted into **Shadow Embers**."
           ],
           "result": [
-            "- Maximum Shadow Embers is equal to Max HP.",
-            "- Vera: Geiravor gains varying amounts of DMG Reduction when she has Shadow Embers.",
-            "- When Shadow Embers is less than 50% of Max HP, gains 20% DMG Reduction.",
-            "- When Shadow Embers is at least 50% of Max HP and less than 75%, gains 50% DMG Reduction.",
-            "- When Shadow Embers is at least 75% of Max HP, gains 75% DMG Reduction.",
-            "- 5s after Shadow Embers is obtained, it will gradually expire and convert back to real HP, unless the duration is reset by triggering the effect again.",
-            "- At the end of battle, all Shadow Embers is converted to real HP."
+            "- Maximum **Shadow Embers** is equal to Max HP.",
+            "- Vera: Geiravor gains varying amounts of **DMG Reduction** when she has **Shadow Embers**.",
+            "- When **Shadow Embers** is less than **50%** of Max HP, gains **20%** DMG Reduction.",
+            "- When **Shadow Embers** is at least **50%** of Max HP and less than **75%**, gains **50%** DMG Reduction.",
+            "- When **Shadow Embers** is at least **75%** of Max HP, gains **75%** DMG Reduction.",
+            "- 5s after **Shadow Embers** is obtained, it will gradually expire and convert back to real HP, unless the duration is reset by triggering the effect again.",
+            "- At the end of battle, all **Shadow Embers** is converted to real HP."
           ]
         },
         {
           "name": "Night-Vanquishing Blaze",
           "button_press": "",
           "description": [
-            "Friendly units healed by Vera: Geiravor gain the Fire Tempered effect that increases Fire DMG by 20% for 8s. Triggering this effect again refreshes its duration."
+            "Friendly units healed by Vera: Geiravor gain the **Fire Tempered** effect that increases Fire DMG by **20%** for 8s. Triggering this effect again refreshes its duration."
           ],
           "result": [
-            "- If there is at least 1 Darkflow stack, friendly units healed by Vera: Geiravor instead gain the Dark Radiation effect that increases Dark DMG by 20% for 8s. Triggering this effect again refreshes its duration.",
-            "- The conversion of Shadow Embers to real HP is not regarded as a healing action."
+            "- If there is **at least 1 Darkflow stack**, friendly units healed by Vera: Geiravor instead gain the **Dark Radiation** effect that increases Dark DMG by **20%** for **8**s. Triggering this effect again refreshes its duration.",
+            "- The conversion of **Shadow Embers** to real HP is not regarded as a healing action."
           ]
         },
         {
@@ -13562,7 +13562,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "All member switch-ins reset the cooldown of QTE skills.\n - Effect of **Fire Tempered** granted to friendly units healed by Vera: Geiravor increases by **10%**.\n- If there is **at least 1 Darkflow stack**, friendly units healed by Vera: Geiravor additionally gain **10%** of the **Ashen Decay** effect. Upon **initial entry and switch-in**, gains an extra **3 Yellow Orbs** and **10** Signature Energy, and gains **10** Signature Energy and **30 Rekindled Spark** upon entering **Deathmatch** for the first time.\n- Pinging a set of Blue Orbs grants an additional **12 Signature Energy**.\n- While **Unrivaled Flame** is active, Base DMG of **Hunter's Thrill, Smelted Soul, Bladetwister Stride**, and **Ruinous Cleave** increases by 50%."
+          "desc": "All member switch-ins reset the cooldown of QTE skills.\n - Effect of **Fire Tempered** granted to friendly units healed by Vera: Geiravor increases by **10%**.\n- If there is **at least 1 Darkflow stack**, friendly units healed by Vera: Geiravor additionally gain **10%** of the **Ashen Decay** effect. Upon **initial entry and switch-in**, gains an extra **3 Yellow Orbs** and **10** Signature Energy, and gains **10** Signature Energy and **30 Rekindled Spark** upon entering **Deathmatch** for the first time.\n- Pinging a set of Blue Orbs grants an additional **12** Signature Energy.\n- While **Unrivaled Flame** is active, Base DMG of **Hunter's Thrill, Smelted Soul, Bladetwister Stride**, and **Ruinous Cleave** increases by 50%."
         }
       ]
     },
