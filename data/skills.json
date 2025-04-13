@@ -13305,22 +13305,24 @@
         "button_press": " Deathmatch + Tap Basic Attack",
         "switch_in": "no",
         "description": "When Vera: Geiravor is in **Deathmatch**, Basic Attacks deal **{0}%** Fire DMG.",
+        "desc_lv18": [1200],
         "result": [
           "- Each hit of Basic Attack converts **2%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
-          "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead."
+          "- If Vera: Geiravor has **Stygian Punishment**, deals **{0}%** Darkflow DMG instead."
         ],
-        "res_lv18": [1200, 1200]
+        "res_lv18": [1200]
       },
       {
         "name": "Razing Torrent - Valorous Dance",
         "button_press": "Deathmatch + Tap Dodge to Block + Repeatedly Tap Basic Attack",
         "switch_in": "no",
         "description": "When an enemy attack is about to land or Dodge is tapped when stationary to trigger a successful block, tap Basic Attack to unleash a counterattack that deals **{0}%** Fire DMG. Can counterattack up to **3 times**. When attacked (excluding knockback), tap Basic Attack to immediately counterattack.",
+        "desc_lv18": [600],
         "result": [
           "- Each hit of **Valorous Dance** converts **5%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
-          "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead."
+          "- If Vera: Geiravor has **Stygian Punishment**, deals **{0}%** Darkflow DMG instead."
         ],
-        "res_lv18": [600, 600]
+        "res_lv18": [600]
       }
     ],
     "red_orb": [
@@ -13412,13 +13414,14 @@
           "description": [
             "Vera: Geiravor fervently swings her spear, dealing **{0}%** Fire DMG, entering **Smelted Soul** Combo, storing **10** Signature Energy and gaining Super Armor. This skill consumes **20 Rekindled Spark**."
           ],
+          "desc_lv18": [1000],
           "result": [
             "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
             "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **10%/15%/20%/25%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
             "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **10%/15%** of Vera: Geiravor's Max HP into real HP.",
             "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead and grants **200** Darkflow Reserve."
           ],
-          "res_lv18": [1000, 300]
+          "res_lv18": [300]
         },
         {
           "name": "Bladetwister Stride",
@@ -13426,13 +13429,14 @@
           "description": [
             "Vera: Geiravor sets her speartip ablaze, exiting **Smelted Soul** Combo, dealing **{0}%** Fire DMG, entering **Bladetwister Stride** Combo, storing **20** Signature Energy and gaining Super Armor. This skill consumes **20 Rekindled Spark**."
           ],
+          "desc_lv18": [1600],
           "result": [
             "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
             "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **10%/15%/20%/25%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
             "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **10%/15%** of Vera: Geiravor's Max HP into real HP.",
             "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead and grants **400** Darkflow Reserve."
           ],
-          "res_lv18": [1600, 500]
+          "res_lv18": [500]
         },
         {
           "name": "Ruinous Cleave",
@@ -13440,13 +13444,14 @@
           "description": [
             "Vera: Geiravor imbues inexhaustible fighting spirit into her spear, dealing **{0}%** Fire DMG, exiting **Bladetwister Stride** Combo, storing **70** Signature Energy and gaining Super Armor. This skill consumes **20 Rekindled Spark**."
           ],
+          "desc_lv18": [3200],
           "result": [
             "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
             "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **30%/50%/70%/90%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
             "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **50%/55%** of Vera: Geiravor's Max HP into real HP.",
             "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead and grants **100** Darkflow Reserve."
           ],
-          "res_lv18": [3200, 700]
+          "res_lv18": [700]
         },
         {
           "name": "Race to Dawn",
