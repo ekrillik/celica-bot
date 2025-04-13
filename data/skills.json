@@ -13419,7 +13419,7 @@
             "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
             "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **10%/15%/20%/25%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
             "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **10%/15%** of Vera: Geiravor's Max HP into real HP.",
-            "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead and grants **200** Darkflow Reserve."
+            "- If Vera: Geiravor has **Stygian Punishment**, deals **{0}%** Darkflow DMG instead and grants **200** Darkflow Reserve."
           ],
           "res_lv18": [300]
         },
@@ -13434,7 +13434,7 @@
             "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
             "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **10%/15%/20%/25%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
             "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **10%/15%** of Vera: Geiravor's Max HP into real HP.",
-            "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead and grants **400** Darkflow Reserve."
+            "- If Vera: Geiravor has **Stygian Punishment**, deals **{0}%** Darkflow DMG instead and grants **400** Darkflow Reserve."
           ],
           "res_lv18": [500]
         },
@@ -13449,7 +13449,7 @@
             "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
             "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **30%/50%/70%/90%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
             "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **50%/55%** of Vera: Geiravor's Max HP into real HP.",
-            "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead and grants **100** Darkflow Reserve."
+            "- If Vera: Geiravor has **Stygian Punishment**, deals **{0}%** Darkflow DMG instead and grants **100** Darkflow Reserve."
           ],
           "res_lv18": [700]
         },
