@@ -61,7 +61,7 @@ class Builds(commands.Cog):
     @commands.hybrid_command(aliases=['observer_infographic', 'oi'], description="Displays the affix teams infographic by Aethervoid used to explain affix teams.")
     async def observer(self, ctx: commands.Context):
         embed = discord.Embed(title="", description="")
-        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/ishmael_class_infographic.png')
+        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/ishmael_class_infographic_v2.png')
         await ctx.send(embed=embed)
 
     @commands.hybrid_command(aliases=['Build', 'b'], description="Displays a set of builds for any particular character.")
