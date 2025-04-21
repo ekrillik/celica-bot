@@ -2044,14 +2044,15 @@
         "description": [
           "Recommended for all ranks",
           "Alternative DPS Set",
-          "Used if you lack Solacetune's signature weapon"
+          "Used if you lack Solacetune's signature weapon",
+          "Preferred build for Solacetune solo."
         ],
         "memories": ["4x Changwuzi", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Core Passive"
         ],
-        "harmony_rec": "None"
+        "harmony_rec": "Cottie"
       },
       {
         "set_name": "Slash Affix Set",
