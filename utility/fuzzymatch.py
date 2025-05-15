@@ -29,7 +29,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             print(character)
         case "alternate wife":
             characters = ["tempest", "capriccio", "pianissimo"]
-            index = random.randint(0, 3)
+            index = random.randint(0, 2)
             character = characters[index]
             print(character)
         case "lost content":
