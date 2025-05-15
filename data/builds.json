@@ -2345,11 +2345,7 @@
         "set_type": "Main Support Sub-DPS",
         "usage": "Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "General DPS set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
+        "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Barcelo", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2364,8 +2360,7 @@
         "game_modes": "PPC, Intensive Battle, Warzone",
         "description": [
           "Recommended for all ranks",
-          "Plasma Affix Support Set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+          "Plasma Affix Support Set"
         ],
         "memories": ["4x Da Vinci", "2x Einsteina"],
         "memory_resonance": [
