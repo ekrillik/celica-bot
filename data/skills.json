@@ -12134,215 +12134,215 @@
   "parhelion": {
     "basic_attack": [
       {
-        "name": "Maxim of Destruction - Efflux of Aquarius",
+        "name": "Doomsday Proverb - Nebula Flow",
         "button_press": "Wanderer Form + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Summons a physical body projection to attack the target, dealing Nihil DMG. While the **Incorporeal Inhibition Domain** is active, adds 4 additional hits to the Basic Attack sequence.",
+        "description": "Summons substance projection to attack the target, dealing Nihil DMG. When there is Forbidden Realm, Ishmael can follow up with 4 Basic Attacks.",
         "result": [
           "- Basic Attacks deal **{0}%** Nihil DMG in total.",
-          "- While the **Incorporeal Inhibition Domain** is active, the additional Basic Attack sequence deals **{1}%** Nihil DMG in total."
+          "- When there is Forbidden Realm, the follow-up Basic Attacks deal **{1}%** Nihil DMG in total."
         ],
         "res_lv18": [300, 550]
       },
       {
-        "name": "Maxim of Destruction - Chaotic Starshower",
-        "button_press": "Eminence Form + Tap Basic Attack",
+        "name": "Doomsday Proverb - Dazzling Starfall",
+        "button_press": "Dominator Form + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Summons a planetary projection to attack the target, dealing Nihil DMG. Gain **Transience Gauge** after casting.",
+        "description": "Summons the star projection to attack the target, dealing Nihil DMG after casting. Gains Phantom Points after casting.",
         "result": [
-          "- After casting, gain **10/20/30/30/60 Transience Gauge**.",
+          "- Gains 10/20/30/30/60 Phantom Points after casting.",
           "- Deals **{0}%** Nihil DMG in total.",
-          "- After the 4th Basic Attack, tap Red Orb to cast **Sequence Disintegration**."
+          "- Tap Red Orb after the 4th hit of Basic Attack to cast Broken Order."
         ],
         "res_lv18": [620]
       }
     ],
     "red_orb": [
       {
-        "name": "Arcane Submergence - Resplendent Sweep",
+        "name": "Vanishing Star - Radiant Flash",
         "button_press": "Tap Red Orb",
         "switch_in": "no",
-        "description": "Rams the target with her knee, dealing Nihil DMG. Gain **Transience Gauge** and **Gravitational Collapse Points** after casting, and triggers a special ability based on the **Observation Chronicle**.",
+        "description": "Hits the target with the knee, dealing Nihil DMG. Gains Phantom Points and Collapse Points after casting. Triggers a special ability based on Observation Notes during the process.",
         "result": [
-          "- After casting, gain **10/20/30 Transience Gauge** and **15/30/45 Gravitational Collapse Points** based on the number of orbs pinged.",
+          "- AAfter casting, gains 10/20/30 Phantom Points and 15/30/45 Collapse Points based on the number of orbs pinged.",
           "- Deals **{0}%/{1}%/{2}%** Nihil DMG based on the number of orbs pinged.",
-          "- Gain Super Armor during this skill."
+          "- Gain Super Armor during the process."
         ],
         "res_lv18": [140, 280, 420]
       },
       {
-        "name": "Arcane Submergence - Sequence Disintegration",
-        "button_press": "During Replendescent Sweep + Tap Red Orb",
+        "name": "Vanishing Star - Broken Order",
+        "button_press": "During Radiant Flash + Tap Red Orb",
         "switch_in": "no",
-        "description": "Slams the target down with a kick, dealing Nihil DMG. Ishmael gains **Transience Gauge** and **Gravitational Collapse Points** after casting and can then immediately cast the 4th hit of **Phantom Abysm**, and triggers a special ability based on the **Observation Chronicle**.",
+        "description": "Stomps the target, dealing Nihil DMG. Gains Phantom Points and Collapse Points after casting and can immediately cast the 4th hit of Phantom Annihilation. Triggers a special ability based on Observation Notes during the process.",
         "result": [
-          "- After casting, gain **10/20/30 Transience Gauge** and **15/30/45 Gravitational Collapse Points** based on the number of orbs pinged.",
+          "- After casting, gains 10/20/30 Phantom Points and 15/30/45 Collapse Points based on the number of orbs pinged.",
           "- Deals **{0}%/{1}%/{2}%** Nihil DMG based on the number of orbs pinged.",
-          "- Gain Super Armor during this skill."
+          "- Gain Super Armor during the process."
         ],
         "res_lv18": [150, 300, 450]
       },
       {
-        "name": "Arcane Submergence - Tank State",
+        "name": "Vanishing Star - Tank State",
         "button_press": "",
         "switch_in": "no",
-        "description": "**Fire**: Casting Red Orb - Arcane Submergence will apply the **Scorching Invasion** effect that reduces Fire Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for **8**s. The duration resets each time it is triggered.\n**Ice**: Casting Red Orb - Arcane Submergence will apply the **Frost Corrosion** effect that reduces Ice Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.",
-        "description2": "**Lightning**: Casting Red Orb - Arcane Submergence will apply the **Turbulence Interference** effect that reduces Lightning Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.\n**Dark**: Casting Red Orb - Arcane Submergence will apply the **Chain Fusion** effect that reduces Dark Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered."
+        "description": "**Fire**: Red Orb Skill - Vanishing Star inflicts **Scorching Invasion** and **Collapse Singularity** to reduce enemy Fire and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered.\n**Ice**: Red Orb Skill - Vanishing Star inflicts **Frost Corrosion** and **Collapse Singularity** to reduce enemy Ice and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered.",
+        "description2": "**Lightning**: Red Orb Skill - Vanishing Star inflicts **Turbulence Interference** and **Collapse Singularity** to reduce enemy Lightning and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered.\n**Dark**: Red Orb Skill - Vanishing Star inflicts **Chain Fusion** and **Collapse Singularity** to reduce enemy Dark and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered."
       },
       {
-        "name": "Arcane Submergence - Amplifier State",
+        "name": "Vanishing Star - Amplifier State",
         "button_press": "",
         "switch_in": "no",
-        "description": "**Fire**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Ice**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "description2": "**Lightning**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Lightning Surge** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.\n**Dark**: Casting Red Orb - Arcane Submergence will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+        "description": "**Fire**: When healing allies for 40% of ATK, Red Orb Skill - Vanishing Star also grants **Fire Tempered** and **Void Collapse** to increase their Fire and Nihil DMG by 10% for 8s. Duration resets every time it is triggered.\n**Ice**: When healing allies for 40% of ATK, Red Orb Skill - Vanishing Star also grants **Frost Crystal** and **Void Collapse** to increase their Ice and Nihil DMG by 10% for 8s. Duration resets every time it is triggered.",
+        "description2": "**Lightning**: When healing allies for 40% of ATK, Red Orb Skill - Vanishing Star also grants **Lightning Surge** and **Void Collapse** to increase their Lightning and Nihil DMG by 10% for 8s. Duration resets every time it is triggered.\n**Dark**: When healing allies for 40% of ATK, Red Orb Skill - Vanishing Star also grants **Dark Radiation** and **Void Collapse** to increase their Dark and Nihil DMG by 10% for 8s. Duration resets every time it is triggered."
       }
     ],
     "yellow_orb": [
       {
-        "name": "Otherworldly Phantom",
-        "button_press": "Wanderer Form + Tap Yellow Orb",
+        "name": "Ethereal Mirage",
+        "button_press": "Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Ishmael: Parhelion has only 1 Yellow Orb permanently located in the rightmost orb position. Tapping it will unleash an **Incorporeal Inhibition Domain**, dealing Nihil DMG.",
+        "description": "Ishmael: Parhelion has only 1 Yellow Orb always fixed on the far right. Tap to cast Forbidden Realm, dealing Nihil DMG.",
         "result": [
-          "- After casting, gain **12** Signature Energy.",
-          "- This skill is regarded as a 3-Ping and deals **{0}%** Nihil DMG.",
-          "- The **Incorporeal Inhibition Domain** lasts **6s**. While the **Incorporeal Inhibition Domain** is active, Base DMG of **Phantom Abysm** increases by **100%**.",
-          "- The Yellow Orb will not be consumed after this skill, but will enter a **20s** cooldown."
+          "- Gains 12 Signature Energy after casting.",
+          "- Casting the skill will be regarded as a 3-Ping and deal **{0}%** Nihil DMG.",
+          "- Forbidden Realm lasts 6s. When there is Forbidden Realm, Phantom Annihilation's Base DMG increases by 100%.",
+          "- No Yellow Orb will be consumed after casting, but the skill will enter a 20-second cooldown."
         ],
         "res_lv18": [270]
       }
     ],
     "blue_orb": [
       {
-        "name": "Winding Stars",
+        "name": "Celestial Aria - Circling Stars",
         "button_press": "Tap Blue Orb",
         "switch_in": "no",
-        "description": "Summons binary star projections to assault the target, dealing Nihil DMG. Gain **Gravitational Collapse Points** after casting.",
+        "description": "Summons twin-star projection to attack the target, dealing Nihil DMG. Gains Collapse Points after casting.",
         "result": [
-          "- After casting, gain **15/30/45 Gravitational Collapse Points** based on the number of orbs pinged.",
+          "- After casting, gains 15/30/45 Collapse Points based on the number of orbs pinged.",
           "- Deals **{0}%/{1}%/{2}%** Nihil DMG based on the number of orbs pinged."
         ],
         "res_lv18": [60, 120, 180]
       },
       {
-        "name": "Supernova",
-        "button_press": "During Winding Stars + Tap Blue Orb",
+        "name": "Celestial Aria - Core Blast",
+        "button_press": "During Circling Stars + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Detonates a planetary projection, dealing Nihil DMG. Gain **Gravitational Collapse Points** after casting.",
+        "description": "Detonates the star projection to deal Nihil DMG. Gains Collapse Points after casting.",
         "result": [
-          "- After casting, gain **15/30/45 Gravitational Collapse Points** based on the number of orbs pinged.",
+          "- After casting, gains 15/30/45 Collapse Points based on the number of orbs pinged.",
           "- Deals **{0}%/{1}%/{2}%** Nihil DMG based on the number of orbs pinged."
         ],
         "res_lv18": [70, 140, 210]
       },
       {
-        "name": "Afterglow of Worlds",
-        "button_press": "Wanderer Form + Hold Dodge",
+        "name": "Celestial Aria - Cosmic Afterglow",
+        "button_press": "Wanderer Form + Press and Hold Dodge",
         "switch_in": "no",
-        "description": "Gathers energy and discharges it at the target, dealing Nihil DMG. Gain **Gravitational Collapse Points** after casting based on the number of previously pinged Blue Orbs.",
+        "description": "Gathers energy and fires at the target, dealing Nihil DMG. After casting, gains Collapse Points based on the Blue Orbs consumed.",
         "result": [
-          "- Based on the cumulative number of Blue Orbs pinged, gain **15 Gravitational Collapse Points** per orb. A maximum of 6 Blue Orbs can be accumulated.",
+          "- Gains 15 Collapse Points per Blue Orb consumed. Max 6 Blue Orbs can be consumed.",
           "- Deals **{0}%** Nihil DMG based on the number of orbs pinged."
         ],
         "res_lv18": [400]
       }
     ],
     "core_passive": {
-      "name": "Sanctified Event Horizon",
+      "name": "Divine Vision",
       "skills": [
         {
-          "name": "Observation Chronicle",
+          "name": "Observation Notes",
           "button_press": "",
           "description": [
-            "Ishmael: Parhelion's ability is determined by the **Observation Chronicle**. The Observation Chronicle's abilities will be strengthened along with the subsequent release of other Constructs."
+            "Ishmael: Parhelion determines her ability based on Observation Notes. Observation Notes' ability will be enhanced along with the appearance of other Constructs."
           ],
           "result": [
-            "- If there is only one elemental Tank in the team, Ishmael: Parhelion will become an Amplifier of the corresponding element.",
-            "- If there is only one elemental Support/Amplifier in the team, Ishmael: Parhelion will become a Tank of the corresponding element."
+            "- When there's only one elemental Tank on team, Ishmael: Parhelion will become the Amplifier of that element.",
+            "- When there's only one elemental Support/Amplifier, she will become the Tank of that element."
           ]
         },
         {
-          "name": "Parhelion's Halo",
+          "name": "Parhelion Arc",
           "button_press": "",
           "description": [
-            "When Ishmael: Parhelion is in **Wanderer Form**, all Signal Orbs are converted into Blue Orbs. In **Eminence Form**, all Signal Orbs are converted into Red Orbs."
+            "When Ishmael: Parhelion is in the Wanderer Form, all Signal Orbs will turn into Blue Orbs. When she's in the Dominator Form, all Signal Orbs will become Red Orbs."
           ]
         },
         {
-          "name": "Phantom of Mirage",
-          "button_press": "Repeatedly Tap Dodge",
+          "name": "Mirage Phantom",
+          "button_press": "Tap Dodge Repeatedly",
           "description": [
-            "Dodging will release a projection that deals Nihil DMG. Tapping Dodge continuously will cast **Phantom Mysterium**. In **Eminence Form**, **30 Transience Gauge** can be consumed to cast **Phantom Abysm**, dealing Nihil DMG. **Phantom Abysm** deals more damage, restores **Signature Energy**, and does not consume Dodge Gauge.\nAfter casting the 5th hit of **Phantom Abysm**, gain a **Mark of Collapse**."
+            "Casts projection to deal Nihil DMG when dodging. Tap Dodge repeatedly to cast Phantom Orbit. When in the Dominator Form, casts Phantom Annihilation at the cost of 30 Phantom Points, dealing Nihil DMG. Phantom Annihilation will deal more damage, restore Signature Energy, and not consume Dodge Gauge value. Gains the Collapse Mark after casting the 5th hit of Phantom Annihilation."
           ],
           "result": [
-            "- The projection released from dodging deals **{0}%** Nihil DMG.",
-            "- **Transience Gauge** has a maximum of **150**.",
-            "- Casting **Phantom Mysterium** in **Wanderer Form** deals **{1}%/{2}%/{3}%/{4}%/{5}%** Nihil DMG."
+            "- Casts projection to deal **{0}%** Nihil DMG when dodging.",
+            "- Phantom Points are capped at 150.",
+            "- Casting Phantom Orbit in the Wanderer Form will deal **{1}%/{2}%/{3}%/{4}%/{5}%** Nihil DMG."
           ],
           "res_lv18": [80, 100, 120, 120, 180, 250],
           "result2": [
-            "- Casting **Phantom Mysterium** in **Eminence Form** gathers nearby enemies and deals **{0}%/{1}%/{2}%/{3}%/{4}%** Nihil DMG.",
-            "- Casting **Phantom Abysm** in **Eminence Form** gathers nearby enemies, deals **{5}%/{6}%/{7}%/{8}%/{9}%** Nihil DMG, and restores **12** Signature Energy.",
-            "- Gain invincibility during **Phantom Abysm**.",
-            "- If there is sufficient Dodge Gauge, gain invincibility during **Phantom Mysterium**. If there is insufficient Dodge Gauge, gain Super Armor and **50%** DMG Reduction during **Phantom Mysterium**."
+            "- Casting Phantom Orbit in the Dominator Form will pull in nearby enemy units and deal **{0}%/{1}%/{2}%/{3}%/{4}%** Nihil DMG.",
+            "- Casting Phantom Annihilation in the Dominator Form will pull in nearby enemy units, deal **{5}%/{6}%/{7}%/{8}%/{9}%** Nihil DMG, and restore 12 Signature Energy.",
+            "- Becomes Invincible when casting Phantom Annihilation.",
+            "- If there are enough Dodge Gauge value, becomes Invincible when casting Phantom Orbit. Otherwise, gains Super Armor and 50% DMG Reduction when casting Phantom Orbit."
           ],
           "res2_lv18": [180, 270, 330, 300, 420, 660, 990, 1210, 1100, 1540]
         },
         {
           "name": "Dimensional Collapse",
-          "button_press": "Eminence Form + Have Mark of Collapse + Hold Dodge",
+          "button_press": "Dominator Form + Have the Collapse Mark + Press and Hold Dodge",
           "description": [
-            "Draws power to shatter space at the target's location, dealing Nihil DMG and gaining Signature Energy.\n**Gravitational Collapse Points** will increase this skill's damage."
+            "Gathers energy and shatters the target's space. Pulls in nearby enemy units and deals Nihil DMG, gaining Signature Energy. Collapse Points can amplify the damage."
           ],
           "result": [
-            "- **Gravitational Collapse** has a maximum of **360** points. Each **Gravitational Collapse Point** increases the Base DMG of **Dimensional Collapse** by 0.5%.",
+            "- Collapse Points are capped at 360. Each Collapse Point amplifies the Base DMG of Dimensional Collapse by 0.5% .",
             "- Deals **{0}%** Nihil DMG.",
-            "- During this skill, Ishmael is invincible but unable to cast **Signature - Extinction Sentence**.",
-            "- Gain **30** Signature Energy after casting."
+            "- Becomes Invincible and cannot cast Signature - Silent Punishment during the process.",
+            "- Gains 15 Signature Energy after casting."
           ],
           "res_lv18": [3600]
         },
         {
-          "name": "Disorderly Beacon",
+          "name": "Agitated Beacon",
           "button_press": "",
           "description": [
-            "In **Eminence Form**, Ishmael's Base DMG efficiency against Equilibrium Fields increases by **100%**."
+            "When in the Dominator Form, Ishmael: Parhelion's Base DMG Efficiency dealt to Equilibrium Field increases by 100%."
           ]
         }
       ]
     },
     "signature": {
-      "name": "Merciful Sacrament",
+      "name": "Merciful Confession",
       "skills": [
         {
-          "name": "Primordial True Form",
-          "button_press": "45 Energy + Tap Signature",
+          "name": "Prime Entity",
+          "button_press": "30 Signature Energy + Tap Signature",
           "description": [
-            "Connects to her higher-dimensional self, entering **Eminence Form** and dealing Nihil DMG. **Time Lag Calculation** is triggered during this skill. If the **Domain Overlimit** effect is active, its duration will be refreshed. After casting, triggers Matrix if it is not on cooldown, triggers a special ability based on the **Observation Chronicle**, and leaves behind a **Hyperdimensional Realm**."
+            "Casts Signature and connects to her high-dimensional self, entering the Dominator Form and dealing Nihil DMG. Meanwhile, triggers Time Lag Calculation. If Field Ultralimit is active while casting, refreshes the duration. After casting, triggers Matrix if it's not on cooldown and a special ability based on Observation Notes, leaving a Hyperspace Realm on the battlefield."
           ],
           "result": [
             "- Deals {0}% Nihil DMG.",
-            "- Applies different effects depending on the Observation Chronicle."
+            "- Causes different effects based on Observation Notes."
           ],
           "res_lv18": [1600]
         },
         {
-          "name": "Extinction Sentence",
-          "button_press": "20 Energy + Tap Signature",
+          "name": "Silent Punishment",
+          "button_press": "90 Signature Energy + Tap Signature",
           "description": [
-            "Shatters reality and reshapes the universe, dealing Nihil DMG and exiting **Eminence Form**. **Time Lag Calculation** is triggered during this skill. Leaves behind a **Hyperdimensional Realm**."
+            "Shatters the reality and reforms the universe, dealing Nihil DMG and exiting the Dominator Form. Meanwhile, triggers Time Lag Calculation. Leaves a Hyperspace Realm on the battlefield after casting."
           ],
           "result": ["- Deals {0}% Nihil DMG."],
           "res_lv18": [4300]
         },
         {
-          "name": "Hyperdimensional Realm",
+          "name": "Hyperspace Realm",
           "button_press": "",
           "description": [
-            "Casting **Signature - Primordial True Form** or **Signature - Extinction Sentence** will leave behind a **Hyperdimensional Realm** on the battlefield that deals Nihil DMG."
+            "Leaves a Hyperspace Realm on the battlefield after casting Signature - Prime Entity or Signature - Silent Punishment, dealing Nihil DMG."
           ],
           "result": [
-            "- The **Hyperdimensional Realm** deals {0}% Nihil DMG to enemies within per second for 12s. Triggering this again will refresh the duration."
+            "- Hyperspace  Realm deals {0}% Nihil DMG to enemies in it for 12s. Duration resets every time it is triggered."
           ],
           "res_lv18": [10]
         },
@@ -12350,103 +12350,103 @@
           "name": "Tank State",
           "button_press": "",
           "description": [
-            "**Fire**: Casting **Signature - Primordial True Form** will apply the **Scorching Invasion** effect that reduces Fire Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for **8**s. The duration resets each time it is triggered.",
-            "**Ice**: Casting **Signature - Primordial True Form** will apply the **Frost Corrosion** effect that reduces Ice Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered."
+            "**Fire**: Signature - Prime Entity inflicts **Scorching Invasion** and **Collapse Singularity** to reduce enemy Fire and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered.",
+            "**Ice**: Signature - Prime Entity inflicts **Frost Corrosion** and **Collapse Singularity** to reduce enemy Ice and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered."
           ],
           "description2": [
-            "**Lightning**: Casting **Signature - Primordial True Form** will apply the **Turbulence Interference** effect that reduces Lightning Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.",
-            "**Dark**: Casting **Signature - Primordial True Form** will apply the **Chain Fusion** effect that reduces Dark Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered."
+            "**Lightning**: Signature - Prime Entity inflicts **Turbulence Interference** and **Collapse Singularity** to reduce enemy Lightning and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered.",
+            "**Dark**: Signature - Prime Entity inflicts **Chain Fusion** and **Collapse Singularity** to reduce enemy Dark and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered."
           ]
         },
         {
           "name": "Amplifier State",
           "button_press": "",
           "description": [
-            "**Fire**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-            "**Ice**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+            "**Fire**: When healing allies for 40% of ATK, Signature - Prime Entity also grants **Fire Tempered** and **Void Collapse** to increase their Fire and Nihil DMG by 10% for 8s. Duration resets every time it is triggered.",
+            "**Ice**: When healing allies for 40% of ATK, Signature - Prime Entity also grants **Frost Crystal** and **Void Collapse** to increase their Ice and Nihil DMG by 10% for 8s. Duration resets every time it is triggered."
           ],
           "description2": [
-            "**Lightning**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the ** **Lightning Surge**** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-            "**Dark**: Casting **Signature - Primordial True Form** will heal allies for 40% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+            "**Lightning**: When healing allies for 40% of ATK, Signature - Prime Entity also grants **Lightning Surge** and **Void Collapse** to increase their Lightning and Nihil DMG by 10% for 8s. Duration resets every time it is triggered.",
+            "**Dark**: When healing allies for 40% of ATK, Signature - Prime Entity also grants **Dark Radiation** and **Void Collapse** to increase their Dark and Nihil DMG by 10% for 8s. Duration resets every time it is triggered."
           ]
         }
       ]
     },
     "qte": {
-      "name": "Prayer for Refuge",
-      "description": "Kicks the Keystaff at the target, dealing Nihil DMG. Triggers a special ability based on the **Observation Chronicle** after casting.",
+      "name": "Galactic Blessing",
+      "description": "Kicks the Keystaff to hit the target, dealing Nihil DMG. After casting, triggers a special ability based on Observation Notes.",
       "result": [
         "- Deals **{0}%** Nihil DMG.",
-        "- Applies different effects depending on the Observation Chronicle."
+        "- Causes different effects based on Observation Notes."
       ],
       "res_lv18": [600],
       "extra1_title": "**Tank State**",
       "extra1": [
-        "**Fire**: Applies the **Scorching Invasion** effect that reduces Fire Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for **8**s. The duration resets each time it is triggered.",
-        "**Ice**: Applies the **Frost Corrosion** effect that reduces Ice Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.",
-        "**Lightning**: Applies the **Turbulence Interference** effect that reduces Lightning Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered.",
-        "**Dark**: Applies the **Chain Fusion** effect that reduces Dark Resistance by **15%** and **Collapse Singularity** effect that reduces Nihil Resistance by **15%** to targets hit for 8s. The duration resets each time it is triggered."
+        "**Fire**: Inflicts **Scorching Invasion** and **Collapse Singularity** to reduce enemy Fire and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered.",
+        "**Ice**: Inflicts **Frost Corrosion** and **Collapse Singularity** to reduce enemy Ice and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered.",
+        "**Lightning**: Inflicts **Turbulence Interference** and **Collapse Singularity** to reduce enemy Lightning and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered.",
+        "**Dark**: Inflicts **Chain Fusion** and **Collapse Singularity** to reduce enemy Dark and Nihil DMG Resistance by 15% for 8s. Duration resets every time it is triggered."
       ],
       "extra2_title": "**Amplifier State**",
       "extra2": [
-        "**Fire**: Heals allies for 100% of ATK, grant the **Fire Tempered** effect that increases Fire DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "**Ice**: Heals allies for 100% of ATK, grant the **Frost Crystal** effect that increases Ice DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "**Lightning**: Heals allies for 100% of ATK, grant the ** **Lightning Surge**** effect that increases Lightning DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered.",
-        "**Dark**: Heals allies for 100% of ATK, grant the **Dark Radiation** effect that increases Dark DMG by **10%** and the **Disintegration** effect that increases Nihil DMG by **10%** to allies for **8s**. The duration resets each time it is triggered."
+        "**Fire**: Healing allies for 100% of ATK also grants **Fire Tempered** and **Void Collapse** to increase their Fire and Nihil DMG by 10% for 8s. Duration resets every time it is triggered.",
+        "**Ice**: Healing allies for 100% of ATK also grants **Frost Crystal** and **Void Collapse** to increase their Ice and Nihil DMG by 10% for 8s. Duration resets every time it is triggered.",
+        "**Lightning**: Healing allies for 100% of ATK also grants **Lightning Surge** and **Void Collapse** to increase their Lightning and Nihil DMG by 10% for 8s. Duration resets every time it is triggered.",
+        "**Dark**: Healing allies for 100% of ATK also grants **Dark Radiation** and **Void Collapse** to increase their Dark and Nihil DMG by 10% for 8s. Duration resets every time it is triggered."
       ]
     },
     "leader": {
-      "name": "Exalted Rectifier",
-      "description": "All members' Nihil DMG increases by **10%**. Observers' DMG increases by **10%**."
+      "name": "Sculpted Might",
+      "description": "Increases Nihil DMG of all members by 10%. Increases DMG of all Observers in the team by 10%"
     },
     "class": {
       "name": "Observer",
-      "description": "Gain different abilities based on the **Observation Chronicle**:\n- When Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for **5**s.\n- When Amplifier: All switched-in members gain an extra **{1}%** ATK and **{2}%** Elemental DMG Bonus of Ishmael: Parhelion's element for **10**s.\n- When Other Elemental Amplifier: All switched-in members gain an extra **{3}%** ATK and **{4}%** Elemental DMG Bonus of Ishmael: Parhelion's element for 10s.",
+      "description": "Gains different abilities based on Observation Notes:\n- When Ishmael is Tank: Attacks reduce the target's Extra DMG Reduction by **{0}%** for 5s.\n- When Amplifier: When Ishmael is Dark or Fire Amplifier: All switched-in members gain an extra **{1}%** ATK. Ishmael: Parhelion's DMG Bonus of the corresponding element increases by **{2}%** for 10s.\n- When Ishmael is Amplifier of other elements: All switched-in members gain an extra **{3}%** ATK. Ishmael: Parhelion's DMG Bonus of the corresponding element increases by **{4}%** 10s.",
       "desc_lv18": [20, 20, 20, 10, 10]
     },
     "ss_rank": {
-      "name": "Inspiring Roll of Dice",
+      "name": "Enlightenment Dice",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Casting **Signature - Primordial True Form/Signature - Extinction Sentence**, and **Dimensional Collapse** will activate all available QTEs."
+          "desc": "Casting Signature - Prime Entity/Signature - Silent Punishment and Dimensional Collapse will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "In **Eminence Form**, Extra DMG Bonus increases by 30%. Signature Energy required for **Signature - Primordial True Form** is reduced to **12**. While the **Incorporeal Inhibition Domain** is active, every **Phantom Abysm** generates 1 Signal Orb."
+          "desc": "Deals 30% more Extra DMG during the Dominator Form. Signature - Prime Entity consumes only 12 Signature Energy instead. When there is Forbidden Realm, gains 1 Signal Orb every time when casting Phantom Annihilation."
         }
       ]
     },
     "sss_rank": {
-      "name": "Churning Wheel of Fate",
+      "name": "Fate Weaver",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Upon casting **Afterglow of Worlds** for the first time upon entering the battlefield, gain **180 Gravitational Collapse Points** and a **Mark of Collapse**. Base DMG of **Signature - Extinction Sentence** increases by **60%**. While the **Incorporeal Inhibition Domain** is active, every **Phantom Abysm** generates an extra **3** Signature Energy. Enhances the special abilities triggered based on the **Observation Chronicle**."
+          "desc": "Upon casting Cosmic Afterglow for the first time on the battlefield, gains 180 Collapse Points and the Collapse Mark. Base DMG of Signature - Silent Punishment increases by 60%. When there is Forbidden Realm, gains 3 bonus Signature Energy every time when casting Phantom Annihilation. Enhances the effects based on the special ability Observation Notes triggered."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "**Gravitational Collapse Points**' damage amplification effect increases by **50%**. During the 5th hit of **Phantom Abysm**, you can input one 3-Ping to deal an additional **1000%** Nihil DMG and gain **180 Gravitational Collapse Points**. Enhances the special abilities triggered based on the **Observation Chronicle**. Base DMG efficiency increase against **Equilibrium Fields** increases to **150%**.",
-          "extra1": "**Tank State**\n**Fire**: **Unlocked at SS3**: **Scorching Invasion** and **Collapse Singularity** effects increases by **10%**.\n**Unlocked at SSS**: **Scorching Invasion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Ice**: **Unlocked at SS3**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.",
-          "extra2": "**Lightning**:**Unlocked at SS3**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Turbulence Interference** and **Collapse Singularity** effects increases by **10%**. Switch cooldown of all members in the team is reduced by **3**s; this effect does not stack with others of the same type.\n**Dark**: **Unlocked at SSS**: **Chain Fusion** and **Collapse Singularity** effects increases by **10%**.",
-          "extra3": "**Amplfier State**\n**Fire**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Ice**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Dark**: **Unlocked at SS3**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**.\n**Unlocked at SSS**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**. All member switch-ins reset the cooldown of QTE skills."
+          "desc": "Collapse Points' damage amplification effect increases by 50%. Enter 3-Ping orbs once during the 5th hit of Phantom Annihilation to make Ishmael deal 1000% Nihil DMG one extra time and gain 180 Collapse Points. Enhances the effects based on the special ability Observation Notes triggered. The Base DMG Efficiency dealt to Equilibrium Field increases by 150% instead.",
+          "extra1": "**Tank State**\n**Fire**: **Unlocked at SS3**: **Scorching Invasion** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Scorching Invasion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.\n**Ice**: **Unlocked at SS3**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.",
+          "extra2": "**Lightning**:**Unlocked at SS3**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.\n**Dark**: **Unlocked at SSS**: **Chain Fusion** and **Collapse Singularity** effects increases by 10%.",
+          "extra3": "**Amplfier State**\n**Fire**: **Unlocked at SSS**: Amplifier Class Skill effect increases by 100%.\n**Ice**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: **Unlocked at SSS**: Amplifier Class Skill effect increases by 100%.\n**Dark**: **Unlocked at SS3**: **Dark Radiation** and **Void Collapse** effects increase by **10%**.\n**Unlocked at SSS**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**. All member switch-ins reset the cooldown of QTE skills."
         }
       ]
     },
     "s+_rank": {
-      "name": "A Poem to Shape Destiny",
+      "name": "Poem of Fate",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of **Signature - Primordial True Form**, **Signature - Extinction Sentence** increases by **30%**."
+          "desc": "Signature - Prime Entity and Signature - Silent Punishment deal 30% more Extra DMG."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of **Phantom Abysm** and Signal Orbs increases by **30%**."
+          "desc": "Phantom Annihilation and Signal Orbs deal 30% more Extra DMG."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of **Dimensional Collapse** increases by 30%."
+          "desc": "Dimensional Collapse deals 30% more Extra DMG."
         }
       ]
     }
@@ -12454,278 +12454,278 @@
   "daemonissa": {
     "basic_attack": [
       {
-        "name": "Beguiling Exile - Umbrella Strike",
+        "name": "Exile at Night - Umberlla Strike",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": "Attacks with her umbrella, dealing **{0}%** Dark DMG in total.",
+        "description": "Attacks with the Moon Umbrella, dealing **{0}%** Dark DMG.",
         "desc_lv18": [590]
       },
       {
-        "name": "Beguiling Exile - Sidestep Sweep",
+        "name": "Exile at Night - Flow Attack",
         "button_press": "Dodge + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Unleashes phantom cards to attack, dealing **{0}%** Dark DMG. Afterwards, continues from the 4th hit of Basic Attack.",
+        "description": "Throws out Shadow Cards to attack, dealing **{0}%** Dark DMG. And the following Basic Attack will be from Phase 4.",
         "desc_lv18": [100]
       },
       {
-        "name": "Beguiling Exile - Twilight's Embrace",
-        "button_press": "During Carnival Game + At Least 3 Yellow Orbs + Hold Basic Attack",
+        "name": "Exile at Night - Night Embrace",
+        "button_press": "During Crazy Gamble + No Less Than 3 Yellow Orbs + Press and Hold Basic Attack",
         "switch_in": "no",
-        "description": "Taunts the enemy and attacks with **Startling Daylight** to deal Plasma Beam DMG and gain a **Trickery Mark**, then continuously consumes Yellow Orbs to cast **Bewildering Pivot**, dealing Plasma Beam DMG, granting Electric Charge, Signature Energy, and increasing the **Card Rank**. Gain Super Armor and DMG Reduction during this period, and triggers Matrix if not on cooldown.",
+        "description": "Launches an upward strike and casts Alarming Daybreak, gaining the Joker's Mark and dealing Plasma Beam DMG. Then, continuously spends Yellow Orbs to slash the enemy, dealing Plasma Beam DMG, gaining Electric Charge and Signature Energy, and enhancing Card Rank. Gains Super Armor and DMG Reduction and triggers Matrix if it is not on cooldown.",
         "result": [
-          "- **Startling Daylight** deals **{0}%** Plasma Beam DMG and heals Lilith for **{1}%** of ATK. Gain a **Trickery Mark**, 160 Electric Charge, 10 Signature Energy, and Super Armor and 60% DMG reduction during the casting period.",
-          "- Every Orb consumed unleashes one instance of **Bewildering Pivot**, dealing **{2}%** Plasma Beam DMG. Gain 10 Signature Energy, 120 Electric Charge, and Super Armor and 60% DMG Reduction during the casting period."
+          "- Deals **{0}%** Plasma Beam DMG through Alarming Daybreak and restores HP equal to **{1}%** of ATK, gaining the Joker's Mark, 160 Electric Charge, and 10 Signature Energy. Gains Super Armor and 60% DMG Reduction.",
+          "- Each orb consumed during the slash will trigger Mysterious Vanishment once, dealing **{2}%** Plasma Beam DMG and granting 10 Signature Energy and 120 Electric Charge. Gains Super Armor and 60% DMG Reduction."
         ],
         "res_lv18": [390, 20, 233.34],
         "result2": [
-          "- When Basic Attack is released or Yellow Orbs are depleted, casts **Silence's Return**, dealing **{0}%** Plasma Beam DMG. Lilith is invincible during this period but temporarily unable to cast **Invitation to Wildest Riches**. If **Bewildering Pivot** is successively cast 6 times, **Silencing Finish** will be automatically cast immediately and deal **{1}%** Plasma Beam DMG. Gain an extra 60 Signature Energy and 120 Electric Charge, and increases **Card Rank** by 2.",
-          "- For every 3 Signal Orbs pinged during **Twilight's Embrace**, increases **Card Rank** by 1 after casting **Silencing Finish**.",
-          "- The **Trickery Mark** lasts for 15s. The duration is refreshed upon exiting the battlefield."
+          "- When Basic Attack is released, or all Signal Orbs are consumed, casts Return to Silence, dealing **{0}%** Plasma Beam DMG, during which time, becomes Invincible and unable to cast Invitation to a Radiant Dream. If Mysterious Vanishment has already been cast 6 times in a row, automatically casts Return to Silence, dealing **{1}%** Plasma Beam DMG instead, gaining 60 bonus Signature Energy and 120 bonus Electric Charge, and enhancing Card Rank twice.",
+          "- During Night Embrace, enhances Card Rank once more for each 3 Signal Orbs consumed, or when casting Return to Silence.",
+          "- The Joker's Mark lasts 15s. Duration resets when Lilith is switched out."
         ],
         "res2_lv18": [390, 1400]
       },
       {
-        "name": "Beguiling Exile - Roundabout",
-        "button_press": "Matrix not on cooldown + Tap Dodge without moving Joystick",
+        "name": "Exile at Night - Turnaround",
+        "button_press": "Matrix Not on Cooldown + Tap Dodge When Not Dragging Joystick",
         "switch_in": "no",
-        "description": "Blocks an incoming attack with the Moon Umbrella, triggering Matrix if successful and it is not on cooldown. Afterwards, tap Basic Attack to counterattack and deal Dark DMG.",
+        "description": "Blocks with the Moon Umbrella. If success, triggers Matrix if it is not on cooldown. Can be followed by a Basic Attack to counterattack and deal Dark DMG.",
         "result": ["- Deals {0}% Dark DMG."],
         "res_lv18": [60]
       }
     ],
     "red_orb": [
       {
-        "name": "Delusive Mirage - Vanishing Act",
-        "button_press": "Tap Red Orb - Vanishing Act",
+        "name": "Shadow's Guile - Shape Break",
+        "button_press": "Tap Red Orb - Shape Break",
         "switch_in": "no",
-        "description": "Rushes to the enemy, dealing Dark DMG, gathering enemies, gaining Super Armor and 60% DMG Reduction during this period, and triggering Matrix if not on cooldown.",
+        "description": "Launches a follow-up attack at the enemy, dealing Dark DMG, and pulls in enemies, gaining Super Armor and 60% DMG Reduction. Triggers Matrix if it is not on cooldown.",
         "result": [
-          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged from **Spindle**."
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on orbs pinged by Silk Threading."
         ],
         "res_lv18": [400, 800, 1200]
       },
       {
-        "name": "Delusive Mirage - Steady Focus",
-        "button_press": "Tap Red Orb - Steady Focus",
+        "name": "Shadow's Guile - Soul Capture",
+        "button_press": "Tap Red Orb - Soul Capture",
         "switch_in": "no",
-        "description": "Swings her Moon Umbrella at the enemy, dealing Dark DMG, gathering enemies, gaining Super Armor and 60% DMG Reduction during this period, and triggering Matrix if not on cooldown.",
+        "description": "Launches a follow-up attack at the enemy with the Moon Umbrella, dealing Dark DMG, and pulls in enemies, gaining Super Armor and 60% DMG Reduction. Triggers Matrix if it is not on cooldown.",
         "result": [
-          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged from **Flourish**."
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on orbs pinged by Blade Drawing."
         ],
         "res_lv18": [700, 1400, 2100]
       },
       {
-        "name": "Delusive Mirage - Mindbreak",
-        "button_press": "Tap Red Orb - Mindbreak",
+        "name": "Shadow's Guile - Spiritual Judgement",
+        "button_press": "Tap Red Orb - Spiritual Judgement",
         "switch_in": "no",
-        "description": "Darts back and forth through the enemy, dealing Dark DMG, gathering enemies, increasing **Card Rank**, and gaining **invincibility**, and triggering Matrix if not on cooldown. Lilith is temporarily unable to cast **Invitation to Wildest Riches**.",
+        "description": "Dashes back and forth and attacks the enemy, dealing Dark DMG, enhancing Card Rank, and pulling in enemies within a large area, during which time becomes Invincible and unable to cast Invitation to a Radiant Dream. Triggers Matrix if it is not on cooldown.",
         "result": [
-          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged from **Shattered Facade**. If **Shattered Facade** is cast as a 3-Ping, increases **Card Rank** by an extra **2**."
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged by Shadow Breaking. If it is a 3-Ping, enhances Card Rank twice more."
         ],
         "res_lv18": [1600, 3200, 4800]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Cunning Trick - Spindle",
+        "name": "Joker's Trickery - Silk Threading",
         "button_press": "Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Launches a phantom card, dealing Dark DMG and entering **Spindle Combo**.",
+        "description": "Throws out the Shadow Card, dealing Dark DMG and entering the Silk Threading Combo.",
         "result": [
           "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged."
         ],
         "res_lv18": [180, 360, 540]
       },
       {
-        "name": "Cunning Trick - Flourish",
-        "button_press": "During Spindle Combo + Tap Yellow Orb",
+        "name": "Joker's Trickery - Blade Drawing",
+        "button_press": "During Silk Threading Combo + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Transforms phantom cards into a blade, exiting **Spindle Combo**, dealing Dark DMG, and entering **Flourish Combo**.",
+        "description": "Converts the Shadow Card to a blade and exits the Silk Threading Combo, dealing Dark DMG and entering the Blade Drawing Combo.",
         "result": [
           "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged.",
-          "- Gain an additional 10 Signature Energy during a 3-Ping."
+          "- Gains 10 bonus Signature Energy if causes a 3-Ping."
         ],
         "res_lv18": [500, 1000, 1500]
       },
       {
-        "name": "Cunning Trick - Shattered Facade",
-        "button_press": "During Flourish Combo + Tap Yellow Orb",
+        "name": "Joker's Trickery - Shadow Breaking",
+        "button_press": "During Blade Drawing Combo + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Kicks the enemy, dealing Dark DMG and exiting **Flourish Combo**.",
+        "description": "Kicks the enemy, dealing Dark DMG and exiting the Blade Drawing Combo.",
         "result": [
           "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged.",
-          "- Gain an additional 10 Signature Energy during a 3-Ping."
+          "- Gains 10 bonus Signature Energy if causes a 3-Ping."
         ],
         "res_lv18": [600, 1200, 1800]
       }
     ],
     "blue_orb": [
       {
-        "name": "Waltz of Devastation - Twister",
+        "name": "Danza Distópica - Turning Steps",
         "button_press": "Tap Blue Orb",
         "switch_in": "no",
-        "description": "Tosses her magician's hat and enters **Twister Combo**, gathering enemies, dealing Dark DMG, and gaining Yellow Orbs.",
+        "description": "Throws out the Hat of Trickery and enters the Turning Combo, pulling in enemies, dealing Dark DMG, and gaining Yellow Orb(s).",
         "result": [
-          "- Deals **{0}%/{1}%/{2}%** Dark DMG and gains 1/2/3 Yellow Orbs based on the number of orbs pinged, adding them to the upper Signal Orb lineup."
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG and gains 1/2/3 Yellow Orb(s) above the Orb Gauge based on the number of orbs pinged."
         ],
         "res_lv18": [100, 200, 300]
       },
       {
-        "name": "Waltz of Devastation - Advance",
-        "button_press": "During Twister Combo + Tap Blue Orb",
+        "name": "Danza Distópica - Chassé",
+        "button_press": "During Turning Steps Combo + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Unleashes the hat to continuously attack the enemy, exiting **Twister Combo** and dealing Dark DMG. Gain Super Armor and 50% DMG Reduction during this skill. Gain Yellow Orbs and Signature Energy.",
+        "description": "Throws out the hat to attack the enemy continuously and exits the Turning Combo, dealing Dark DMG. Meanwhile, gains Super Armor, 50% DMG Reduction, Yellow Orb(s), and Signature Energy.",
         "result": [
-          "- Deals **{0}%/{1}%/{2}%** Dark DMG and gains 1/2/3 Yellow Orbs based on the number of orbs pinged, adding them to the upper Signal Orb lineup.",
-          "- Gain an extra 20 Signature Energy upon casting. This effect can only be triggered once per entry to the field. Casting **Disenchanting Reveal** will refresh the effect."
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG and 1/2/3 Yellow Orb(s) above the Orb Gauge based on the number of orbs pinged",
+          "- Gains 20 bonus Signature Energy, which can only be triggered once upon entering the battlefield. Casting Dreamfall Showdown will reset the trigger attempt."
         ],
         "res_lv18": [280, 560, 840]
       }
     ],
     "core_passive": {
-      "name": "Bewitching Magic Show",
+      "name": "Unpredictable Tricks",
       "skills": [
         {
-          "name": "Pursuit",
+          "name": "Body Trick",
           "button_press": "",
           "description": [
-            "Casting **Cunning Trick** immediately grants a Red Orb. Only 1 Red Orb can be stored at a time. After a Yellow 3-Ping and casting **Delusive Mirage**, increases **Card Rank** and gain Signature Energy."
+            "Immediately gains 1 Red Orb after casting Joker's Trickery. Max 1 Red Orb. Casting Shadow's Guile after a Yellow Orb 3-Ping will enhance Card Rank and grant Signature Energy."
           ],
           "result": [
-            "- When 3 Yellow Orbs are pinged for **Spindle**/**Flourish**/**Shattered Facade**, stores 20/20/30 stackable Energy for the next **Delusive Mirage**, up to 70. The amount is cleared after exiting **Carnival Game**.",
-            "- After a Yellow 3-Ping, the next **Delusive Mirage** will increase Card Rank by 1.",
-            "- After casting **Spindle**/**Flourish**/**Shattered Facade**, obtain **Red Orb - Vanishing Act/Red Orb - Steady Focus/Red Orb - Mindbreak**. Only 1 Red Orb can be stored at a time. When another Red Orb is obtained, casts a skill based on the last Yellow Orb, and refreshes the Red Orb type. If **Red Orb - Mindbreak** is held, it will not be refreshed until pinged."
+            "- Casting Silk Threading/Blade Drawing/Shadow Breaking through a Yellow Orb 3-Ping will provide 20/20/30 stackable Signature Energy for the next Shadow's Guile. Max 70 Signature Energy. Signature Energy will be cleared when Lilith exits Crazy Gamble..",
+            "- The first Shadow's Guile cast after a Yellow Orb 3-Ping will enhance Card Rank once.",
+            "- Casting Silk Threading/Blade Drawing/Shadow Breaking will grant Red Orb - Shape Break/Red Orb - Soul Capture/Red Orb - Spiritual Judgement respectively. Max 1 Red Orb. When getting a duplicate, it will refresh the Red Orb type based on the previous Yellow Orb skill. If you already have Red Orb - Spiritual Judgement, it will not refresh before consumption."
           ]
         },
         {
-          "name": "Stroke of Luck",
+          "name": "Hand Trick",
           "button_press": "",
           "description": [
-            "Allies healed by Lilith: Daemonissa gain buff effects. Casting **Invitation to Wildest Riches** immediately heals Lilith."
+            "Ally units healed by Lilith: Daemonissa will be enhanced. Lilith heals herself upon casting Invitation to a Radiant Dream."
           ],
           "result": [
-            "- Allies healed by Lilith: Daemonissa gain the **Dark Radiation** effect that increases Dark DMG by 20% for 8s. Repeated triggering refreshes the duration.",
-            "- If Lilith: Daemonissa has a **Trickery Mark**, gain the **Lightning Surge** effect that increases Lightning DMG by 20% for 8s instead. Repeated triggering refreshes the duration.",
-            "- Casting **Invitation to Wildest Riches** immediately heals Lilith for **{0}%** of ATK."
+            "- Ally units healed by Lilith: Daemonissa will gain the **Dark Radiation** effect which boosts their Dark DMG by 20% for 8s. Duration resets every time the effect is triggered.",
+            "- If Lilith: Daemonissa has Joker's Mark, ally units will gain the **Lightning Surge** effect instead, which boosts their Lightning DMG by 20% for 8s. Duration resets every time the effect is triggered.",
+            "- Lilith restores HP equal to 20% of her ATK upon casting Invitation to a Radiant Dream."
           ],
           "res_lv18": [40]
         },
         {
-          "name": "Shadow Stack",
+          "name": "Shadow Trick",
           "button_press": "",
           "description": [
-            "If the team is in Electric Storm Flash state, Lilith is regarded to have a **Trickery Mark**."
+            "When a character on team is in the Electric Storm Flash status, Lilith: Daemonissa will be regarded as she has the Joker's Mark."
           ]
         },
         {
-          "name": "Flash of Cards",
+          "name": "Card Trick",
           "button_press": "",
           "description": [
-            "Lilith: Daemonissa automatically gains 1 Signal Orb upon triggering Matrix."
+            "Lilith: Daemonissa gains one Signal Orb upon triggering the Matrix."
           ],
           "result": [
-            "- During **Carnival Game**, obtain a Yellow Orb. Outside of **Carnival Game**, obtain a Blue Orb."
+            "- If it is during Crazy Gamble, gains a Yellow Orb. If not, gains a Blue Orb instead."
           ]
         },
         {
           "name": "Effect: Plasma Beam",
           "button_press": "",
           "description": [
-            "Effect Charge: Maximum electric charge is 1000 points."
+            "Effect Charging: The Electric Charge is capped at 1000."
           ],
           "result": [
-            "- Effect Activation: The character enters the Electric Storm Flash state, dealing 800% Plasma Beam DMG to nearby units every 2s (does not trigger Tank Class skills), lasting 12s."
+            "- Effect Activated: Character with the Plasma Beam Effect enters the Electric Storm Flash status, launching lightning bolt strikes at nearby enemies every 2s and dealing 800% Plasma Beam DMG (without triggering Tank Class Skills) for 12s."
           ]
         }
       ]
     },
     "signature": {
-      "name": "Invitation to Wildest Riches",
+      "name": "Invitation to a Radiant Dream",
       "skills": [
         {
-          "name": "Night Encounter",
-          "button_press": "Outside of Carnival Game + 55 Energy + Tap Signature",
+          "name": "Nighttime Encounter",
+          "button_press": "Not During Crazy Gamble + 55 Signature Energy + Tap Signature",
           "description": [
-            "Flourishes a hand of cards and enters **Carnival Game**, drawing out **5 Trump Cards** and dealing Dark DMG. Yellow Orbs will be moved to the Signal Orb lineup. Gain 3 extra Yellow Orbs, up to 9 per entry. Time Lag Calculation is triggered during this skill."
+            "Lays out a Card Spread to enter Crazy Gamble and draws 5 Hole Cards, dealing Dark DMG. Inserts the Yellow Orb(s) in the Orb Gauge and gains 3 bonus Yellow Orbs. Gains up to 9 Yellow Orbs upon entering the battlefield. Triggers Time Lag Calculation."
           ],
           "result": ["- Deals **{0}%** Dark DMG."],
           "res_lv18": [750]
         },
         {
-          "name": "Disenchanting Reveal",
-          "button_press": "During Carnival Game + 130 Energy + Tap Signature ",
+          "name": "Dreamfall Showdown",
+          "button_press": "During Crazy Gamble + 130 Signature Energy + Tap Signature",
           "description": [
-            "Flings all of her phantom cards, dealing Dark DMG and exiting **Carnival Game**. The Base DMG increases based on **Card Rank**. Time Lag Calculation is triggered during this skill. Afterwards, leaves behind an **After-Party Field** that restores HP to allies within and converts unused Yellow/Red Orbs to an equal number of Blue Orbs."
+            "Throws out all Shadow Cards, dealing damage. Increases Base DMG based on the current Card Rank and exits Crazy Gamble. Triggers Time Lag Calculation. Leaves behind a Realm of Lingering Enjoyment, restoring HP to ally units within it over time and converting unused Yellow/Red Orb(s) to Blue Orb(s)."
           ],
           "result": [
             "- Deals **{0}%** Dark DMG.",
-            "- If Lilith has a **Trickery Mark**, deals **{1}%** Plasma Beam DMG instead and then clears the Trickery Mark. If Electric Charge reaches the maximum when the skill is cast, activates Electric Storm Flash state..",
-            "- When **Card Rank** is at **C/B/A/S/SS**, Base DMG of **Disenchanting Reveal** increases by **175%/200%/225%/250%/275%**.",
-            "- Leaves behind an **After-Party Field** that lasts 12s, healing allies for **{2}%** of Lilith: Daemonissa's ATK per second."
+            "- If Lilith has the Joker's Mark, deals **{1}%** Plasma Beam DMG instead and removes the Joker's Mark. If cast at Max Electric Charge, triggers the Electric Storm Flash Status.",
+            "Base DMG of Dreamfall Showdown increases by 175%/200%/225%/250%/275% at Card Rank C/B/A/S/SS.",
+            "- Leaves behind a 12-second Realm of Lingering Enjoyment afterward, restoring HP equal to 10% of Lilith: Daemonissa's ATK per second to ally units in it."
           ],
           "res_lv18": [1375, 475, 12]
         }
       ]
     },
     "qte": {
-      "name": "Blessings of Gold",
+      "name": "Golden Blessing",
       "description": "Deals damage and heals.",
       "result": [
-        "- Deals **{0}%** Dark DMG in total.",
-        "- If Lilith has a **Trickery Mark**, deals **{1}%** Plasma Beam DMG instead.",
-        "- Heals for **{2}%** of ATK."
+        "- Deals a total of **{0}%** Dark DMG.",
+        "- If Lilith has the Joker's Trickery, deals **{1}%** Plasma Beam DMG instead.",
+        "- Restores HP equal to **{2}%** of ATK."
       ],
       "res_lv18": [600, 600, 100]
     },
     "leader": {
       "name": "House of Cards",
-      "description": "All members' ATK increases by 10%. Amplifiers' Dark DMG Bonus and Plasma Beam DMG Bonus increases by 5%."
+      "description": "All members gain 10% ATK. Amplifiers deal 5% more Dark DMG and Plasma Beam DMG."
     },
     "class": {
       "name": "Amplifier",
-      "description": "All switched-in members gain an extra **{0}%** ATK and **{1}%** Elemental DMG Bonus of the Amplifier's element for 10s. If Lilith: Daemonissa has a **Trickery Mark**, her Element is regarded as Lightning.",
+      "description": "When switched in, all members gain **{0}%** ATK, and Amplifiers deal **{1}%** Elemental DMG for 10s. When there is the Joker's Mark, Lilith: Daemonissa's corresponding element will be regarded as Lightning.",
       "desc_lv18": [20, 20]
     },
     "ss_rank": {
-      "name": "Fairytale of Captivity",
+      "name": "Encaged Fairy Tale",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Casting **Twilight's Embrace**, **Delusive Mirage**, and **Disenchanting Reveal** will activate all available QTEs."
+          "desc": "Casting Night Embrace, Shadow's Guile, or Dreamfall Showdown will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "When **Cunning Trick** consumes a cumulative total of 1-3/4-9 Signal Orbs, Base DMG of **Delusive Mirage** increases by 20%/3%, up to 78%. Effect resets after casing **Delusive Mirage** or **Disenchanting Reveal**. For every 1 Yellow Orb consumed by **Twilight's Embrace**, Base DMG of **Twilight's Embrace - Silencing Finish** increases by 20%."
+          "desc": "Each Signal Orb spent by Joker's Trickery will increase the following Shadow's Guile's Base DMG. The 1st to 3rd Signal Orbs pinged will each increase Base DMG by 20%, while the 4th to 9th will each increase by 3%. All 9 orbs will increase Base DMG by a total of 78% altogether. Casting Shadow's Guile or Dreamfall Showdown will clear the enhancement effect. Each Yellow Orb spent during the Night Embrace will increase the Base DMG of Night Embrace - Return to Silence by 20% for this time."
         }
       ]
     },
     "sss_rank": {
-      "name": "Truth-Shattering Allegory",
+      "name": "Truth-Shattering Fable",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Effect of **Dark Radiation** granted to friendly units healed by Lilith: Daemonissa increases by 10%. If there is a Trickery Mark, friendly units healed additionally gain 10% of the **Ionization Catalyst** effect. Base DMG of **Cunning Trick** increases by 120%. Base DMG of **Twilight's Embrace - Startling Daylight** and **Twilight's Embrace - Bewildering Pivot** increases by 80%."
+          "desc": "Ally units healed by Lilith: Daemonissa gain another 10% **Dark Radiation** effect. If Lilith has the Joker's Mark, they will also gain a 10% **Electroradium Transformation** effect. Base DMG of Joker's Trickery increases by 120%. Base DMG of Night Embrace - Alarming Daybreak and Night Embrace - Mysterious Vanishment increases by 80%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "All member switch-ins reset the cooldown of QTE skills. Effect of **Dark Radiation** granted to friendly units healed by Lilith: Daemonissa increases by 10%. If there is a Trickery Mark, friendly units healed additionally gain 10% of the **Ionization Catalyst** effect. Casting **Disenchanting Reveal** deals an additional 190% Dark DMG 4 times, or 70% Plasma Beam DMG if there is a **Trickery Mark**; when **Card Rank** is at **C/B/A/S/SS**, adds an extra 3/4/5/6/8 instances of damage."
+          "desc": "When all members are switched in, cooldown of QTE Skills will be reset. Meanwhile, ally units healed by Lilith: Daemonissa will gain another 10% **Dark Radiation** effect. If Lilith has the Joker's Mark, they will gain a bonus 10% **Electroradium Transformation** effect. Lilith will also deal 190% Dark DMG 4 times when casting Dreamfall Showdown. If she has the Joker's Mark, deals 70% Plasma Beam DMG instead. If she casts it at Card Rank C/B/A/S/SS, deals an additional 3/4/5/6/8 times the damage."
         }
       ]
     },
     "s+_rank": {
-      "name": "Final Act's Fantasia",
+      "name": "Doomsday Rhapsody",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of **Delusive Mirage** and **Twilight's Embrace - Silencing Finish** increase by 50%."
+          "desc": "Extra DMG of Shadow's Guile and Night Embrace - Return to Silence increases by 50%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of **Cunning Trick**, **Twilight's Embrace - Startling Daylight** and **Twilight's Embrace - Bewildering Pivot** increase by 50%."
+          "desc": "Extra DMG of Joker's Trickery, Night Embrace - Alarming Daybreak, and Night Embrace - Mysterious Vanishment increases by 50%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of **Invitation to Wildest Riches** increases by 45%."
+          "desc": "Extra DMG of Invitation to a Radiant Dream increases by 45%."
         }
       ]
     }

@@ -1458,113 +1458,113 @@
       }
     ]
   },
-  "zhu ling": {
-    "name": "Zhu Ling\n<:s_rank:1287636749052412026><:void_element:1285900049909284864>",
+  "diamaton": {
+    "name": "Diamaton\n<:s_rank:1287636749052412026><:void_element:1285900049909284864>",
     "sig_character": "Ishmael: Parhelion",
     "base_rank": "S",
     "cub_type": "Pull, Damage",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3pandora1.png",
     "skills_list": [
-      "Comet Breakthrough",
-      "Eclipse's Advent",
+      "Shooting Comet",
+      "Eclipse Crash",
       "Patrol Shuttle",
-      "Extinguishing Array",
-      "Dark Meteor Decay",
-      "Web of Fate",
-      "Geometric Star Erasure"
+      "Quenching Array",
+      "Darkfall Decay",
+      "Union of Life",
+      "Rhomb Annihilation"
     ],
     "active_skills": [
       {
-        "skill_name": "Comet Breakthrough",
+        "skill_name": "Shooting Comet",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Zhu Ling will strike the target, dealing 2000% Nihil DMG 1 time."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Diamaton will crash into the target, dealing 2000% DMG once."
       },
       {
-        "skill_name": "Eclipse's Advent",
+        "skill_name": "Eclipse Crash",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Zhu Ling will gather the surrounding enemies and smash downwards, dealing 1800% Nihil DMG 1 time."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Diamaton will pull in nearby enemies and smash from above, dealing 1800% Nihil DMG once."
       }
     ],
     "passive_skills": [
       {
         "skill_name": "Patrol Shuttle",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "Zhu Ling's Active Skill deals 70% more DMG."
+        "skill_desc": "Diamaton's Active Skills deal 70% more damage."
       },
       {
-        "skill_name": "Extinguishing Array",
+        "skill_name": "Quenching Array",
         "skill_number": "Passive Skill 2",
         "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
-        "skill_name": "Dark Meteor Decay",
+        "skill_name": "Darkfall Decay",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Each time Zhu Ling casts an Active Skill, increases the carrier's Extra DMG Bonus by 5% for 8s. Duration resets each time it is triggered."
+        "skill_desc": "Each time Diamaton casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time it is triggered."
       },
       {
-        "skill_name": "Web of Fate",
+        "skill_name": "Union of Life",
         "skill_number": "Passive Skill 4",
         "skill_desc": "Increases the carrier's Nihil DMG by 10%."
       },
       {
-        "skill_name": "Geometric Star Erasure",
+        "skill_name": "Rhomb Annihilation",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Ishmael: Parhelion casts the 4th hit of **Phantom Abysm** with Zhu Ling equipped, summons Zhu Ling to launch a joint attack that deals **500%** Nihil DMG 6 times. Upon obtaining a Mark of Collapse, ATK increases by **40%** for 5s. The duration resets each time it is triggered."
+        "skill_desc": "When Ishmael: Parhelion casts the 4th hit of Phantom Annihilation with Diamaton equipped, she will summon Diamaton to launch a joint attack, dealing 500% Nihil DMG 6 times. When gaining the Collapse Mark, increases ATK by 40% for 5s. Duration resets every time it is triggered."
       }
     ]
   },
-  "billy": {
-    "name": "Billy\n<:s_rank:1287636749052412026><:dark_element:1290613554923438102>",
+  "billie": {
+    "name": "Billie\n<:s_rank:1287636749052412026><:dark_element:1290613554923438102>",
     "sig_character": "Lilith: Daemonissa",
     "base_rank": "S",
     "cub_type": "Gather, Damage",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3chiprobot1.png",
     "skills_list": [
-      "Wheel of Fortune",
-      "Dance of Yesterday",
-      "Disorienting Spotlight",
-      "Drunken Blues",
-      "Extravagant Gifts",
-      "Favored by Fortune",
-      "Goodnight, Los Prados"
+      "Old Dance",
+      "Joker's Wheel",
+      "Dazzling Spotlight",
+      "Intoxicating Blues",
+      "Generous Gift",
+      "Jackpot Winner",
+      "Good Night, Los Prados"
     ],
     "active_skills": [
       {
-        "skill_name": "Wheel of Fortune",
+        "skill_name": "Old Dance",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Billy leaps into the air and fires at the target, dealing 225% Dark DMG 9 times."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Billie will leap up and fire at the target, dealing 225% DMG 9 times."
       },
       {
-        "skill_name": "Dance of Yesterday",
+        "skill_name": "Joker's Wheel",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Billy summons a spinning roulette from above that gathers nearby enemies and deals 150% Dark DMG 9 times. Afterwards, the roulette overloads and explodes to deal 650% Dark DMG 1 time."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Billie will dive from midair and summon a wheel to pull in nearby enemies, dealing 150% Physical DMG 9 times. The wheel will then get overloaded and explode, dealing 650% DMG once."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Disorienting Spotlight",
+        "skill_name": "Dazzling Spotlight",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "Billy's Active Skill deals 70% more DMG"
+        "skill_desc": "Billie's Active Skill deal 70% more DMG"
       },
       {
-        "skill_name": "Drunken Blues",
+        "skill_name": "Intoxicating Blues",
         "skill_number": "Passive Skill 2",
         "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
-        "skill_name": "Extravagant Gifts",
+        "skill_name": "Generous Gift",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Each time Billy casts an Active Skill, increases the carrier's Extra DMG Bonus by 5% for 8s. Duration resets each time it is triggered."
+        "skill_desc": "Each time Billie casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time it is triggered."
       },
       {
-        "skill_name": "Favored by Fortune",
+        "skill_name": "Jackpot Winner",
         "skill_number": "Passive Skill 4",
-        "skill_desc": "Increases the carrier's Dark DMG by 10%. When Lilith has a Trickery Mark, increases Lightning DMG by 10%."
+        "skill_desc": "The carrier deals 10% more Dark DMG. If with the Tricker's Mark, the carrier deals 10% more Lightning DMG."
       },
       {
-        "skill_name": "Goodnight, Los Prados",
+        "skill_name": "Good Night, Los Prados",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Lilith enters **Carnival Game** with Billy equipped, casting **Twilight's Embrace** or **Delusive Mirage** for the first time will summon Billy to launch a joint attack, dealing 3000% Dark DMG 1 time. Base DMG of **Disenchanting Reveal** increases by 75%; when Card Rank is at **C/B/A/S/SS**, Base DMG increases by an additional 10%/20%/30%/40%/50%."
+        "skill_desc": "After starting a Crazy Gamble carrying Billie, Lilith: Daemonissa will summon Billie to launch a joint attack upon casting Night Embrace or Shadow's Guile for the first time, dealing 3000% Dark DMG once. Base DMG of Dreamfall Showdown increases by 75%. When the Card Rank is at C/B/A/S/SS, the Base DMG further increases by 10%/20%/30%/40%/50%."
       }
     ]
   },
