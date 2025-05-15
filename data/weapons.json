@@ -671,27 +671,27 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "primeval key": {
-    "name": "Primeval Key",
+  "the last answer": {
+    "name": "The Last Answer",
     "weapon_type": "Keystaff",
     "rarity": 4,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e3keywandmd010011sp.png",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Solitary Lantern",
+      "effect_name": "Realm of Nothingness",
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "evening's grandeur": {
-    "name": "Evening's Grandeur",
+  "rosy silhouette": {
+    "name": "Rosy Silhouette",
     "weapon_type": "Moon Umbrella",
     "rarity": 4,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2brollymd010011sp.png",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Concealed Wounds",
+      "effect_name": "Bloodshed",
       "effect_desc": "ATK increases by 5%."
     }
   },
@@ -1355,27 +1355,27 @@
       "effect_desc": "Lightning DMG increases by 10%."
     }
   },
-  "starpool connector": {
-    "name": "Starpool Connector",
+  "celestial reflection": {
+    "name": "Celestial Reflection",
     "weapon_type": "Keystaff",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2keywandmd020011.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Calamitous Summit",
+      "effect_name": "Prayer for Reunion",
       "effect_desc": "Nihil DMG increases by 10%."
     }
   },
-  "skylit nightmare": {
-    "name": "Skylit Nightmare",
+  "glazed enigma": {
+    "name": "Glazed Enigma",
     "weapon_type": "Moon Umbrella",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2brollymd020011sp.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Shadows at Sunrise",
+      "effect_name": "Dawn Shadow",
       "effect_desc": "Dark DMG increases by 10%."
     }
   },
@@ -2195,28 +2195,28 @@
       "effect_desc": "Increases ATK by 10%. Overload doubles Base DMG effect of Meteoric Doom. Base DMG of Blazing Rift doubles."
     }
   },
-  "epochal authority": {
-    "name": "Epochal Authority",
+  "alpha-omega": {
+    "name": "Alpha-Omega",
     "weapon_type": "Keystaff",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e3keywandmd010011sp.png",
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "Ubiquitous Full Moon",
-      "effect_desc": "ATK increases by 10%. Upon casting Signature - Primordial True Form, immediately gain 3 Signal Orbs, up to 6 orbs per entry onto the field. The elemental resistance reduction/damage increase effects triggered by the Observation Chronicle increase by 10%."
+      "effect_name": "All Is One",
+      "effect_desc": "ATK increases by 10%. Signature - Prime Entity immediately grants 3 Signal Orbs. Entering the field grants up to 6 Signal Orbs each time. Observation Notes increases Elemental Resistance Reduction/DMG Bonus by an additional 10%."
     }
   },
-  "lament of night's debauchery": {
-    "name": "Lament of Night's Debauchery",
+  "sorrow of fata morgana": {
+    "name": "Sorrow of Fata Morgana",
     "weapon_type": "Moon Umbrella",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e3brollymd010011sp.png",
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "Partings and New Beginnings",
-      "effect_desc": "ATK increases by 10%. Upon casting Disenchanting Reveal, if Card Rank is at least B, gain 12 Signature Energy."
+      "effect_name": "End and Start",
+      "effect_desc": "Gains 10% ATK. When casting Dreamfall Showdown at Card Rank B, gains 12 Signature Energy."
     }
   },
   "orpheus' cradle": {

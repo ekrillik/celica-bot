@@ -56,8 +56,8 @@
     "hope of the village",
     "rasetsu",
     "shield axe zl-07 prototype",
-    "primeval key",
-    "evening's grandeur",
+    "the last answer",
+    "rosy silhouette",
     "frost poem",
     "generic mk-2",
     "fiery meteor",
@@ -107,8 +107,8 @@
     "mist netherlight",
     "raijin",
     "sparkle zl-09 - mod",
-    "starpool connector",
-    "skylit nightmare",
+    "celestial reflection",
+    "glazed enigma",
     "laurel crown",
     "nightstrider",
     "kindled night",
@@ -184,8 +184,8 @@
     "flamewing of dawn",
     "fudo myo-o",
     "starlight glare",
-    "epochal authority",
-    "lament of night's debauchery",
+    "alpha-omega",
+    "sorrow of fata morgana",
     "orpheus' cradle",
     "the other side",
     "ashen deathbringer"
@@ -469,17 +469,17 @@
     {
       "name": "Keystaffs",
       "list": [
-        "Epochal Authority ######",
-        "Starpool Connector #####",
-        "Primeval Key ####"
+        "Alpha-Omega ######",
+        "Celestial Reflection #####",
+        "The Last Answer ####"
       ]
     },
     {
       "name": "Moon Umbrellas",
       "list": [
-        "Lament of Night's Debauchery ######",
-        "Skylit Nightmare #####",
-        "Evening's Grandeur ####"
+        "Sorrow of Fata Morgana ######",
+        "Glazed Enigma #####",
+        "Rosy Silhouette ####"
       ]
     },
     {

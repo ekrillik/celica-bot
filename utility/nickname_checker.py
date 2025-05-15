@@ -327,13 +327,13 @@ def check_nickname(nickname, caller):
             memory = "herschell"
         case "parhelion":
             character = "parhelion"
-            weapon = "epochal authority"
-            cub = "zhu ling"
+            weapon = "alpha-omega"
+            cub = "diamaton"
             memory = "sothoth"
         case "daemonissa":
             character = "daemonissa"
-            weapon = "lament of night's debauchery"
-            cub = "billy"
+            weapon = "sorrow of fata morgana"
+            cub = "billie"
             memory = "barcelo"
         case "pianissimo":
             character = "pianissimo"

@@ -19,11 +19,16 @@ def fuzzmatch(string, match_type = "character") -> str:
     match nickname:
         case "beloved girl":
             # character = "daybreak"
-            characters = ["lotus", "dawn", "plume", "pyroath"]
+            characters = ["laurel", "oblivion"]
             index = random.randint(0, len(characters) - 1)
             character = characters[index]
         case "best girl" | "bestgirl":
             characters = ["eclipse", "lux", "luminance", "empyrea"]
+            index = random.randint(0, 3)
+            character = characters[index]
+            print(character)
+        case "alternate wife":
+            characters = ["tempest", "capriccio", "pianissimo"]
             index = random.randint(0, 3)
             character = characters[index]
             print(character)
