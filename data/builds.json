@@ -2265,7 +2265,7 @@
     "unit_name": "Ishmael",
     "frame_name": "Parhelion\n<:s_rank:1287636749052412026><:observer:1304039040944705567><:void_element:1285900049909284864><:disorder:1288089672718876787>",
     "set_list": [
-      { "name": "Main Support Set", "memos": "4 Sothoth 4 Cottie" },
+      { "name": "Main DPS Set", "memos": "4 Sothoth 4 Cottie" },
       {
         "name": "Off-Element Amplifier Set",
         "memos": "4 Da Vinci 2 Guinevere"
