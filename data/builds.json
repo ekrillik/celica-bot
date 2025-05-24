@@ -2076,8 +2076,7 @@
       { "name": "Main Tank Set", "memos": "4 Liston 2 Einsteina" },
       { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Liston 4 Chen Jiyuan" },
       { "name": "Main Pain Cage Set", "memos": "4 Da Vinci 2 Einsteina" },
-      { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Chen Jiyuan" },
-      { "name": "Glaciation Affix DPS Set", "memos": "4 Liston 4 Klenova" }
+      { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Chen Jiyuan" }
     ],
     "builds": [
       {
@@ -2103,7 +2102,8 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
+          "Also used as Glacio enabler set. If lacking Harmony, replace Liston with Einsteina. Alisa will be holding 4 Da Vinci and 2/4 Guinevere."
         ],
         "memories": ["4x Liston", "2x Chen Jiyuan", "2x Chen Jiyuan (Harmony)"],
         "memory_resonance": [
@@ -2134,29 +2134,14 @@
         "game_modes": "Pain Cage",
         "description": [
           "Recommended for all ranks",
-          "Harmony QTE tank support set **(Requires Harmony on Signature 6* Weapon)**"
+          "Harmony QTE tank support set **(Requires Harmony on Signature 6* Weapon)**",
+          "Used only if Da Vinci is not already on another team member."
         ],
         "memories": [
           "4x Da Vinci",
           "2x Chen Jiyuan",
           "2x Chen Jiyuan (Harmony)"
         ],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Skill"
-        ]
-      },
-      {
-        "set_name": "Glaciation Affix DPS Set",
-        "set_type": "Glaciation Affix",
-        "usage": "Glaciation Affix Content",
-        "game_modes": "PPC, Intensive Battle, Warzone",
-        "description": [
-          "Recommended for all ranks",
-          "Harmony QTE tank support set **(Requires Harmony on Signature 6* Weapon)**",
-          "**The Klenova memory set has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
-        "memories": ["4x Liston", "2x Klenova", "2x Klenova (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill"
