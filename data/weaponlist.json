@@ -112,13 +112,14 @@
     "laurel crown",
     "nightstrider",
     "kindled night",
+    "devil hunter greatsword",
+    "yamato",
     "glimpse",
     "guiyun",
     "odette",
     "blooming rose",
     "whitefrost ruler",
     "progressive knife",
-    "starpool connector",
     "lotus berserker",
     "type zero",
     "inverse chimera",
@@ -188,7 +189,9 @@
     "sorrow of fata morgana",
     "orpheus' cradle",
     "the other side",
-    "ashen deathbringer"
+    "ashen deathbringer",
+    "devil sword dante",
+    "yamato"
   ],
   "weaponlist_categorised": [
     {
@@ -549,6 +552,14 @@
     {
       "name": "Blade Cannons",
       "list": ["\u2605Rock Cannon ######", "Rock Cannon #####"]
+    },
+    {
+      "name": "Devil Sword Dante",
+      "list": ["Devil Sword Dante ######", "Devil Hunter Greatsword #####"]
+    },
+    {
+      "name": "Yamato",
+      "list": ["Yamato ######", "Yamato - Replica #####"]
     }
   ]
 }

@@ -1677,5 +1677,115 @@
         "skill_desc": "When Vera: Geiravor casts **Smelted Soul** with Howl Fang equipped, summons Howl Fang to launch a joint attack, gathering nearby enemy units and dealing **1500%** Fire DMG 2 times. Base DMG of **Flame-Forged Night** increases by **10%/20%/30%/40%/50%/60%** when **1/2/3/4/5/6** Yellow Orbs are consumed."
       }
     ]
+  },
+  "cavaliere": {
+    "name": "Cavaliere\n<:s_rank:1287636749052412026><:fire_element:1290613867365273630>",
+    "sig_character": "Dante",
+    "base_rank": "S",
+    "cub_type": "Gather, Damage",
+    "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3redwolf1.png",
+    "skills_list": [
+      "Cavaliere - Ram",
+      "Cavaliere - Spin",
+      "Razor Wheel",
+      "Idle Accumulation",
+      "High-Speed Chase",
+      "Overspeed Acceleration",
+      "Moment of the Hunt"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Cavaliere - Ram",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, summons Cavaliere to ram the enemy, dealing **1050%** Fire DMG 2 times."
+      },
+      {
+        "skill_name": "Cavaliere - Spin",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, summons Cavaliere to gather nearby enemies, dealing **650%** Fire DMG 3 times."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Razor Wheel",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Cavaliere's Active Skill deals **70%** more DMG."
+      },
+      {
+        "skill_name": "Idle Accumulation",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by **100**."
+      },
+      {
+        "skill_name": "High-Speed Chase",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Cavaliere casts an Active Skill, increases the carrier's Extra DMG Bonus by **5%** for 8s. Triggering this effect will renew its duration."
+      },
+      {
+        "skill_name": "Overspeed Acceleration",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Fire DMG by **10%**. If the carrier has an active Ignition Mark, increases Ignition DMG by **10%**."
+      },
+      {
+        "skill_name": "Ultimate Devil's Arrival",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "If the carrier is Dante, tap the **uncharged** CUB button to release **Cavaliere** and generate a **Summon Sword** to attack the enemy. The first time will cast **Cavaliere - Dive**, regarded as casting **Stinger**, dealing **500%** Fire DMG based on itself. Tap again during **Cavaliere - Dive** to cast **Cavaliere - Airslash**, regarded as casting **Million Stab**, dealing **800%** Fire DMG based on itself. Tap Basic Attack during **Cavaliere - Airslash** to cast **Cavaliere - Aerial Combo**, dealing **325%** Fire DMG based on itself. Base DMG of **Sin Devil Trigger - Sin Inferno** and **Sin Devil Trigger - Judgement** increases by 25%."
+      }
+    ]
+  },
+  "mirage blade": {
+    "name": "Mirage Blade\n<:s_rank:1287636749052412026><:physical_element:1290613978057146379>",
+    "sig_character": "Vergil",
+    "base_rank": "S",
+    "cub_type": "Control, Damage",
+    "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3redwolf1.png",
+    "skills_list": [
+      "Blister",
+      "Heavy Rain",
+      "Mirage Blade Formation",
+      "Light-Devouring Storm",
+      "Blood Frenzy",
+      "Soul-Smiting Lethality",
+      "Ultimate Devil's Dance"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Blister",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the Otherworld Summon button will become available. If the carrier is not Vergil, after casting, Blistering Swords deal **250%** Physical DMG 8 times. If the carrier is Vergil, the skills **Devil Hunting Expertise: Blister/Heavy Rain Mirage Blade** and **Devil Hunting Expertise: Storm/Spiral Mirage Blade** will be enhanced."
+      },
+      {
+        "skill_name": "Heavy Rain",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the Otherworld Summon button will become available. If the carrier is not Vergil, after casting, the Heavy Rain Blades deal **360%** Physical DMG 5 times and apply a slowing effect to enemies. If the carrier is Vergil, the skills **Devil Hunting Expertise: Blister/Heavy Rain Mirage Blade** and **Devil Hunting Expertise: Storm/Spiral Mirage Blade** will be enhanced."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Mirage Blade Formation",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "If the carrier is not Vergil, the Mirage Blade's Active Skill deals **70%** more DMG. If the carrier is Vergil, Base DMG of **Devil Hunting Expertise: Blister/Heavy Rain Mirage Blade** and **Devil Hunting Expertise: Storm/Spiral Mirage Blade** increase by **70%**."
+      },
+      {
+        "skill_name": "Light-Devouring Storm",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by **100**."
+      },
+      {
+        "skill_name": "Blood Frenzy",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Mirage Blade casts an Active Skill, increases the carrier's Extra DMG Bonus by 5% for 8s. Duration resets each time it is triggered. When Vergil casts **Devil Hunting Expertise: Blister/Heavy Rain Mirage Blade** and **Devil Hunting Expertise: Storm/Spiral Mirage Blade**, the effect will also be triggered."
+      },
+      {
+        "skill_name": "Soul-Smiting Lethality",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Physical DMG by **10%**."
+      },
+      {
+        "skill_name": "Ultimate Devil's Dance",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "Base DMG of **Judgement Cut End** increases by **50%**. The first time **Judgement Cut End** is cast since entering the battlefield, the Mirage Blade can perform a joint attack during **Sin Devil Trigger**: During the 3-hit slash of **Skewer/Yamato**: Combo, the Mirage Blade will cast **Blister**, dealing **375%** Physical DMG 8 times; during the 5-hit attack of **Judgement Cut/Beast Uppercut/Beowulf: Combo**, the Mirage Blade will cast **Heavy Rain**, dealing **600%** Physical DMG 5 times."
+      }
+    ]
   }
 }

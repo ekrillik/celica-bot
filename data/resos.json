@@ -644,11 +644,7 @@
     ]
   },
   "daybreak": {
-    "main": [
-      "1. Dead Line Timing",
-      "2. Glorious Afterglow",
-      "3. Matrix Lightning"
-    ]
+    "main": ["1. Dead Line Timing", "2. Glorious Afterglow", "3. Incandescence"]
   },
   "geiravor": {
     "main": [
@@ -656,6 +652,12 @@
       "2. Glorious Spear",
       "3. Incandescence"
     ]
+  },
+  "dante": {
+    "main": ["1. Dead Line Timing", "2. Glorious Afterglow", "3. Incandescence"]
+  },
+  "vergil": {
+    "main": ["1. Dead Line Timing", "2. Glorious Afterglow", "3. Incandescence"]
   },
   "placeholder": {
     "unit_name": "Placeholder",

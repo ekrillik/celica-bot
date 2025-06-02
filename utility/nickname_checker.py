@@ -350,6 +350,16 @@ def check_nickname(nickname, caller):
             weapon = "ashen deathbringer"
             cub = "howl fang"
             memory = "hervor"
+        case "dante":
+            character = "dante"
+            weapon = "devil sword dante"
+            cub = "cavaliere"
+            memory = "n/a"
+        case "vergil":
+            character = "vergil"
+            weapon = "yamato"
+            cub = "mirage blade"
+            memory = "n/a"
 
         case _:
             if(caller == "character"):
@@ -781,6 +791,16 @@ def character_theme(nickname):
             colour = 0xe14942
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr4weila2q.png"
             thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr4weila3.png"
+        case "dante":
+            name = "Dante"
+            colour = 0x822f2c
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2danding2q.png"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr2danding3.png"
+        case "vergil":
+            name = "Vergil"
+            colour = 0x75818a
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2weijier2q.png"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr2weijier3.png"
         case _:
             name = ""
             colour = ""

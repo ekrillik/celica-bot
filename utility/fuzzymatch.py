@@ -131,7 +131,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "vitrum"
         case "lee hyperreal"| "supercar" | "car" | "hyper" | "hyperreal" | "xly" | "xiangli yao" | "hypertrash" | "hypermonke" | "hypercuck" | "zeru's sun" | "hyperbrick":
             character = "hyperreal"
-        case "ayla kaleido" | "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi" | "booba":
+        case "ayla kaleido" | "cow" | "kale" | "kaleido" | "rich painter"| "zhezhi" | "booba" | "the black mangaka":
             character = "kaleido"  
         case "lucia crimson weave" | "crimson weave" | "weave" | "cw" | "blanc's curse" | "matt's girl" | "ojek" | "kang ojek" | "aloha" | "sayonara" | "creamson weeb" | "tsubrickie" | "tsubricki":
             character = "crimson weave"
@@ -156,7 +156,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "decryptor"
         case "luna oblivion"| "oblivion" | "void luna" | "xeno's queen":
             character = "oblivion"
-        case "bridget ardeo" | "bridget" | "ardeo" | "royal guard" | "dante":
+        case "bridget ardeo" | "bridget" | "ardeo" | "royal guard":
             character = "ardeo"
         case "hanying solacetune" | "solacetune" | "yor" | "yor forger" | "ponzu's milkers":
             character = "solacetune"
@@ -178,6 +178,10 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "daybreak"
         case "vera geiravor" | "geiravor" | "valkyrie" | "valk" | "gardevoir":
             character = "geiravor"
+        case "dante" | "donut" | "dunce":
+            character = "dante"
+        case "vergil" | "veggie" | "virgin":
+            character = "vergil"
         # Boss nicknames
         case "mado":
             boss = "madorea"
