@@ -18,10 +18,10 @@ def fuzzmatch(string, match_type = "character") -> str:
         
     match nickname:
         case "beloved girl":
-            # character = "daybreak"
-            characters = ["laurel", "oblivion"]
-            index = random.randint(0, len(characters) - 1)
-            character = characters[index]
+            character = "daybreak"
+            # characters = ["decryptor", "oblivion"]
+            # index = random.randint(0, len(characters) - 1)
+            # character = characters[index]
         case "best girl" | "bestgirl":
             characters = ["eclipse", "lux", "luminance", "empyrea"]
             index = random.randint(0, 3)
@@ -33,7 +33,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = characters[index]
             print(character)
         case "lost content":
-            characters = ["2b", "9s", "a2", "brs"]
+            characters = ["2b", "9s", "a2", "brs", "dante", "vergil"]
             index = random.randint(0, len(characters) - 1)
             character = characters[index]
         case "lotus" | "lucia lotus":
@@ -168,7 +168,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "fulgor"
         case "nanami startrail" | "startrail" | "nanaknight" | "star rail" | "hsr" | "suou yuki" | "yuki" | "nanapi" | "fox's knight":
             character = "startrail"
-        case "ishmael parhelion" | "ishmael" | "parhelion" | "ish" | "changli" | "mother" | "space god" | "god" | "god in the flesh":
+        case "ishmael parhelion" | "ishmael" | "parhelion" | "ish" | "changli" | "mother" | "most powerful alien":
             character = "parhelion"
         case "lilith daemonissa" | "lilith" | "daemonissa" | "maso" | "masochist" | "umbrella":
             character = "daemonissa"
@@ -180,7 +180,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "geiravor"
         case "dante" | "donut" | "dunce":
             character = "dante"
-        case "vergil" | "veggie" | "virgin":
+        case "vergil" | "veggie" | "virgin" | "sparda's virgin":
             character = "vergil"
         # Boss nicknames
         case "mado":
@@ -207,6 +207,8 @@ def fuzzmatch(string, match_type = "character") -> str:
             boss = "fushen"
         case "emp":
             boss = "emperor"
+        case "primal projection" | "projection" | "ishmael":
+            boss = "projection"
 
         case _:
             character = ""

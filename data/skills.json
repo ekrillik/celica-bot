@@ -13796,12 +13796,14 @@
           "result": [
             "- Fully casting Devil Sword Dante: Combo and Balrog: Combo grants 4/1 Devil Arm Energy.",
             "- Casting Devil Sword Dante, Dr. Faust: Hat's Off, and Balrog grants 1/2/6 Devil Arm Energy based on the number of orbs pinged; Dr. Faust: Red Hot Night - Accumulate grants 1 Devil Arm Energy for every Signal Orb consumed.",
-            "- When Dance Macabre is cast with full Devil Trigger Gauge, if Devil Arm Energy is full, immediately consumes all and grants 40 Signature Energy, 400 Judgement Points and a Devil Sword Mark.",
+            "- When Dance Macabre is cast with full Devil Trigger Gauge, if Devil Arm Energy is full, immediately consumes all and grants 40 Signature Energy, 400 Judgement Points and a Devil Sword Mark."
+          ],
+          "res_lv18": [],
+          "result2": [
             "- When Real Impact is cast with full Devil Trigger Gauge, if Devil Arm Energy is full, immediately consumes all and grants 40 Signature Energy, 400 Judgement Points, and an Ignition Mark.",
             "- Casting Dr. Faust: Red Hot Night - Burst with full Devil Trigger Gauge will consume all Devil Arm Energy and grant 25 Judgement Points for every 1 point consumed. The current Dr. Faust: Red Hot Night - Burst and the Base DMG of the next Sin Devil Trigger increases by 12.5%, stacking up to 150%. When cast with maximum stacks, grants an additional 28 Signature Energy.",
             "- Can store up to 12 points of Devil Arm Energy."
-          ],
-          "res_lv18": []
+          ]
         },
         {
           "name": "Devil Arms Mastery",
@@ -13825,11 +13827,13 @@
           "result": [
             "- Press and hold Red/Blue Orb to cast a Sin Devil Trigger skill, gaining 38 Signature Energy and 100 Judgement Points for every 30 Sin Devil Trigger Gauge consumed.",
             "- Holding Red Orb casts Sin Devil Trigger - Phantom Jab, gathering nearby targets and dealing 630% Fire DMG; if an Ignition Mark is active, deals 910% Ignition DMG instead, applies 1000 Combustible Charges, and gains 80% DMG Reduction while this skill is cast.",
-            "- Holding Blue Orb casts Sin Devil Trigger - Flamboyant Barrage, dealing 630% Fire DMG; if an Ignition Mark is active, deals 910% Ignition DMG instead, applies 1000 Combustible Charges, and gains 80% DMG Reduction while this skill is cast.",
+            "- Holding Blue Orb casts Sin Devil Trigger - Flamboyant Barrage, dealing 630% Fire DMG; if an Ignition Mark is active, deals 910% Ignition DMG instead, applies 1000 Combustible Charges, and gains 80% DMG Reduction while this skill is cast."
+          ],
+          "res_lv18": [],
+          "result2": [
             "- When Devil Trigger Gauge is at 120 points, tap Yellow Orb to consume all Devil Trigger Gauge and cast Sin Devil Trigger - Extinguished Shadow, gaining 152 Signature Energy and 400 Judgement Points. Sin Devil Trigger - Extinguished Shadow gathers targets in a wide range and deals 2300% Fire DMG; if an Ignition Mark is active, deals 3100% Ignition DMG instead, applies 4000 Combustible Charges, and gains 80% Reduction while this skill is cast.",
             "- The maximum of Sin Devil Trigger Gauge is 120 points."
-          ],
-          "res_lv18": []
+          ]
         },
         {
           "name": "Royalguard",
@@ -14303,7 +14307,7 @@
     "qte": {
       "name": "Judgement Cut - Sunder",
       "description": "Vergil performs a Judgement Cut. Deals {0}% Physical DMG.",
-      "res_lv18": [600]
+      "desc_lv18": [600]
     },
     "leader": {
       "name": "The Alpha and the Omega",
