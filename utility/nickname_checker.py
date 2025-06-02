@@ -797,7 +797,7 @@ def character_theme(nickname):
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2danding2q.png"
             thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr2danding3.png"
         case "vergil":
-            name = "Vergil"
+            name = "Sparda's Virgin"
             colour = 0x75818a
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2weijier2q.png"
             thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr2weijier3.png"
