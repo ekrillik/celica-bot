@@ -1415,6 +1415,30 @@
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
+  "devil hunter greatsword": {
+    "name": "Devil Hunter Greatsword",
+    "weapon_type": "Devil Sword Dante",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2ddevilsworddantemd020011sp.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Flaming Devil",
+      "effect_desc": "Fire DMG increases by 10%."
+    }
+  },
+  "yamato - replica": {
+    "name": "Yamato - Replica",
+    "weapon_type": "Yamato",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2vyamatomd020011sp.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Dimensional Rupture",
+      "effect_desc": "Increases ATK by 5% and CRIT DMG by 10%."
+    }
+  },
   "lotus berserker": {
     "name": "Lotus Berserker",
     "weapon_type": "Katana",
@@ -2253,6 +2277,30 @@
     "effect": {
       "effect_name": "Inextinguishable Flame",
       "effect_desc": "ATK increases by 10%. Base DMG of Sky-Scorching Spear doubles."
+    }
+  },
+  "devil sword dante": {
+    "name": "Devil Sword Dante",
+    "weapon_type": "Devil Sword Dante",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e3ddevilsworddantemd010011sp.png",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Union of Man and Demon",
+      "effect_desc": "Increases ATK by 10%. After casting Sin Devil Trigger - Sin Inferno or Sin Devil Trigger - Judgement, gains 1 Signal Orb and converts any remaining Sin Devil Trigger Gauge into Devil Trigger Gauge. For every 30 points converted, gains 1 extra Signal Orb. When the converted amount exceeds 60, gains 6 points of Devil Arm Energy."
+    }
+  },
+  "yamato": {
+    "name": "Yamato",
+    "weapon_type": "Yamato",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e3vyamatomd010011sp.png",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Through Dark and Light",
+      "effect_desc": "Increases CRIT DMG by 30%. Casting Sin Devil Trigger activates Matrix if it is not on cooldown. Doubles the gain rate of Blade Resolve."
     }
   },
   "placeholder": {

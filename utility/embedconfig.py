@@ -33,11 +33,19 @@ class EmbedClass:
         memories = "\n".join(selection['memories'])
         memory_resonance = "\n".join(selection['memory_resonance'])        
 
-        embed = discord.Embed(
-            title=f"{name}: {frame}",
-            description=f"{selection['set_type'] + " " + "Set"}",
-            color=discord.Color(colour)
-        )
+        if frame == "":
+            embed = discord.Embed(
+                title=f"{name}",
+                description=f"{selection['set_type'] + " " + "Set"}",
+                color=discord.Color(colour)
+            )
+        else:
+            embed = discord.Embed(
+                title=f"{name}: {frame}",
+                description=f"{selection['set_type'] + " " + "Set"}",
+                color=discord.Color(colour)
+            )
+            
         if not imageView:
             if 'usage' not in selection:
                 embed.add_field(name="Usage", value=selection['set_type'])
