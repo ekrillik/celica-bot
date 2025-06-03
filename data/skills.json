@@ -13966,7 +13966,7 @@
           ],
           "result": [
             "- Every 5 Judgement Points increases the Base DMG of Sin Devil Trigger - Sin Inferno and Sin Devil Trigger - Judgement by 0.75%.",
-            "- If an Ignition Mark is active and the number of Ignition stacks reaches 4/8/12/16/20, every 5 Judgement Points increases the Base DMG of Sin Devil Trigger - Sin Inferno and Sin Devil Trigger - Judgement by 0.24%/0.48%/0.64%/0.88%/1.2%. ",
+            "- If an Ignition Mark is active and the number of Ignition stacks reaches 4/8/12/16/20, every 5 Judgement Points increases the Base DMG of Sin Devil Trigger - Sin Inferno and Sin Devil Trigger - Judgement by 0.24%/0.48%/0.72%/0.96%/1.2%. ",
             "- If Judgement Points are full, the Base DMG of Sin Devil Trigger - Judgement increases by 50%. If an Ignition Mark is active, Base DMG increases by 80% instead.",
             "- The maximum of Judgement Points is 1000."
           ],
