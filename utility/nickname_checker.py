@@ -810,7 +810,7 @@ def character_theme(nickname):
             name = "Tololo"
             colour = 0x75818a
             chibi_portrait = ""
-            thumbnail_url = "https://iopwiki.com/wiki/File:Tololo_S.png"
+            thumbnail_url = "https://lootandwaifus.com/characters/gfl2/tololo.webp"
         case _:
             name = ""
             colour = ""

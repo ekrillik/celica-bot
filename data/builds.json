@@ -2569,13 +2569,10 @@
         "usage": "Main DPS Set",
         "game_modes": "Story, High Difficulty, Gunsmoke",
         "description": ["Recommended for all ranks", "General DPS set"],
-        "memories": [
-          "Comet Tail Transit",
-          "Principles of Observational Astronomy"
-        ],
+        "memories": ["Phase Strike", "Hydro Boost"],
         "memory_resonance": [
-          "Top Slot   : Comet Tail Transit",
-          "Bottom Slot: Invisible Light"
+          "Top Slot   : Invisible Light",
+          "Bottom Slot: Principles of Observational Astronomy"
         ]
       }
     ]
