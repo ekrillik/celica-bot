@@ -2556,6 +2556,27 @@
       }
     ]
   },
+  "tololo": {
+    "unit_name": "Tololo",
+    "frame_name": "",
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "Phase Strike, Hydro Boost" }
+    ],
+    "builds": [
+      {
+        "set_name": "Main DPS Set",
+        "set_type": "Main DPS Set",
+        "usage": "Main DPS Set",
+        "game_modes": "Story, High Difficulty, Gunsmoke",
+        "description": ["Recommended for all ranks", "General DPS set"],
+        "memories": ["Phase Strike", "Hydro Boost"],
+        "memory_resonance": [
+          "Top Slot   : Invisible Light",
+          "Bottom Slot: Principles of Observational Astronomy"
+        ]
+      }
+    ]
+  },
   "placeholder": {
     "unit_name": "Placeholder",
     "frame_name": "Placeholder",

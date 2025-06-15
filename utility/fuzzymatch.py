@@ -182,6 +182,8 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "dante"
         case "vergil" | "veggie" | "virgin" | "sparda's virgin":
             character = "vergil"
+        case "tololo":
+            character = "tololo"
         # Boss nicknames
         case "mado":
             boss = "madorea"

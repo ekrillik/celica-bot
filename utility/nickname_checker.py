@@ -360,6 +360,11 @@ def check_nickname(nickname, caller):
             weapon = "yamato"
             cub = "mirage blade"
             memory = "n/a"
+        case "tololo":
+            character = "tololo"
+            weapon = "planeta"
+            cub = "n/a"
+            memory = "n/a"
 
         case _:
             if(caller == "character"):
@@ -801,6 +806,11 @@ def character_theme(nickname):
             colour = 0x75818a
             chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr2weijier2q.png"
             thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr2weijier3.png"
+        case "tololo":
+            name = "Tololo"
+            colour = 0x75818a
+            chibi_portrait = ""
+            thumbnail_url = "https://lootandwaifus.com/characters/gfl2/tololo.webp"
         case _:
             name = ""
             colour = ""
