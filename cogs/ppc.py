@@ -19,16 +19,11 @@ class Ppc(commands.Cog):
         print('PPC loaded.')
 
     @commands.hybrid_command(pass_context=True, description="Accepts a difficulty and a time particular time in seconds to display a score for Intensive Battle.")
-    async def ibtime(self, ctx: commands.Context, difficulty, time_str):
+    async def ibtime(self, ctx: commands.Context, time_secs):
         max_seconds = 300
-        difficulties = "hell"
-        if difficulty not in difficulties:
-            await ctx.send(content=f"{difficulty} is not a valid difficulty!")
-            return
-
-        power = difficulties.index(difficulty)
+        power = 4
         try:
-            time_sec = min(abs(int(time_str)), max_seconds)
+            time_sec = min(abs(int(time_secs)), max_seconds)
         except ValueError:
             content = f"The provided time needs to be a valid number of seconds!"
             await ctx.send(content=content)
@@ -40,7 +35,7 @@ class Ppc(commands.Cog):
 
         embed = discord.Embed(
             title="",
-            description=f"**{difficulty.title()} {minutes}:{seconds:02}**"
+            description=f"**IB Time {minutes}:{seconds:02}**"
         )
         embed.add_field(name="", value=f"Final Score: {score}", inline=False)
         await ctx.send(embed=embed)
