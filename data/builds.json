@@ -2417,7 +2417,10 @@
   "daybreak": {
     "unit_name": "Jetavie",
     "frame_name": "Daybreak",
-    "set_list": [{ "name": "Main DPS Set", "memos": "4 Bathlon 2 Barcelo" }],
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "4 Bathlon 2 Darwin" },
+      { "name": "Ignition Affix DPS Set", "memos": "4 Shakespeare 2 Darwin" }
+    ],
     "builds": [
       {
         "set_name": "Main DPS Set",
