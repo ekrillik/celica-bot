@@ -9019,40 +9019,39 @@
       {
         "name": "Ceaseless Strings",
         "description": [
-          "[Core Passive - Echoing Twins] **New Effect: Glaciation.**\n Some of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies.\n\nWhile Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation.\n\nWhen Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation.\n",
-          "- At 100 Glaciation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.\n- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.\n- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.\n- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation.",
-          "When Judgement Zone is not active, Echo can hold Dodge to fire a Frigid Arrow, dealing 800% Glaciation DMG and activating Crystalline Zone for 8s. After Splendor Points reaches maximum inside Crystalline Zone, Echo can hold Basic Attack to consume all Spendor Points and cast Anguishing Co-Strike (gaining invincibility but unable to cancel with Signature - Celestial Edge), imprisoning and pulling in nearby enemies, dealing 2400% Glaciation DMG, restoring 50 Signature Energy to Echo, and activating all available QTEs.\nAnguishing Co-Strike consumes all Cipher Orbs, up to an equal number of Signal Orbs, and the Soul Shatter Mark if held, then grants corresponding bonuses for the Glaciation Effect.",
-          "- Each Cipher Orb increases the Base DMG of Arctic Ice and Ice Spikes by 4%, and each Signal Orb increases the Base DMG of Ice Accumulation by 25% for 24s. Triggering this effect will renew its duration. The Soul Shatter Mark enhances the effect of Congelation, every 100 Congelation increasing the Base DMG of the next Ice Burst by 200% (does not stack)."
+          "[Core Passive - Echoing Twins] New Effect: Glaciation.\nSome of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies.\nWhile Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation.\n- At 100 Congelation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.\n- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.\n- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.\n- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation.",
+          "When Judgment Zone is not expanded, press and hold Dodge to make Echo shoot an Ice Arrow, dealing 800% Glaciation DMG, and expand an 8-second Congelation Zone. In the Congelation Zone, at Max Splendor Points, press and hold Basic Attack to make Echo spend all Splendor Points and cast Frosty Sorrow Co-Strike (During this process, Echo will become Invincible and this cannot be interrupted by [Signature - Celestial Edge]), imprisoning the nearby enemies, dealing 2400% Glaciation DMG, restoring 50 Signature Energy to herself, and activating all available QTEs.",
+          "Frosty Sorrow Co-Strike will consume all Cipher Orbs, a maximum equal number of Signal Orbs, and the Soul Shatter Mark (if available) to enhance Effect: Glaciation accordingly.\n- Each Cipher Orb will increase the Base DMG of Arctic Ice and Ice Spikes by 4%. Each Signal Orb will increase the Base DMG of Ice Accumulation by 25% for 24s. Duration resets every time it is triggered. The Soul Shatter Mark will enhance the effect caused by Congelation. Every 100 Congelation will increase the Base DMG of the next Ice Burst by 200% (cannot be stacked)"
         ],
         "level9": [
-          "**Level 9**: While Ice Spikes persist, Echo's [Signature - Celestial Edge] resets the Ice Spikes' duration to 10s, and [QTE - Advent of Justice] extends the duration by 4s and deals 600% Glaciation DMG instead. Cecily's Cipher attacks deal an additional 200% Glaciation DMG and accumulate 100 Congelation for the team..\n- Ice Spikes' duration cannot exceed 10s."
+          "**Level 9**: When there are Ice Spikes, Echo will reset their duration to 10s when casting [Signature - Celestial Edge]. [QTE - Advent of Justice] will prolong their duration by 4s and deal 600% Glaciation DMG instead. Cecily will deal extra 200% Glaciation DMG and accumulate extra 100 Congelation for the team when launching a Cipher Attack.\n- Ice Spikes last no longer than 10s."
         ],
         "level18": [
-          "**Level 18**: Base DMG of Anguishing Co-Strike, Imprisoning Co-Strike, and Soulbreaking Co-Strike increase by 50%.\n[Passive - Decisive Omen] added effect: Increases the final effect of Ultralimit Torque applied by [Core Passive - Blessing of Fortitude] by 5%. While Echo has an active Crystalline Emblem, she instead grants the Frostbound Nova effect that increases Glaciation DMG by 5%. While Ice Spikes persist, Cecily's Cipher attacks accumulate an additional 200 Congelation for the team instead."
+          "**Level 18**: Base DMG of Frosty Sorrow Co-Strike, Imprisoning Co-Strike, and Soulbreaking Co-Strike increases by 50%.\nNew effect of [Passive - Decisive Omen Lv.2] added: The final effect of **Ultralimit Torque** inflicted by [Core Passive - Blessing of Fortitude] increases by 5%. If the Congelation Mark is activated, If the Congelation Mark is activated, then applies **Imprisoned Star** that increases Glaciation DMG by 5% instead. When there are Ice Spikes, Cecily's Cipher Attacks will accumulate extra 200 Congelation for the team instead."
         ]
       },
       {
-        "name": "Penetrating Icicles",
+        "name": "Dark Icethorns",
         "description": [
-          "Inside Crystalline Zone, [Core Passive - Swift Archery] deals 160% Glaciation DMG instead, restores 20 Signature Energy and 30 Splendor Points for Echo, grants 4 Cipher Orbs to Cecily, and additionally casts Silver Rain, dealing 240% Glaciation DMG.\n- In every Crystalline Zone activated, Echo can cast [Core Passive - Swift Archery] a maximum of 6 times."
+          "In Congelation Zone, [Core Passive - Swift Archery] instead deals 160% Glaciation DMG, restores 20 Signature Energy and 30 Splendor Points to Echo, and enters 4 Cipher Orbs for Cecily. Then, follows up with Freezing Rain, dealing 240% Glaciation DMG.\n- Echo can cast [Core Passive - Swift Archery] up to 6 times every time after expanding a Congelation Zone."
         ],
         "level9": [
-          "**Level 9**: Base DMG of [Core Passive - Swift Archery] and Silver Rain increases by 100%."
+          "**Level 9**: Base DMG of [Core Passive - Swift Archery] and Freezing Rain increases by 100%."
         ],
         "level18": [
-          "**Level 18**: Base DMG of Sinbreaker's Arrow increases by 100%. The first time this skill is cast upon entering the battlefield, restores 16 Signature Energy and 60 Splendor Points for Echo. \n- [Passive - Mark of Libra Lv.2] added effect: Increases the final effect of Ultralimit Torque applied by [Core Passive - Blessing of Fortitude] by 5%. While Echo has an active Crystalline Emblem, she instead grants the Frostbound Nova effect that increases Glaciation DMG by 5%. While Crystalline Zone is active, Echo gains 20% Extra DMG Bonus."
+          "**Level 18**: Base DMG of Sinbreaker's Arrow increases by 100%. Echo restores 16 Signature Energy and 60 Splendor Points every time when casting this for the first time after entering the battlefield.\nNew effect of [Passive - Mark of Libra Lv.2] added: The final effect of **Ultralimit Torque** inflicted by [Core Passive - Blessing of Fortitude] increases by 5%. If the Congelation Mark is activated, then applies **Imprisoned Star** that increases Glaciation DMG by 5% instead. When Congelation Zone is active, Echo gains a 30% Extra DMG Bonus."
         ]
       },
       {
-        "name": "Decisive Revelation",
+        "name": "Judgmental Apocalypse",
         "description": [
-          "Inside Crystalline Zone, [Signature - Celestial Edge] deals 3200% Glaciation DMG instead, and activates Crystalline Emblem for 15s. Triggering this effect or exiting the battlefield will renew its duration.\nWhile Ice Spikes persist, the Crystalline Emblem is regarded as active.\nWhile Echo has an active Crystalline Emblem, her [Class - Amplifier] grants an Ice buff instead, and [Core Passive - Blessing of Fortitude] instead grants the Frost Crystal effect that increases Ice DMG by the same amount."
+          "In Congelation Zone, [Signature - Celestial Edge] instead deals 3200% Glaciation DMG and activates a 15-second Congelation Mark. Duration resets every time it is triggered or when Echo exits the battlefield. When there are Ice Spikes, the Congelation Mark will be regarded as activated.\nWhen the Congelation Mark is activated, [Class Skill - Amplifier] will grant Ice DMG boost instead, and [Core Passive - Blessing of Fortitude] will grant Frost Crystal that provides the same amount of Ice DMG boost."
         ],
         "level9": [
-          "**Level 9**: Consuming a Soul Shatter Mark increases the Base DMG of the next [Signature - Celestial Edge] by 50% (does not stack).\nAfter casting [Signature - Celestial Edge], Echo pings 2 Cipher Orbs for Cecily and leaves behind Snowmelt, healing allies for 20% of Echo's ATK every second for 12s."
+          "**Level 9**: Spending Soul Shatter Mark will increase the Base DMG of the next [Signature - Celestial Edge] by 50% (cannot be stacked).\nAfter casting [Signature - Celestial Edge], Echo enters 2 Cipher Orbs for Cecily and leaves Melting Snow behind, restoring HP equal to 20% of Echo's ATK every second to allies within it for 12s."
         ],
         "level18": [
-          "**Level 18**: Inside Crystalline Zone, Echo deals 100% Glaciation DMG to nearby enemies per second. Inside Judgement Zone, Echo deals 100% Physical DMG to nearby enemies per second.\n[Passive - Dreamer's Shore Lv.3] added effect: When any Zone is active, Echo gains 30% Extra DMG Bonus."
+          "**Level 18**: In Congelation Zone, Echo deals 100% Glaciation DMG every second to nearby enemies. In Judgment Zone, Echo deals 100% Physical DMG every second to nearby enemies.\nNew effect of [Passive - Dreamer's Shore Lv.3] added: Echo gains a 30% Extra DMG Bonus when either zone is expanded."
         ]
       }
     ]
@@ -10941,7 +10940,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "The consecutive casting of each stack of Jade Bloom increases to 100%. While in Attacker Mode, filling the Lunartone Field with Sonority immediately triggers one Ethereal Symphony. The Extra DMG of Ultima Slash triggered by Hanying: Solacetune increases by 100%. The Penetrating Pivot effect granted by Hanying: Solacetune increases by 10%. A 3-second reduction to the cooldown time for switching between all characters in the team occurs. This effect does not stack with other effects of the same type."
+          "desc": "The consecutive casting of each stack of Jade Bloom increases to 100%. While in Attacker Mode, filling the Lunartone Field with Sonority immediately triggers one Ethereal Symphony. The Extra DMG of Ultima Slash triggered by Hanying: Solacetune increases by 100%. The **Penetrating Pivot** effect granted by Hanying: Solacetune increases by 10%. A 3-second reduction to the cooldown time for switching between all characters in the team occurs. This effect does not stack with other effects of the same type."
         }
       ]
     },
@@ -10980,7 +10979,7 @@
         "description": "Enables Double Action Mode to activate a hidden cylinder and continuously shoot Condensation Projectiles, while gaining Super Armor and 50% DMG Reduction. Depending on the current Calibration Mode, deals Ice DMG or Glaciation DMG and gains additional Signature Energy.",
         "result": [
           "- In Quiet Calibration Mode, each shot consumes 2 Condensation Projectiles to deal **{0}%** Ice DMG.",
-          "- In Frigid Calibration Mode, each shot consumes 2 Condensation Projectiles to deal **{1}%** Glaciation DMG and granting 100 Glaciation Points.",
+          "- In Frigid Calibration Mode, each shot consumes 2 Condensation Projectiles to deal **{1}%** Glaciation DMG and generate 100 Glaciation Value.",
           "- Based on the current shot count, each shot generates 5 / 9 / 13 / 17 / 21 / 40 extra Signature Energy. The count resets when Double Action Mode ends.",
           "- When Condensation Projectiles run out or Calibration Mode ends, Double Action Mode will also end after a short delay.",
           "- If Wanshi has a Backup Revolver Revolver, holding Basic Attack will automatically trigger Snow Storm and reload the gun, then continue shooting."
@@ -10996,7 +10995,7 @@
         "description": "Shoots 1 Condensation Projectile to deal Ice DMG or Glaciation DMG depending on the current Calibration Mode. On consecutive casts, enters Repeater Mode to gain Super Armor, 50% DMG Reduction and Maim, while gaining additional Signature Energy.",
         "result": [
           "- In Quiet Calibration Mode, shots deal **{0}%** Ice DMG.",
-          "- In Frigid Calibration Mode, shots deal **{1}%** Glaciation DMG and generate 100 Glaciation.",
+          "- In Frigid Calibration Mode, shots deal **{1}%** Glaciation DMG and generate 100 Glaciation Value.",
           "- On consecutive casts, enters Repeater Mode to gain Maim, increasing the Base DMG of the next Flurry Blitz by 7.5%, lasting 3s, max 12 stacks. Triggering this effect again will refresh its duration. All stacks will be lost when Repeater Mode ends. On maximum stacks, additionally increases Base DMG by 25%.",
           "- When Calibration Mode ends, Repeater Mode will also end.",
           "- In Repeater Mode, shots generate 2 / 6 / 10 / 14 / 18 / 37 extra Signature Energy based on the current shot count. The count resets when Repeater Mode ends."
@@ -11019,7 +11018,7 @@
         "switch_in": "no",
         "description": "Consumes the Backup Revolver to refill the cylinder and consumes a Condensation Projectile to cast Snow Storm. While casting, becomes Invincible, and the Calibration Gauge is frozen, while dealing Ice DMG or Glaciation DMG depending on the current Calibration Mode. When Snow Storm is active, tap Red Orb again to command the drone to launch the Backup Revolver, freezing the Calibration Gauge, pulling enemies and dealing Ice DMG. After catching it, swaps the revolver to refill the cylinder and renew the duration of Calibration Mode.",
         "result": [
-          "- Snow Storm deals **{0}%** Ice DMG. In Frigid Calibration Mode, deals **{1}%** Glaciation DMG instead and gains 400 Glaciation. While casting, gains 13 Signature Energy for every 2 Condensation Projectiles used.",
+          "- Snow Storm deals **{0}%** Ice DMG. In Frigid Calibration Mode, deals **{1}%** Glaciation DMG instead and gains 400 Glaciation Value. While casting, gains 13 Signature Energy for every 2 Condensation Projectiles used.",
           "- While casting Snow Storm, tap Red Orb again to swap the Revolver, dealing **{2}%** Ice DMG, then tap Red Orb or Dodge to make Lucid Dreamer dash to the landing point of the Backup Revolver and become Invincible in the process. Catching it will refill the cylinder and renew the duration of Calibration Mode."
         ],
         "res_lv18": [750, 420, 800]
@@ -11038,9 +11037,9 @@
         "name": "Strigine Assault - Blink Assault",
         "button_press": "Ping Yellow Orb",
         "switch_in": "no",
-        "description": "Draws the weapon and rushes forward to deal Ice DMG, while gaining Calibration and Glaciation. Upon 3-Ping, additionally gains Signature Energy.",
+        "description": "Draws the weapon and rushes forward to deal Ice DMG, while gaining Calibration and Glaciation Value. Upon 3-Ping, additionally gains Signature Energy.",
         "result": [
-          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation. The Calibration Gauge can only be filled up to 80% in this way.",
+          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation Value. The Calibration Gauge can only be filled up to 80% in this way.",
           "- Upon a 3-Ping, additionally gains 8 Signature Energy."
         ],
         "res_lv18": [90, 180, 270]
@@ -11049,9 +11048,9 @@
         "name": "Strigine Assault - Fluttering Interception",
         "button_press": "Yellow Orb + Yellow Orb",
         "switch_in": "no",
-        "description": "Steps back then bumps forward to deal Ice DMG, while gaining Calibration and Glaciation. Upon a 3-Ping, additionally gains Signature Energy.",
+        "description": "Steps back then bumps forward to deal Ice DMG, while gaining Calibration and Glaciation Value. Upon a 3-Ping, additionally gains Signature Energy.",
         "result": [
-          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation. The Calibration Gauge can only be filled up to 80% in this way.",
+          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glacion Value. The Calibration Gauge can only be filled up to 80% in this way.",
           "- Upon a 3-Ping, additionally gains 8 Signature Energy."
         ],
         "res_lv18": [120, 240, 360]
@@ -11074,9 +11073,9 @@
         "name": "Frosty Fusillade - Icicle Burst",
         "button_press": "Ping Blue Orb",
         "switch_in": "no",
-        "description": "Steps back and throws a tactical grenade that explodes after a delay to deal Ice DMG to enemies, while gaining Calibration and Glaciation. If Lucid Dreamer is within the explosion range, this will count as self damage. Upon a 3-Ping, additionally gains Signature Energy.",
+        "description": "Steps back and throws a tactical grenade that explodes after a delay to deal Ice DMG to enemies, while gaining Calibration and Glaciation Value. If Lucid Dreamer is within the explosion range, this will count as self damage. Upon a 3-Ping, additionally gains Signature Energy.",
         "result": [
-          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation. The Calibration Gauge can only be filled up to 80% in this way.",
+          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation Value. The Calibration Gauge can only be filled up to 80% in this way.",
           "- Upon a 3-Ping, additionally gains 8 Signature Energy."
         ],
         "res_lv18": [70, 140, 210]
@@ -11085,9 +11084,9 @@
         "name": "Frosty Fusillade - Aerial Suppression",
         "button_press": "Blue Orb + Blue Orb",
         "switch_in": "no",
-        "description": "Summons a drone to instantly detonate the grenade, dealing Ice DMG to enemies and gaining Calibration and Glaciation. If Lucid Dreamer is within the explosion range, this will count as self damage. Upon a 3-Ping, additionally gains Signature Energy.",
+        "description": "Summons a drone to instantly detonate the grenade, dealing Ice DMG to enemies and gaining Calibration and Glaciation Value. If Lucid Dreamer is within the explosion range, this will count as self damage. Upon a 3-Ping, additionally gains Signature Energy.",
         "result": [
-          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation. The Calibration Gauge can only be filled up to 80% in this way.",
+          "- Based on the number of orbs pinged, deals **{0}%** / **{1}%** / **{2}%** Ice DMG and gains 20 / 40 / 80 Calibration and 10 / 20 / 30 Glaciation Value. The Calibration Gauge can only be filled up to 80% in this way.",
           "- Upon a 3-Ping, additionally gains 8 Signature Energy."
         ],
         "res_lv18": [160, 320, 480]
@@ -11172,7 +11171,7 @@
             "Some of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies. While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation."
           ],
           "result": [
-            "- At 100 Glaciation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.",
+            "- At 100 Glaciation Value, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.",
             "- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.",
             "- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.",
             "- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation."
@@ -11250,7 +11249,7 @@
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Entrance Skill also counts as a Blue Orb 3-Ping. When switched in, gains a Signal Orb. Entering Calibration Mode grants 12 Signature Energy. In Frigid Calibration Mode, doubles the amount of Glaciation generated by Flurry Blitz and Frosty Barrage. Base DMG of Flurry Blitz and Frosty Barrage increases by 100%."
+          "desc": "Entrance Skill also counts as a Blue Orb 3-Ping. When switched in, gains a Signal Orb. Entering Calibration Mode grants 12 Signature Energy. In Frigid Calibration Mode, doubles the amount of Congelation generated by Flurry Blitz and Frosty Barrage. Base DMG of Flurry Blitz and Frosty Barrage increases by 100%."
         }
       ]
     },
@@ -11782,13 +11781,13 @@
           "name": "Effect: Glaciation",
           "button_press": "",
           "description": [
-            "Some of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies. While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Glaciation Value. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Glaciation Value. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Glaciation Value can transfer to the next character with Effect: Glaciation."
+            "Some of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies. While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation."
           ],
           "result": [
             "- At 100 Glaciation Value, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers",
             "- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.",
-            "- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Glaciation Value. This can only trigger once every 0.25s.",
-            "- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Glaciation Value owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Glaciation Value."
+            "- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.",
+            "- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation."
           ]
         }
       ]
@@ -12024,7 +12023,7 @@
             "Combustible: Every 250 Combustible Charges will add 1 Combustible stack, up to 20 stacks.\nIgnition: Ignited units take Ignition DMG equal to Ignition stacks x30% (Tank Skills will not be triggered) every second for 10s"
           ],
           "result": [
-            "- The subsequent unit will inherit the Combustible / Ignition status of the last unit on the battlefield upon its death."
+            "- Upon the death of the last unit on the battlefield, subsequent units will inherit its Combustible/Ignition status."
           ]
         }
       ]
@@ -12164,7 +12163,7 @@
         "switch_in": "no",
         "description": "Hits the target with the knee, dealing Nihil DMG. Gains Phantom Points and Collapse Points after casting. Triggers a special ability based on Observation Notes during the process.",
         "result": [
-          "- AAfter casting, gains 10/20/30 Phantom Points and 15/30/45 Collapse Points based on the number of orbs pinged.",
+          "- After casting, gains 10/20/30 Phantom Points and 15/30/45 Collapse Points based on the number of orbs pinged.",
           "- Deals **{0}%/{1}%/{2}%** Nihil DMG based on the number of orbs pinged.",
           "- Gain Super Armor during the process."
         ],
@@ -12683,7 +12682,7 @@
     },
     "class": {
       "name": "Amplifier",
-      "description": "When switched in, all members gain **{0}%** ATK, and Amplifiers deal **{1}%** Elemental DMG for 10s. When there is the Joker's Mark, Lilith: Daemonissa's corresponding element will be regarded as Lightning.",
+      "description": "All switched-in members gain an extra **{0}%** ATK and **{1}** Elemental DMG Bonus of the Amplifier's element for 10s. When there is the Joker's Mark, Lilith: Daemonissa's corresponding element will be regarded as Lightning.",
       "desc_lv18": [20, 20]
     },
     "ss_rank": {
@@ -12733,69 +12732,69 @@
   "pianissimo": {
     "basic_attack": [
       {
-        "name": "Legato Reprise: Progression",
-        "button_press": "Swordbearer + Tap Basic Attack",
+        "name": "Reverberating Legato: Intro",
+        "button_press": "Holding the Rapier + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Unleashes a string of attacks with her sword while dancing, dealing Physical DMG.",
+        "description": "Wields the Bowstring Rapier to attack the target continuously, dealing Physical DMG.",
         "result": [
-          "- Basic Attacks deal a total of **{0}%** Physical DMG and grant a total of **50 Glaciation Points**.",
-          "- On the 5th hit, gains invincibility, 1 additional Signal Orb and 1 **Quaver**."
+          "- Basic Attacks deal a total of **{0}%** Physical DMG. Gains a total of 50 Glaciation Value in the process.",
+          "- When launching the 5th hit, gains Super Armor, 1 extra Signal Orb, and 1 Musical Note."
         ],
         "res_lv18": [730]
       },
       {
-        "name": "Legato Reprise: Inversion",
-        "button_press": "Transcendence + Tap Basic Attack",
+        "name": "Reverberating Legato: Inverse Chord",
+        "button_press": "Flow State + Tap Basic Attack",
         "switch_in": "no",
         "description": "Plays music to attack the target, dealing Physical DMG.",
         "result": [
-          "- Basic Attacks deal a total of **{0}%** Physical DMG and grant a total of **40 Glaciation Points**."
+          "- Basic Attacks deal a total of **{0}%** Physical DMG. Gains a total of 40 Glaciation Value in the process."
         ],
         "res_lv18": [888]
       },
       {
-        "name": "Legato Reprise: Bladed Resonance",
-        "button_press": "Hold Basic Attack",
+        "name": "Reverberating Legato: Echoing Melody",
+        "button_press": "Press and Hold Basic Attack",
         "switch_in": "no",
-        "description": "After holding Basic Attack, Selena switches back to the sword and briefly charges before rushing through the enemy, dealing Physical DMG and gaining **Signature Energy**. During any Signal Orb skill, hold Basic Attack to cast this skill immediately.",
+        "description": "Press and hold Basic Attack to make Selena hold her rapier vertically, charge shortly, and then thrust at the enemy, dealing Physical DMG and gaining Signature Energy. During any ping, press and hold Basic Attack to cast this quickly.",
         "result": [
-          "- Deals **{0}%** Physical DMG. After casting, gains **12** Signature Energy.",
-          "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
-          "- If Basic Attack is held, Selena will continuously consume **Quavers** to increase its Base DMG by **{2}%/{3}%/{4}%**. Selena can block incoming attacks while charging. Upon a successful block, all **Quavers** are consumed immediately. After casting, triggers Matrix if it is not on cooldown."
+          "- Deals **{0}%** Physical DMG. Gains 12 Signature Energy.",
+          "- When there are Ice Spikes, deals **{1}%** Glaciation DMG instead.",
+          "- When cast by pressing and holding Basic Attack, it will consume Musical Notes over time and then increase Base DMG by **{2}%/{3}%/{4}%** according to the number of Musical Notes consumed. Selena can block incoming attacks when charging. Upon a successful block, she will spend all Musical Notes to cast this skill. Triggers Matrix if it is not on cooldown."
         ],
         "res_lv18": [320, 600, 50, 100, 200]
       },
       {
-        "name": "Legato Reprise: Transposed Divisi",
-        "button_press": "Swordbearer + Have 1 Quaver + Tap Dodge during any action",
+        "name": "Reverberating Legato: Inverted Divisi",
+        "button_press": "Holding the Rapier + 1 Musical Note + Tap Dodge",
         "switch_in": "no",
-        "description": "Tap Dodge during any action as a **Swordbearer** to quickly cast this skill, consuming 1 **Quaver** to rapidly thrust forward and deal Physical DMG. If there are sufficient **Quavers**, tap Dodge to cast it again. Afterwards, tap Basic Attack to cast the 5th hit of **Basic Attack - Progression**.",
+        "description": "When Selena is holding her rapier, tap Dodge to cast this skill quickly at the cost of 1 Musical Note. Selena will thrust forward quickly to deal Physical DMG. With enough Musical Notes, tap Dodge to cast this again. Then, tap Basic Attack to follow up with the 5th hit of Basic Attack - Intro.",
         "result": [
-          "- Gains Super Armor and can dodge incoming attacks during this skill. A successful Dodge triggers Matrix if it is not on cooldown.",
-          "- Deals **{0}%** Physical DMG. After casting, gains 5 Signature Energy."
+          "- Gains Super Armor and can dodge incoming attacks in the process. A successful dodge will trigger Matrix if it is not on cooldown.",
+          "- Deals **{0}%** Physical DMG. Gains 5 Signature Energy after casting."
         ],
         "res_lv18": [400]
       }
     ],
     "red_orb": [
       {
-        "name": "Ardent Chord: Legato",
+        "name": "Flaming Chord: Slurring",
         "button_press": "Tap Red Orb",
         "switch_in": "no",
-        "description": "Lunges forward and stabs the target, dealing Physical DMG.",
+        "description": "Steps forward and thrusts, dealing Physical DMG.",
         "result": [
-          "- Gains 1 **Quaver** upon a 3-Ping, storing up to 3 **Quavers**.",
+          "- Gains 1 Musical Note upon a 3-Ping. Max 3 Musical Notes.",
           "- Deals **{0}%/{1}%/{2}%** Physical DMG based on the number of orbs pinged."
         ],
         "res_lv18": [120, 240, 360]
       },
       {
-        "name": "Ardent Chord: Overtone",
-        "button_press": "During Legato + Tap Red Orb",
+        "name": "Flaming Chord: Harmonics",
+        "button_press": "During Slurring + Tap Red Orb",
         "switch_in": "no",
-        "description": "Unleashes a flurry of stabbing attacks at the target, dealing Physical DMG.",
+        "description": "Thrusts the target continuously, dealing Physical DMG.",
         "result": [
-          "- Gains 1 **Quaver** upon a 3-Ping, storing up to 3 **Quavers**.",
+          "- Gains 1 Musical Note upon a 3-Ping. Max 3 Musical Notes.",
           "- Deals **{0}%/{1}%/{2}%** Physical DMG based on the number of orbs pinged."
         ],
         "res_lv18": [120, 240, 360]
@@ -12803,23 +12802,23 @@
     ],
     "yellow_orb": [
       {
-        "name": "Thunderous Modulation: Slicing Bowstring",
+        "name": "Thunderous Transposition: Bow Chop",
         "button_press": "Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Twirls and slashes the target, dealing Physical DMG.",
+        "description": "Spins and slashes, dealing Physical DMG.",
         "result": [
-          "- Gains 1 **Quaver** upon a 3-Ping, storing up to 3 **Quavers**.",
+          "- Gains 1 Musical Note upon a 3-Ping. Max 3 Musical Notes.",
           "- Deals **{0}%/{1}%/{2}%** Physical DMG based on the number of orbs pinged."
         ],
         "res_lv18": [140, 280, 420]
       },
       {
-        "name": "Thunderous Modulation: Staccato",
-        "button_press": "During Slicing Bowstring + Tap Yellow Orb",
+        "name": "Thunderous Transposition: Staccato",
+        "button_press": "During Bow Chop + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Sends an Iris at the target, dealing Physical DMG.",
+        "description": "Throws an iris at the target, dealing Physical DMG.",
         "result": [
-          "- Gains 1 **Quaver** upon a 3-Ping, storing up to 3 **Quavers**.",
+          "- Gains 1 Musical Note upon a 3-Ping. Max 3 Musical Notes.",
           "- Deals **{0}%/{1}%/{2}%** Physical DMG based on the number of orbs pinged."
         ],
         "res_lv18": [140, 280, 420]
@@ -12827,16 +12826,16 @@
     ],
     "blue_orb": [
       {
-        "name": "Piercing Cadence",
+        "name": "Rhythmic Piercing",
         "button_press": "Solo + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Selena's Blue Orb is permanently located in the rightmost orb position, and can only be cast after entering **Solo**. Selena rushes back and forth through the enemy, dealing Physical DMG. After casting, gains **Signature Energy**, and additional **Variation Points** if in **Transcendence**.",
+        "description": "Selena's Blue Orbs are always fixed to the right end. This can only be cast after Selena enters Solo. Moves quickly among enemies, dealing Physical DMG. Gains Signature Energy after casting. Gains Variation Points as well if in the Flow State.",
         "result": [
-          "- Upon casting, deals **{0}%** Physical DMG and grants **12** Signature Energy.",
-          "- If cast when in **Transcendence**, grants an additional **30 Variation Points**.",
-          "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
-          "- Selena is invincible but unable to cast Signature Move.",
-          "- This skill does not consume the Blue Orb."
+          "- When casting this, deals **{0}%** Physical DMG and grants 12 Signature Energy.",
+          "- Gains 30 Variation Points as well if in the Flow State",
+          "- When there are Ice Spikes, deals **{1}%** Glaciation DMG instead.",
+          "- Becomes Invincible and cannot cast Signature in the process.",
+          "- No Blue Orbs will be consumed after casting."
         ],
         "res_lv18": [640, 1300]
       }
@@ -12845,50 +12844,50 @@
       "name": "Classical Romanticism",
       "skills": [
         {
-          "name": "Soloist's Stage",
+          "name": "Solo Realm",
           "button_press": "",
           "description": [
-            "Selena attacks as a **Swordbearer** by default, and attacks as an **Instrumentalist** in **Transcendence**. Selena is unable to enter Matrix by Dodging, and can only trigger it through **Basic Attack - Bladed Resonance/Basic Attack - Transposed Divisi**. When Selena triggers Matrix by herself, she enters **Solo**."
+            "Selena normally attacks with her rapier. In the Flow State, she will attack with the cello instead. She cannot enter the Matrix by dodging. It can only be triggered by Basic Attack - Echoing Melody/Basic Attack - Inverted Divisi. Enters Solo upon entering the Matrix triggered by herself."
           ]
         },
         {
           "name": "Concerto Orb",
-          "button_press": "Transcendence + Tap Concerto Orb",
+          "button_press": "Flow State + Tap Concerto Orb",
           "description": [
-            "In **Transcendence**, 6 Signal Orbs will be converted into **Concerto Orbs**. Only **Concerto Orbs** can be obtained and pinged during **Transcendence**. After casting, deals Physical DMG and grants **Quavers**, **Variation Points**, **Temperament**, and **Signature Energy**. When **Transcendence** ends, the other Signal Orbs will be returned."
+            "In the Flow State, 6 Signal Orbs will be converted to Concerto Orbs. During the Flow State, Selena can only obtain and use Concerto Orbs. After casting this skill, deals Physical DMG and gains Musical Note(s), Variation Point(s), Melody Point(s), and Signature Energy. Regains other Signal Orbs at the end of the Flow State."
           ],
           "result": [
             "- Deals **{0}%** Physical DMG.",
-            "- For every 3 **Concerto Orbs** pinged, gains 1 **Quaver**.",
-            "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
-            "- After casting, gains **5 Variation Points**, **10 Temperament**, and **5** Signature Energy."
+            "- Gains 1 Musical Note for each 3 Concerto Orbs consumed.",
+            "- When there are Ice Spikes, deals **{1}%** Glaciation DMG instead.",
+            "- Gains 5 Variation Points, 10 Melody Points, and 5 Signature Energy after casting."
           ],
           "res_lv18": [600, 1600]
         },
         {
-          "name": "Fullbloom Tuning",
-          "button_press": "Transcendence + 60 Temperament + Hold Dodge",
+          "name": "Melodic Outburst",
+          "button_press": "Flow State + 60 Melody Points + Press and Hold Dodge",
           "description": [
-            "When Selena is **Transcendence**, ping **Concerto Orbs** to gain **Temperament**, accumulating up to **60 points**. Casting this skill consumes **60 Temperament** to summon phantoms to attack, dealing Physical DMG and granting **Variation Points** and **Signature Energy**."
+            "In the Flow State, Selena can accumulate Melody Points by casting Concerto Orbs, up to 60. Meanwhile, spends 60 Melody Points and summons a clone to attack, dealing Physical DMG and gaining Variation Points and Signature Energy."
           ],
           "result": [
             "- Deals **{0}%** Physical DMG.",
-            "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead.",
-            "- Selena is invincible but unable to cast Signature Move. After casting, gains 30 **Variation Points** and 60 Signature Energy."
+            "- When there are Ice Spikes, deals **{1}%** Glaciation DMG instead.",
+            "- Becomes Invincible and cannot cast Signature in the process. Gains 30 Variation Points and 60 Signature Energy after casting."
           ],
           "res_lv18": [4000, 10000]
         },
         {
-          "name": "Finale's Prelude",
-          "button_press": "Transcendence + 100 Variation Points",
+          "name": "Grand Finale",
+          "button_press": "Flow State + 100 Variation Points",
           "description": [
-            "While Selena is in **Transcendence**, certain skills grant **Variation Points**, accumulating up to **100 points**. When **Variation Points** reach maximum, Selena enters **Finale's Prelude** and immediately gains **90** Signature Energy."
+            "In the Flow State, Selena can accumulate Variation Points by casting specific skills, up to 100. At Max Variation Points, Selena will enter Grand Finale and immediately gain 90 Signature Energy."
           ],
           "result": [
-            "- Entering **Finale's Prelude** immediately clears all **Temperament**.",
-            "- **Finale's Prelude** lasts for 7s. Selena switches to attacking as a **Swordbearer** and automatically casts **Signature - Howling Tempest** when it ends.",
-            "- Signal Orbs are infinite during **Finale's Prelude**.",
-            "- After **Finale's Prelude** ends, all **Quavers** are cleared."
+            "- Removes all Melody Points upon entering Grand Finale.",
+            "- Grand Finale lasts 7s. After entering the Grand Finale, Selena will attack with the rapier instead and will automatically cast Signature - Majestic Interlude at the end.",
+            "- During Grand Finale, Signal Orbs are infinite.",
+            "- Clears all Musical Notes at the end of Grand Finale."
           ]
         },
         {
@@ -12898,7 +12897,7 @@
             "Some of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies. While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation."
           ],
           "result": [
-            "- At 100 Glaciation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.",
+            "- At 100 Glaciation Value, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.",
             "- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.",
             "- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.",
             "- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation."
@@ -12907,58 +12906,58 @@
       ]
     },
     "signature": {
-      "name": "Fugue e Sonata",
+      "name": "Fugal Sonata",
       "skills": [
         {
-          "name": "Rainfall Overture",
-          "button_press": "60 Energy + Tap/Hold Signature",
+          "name": "Rainy Prelude",
+          "button_press": "60 Signature Energy + Tap/Press and Hold Signature",
           "description": [
-            "Selena prepares to perform and enters **Transcendence**, dealing Physical DMG. **Time Lag Calculation** is triggered during this skill. Immediately refreshes Matrix cooldown after casting. During **Transcendence**, gains Super Armor and accumulates **Variation Points** over time."
+            "Selena prepares to perform, enters the Flow State, and deals Physical DMG. Triggers Time Lag Calculation in the process. Immediately resets Matrix's cooldown after casting. In the Flow State, gains Super Armor and Variation Points over time."
           ],
           "result": [
             "- Deals **{0}%** Physical DMG",
-            "- If there are 10 Arctic Ice Layers, holding this skill will form Ice Spikes.",
-            "- Gains 3 **Variation Points** per second."
+            "- If cast by pressing and holding Basic Attack with 10 Arctic Ice Layers, it will generate Ice Spikes.",
+            "- Gains 3 Variation Points per second."
           ],
           "res_lv18": [480]
         },
         {
-          "name": "Howling Tempest",
-          "button_press": "Transcendence + 90 Energy + Tap Signature",
+          "name": "Majestic Interlude",
+          "button_press": "Flow State + 90 Signature Energy + Tap Signature",
           "description": [
-            "Selena conducts a magnificent performance, dealing Physical DMG and exiting **Transcendence**. **Time Lag Calculation** is triggered during this skill."
+            "Selena gives a magnificent performance, dealing Physical DMG and exiting the Flow State. Triggers Time Lag Calculation in the process."
           ],
           "result": [
             "- Deals **{0}%** Physical DMG",
-            "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead. After casting, the Ice Spikes expire and trigger Ice Burst.",
-            "- After casting, **Temperament** and **Variation Points** are cleared, and 1 stack of **Dissonance** is removed."
+            "- When there are Ice Spikes, deals **{1}%** Glaciation DMG instead. Ends Ice Spikes and triggers Ice Burst after casting.",
+            "- Clears all Melody Points and Variation Points and removes 1 stack of Noise after casting."
           ],
           "res_lv18": [1000, 3000]
         },
         {
-          "name": "Forlorn Flower's Final Rest",
-          "button_press": "Finale's Prelude + 90 Energy + Tap Signature",
+          "name": "Note of Termination",
+          "button_press": "Grand Finale + 90 Singature Energy + Tap Signature",
           "description": [
-            "Selena performs a curtain call finale, dealing Physical DMG and exiting **Finale's Prelude**. **Time Lag Calculation** is triggered during this skill. After casting, gains 2 stacks of **Dissonance**. While Selena still has **Dissonance**, she cannot cast **Signature - Forlorn Flower's Final Rest** and will cast **Signature - Howling Tempest** instead. Every entry to the battlefield or casting **Signature - Howling Tempest** removes a stack of **Dissonance**."
+            "Selena performs her finale, dealing Physical DMG and exiting Grand Finale. Triggers Time Lag Calculation in the process. Gains 2 stacks of Noise after casting. When there is Noise, Selena will not be able to cast Signature -Note of Termination and will cast Signature - Majestic Interlude instead. Removes 1 stack of Noise every time when entering the battlefield or casting Signature - Majestic Interlude."
           ],
           "result": [
             "- Deals **{0}%** Physical DMG",
-            "- While Ice Spikes persist, deals **{1}%** Glaciation DMG instead. After casting, the Ice Spikes expire and trigger Ice Burst.",
-            "- After casting, all **Temperament** and **Variation Points** are cleared. Gain 3 Signal Orbs."
+            "- When there are Ice Spikes, deals **{1}%** Glaciation DMG instead. Ends Ice Spikes triggers Ice Burst after casting.",
+            "- Clears all Melody Points and Variation Points and gains 3 Signal Orbs after casting."
           ],
           "res_lv18": [3500, 7500]
         }
       ]
     },
     "qte": {
-      "name": "Symphonic Splendor",
-      "description": "Selena attacks the target with a twirling dance, dealing Physical DMG.",
+      "name": "Resplendent Symphony",
+      "description": "Selena spins and dances to attack the target, dealing Physical DMG.",
       "result": ["- Deals **{0}%** Physical DMG."],
       "res_lv18": [600]
     },
     "leader": {
-      "name": "Rimeflower Director",
-      "description": "Increases Physical DMG and Glaciation DMG of all members by **10%**. Increases DMG of all Attacker Omniframes by **5%**."
+      "name": "Freezing Director",
+      "description": "Increases Physical DMG and Glaciation DMG of all members by **10%**. Increases ATK of all Attackers in the team by 10%."
     },
     "class": {
       "name": "Attacker",
@@ -12966,45 +12965,45 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Prismatic Euphony",
+      "name": "Rainbow-Hued Melody",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Casting **Basic Attack - Bladed Resonance**, **Fullbloom Tuning**, **Signature - Howling Tempest/Signature - Forlorn Flower's Final Rest** will activate all available QTEs. Upon entering the battlefield, triggers all available QTEs."
+          "desc": "Casting Basic Attack - Echoing Melody, Melodic Outburst, or Signature - Majestic Interlude/Signature - Note of Termination will activate all available QTEs. Triggers all available QTEs upon being switched in."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Upon casting **Signature - Rainfall Overture**, immediately gains **60 Temperament**. After casting **Fullbloom Tuning**, every **Concerto Orb** pinged deals double damage until exiting **Transcendence**. Base DMG of **Signature - Howling Tempest/Signature - Forlorn Flower's Final Rest** increases by **30%**. After casting **Signature - Howling Tempest/Signature - Forlorn Flower's Final Rest** and exiting the battlefield, Selena enters **Lingering Echo** state, unleashing an attack that deals 2000% Physical DMG every 2s, then exits **Lingering Echo** state after 4 attacks."
+          "desc": "Immediately gains 60 Melody Points when casting Signature - Rainy Prelude. After casting Melodic Outburst, every time when casting Concerto Orb(s), deals double DMG until the end of the Flow State. Base DMG of Signature - Majestic Interlude/Signature - Note of Termination increases by 30%. After casting Signature Majestic Interlude/Signature - Note of Termination and exiting the battlefield, enters Lingering Echoes, launching an attack every 2s to deal 2000% Physical DMG. Exits Lingering Echoes after 4 attacks."
         }
       ]
     },
     "sss_rank": {
-      "name": "Stardust Echoes",
+      "name": "Interstellar Resonance",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "When **Temperament is at 60**, **Concerto Orbs** grant twice the amount of **Variation Points**. Every 1 **Quaver** consumed increases the Base DMG of the next **Fullbloom Tuning** by **20%**, up to **100%**. After casting **Signature - Howling Tempest/Signature - Forlorn Flower's Final Rest**, Base DMG of QTE increases by 500% for the rest of the battle."
+          "desc": "When there are 60 Melody Points, Concerto Orbs' Variation Points acquisition efficiency doubles. Each Musical Note consumed will increase the Base DMG of the next Melodic Outburst by 20%, up to 100%. Casting Signature Majestic Interlude/Signature - Note of Termination will increase the Base DMG of QTEs by 500% throughout the battle."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Upon entering the battlefield, immediately gains 1 **Quaver**, **12** Signature Energy, and 1 Signal Orb. Increase the maximum amount of **Quavers** to **5**. After an orb skill, the next **Basic Attack - Bladed Resonance** will consume up to 6 Signal Orbs and convert them into **Quavers**. When Selena has **4/5 Quavers**, DMG Amplification for **Basic Attack - Bladed Resonance** increases to **300%/600%**. Selena's Extra DMG Bonus increases by 100% during **Lingering Echo** state."
+          "desc": "Gains 1 Musical Note, 12 Signature Energy, and 1 Signal Orb upon entering the battlefield. Musical Notes are capped at 5 instead. When performing a ping to cast Basic Attack - Echoing Melody, converts maximum 6 Signal Orbs to Musical Notes. With 4/5 Musical Notes, increases Base DMG of Basic Attack - Echoing Melody to 300%/600% instead. During Lingering Echoes, Selena deals 100% more Extra DMG."
         }
       ]
     },
     "s+_rank": {
-      "name": "Song of Yesterday",
+      "name": "Timeless Song",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of **Signature - Howling Tempest/Signature - Forlorn Flower's Final Rest** increases by **60%**."
+          "desc": "Extra DMG of Signature - Majestic Interlude/Signature - Note of Termination increases by 60%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of **Basic Attack - Bladed Resonance** and **Fullbloom Tuning** increases by **30%**."
+          "desc": "Extra DMG of Basic Attack - Echoing Melody and Melodic Outburst increases by 30%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of **Piercing Cadence**, **Concerto Orbs**, and Signal Orbs increases by **40%**."
+          "desc": "Extra DMG of Rhythmic Piercing, Concerto Orbs, and Signal Orbs increases by 40%."
         }
       ]
     }
@@ -13012,183 +13011,183 @@
   "daybreak": {
     "basic_attack": [
       {
-        "name": "Algorithmic Analysis - Alternate",
+        "name": "Algorithm Decomposition - Iteration",
         "button_press": "Tap Basic Attack",
         "switch_in": "no",
-        "description": "Unleashes a combination of gun and physical attacks, dealing Dark DMG.",
-        "result": ["- Basic Attacks deal a total of **{0}%** Dark DMG."],
+        "description": "Fires at the target while performing combat maneuvers, dealing Dark DMG.",
+        "result": ["- Basic Attack deals a total of **{0}%** Dark DMG."],
         "res_lv18": [340]
       },
       {
-        "name": "Algorithmic Analysis - Connect",
-        "button_press": "Hold Basic Attack",
+        "name": "Algorithm Decomposition - Continuation",
+        "button_press": "Press and Hold Basic Attack",
         "switch_in": "no",
-        "description": "Raises her gun to enter **Charging Mode** and continuously fires at the target, dealing Dark DMG.",
-        "result": ["- Each shot deals **{0}%** Dark DMG."],
+        "description": "Enters Charge Stance while wielding the gunsword to fire continuously at the target, dealing Dark DMG.",
+        "result": ["- Each burst of shots deals **{0}%** Dark DMG."],
         "res_lv18": [30]
       }
     ],
     "red_orb": [
       {
-        "name": "Duskwing Blade - Dispel",
+        "name": "Vorpal Hellblade - Shadow Slash",
         "button_press": "Tap Red Orb",
         "switch_in": "no",
-        "description": "Hurls her Greatsword at the target, dealing Dark DMG.",
+        "description": "Hurls the gunsword toward the target, dealing Dark DMG.",
         "result": [
           "- Deals **{0}%/{1}%** Dark DMG based on the number of orbs pinged."
         ],
         "res_lv18": [45, 90]
       },
       {
-        "name": "Duskwing Blade - Whirling Slam",
-        "button_press": "At least 1 Munitions Orb + During Dispel + Tap Red Orb",
+        "name": "Vorpal Hellblade - Spin Cleave",
+        "button_press": "At least 1 Cluster Orb + During Shadow Slash + Tap Red Orb",
         "switch_in": "no",
-        "description": "Pivots and swings her Greatsword at the target, dealing Dark DMG.",
+        "description": "Spins around and swings the gunsword at the target, dealing Dark DMG.",
         "result": [
-          "- This action is repeated for every 1 Munitions Orb consumed, dealing **{0}%** Dark DMG."
+          "- For every Cluster Orb pinged, casts this skill again to deal **{0}%** Dark DMG."
         ],
         "res_lv18": [50]
       },
       {
-        "name": "Duskwing Blade - Discharge",
-        "button_press": "Hold Red Orb to enter Charging Mode + Absurdum Points are full",
+        "name": "Vorpal Hellblade - Kinetic Load",
+        "button_press": "Press and hold Red Orb to charge + Absurdum Points fully charged",
         "switch_in": "no",
-        "description": "Enters **Charging Mode**. After releasing, unleashes a sword technique that deals Dark DMG.",
+        "description": "Enters Charge Stance, then unleashes a sword strike upon release, dealing Dark DMG.",
         "result": [
-          "- Deals **{0}%/{1}%/{2}%/{3}%** Dark DMG and restores 2/3/4/5 Signature Energy when 0/1/2/3 orbs are pinged."
+          "- Deals **{0}%/{1}%/{2}%/{3}%** Dark DMG and recovers 2/3/4/5 Signature Energy after pinging 0/1/2/3 orbs."
         ],
         "res_lv18": [250, 500, 750, 1000]
       },
       {
-        "name": "Duskwing Blade - Ignite",
-        "button_press": "Hold Red Orb to enter Charging Mode + Absurdum Points are not full",
+        "name": "Vorpal Hellblade - Kindled Blaze",
+        "button_press": "Press and hold Red Orb to charge + Absurdum Points partially charged",
         "switch_in": "no",
-        "description": "Enters **Charging Mode**. After releasing, unleashes a sword technique that deals Ignition DMG and applies Combustible Charges.",
+        "description": "Enters Charge Stance, then unleashes a sword strike upon release, dealing Ignition DMG and applying Combustible Charges.",
         "result": [
-          "- Deals **{0}%/{1}%/{2}%/{3}%** Ignition DMG, applies **1250** Combustible Charges, and restores **2/3/4/5** Signature Energy when **0/1/2/3** orbs are pinged. While **Absurdum Points** are not full, gains **Super Armor**."
+          "- Ignition DMG, applies 1250 Combustible Charges, and restores 2/3/4/5 Signature Energy after pinging 0/1/2/3 orbs. When Absurdum Points are not fully charged, Jetavie continuously gains Super Armor."
         ],
         "res_lv18": [250, 500, 750, 1000]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Revolving Barrage - Fusillade",
+        "name": "Orbital Barrage - Flare Shot",
         "button_press": "Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Leaps backwards and fires ahead, dealing Dark DMG.",
+        "description": "Leaps backward to spray a barrage of bullets, dealing Dark DMG.",
         "result": [
           "- Deals **{0}%/{1}%** Dark DMG based on the number of orbs pinged."
         ],
         "res_lv18": [120, 240]
       },
       {
-        "name": "Revolving Barrage - Ambusher",
-        "button_press": "Hold Yellow Orb to enter Charging Mode",
+        "name": "Orbital Barrage - Sniper's Perch",
+        "button_press": "Press and hold Yellow Orb to charge",
         "switch_in": "no",
-        "description": "Leaps backwards and enters **Charging Mode**. After releasing, fires ahead to deal Dark DMG.",
+        "description": "Leaps backward to enter Charge Stance, then fires a shot upon release, dealing Dark DMG.",
         "result": [
-          "- Deals a total of **{0}%/{1}%/{2}%/{3}%** Dark DMG and restores 2/3/4/5 Signature Energy when 0/1/2/3 orbs are pinged."
+          "- Deals a total of **{0}%/{1}%/{2}%/{3}%** Dark DMG and recovers 2/3/4/5 Signature Energy after pinging 0/1/2/3 orbs."
         ],
         "res_lv18": [220, 440, 540, 640]
       }
     ],
     "blue_orb": [
       {
-        "name": "Lead Perforation - Tricky Gleam",
+        "name": "Ferrous Scarring - Shaded Radiance",
         "button_press": "Tap Blue Orb",
         "switch_in": "no",
-        "description": "Throws her gun at the target, dealing Dark DMG.",
+        "description": "Flicks the gunsword upward, firing at the target and dealing Dark DMG.",
         "result": [
           "- Deals **{0}%/{1}%** Dark DMG based on the number of orbs pinged."
         ],
         "res_lv18": [45, 90]
       },
       {
-        "name": "Lead Perforation - Structural Attrition",
-        "button_press": "Hold Blue Orb to enter Charging Mode",
+        "name": "Ferrous Scarring - Sundered Pith",
+        "button_press": "Press and hold Blue Orb to charge",
         "switch_in": "no",
-        "description": "Raises her gun to enter **Charging Mode** and unleashes continuous fire. After releasing, retreats and deals Dark DMG.",
+        "description": "Enters Charge Stance while wielding the gunsword to fire continuously, then steps back upon release to deal Dark DMG.",
         "result": [
-          "- Each shot deals {0}% Dark DMG",
-          "- The retreat deals {1}%/{2}%/{3}%/{4}% Dark DMG and restores 2/3/4/5 Signature Energy when 0/1/2/3 orbs are pinged."
+          "- Each burst of shots deals {0}% Dark DMG",
+          "- Stepping back deals **{1}%/{2}%/{3}%/{4}%** Dark DMG and recovers 2/3/4/5 Signature Energy after pinging 0/1/2/3 orbs."
         ],
         "res_lv18": [30, 100, 200, 300, 400]
       }
     ],
     "core_passive": {
-      "name": "Devilish Beauty's Assault",
+      "name": "Magic Maiden's Strike",
       "skills": [
         {
           "name": "Cluster Analysis",
           "button_press": "",
           "description": [
-            "All color Signal Orbs obtained by Jetavie are converted into **Munitions Orbs**. When Jetavie is not in **Panoramic Breakdown** Mode, only Yellow and Blue Orb skills can be used. After entering **Panoramic Breakdown**, Red Orb skills become available. Any Signal Orb can be used to enter **Charging Mode** and continuously recover Signature Energy, up to **40**. Charged skills can be enhanced by consuming **Munitions Orbs**, up to **3**. When Jetavie triggers an Extreme Dodge via Dodging, she does not enter Matrix and instead gains **30** Electrical Load Points. When Dodge Gauge is 0, Jetavie can Dodge at the cost of **10** Electrical Load Points."
+            "Signal Orbs gained are converted into Cluster Orbs. When not in the Panoptic Segmentation Mode, Jetavie can only cast Yellow or Blue Orb Skills. After she enters Panoptic Segmentation, Red Orb Skills will be available. When entering Charge Stance by pinging Signal Orbs, continuously restores Signature Energy, up to 40. Pinging Cluster Orbs enhances the corresponding Charged Skill, up to 3 times. When Extreme Dodge is triggered by pressing Dodge, gains 30 Load Points instead of entering Matrix. When Dodge Gauge is empty, she can consume 10 Load Points to perform a Dodge."
           ]
         },
         {
-          "name": "Reflective Chain",
-          "button_press": "During Discharge enhanced by Munitions Orb + Hold/Tap Basic Attack",
+          "name": "Reflection Chain",
+          "button_press": "During Kinetic Load enhanced by Cluster Orbs + Press and hold/Tap Basic Attack",
           "description": [
-            "Rush at the target for a slash, dealing Dark DMG and restoring **80** Signature Energy."
+            "Dashes toward the target and delivers a slashing attack, dealing Dark DMG while restoring 80 Signature Energy."
           ],
-          "result": ["- Deals a total of {0}% Dark DMG."],
+          "result": ["- Deals {0}% Dark DMG in total."],
           "res_lv18": [1800]
         },
         {
-          "name": "Inflow Incendiary",
-          "button_press": "During Ignite enhanced by Munitions Orb + Hold/Tap Basic Attack",
+          "name": "Flaming Gush",
+          "button_press": "During Kindled Blaze enhanced by Cluster Orbs + Press and hold/Tap Basic Attack",
           "description": [
-            "Plunge down for a slash, converting Combustible into Ignition of equal stacks, dealing Ignition DMG and restoring **80** Signature Energy."
+            "Leaps down from above to slash the target, converting Combustible into Ignition of equal stacks, dealing Ignition DMG and restoring 80 Signature Energy."
           ],
           "result": [
-            "- Deals a total of {0}% Ignition DMG. Gains an **Incendiary Emblem** for **10**s, refreshing when obtained repeatedly."
+            "- Deals {0}% Ignition DMG in total. Jetavie gains Coreflame Mark for 10s. Duration resets every time it is triggered."
           ],
           "res_lv18": [2500]
         },
         {
-          "name": "Uncrossable Boundary",
-          "button_press": "Charging Mode + Release the Corresponding Button + Successful Dodge",
+          "name": "Forbidden Borders",
+          "button_press": "Charge Stance + Release + Successful Dodge",
           "description": [
-            "The action of releasing Charging Mode can dodge incoming attacks. If the Dodge is successful, the charged skill gains **30**% Extra DMG Bonus. Successful Dodges through **Discharge** and **Ignite** restore **2** Munitions Orbs."
+            "While in Charge Stance, Jetavie can dodge attacks upon release. A successful dodge increases Extra DMG Bonus of the Charged Skill by 30%. During Kinetic Load or Kindled Blaze, a successful dodge additionally returns 2 Cluster Orbs."
           ]
         },
         {
           "name": "Sector Reconfiguration",
           "button_press": "",
           "description": [
-            "During Charging Mode, every incoming attack will be blocked by Jetavie at the cost of **250** Dodge Gauge. When Dodge Gauge is insufficient, **10 Electrical Load Points** will be consumed instead."
+            "While in Charge Stance, consumes 250 Dodge Gauge to block each incoming attack. If Dodge Gauge is insufficient, consumes 10 Load Points per block instead."
           ]
         },
         {
           "name": "Relentless Overflow",
-          "button_press": "During a Greatsword attack + Continuously Tap Basic Attack",
+          "button_press": "During sword attacks + Tap Basic Attack repetitively",
           "description": [
-            "Continuously swings the Greatsword at the target, dealing Dark DMG."
+            "Wields the greatsword to continuously attack the target, dealing Dark DMG."
           ],
-          "result": ["- Deals a total of {0}% Dark DMG."],
+          "result": ["- Basic Attack deals a total of {0}% Dark DMG."],
           "res_lv18": [440]
         },
         {
-          "name": "Diffusion Function",
-          "button_press": "During a Greatsword attack + Dodge + Tap/Hold Basic Attack",
+          "name": "Diffusive Function",
+          "button_press": "During sword attacks + Dodge + Tap/Press and hold Basic Attack",
           "description": [
-            "Changes tactics during a sword attack skill to rapidly cast **Crystallized Effect** on the target instead, dealing Ignition DMG."
+            "During sword attacks, quickly transitions into casting Crystalline Impact on the target, dealing Ignition DMG and applying Combustible Charges."
           ],
           "result": [
-            "- Tap Dodge deals a total of **{0}%** Ignition DMG, and applies a total of **1250** Combustible Charges.",
-            "- Hold Dodge followed by release deals a total of **{1}%** Ignition DMG, and applies a total of **2500** Combustible Charges."
+            "- By tapping Dodge, deals **{0}%** Ignition DMG and applies 1250 Combustible Charges in total.",
+            "- After pressing and holding Dodge, releases to deal **{1}%** Ignition DMG and applies 2500 Combustible Charges in total."
           ],
           "res_lv18": [300, 600]
         },
         {
-          "name": "Transmuted Code",
-          "button_press": "During a Greatsword attack + Hold Basic Attack to start Charging",
+          "name": "Metamorphic Encoding",
+          "button_press": "During sword attacks + Press and hold Basic Attack to charge",
           "description": [
-            "Changes tactics during a sword attack skill to rapidly cast **Discharge/Ignite** instead, dealing DMG. **Discharge/Ignite** through this method cannot be followed-up."
+            "During sword attacks, quickly transitions into casting Kinetic Load/Kindled Blaze on the target, dealing damage. Kinetic Load/Kindled Blaze cast this way cannot be followed up with other attacks."
           ],
           "result": [
-            "- Casting **Ignite** at incomplete charge deals a total of **{0}%** Ignition DMG.",
-            "- Casting **Discharge** at complete charge deals a total of **{1}%** Dark DMG."
+            "- Charges partially to cast Kindled Blaze, dealing **{0}%** Ignition DMG in total.",
+            "- Charges fully to cast Kinetic Load, dealing **{1}%** Dark DMG in total."
           ],
           "res_lv18": [250, 250]
         },
@@ -13199,47 +13198,47 @@
             "Combustible: Every 250 Combustible Charges will add 1 Combustible stack, up to 20 stacks.\nIgnition: Ignited units take Ignition DMG equal to Ignition stacks x30% (Tank Skills will not be triggered) every second for 10s."
           ],
           "result": [
-            "- The subsequent unit will inherit the Combustible/Ignition status of the last unit on the battlefield upon its death."
+            "- Upon the death of the last unit on the battlefield, subsequent units will inherit its Combustible/Ignition status."
           ]
         }
       ]
     },
     "signature": {
-      "name": "Terminal Deduction",
+      "name": "Absolute Deduction",
       "skills": [
         {
-          "name": "Invariable Origin",
+          "name": "Constant Current",
           "button_press": "100 Signature Energy + Tap Signature",
           "description": [
-            "Jetavie enters **Panoramic Breakdown** Mode, dealing massive Dark DMG to surrounding enemies."
+            "Jetavie enters the Panoptic Segmentation Mode, dealing Dark DMG to nearby targets in a large area and summoning a great sword to assist in the attack."
           ],
           "result": [
-            "- **Invariable Origin** deals a total of **{0}%** Dark DMG."
+            "- Constant Current deals **{0}%** Dark DMG in total."
           ],
           "res_lv18": [1300]
         },
         {
-          "name": "Apocalyptic Rebellion",
-          "button_press": "Panoramic Breakdown + 100 Signature Energy + Tap Signature",
+          "name": "Tectonic Revolt",
+          "button_press": "In Panoptic Segmentation + 100 Signature Energy + Tap Signature",
           "description": [
-            "Jetavie leaps into the air and sunders the ground with great momentum to deal DMG, then exits **Panoramic Breakdown**."
+            "Jetavie leaps into the air and plunges down to strike the target on the ground, dealing damage before exiting the Panoptic Segmentation Mode."
           ],
           "result": [
-            "- Deals a total of **{0}%** Dark DMG.",
-            "- If Jetavie has an **Incendiary Emblem**, casts **Apocalyptic Rebellion: Ignition** instead, dealing **{1}%** Ignition DMG, then removes the target's Ignition status and deals Ignition DMG equal to **100% x Ignition stacks**."
+            "- Deals **{0}%** Dark DMG in total.",
+            "- If Jetavie has Coreflame Mark, casts Tectonic Revolt: Burn instead, dealing **{1}%** Ignition DMG, removing the target's Ignition status, and inflicting additional Ignition DMG equal to Ignition stacks x100%."
           ],
           "res_lv18": [3000, 2000]
         }
       ]
     },
     "qte": {
-      "name": "Dark Concealment",
-      "description": "Throws her gun at the target, dealing Dark DMG.",
-      "result": ["- Deals a total of **{0}%** Dark DMG."],
+      "name": "Phantom Grid",
+      "description": "Flicks the gunsword upward, firing at the target and dealing Dark DMG.",
+      "result": ["- Deals **{0}%** Dark DMG in total."],
       "res_lv18": [660]
     },
     "leader": {
-      "name": "Remote Monitoring",
+      "name": "Gray Zone Telemetry",
       "description": "Increases Dark DMG of all members by 10%."
     },
     "class": {
@@ -13248,45 +13247,45 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Autonomous Program",
+      "name": "Autonomous Code",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Casting **Invariable Origin** triggers all available QTEs."
+          "desc": "Activates all available QTEs when casting Constant Current."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Gain **70** Signature Energy upon entering the battlefield. During **Panoramic Breakdown**, Extra DMG Bonus increases by 30%. When there are no **Munitions Orbs**, charged skills can be enhanced at the cost of **10 Electrical Load Points** instead."
+          "desc": "Gains 70 Signature Energy each time upon entering battle. Extra DMG Bonus increases by 30% during the Panoptic Segmentation Mode. After entering Charge Stance and having pinged all Cluster Orbs, enhances Charged Skills 1 time for every 10 Load Points spent."
         }
       ]
     },
     "sss_rank": {
-      "name": "Overfitted Model",
+      "name": "Comprehensive Fitting*",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "DMG of Signal Orb charged skills increases by **100%**, and triggering Extreme Dodge via release restores **30 Electrical Load Points**."
+          "desc": "Charged Skill Base DMG of Signal Orbs increases by 100%. Upon a successful Extreme Dodge, gains 30 Load Points."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "For every 1 **Munitions Orb** or **10 Electrical Load Points** consumed, Base DMG of **Reflective Chain** and **Inflow Incendiary** increases by **25%**, up to **75%**."
+          "desc": "Every Cluster Orb pinged or 10 Load Points spent increases the Base DMG of Reflection Chain and Flaming Gush by 25%, up to 75%."
         }
       ]
     },
     "s+_rank": {
-      "name": "Central Recursion",
+      "name": "Nexus Recursion",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of **Invariable Origin** increases by **100%**."
+          "desc": "Extra DMG Bonus of Constant Current increases by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of **Discharge** and **Ignite** increases by **70%**."
+          "desc": "Extra DMG Bonus of Kinetic Load and Kindled Blaze increases by 70%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of **Apocalyptic Rebellion** increases by **40%**."
+          "desc": "Extra DMG Bonus of Tectonic Revolt increases by 40%."
         }
       ]
     }
@@ -13294,297 +13293,297 @@
   "geiravor": {
     "basic_attack": [
       {
-        "name": "Razing Torrent - Swift Break",
-        "button_press": "Rallying Spirit + Tap Basic Attack",
+        "name": "Wildfire Unbound - Flash Break",
+        "button_press": "During Untamed Impulse + Tap Basic Attack",
         "switch_in": "no",
-        "description": "When Vera: Geiravor is in **Rallying Spirit**, Basic Attacks deal **{0}**% Fire DMG.",
+        "description": "During Untamed Impulse, Basic Attacks deal **{0}**% Fire DMG.",
         "desc_lv18": [900]
       },
       {
-        "name": "Razing Torrent - Reversed Blades",
-        "button_press": " Deathmatch + Tap Basic Attack",
+        "name": "Wildfire Unbound - Inverse Edge",
+        "button_press": "During Last Blaze + Tap Basic Attack",
         "switch_in": "no",
-        "description": "When Vera: Geiravor is in **Deathmatch**, Basic Attacks deal **{0}%** Fire DMG.",
+        "description": "During Last Blaze, Basic Attacks deal **{0}%** Fire DMG.",
         "desc_lv18": [1200],
         "result": [
-          "- Each hit of Basic Attack converts **2%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
-          "- If Vera: Geiravor has **Stygian Punishment**, deals **{0}%** Darkflow DMG instead."
+          "- Each Basic Attack converts 2% of the current Final Embers into Vera: Geiravor's HP.",
+          "- If Penal Immersion is active, Vera: Geiravor instead deals **{0}%** Darkflow DMG."
         ],
         "res_lv18": [1200]
       },
       {
-        "name": "Razing Torrent - Valorous Dance",
-        "button_press": "Deathmatch + Tap Dodge to Block + Repeatedly Tap Basic Attack",
+        "name": "Wildfire Unbound - Ashen Dance",
+        "button_press": "During Last Blaze + Tap Dodge to Block + Tap Basic Attack repetitively",
         "switch_in": "no",
-        "description": "When an enemy attack is about to land or Dodge is tapped when stationary to trigger a successful block, tap Basic Attack to unleash a counterattack that deals **{0}%** Fire DMG. Can counterattack up to **3 times**. When attacked (excluding knockback), tap Basic Attack to immediately counterattack.",
+        "description": "By tapping Basic Attack right before an enemy attack hits or after successfully blocking through a Dodge in place, Vera: Geiravor can perform a counterattack, dealing **{0}%** Fire DMG. This can be cast up to 3 times. Tap Basic Attack when hit (excluding knockbacks) to instantly counterattack.",
         "desc_lv18": [600],
         "result": [
-          "- Each hit of **Valorous Dance** converts **5%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
-          "- If Vera: Geiravor has **Stygian Punishment**, deals **{0}%** Darkflow DMG instead."
+          "- Every time Vera: Geiravor casts Ashen Dance, coverts 5% of the current Final Embers into her HP.",
+          "- If Penal Immersion is active, Vera: Geiravor instead deals **{0}%** Darkflow DMG."
         ],
         "res_lv18": [600]
       }
     ],
     "red_orb": [
       {
-        "name": "Skyward Flamelash - Beacon",
-        "button_press": "Not in Beacon Combo + Tap Red Orb",
+        "name": "Ignited Slash - Rising Flames",
+        "button_press": "Not in Rising Flames Combo + Tap Red Orb",
         "switch_in": "no",
-        "description": "Vera: Geiravor brandishes her spear, dealing Fire DMG and entering **Beacon Combo**.",
+        "description": "Vera: Geiravor wields her lance to attack, dealing Fire DMG and entering the Rising Flames Combo.",
         "result": [
           "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged.",
-          "- Restores **2%/5%/10%** of Max HP based on the number of orbs pinged.",
-          "- Each set of Red Orbs extends the duration of **Unrivaled Flame** by **1s**. The maximum duration of **Unrivaled Flame** is **10s**.",
-          "- Each Red Orb grants **10 Rekindled Spark**, up to **60**.",
-          "- When Vera: Geiravor has **Stygian Punishment**, deals **{3}%/{4}%/{5}%** Darkflow DMG instead and grants **200** Darkflow Reserve for every **1** Red Orb pinged."
+          "- Restores **2%/5%/10%** of max HP based on the number of orbs pinged.",
+          "- Each set of Red Orbs pinged extends Absolute Pyre by 1s, capping at a maximum duration of 10s.",
+          "- Each Red Orb pinged grants 10 Rekindled Doom, up to 60.",
+          "- If Penal Immersion is active, Vera: Geiravor instead deals **{3}%/{4}%/{5}%** Darkflow DMG and gains 200 Darkflow Reserve for every 1 Red Orb pinged."
         ],
         "res_lv18": [200, 400, 600, 100, 200, 300]
       },
       {
-        "name": "Skyward Flamelash - Inferno",
-        "button_press": "In Beacon Combo + Tap Red Orb",
+        "name": "Ignited Slash - Searing Current",
+        "button_press": "During Rising Flames Combo + Tap Red Orb",
         "switch_in": "no",
-        "description": "Vera: Geiravor rushes the enemy with her spear, dealing Fire DMG and exiting **Beacon Combo**.",
+        "description": "Vera: Geiravor continues to attack the enemy with her lance, dealing Fire DMG and exiting the Rising Flames Combo.",
         "result": [
           "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged.",
-          "- Restores **2%/5%/10%** of Max HP based on the number of orbs pinged.",
-          "- Each set of Red Orbs extends the duration of **Unrivaled Flame** by **1s**. The maximum duration of **Unrivaled Flame** is **10s**.",
-          "- Each Red Orb grants **10 Rekindled Spark**, up to **60**.",
-          "- When Vera: Geiravor has **Stygian Punishment**, deals **{3}%/{4}%/{5}%** Darkflow DMG instead and grants **200** Darkflow Reserve for every **1** Red Orb pinged."
+          "- Restores **2%/5%/10%** of max HP based on the number of orbs pinged.",
+          "- Each set of Red Orbs pinged extends Absolute Pyre by 1s, capping at a maximum duration of 10s.",
+          "- Each Red Orb pinged grants 10 Rekindled Doom, up to 60.",
+          "- If Penal Immersion is active, Vera: Geiravor instead deals **{3}%/{4}%/{5}%** Darkflow DMG and gains 200 Darkflow Reserve for every 1 Red Orb pinged."
         ],
         "res_lv18": [400, 800, 1200, 200, 400, 600]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Fireborn Pact",
-        "button_press": "Flame-Forged Night automatically consumes all Yellow Orbs",
+        "name": "Fiery Covenant",
+        "button_press": "Tempered in Midnight automatically clears all Yellows Orbs",
         "switch_in": "no",
-        "description": "When Vera: Geiravor is in **Rallying Spirit**, every 3 Blue Orbs pinged will generate 2 Yellow Orbs.",
+        "description": "During Untamed Impulse, every 3 Blue Orbs pinged generates 2 Yellow Orbs.",
         "result": [
-          "- **Flame-Forged Night** consumes all Yellow Orbs.",
-          "- Max **6** Yellow Orbs."
+          "- Tempered in Midnight automatically clears all Yellow Orbs.",
+          "- A maximum of 6 Yellow Orbs can be held."
         ]
       }
     ],
     "blue_orb": [
       {
-        "name": "Prevailing Spark",
+        "name": "Scorching Sweep",
         "button_press": "Tap Blue Orb",
         "switch_in": "no",
-        "description": "Vera: Geiravor sweeps the enemy, dealing **{0}%/{1}%/{2}%** Fire DMG.",
+        "description": "Vera: Geiravor unleashes sweeping attacks, dealing **{0}%/{1}%/{2}%** Fire DMG.",
         "desc_lv18": [300, 600, 900],
         "result": [
-          "- Every **3** Blue Orbs pinged generates **2** Yellow Orbs."
+          "- Every 3 Blue Orbs pinged generates 2 Yellow Orbs."
         ]
       }
     ],
     "core_passive": {
-      "name": "Hellfire Judgement",
+      "name": "Cremating Judgement",
       "skills": [
         {
-          "name": "Split Assault",
+          "name": "Schism Strike",
           "button_press": "",
           "description": [
-            "During **Rallying Spirit**, only Blue Orbs can be used, and Basic Attacks will generate Blue Orbs."
+            "During Untamed Impulse, Vera: Geiravor can cast only Blue Orbs, and her Basic Attacks generate only Blue Orbs."
           ],
           "result": [
-            "- After entering **Deathmatch**, only Red Orbs can be pinged, and Basic Attacks will generate Red Orbs.",
-            "- When entering **Deathmatch**, unused Blue Orbs are stored in **Rallying Spirit**.",
-            "- Exiting **Deathmatch** converts unused Red Orbs into Blue Orbs.",
-            "- When Vera: Geiravor exits the battlefield during **Deathmatch**, clears all current Blue Orbs and Red Orbs. Gains 2 Blue Orbs on re-entry.",
-            "- Each time Vera casts **QTE - Ardent Adversary**, the next time she enters **Unrivaled Flame** state, gains **25%** Base DMG Bonus, up to **50%**."
+            "- After entering Last Blaze, she can cast only Red Orbs, and her Basic Attacks generate only Red Orbs.",
+            "- Upon entering Last Blaze, retains any unused Blue Orbs from Untamed Impulse.",
+            "- Upon exiting Last Blaze, converts all existing Red Orbs into Blue Orbs.",
+            "- When exiting the battlefield during Last Blaze, clears all existing Blue and Red Orbs, then gains 2 Blue Orbs upon re-entry.",
+            "- Each cast of QTE - Infernal Silhouette additionally increases her Base DMG by 25% the next time she enters Absolute Pyre, up to 50%."
           ]
         },
         {
-          "name": "Hunter's Thrill",
-          "button_press": "Rallying Spirit + Press and Hold Basic Attack",
+          "name": "Shadowhunt Tremor",
+          "button_press": "During Untamed Impulse + Press and Hold Basic Attack",
           "description": [
-            "Vera: Geiravor smashes downward with her spear, dealing Fire DMG and gaining Super Armor."
+            "Vera: Geiravor strikes the enemy with her lance, dealing Fire DMG. Gains Super Armor while casting this skill."
           ],
           "result": [
-            "- Releasing **Hunter's Thrill** at half charge deals {0}% Fire DMG, stores **12** Signature Energy, restores **50%** of Vera: Geiravor's Max HP.",
-            "- Releasing **Hunter's Thrill** at full charge deals {1}% Fire DMG, stores **24** Signature Energy, restores **100%** of Vera: Geiravor's Max HP."
+            "- When casting a partially charged Shadowhunt Tremor, deals **{0}%** Fire DMG, gains 12 Signature Energy, and restores **50%** of max HP.",
+            "- When casting a fully charged Shadowhunt Tremor, deals **{1}%** Fire DMG, gains 24 Signature Energy, and restores **100%** of max HP."
           ],
           "res_lv18": [400, 1000]
         },
         {
-          "name": "Smelted Soul",
-          "button_press": "Deathmatch + 20 Rekindled Spark + Press and Hold Basic Attack",
+          "name": "Hellfire Crucible",
+          "button_press": "During Last Blaze + 20 Rekindled Doom + Press and Hold Basic Attack",
           "description": [
-            "Vera: Geiravor fervently swings her spear, dealing **{0}%** Fire DMG, entering **Smelted Soul** Combo, storing **10** Signature Energy and gaining Super Armor. This skill consumes **20 Rekindled Spark**."
+            "Vera: Geiravor wields her lance to attack, dealing **{0}%** Fire DMG and entering the Hellfire Crucible Combo. Gains 10 Signature Energy and Super Armor in the process. Casting this skill consumes 20 Rekindled Doom."
           ],
           "desc_lv18": [1000],
           "result": [
-            "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
-            "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **10%/15%/20%/25%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
-            "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **10%/15%** of Vera: Geiravor's Max HP into real HP.",
-            "- If Vera: Geiravor has **Stygian Punishment**, deals **{0}%** Darkflow DMG instead and grants **200** Darkflow Reserve."
+            "- Based on the number of Yellow Orbs cleared by Tempered in Midnight, converts Final Embers into HP.",
+            "- When 1/2/3/4 Yellow Orbs are cleared by Tempered in Midnight, converts 10%/15%/20%/25% of the current Final Embers into her HP.",
+            "- When 5/6 Yellow Orbs are cleared by Tempered in Midnight, converts Final Embers equal to 10%/15% of her max HP into her HP.",
+            "- If Penal Immersion is active, Vera: Geiravor instead deals **{0}%** Darkflow DMG and gains 200 Darkflow Reserve."
           ],
           "res_lv18": [300]
         },
         {
-          "name": "Bladetwister Stride",
-          "button_press": "Deathmatch + After Smelted Soul Combo + 20 Rekindled Spark + Press and Hold/Repeatedly Tap Basic Attack",
+          "name": "Razor Whirlwind",
+          "button_press": "During Last Blaze + After Hellfire Crucible Combo + 20 Rekindled Doom + Press and Hold Basic Attack",
           "description": [
-            "Vera: Geiravor sets her speartip ablaze, exiting **Smelted Soul** Combo, dealing **{0}%** Fire DMG, entering **Bladetwister Stride** Combo, storing **20** Signature Energy and gaining Super Armor. This skill consumes **20 Rekindled Spark**."
+            "Flames erupt from the tip of Vera: Geiravor's lance as she exits the Hellfire Crucible Combo, dealing **{0}%** Fire DMG and entering the Razor Whirlwind Combo. Gains 20 Signature Energy and Super Armor in the process. Casting this skill consumes 20 Rekindled Doom."
           ],
           "desc_lv18": [1600],
           "result": [
-            "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
-            "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **10%/15%/20%/25%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
-            "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **10%/15%** of Vera: Geiravor's Max HP into real HP.",
-            "- If Vera: Geiravor has **Stygian Punishment**, deals **{0}%** Darkflow DMG instead and grants **400** Darkflow Reserve."
+            "- Based on the number of Yellow Orbs cleared by Tempered in Midnight, converts Final Embers into HP.",
+            "- When 1/2/3/4 Yellow Orbs are cleared by Tempered in Midnight, converts 20%/30%/40%/50% of the current Final Embers into her HP.",
+            "- When 5/6 Yellow Orbs are cleared by Tempered in Midnight, converts Final Embers equal to 15%/20% of her max HP into her HP.",
+            "- If Penal Immersion is active, Vera: Geiravor instead deals **{0}%** arkflow DMG and gains 400 Darkflow Reserve."
           ],
           "res_lv18": [500]
         },
         {
-          "name": "Ruinous Cleave",
-          "button_press": "Deathmatch + After Bladetwister Stride Combo + 20 Rekindled Spark + Press and Hold/Repeatedly Tap Basic Attack",
+          "name": "Rending Ravage",
+          "button_press": "During Last Blaze + After Razor Whirlwind Combo + 20 Rekindled Doom + Press and Hold Basic Attack",
           "description": [
-            "Vera: Geiravor imbues inexhaustible fighting spirit into her spear, dealing **{0}%** Fire DMG, exiting **Bladetwister Stride** Combo, storing **70** Signature Energy and gaining Super Armor. This skill consumes **20 Rekindled Spark**."
+            "Vera: Geiravor swings her lance with relentless battle resolve, dealing **{0}%** Fire DMG and exiting the Razor Whirlwind Combo. Gains 70 Signature Energy and Super Armor in the process. Casting this skill consumes 20 Rekindled Doom."
           ],
           "desc_lv18": [3200],
           "result": [
-            "- Converts **Shadow Embers** into real HP based on the number of Yellow Orbs consumed by **Flame-Forged Night**.",
-            "- If **Flame-Forged Night** consumes **1/2/3/4** Yellow Orbs, converts **30%/50%/70%/90%** of Vera: Geiravor's current **Shadow Embers** into real HP.",
-            "- If **Flame-Forged Night** consumes **5/6** Yellow Orbs, converts **Shadow Embers** equal to **50%/55%** of Vera: Geiravor's Max HP into real HP.",
-            "- If Vera: Geiravor has **Stygian Punishment**, deals **{0}%** Darkflow DMG instead and grants **1000** Darkflow Reserve."
+            "- Based on the number of Yellow Orbs cleared by Tempered in Midnight, converts Final Embers into HP.",
+            "- When 1/2/3/4 Yellow Orbs are cleared by Tempered in Midnight, converts 30%/50%/70%/90% of the current Final Embers into her HP.",
+            "- When 5/6 Yellow Orbs are cleared by Tempered in Midnight, converts Final Embers equal to 50%/55% of her max HP into her HP.",
+            "- If Penal Immersion is active, Vera: Geiravor instead deals **{0}%** Darkflow DMG and gains 1000 Darkflow Reserve."
           ],
           "res_lv18": [700]
         },
         {
-          "name": "Race to Dawn",
+          "name": "Dawnbreaker's Rush",
           "button_press": "",
           "description": [
-            "When Vera: Geiravor takes damage during **Deathmatch**, 20% of her real HP is deducted and converted into **Shadow Embers**."
+            "When Vera: Geiravor takes damage during Last Blaze, converts 20% of HP lost into Final Embers."
           ],
           "result": [
-            "- Maximum **Shadow Embers** is equal to Max HP.",
-            "- Vera: Geiravor gains varying amounts of **DMG Reduction** when she has **Shadow Embers**.",
-            "- When **Shadow Embers** is less than **50%** of Max HP, gains **20%** DMG Reduction.",
-            "- When **Shadow Embers** is at least **50%** of Max HP and less than **75%**, gains **50%** DMG Reduction.",
-            "- When **Shadow Embers** is at least **75%** of Max HP, gains **75%** DMG Reduction.",
-            "- 5s after **Shadow Embers** is obtained, it will gradually expire and convert back to real HP, unless the duration is reset by triggering the effect again.",
-            "- At the end of battle, all **Shadow Embers** is converted to real HP."
+            "- The value of Final Embers gained cannot exceed her max HP.",
+            "- Gains DMG Reduction based on the current Final Embers.",
+            "- When the current value of Final Embers is below 50% of max HP, gains 20% DMG Reduction.",
+            "- When the current value of Final Embers is below 75% but no less than 50% of max HP, gains 50% DMG Reduction.",
+            "- When the current value of Final Embers is no less than 75% of max HP, gains 75% DMG Reduction.",
+            "- After being generated, Final Embers last for 5s before starting to decrease. This countdown resets when Final Embers are converted into HP or new Final Embers are generated.",
+            "- Converts all Final Embers into HP at the end of battle."
           ]
         },
         {
-          "name": "Night-Vanquishing Blaze",
+          "name": "Nocturne Incineration",
           "button_press": "",
           "description": [
-            "Friendly units healed by Vera: Geiravor gain the **Fire Tempered** effect that increases Fire DMG by **20%** for 8s. Triggering this effect again refreshes its duration."
+            "Allies healed by Vera: Geiravor gain the **Fire Tempered** effect that increases Fire DMG by 20% for 8s. Duration resets every time it is triggered."
           ],
           "result": [
-            "- If there is **at least 1 Darkflow stack**, friendly units healed by Vera: Geiravor instead gain the **Dark Radiation** effect that increases Dark DMG by **20%** for **8**s. Triggering this effect again refreshes its duration.",
-            "- The conversion of **Shadow Embers** to real HP is not regarded as a healing action."
+            "- If there is at least 1 Darkflow stack, allies healed by her instead gain the **Dark Radiation** effect that increases Dark DMG by 20% for 8s. Duration resets every time it is triggered.",
+            "- Converting Final Embers into HP does not count as healing."
           ]
         },
         {
           "name": "Effect: Darkflow",
           "button_press": "",
           "description": [
-            "For every **200** Darkflow Reserve, gain 1 Darkflow stack, up to a maximum of 15. The character gains a Darkflow Aura based on the current number of stacks, dealing a small amount of Darkflow DMG over time to enemies and reducing their HP recovery. When the number of stacks reaches a threshold, the aura upgrades, increasing its range and dealing a large amount of Darkflow DMG to enemies within the area."
+            "Every 200 Darkflow Reserve grants 1 Darkflow stack, up to a maximum of 15. Characters with the Darkflow Effect will gain a Darkflow Aura based on the current Darkflow stacks, dealing a small amount of Darkflow DMG over time to enemies and reducing their HP recovery. When the Darkflow stacks reach the threshold, the Aura upgrades, increasing its area of effect and dealing massive Darkflow DMG to enemies within the area."
           ],
           "result": [
-            "- At **1/3/6/10/15** stacks: Deals **100%/200%/400%/800%/1600%** Darkflow DMG, then deals **20%/40%/60%/80%/100%** Darkflow DMG per second, reducing enemy HP recovery by **10%/20%/30%/50%/100%**."
+            "- At 1/3/6/10/15 stacks: Deals 100%/200%/400%/800%/1600% Darkflow DMG, then deals 20%/40%/60%/80%/100% Darkflow DMG per second, reducing enemy HP recovery by 10%/20%/30%/50%/100%."
           ]
         }
       ]
     },
     "signature": {
-      "name": "Immutable Beacon",
+      "name": "Thus Descends the Eternal Flame",
       "skills": [
         {
-          "name": "Flame-Forged Night",
+          "name": "Tempered in Midnight",
           "button_press": "45 Signature Energy + Tap/Press and Hold Signature",
           "description": [
-            "Condenses fighting spirit into the ends of her spear, dealing DMG. Clears all Yellow Orbs and grants an equal number of Red Orbs. Triggers Time Lag Calculation and enters **Deathmatch**. After casting **Flame-Forged Night**, triggers Matrix if it is not on cooldown."
+            "Channels her battle resolve into the lance, dealing Fire DMG. This skill automatically clears all existing Yellow Orbs and grants an equal number of Red Orbs. In the casting process, triggers Time Lag Calculation and enters Last Blaze. After casting Tempered in Midnight, Vera: Geiravor triggers Matrix if it is not on cooldown."
           ],
           "result": [
-            "- Vera: Geiravor's maximum Signature Energy is **45**. After entering **Deathmatch**, the maximum increases to **120**.",
-            "- Converts **15%/30%/45%/60%/75%/90%** of Vera: Geiravor's current HP into **Shadow Embers**, and grants her the **Unrivaled Flame** effect that increases Base DMG Bonus by **10%/20%/30%/40%/50%/60%** for **4**s if **1/2/3/4/5/6** Yellow Orbs were consumed.",
-            "- If Vera: Geiravor has the **Shadow Embers** and **Unrivaled Flame** effects, casting **Flame-Forged Night** will clear **Shadow Embers** and **Unrivaled Flame** and reapply them.",
+            "- Vera: Geiravor can store up to 45 Signature Energy, with the limit increasing to 120 after she enters Last Blaze.",
+            "- Based on 1/2/3/4/5/6 Yellow Orbs cleared, converts 15%/30%/45%/60%/75%/90% of current HP into Final Embers and gains the Absolute Pyre effect. Absolute Pyre increases her Base DMG by 10%/20%/30%/40%/50%/60% for 4s.",
+            "- If Vera: Geiravor already has Final Embers and Absolute Pyre, casting Tempered in Midnight clears the existing Final Embers and Absolute Pyre and grants them again.",
             "- Deals **{0}%** Fire DMG.",
-            "- Press and Hold to gain **Stygian Punishment**, grant 200 Darkflow Reserve, and deal **{1}%** Darkflow DMG instead."
+            "- If this skill is cast by pressing and holding Signature, activates Penal Immersion, gains 200 Darkflow Reserve, and deals **{1}%** Darkflow DMG instead."
           ],
           "res_lv18": [2400, 1500]
         },
         {
-          "name": "Sky-Scorching Spear",
-          "button_press": "**Deathmatch** + 120 Signature Energy + Tap Signature",
+          "name": "Scorched in Void",
+          "button_press": "During Last Blaze + 120 Signature Energy + Tap Signature",
           "description": [
-            "Flourishes her dual blades in the embodiment of a war dance, dealing DMG. Triggers Time Lag Calculation, then exits **Deathmatch** and enters **Rallying Spirit**. After casting, leaves behind **Evernight Blaze** that continuously restores HP to friendly units."
+            "Swings the dual blades in a war dance move, dealing Fire DMG. When casting this skill, triggers Time Lag Calculation before exiting Last Blaze and entering Untamed Impulse. After casting, ignites Evernight Flame, continuously restoring HP to allies within it."
           ],
           "result": [
-            "- After casting **Sky-Scorching Spear**, converts all unused Red Orbs into Blue Orbs.",
+            "- After casting Scorched in Void, converts all existing Red Orbs into Blue Orbs.",
             "- Deals **{0}%** Fire DMG.",
-            "- If Vera: Geiravor has **Stygian Punishment**, deals **{1}%** Darkflow DMG instead. Exits **Deathmatch** and clears **Stygian Punishment**.",
-            "- Leaves behind **Evernight Blaze** that lasts **12**s, healing friendly units for **5%** of Vera: Geiravor's Max HP per second."
+            "- If Penal Immersion is active, Vera: Geiravor instead deals **{1}%** Darkflow DMG. Exiting Last Blaze removes Penal Immersion.",
+            "- After casting, ignites Evernight Flame, restoring HP equal to 5% of Vera: Geiravor's max HP per second to allies within it for 12s."
           ],
           "res_lv18": [5800, 3000]
         }
       ]
     },
     "qte": {
-      "name": "Ardent Adversary",
-      "description": "Vera: Geiravor swings her weapon, dealing DMG and restoring HP.",
+      "name": "Infernal Silhouette",
+      "description": "Vera: Geiravor swings her weapon, dealing damage and restoring HP.",
       "result": [
         "- Deals a total of {0}% Fire DMG.",
-        "- If there is **at least 1 Darkflow stack**, deals **{1}%** Darkflow DMG instead.",
-        "- Heals for 20% of Max HP."
+        "- If there is at least 1 Darkflow stack, deals **{1}%** Darkflow DMG instead.",
+        "- Restores HP equal to 20% of max HP."
       ],
       "res_lv18": [600, 600]
     },
     "leader": {
-      "name": "Profound Condemnation",
-      "description": "Increases ATK of all members by **10%**. Increases Fire DMG and Darkflow DMG of all Amplifier Omniframes in the team by **5%**."
+      "name": "Abyssal Condemnation",
+      "description": "Increases ATK of all members by **10%**. Increases Fire DMG and Darkflow DMG of all Amplifiers in the team by **5%**."
     },
     "class": {
       "name": "Amplifier",
-      "description": "All switched-in members gain an extra **{0}**% ATK and **{1}**% Elemental DMG Bonus of the Amplifier's element for 10s. If there is **at least 1 Darkflow stack**, Vera: Geiravor's Element is regarded as Dark.",
+      "description": "All switched-in members gain an extra **{0}%** ATK and **{1}** Elemental DMG Bonus of the Amplifier's element for 10s.If there is at least 1 Darkflow stack, Vera: Geiravor's corresponding element will be regarded as Dark.",
       "desc_lv18": [20, 20]
     },
     "ss_rank": {
-      "name": "Unscorched Bastion",
+      "name": "Burning On",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Casting **Hunter's Thrill**, **Smelted Soul**, **Bladetwister Stride**, **Ruinous Cleave**, and **Sky-Scorching Spear** will activate all available QTEs."
+          "desc": "Casting Shadowhunt Tremor, Hellfire Crucible, Razor Whirlwind, Rending Ravage, or Scorched in Void will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "- The conversion rate of Blue Orbs to Yellow Orbs increases by **50%**, each **1** Blue Orb pinged generating **1** Yellow Orb.\n- **Hunter's Thrill** at full charge will automatically ping Blue Orbs, up to **3**.\n- While **Unrivaled Flame** is active, **Sky-Scorching Spear** deals an additional **1/1/2/2/3/3** instances of DMG when **1/2/3/4/5/6** Yellow Orbs are consumed by **Flame-Forged Night**."
+          "desc": "Pinging Blue Orbs generates 50% more Yellow Orbs. Every 1 Blue Orb pinged generates 1 Yellow Orb.\n- Casting a fully charged Shadowhunt Tremor automatically pings a maximum of 3 existing Blue Orbs.\n- When Absolute Pyre is active, Scorched in Void deals damage 1/1/2/2/3/3 more times based on 1/2/3/4/5/6 Yellow Orbs cleared by Tempered in Midnight."
         }
       ]
     },
     "sss_rank": {
-      "name": "Conflagration's Lament",
+      "name": "Nightfall Inferno",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "Effect of **Fire Tempered** granted to friendly units healed by Vera: Geiravor increases by **10%**.\n - If there is **at least 1 Darkflow stack**, friendly units healed by Vera: Geiravor additionally gain **10%** of the **Ashen Decay** effect.\n- While **Unrivaled Flame** is active, **Ruinous Cleave** deals an additional **1/1/2/2/3/3** instances of DMG when **1/2/3/4/5/6** Yellow Orbs are consumed by **Flame-Forged Night**."
+          "desc": "Allies healed by Vera: Geiravor gain **Fire Tempered** with its effect increased by 10%.\n - If there is at least 1 Darkflow stack, allies healed by her additionally gain a 10% **Cinder Implosion** effect.\n- When Absolute Pyre is active, Rending Ravage deals damage 1/1/2/2/3/3 more times based on 1/2/3/4/5/6 Yellow Orbs cleared by Tempered in Midnight."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "All member switch-ins reset the cooldown of QTE skills.\n - Effect of **Fire Tempered** granted to friendly units healed by Vera: Geiravor increases by **10%**.\n- If there is **at least 1 Darkflow stack**, friendly units healed by Vera: Geiravor additionally gain **10%** of the **Ashen Decay** effect. Upon **initial entry and switch-in**, gains an extra **3 Yellow Orbs** and **10** Signature Energy, and gains **10** Signature Energy and **30 Rekindled Spark** upon entering **Deathmatch** for the first time.\n- Pinging a set of Blue Orbs grants an additional **12** Signature Energy.\n- While **Unrivaled Flame** is active, Base DMG of **Hunter's Thrill, Smelted Soul, Bladetwister Stride**, and **Ruinous Cleave** increases by 50%."
+          "desc": "Whenever a member is switched in, cooldown of all QTE Skills will be reset.\n- Allies healed by Vera: Geiravor gain **Fire Tempered** with its effect increased by 10%.\n- If there is at least 1 Darkflow stack, allies healed by her additionally gain a 10% **Cinder Implosion** effect. Every time she enters the battlefield, additionally gains 3 Yellow Orbs and 10 Signature Energy. Upon first entering Last Blaze, additionally gains 10 Signature Energy and 30 Rekindled Doom.\n- Pinging a set of Blue Orbs additionally grants 12 Signature Energy.\n- When Absolute Pyre is active, Base DMG of Shadowhunt Tremor, Hellfire Crucible, Razor Whirlwind, and Rending Ravage increases by 50%."
         }
       ]
     },
     "s+_rank": {
-      "name": "Vermillion Unsheathed",
+      "name": "Heat Unsheathed",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "DMG Bonus from **Unrivaled Flame** increases by 50%."
+          "desc": "DMG boost percentage of Absolute Pyre increases by 50%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of **Hunter's Thrill, Smelted Soul, Bladetwister Stride**, and **Ruinous Cleave** increases by 50%."
+          "desc": "Extra DMG of Shadowhunt Tremor, Hellfire Crucible, Razor Whirlwind, and Rending Ravage increases by 50%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of **Flame-Forged Night** and **Sky-Scorching Spear** increases by **50%**."
+          "desc": "Extra DMG of Tempered in Midnight and Scorched in Void increases by 50%."
         }
       ]
     }

@@ -58,9 +58,9 @@
     "shield axe zl-07 prototype",
     "the last answer",
     "rosy silhouette",
-    "frost poem",
-    "generic mk-2",
-    "fiery meteor",
+    "verse abiding",
+    "standard mk ii",
+    "firecrash",
     "gloomlight",
     "kuji no sada",
     "guardian mount",
@@ -109,9 +109,9 @@
     "sparkle zl-09 - mod",
     "celestial reflection",
     "glazed enigma",
-    "laurel crown",
-    "nightstrider",
-    "kindled night",
+    "crowned laurel",
+    "lethal shadow",
+    "fiery twilight",
     "devil hunter greatsword",
     "yamato",
     "glimpse",
@@ -187,9 +187,9 @@
     "starlight glare",
     "alpha-omega",
     "sorrow of fata morgana",
-    "orpheus' cradle",
-    "the other side",
-    "ashen deathbringer",
+    "orpheus' lullaby",
+    "final arbiter",
+    "deathless flame",
     "devil sword dante",
     "yamato"
   ],
@@ -450,7 +450,7 @@
       "list": ["Renewed Dawn ######", "Eternal Peace #####", "Load & Rest ####"]
     },
     {
-      "name": "Pyro Katana",
+      "name": "Pyro Katanas",
       "list": [
         "Flamewing of Dawn ######",
         "Mist Netherlight #####",
@@ -462,7 +462,7 @@
       "list": ["Fudo Myo-o ######", "Raijin #####", "Rasetsu ####"]
     },
     {
-      "name": "Shield Axe",
+      "name": "Shield Axes",
       "list": [
         "Starlight Glare ######",
         "Sparkle ZL-09 - Mod #####",
@@ -486,27 +486,27 @@
       ]
     },
     {
-      "name": "Stringed Swords",
+      "name": "Bowstring Rapiers",
       "list": [
-        "Orpheus' Cradle ######",
-        "Laurel Crown #####",
-        "Frost Poem ####"
+        "Orpheus' Lullaby ######",
+        "Crowned Laurel #####",
+          "Verse Abiding ####"
       ]
     },
     {
-      "name": "Energy Swords & Guns",
+      "name": "Fusion Gunswords",
       "list": [
-        "Ultimate Arbiter ######",
-        "Nightstrider #####",
-        "Generic MK-2 ####"
+        "Final Arbiter ######",
+        "Lethal Shadow #####",
+        "Standard MK II ####"
       ]
     },
     {
-      "name": "Dual-Bladed Spear",
+      "name": "Dual-Bladed Lances",
       "list": [
-        "Ashen Deathbringer ######",
-        "Kindled Night #####",
-        "Fiery Meteor ####"
+        "Deathless Flame ######",
+        "Fiery Twilight #####",
+        "Fire Crash ####"
       ]
     },
     {

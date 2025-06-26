@@ -337,18 +337,18 @@ def check_nickname(nickname, caller):
             memory = "barcelo"
         case "pianissimo":
             character = "pianissimo"
-            weapon = "orpheus' cradle"
-            cub = "xue ge"
+            weapon = "orpheus' lullaby"
+            cub = "snow waltz"
             memory = "burana"
         case "daybreak":
             character = "daybreak"
-            weapon = "ultimate arbiter"
+            weapon = "final arbiter"
             cub = "n/a"
             memory = "n/a"
         case "geiravor":
             character = "geiravor"
-            weapon = "ashen deathbringer"
-            cub = "howl fang"
+            weapon = "deathless flame"
+            cub = "wrathfang"
             memory = "hervor"
         case "dante":
             character = "dante"
@@ -393,8 +393,8 @@ def abbreviation_checker(nickname):
                 memory = "da vinci"
             case "adolf" | "adolphe" | "kulike":
                 memory = "adolphe"
-            case "cot":
-                memory = "cottie"
+            case "cot" | "cottie" | "kuriko":
+                memory = "kuriko"
             case "eins":
                 memory = "einsteina"
             case "guin":

@@ -2,8 +2,8 @@
   "cublist": [
     "mirage blade",
     "cavaliere",
-    "howl fang",
-    "xue ge",
+    "wrathfang",
+    "snow waltz",
     "billie",
     "diamaton",
     "bramble angler",
@@ -169,12 +169,12 @@
       "base_rank": "S"
     },
     {
-      "name": "<:s_rank:1287636749052412026><:physical_element:1290613978057146379> Xue Ge",
+      "name": "<:s_rank:1287636749052412026><:physical_element:1290613978057146379> Snow Waltz",
       "sig_character": "Pianissimo",
       "base_rank": "S"
     },
     {
-      "name": "<:s_rank:1287636749052412026><:fire_element:1290613867365273630> Howl Fang",
+      "name": "<:s_rank:1287636749052412026><:fire_element:1290613867365273630> Wrathfang",
       "sig_character": "Geiravor",
       "base_rank": "S"
     },

@@ -695,33 +695,33 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "frost poem": {
-    "name": "Frost Poem",
-    "weapon_type": "Stringed Sword",
+  "verse abiding": {
+    "name": "Verse Abiding",
+    "weapon_type": "Bowstring Rapier",
     "rarity": 4,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2lyreswordmd010011sp.png",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Remnants of Verglas",
+      "effect_name": "Crystal Dream",
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "generic mk-2": {
-    "name": "Generic MK-2",
-    "weapon_type": "Energy Sword & Gun",
+  "standard mk ii": {
+    "name": "Standard MK II",
+    "weapon_type": "Fusion Gunsword",
     "rarity": 4,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2pistolmd010011.png",
     "atk": 224,
     "crit": 131,
     "effect": {
-      "effect_name": "Constellation",
+      "effect_name": "Star Cluster",
       "effect_desc": "ATK increases by 5%."
     }
   },
-  "fiery meteor": {
-    "name": "Fiery Meteor",
-    "weapon_type": "Dual-Bladed Spear",
+  "firecrash": {
+    "name": "Firecrash",
+    "weapon_type": "Dual-Bladed Lance",
     "rarity": 4,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2bladespearmd010011sp.png",
     "atk": 224,
@@ -1379,39 +1379,39 @@
       "effect_desc": "Dark DMG increases by 10%."
     }
   },
-  "laurel crown": {
-    "name": "Laurel Crown",
-    "weapon_type": "Stringed Sword",
+  "crowned laurel": {
+    "name": "Crowned Laurel",
+    "weapon_type": "Bowstring Rapier",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2lyreswordmd020011sp.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Twilight Tune",
+      "effect_name": "Returning Melody",
       "effect_desc": "Physical DMG increases by 10%."
     }
   },
-  "nightstrider": {
-    "name": "Nightstrider",
-    "weapon_type": "Energy Sword & Gun",
+  "lethal shadow": {
+    "name": "Lethal Shadow",
+    "weapon_type": "Fusion Gunsword",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2pistolmd020011.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Transcending Form",
+      "effect_name": "Dark Erosion",
       "effect_desc": "Dark DMG increases by 10%."
     }
   },
-  "kindled night": {
-    "name": "Kindled Night",
-    "weapon_type": "Dual-Bladed Spear",
+  "fiery twilight": {
+    "name": "Fiery Twilight",
+    "weapon_type": "Dual-Bladed Lance",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2bladespearmd020011sp.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Burning Sky",
+      "effect_name": "Scorching Sky",
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
@@ -2243,40 +2243,40 @@
       "effect_desc": "Gains 10% ATK. When casting Dreamfall Showdown at Card Rank B, gains 12 Signature Energy."
     }
   },
-  "orpheus' cradle": {
-    "name": "Orpheus' Cradle",
-    "weapon_type": "Stringed Sword",
+  "orpheus' lullaby": {
+    "name": "Orpheus' Lullaby",
+    "weapon_type": "Bowstring Rapier",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e3lyreswordmd010011sp.png",
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "Everlasting Harmony",
-      "effect_desc": "ATK increases by 10%. After Bladed Resonance is cast with increased Base DMG from Quavers, the next Bladed Cadence will receive the same Base DMG increase. After casting Signature - Rainfall Overture, gains 3 Signal Orbs, up to 6 per entry."
+      "effect_name": "Eternal Resonance",
+      "effect_desc": "Increases ATK by 10%. If Echoing Melody's Base DMG has been enhanced at the cost of Musical Notes, the next Rhythmic Piercing cast will enjoy the same amount of Base DMG Bonus. Casting Signature - Rainy Prelude will grant 3 Signal Orbs. Selena: Pianissimo gains up to 6 Signal Orbs every time upon entering the battlefield."
     }
   },
-  "ultimate arbiter": {
-    "name": "Ultimate Arbiter",
-    "weapon_type": "Energy Sword & Gun",
+  "final arbiter": {
+    "name": "Final Arbiter",
+    "weapon_type": "Fusion Gunsword",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e3pistolmd010011.png",
     "atk": 436,
     "crit": 244,
     "effect": {
-      "effect_name": "The Other Side",
-      "effect_desc": "ATK increases by 10%. Every 3 Munitions Orbs consumed restores 1 orb. Extra DMG Bonus of Reflective Chain and Inflow Incendiary increase by 20%."
+      "effect_name": "Ressurection Beyond",
+      "effect_desc": "ATK increases by 10%. Returns 1 Cluster Orb for every 3 Cluster Orbs consumed. Extra DMG Bonus of Reflection Chain and Flaming Gush increases by 20%."
     }
   },
-  "ashen deathbringer": {
-    "name": "Ashen Deathbringer",
-    "weapon_type": "Dual-Bladed Spear",
+  "deathless flame": {
+    "name": "Deathless Flame",
+    "weapon_type": "Dual-Bladed Lance",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e3bladespearmd010011sp.png",
     "atk": 436,
     "crit": 244,
     "effect": {
-      "effect_name": "Inextinguishable Flame",
-      "effect_desc": "ATK increases by 10%. Base DMG of Sky-Scorching Spear doubles."
+      "effect_name": "Undying Flame",
+      "effect_desc": "ATK increases by 10%. Base DMG of Scorched in Void doubles."
     }
   },
   "devil sword dante": {
