@@ -2362,7 +2362,7 @@
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Burana 2 Cottie" },
       { "name": "Alternative DPS Set", "memos": "4 Burana 4 Patton" },
-      { "name": "Glaciation Affix DPS Set", "memos": "4 Burana 2 Cottie" }
+      { "name": "Glaciation Affix DPS Set", "memos": "4 Burana 2 Klenova" }
     ],
     "builds": [
       {
@@ -2401,7 +2401,7 @@
         "usage": "Glaciation Affix Content",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "Glaciation Affix Set"],
-        "memories": ["4x Burana", "2x Cottie"],
+        "memories": ["4x Burana", "2x Klenova"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Core Passive"
@@ -2421,12 +2421,25 @@
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "General DPS set"],
-        "memories": ["4x Bathlon", "2x Barcelo"],
+        "memories": ["4x Bathlon", "2x Darwin"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
+          "Bottom Slot: 6x Core Passive"
         ],
-        "harmony_rec": "Flamel"
+        "harmony_rec": "None"
+      },
+      {
+        "set_name": "Ignition Affix DPS Set",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone",
+        "description": ["Recommended for all ranks", "Burn Affix DPS set"],
+        "memories": ["4x Shakespeare", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Red Orb",
+          "Bottom Slot: 6x Core Passive"
+        ],
+        "harmony_rec": "None"
       }
     ]
   },

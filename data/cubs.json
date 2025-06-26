@@ -1537,7 +1537,7 @@
       {
         "skill_name": "Joker's Wheel",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Billie will dive from midair and summon a wheel to pull in nearby enemies, dealing 150% Physical DMG 9 times. The wheel will then get overloaded and explode, dealing 650% DMG once."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Billie will dive from midair and summon a wheel to pull in nearby enemies, dealing 150% DMG 9 times. The wheel will then get overloaded and explode, dealing 650% DMG once."
       }
     ],
     "passive_skills": [
@@ -1568,113 +1568,113 @@
       }
     ]
   },
-  "xue ge": {
-    "name": "Xue Ge\n<:s_rank:1287636749052412026><:physical_element:1290613978057146379>",
+  "snow waltz": {
+    "name": "Snow Waltz\n<:s_rank:1287636749052412026><:physical_element:1290613978057146379>",
     "sig_character": "Selena: Pianissimo",
     "base_rank": "S",
     "cub_type": "Gather, Damage",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3speaker1.png",
     "skills_list": [
-      "Valorous March",
-      "Radiant Rondo",
-      "Prebattle Bugle",
-      "Paean of Victory",
-      "Ear-Pleasing Wonder",
-      "Preface of Light and Dark",
-      "Bellstrike Reverberation"
+      "Valiant March",
+      "Glorious Rondo",
+      "Pre-Battle Bugle",
+      "Victory Anthem",
+      "Resonant Cheersong",
+      "Light and Shade",
+      "Resounding Toll"
     ],
     "active_skills": [
       {
-        "skill_name": "Valorous March",
+        "skill_name": "Valiant March",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Xue Ge slashes the target, dealing **2050%** Physical DMG 1 time."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Snow Waltz will slash the target, dealing 2050% DMG once."
       },
       {
-        "skill_name": "Radiant Rondo",
+        "skill_name": "Glorious Rondo",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Xue Ge shoots blades in all directions and retracts them, gathering nearby enemies and dealing **1000%** Physical DMG 2 times."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Snow Waltz will shoot blades to the surroundings and retrieve them, pulling in nearby enemy units and dealing 1000% DMG twice."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Prebattle Bugle",
+        "skill_name": "Pre-Battle Bugle",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "Xue Ge's Active Skill deals **70%** more DMG."
+        "skill_desc": "Snow Waltz's Active Skill deal 70% more DMG."
       },
       {
-        "skill_name": "Paean of Victory",
+        "skill_name": "Victory Anthem",
         "skill_number": "Passive Skill 2",
-        "skill_desc": "Increases the carrier's ATK by **100**."
+        "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
-        "skill_name": "Ear-Pleasing Wonder",
+        "skill_name": "Resonant Cheersong",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Each time Xue Ge casts an Active Skill, increases the carrier's Extra DMG Bonus by **5%** for 8s. Triggering this effect will renew its duration."
+        "skill_desc": "Each time Snow Waltz casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time it is triggered."
       },
       {
-        "skill_name": "Preface of Light and Dark",
+        "skill_name": "Light and Shade",
         "skill_number": "Passive Skill 4",
-        "skill_desc": "Increases the carrier's Physical DMG by **10%**. While Ice Spikes persist, increases Glaciation DMG by **10%**."
+        "skill_desc": "The carrier deals 10% more Physical DMG. When there are Ice Spikes, the carrier deals 10% more Glaciation DMG."
       },
       {
-        "skill_name": "Bellstrike Reverberation",
+        "skill_name": "Resounding Toll",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Selena: Pianissimo casts **Fullbloom Tuning** with Xue Ge equipped, she will summon Xue Ge to launch a joint attack, dealing **1000%** Physical DMG 3 times. After casting **Basic Attack - Bladed Resonance**, Selena's ATK increases by **40%** for 8s. Triggering this effect will renew its duration."
+        "skill_desc": "After Selena: Pianissimo casts Melodic Outburst with Snow Waltz equipped, she will summon Snow Waltz to launch a joint attack, dealing 1000% Physical DMG 3 times. When casting Basic Attack - Echoing Melody, increases ATK by 40% for 8s. Duration resets every time it is triggered."
       }
     ]
   },
-  "howl fang": {
-    "name": "Howl Fang\n<:s_rank:1287636749052412026><:fire_element:1290613867365273630>",
+  "wrathfang": {
+    "name": "Wrathfang\n<:s_rank:1287636749052412026><:fire_element:1290613867365273630>",
     "sig_character": "Vera: Geiravor",
     "base_rank": "S",
     "cub_type": "Gather, Damage",
     "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3redwolf1.png",
     "skills_list": [
-      "Stalking Hunter",
-      "Ecliptic Maw",
-      "Shadow Imprint",
-      "Flaming Fangs",
-      "Nightfall Patrol",
-      "Razortooth Maul",
-      "Moment of the Hunt"
+      "Phantom Pursuit",
+      "Eclipse Bite",
+      "Blink Mark",
+      "Blazing Fangs",
+      "Nightfall Predation",
+      "Jagged Assault",
+      "Frenzied Hunt"
     ],
     "active_skills": [
       {
-        "skill_name": "Stalking Hunter",
+        "skill_name": "Phantom Pursuit",
         "skill_number": "Active Skill 1",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Howl Fang fires a laser beam at the target, dealing **550%** Fire DMG 4 times."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Wrathfang will fire a laser beam, dealing 550% DMG 4 times."
       },
       {
-        "skill_name": "Ecliptic Maw",
+        "skill_name": "Eclipse Bite",
         "skill_number": "Active Skill 2",
-        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Howl Fang clenches a light blade in its jaws and strikes the target, gathering nearby enemy units and dealing **1000%** Fire DMG 2 times."
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Wrathfang will attack the target with a light blade in its mouth and pull in nearby enemies, dealing 1000% DMG twice."
       }
     ],
     "passive_skills": [
       {
-        "skill_name": "Shadow Imprint",
+        "skill_name": "Blink Mark",
         "skill_number": "Passive Skill 1",
-        "skill_desc": "Howl Fang's Active Skill deals **70%** more DMG."
+        "skill_desc": "Wrathfang's Active Skill deal 70% more DMG."
       },
       {
-        "skill_name": "Flaming Fangs",
+        "skill_name": "Blazing Fangs",
         "skill_number": "Passive Skill 2",
-        "skill_desc": "Increases the carrier's ATK by **100**."
+        "skill_desc": "Increases the carrier's ATK by 100."
       },
       {
-        "skill_name": "Nightfall Patrol",
+        "skill_name": "Nightfall Predation",
         "skill_number": "Passive Skill 3",
-        "skill_desc": "Each time Howl Fang casts an Active Skill, increases the carrier's Extra DMG Bonus by **5%** for 8s. Triggering this effect will renew its duration."
+        "skill_desc": "Each time Wrathfang casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time it is triggered."
       },
       {
-        "skill_name": "Razortooth Maul",
+        "skill_name": "Jagged Assault",
         "skill_number": "Passive Skill 4",
-        "skill_desc": "Increases the carrier's Fire DMG by **10%**. If there is at least 1 Darkflow stack, increases Dark DMG by **10%**."
+        "skill_desc": "The carrier deals 10% more Fire DMG. If there is at least 1 Darkflow stack, the carrier deals 10% more Dark DMG."
       },
       {
-        "skill_name": "Moment of the Hunt",
+        "skill_name": "Frenzied Hunt",
         "skill_number": "Passive Skill 5",
-        "skill_desc": "When Vera: Geiravor casts **Smelted Soul** with Howl Fang equipped, summons Howl Fang to launch a joint attack, gathering nearby enemy units and dealing **1500%** Fire DMG 2 times. Base DMG of **Flame-Forged Night** increases by **10%/20%/30%/40%/50%/60%** when **1/2/3/4/5/6** Yellow Orbs are consumed."
+        "skill_desc": "After Vera: Geiravor casts Hellfire Crucible with Wrathfang equipped, she will summon Wrathfang to launch a joint attack, pulling in nearby enemies and dealing 300% Fire DMG twice. When she casts Tempered in Midnight, increases Base DMG of Tempered in Midnight by 10%/20%/30%/40%/50%/60% based on the 1/2/3/4/5/6 Yellow Orbs cleared."
       }
     ]
   },
