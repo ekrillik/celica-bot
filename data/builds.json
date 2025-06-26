@@ -2454,9 +2454,8 @@
     "unit_name": "Vera",
     "frame_name": "Geiravor",
     "set_list": [
-      { "name": "Main Support Sub-DPS Set", "memos": "4 Da Vinci 2 Einsteina" },
-      { "name": "Alternative DPS Set", "memos": "4 Hervor 2 Cottie" },
-      { "name": "Alternative Support Set", "memos": "4 Da Vinci 2 Guinevere" }
+      { "name": "Main Support Sub-DPS Set", "memos": "4 Da Vinci 2 Guinevere" },
+      { "name": "Alternative DPS Set", "memos": "4 Hervor 2 Cottie" }
     ],
     "builds": [
       {
@@ -2466,10 +2465,10 @@
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "General DPS set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+          "General Sub-DPS set",
+          "Can swap Harmony between Guinevere and Einsteina depending on situation"
         ],
-        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill"
@@ -2492,24 +2491,6 @@
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "Cottie"
-      },
-      {
-        "set_name": "Alternative Support Set",
-        "set_type": "Alternative Support",
-        "usage": "QTE Support Healer/Buffer",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "QTE support set",
-          "Alternative Support set if another unit in the team is holding Einsteina",
-          "Will be mainly used for QTE-only Vera: Geiravor"
-        ],
-        "memories": ["4x Da Vinci", "2x Guinevere"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Skill"
-        ],
-        "harmony_rec": "Guinevere"
       }
     ]
   },
