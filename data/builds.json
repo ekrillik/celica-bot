@@ -2015,15 +2015,15 @@
     "unit_name": "Hanying",
     "frame_name": "Solacetune\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:physical_element:1290613978057146379><:trueslash:1288090116790812712>",
     "set_list": [
-      { "name": "Main DPS Set", "memos": "4 Changwuzi 4 Patton" },
-      { "name": "Alternative DPS Set", "memos": "4 Changwuzi 2 Cottie" },
+      { "name": "Main Sub-DPS Set", "memos": "4 Changwuzi 4 Patton" },
+      { "name": "Alternative Sub-DPS Set", "memos": "4 Changwuzi 2 Cottie" },
       { "name": "Slash Affix Set", "memos": "4 Changwuzi 2 Patton" }
     ],
     "builds": [
       {
-        "set_name": "Main DPS Set",
-        "set_type": "Main DPS",
-        "usage": "Main DPS",
+        "set_name": "Main Sub-DPS Set",
+        "set_type": "Sub-DPS",
+        "usage": "Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
@@ -2033,13 +2033,13 @@
         "memories": ["4x Changwuzi", "2x Patton", "2x Patton (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Core Passive"
+          "Bottom Slot: 6x Class Skill"
         ]
       },
       {
-        "set_name": "Alternative DPS Set",
-        "set_type": "Main DPS",
-        "usage": "Main DPS",
+        "set_name": "Alternative Sub-DPS Set",
+        "set_type": "Sub-DPS",
+        "usage": "Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
@@ -2050,7 +2050,7 @@
         "memories": ["4x Changwuzi", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Core Passive"
+          "Bottom Slot: 6x Class Skill"
         ],
         "harmony_rec": "Cottie"
       },
@@ -2059,13 +2059,17 @@
         "set_type": "Slash Main DPS",
         "usage": "Harmony Tank/Sub-DPS",
         "game_modes": "Intensive Battle, Warzone",
-        "description": ["Recommended for all ranks", "Slash Affix set"],
-        "memories": ["4x Changwuzi", "2x Patton"],
+        "description": [
+          "Recommended for all ranks",
+          "Slash Affix set",
+          "If doing Solacetune solo TS/Ultima Slash (3S0 required), bottom resonance slot can be Core Passive",
+          "Advised to have 2S3 with Solacetune before attempting TS/Ultima Slash content"
+        ],
+        "memories": ["4x Changwuzi", "2x Patton", "2x Patton (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Core Passive"
-        ],
-        "harmony_rec": "Patton"
+          "Bottom Slot: 6x Class Skill"
+        ]
       }
     ]
   },
