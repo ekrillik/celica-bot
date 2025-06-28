@@ -9019,7 +9019,8 @@
       {
         "name": "Ceaseless Strings",
         "description": [
-          "[Core Passive - Echoing Twins] New Effect: Glaciation.\nSome of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies.\nWhile Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation.\n- At 100 Congelation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.\n- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.\n- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.\n- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation.",
+          "[Core Passive - Echoing Twins] New Effect: Glaciation.\nSome of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies.\nWhile Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation.",
+          "- At 100 Congelation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.\n- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.\n- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.\n- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation.",
           "When Judgment Zone is not expanded, press and hold Dodge to make Echo shoot an Ice Arrow, dealing 800% Glaciation DMG, and expand an 8-second Congelation Zone. In the Congelation Zone, at Max Splendor Points, press and hold Basic Attack to make Echo spend all Splendor Points and cast Frosty Sorrow Co-Strike (During this process, Echo will become Invincible and this cannot be interrupted by [Signature - Celestial Edge]), imprisoning the nearby enemies, dealing 2400% Glaciation DMG, restoring 50 Signature Energy to herself, and activating all available QTEs.",
           "Frosty Sorrow Co-Strike will consume all Cipher Orbs, a maximum equal number of Signal Orbs, and the Soul Shatter Mark (if available) to enhance Effect: Glaciation accordingly.\n- Each Cipher Orb will increase the Base DMG of Arctic Ice and Ice Spikes by 4%. Each Signal Orb will increase the Base DMG of Ice Accumulation by 25% for 24s. Duration resets every time it is triggered. The Soul Shatter Mark will enhance the effect caused by Congelation. Every 100 Congelation will increase the Base DMG of the next Ice Burst by 200% (cannot be stacked)"
         ],
@@ -13212,9 +13213,7 @@
           "description": [
             "Jetavie enters the Panoptic Segmentation Mode, dealing Dark DMG to nearby targets in a large area and summoning a great sword to assist in the attack."
           ],
-          "result": [
-            "- Constant Current deals **{0}%** Dark DMG in total."
-          ],
+          "result": ["- Constant Current deals **{0}%** Dark DMG in total."],
           "res_lv18": [1300]
         },
         {
@@ -13373,9 +13372,7 @@
         "switch_in": "no",
         "description": "Vera: Geiravor unleashes sweeping attacks, dealing **{0}%/{1}%/{2}%** Fire DMG.",
         "desc_lv18": [300, 600, 900],
-        "result": [
-          "- Every 3 Blue Orbs pinged generates 2 Yellow Orbs."
-        ]
+        "result": ["- Every 3 Blue Orbs pinged generates 2 Yellow Orbs."]
       }
     ],
     "core_passive": {
