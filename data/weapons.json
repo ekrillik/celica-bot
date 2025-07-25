@@ -731,6 +731,18 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
+  "sinkiller": {
+    "name": "Sinkiller",
+    "weapon_type": "Whip Sword",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2chainswordmd010011.png",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Execution",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
   "gloomlight": {
     "name": "Gloomlight",
     "weapon_type": "Dual Guns",
@@ -1417,7 +1429,7 @@
   },
   "devil hunter greatsword": {
     "name": "Devil Hunter Greatsword",
-    "weapon_type": "Devil Sword Dante",
+    "weapon_type": "Devil Sword",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2ddevilsworddantemd020011sp.png",
     "atk": 354,
@@ -1439,6 +1451,18 @@
       "effect_desc": "Increases ATK by 5% and CRIT DMG by 10%."
     }
   },
+  "nightrender": {
+    "name": "Nightrender",
+    "weapon_type": "Whip Sword",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2chainswordmd020011.png",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Final Judgement Befalls",
+      "effect_desc": "Dark DMG increased by 10%."
+    }
+  },
   "lotus berserker": {
     "name": "Lotus Berserker",
     "weapon_type": "Katana",
@@ -1451,8 +1475,8 @@
       "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%. Physical DMG increases by 5% for 2s after each Basic Attack. Can be stacked up to 5 times. Duration resets every time it is triggered."
     }
   },
-  "type zero": {
-    "name": "Type Zero",
+  "ss": {
+    "name": "SS",
     "weapon_type": "Levi-Gun",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2floatmd060011.webp",
@@ -2281,7 +2305,7 @@
   },
   "devil sword dante": {
     "name": "Devil Sword Dante",
-    "weapon_type": "Devil Sword Dante",
+    "weapon_type": "Devil Sword",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e3ddevilsworddantemd010011sp.png",
     "atk": 436,
@@ -2301,6 +2325,18 @@
     "effect": {
       "effect_name": "Through Dark and Light",
       "effect_desc": "Increases CRIT DMG by 30%. Casting Sin Devil Trigger activates Matrix if it is not on cooldown. Doubles the gain rate of Blade Resolve."
+    }
+  },
+  "aurora": {
+    "name": "Aurora",
+    "weapon_type": "Whip Sword",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e3chainswordmd010011.png",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Night-Ending Daybreak",
+      "effect_desc": "ATK increased by 10%. For every 3 points of Commandment used, obtain 1 Signal Orb. A maximum of 12 Signal Orbs can be obtained this way for every swap-in."
     }
   },
   "placeholder": {

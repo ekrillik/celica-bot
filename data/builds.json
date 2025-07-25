@@ -1851,6 +1851,23 @@
           "Bottom Slot: 6x Class Skill"
         ],
         "harmony_rec": "None"
+      },
+      {
+        "set_name": "Alternative Sub-DPS Set",
+        "set_type": "Main Tank",
+        "usage": "Main Tank",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Alternative Sub-DPS Set",
+          "Recommended for all ranks",
+          "Used as QTE support in Geiravor main DPS teams"
+        ],
+        "memories": ["4x Alphonse", "2x Da Vinci"],
+        "memory_resonance": [
+          "Top Slot   : 6x Red Orb",
+          "Bottom Slot: 6x Class Skill"
+        ],
+        "harmony_rec": "Da Vinci"
       }
     ]
   },
@@ -2455,7 +2472,8 @@
     "frame_name": "Geiravor",
     "set_list": [
       { "name": "Main Support Sub-DPS Set", "memos": "4 Da Vinci 2 Guinevere" },
-      { "name": "Alternative DPS Set", "memos": "4 Hervor 2 Cottie" }
+      { "name": "Alternative DPS Set", "memos": "4 Hervor 2 Cottie" },
+      { "name": "Alternative Main DPS Set", "memos": "4 Shakespeare 2 Cottie" }
     ],
     "builds": [
       {
@@ -2486,6 +2504,23 @@
           "Used as an alternative set in case Geiravor goes solo"
         ],
         "memories": ["4x Hervor", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "Alternative Main-DPS Set",
+        "set_type": "Main DPS",
+        "usage": "Main DPS",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "Alternative Main-DPS Set",
+          "Used as an alternative set in case Geiravor is the Main DPS"
+        ],
+        "memories": ["4x Shakesspeare", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
@@ -2560,6 +2595,43 @@
           "Top Slot   : Invisible Light",
           "Bottom Slot: Principles of Observational Astronomy"
         ]
+      }
+    ]
+  },
+  "crepuscule": {
+    "unit_name": "Bianca",
+    "frame_name": "Crepuscule",
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "4 Jeanne 4 Bathlon" },
+      { "name": "High Rank DPS Set", "memos": "4 Jeanne 4 Cottie"}],
+    "builds": [
+      {
+        "set_name": "Main DPS Set",
+        "set_type": "Main DPS Set",
+        "usage": "Main DPS Set",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Jeanne", "2x Bathlon"],
+        "memory_resonance": ["Top Slot   : 6x Any ATK+15 Variant", "Bottom Slot: 6x Signature"],
+        "harmony_rec": "Bathlon"
+      },
+      {
+        "set_name": "High Rank DPS Set",
+        "set_type": "High Rank DPS Set",
+        "usage": "High Rank DPS Set",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for high ranks only",
+          "General DPS set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Jeanne", "2x Cottie"],
+        "memory_resonance": ["Top Slot   : 6x Any ATK+15 Variant", "Bottom Slot: 6x Signature"],
+        "harmony_rec": "Cottie"
       }
     ]
   },

@@ -1787,5 +1787,60 @@
         "skill_desc": "Base DMG of **Judgement Cut End** increases by **50%**. The first time **Judgement Cut End** is cast since entering the battlefield, the Mirage Blade can perform a joint attack during **Sin Devil Trigger**: During the 3-hit slash of **Skewer/Yamato**: Combo, the Mirage Blade will cast **Blister**, dealing **375%** Physical DMG 8 times; during the 5-hit attack of **Judgement Cut/Beast Uppercut/Beowulf: Combo**, the Mirage Blade will cast **Heavy Rain**, dealing **600%** Physical DMG 5 times."
       }
     ]
+  },
+    "zhuo li": {
+    "name": "Zhuo Li\n<:s_rank:1287636749052412026><:dark_element:1290613554923438102>",
+    "sig_character": "Crepuscule",
+    "base_rank": "S",
+    "cub_type": "Damage",
+    "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3vmirageblade1.png",
+    "skills_list": [
+      "Frigid Sting",
+      "Frostcrown Condemnation",
+      "Whirltide Favour",
+      "Engraved Instruction",
+      "Permafrost Commendation",
+      "Splendorthorn Resonance",
+      "Glass Dream Chant"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Frigid Sting",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Zhuo Li will throw out needles to attack enemies, dealing 190% DMG 11 times."
+      },
+      {
+        "skill_name": "Frostcrown Condemnation",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Zhuo Li will charge forward and attack all enemies it hits, dealing 1950% DMG."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Whirltide Favour",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Zhuo Li's Active Skill deal 70% more DMG."
+      },
+      {
+        "skill_name": "Engraved Instruction",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Permafrost Commendation",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Zhuo Li casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Duration resets every time it is triggered."
+      },
+      {
+        "skill_name": "Splendorthorn Resonance",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "The carrier deals 10% more Dark DMG and 10% more Glow DMG."
+      },
+      {
+        "skill_name": "Glass Dream Chant",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Bianca - Crepuscule casts Sky Devourer or Sky Shatterer with Zhuo Li equipped, she will summon Zhuo Li to perform a joint attack. When casting Sky Devourer, Zhuo Li will deal 1500% Dark DMG 2 times; when casting Sky Shatterer, Zhuo Li will deal 3000% Glow DMG 1 time. Shadow Twister and Cindery Ruination’s base DMG is increased by 50%/50%, if used at max Prayer stacks, increase base DMG by 130%/150% instead."
+      }
+    ]
   }
 }

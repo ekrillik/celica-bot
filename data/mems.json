@@ -438,8 +438,8 @@
     "crit": 66,
     "hp": 1453
   },
-  "kuriko": {
-      "name": "Kuriko",
+  "cottie": {
+      "name": "Cottie",
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/eadaifui01001.webp",
     "rarity": 6,
     "2pc": "Gains 20% more Energy when pinging an orb. Signature Move requires 20% less Energy.",
@@ -905,6 +905,17 @@
     "rarity": 6,
     "2pc": "ATK increases by 5%. Fire DMG and Darkflow DMG increase by 5%.",
     "4pc": "Gains 3 bonus Blue Orbs after casting Scorched in Void. Doubles the bonus Absolute Pyre duration granted by pinging a set of Red Orbs.",
+    "atk": 132,
+    "def": 223,
+    "crit": 66,
+    "hp": 1491
+  },
+  "jeanne": {
+    "name": "Jeanne",
+    "thumbnail": "https://assets.huaxu.app/browse/cn/image/icontools/ejeannei01001.png",
+    "rarity": 6,
+    "2pc": "ATK increased by 5%, Dark DMG and Glow DMG increased by 5%.",
+    "4pc": "Oceanic Verdict’s DMG is doubled. When casting Chain Erosion, obtain 10 Prayer for every Commandment Point consumed. If 9 Commandment Points are consumed, obtain 45 additional Prayer.",
     "atk": 132,
     "def": 223,
     "crit": 66,
