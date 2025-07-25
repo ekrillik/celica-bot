@@ -1,4 +1,46 @@
 {
+  "ephialtes": {
+    "name": "Ephialtes",
+    "post-oblivion": true,
+    "thumbnail": "https://assets.huaxu.app/cn/image/uifubenchallengemapboss/bosssingletab50.png",
+    "weakness_name": "Corrosion (Dark)",
+    "start_time": "N/A",
+    "exppc": {
+      "knight": {
+        "hp": 16092000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "chaos": {
+        "hp": 24138000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      },
+      "hell": {
+        "hp": 35000000,
+        "super_armor": 0,
+        "edr": 0,
+        "def": 1500,
+        "phys_res": 0,
+        "fire_res": 2000,
+        "light_res": 2000,
+        "ice_res": 2000,
+        "dark_res": 2000
+      }
+    }
+  },
   "powered": {
     "name": "Powered",
     "post-oblivion": true,
