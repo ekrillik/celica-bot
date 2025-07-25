@@ -659,6 +659,9 @@
   "vergil": {
     "main": ["1. Dead Line Timing", "2. Glorious Afterglow", "3. Incandescence"]
   },
+  "crepuscule": {
+    "main": ["1. Dead Line Timing", "2. Glorious Afterglow", "3. Matrix Lightning"]
+  },
   "placeholder": {
     "unit_name": "Placeholder",
     "frame_name": "Placeholder"
