@@ -1617,15 +1617,16 @@
     "unit_name": "Alisa",
     "frame_name": "Echo\n<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:physical_element:1290613978057146379><:glaciation:1288090076001210398>",
     "set_list": [
-      { "name": "Main Support Set", "memos": "4 Signa 2 Da Vinci" },
-      { "name": "Harmony Support Set", "memos": "4 Signa 4 Da Vinci" },
+      { 
+        "name": "Main Support Set", 
+        "memos": "4 Signa 2 Da Vinci 2 Da Vinci" 
+      },
       {
         "name": "Alternative Harmony Support Set",
         "memos": "4 Signa 4 Philip II"
       },
-      { "name": "Off-Element Support Set", "memos": "4 Da Vinci 4 Guinevere" },
       {
-        "name": "Glaciation Affix Support Set",
+        "name": "Glaciation Affix/Off-Element Support Set",
         "memos": "4 Da Vinci 2 Guinevere"
       }
     ],
@@ -1641,10 +1642,10 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill"
         ],
-        "harmony_rec": "None"
+        "harmony_rec": "Da Vinci"
       },
       {
-        "set_name": "Harmony Support Set",
+        "set_name": "Alternative Harmony Support Set",
         "set_type": "Harmony Support",
         "usage": "Harmony Support",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
@@ -1661,45 +1662,11 @@
         ]
       },
       {
-        "set_name": "Alternative Harmony Support Set",
-        "set_type": "Harmony Support",
-        "usage": "Harmony Support",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "Harmony Support set",
-          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
-        ],
-        "memories": ["4x Signa", "2x Da Vinci", "2x Da Vinci (Harmony)"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Skill"
-        ]
-      },
-      {
-        "set_name": "Off-Element Support Set",
-        "set_type": "Alternative Support",
-        "usage": "Off-Element QTE",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "Off-element QTE set",
-          "Recommended to have 2 weapon resonances",
-          "**Used only if you do not have a built amplifier for any element.**"
-        ],
-        "memories": ["4x Da Vinci", "2x Guinevere"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Skill"
-        ],
-        "harmony_rec": "Guinevere"
-      },
-      {
-        "set_name": "Glaciation Affix Support Set",
+        "set_name": "Glaciation Affix/Off-Element Support Set",
         "set_type": "Glaciation Affix",
         "usage": "Glaciation Affix Support",
         "game_modes": "PPC, Intensive Battle, Warzone",
-        "description": ["Glaciation Affix Set", "Recommended for all ranks"],
+        "description": ["Glaciation Affix/Off-Element support Set", "Recommended for all ranks"],
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2112,7 +2079,8 @@
         "description": [
           "Recommended for all ranks",
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
-          "Also used as Glacio enabler set. If lacking Harmony, replace Liston with Einsteina. Alisa will be holding 4 Da Vinci and 2/4 Guinevere."
+          "Also used as Glacio enabler set. If lacking Harmony, replace Liston with Einsteina. Alisa will be holding 4 Da Vinci and 2/4 Guinevere.",
+          "Glacio Enabler will use 6x Red and 6x Class instead"
         ],
         "memories": ["4x Liston", "2x Chen Jiyuan", "2x Chen Jiyuan (Harmony)"],
         "memory_resonance": [
