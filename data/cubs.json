@@ -1788,12 +1788,12 @@
       }
     ]
   },
-    "zhuo li": {
+  "zhuo li": {
     "name": "Zhuo Li\n<:s_rank:1287636749052412026><:dark_element:1290613554923438102>",
     "sig_character": "Crepuscule",
     "base_rank": "S",
     "cub_type": "Damage",
-    "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3vmirageblade1.png",
+    "thumbnail": "https://assets.huaxu.app/cn/image/rolepartner/pet3jellyfish1.png",
     "skills_list": [
       "Frigid Sting",
       "Frostcrown Condemnation",
