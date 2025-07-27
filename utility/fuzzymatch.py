@@ -150,7 +150,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "brs"
         case "watanabe epitaph" | "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss" | "green guy" | "boomer" | "epipen":
             character = "epitaph"
-        case "qu shukra" |"shukra"| "qukra" | "queen" | "legs" | "cryo's empress":
+        case "qu shukra" |"shukra"| "qukra" | "queen" | "legs":
             character = "shukra"
         case "teddy decryptor" | "teddy" | "decryptor" | "smug" | "always beats karen" | "kusogaki" | "brat":
             character = "decryptor"
@@ -184,6 +184,8 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "vergil"
         case "tololo":
             character = "tololo"
+        case "walter" | "Cryo's wife" | "lily" :
+            character = "crepuscule"
         # Boss nicknames
         case "mado":
             boss = "madorea"
