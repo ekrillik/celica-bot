@@ -734,7 +734,7 @@
   "sinkiller": {
     "name": "Sinkiller",
     "weapon_type": "Whip Sword",
-    "rarity": 6,
+    "rarity": 4,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2chainswordmd010011.png",
     "atk": 224,
     "crit": 131,
@@ -1454,10 +1454,10 @@
   "nightrender": {
     "name": "Nightrender",
     "weapon_type": "Whip Sword",
-    "rarity": 6,
+    "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2chainswordmd020011.png",
-    "atk": 436,
-    "crit": 249,
+    "atk": 354,
+    "crit": 201,
     "effect": {
       "effect_name": "Final Judgement Befalls",
       "effect_desc": "Dark DMG increased by 10%."
