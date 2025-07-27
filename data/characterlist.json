@@ -72,7 +72,8 @@
     "geiravor",
     "vergil",
     "dante",
-    "tololo"
+    "tololo",
+    "crepuscule"
   ],
   "formatted": [
     {
@@ -185,6 +186,10 @@
         {
           "emojis": "<:s_rank:1287636749052412026><:attacker:1285839106240417803><:fire_element:1290613867365273630><:combustion:1288089747952107581>",
           "full_name": "Dante"
+        },
+        {
+          "emojis": "<:s_rank:1287636749052412026><:attacker:1285839106240417803><:dark_element:1290613554923438102>",
+          "full_name": "Bianca: Crepuscle"
         }
       ]
     },

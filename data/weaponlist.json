@@ -61,6 +61,7 @@
     "verse abiding",
     "standard mk ii",
     "firecrash",
+    "sinkiller",
     "gloomlight",
     "kuji no sada",
     "guardian mount",
@@ -113,7 +114,8 @@
     "lethal shadow",
     "fiery twilight",
     "devil hunter greatsword",
-    "yamato",
+    "yamato - replica",
+    "nightrender",
     "glimpse",
     "guiyun",
     "odette",
@@ -121,7 +123,7 @@
     "whitefrost ruler",
     "progressive knife",
     "lotus berserker",
-    "type zero",
+    "ss",
     "inverse chimera",
     "inverse shadow",
     "benediction",
@@ -191,7 +193,8 @@
     "final arbiter",
     "deathless flame",
     "devil sword dante",
-    "yamato"
+    "yamato",
+    "aurora"
   ],
   "weaponlist_categorised": [
     {
@@ -213,7 +216,7 @@
       "list": [
         "Dragon Wind ######",
         "Benediction ######",
-        "Type Zero ######",
+        "SS ######",
         "Guardian Mount #####",
         "Fish Mount ####",
         "Semi-Auto Turret ###",
@@ -506,7 +509,15 @@
       "list": [
         "Deathless Flame ######",
         "Fiery Twilight #####",
-        "Fire Crash ####"
+        "Firecrash ####"
+      ]
+    },
+    {
+      "name": "Whip Swords",
+      "list": [
+        "Aurora ######",
+        "Nightrender #####",
+        "Sinkiller ####"
       ]
     },
     {
@@ -554,11 +565,11 @@
       "list": ["\u2605Rock Cannon ######", "Rock Cannon #####"]
     },
     {
-      "name": "Devil Sword Dante",
+      "name": "Devil Swords",
       "list": ["Devil Sword Dante ######", "Devil Hunter Greatsword #####"]
     },
     {
-      "name": "Yamato",
+      "name": "Yamatos",
       "list": ["Yamato ######", "Yamato - Replica #####"]
     }
   ]

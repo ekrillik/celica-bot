@@ -365,6 +365,11 @@ def check_nickname(nickname, caller):
             weapon = "planeta"
             cub = "n/a"
             memory = "n/a"
+        case "crepuscle":
+            character = "crepuscule"
+            weapon = "aurora"
+            cub = "Zhuo Li"
+            memory = "jeanne"
 
         case _:
             if(caller == "character"):
@@ -811,6 +816,11 @@ def character_theme(nickname):
             colour = 0x75818a
             chibi_portrait = ""
             thumbnail_url = "https://lootandwaifus.com/characters/gfl2/tololo.webp"
+        case "crepuscule":
+            name = "Bianca: Crepuscule"
+            colour = 0xe0c870
+            chibi_portrait = "https://assets.huaxu.app/browse/cn/image/role/roleheadr5bianka2q.png"
+            thumbnail_url = "https://assets.huaxu.app/browse/cn/image/role/roleheadr5bianka3.png"
         case _:
             name = ""
             colour = ""

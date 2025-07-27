@@ -43,13 +43,13 @@ class Builds(commands.Cog):
     @commands.hybrid_command(aliases=['AffixTeams', 'Affixteams', 'at'], description="Displays the CN teams infographic by Aethervoid used to explain affix teams.")
     async def cnteams(self, ctx: commands.Context):
         embed = discord.Embed(title="", description="")
-        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/CN+Teams_v8.png')
+        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/GLB+Teams_v7.png ')
         await ctx.send(embed=embed)
 
     @commands.hybrid_command(description="Displays the GLB teams infographic by FabioJo40.")
     async def glbteams(self, ctx: commands.Context):
         embed = discord.Embed(title="", description="")
-        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/GLB+Teams_v6.png')
+        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/Infographics/GLB+Teams_v7.png ')
         await ctx.send(embed=embed)
 
     @commands.hybrid_command(aliases=['AffixMechs', 'Affixmechs', 'am'], description="Displays the affix teams infographic by Aethervoid used to explain affix teams.")

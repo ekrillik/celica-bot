@@ -7301,7 +7301,7 @@
           "- During Afterglow Enhancement, [Dispersed Radiance] will trigger Ultima Slash on hit.",
           "- Each stack of Glow Mark will increase the Base DMG of the Ultima Slash(es) Stigmata triggered during [Dispersed Radiance] by 1.2%.",
           "- When having Resolution, dodge and then tap Basic Attack to directly launch Basic Attack phase 5.",
-          "- After casting [Dispersed Radiance), Stigmata's attacks will not be able to trigger the Afterglow Shadow effect.",
+          "- After casting [Dispersed Radiance], Stigmata's attacks will not be able to trigger the Afterglow Shadow effect.",
           "[Effect: Ultima Slash]: Some skills can accumulate Sharp Reserve. The Sharp Reserve can be inherited by the next Ultima Slash character and is capped at 999. When there is 100 Sharp Reserve, the next skill that could trigger the Ultima Slash will trigger Ultima Slash once at the cost of 100 Sharp Reserve, dealing 400% Ultima Slash DMG. Each triggering of this will grant 1 Truewill, up to 90."
         ],
         "level9": [
@@ -7315,7 +7315,7 @@
       {
         "name": "Cold Illumination",
         "description": [
-          "Upon launching the first [Illuminated Abyss] after [Dispersed Radiance), Stigmata will follow up with [Shattered Darkness] at the cost of maximum 10 Truewill and deal 450% / 500% / 550% / 600% / 650% / 700% / 750% / 800% / 850% / 900% Ultima Slash DMG based on the Truewill spent. Stigmata spends all stacks of Glow Mark to cast [Shattered Darkness]. Each stack of Glow Mark will increase the Base DMG of [Shattered Darkness] by 3.5%."
+          "Upon launching the first [Illuminated Abyss] after [Dispersed Radiance], Stigmata will follow up with [Shattered Darkness] at the cost of maximum 10 Truewill and deal 450% / 500% / 550% / 600% / 650% / 700% / 750% / 800% / 850% / 900% Ultima Slash DMG based on the Truewill spent. Stigmata spends all stacks of Glow Mark to cast [Shattered Darkness]. Each stack of Glow Mark will increase the Base DMG of [Shattered Darkness] by 3.5%."
         ],
         "level9": [
           "**Level 9**: Gains 18 stacks of Glow Mark when [Dispersed Radiance] triggers an Ultima Slash."
@@ -9019,8 +9019,7 @@
       {
         "name": "Ceaseless Strings",
         "description": [
-          "[Core Passive - Echoing Twins] New Effect: Glaciation.\nSome of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies.\nWhile Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation.",
-          "- At 100 Congelation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.\n- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.\n- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.\n- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation.",
+          "[Core Passive - Echoing Twins] New Effect: Glaciation.\nSome of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies.\nWhile Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation.\n- At 100 Congelation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.\n- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.\n- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.\n- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation.",
           "When Judgment Zone is not expanded, press and hold Dodge to make Echo shoot an Ice Arrow, dealing 800% Glaciation DMG, and expand an 8-second Congelation Zone. In the Congelation Zone, at Max Splendor Points, press and hold Basic Attack to make Echo spend all Splendor Points and cast Frosty Sorrow Co-Strike (During this process, Echo will become Invincible and this cannot be interrupted by [Signature - Celestial Edge]), imprisoning the nearby enemies, dealing 2400% Glaciation DMG, restoring 50 Signature Energy to herself, and activating all available QTEs.",
           "Frosty Sorrow Co-Strike will consume all Cipher Orbs, a maximum equal number of Signal Orbs, and the Soul Shatter Mark (if available) to enhance Effect: Glaciation accordingly.\n- Each Cipher Orb will increase the Base DMG of Arctic Ice and Ice Spikes by 4%. Each Signal Orb will increase the Base DMG of Ice Accumulation by 25% for 24s. Duration resets every time it is triggered. The Soul Shatter Mark will enhance the effect caused by Congelation. Every 100 Congelation will increase the Base DMG of the next Ice Burst by 200% (cannot be stacked)"
         ],
@@ -13175,8 +13174,8 @@
             "During sword attacks, quickly transitions into casting Crystalline Impact on the target, dealing Ignition DMG and applying Combustible Charges."
           ],
           "result": [
-            "- By tapping Dodge, deals **{0}%** Ignition DMG and applies 1250 Combustible Charges in total.",
-            "- After pressing and holding Dodge, releases to deal **{1}%** Ignition DMG and applies 2500 Combustible Charges in total."
+            "- By tapping Basic Attack, deals **{0}%** Ignition DMG and applies 1250 Combustible Charges in total.",
+            "- After pressing and holding Basic Attack, releases to deal **{1}%** Ignition DMG and applies 2500 Combustible Charges in total."
           ],
           "res_lv18": [300, 600]
         },
@@ -13213,7 +13212,9 @@
           "description": [
             "Jetavie enters the Panoptic Segmentation Mode, dealing Dark DMG to nearby targets in a large area and summoning a great sword to assist in the attack."
           ],
-          "result": ["- Constant Current deals **{0}%** Dark DMG in total."],
+          "result": [
+            "- Constant Current deals **{0}%** Dark DMG in total."
+          ],
           "res_lv18": [1300]
         },
         {
@@ -13372,7 +13373,9 @@
         "switch_in": "no",
         "description": "Vera: Geiravor unleashes sweeping attacks, dealing **{0}%/{1}%/{2}%** Fire DMG.",
         "desc_lv18": [300, 600, 900],
-        "result": ["- Every 3 Blue Orbs pinged generates 2 Yellow Orbs."]
+        "result": [
+          "- Every 3 Blue Orbs pinged generates 2 Yellow Orbs."
+        ]
       }
     ],
     "core_passive": {
@@ -14345,15 +14348,356 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Signature Move and **Judgement Cut End**'s damage bonuses from consuming Truewill gains **30%** Extra DMG Bonus."
+          "desc": "**Signature Move - Judgement Cut End**'s damage bonuses from consuming Truewill gains **30%** Extra DMG Bonus."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Basic Attacks, Judgement Cut, and Judgement Cut's added damage from consuming Truewill gains **50%** Extra DMG Bonus."
+          "desc": "Basic Attacks, Judgement Cut, and Judgement Cut End's added damage from consuming Truewill gains **50%** Extra DMG Bonus."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
           "desc": "In Sin Devil Trigger, Vergil gains **20**% Extra DMG Bonus."
+        }
+      ]
+    }
+  },
+  "crepuscule": {
+    "basic_attack": [
+      {
+        "name": "Serpent Whipblade - Whipweave",
+        "button_press": "Sunset Mode + Tap Basic Attack",
+        "switch_in": "no",
+        "description": "Interweave the whipblade to attack enemies, dealing Dark DMG.",
+        "result": [
+          "- Deals a total of **{0}%** Dark DMG.",
+          "- Repeatedly tap Basic Attack after the third attack to loop through the fourth and fifth attack. During this time, orb regeneration rate is increased by 100%.",
+          "- During the recoil animation of the third, fourth and fifth attacks, press basic attack again to use Whipweave - Precision Sting, dealing **{1}%** Dark DMG."
+        ],
+        "res_lv18": [700,100]
+      },
+      {
+        "name": "Serpent Whipblade - Whirlwhip",
+        "button_press": "Sunset Mode + Press and Hold Basic Attack",
+        "switch_in": "no",
+        "description": "Use a spiralling whip to attack enemies, dealing Dark DMG.",
+        "result": [
+          "- After a complete cast, deals a total of **{0}%** Dark DMG. While casting, orb generation rate is increased by 100%. When the maximum casting time is reached, automatically use Whirlwhip - Backleap Shadestrike, dealing **{1}%** Dark DMG.",
+          "- If Basic Attack is released during casting, Whirlwhip - Shadestrike will be used, dealing **{2}%** Dark DMG. The joystick can be moved to control the casting direction.",
+          "- When Whirlwhip - Backleap Shadestrike or Whirlwhip - Shadestrike is used, consume 250 Dodge Gauge and attacks can be dodged during casttime. If a successful dodge occurs, obtain 2s of super armor, 80% Damage Reduction and 250 Dodge Gauge."
+        ],
+        "res_lv18": [420,160,120]
+      },
+      {
+        "name": "Serpent Whipblade - Chain Erosion",
+        "button_press": "Illuminared Seal + Press and Hold Basic Attack",
+        "switch_in": "no",
+        "description": "Rush towards enemies and use chains to attack them. Attacks can be dodged during casttime. Afterwards, slap enemies and deal Dark DMG while consuming all Commandment Points and obtaining Signature Energy.",
+        "result": [
+          "- Deals **{0}%** Dark DMG. If Basic Attack is released just as Bianca lands on the ground, the slap can be cast earlier.",
+          "- Consume all Commandment Points. For every Commandment Point consumed, obtain 5 Signature Energy; if 9 Commandment Points are consumed at once, obtain 15 additional Signature Energy."
+        ],
+        "res_lv18": [800]
+      },
+      {
+        "name": "Serpent Whipblade - Spiked Anchor",
+        "button_press": "Sunset Mode + Red Orb 3-Ping + Tap Basic Attack",
+        "switch_in": "no",
+        "description": "Use the whip to stab enemies before pulling out, dealing Dark DMG.",
+        "result": [
+          "- Deals **{0}%** Dark DMG."
+        ],
+        "res_lv18": [280]
+      },
+      {
+        "name": "Serpent Whipblade - Bladed Glint",
+        "button_press": "Shine Mode + Tap Basic Attack",
+        "switch_in": "no",
+        "description": "Use the sword to attack enemies, dealing Glow DMG.",
+        "result": [
+          "- Deals a total of **{0}%** Glow DMG."
+        ],
+        "res_lv18": [740]
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Sunset Judgement - Whirling Thorns",
+        "button_press": "Tap Red Orb",
+        "switch_in": "no",
+        "description": "Brandish the whip and flog enemies, dealing Dark DMG while obtaining Commandment and Prayer, and also entering Whirling Thorns Combo. Gain Super Armor while casting.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged, and grants 1/2/3 Commandment Points and 1/2/5 Prayer stacks."
+        ],
+        "res_lv18": [200,400,600]
+      },
+      {
+        "name": "Sunset Judgement - Continuous Whipping",
+        "button_press": "Whirling Thorns Combo + Tap Red Orb",
+        "switch_in": "no",
+        "description": "Brandish the whip and flog enemies, dealing Dark DMG while obtaining Commandment and Prayer, and also entering Continuous Whipping Combo. Gain Super Armor while casting.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged, and grants 1/2/3 Commandment Points and 1/2/5 Prayer stacks."
+        ],
+        "res_lv18": [200,400,600]
+      },
+      {
+        "name": "Sunset Judgement - Piling Sin",
+        "button_press": "Continuous Whipping Combo + Tap Red Orb",
+        "switch_in": "no",
+        "description": "Brandish the whip and flog enemies, dealing Dark DMG while obtaining Commandment and Prayer. Gain Super Armor while casting.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged, and grants 1/2/3 Commandment Points and 1/2/5 Prayer stacks."
+        ],
+        "res_lv18": [250,500,750]
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Shining Punishment - Dazzling Breaker",
+        "button_press": "Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "Brandish the sword and perform continuous slashes on enemies, dealing Glow DMG while obtaining Commandment and Glow Gauge. When continuously cast, enter Broken Brilliance Combo. Gain Super Armor while casting.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Glow DMG, and grants 1/2/3 Commandment Points and 30/60/100 Glow Gauge.",
+          "- Cast Shining Punishment again and enter Broken Brilliance Combo by immediately tapping Yellow Orb when Bianca - Crepuscule lands on the ground."
+        ],
+        "res_lv18": [350,700,1050]
+      },
+      {        "name": "Shining Punishment - Luminous Stride",
+        "button_press": "Broken Brilliance Combo + Tap Yellow Orb",
+        "switch_in": "no",
+        "description": "Stride and deal a horizontal slash, dealing Glow DMG while obtaining Commandment and Glow Gauge. Gain Super Armor while casting.",
+        "result": [
+          "- Deals **{0}%/{1}%/{2}%** Glow DMG, and grants 1/2/3 Commandment Points and 30/60/100 Glow Gauge."
+        ],
+        "res_lv18": [350,700,1050]
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Oceanic Verdict - Whip Dance",
+        "button_press": "Sunset Mode + Press and Hold Blue Orb",
+        "switch_in": "no",
+        "description": "Perform a series of whiplashes at enemies, continuously consuming Commandment while dealing Dark DMG and gathering enemies. While casting, obtain 80% Damage Reduction and Super Armor, and obtain Signature Energy, Prayer and Oceanic Verdict stacks.",
+        "result": [
+          "- After a complete cast, deals a total of **{0}%** Dark DMG, and afterwards, immediately use Whipdance - Barbed Streak; Whipdance - Barbed Streak will also be cast if Blue Orb is released. If damage is received while casting, immediately move towards the direction of the joystick and obtain 0.2s of invincibility.",
+          "- Whipdance - Barbed Streak will consume a maximum of 2 Commandment Points, dealing **{1}%** Dark DMG.",
+          "- For every Commandment Point consumed, obtain 1 Signature Energy, 5 Prayer stacks and 1 Oceanic Verdict stack.",
+          "- Incoming attacks can be dodged while casting Whipdance - Barbed Streak. Obtain 2s of Super Armor and invincibility if a dodge is successful.",
+          "- Oceanic Verdict can stack up to 9 times. When max stacks is reached, the Blue Orb will transform into an Engulfing Sea Orb."
+        ],
+        "res_lv18": [2800,800]
+      },
+      {
+        "name": "Oceanic Verdict - Sky Devourer",
+        "button_press": "Sunset Mode + Tap/Press and Hold Engulfing Sea Orb",
+        "switch_in": "no",
+        "description": "Leap up and use the whip to shatter space, dealing Dark DMG while obtaining an Engulfing Sea Mark, as well as Signature Energy and Prayer. While casting, gain invincibility, and Signature Move cannot be used.",
+        "result": [
+          "- Deals **{0}%** Dark DMG. Casts Sky Devourer - Crashing Darkness afterwards, dealing **{1}%** Dark DMG and granting an Engulfing Sea Mark, as well as 54 Signature Energy and 55 Prayer."
+        ],
+        "res_lv18": [400,3500]
+      },
+      {
+        "name": "Oceanic Verdict - Sword Dance",
+        "button_press": "Shine Mode + Press and Hold Blue Orb",
+        "switch_in": "no",
+        "description": "Brandishes the sword to attack enemies, continuously consuming Commandment while dealing Glow DMG and gathering enemies. While casting, obtain 80% Damage Reduction and Super Armor, and obtain Signature Energy, Oceanic Verdict stacks and Glow Gauge.",
+        "result": [
+         " - When Commandment is full, cast Sworddance - Leap Slash, which triggers Matrix if it is not on cooldown and deals **{0}%** Glow DMG while granting 200 Glow Gauge. Afterwards, cast Sworddance - Thousand Flash. After a complete cast, deals a total of **{1}%** Glow DMG and grants 300 Glow Gauge.",
+          "- While casting Sworddance - Leap Slash, if the Glow Gauge is full, enter Sacred Rite Mode. ",
+          "- If Sworddance - Leap Slash is cast with Halo stacks, consume up to 2 Halo stacks and deal **{2}%** additional Glow DMG for every stack used, and obtain 15 Prayer stacks.",
+          "- If Sworddance is used with Halo stacks, consume up to 5 Halo stacks and deal **{3}%** additional Glow DMG for every stack used, and obtain 15 Prayer stacks.",
+          "- Sworddance will continuously consume Commandment Points. For every stack used, obtain 2 Signature Energy and 1 Oceanic Verdict stack.",
+          "- Oceanic Verdict can stack up to 9 times. When max stacks is reached, the Blue Orb will transform into a Engulfing Sea Orb."
+        ],
+        "res_lv18": [800,3030,320,320]
+      },
+      {
+        "name": "Oceanic Verdict - Sky Shatterer",
+        "button_press": "Shine Mode + Tap/Press and Hold Engulfing Sea Orb",
+        "switch_in": "no",
+        "description": "Leap upwards and strike down on enemies, dealing Glow DMG while obtaining an Engulfing Sea Mark, as well as obtaining Signature Energy, Prayer and Glow Gauge. While casting, gain invincibility, and Signature Move cannot be used.",
+        "result": [
+          "- Deals **{0}%** Glow DMG. Afterwards, cast Sky Shatterer - Crashing Radiance, dealing **{1}%** Glow DMG and granting an Engulfing Sea Mark, as well as obtaining 54 Signature Energy and 200 Glow Gauge.",
+          "- If Sky Shatterer is cast with Halo stacks, consume up to 3 Halo stacks to deal **{2}%** additional Glow DMG and obtain 15 Prayer stacks for every stack used."
+        ],
+        "res_lv18": [350,2940,600]
+      }
+    ],
+    "core_passive": {
+      "name": "Abyssal Rebirth",
+      "skills": [
+        {
+          "name": "Changing Current",
+          "button_press": "",
+          "description": [
+            "Bianca - Crepuscule will be in Sunset Mode/Shine Mode when entering battle. During Sunset Mode, only Red Orbs and Blue Orbs can be used; during Shine Mode, only Yellow Orbs and Blue Orbs can be used."
+          ],
+          "result": [
+            "- Tap the Core Passive Gauge to swap between modes: when swapping to Sunset Mode, deal **{0}%** Dark DMG; when swapping to Shine Mode, deal **{1}%** Glow DMG.",
+            "- Hold the Core Passive Gauge to swap between modes: when swapping to Sunset Mode, deal **{2}%** Dark DMG; when swapping to Shine Mode, deal **{3}%** Glow DMG.",
+            "- When swapping modes, clear Commandment Points, Oceanic Verdict stacks, Engulfing Sea Mark and Prayer stacks.",
+            "- When Bianca - Crepuscule consumes Halo stacks, gather surrounding enemies."
+          ],
+          "res_lv18": [120,120,300,300]
+        },
+        {
+          "name": "Commandment",
+          "button_press": "",
+          "description": [
+            "Obtain Commandment Points when casting certain skills. When Commandment is full, activate Blue Orb."
+          ],
+          "result": [
+            "- The maximum amount of Commandment Points is 9."
+          ]
+        },
+        {
+          "name": "Unfurled Abyss",
+          "button_press": "Sunset Mode + Press and Hold Dodge",
+          "description": [
+            "While in Sunset Mode, Bianca - Crepuscule cannot activate Matrix via successfully dodging. However, dodge can be held to perform a space calculation, opening Unfurled Abyss Domain."
+          ],
+          "result": [
+            "- Unfurled Abyss Domain has a cooldown of 12s.",
+            "- During Unfurled Abyss Domain’s duration, deals a total of **{0}%** Dark DMG. When Unfurled Abyss Domain ends, detonate space and cast Unfurled Abyss - Collapsing Night, dealing **{1}%** Dark DMG and gathering surrounding enemies.",
+            "- During Unfurled Abyss Domain, Red Orbs can be consumed up to 3 times; every time red orbs are consumed, deals **{2}%/{3}%/{4}%** Dark DMG based on the number of orbs pinged, and obtain 1/2/3 Unfurled Abyss Points, 1/2/3 Commandment Points and 1/2/5 Prayer stacks.",
+            "- The maximum amount of Unfurled Abyss Points is 9. When casting Unfurled Abyss - Collapsing Night, consume all Unfurled Abyss Points. For every point consumed, obtain 1 Signature Energy and 3 Prayer stacks, and increase its Base DMG by 8% up to a maximum of 72%. If cast with 9 Unfurled Abyss Points, obtain 3 additional Signature Energy and 8 Prayer stacks."
+          ],
+          "res_lv18": [600,2400,200,400,600]
+        },
+        {
+          "name": "Counterguard",
+          "button_press": "Shine Mode + Press and Hold Dodge",
+          "description": [
+            "During Shine Mode, Bianca - Crepuscule can hold dodge to enter Counterguard - Charge and continuously obtain Commandment. During this time, gain Super Armor, and the dodge gauge will not regenerate. If attacked while in Counterguard - Charge, automatically dodge; this can trigger a maximum of 1 time and Matrix cannot be triggered this way. Afterwards, automatically perform a parry, and obtain 20% Damage Reduction while parrying. When the maximum duration is reached or dodge is released, cast the corresponding skill and deal Glow DMG."
+          ],
+          "result": [
+            "- When dodge is released, cast Counterguard - Flickering Rift, dealing **{0}%** Glow DMG and obtaining 60 Glow Gauge; when the maximum duration is reached, use Counterguard - Spiral Blade instead, dealing **{1}%** Glow DMG and obtaining 120 Glow Gauge.",
+            "- If the Glow Gauge is full while casting Counterguard - Flickering Rift or Counterguard - Spiral Blade, activate Sacred Rite Mode.",
+            "- During Counterguard - Flickering Rift and Counterguard - Spiral Blade, attacks can be dodged. If a dodge is successful, gain 2s of super armor and 80% Damage Reduction, and obtain 250 dodge gauge."
+          ],
+          "res_lv18": [360,480]
+        },
+        {
+          "name": "Effect: Glow",
+          "button_press": "",
+          "description": ["Accumulate Glow Gauge. When it is full, a portion of skills can be used to enter Sacred Rite Mode, and obtain 10 Halo stacks. Select skills can consume Halo to strengthen them, and at the same time, cast Ember Embrace to deal Glow DMG."],
+          "result": [
+            "- The maximum amount of Glow Gauge is 1000.",
+            "- Ember Embrace deals 330% Glow DMG."
+          ]
+        }
+      ]
+    },
+    "signature": {
+      "name": "Final Litany",
+      "skills": [
+        {
+          "name": "Shadow Twister",
+          "button_press": "120 Signature Energy + Sunset Mode + Tap Signature",
+          "description": [
+            "Summon thorned chains to shackle enemies, dealing Dark DMG and triggering Time Lag Calculation. After casting, obtain 1 Signal Orb. If Domain Overload is active when this skill is cast, refresh its duration."
+          ],
+          "result": [
+            "- Deals **{0}%** Dark DMG; if cast with an Engulfing Sea Mark, consume it and deal **{1}%** additional Dark DMG."
+          ],
+          "res_lv18": [3500,650]
+        },
+        {
+          "name": "Cindery Ruination",
+          "button_press": "120 Signature Energy + Shine Mode + Tap Signature",
+          "description": [
+            "Draw out a huge blade and detonate space, dealing Glow DMG and triggering Time Lag Calculation. If the Glow Gauge is full when this skill is cast, immediately enter Sacred Rite Mode. After casting, obtain 1 Signal Orb. If Domain Overload is active when this skill is cast, refresh its duration."
+          ],
+          "result": [
+            "- Deals **{0}%** Dark DMG; if cast with an Engulfing Sea Mark, consume it and deal **{1}%** additional Dark DMG."
+          ],
+          "res_lv18": [3500,650]
+        },
+        {
+          "name": "Unified Howl",
+          "button_press": "",
+          "description": [
+            "When casting Shadow Twister or Cindery Ruination, consume all Prayer stacks to strengthen the corresponding skill."
+          ],
+          "result": [
+            "- For every stack of Prayer consumed, Shadow Twister’s Base DMG is increased by 0.8%.",
+            "- For every stack of Prayer consumed, Cindery Ruination’s Base DMG is increased by 1.6%.",
+            "- The maximum number of Prayer stacks is 150. When Shadow Twister or Cindery Ruination is cast with maximum stacks, obtain a set of triple Signal Orbs. When Shadow Twister is cast with maximum stacks, illuminate Seal."
+          ]
+        },
+        {
+          "name": "Adjudicating Skyfall",
+          "button_press": "",
+          "description": [
+            "Shatter space and summon a large sword to attack enemies, dealing Glow DMG. When casting, trigger Time Lag Calculation. If Domain Overload is active when this skill is cast, refresh its duration."
+          ],
+          "result": [
+            "- While in Sacred Rite Mode, when Bianca - Crepuscule is swapped in, immediately use Glow - Judgement, dealing **{0}%** Glow DMG. When some enemies meet a certain condition, tap Basic Attack to use Empowered Glow - Judgement, dealing **{1}%** additional Glow DMG."
+          ],
+          "res_lv18": [800,800]
+        }
+      ]
+    },
+    "qte": {
+      "name": "Crepuscular Support",
+      "description": "Summon a huge sword to attack the target and deal damage.",
+      "result": [
+        "- While in Sunset Mode, deals **{0}%** Dark DMG.",
+        "- While in Shine Mode, deals **{1}%** Glow DMG."
+      ],
+      "res_lv18": [600,600]
+    },
+    "leader": {
+      "name": "Day-Night Commandment",
+      "description": "Increases Dark DMG and Glow DMG of all members by 10%. Increases the ATK of Attacker Omniframes by 10%."
+    },
+    "class": {
+      "name": "Attacker",
+      "description": "DMG increased by **{0}%**.",
+      "desc_lv18": [20]
+    },
+    "ss_rank": {
+      "name": "Cleanse Away Dust",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "When opening Unfurled Abyss Domain, and when casting Sky Devourer, Sky Shatterer, Shadow Twister and Cindery Ruination, activate all QTEs that are not on cooldown."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "After casting Shadow Twister and then leaving the battlefield, enter Leave State: trigger an attack every 2s that deals 2000% Dark DMG, and if Shadow Twister was used at max Prayer stacks, the triggered attacks will deal 2000% additional Dark DMG. When 4 attacks have been triggered, exit Leave State. When casting Sky Devourer and Sky Shatterer for the first time upon switch-in, obtain a set of triple orbs. When casting Unfurled Abyss for the first time upon switch-in, obtain 15 Signature Energy. When casting Unfurled Abyss - Collapsing Night, every Unfurled Abyss Point consumed will increase its Base DMG by 15%. Sworddance’s Base DMG is increased by 80%."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Cradle The Candle",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "After casting Unfurled Abyss, the Base DMG of Sunset Mode’s QTEs is increased by 1000%. While casting Sky Devourer, additional orbs can be consumed, increasing Sky Devourer - Crashing Darkness’s Base DMG by 60%/120%180% based on the number of orbs consumed. During Sky Shatterer, additional orbs can be consumed, increasing Sky Shatterer - Crashing Radiance’s Base DMG by 40%/80%/120% based on the number of orbs consumed. When consuming orbs this way, the consumed orbs will be returned the next time Shadow Twister or Cindery Ruination is cast."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "While in Leave State and Bianca - Crepuscule is in Sunset Mode, Extra DMG increased by 100%. Shadow Twister and Cindery Ruination’s DMG is increased by 0.009x based on the number of Prayer stacks used at casting, up to a maximum of 1.35x."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Bow and Listen",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Sky Devourer’s DMG is increased by 50%. Sky Shatterer’s DMG is increased by 70%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Unfurled Abyss Domain and Unfurled Abyss - Collapsing Night’s DMG is increased by 70%. Sworddance’s DMG is increased by 70%."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Shadow Twister and Cindery Ruination’s DMG is increased by 35%."
         }
       ]
     }
@@ -14427,7 +14771,7 @@
     "qte": {
       "name": "QTE",
       "description": "Placeholder",
-      "result": [],
+      "result": [""],
       "res_lv18": []
     },
     "leader": {

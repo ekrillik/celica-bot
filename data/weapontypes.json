@@ -15,7 +15,7 @@
     "semi-auto turret",
     "fish mount",
     "guardian mount",
-    "type zero",
+    "ss",
     "benediction",
     "dragon wind"
   ],
@@ -126,6 +126,7 @@
   "bowstring rapier": ["verse abiding", "crowned laurel", "orpheus' lullaby"],
   "fusion gunsword": ["standard mk ii", "lethal shadow", "final arbiter"],
   "dual-bladed lance": ["firecrash", "fiery twilight", "deathless flame"],
+  "whip sword": ["sinkiller", "nightrender", "aurora"],
   "uniframe: greatsword": ["photophage", "glimpse", "thanatos"],
   "uniframe: glaive": ["iron star type vi", "guiyun", "qinghe"],
   "uniframe: cello blade": ["overture", "odette", "waldmeister"],
@@ -140,6 +141,6 @@
   "tactical lance": ["type-4o lance", "type-4o lance - mod"],
   "collab katana": ["cruel oath", "cruel oath - mod"],
   "blade cannon": ["rock cannon", "black rock cannon"],
-  "devil sword dante": ["devil hunter greatsword", "devil sword dante"],
+  "devil sword": ["devil hunter greatsword", "devil sword dante"],
   "yamato": ["yamato - replica", "yamato"]
 }
