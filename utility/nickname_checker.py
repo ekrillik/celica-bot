@@ -360,16 +360,17 @@ def check_nickname(nickname, caller):
             weapon = "yamato"
             cub = "mirage blade"
             memory = "n/a"
+        case "crepuscule":
+            character = "crepuscule"
+            weapon = "aurora"
+            cub = "zhuo li"
+            memory = "jeanne"
         case "tololo":
             character = "tololo"
             weapon = "planeta"
             cub = "n/a"
             memory = "n/a"
-        case "crepuscle":
-            character = "crepuscule"
-            weapon = "aurora"
-            cub = "Zhuo Li"
-            memory = "jeanne"
+
 
         case _:
             if(caller == "character"):
@@ -819,8 +820,8 @@ def character_theme(nickname):
         case "crepuscule":
             name = "Bianca: Crepuscule"
             colour = 0xe0c870
-            chibi_portrait = "https://assets.huaxu.app/browse/cn/image/role/roleheadr5bianka2q.png"
-            thumbnail_url = "https://assets.huaxu.app/browse/cn/image/role/roleheadr5bianka3.png"
+            chibi_portrait = "https://assets.huaxu.app/cn/image/role/roleheadr5bianka2q.png"
+            thumbnail_url = "https://assets.huaxu.app/cn/image/role/roleheadr5bianka3.png"
         case _:
             name = ""
             colour = ""
