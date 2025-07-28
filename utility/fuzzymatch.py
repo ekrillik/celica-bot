@@ -213,6 +213,8 @@ def fuzzmatch(string, match_type = "character") -> str:
             boss = "emperor"
         case "primal projection" | "projection" | "ishmael":
             boss = "projection"
+        case "llyod":
+            boss = "ephialtes"
 
         case _:
             character = ""

@@ -2388,8 +2388,8 @@
     ]
   },
   "daybreak": {
-    "unit_name": "Jetavie\n<:a_rank:1290613305416880169>:attacker:1285839106240417803><:dark_element:1290613554923438102><:combustion:1288089747952107581>",
-    "frame_name": "Daybreak",
+    "unit_name": "Jetavie",
+    "frame_name": "Daybreak\n<:a_rank:1290613305416880169><:attacker:1285839106240417803><:dark_element:1290613554923438102><:combustion:1288089747952107581>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Bathlon 2 Darwin" },
       { "name": "Ignition Affix DPS Set", "memos": "4 Shakespeare 2 Darwin" }
@@ -2452,7 +2452,7 @@
       {
         "set_name": "Alternative DPS Set",
         "set_type": "Main DPS",
-        "usage": "Main DPS",
+        "usage": "Alternative DPS Set",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
