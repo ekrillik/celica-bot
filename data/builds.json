@@ -2468,8 +2468,8 @@
       },
       {
         "set_name": "Alternative Main-DPS Set",
-        "set_type": "Main DPS",
-        "usage": "Main DPS",
+        "set_type": "Alternative Main DPS",
+        "usage": "Alternative Main DPS Set",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
@@ -2567,7 +2567,7 @@
       {
         "set_name": "Main DPS Set",
         "set_type": "Main DPS",
-        "usage": "Main DPS",
+        "usage": "Main DPS Set",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
@@ -2595,7 +2595,7 @@
       {
         "set_name": "Alternative DPS Set",
         "set_type": "Main DPS",
-        "usage": "Pain Cage",
+        "usage": "Pain Cage Set",
         "game_modes": "Pain Cage",
         "description": [
           "Recommended for Pain Cage usage only",
