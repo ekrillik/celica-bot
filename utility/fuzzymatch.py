@@ -184,7 +184,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "vergil"
         case "tololo":
             character = "tololo"
-        case "crepuscule" | "walter" | "Cryo's wife" | "lily" :
+        case "crepuscule" | "walter" | "cryo's wife" | "lily" :
             character = "crepuscule"
         # Boss nicknames
         case "mado":
