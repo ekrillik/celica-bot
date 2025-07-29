@@ -2050,7 +2050,8 @@
     "frame_name": "Lucid Dreamer\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:ice_element:1290613933106925638><:glaciation:1288090076001210398>",
     "set_list": [
       { "name": "Main Tank Set", "memos": "4 Liston 2 Einsteina" },
-      { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Liston 4 Chen Jiyuan" },
+      { "name": "Harmony Tank Set", "memos": "4 Liston 4 Chen Jiyuan" },
+      { "name": "Glaciation Affix Set", "memos": "4 Liston 4 Chen Jiyuan" },
       { "name": "Main Pain Cage Set", "memos": "4 Da Vinci 2 Einsteina" },
       { "name": "Harmony Pain Cage Set", "memos": "4 Da Vinci 4 Chen Jiyuan" }
     ],
@@ -2072,20 +2073,34 @@
         "harmony_rec": "None"
       },
       {
-        "set_name": "Harmony Tank/Sub-DPS Set",
+        "set_name": "Harmony Tank Set",
         "set_type": "Harmony Tank",
-        "usage": "Harmony Tank/Sub-DPS\nGlacio Enabler",
+        "usage": "Harmony Tank Set",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
-          "Also used as Glacio enabler set. If lacking Harmony, replace Liston with Einsteina. Alisa will be holding 4 Da Vinci and 2/4 Guinevere.",
-          "Glacio Enabler will use 6x Red and 6x Class instead"
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
         "memories": ["4x Liston", "2x Chen Jiyuan", "2x Chen Jiyuan (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
+        ]
+      },
+      {
+        "set_name": "Glaciation Affix Set",
+        "set_type": "Glaciation Affix",
+        "usage": "Glaciation Affix Set",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**",
+          "Glaciation Affix Support Set"
+        ],
+        "memories": ["4x Liston", "2x Chen Jiyuan", "2x Chen Jiyuan (Harmony)"],
+        "memory_resonance": [
+          "Top Slot   : 6x Red Orb",
+          "Bottom Slot: 6x Class Skill"
         ]
       },
       {
@@ -2193,7 +2208,8 @@
     "frame_name": "Startrail\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:lightning_element:1287636531321765959><:combustion:1288089747952107581>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Herschell 2 Heisen" },
-      { "name": "Void Sub-DPS Set", "memos": "4 Herschell 4 Heisen" }
+      { "name": "Void Sub-DPS Set", "memos": "4 Herschell 4 Heisen" },
+      { "name": "Ignition Affix Set", "memos": "4 Herschell 4 Cottie" }
     ],
     "builds": [
       {
@@ -2220,6 +2236,23 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill"
         ]
+      },
+      {
+        "set_name": "Ignition Affix Set",
+        "set_type": "Ignition Affix",
+        "usage": "Ignition Affix Set",
+        "game_modes": "PPC, Intensive Battle, Warzone",
+        "description": [  
+          "Recommended for all ranks",
+          "Plasma Affix Support Set",
+          "If doing Startrail solo Burn/Ignition, bottom resonance slot can be Signature"
+        ],
+        "memories": ["4x Herschell", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Skill"
+        ],
+         "harmony_rec":"Cottie"
       }
     ]
   },
