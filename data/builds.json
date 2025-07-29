@@ -2469,7 +2469,7 @@
       {
         "set_name": "Alternative Main DPS Set",
         "set_type": "Main DPS",
-        "usage": "sMain DPS Set",
+        "usage": "Main DPS Set",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
