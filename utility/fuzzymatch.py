@@ -135,7 +135,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "kaleido"  
         case "lucia crimson weave" | "crimson weave" | "weave" | "cw" | "blanc's curse" | "matt's girl" | "ojek" | "kang ojek" | "aloha" | "sayonara" | "creamson weeb" | "tsubrickie" | "tsubricki":
             character = "crimson weave"
-        case "hanying zitherwoe" | "zitherwoe" | "zitherhoe":
+        case "hanying zitherwoe" | "zitherwoe" | "zitherhoe" | "mycledra":
             character = "zitherwoe"
         case "no21 feral" | "no. 21 feral" | "no 21 feral" | "21 feral" | "awoo" | "furry" | "feral" | "feral: 21" | "feral:21" | "best daughter" | "doggo" | "wolfie-chan" | "fluffy" | "aether's daughter":
             character = "feral"
@@ -150,7 +150,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "brs"
         case "watanabe epitaph" | "uncle" | "king engine" | "kingengine" | "wata" | "epitaph" | "heartbeat killer" | "old man" | "no longer fears death" | "big boss" | "green guy" | "boomer" | "epipen":
             character = "epitaph"
-        case "qu shukra" |"shukra"| "qukra" | "queen" | "legs":
+        case "qu shukra" |"shukra"| "qukra" | "queen" | "legs" | "shucrose" :
             character = "shukra"
         case "teddy decryptor" | "teddy" | "decryptor" | "smug" | "always beats karen" | "kusogaki" | "brat":
             character = "decryptor"
@@ -176,7 +176,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "pianissimo"
         case "jetavie daybreak" | "daybreak" | "jetavie" | "omgkawaiiangel-chan" | "vtuber" | "gyaru" | "shi-yori's wife":
             character = "daybreak"
-        case "vera geiravor" | "geiravor" | "valkyrie" | "valk" | "gardevoir":
+        case "vera geiravor" | "geiravor" | "valkyrie" | "valk" | "gardevoir" | "savage wolf":
             character = "geiravor"
         case "dante" | "donut" | "dunce":
             character = "dante"
@@ -184,7 +184,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "vergil"
         case "tololo":
             character = "tololo"
-        case "crepuscule" | "walter" | "Cryo's wife" | "lily" :
+        case "crepuscule" | "walter" | "cryo's wife" | "lily" | "crepes" | "twilight" :
             character = "crepuscule"
         # Boss nicknames
         case "mado":
@@ -213,6 +213,8 @@ def fuzzmatch(string, match_type = "character") -> str:
             boss = "emperor"
         case "primal projection" | "projection" | "ishmael":
             boss = "projection"
+        case "llyod":
+            boss = "ephialtes"
 
         case _:
             character = ""

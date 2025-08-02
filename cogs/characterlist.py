@@ -29,7 +29,7 @@ class CharacterList(commands.Cog):
     @commands.hybrid_command(description="Displays the current priority list for SS3 rank upgrades")
     async def ss3priority(self, ctx: commands.Context) -> None:
 
-        ss3prioritylist = ["Nanami: Startrail", "Selena: Pianissimo", "Lucia: Pyroath", "Ishamael: Parhelion", "Hanying: Solacetune", "Vera: Geivaror"]
+        ss3prioritylist = ["Nanami: Startrail", "Selena: Pianissimo", "Lucia: Pyroath", "Ishmael: Parhelion", "Hanying: Solacetune", "Vera: Geiravor"]
 
         names = "\n".join(f"{index + 1}. {character}" for (index, character) in enumerate(ss3prioritylist))
 
