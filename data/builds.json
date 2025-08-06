@@ -1987,9 +1987,9 @@
     "unit_name": "Hanying",
     "frame_name": "Solacetune\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:physical_element:1290613978057146379><:trueslash:1288090116790812712>",
     "set_list": [
-      { "name": "Main Sub-DPS Set", "memos": "4 Changwuzi 4 Patton" },
-      { "name": "Alternative Sub-DPS Set", "memos": "4 Changwuzi 2 Cottie" },
-      { "name": "Slash Affix Set", "memos": "4 Changwuzi 2 Patton" }
+      { "name": "Main Sub-DPS Set", "memos": "4 Chang Wuzi 4 Patton" },
+      { "name": "Alternative Sub-DPS Set", "memos": "4 Chang Wuzi 2 Cottie" },
+      { "name": "Slash Affix Set", "memos": "4 Chang Wuzi 2 Patton" }
     ],
     "builds": [
       {
@@ -2002,7 +2002,7 @@
           "Main DPS Set",
           "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
         ],
-        "memories": ["4x Changwuzi", "2x Patton", "2x Patton (Harmony)"],
+        "memories": ["4x Chang Wuzi", "2x Patton", "2x Patton (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill"
@@ -2019,7 +2019,7 @@
           "Used if you lack Solacetune's signature weapon",
           "Preferred build for Solacetune solo."
         ],
-        "memories": ["4x Changwuzi", "2x Cottie"],
+        "memories": ["4x Chang Wuzi", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill"
@@ -2037,7 +2037,7 @@
           "If doing Solacetune solo TS/Ultima Slash (3S0 required), bottom resonance slot can be Core Passive",
           "Advised to have 2S3 with Solacetune before attempting TS/Ultima Slash content"
         ],
-        "memories": ["4x Changwuzi", "2x Patton", "2x Patton (Harmony)"],
+        "memories": ["4x Chang Wuzi", "2x Patton", "2x Patton (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill"
@@ -2510,7 +2510,7 @@
           "Requires DLT weapon resonance.",
           "Used as an alternative set in case Geiravor is the Main DPS"
         ],
-        "memories": ["4x Shakesspeare", "2x Cottie"],
+        "memories": ["4x Shakespeare", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
