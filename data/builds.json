@@ -2222,7 +2222,7 @@
     "frame_name": "Startrail\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:lightning_element:1287636531321765959><:combustion:1288089747952107581>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Herschell 2 Heisen" },
-      { "name": "Void Sub-DPS Set", "memos": "4 Herschell 4 Heisen" },
+      { "name": "Plasma Affix Support Set", "memos": "4 Herschell 4 Heisen" },
       { "name": "Ignition Affix Set", "memos": "4 Herschell 4 Cottie" }
     ],
     "builds": [
@@ -2245,7 +2245,7 @@
         "usage": "Plasma Affix Support Set ",
         "game_modes": "Pain Cage, Warzone, Intensive Battle",
         "description": [
-          "Only used for Plasma Warzone."
+          "Only used for Plasma Content."
         ],
         "memories": ["4x Herschell", "2x Heisen", "2x Heisen (Harmony)"],
         "memory_resonance": [
