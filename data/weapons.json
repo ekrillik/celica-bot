@@ -734,7 +734,7 @@
   "sinkiller": {
     "name": "Sinkiller",
     "weapon_type": "Whip Sword",
-    "rarity": 4,
+    "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2chainswordmd010011.png",
     "atk": 224,
     "crit": 131,
@@ -1427,37 +1427,37 @@
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
-  "devil hunter greatsword": {
-    "name": "Devil Hunter Greatsword",
+  "devil hunter sword": {
+    "name": "Devil Hunter Sword",
     "weapon_type": "Devil Sword",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2ddevilsworddantemd020011sp.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Flaming Devil",
+      "effect_name": "Burn All Demons",
       "effect_desc": "Fire DMG increases by 10%."
     }
   },
-  "yamato - replica": {
-    "name": "Yamato - Replica",
+  "yamato - kageuchi": {
+    "name": "Yamato - Kageuchi",
     "weapon_type": "Yamato",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontoolssp/e2vyamatomd020011sp.png",
     "atk": 354,
     "crit": 201,
     "effect": {
-      "effect_name": "Dimensional Rupture",
+      "effect_name": "Dimension Shatter",
       "effect_desc": "Increases ATK by 5% and CRIT DMG by 10%."
     }
   },
   "nightrender": {
     "name": "Nightrender",
     "weapon_type": "Whip Sword",
-    "rarity": 5,
+    "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/cn/image/icontools/e2chainswordmd020011.png",
-    "atk": 354,
-    "crit": 201,
+    "atk": 436,
+    "crit": 249,
     "effect": {
       "effect_name": "Final Judgement Befalls",
       "effect_desc": "Dark DMG increased by 10%."
@@ -2311,8 +2311,8 @@
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "Union of Man and Demon",
-      "effect_desc": "Increases ATK by 10%. After casting Sin Devil Trigger - Sin Inferno or Sin Devil Trigger - Judgement, gains 1 Signal Orb and converts any remaining Sin Devil Trigger Gauge into Devil Trigger Gauge. For every 30 points converted, gains 1 extra Signal Orb. When the converted amount exceeds 60, gains 6 points of Devil Arm Energy."
+      "effect_name": "The Sword That Unites Man and Devil",
+      "effect_desc": "ATK increases by 10%. After casting SDT - Sin Inferno or SDT - Final Judgement, gains a Signal Orb and converts the remaining SDT into DT. For every 30 SDT converted, additionally gains a Signal Orb. When more than 60 SDT is converted, gains 6 Devil Arm Energy."
     }
   },
   "yamato": {
@@ -2323,8 +2323,8 @@
     "atk": 436,
     "crit": 249,
     "effect": {
-      "effect_name": "Through Dark and Light",
-      "effect_desc": "Increases CRIT DMG by 30%. Casting Sin Devil Trigger activates Matrix if it is not on cooldown. Doubles the gain rate of Blade Resolve."
+      "effect_name": "The Sword That Seperates Light from Darkness",
+      "effect_desc": "Deals 30% more CRIT DMG. Triggers Matrix if it is not on cooldown when casting Sin Devil Trigger. Doubles the JCE Points acquisition efficiency."
     }
   },
   "aurora": {

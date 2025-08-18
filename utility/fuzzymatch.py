@@ -180,7 +180,7 @@ def fuzzmatch(string, match_type = "character") -> str:
             character = "geiravor"
         case "dante" | "donut" | "dunce":
             character = "dante"
-        case "vergil" | "veggie" | "virgin" | "sparda's virgin":
+        case "vergil" | "veggie" | "virgin" | "sparda's virgin" | "maidenless":
             character = "vergil"
         case "tololo":
             character = "tololo"
