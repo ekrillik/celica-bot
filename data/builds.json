@@ -2244,6 +2244,7 @@
         "usage": "Plasma Affix Support Set ",
         "game_modes": "Pain Cage, Warzone, Intensive Battle",
         "description": [
+          "Recommended for all ranks",
           "Only used for Plasma Content."
         ],
         "memories": ["4x Herschell", "2x Heisen", "2x Heisen (Harmony)"],
@@ -2478,7 +2479,7 @@
     "unit_name": "Vera",
     "frame_name": "Geiravor\n<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:fire_element:1290613867365273630><:umbrasurge:1288090169303371828>",
     "set_list": [
-      { "name": "Alternative Main DPS Set", "memos": "4 Shakespeare 2 Cottie" },
+      { "name": "Main DPS Set", "memos": "4 Shakespeare 2 Cottie" },
       { "name": "Alternative DPS Set", "memos": "4 Hervor 2 Cottie" },
       { "name": "Main Support Sub-DPS Set", "memos": "4 Da Vinci 2 Guinevere" }
     ],
