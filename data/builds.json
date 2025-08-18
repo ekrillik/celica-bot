@@ -1151,12 +1151,8 @@
         "name": "Main Tank Set",
         "memos": "4 Da Vinci 2 Einsteina"
       },
-      { "name": "Harmony Tank/Sub-DPS Set", 
-        "memos": "4 Da Vinci 4 Bathlon"   
-      },
-      { "name": "Plasma Set (Experimental)", 
-        "memos": "4 Heisen 2 Einsteina" 
-      }
+      { "name": "Harmony Tank/Sub-DPS Set", "memos": "4 Da Vinci 4 Bathlon" },
+      { "name": "Plasma Set (Experimental)", "memos": "4 Heisen 2 Einsteina" }
     ],
     "builds": [
       {
@@ -1617,9 +1613,9 @@
     "unit_name": "Alisa",
     "frame_name": "Echo\n<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:physical_element:1290613978057146379><:glaciation:1288090076001210398>",
     "set_list": [
-      { 
-        "name": "Main Support Set", 
-        "memos": "4 Signa 2 Da Vinci 2 Da Vinci" 
+      {
+        "name": "Main Support Set",
+        "memos": "4 Signa 2 Da Vinci 2 Da Vinci"
       },
       {
         "name": "Alternative Harmony Support Set",
@@ -1666,7 +1662,10 @@
         "set_type": "Glaciation Affix",
         "usage": "Glaciation Affix Support",
         "game_modes": "PPC, Intensive Battle, Warzone",
-        "description": ["Glaciation Affix/Off-Element support Set", "Recommended for all ranks"],
+        "description": [
+          "Glaciation Affix/Off-Element support Set",
+          "Recommended for all ranks"
+        ],
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2258,7 +2257,7 @@
         "set_type": "Ignition Affix",
         "usage": "Ignition Affix Set",
         "game_modes": "PPC, Intensive Battle, Warzone",
-        "description": [  
+        "description": [
           "Recommended for all ranks",
           "Ignition Affix Set",
           "**If doing Startrail solo Burn/Ignition, bottom resonance slot can be Signature Move**"
@@ -2268,7 +2267,7 @@
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class Skill/6x Signature Move"
         ],
-         "harmony_rec":"Cottie"
+        "harmony_rec": "Cottie"
       }
     ]
   },
@@ -2547,11 +2546,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "General DPS set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
+        "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Shakespeare", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2571,11 +2566,7 @@
         "set_type": "Main DPS",
         "usage": "Main DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Recommended for all ranks",
-          "General DPS set",
-          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
-        ],
+        "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Patton", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2611,8 +2602,8 @@
     "frame_name": "Crepuscule\n<:s_rank:1287636749052412026><:attacker:1285839106240417803><:dark_element:1290613554923438102><:glow:1398841690512691342>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Jeanne 2 Bathlon" },
-      { "name": "High Rank DPS Set", "memos": "4 Jeanne 4 Cottie"},
-      { "name": "Alternative DPS Set", "memos": "4 Bathlon 2 Cottie 2 Darwin"}
+      { "name": "High Rank DPS Set", "memos": "4 Jeanne 4 Cottie" },
+      { "name": "Alternative DPS Set", "memos": "4 Bathlon 2 Cottie 2 Darwin" }
     ],
     "builds": [
       {
@@ -2626,7 +2617,10 @@
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Jeanne", "2x Bathlon"],
-        "memory_resonance": ["Top Slot   : 6x Any ATK+15 Variant", "Bottom Slot: 6x Signature"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
         "harmony_rec": "Bathlon"
       },
       {
@@ -2640,7 +2634,10 @@
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Jeanne", "2x Cottie"],
-        "memory_resonance": ["Top Slot   : 6x Any ATK+15 Variant", "Bottom Slot: 6x Signature"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
         "harmony_rec": "Cottie"
       },
       {
@@ -2654,7 +2651,10 @@
           "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Bathlon", "2x Cottie"],
-        "memory_resonance": ["Top Slot   : 6x Any ATK+15 Variant", "Bottom Slot: 6x Signature"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
         "harmony_rec": "Darwin"
       }
     ]
