@@ -9019,8 +9019,7 @@
       {
         "name": "Ceaseless Strings",
         "description": [
-          "[Core Passive - Echoing Twins] New Effect: Glaciation.\nSome of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies.\nWhile Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation.",
-          "- At 100 Congelation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.\n- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.\n- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.\n- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation.",
+          "[Core Passive - Echoing Twins] New Effect: Glaciation.\nSome of the skills can fill the Glaciation Gauge. When the gauge is full, consume it to cast Arctic Ice, dealing Glaciation DMG and gaining Arctic Ice Layers. Casting certain skills will consume all Arctic Ice Layers to form Ice Spikes, dealing Glaciation DMG to nearby enemies.\nWhile Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals additional Glaciation DMG and gains Congelation. When Ice Spikes expire, they will trigger Ice Burst to deal Glaciation DMG based on the current Congelation. The Glaciation Gauge, Arctic Ice Layers, Ice Spikes and Congelation can transfer to the next character with Effect: Glaciation.\n- At 100 Congelation, casts Arctic Ice to deal 100% Glaciation DMG and generate 1 Arctic Ice Layer. Max 10 Layers.\n- When having more than 0 Arctic Ice Layers, certain skills can consume all Arctic Ice Layers to form Ice Spikes, dealing 180% Glaciation DMG. When forming Ice Spikes, every 1 Arctic Ice Layer consumed will extend their duration by 1s.\n- While Ice Spikes persist, dealing Glaciation DMG will trigger Ice Accumulation, which deals 100% Glaciation DMG in a large area and gains 100 Congelation. This can only trigger once every 0.25s.\n- When Ice Spikes expire, it will trigger Ice Burst to deal 100% Glaciation DMG in a large area. For every 100 Congelation owned, the Base DMG of Ice Burst increases by 9%, up to 10000 Congelation.",
           "When Judgment Zone is not expanded, press and hold Dodge to make Echo shoot an Ice Arrow, dealing 800% Glaciation DMG, and expand an 8-second Congelation Zone. In the Congelation Zone, at Max Splendor Points, press and hold Basic Attack to make Echo spend all Splendor Points and cast Frosty Sorrow Co-Strike (During this process, Echo will become Invincible and this cannot be interrupted by [Signature - Celestial Edge]), imprisoning the nearby enemies, dealing 2400% Glaciation DMG, restoring 50 Signature Energy to herself, and activating all available QTEs.",
           "Frosty Sorrow Co-Strike will consume all Cipher Orbs, a maximum equal number of Signal Orbs, and the Soul Shatter Mark (if available) to enhance Effect: Glaciation accordingly.\n- Each Cipher Orb will increase the Base DMG of Arctic Ice and Ice Spikes by 4%. Each Signal Orb will increase the Base DMG of Ice Accumulation by 25% for 24s. Duration resets every time it is triggered. The Soul Shatter Mark will enhance the effect caused by Congelation. Every 100 Congelation will increase the Base DMG of the next Ice Burst by 200% (cannot be stacked)"
         ],
@@ -9780,7 +9779,7 @@
         "switch_in": "no",
         "description": "Leaps backward and unleashes a swordwave, dealing Ice DMG.",
         "result": [
-          "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG in total based on the number of orbs pinged.."
+          "- Deals **{0}%** / **{1}%** / **{2}%** Ice DMG in total based on the number of orbs pinged."
         ],
         "res_lv18": [180, 360, 540]
       }
@@ -12429,7 +12428,7 @@
           "desc": "Collapse Points' damage amplification effect increases by 50%. Enter 3-Ping orbs once during the 5th hit of Phantom Annihilation to make Ishmael deal 1000% Nihil DMG one extra time and gain 180 Collapse Points. Enhances the effects based on the special ability Observation Notes triggered. The Base DMG Efficiency dealt to Equilibrium Field increases by 150% instead.",
           "extra1": "**Tank State**\n**Fire**: **Unlocked at SS3**: **Scorching Invasion** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Scorching Invasion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.\n**Ice**: **Unlocked at SS3**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Frost Corrosion** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.",
           "extra2": "**Lightning**:**Unlocked at SS3**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%.\n**Unlocked at SSS**: **Turbulence Interference** and **Collapse Singularity** effects increases by 10%. Switch cooldown of all members in the team is reduced by 3s; this effect does not stack with others of the same type.\n**Dark**: **Unlocked at SSS**: **Chain Fusion** and **Collapse Singularity** effects increases by 10%.",
-          "extra3": "**Amplfier State**\n**Fire**: **Unlocked at SSS**: Amplifier Class Skill effect increases by 100%.\n**Ice**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: **Unlocked at SSS**: Amplifier Class Skill effect increases by 100%.\n**Dark**: **Unlocked at SS3**: **Dark Radiation** and **Void Collapse** effects increase by **10%**.\n**Unlocked at SSS**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**. All member switch-ins reset the cooldown of QTE skills."
+          "extra3": "**Amplifier State**\n**Fire**: **Unlocked at SS3**: **Fire Tempered** and **Void Collapse** effects increase by **10%**.\n**Unlocked at SSS**: **Fire Tempered** and **Void Disintegration** effects increase by **10%**. All member switch-ins reset the cooldown of QTE skills.\n**Ice**: **Unlocked at SSS**: Amplifier Class Skill effect increases by **100%**.\n**Lightning**: **Unlocked at SSS**: Amplifier Class Skill effect increases by 100%.\n**Dark**: **Unlocked at SS3**: **Dark Radiation** and **Void Collapse** effects increase by **10%**.\n**Unlocked at SSS**: **Dark Radiation** and **Void Disintegration** effects increase by **10%**. All member switch-ins reset the cooldown of QTE skills."
         }
       ]
     },
@@ -12592,7 +12591,7 @@
             "Immediately gains 1 Red Orb after casting Joker's Trickery. Max 1 Red Orb. Casting Shadow's Guile after a Yellow Orb 3-Ping will enhance Card Rank and grant Signature Energy."
           ],
           "result": [
-            "- Casting Silk Threading/Blade Drawing/Shadow Breaking through a Yellow Orb 3-Ping will provide 20/20/30 stackable Signature Energy for the next Shadow's Guile. Max 70 Signature Energy. Signature Energy will be cleared when Lilith exits Crazy Gamble..",
+            "- Casting Silk Threading/Blade Drawing/Shadow Breaking through a Yellow Orb 3-Ping will provide 20/20/30 stackable Signature Energy for the next Shadow's Guile. Max 70 Signature Energy. Signature Energy will be cleared when Lilith exits Crazy Gamble.",
             "- The first Shadow's Guile cast after a Yellow Orb 3-Ping will enhance Card Rank once.",
             "- Casting Silk Threading/Blade Drawing/Shadow Breaking will grant Red Orb - Shape Break/Red Orb - Soul Capture/Red Orb - Spiritual Judgement respectively. Max 1 Red Orb. When getting a duplicate, it will refresh the Red Orb type based on the previous Yellow Orb skill. If you already have Red Orb - Spiritual Judgement, it will not refresh before consumption."
           ]
@@ -13213,7 +13212,9 @@
           "description": [
             "Jetavie enters the Panoptic Segmentation Mode, dealing Dark DMG to nearby targets in a large area and summoning a great sword to assist in the attack."
           ],
-          "result": ["- Constant Current deals **{0}%** Dark DMG in total."],
+          "result": [
+            "- Constant Current deals **{0}%** Dark DMG in total."
+          ],
           "res_lv18": [1300]
         },
         {
@@ -13372,7 +13373,9 @@
         "switch_in": "no",
         "description": "Vera: Geiravor unleashes sweeping attacks, dealing **{0}%/{1}%/{2}%** Fire DMG.",
         "desc_lv18": [300, 600, 900],
-        "result": ["- Every 3 Blue Orbs pinged generates 2 Yellow Orbs."]
+        "result": [
+          "- Every 3 Blue Orbs pinged generates 2 Yellow Orbs."
+        ]
       }
     ],
     "core_passive": {
@@ -13588,304 +13591,304 @@
   "dante": {
     "basic_attack": [
       {
-        "name": "Trigger Heart - Devil Sword Dante: Combo",
-        "button_press": "Wielding Devil Sword Dante + Tap Basic Attack",
+        "name": "Trigger Heart - DSD Combo",
+        "button_press": "With Devil Sword Dante + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Attacks the target with Devil Sword Dante, dealing Fire DMG and generating a Summoned Sword to attack the enemy.",
+        "description": "Attacks with Devil Sword Dante, dealing Fire DMG while summoning Conjured Swords to attack the enemy.",
         "desc_lv18": [],
         "result": [
-          "- Deals a total of 770% Fire DMG.",
-          "- If cast while in midair, deals a total of 290% Fire DMG."
+          "- Deals a total of **{0}%** Fire DMG.",
+          "- When cast midair, deals a total of **{1}%** Fire DMG."
         ],
-        "res_lv18": []
+        "res_lv18": [770,290]
       },
       {
-        "name": "Trigger Heart - Balrog: Combo",
-        "button_press": "Wielding Balrog + Tap Basic Attack",
+        "name": "Trigger Heart - Balrog Combo",
+        "button_press": "With Balrog + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Attacks the target with Balrog, dealing Fire DMG.",
+        "description": "Attacks with Balrog, dealing Fire DMG while summoning Conjured Sword to attack the enemy.",
         "desc_lv18": [],
         "result": [
-          "- Deals a total of 320% Fire DMG and generates a Summoned Sword to attack the enemy.",
-          "- If cast while in midair, deals a total of 150% Fire DMG."
+          "- Deals a total of **{0}%** Fire DMG.",
+          "- When cast midair, deals a total of **{1}%** Fire DMG."
         ],
-        "res_lv18": []
+        "res_lv18": [320,150]
       },
       {
-        "name": "Trigger Heart - Sin Devil Trigger: Combo",
-        "button_press": " Sin Devil Trigger Form + Tap Basic Attack",
+        "name": "Trigger Heart - SDT Combo",
+        "button_press": " SDT Form + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Attacks the target, dealing a total of 1500% Fire DMG.",
-        "desc_lv18": []
+        "description": "Attacks the target, dealing **{0}%** Fire DMG.",
+        "desc_lv18": [1500]
       },
       {
         "name": "Trigger Heart - Dance Macabre",
-        "button_press": "Wielding Devil Sword Dante + Press and Hold Basic Attack",
+        "button_press": "With Devil Sword Dante + Press and Hold Basic Attack",
         "switch_in": "no",
-        "description": "Races forwards and thrusts continuously, dealing Fire DMG and generating a Summoned Sword to attack the enemy.",
+        "description": "Performs multiple attacks with Devil Sword Dante, dealing Fire DMG while summoning Conjured Swords to attack the enemy.",
         "desc_lv18": [],
         "result": [
-          "- If cast when Devil Trigger Gauge is not full, deals a total of 540% Fire DMG.",
-          "- If cast when Devil Trigger Gauge is full, consumes all Devil Trigger Gauge, gathers targets and deals a total of 2150% Fire DMG. Gains Super Armor and 80% DMG Reduction while this skill is cast. After casting, gains 50 Signature Energy and 200 Judgement Points. During this skill, Dante is unable to cast Sin Devil Trigger. If a Devil Sword Mark is active when cast, Base DMG increases by 100%.",
-          "- The maximum of Devil Trigger Gauge is 120 points."
+          "- If DT is not full when casting, deals a total of **{0}%** Fire DMG.",
+          "- If DT is full when casting, consumes all DT to pull in targets and deal a total of **{1}%** Fire DMG. Gains Super Armor and 80% DMG Reduction but cannot cast Sin Devil Trigger in the process. Gains 50 Signature Energy and 200 Judgment Points after casting. If Dante possesses a Devilsword Mark when casting, Base DMG increases by 100%.",
+          "- DT is capped at 120 points."
         ],
-        "res_lv18": []
+        "res_lv18": [540,2150]
       },
       {
         "name": "Trigger Heart - Real Impact",
-        "button_press": "Wielding Balrog + Press and Hold Basic Attack",
+        "button_press": "With Balrog + Press and Hold Basic Attack",
         "switch_in": "no",
-        "description": "Charges and unleashes Divine Dragon, dealing damage and generating a Summoned Sword to attack the enemy.",
+        "description": "Charges and releases the Rising Dragon, dealing DMG while summoning Conjured Swords to attack the enemy.",
         "desc_lv18": [],
         "result": [
-          "- If cast when Devil Trigger Gauge is not full, deals a total of 105%/420%/750% Fire DMG based on the time charged. If an Ignition Mark is active when cast, deals 105%/420%/750% Ignition DMG instead.",
-          "- If cast when Devil Trigger Gauge is full, consumes all Devil Trigger Gauge, gathers targets and deals a total of 1960% Fire DMG. If an Ignition Mark is active when cast, deals 2800% Ignition DMG instead and applies 1000 Combustible Charges. Gains Super Armor and 80% DMG Reduction while this skill is cast. After casting, gains 50 Signature Energy and 200 Judgement Points. During this skill, Dante is unable to cast Sin Devil Trigger.",
-          "- The maximum of Devil Trigger Gauge is 120 points."
+          "- If DT is not full when casting, deals a total of **{0}%/{1}%/{2}%** Fire DMG based on the time charged. If an Ignition Mark is active when cast, deals **{3}%/{4}%/{5}%** Ignition DMG instead.",
+          "- If DT is full when casting, consumes all DT to pull in targets and deal a total of **{6}%** Fire DMG. If Dante possesses an Ignition Mark when casting, deals **{7}%** Ignition DMG instead and applies 1000 points of Combustible Charge. Gains Super Armor and 80% DMG Reduction but cannot cast Sin Devil Trigger in the process. Gains 50 Signature Energy and 200 Judgment Points after casting.",
+          "- DT is capped at 120 points."
         ],
-        "res_lv18": []
+        "res_lv18": [105,420,750,105,420,750,1960,2800]
       }
     ],
     "red_orb": [
       {
-        "name": "Devil Sword Dante - Weapon Switch",
-        "button_press": "Not wielding Devil Sword Dante + Tap Red Orb",
+        "name": "Devil Sword Dante - Weapon Switching",
+        "button_press": "Without Devil Sword Dante + Tap Red Orb",
         "switch_in": "no",
-        "description": "Switches weapon to Devil Sword Dante.",
+        "description": "Switches to Devil Sword Dante.",
         "result": [],
         "res_lv18": []
       },
       {
         "name": "Devil Sword Dante - Stinger",
-        "button_press": "Wielding Devil Sword Dante + Tap Red Orb",
+        "button_press": "With Devil Sword Dante + Tap Red Orb",
         "switch_in": "no",
-        "description": "Steps forward and skewers the enemy, dealing Fire DMG and generating a Summoned Sword to attack the enemy. After casting, gains Devil Trigger Gauge.",
+        "description": "Lunges forward, while summoning Conjured Swords to attack the enemy. Deals Fire DMG and gains DT upon cast.",
         "result": [
-          "- Deals 125%/250%/375% Fire DMG based on the number of orbs pinged; if no orbs were pinged, deals 100% Fire DMG. Gains 60 Devil Trigger Gauge."
+          "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{3}%** Fire DMG and gains 60 DT."
         ],
-        "res_lv18": []
+        "res_lv18": [125,250,375,100]
       },
       {
         "name": "Devil Sword Dante - Million Stab ",
-        "button_press": "Wielding Devil Sword Dante + During Stinger + Tap Red Orb",
+        "button_press": "With Devil Sword Dante + During Stinger + Tap Red Orb",
         "switch_in": "no",
-        "description": "Races forwards and thrusts continuously, dealing Fire DMG and generating a Summoned Sword to attack the enemy. After casting, gains Devil Trigger Gauge.",
+        "description": "Rapidly performs multiple forward stabs, while summoning Conjured Swords to attack the enemy. Deals Fire DMG and gains DT upon cast.",
         "result": [
-          "- Deals 345%/690%/1035% Fire DMG based on the number of orbs pinged; if no orbs were pinged, deals 225% Fire DMG. Gains 60 Devil Trigger Gauge."
+          "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{3}%** Fire DMG and gains 60 DT."
         ],
-        "res_lv18": []
+        "res_lv18": [345,690,1035,225]
       },
       {
-        "name": "Devil Sword Dante - Full Drive",
-        "button_press": " Wielding Devil Sword Dante + Press and Hold Red Orb",
+        "name": "Devil Sword Dante - Over Drive",
+        "button_press": " With Devil Sword Dante + Press and Hold Red Orb",
         "switch_in": "no",
-        "description": "Alternates sword swings that send shockwaves, continuously consuming orbs to deal Fire DMG and generating a Summoned Sword to attack the enemy. After casting, gains Devil Trigger Gauge.",
+        "description": "Swings the sword multiple times to unleash shockwaves, consuming Signal Orbs over time, while summoning Conjured Swords to attack the enemy. Deals Fire DMG and gains DT upon cast.",
         "result": [
-          "- The first shockwave deals 90%/180%/270% Fire DMG based on the number of orbs pinged, if no orbs were pinged, deals 80% Fire DMG. Gains 60 Devil Trigger Gauge.",
-          "- The second shockwave deals 225%/450%/675% Fire DMG based on the number of orbs pinged; if no orbs were pinged, deals 200% Fire DMG. Gains 60 Devil Trigger Gauge."
+          "- At Lv.1 charge, deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{3}%** Fire DMG and grants 60 DT.",
+          "- At Lv.2 charge, deals **{4}%/{5}%/{6}%** Fire DMG based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{7}%** Fire DMG and grants 60 DT."
         ],
-        "res_lv18": []
+        "res_lv18": [90,180,270,80,225,450,675,200]
       },
       {
         "name": "Devil Sword Dante - Helm Breaker",
-        "button_press": "Midair + Wielding Devil Sword Dante + Tap Red Orb",
+        "button_press": "Midair + With Devil Sword Dante + Tap Red Orb",
         "switch_in": "no",
-        "description": "Strikes downward, dealing Fire DMG and generating a Summoned Sword to attack the enemy. After casting, gains Devil Trigger Gauge.",
+        "description": "Performs a downward slash, dealing Fire DMG while summoning Conjured Swords to attack the enemy. Gains DT upon cast.",
         "result": [
-          "- Deals 80%/160%/240% Fire DMG based on the number of orbs pinged; if no orbs were pinged, deals 70% Fire DMG. Gains 60 Devil Trigger Gauge."
+          "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{3}%** Fire DMG and gains 60 DT."
         ],
-        "res_lv18": []
+        "res_lv18": [80,160,240,70]
       }
     ],
     "yellow_orb": [
       {
-        "name": "Dr. Faust - Red Hot Night - Accumulate",
+        "name": "Dr. Faust - Red Hot Night - Charge",
         "button_press": "Tap/Press and Hold Yellow Orb",
         "switch_in": "no",
-        "description": "Puts on Dr. Faust and starts charging, gaining Devil Trigger Gauge. Charging mode continuously consumes Signal Orbs and triggers Matrix if it is not on cooldown. Gains Super Armor and 99% DMG Reduction while this skill is cast.",
+        "description": "Puts on Dr. Faust and starts charging, obtaining DT. While charging, automatically consumes Signal Orbs. Triggers Matrix if it is not on cooldown and gains Super Armor and 99% DMG Reduction.",
         "result": [
-          "- Gains 30 Devil Trigger Gauge for every 0.3s charged.",
-          "- Consumes a maximum of 12 Signal Orbs."
+          "- For every 0.3s charged, gains 30 DT.",
+          "- Pings up to 12 Signal Orbs."
         ],
         "res_lv18": []
       },
       {
         "name": "Dr. Faust - Red Hot Night - Burst",
-        "button_press": "Press and Hold Yellow Orb and Release",
+        "button_press": "Press and Hold and Release Yellow Orb",
         "switch_in": "no",
-        "description": "Consumes all current Devil Trigger Gauge and summons falling meteorites, gathering targets and dealing Fire DMG. Becomes invincible while this skill is cast.",
+        "description": "Consumes all DT, pulling in enemies and summoning meteors that slam onto them, dealing Fire DMG. Dante is Invincible while casting this move.",
         "result": [
-          "- Deals 200% Fire DMG, and an additional 580% Fire DMG for every 30 Devil Trigger Gauge consumed by Red Hot Night - Accumulate."
+          "- Deals **{0}%** Fire DMG. For every 3 Signal Orbs pinged during Red Hot Night - Charge, deals an additional **{1}%** Fire DMG."
         ],
-        "res_lv18": []
+        "res_lv18": [200,580]
       },
       {
-        "name": "Dr. Faust - Hat's Off",
+        "name": "Dr. Faust - Set Hat",
         "button_press": " Midair + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Tosses Dr. Faust, dealing Fire DMG. After casting, gains Devil Trigger Gauge.",
+        "description": "Throws out Dr. Faust, dealing Fire DMG. Gains DT upon cast.",
         "result": [
-          "- Deals 120%/240%/360% Fire DMG based on the number of orbs pinged. If no orbs are pinged, deals 90% Fire DMG and gains 60 Devil Trigger Gauge.",
-          "- Cast again to catch Dr. Faust, dealing 240%/480%/720% Fire DMG to enemies struck by the previous attack based on the number of orbs pinged. If no orbs were pinged, deals 210% Fire DMG and gains 60 Devil Trigger Gauge."
+          "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{3}%** Fire DMG and gains 60 DT.",
+          "- Casts the skill again to retrieve Dr. Faust and deal **{4}%/{5}%/{6}%** Fire DMG to enemies it previously hit based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{7}%** Fire DMG and gains 60 DT."
         ],
-        "res_lv18": []
+        "res_lv18": [120,240,360,90,240,480,720,210]
       }
     ],
     "blue_orb": [
       {
-        "name": "Balrog - Weapon Switch",
-        "button_press": "Not wielding Balrog + Tap Blue Orb",
+        "name": "Balrog - Weapon Switching",
+        "button_press": "Without Balrog + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Switches weapon to Balrog.",
+        "description": "Switches to Balrog.",
         "result": [],
         "res_lv18": []
       },
       {
         "name": "Balrog - Heavy Jolt",
-        "button_press": "Wielding Balrog + Tap Blue Orb",
+        "button_press": "With Balrog + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Punches forward, dealing Fire DMG and generating a Summoned Sword to attack the enemy. After casting, gains Devil Trigger Gauge.",
+        "description": "Throws a punch forward, while summoning Conjured Swords to attack the enemy. Deals Fire DMG based on the number of orbs pinged. Gains DT upon cast.",
         "result": [
-          "- Deals 150%/300%/450% Fire DMG based on the number of orbs pinged; if no orbs were pinged, deals 130% Fire DMG. Gains 60 Devil Trigger Gauge."
+          "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{3}%** Fire DMG and gains 60 DT."
         ],
-        "res_lv18": []
+        "res_lv18": [150,300,450,130]
       },
       {
-        "name": "Balrog - Divine Dragon",
-        "button_press": "Wielding Balrog + During Heavy Jolt + Tap Blue Orb",
+        "name": "Balrog - Fly Dragon",
+        "button_press": "With Balrog + During Heavy Jolt + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Sends out an uppercut, dealing Fire DMG and generating a Summoned Sword to attack the enemy. After casting, gains Devil Trigger Gauge.",
+        "description": "Pounds enemies into the air with an uppercut, dealing Fire DMG while summoning Conjured Swords to attack the enemy. Gains DT upon cast.",
         "result": [
-          "- Deals 80%/160%/240% Fire DMG based on the number of orbs pinged; if no orbs were pinged, deals 60% Fire DMG. Gains 60 Devil Trigger Gauge."
+          "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{3}%** Fire DMG and gains 60 DT."
         ],
-        "res_lv18": []
+        "res_lv18": [80,160,240,60]
       },
       {
         "name": "Balrog - Break Spiral",
-        "button_press": "Wielding Balrog + Press and Hold Blue Orb",
+        "button_press": "With Balrog + Press and Hold Blue Orb",
         "switch_in": "no",
-        "description": "Performs a spin attack from the ground, continuously consuming Signal Orbs to deal Fire DMG and generating a Summoned Sword to attack the enemy. After casting, gains Devil Trigger Gauge.",
+        "description": "Dazzles the dance floor, consuming Signal Orbs over time, dealing Fire DMG while summoning Conjured Swords to attack the enemy. Gains DT upon cast.",
         "result": [
-          "- Deals 650%/1300%/1950% Fire DMG based on the number of orbs pinged; if no orbs were pinged, deals 515% Fire DMG. Gains 60 Devil Trigger Gauge."
+          "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{3}%** Fire DMG and gains 60 DT."
         ],
-        "res_lv18": []
+        "res_lv18": [650,1300,1950,515]
       },
       {
         "name": "Balrog - Firestorm",
-        "button_press": " Midair + Wielding Balrog + Tap Blue Orb",
+        "button_press": " Midair + With Balrog + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Attacks with Balrog, dealing Fire DMG and generating a Summoned Sword to attack the enemy. After casting, gains Devil Trigger Gauge.",
+        "description": "Attacks with Balrog, dealing Fire DMG while summoning Conjured Swords to attack the enemy. Gains DT upon cast.",
         "result": [
-          "- Deals 130%/260%/390% Fire DMG based on the number of orbs pinged; if no orbs were pinged, deals 110% Fire DMG. Gains 60 Devil Trigger Gauge."
+          "- Deals **{0}%/{1}%/{2}%** Fire DMG based on the number of orbs pinged. If no Signal Orbs are pinged, deals **{3}%** Fire DMG and gains 60 DT."
         ],
-        "res_lv18": []
+        "res_lv18": [130,260,390]
       }
     ],
     "core_passive": {
-      "name": "Devil Hunting Expertise",
+      "name": "Devil Hunter Skill",
       "skills": [
         {
           "name": "Devil Arm Energy",
           "button_press": "",
           "description": [
-            "Gains Devil Arm Energy when consuming Signal Orbs through Devil Sword Dante, Dr. Faust, and Balrog, or casting Devil Sword Dante: Combo and Balrog: Combo. When Devil Arm Energy is full, casting Dance Macabre, Real Impact, or Red Hot Night will consume Devil Arm Energy and enhance the skill."
+            "When pinging Signal Orbs via Devil Sword Dante, Dr. Faust, or Balrog, or when casting DSD Combo or Balrog Combo, gains Devil Arm Energy. When Devil Arm Energy is full, spends Devil Arm Energy to enhance the effects of Dance Macabre, Real Impact, and Red Hot Night."
           ],
           "result": [
-            "- Fully casting Devil Sword Dante: Combo and Balrog: Combo grants 4/1 Devil Arm Energy.",
-            "- Casting Devil Sword Dante, Dr. Faust: Hat's Off, and Balrog grants 1/2/6 Devil Arm Energy based on the number of orbs pinged; Dr. Faust: Red Hot Night - Accumulate grants 1 Devil Arm Energy for every Signal Orb consumed.",
-            "- When Dance Macabre is cast with full Devil Trigger Gauge, if Devil Arm Energy is full, immediately consumes all and grants 40 Signature Energy, 400 Judgement Points and a Devil Sword Mark."
+            "- A complete DSD Combo/Balrog Combo grants 4/1 points of Devil Arm Energy respectively.",
+            "- When casting Devil Sword Dante/Dr. Faust - Set Hat/Balrog, gains 1/2/6 points of Devil Arm Energy based on the number of orbs pinged. For every Signal Orb pinged during Dr. Faust: Red Hot Night - Charge, gains 1 Devil Arm Energy.",
+            "- When casting Dance Macabre with full DT, if Devil Arm Energy is full, spends all of it and gains 40 Signature Energy, 400 Judgement Points, and a Devilsword Mark"
           ],
           "res_lv18": [],
           "result2": [
-            "- When Real Impact is cast with full Devil Trigger Gauge, if Devil Arm Energy is full, immediately consumes all and grants 40 Signature Energy, 400 Judgement Points, and an Ignition Mark.",
-            "- Casting Dr. Faust: Red Hot Night - Burst with full Devil Trigger Gauge will consume all Devil Arm Energy and grant 25 Judgement Points for every 1 point consumed. The current Dr. Faust: Red Hot Night - Burst and the Base DMG of the next Sin Devil Trigger increases by 12.5%, stacking up to 150%. When cast with maximum stacks, grants an additional 28 Signature Energy.",
-            "- Can store up to 12 points of Devil Arm Energy."
+            "- When casting Real Impact with full DT, if Devil Arm Energy is full, spends all of it and gains 40 Signature Energy, 400 Judgement Points, and an Ignition Mark.",
+            "- When casting Dr. Faust: Red Hot Night - Burst, if DT is full, spends all Devil Arm Energy and gains 25 Judgement Points for every Devil Arm Energy spent, and the Base DMG of this cast of Dr. Faust: Red Hot Night - Burst and the next cast of Sin Devil Trigger increases by 12.5%, up to 150%. When cast at maximum charge, gains an additional 28 Signature Energy.",
+            "- Up to 12 Devil Arm Energy can be possessed at a time."
           ]
         },
         {
           "name": "Devil Arms Mastery",
           "button_press": "",
           "description": [
-            "Gains 3 Signal Orbs upon entering the battlefield. Dante gains different enhancement effects based on his active mark."
+            "Gains 3 Signal Orbs upon entering battle. Dante gains different enhancements when he possesses different Marks."
           ],
           "result": [
-            "- Devil Sword Mark: When Devil Trigger Gauge is full, Base DMG of Dance Macabre, Sin Devil Trigger - Phantom Jab, Sin Devil Trigger - Flamboyant Barrage, and Sin Devil Trigger - Extinguished Shadow increases by 100%",
-            "- Ignition Mark: For every Ignition stack on the enemy, Base DMG of Real Impact, Sin Devil Trigger - Phantom Jab, Sin Devil Trigger - Flamboyant Barrage, and Sin Devil Trigger - Extinguished Shadow increases by 5%. Dealing damage to an Ignited enemy extends the duration of Ignition status by 0.9s. This effect can only be triggered on each enemy once. Activating Ignition status again will refresh the trigger limit",
-            "- Dante can only have 1 active mark at a time."
-          ],
-          "res_lv18": []
-        },
-        {
-          "name": "Sin Devil Trigger Gauge",
-          "button_press": "Placeholder",
-          "description": [
-            "Consumes the Sin Devil Trigger Gauge, deals damage, and gains Judgement Points. Triggers Matrix if it is not on cooldown."
-          ],
-          "result": [
-            "- Press and hold Red/Blue Orb to cast a Sin Devil Trigger skill, gaining 38 Signature Energy and 100 Judgement Points for every 30 Sin Devil Trigger Gauge consumed.",
-            "- Holding Red Orb casts Sin Devil Trigger - Phantom Jab, gathering nearby targets and dealing 630% Fire DMG; if an Ignition Mark is active, deals 910% Ignition DMG instead, applies 1000 Combustible Charges, and gains 80% DMG Reduction while this skill is cast.",
-            "- Holding Blue Orb casts Sin Devil Trigger - Flamboyant Barrage, dealing 630% Fire DMG; if an Ignition Mark is active, deals 910% Ignition DMG instead, applies 1000 Combustible Charges, and gains 80% DMG Reduction while this skill is cast."
-          ],
-          "res_lv18": [],
-          "result2": [
-            "- When Devil Trigger Gauge is at 120 points, tap Yellow Orb to consume all Devil Trigger Gauge and cast Sin Devil Trigger - Extinguished Shadow, gaining 152 Signature Energy and 400 Judgement Points. Sin Devil Trigger - Extinguished Shadow gathers targets in a wide range and deals 2300% Fire DMG; if an Ignition Mark is active, deals 3100% Ignition DMG instead, applies 4000 Combustible Charges, and gains 80% Reduction while this skill is cast.",
-            "- The maximum of Sin Devil Trigger Gauge is 120 points."
+            "- Devilsword Mark: Base DMG of Dance Macabre at full DT, SDT - Sin Stinger, SDT - The Luce, and SDT - Demolition increases by 100%.",
+            "- Ignition Mark: For every stack of Ignition on the enemy, Base DMG of Real Impact at full DT, SDT - Sin Stinger, SDT - The Luce, and SDT - Demolition increases by 5%. When dealing DMG to enemies with Ignition, extends the duration of Ignition by 0.9s. Triggers up to once per enemy, with trigger count resetting when the enemy is inflicted with Ignition once again.",
+            "- Dante can only possess one Mark at a time."
           ]
         },
         {
-          "name": "Royalguard",
-          "button_press": "Not moving Joystick + Dodge",
+          "name": "SDT",
+          "button_press": "",
           "description": [
-            "Blocks the enemy's attack. Press and hold Dodge to continuously consume Dodge Gauge, then let go to perform a Release that deals Fire DMG."
+            "Spends SDT, dealing DMG and gaining Judgement Points. Upon cast, triggers Matrix if it is not on cooldown."
           ],
           "result": [
-            "- Release deals 90% Fire DMG. If this skill successfully blocks an enemy's attack, triggers Perfect Release and deals 120% Fire DMG.",
-            "- Holding Dodge consumes 60 Dodge Gauge per second."
+            "- Press and hold Red/Blue Orbs to cast SDT Skills. Every 30 points of SDT spent grants 38 Signature Energy and 100 Judgement Points.",
+            "- Press and hold Red Orbs to cast SDT - Sin Stinger, gathering nearby targets and dealing **{0}%** Fire DMG. If Dante possesses an Ignition Mark upon casting, deals **{1}%** Ignition DMG and gains 1000 points of Combustible Charge instead. Gains 80% DMG Reduction while casting.",
+            "- Press and hold Blue Orbs to cast SDT - The Luce, dealing **{2}%** Fire DMG. If Dante possesses an Ignition Mark upon casting, deals **{3}%** Ignition DMG and gains 1000 points of Combustible Charge instead. Gains 80% DMG Reduction while casting."
           ],
-          "res_lv18": []
+          "res_lv18": [630,910,630,910],
+          "result2": [
+            "- When there are 120 points of DT, tap Yellow Orbs to spend all DT to cast SDT - Demolition, gaining 152 Signature Energy and 400 Judgement Points. SDT - Demolition gathers targets in a large area and deals 2300% Fire DMG. If Dante possesses an Ignition Mark upon casting, deals 3100% Ignition DMG and gains 4000 points of Combustible Charge instead. Gains 80% DMG Reduction while casting.",
+            "- SDT is capped at 120 points."
+          ],
+          "res2_lv18": [2300,3100]
+        },
+        {
+          "name": "Royal Guard",
+          "button_press": "Do Not Move Joystick + Dodge",
+          "description": [
+            "Blocks an enemy's attack. Pressing and holding Dodge continuously depletes Dodge Gauge. Release the block to deal Fire DMG in retaliation."
+          ],
+          "result": [
+            "- Deals **{0}%** Fire DMG. If released right when an enemy is attacking, triggers a Royal Release instead, dealing **{1}%** Fire DMG.",
+            "- While pressing and holding Dodge, consumes 60 Dodge Gauge every second."
+          ],
+          "res_lv18": [90,120]
         },
         {
           "name": "Trickster",
           "button_press": "Move Joystick + Press and Hold Dodge",
           "description": [
-            "From the ground, teleports into the air above the enemy."
+            "When cast on the ground, blinks above the enemy."
           ]
         },
         {
-          "name": "Air Trick",
+          "name": "High Time",
           "button_press": "Human Form + Tap Jump",
           "description": [
-            "Jumps. If in midair, press and hold to teleport down in front of the enemy."
+            "Jumps upward. When cast midair, press and hold to blink to the ground below the enemy."
           ],
           "result": [
-            "- If cast on the ground by holding Jump, performs an upward strike that deals 150% Fire DMG.",
-            "- While in midair, recover Dodge Gauge 3 times faster."
+            "- If held when casting on the ground, launches an enemy into the air instead, dealing **{0}%** Fire DMG.",
+            "- When in midair, Dodge Gauge refills 300% faster."
           ],
-          "res_lv18": []
+          "res_lv18": [150]
         },
         {
-          "name": "Activate Firearms",
-          "button_press": "Tap Firearms Button",
+          "name": "Fire Weapons",
+          "button_press": "Tap Fire Weapons",
           "description": ["Shoots the enemy, dealing Fire DMG."],
           "result": [
-            "- When in Human Form and on the ground, deals 120% Fire DMG with Devil Sword Dante equipped. Deals 180% Fire DMG with Balrog equipped; moving the joystick while casting will deal 200% Fire DMG instead.",
-            "- When in Human Form and midair, deals 120% Fire DMG with Devil Sword Dante equipped; moving the joystick will deal 260% Fire DMG instead. Deals 180% Fire DMG with Balrog equipped.",
-            "- When in Sin Devil Trigger Form, deals 120% Fire DMG."
+            "- If cast on the ground in Human Form while using Devil Sword Dante, deals **{0}%** Fire DMG. If cast while using Balrog, deals **{1}%** Fire DMG. If moving the joystick upon casting, deals **{2}}%** Fire DMG instead.",
+            "- If cast midair in Human Form while using Devil Sword Dante, deals **{3}%** Fire DMG. If moving the joystick upon casting, deals **{4}%** Fire DMG instead. If cast while using Balrog, deals **{5}%** Fire DMG.",
+            "- If SDT Form is active when casting, deals **{6}%** Fire DMG."
           ],
-          "res_lv18": []
+          "res_lv18": [120,180,200,120,260,180]
         },
         {
-          "name": "Taunt ",
-          "button_press": "Human Form + Midair + Press and Hold Core Passive gauge",
-          "description": ["Throws roses at the enemy. "]
+          "name": "Provocation ",
+          "button_press": "Human Form + Midair + Press and Hold Core Passive Bar",
+          "description": ["Throws a rose at the enemy. "]
         },
         {
-          "name": "Summoned Sword",
-          "button_press": "Human Form + Tap Core Passive gauge ",
+          "name": "Conjured Swords",
+          "button_press": "Human Form + Not Midair + Tap Core Passive Bar ",
           "description": [
-            "Generates a Summoned Sword to thrust upwards at the enemy, dealing 1% Fire DMG. "
+            "Summons Conjured Swords to deal 1% Fire DMG."
           ],
           "result": [
-            "- When in Human Form, tap the Core Passive gauge to generate a Summoned Sword that knocks the enemy into the air. If the joystick is moving while this skill is cast, the Summoned Sword will pierce the enemy instead."
+            "- When in Human Form, tapping Core Passive Bar summons Conjured Swords that launch the enemy into the air. If moving the joystick upon casting, Conjured Swords thrust at the enemy instead."
           ]
         },
         {
@@ -13907,77 +13910,76 @@
           "name": "Sin Devil Trigger",
           "button_press": "125 Signature Energy + Human Form + Tap Signature",
           "description": [
-            "Summons the Devil Sword Dante to stab himself and enter Sin Devil Trigger Form, dealing Fire DMG and transforming the Devil Trigger Gauge into the Sin Devil Trigger Gauge with maximum points. Triggers Time Lag Calculation while this skill is cast."
+            "Devil Sword Dante gets summoned and pierces through Dante, activating Dante's SDT Form and dealing Fire DMG. DT is converted into SDT, immediately filling SDT Gauge. Triggers Time Lag Calculation when casting."
           ],
           "result": [
-            "- Deals 750% Fire DMG. If an Ignition Mark is active, deals 930% Ignition DMG instead.",
-            "- In Sin Devil Trigger Form, Dante gains Super Armor; tap the Core Passive Gauge to exit Sin Devil Trigger Form."
+            "- Deals **{0}%** Fire DMG. If Dante possesses an Ignition Mark, deals **{1}%** Ignition DMG instead.",
+            "- While SDT Form is active, Dante gains Super Armor. Tap Core Passive Bar to make Dante exit SDT Form."
           ],
-          "res_lv18": []
+          "res_lv18": [750,930]
         },
         {
-          "name": "Sin Devil Trigger - Ultimate",
+          "name": "SDT - Finishing Move",
           "button_press": "125 Signature Energy + Human Form + Press and Hold Signature",
           "description": [
-            "Consumes all Judgement Points, dealing damage and clearing all Devil Trigger Gauge. Triggers Time Lag Calculation while this skill is cast."
+            "Consumes all Judgment Points, dealing Fire DMG and clearing all DT. Triggers Time Lag Calculation when casting."
           ],
           "result": [
-            "- Casts Sin Devil Trigger - Sin Inferno. If Judgement Points are greater than 800, Sin Devil Trigger - Judgement will be cast instead."
+            "- When casting SDT - Sin Inferno, if Dante possesses 800 or more Judgment Points, SDT - Final Judgment will be cast instead."
           ],
           "res_lv18": []
         },
         {
-          "name": "Sin Devil Trigger - Sin Inferno",
-          "button_press": "Sin Devil Trigger Form + 125 Signature Energy + Tap Signature",
+          "name": "SDT - Sin Inferno",
+          "button_press": "125 Signature Energy + SDT Form + Tap Signature",
           "description": [
-            "Leaps into the air and smashes the earth, consuming all Judgement Points and dealing damage. Triggers Time Lag Calculation while this skill is cast. If the Field Ultralimit effect is active, its duration is refreshed."
+            "Leaps into the air and slams onto the ground, consuming all Judgment Points, dealing DMG. Triggers Time Lag Calculation when casting. If Field Ultralimit is active while casting, resets its duration."
           ],
           "result": [
-            "- Deals 1500% Fire DMG.",
-            "- If an Ignition Mark is active, deals 1500% Ignition DMG instead, and turns Combustible state into Ignition state of equal stacks.",
-            "- If in Sin Devil Trigger Form when this skill is cast, immediately exits and clears the Sin Devil Trigger Gauge.",
-            "- Clears Devil Sword Mark and Ignition Mark after casting."
+            "- Deals **{0}%** Fire DMG.",
+            "- If Dante possesses an Ignition Mark, deals **{1}%** Ignition DMG instead and converts all Combustible into Ignition of equal stacks.",
+            "- If SDT Form is active when casting, exits the form immediately and all SDT will be cleared.",
+            "- Upon casting, removes Devilsword Mark and Ignition Mark."
           ],
-          "res_lv18": []
+          "res_lv18": [1500,1500]
         },
         {
-          "name": "Sin Devil Trigger - Judgement",
-          "button_press": "Sin Devil Trigger Form + 125 Signature Energy + Greater than 800 Judgement Points + Tap Signature",
+          "name": "SDT - Final Judgement",
+          "button_press": "125 Signature Energy + SDT Form + Judgement Points above 800 + Tap Signature",
           "description": [
-            "Delivers judgement upon the enemy, consuming all Judgement Points and dealing damage. Triggers Time Lag Calculation while this skill is cast. If the Field Ultralimit effect is active, its duration is refreshed."
+            "Passes judgement on enemies, spending all Judgement Points and dealing DMG. Triggers Time Lag Calculation when casting. If Field Ultralimit is active while casting, resets its duration."
           ],
           "result": [
-            "- Deals 2100% Fire DMG.",
-            "- If an Ignition Mark is active, deals 2100% Ignition DMG instead, and turns Combustible state into Ignition state of equal stacks.",
-            "- If in Sin Devil Trigger Form when this skill is cast, immediately exits and clears the Sin Devil Trigger Gauge.",
-            "- Clears Devil Sword Mark and Ignition Mark after casting."
+            "- Deals 750% Fire DMG.",
+            "- If Dante possesses an Ignition Mark, deals 930% Ignition DMG instead and converts all Combustible stacks into Ignition of equal stacks.",
+            "- If SDT Form is active when casting, exits the form immediately and all SDT will be cleared.",
+            "- Upon casting, removes Devilsword Mark and Ignition Mark."
           ],
-          "res_lv18": []
+          "res_lv18": [2100,2100]
         },
         {
           "name": "Judgement Points",
           "button_press": "",
           "description": [
-            "When Sin Devil Trigger - Sin Inferno and Sin Devil Trigger - Judgement are cast, they gain enhancement effects based on the amount of Judgement Points consumed."
+            "When casting SDT - Sin Inferno and SDT - Final Judgement, gains effects based on Judgement Points consumed."
           ],
           "result": [
-            "- Every 5 Judgement Points increases the Base DMG of Sin Devil Trigger - Sin Inferno and Sin Devil Trigger - Judgement by 0.75%.",
-            "- If an Ignition Mark is active and the number of Ignition stacks reaches 4/8/12/16/20, every 5 Judgement Points increases the Base DMG of Sin Devil Trigger - Sin Inferno and Sin Devil Trigger - Judgement by 0.24%/0.48%/0.72%/0.96%/1.2%. ",
-            "- If Judgement Points are full, the Base DMG of Sin Devil Trigger - Judgement increases by 50%. If an Ignition Mark is active, Base DMG increases by 80% instead.",
-            "- The maximum of Judgement Points is 1000."
-          ],
-          "res_lv18": []
+            "- Every 5 Judgement Points spent increases the Base DMG of SDT - Sin Inferno and SDT - Final Judgement by 0.75%.",
+            "- If Dante possesses an Ignition Mark, every 5 Judgement Points spent increases the Base DMG of SDT - Sin Inferno and SDT - Final Judgement by 0.24%/0.48%/0.72%/0.96%/1.2% when there are 4/8/12/16/20 stacks of Ignition.",
+            "- If cast at full Judgement Points, Base DMG of SDT - Final Judgement increases by 50%. If Dante possesses an Ignition Mark, Base DMG increases by 80% instead.",
+            "- Judgement Points are capped at 1000."
+          ]
         }
       ]
     },
     "qte": {
       "name": "Dance Macabre - Flash",
-      "description": "Hits the target with his sword, dealing a total of **{0}%** Fire DMG.",
+      "description": "Swings the sword to attack the target, dealing a total of **{0}%** Fire DMG.",
       "desc_lv18": [600]
     },
     "leader": {
-      "name": "Legendary Devil Hunter",
-      "description": "Increases Fire DMG and Ignition DMG of all members by 10%. Increases ATK of all Attacker Omniframes by 10%."
+      "name": "The Legendary Devil Hunter",
+      "description": "Increases Fire DMG and Ignition DMG of all members by 10%. Increases ATK of all Attackers in the team by 10%."
     },
     "class": {
       "name": "Attacker",
@@ -13985,28 +13987,28 @@
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Heart for Humanity",
+      "name": "Concealed Kindness",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Casting Sin Devil Trigger and Red Hot Night - Burst, and Dance Macabre and Real Impact with full Devil Trigger Gauge, triggers all available QTEs."
+          "desc": "When casting Sin Devil Trigger, Red Hot Night - Burst, or Dance Macabre and Real Impact at full DT, activates all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "After casting Sin Devil Trigger - Sin Inferno or Sin Devil Trigger - Judgement and switching out of the battlefield, Dante enters Off-Field State, launching an attack every 2s that deals 2000% Fire DMG. After 4 attacks, Dante exits the state. Base DMG of Sin Devil Trigger - Phantom Jab, Sin Devil Trigger - Flamboyant Barrage, and Sin Devil Trigger - Extinguished Shadow increases by 120%."
+          "desc": "After casting SDT - Sin Inferno or SDT - Final Judgement, Dante enters Departed State upon leaving the field, launching attacks every 2s, dealing 2000% Fire DMG and will exit this state after 4 attacks. Base DMG of SDT - Sin Stinger, SDT - The Luce, and SDT - Demolition increases by 120%."
         }
       ]
     },
     "sss_rank": {
-      "name": "Undying Justice",
+      "name": "Immortal Justice",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "After casting Sin Devil Trigger - Sin Inferno or Sin Devil Trigger - Judgement, Base DMG of QTE increases by 1000% throughout the battle. Base DMG of Devil Sword Dante, Dr. Faust, and Balrog increases by 100%. Base DMG of Dance Macabre and Real Impact with full Devil Trigger Gauge increases by 100%."
+          "desc": "After casting SDT - Sin Inferno or SDT - Final Judgement, Base DMG of QTE throughout the battle increases by 1000%. Base DMG of Devil Sword Dante, Dr. Faust, and Balrog increases by 100%. Base DMG of Dance Macabre and Real Impact cast at full DT increases by 100%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Dante's Extra DMG Bonus increases by 100% in Off-Field State. Base DMG multiplier of Sin Devil Trigger - Sin Inferno and Sin Devil Trigger - Judgement increases to 1.7x. If an Ignition Mark is active, increases to 2.1x."
+          "desc": "During Departed State, Dante's Extra DMG increases by 100%. Base DMG of SDT - Sin Inferno and SDT - Final Judgement increases by 1.7 times. If Dante possesses an Ignition Mark when casting the aforementioned skills, their Base DMG increases by 2.1 times instead."
         }
       ]
     },
@@ -14015,15 +14017,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Devil Sword Dante, Dr. Faust, and Balrog, and Dance Macabre and Real Impact with full Devil Trigger Gauge, increases by 70%."
+          "desc": "Extra DMG of Devil Sword Dante, Dr. Faust, and Balrog, as well as Dance Macabre and Real Impact cast at full DT increases by 70%."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of Sin Devil Trigger - Phantom Jab, Sin Devil Trigger - Flamboyant Barrage, and Sin Devil Trigger - Extinguished Shadow increases by 60%."
+          "desc": "Extra DMG of SDT - Sin Stinger, SDT - The Luce, and SDT - Demolition increases by 60%."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Sin Devil Trigger increases by 40%."
+          "desc": "Extra DMG of Sin Devil Trigger increases by 40%."
         }
       ]
     }
@@ -14031,127 +14033,127 @@
   "vergil": {
     "basic_attack": [
       {
-        "name": "Trigger Heart - Yamato: Combo",
-        "button_press": "Wielding Yamato + Tap Basic Attack",
+        "name": "Trigger Heart - Yamato Combo",
+        "button_press": "With Yamato + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Performs a 3-hit attack with Yamato, dealing a total of **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG in Sin Devil Trigger). After the 3-hit attack, continue tapping Basic Attack to perform a vertical slash, dealing **{2}%** Ultima Slash DMG (**{3}%** Ultima Slash DMG in Sin Devil Trigger). In Sin Devil Trigger, continue tapping Basic Attack after the 3-hit attack to perform a 3-hit slash, dealing a total of **{4}%** Ultima Slash DMG. If Sin Devil Trigger ends during this skill, deals a total of **{5}%** Ultima Slash DMG.",
+        "description": "Launches 3 attacks with Yamato, dealing a total of **{0}%** Ultima Slash DMG (or a total of **{1}%** Ultima Slash DMG in SDT Form). Keep tapping Basic Attack afterward to follow up with a vertical slash, dealing **{2}%** Ultima Slash DMG (or **{3}%** Ultima Slash DMG in SDT Form). Keep tapping Basic Attack afterward in SDT Form to follow up with a triple slash, dealing **{4}%** Ultima Slash DMG. If SDT Form ends during the process, then deals **{5}%** Ultima Slash DMG instead.",
         "desc_lv18": [300, 420, 160, 240, 520, 400],
         "result": [
-          "- In Sin Devil Trigger, each of the aforementioned Basic Attack segments can consume 1 Magic Orb (casting the skill in Matrix returns 2 Magic Orbs) to increase the Base DMG by 100% and restore 14 Signature Energy and 30 Blade Resolve.",
-          "After the 3-hit attack, wait a short duration before tapping Basic Attack to unleash an extended slash, dealing **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG in Sin Devil Trigger). After the extended slash, tap Basic Attack to unleash a horizontal slash, dealing **{2}%** Ultima Slash DMG (**{3}%** Ultima Slash DMG in Sin Devil Trigger)."
+          "- If Vergil is in SDT Form, each of the abovementioned Basic Attack will consume 1 Devil Soul (and restore 2 Devil Souls in Matrix status), increase Base DMG by 100%, and restore 14 Signature Energy and 30 JCE Points.",
+          "Shortly pause after the 3 attacks and tap Basic Attack to follow up with a chain slash, dealing **{0}%** Ultima Slash DMG (or **{1}%** Ultima Slash DMG in SDT Form). Tap Basic Attack afterward to follow up with a horizontal slash, dealing **{2}%** Ultima Slash DMG (or **{4}%** Ultima Slash DMG in SDT Form)."
         ],
         "res_lv18": [200, 300, 260, 400]
       },
       {
-        "name": "Trigger Heart - Beowulf: Combo",
-        "button_press": "Wielding Beowulf + Tap Basic Attack",
+        "name": "Trigger Heart - Beowulf Combo",
+        "button_press": "With Beowulf + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Performs a 4-hit attack with Beowulf. A final 5th hit can be performed in Sin Devil Trigger. Each hit can be charged, dealing **{0}%/{1}%/{2}%/{3}%** Physical DMG (**{4}%/{5}%/{6}%/{7}%** DMG in Sin Devil Trigger) when charged to Lv. 0~3.",
+        "description": "Launches 4 attacks with Beowulf, or 5 attacks if in SDT Form. Vergil can charge during each of these attacks and deal **{0}%/{1}%/{2}%/{3}%** Physical DMG (or **{4}%/{5}%/{6}%/{7}%** Physical DMG in SDT Form) based on Charge Level 0-3.",
         "desc_lv18": [100, 160, 320, 480, 160, 240, 480, 720],
         "result": [
-          "- In Sin Devil Trigger, every hit restores 9 Signature Energy and 5/10/20/30 Blade Resolve (based on the charge level)."
+          "- If Vergil is in SDT Form, each of these attacks will restore 9 Signature Energy and 5/10/20/30 JCE Points (based on Charge Level)."
         ]
       },
       {
-        "name": "Trigger Heart - Mirage Edge: Combo",
-        "button_press": " Wielding Mirage Edge + Tap Basic Attack",
+        "name": "Trigger Heart - Mirage Edge Combo",
+        "button_press": " With Mirage Edge + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Performs a 2-hit attack with Mirage Edge, dealing a total of **{0}%** Ultima Slash DMG (in Sin Devil Trigger, deals a total of **{1}%** Ultima Slash DMG, each hit restoring 30 Blade Resolve). After the 2-hit attack, continue tapping Basic Attack to perform a thrust, dealing **{2}%** Ultima Slash DMG (**{3}%** Ultima Slash DMG in Sin Devil Trigger).",
+        "description": "Launches a two-hit combo with Mirage Edge, dealing a total of **{0}%** Ultima Slash DMG (or a total of **{1}%** Ultima Slash DMG in SDT Form. Each hit restores 30 JCE Points.) Keep tapping Basic Attack afterward to follow up with a thrust, dealing **{2}%** Ultima Slash DMG (or **{3}%** Ultima Slash DMG in SDT).",
         "desc_lv18": [320, 480, 320, 480]
       },
       {
-        "name": "Trigger Heart - Skewer",
-        "button_press": "Wielding Mirage Edge + Dodge + Press and Hold Basic Attack or interrupted after 2-hit attack + Rapidly Tap Basic Attack",
+        "name": "Trigger Heart - Million Stab",
+        "button_press": "With Mirage Edge + Move Joystick + Dodge + Press and hold Basic Attack OR During the end lag of a two-hit combo + Quickly tap Basic Attack",
         "switch_in": "no",
-        "description": "Performs up to two consecutive thrusts, each dealing **{0}%** Ultima Slash DMG. After the thrusts ends, Finishing Stinger is automatically cast, dealing **{1}%** Ultima Slash DMG. In Sin Devil Trigger, each thrust deals **{2}%** Ultima Slash DMG, can trigger Ultima Slash, and can consume 1 Magic Orb (casting the skill in Matrix returns 2 Magic Orbs) to increase the Base DMG by 100% and restore 11 Signature Energy and 15 Blade Resolve. In Sin Devil Trigger, after the second consecutive thrust, continue holding or rapidly tap Basic Attack to continue consuming Magic Orbs and extend the number of thrusts. In Sin Devil Trigger, Finishing Stinger deals **{3}%** Ultima Slash DMG and restores 11 Signature Energy.",
+        "description": "Casts up to 2 chain stabs, with each stab dealing **{0}%** Ultima Slash DMG. Automatically follows up with a finishing stab afterward, dealing **{1}%** Ultima Slash DMG. If Vergil is in SDT Form, each chain stab will deal **{2}%** Ultima Slash DMG and trigger an Ultima Slash. Meanwhile, each chain stab can consume 1 Devil Soul (and restore 2 Devil Souls in Matrix status), increase Base DMG by 100%, and restore 11 Signature Energy and 15 JCE Points. If Vergil is in SDT Form, keep pressing or quickly tapping Basic Attack after the 2 chain stabs to increase the number of chain stabs. Vergil will deal **{3}%** Ultima Slash DMG and restore 11 Signature Energy through the finishing stab in SDT Form.",
         "desc_lv18": [400, 800, 600, 1200]
       },
       {
-        "name": "Trigger Heart - Skyward Strike",
+        "name": "Trigger Heart - Aerial Strike",
         "button_press": "Midair + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Vergil attacks while in midair. Yamato: Aerial Rave deals **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG in Sin Devil Trigger). Beowulf: Sublime Lunar Phase deals **{2}%** Physical DMG (**{3}%** Physical DMG in Sin Devil Trigger). Mirage Edge: Helm Breaker deals **{4}%** Ultima Slash DMG (**{5}%** Ultima Slash DMG in Sin Devil Trigger).",
+        "description": "Vergil launches an aerial attack. Yamato - Aerial Rave deals **{0}%** Ultima Slash DMG (or **{1}%** Ultima Slash DMG in SDT Form). Beowulf - Aerial Lunar Phase deals **{2}%** Physical DMG (or **{3}%** Physical DMG in SDT Form). Mirage Edge - Helm Breaker Slash deals **{4}%** Ultima Slash DMG (or **{5}%** Ultima Slash DMG in SDT Form).",
         "desc_lv18": [560, 820, 200, 300, 200, 300]
       },
       {
-        "name": "Trigger Heart - Evasive Follow-Up",
+        "name": "Trigger Heart - Dodge Combo",
         "button_press": "Dodge + Tap Basic Attack",
         "switch_in": "no",
-        "description": "Vergil strikes after dodging. Yamato: Rapid Slash deals **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG in Sin Devil Trigger). Beowulf: Lunar Phase deals **{2}%** Physical DMG (**{3}%** Physical DMG in Sin Devil Trigger). Mirage Edge: Stinger deals **{4}%** Ultima Slash DMG (**{5}%** Ultima Slash DMG in Sin Devil Trigger). After casting, restores 250 Dodge Gauge within 2.5 seconds.",
+        "description": "Vergil dodges and then attacks. Yamato - Rapid Slash deals **{0}%** Ultima Slash DMG (or **{1}%** Ultima Slash DMG in SDT Form). Beowulf - Lunar Phase deals **{2}%** Physical DMG (or more **{3}%** DMG in SDT Form). Mirage Edge - Stinger deals **{4}%** Ultima Slash DMG (or **{5}%** Ultima Slash DMG in SDT Form). Recovers 250 Dodge Gauge within 2.5s after casting.",
         "desc_lv18": [120, 160, 160, 240, 260, 400]
       },
       {
         "name": "Jump",
         "button_press": "Tap Jump",
         "switch_in": "no",
-        "description": "Vergil jumps. Wielding Beowulf adds 60% Physical DMG to attacks.",
+        "description": "Vergil jumps. Deals **{0}%** Physical DMG when carrying Beowulf.",
         "desc_lv18": [60]
       },
       {
         "name": "Upper Slash",
-        "button_press": "Wielding Yamato/Mirage Edge + Ground + Press and Hold Jump",
+        "button_press": "With Yamato/Mirage Edge + Ground + Press and Hold Jump",
         "switch_in": "no",
-        "description": "Vergil performs an upward slash. When wielding Yamato, deals **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG in Sin Devil Trigger). When wielding Mirage Edge, deals **{2}%** Ultima Slash DMG (**{3}%** Ultima Slash DMG in Sin Devil Trigger).",
+        "description": "Vergil casts an upper slash. If carrying Yamato, deals **{0}%** Ultima Slash DMG (or **{1}%** Ultima Slash DMG in SDT Form). If carrying Mirage Edge, dealing **{2}%** Ultima Slash DMG (or **{3}%** Ultima Slash DMG in SDT Form).",
         "desc_lv18": [200, 300, 160, 240]
       },
       {
-        "name": "Trigger Heart - Beowulf: Beast Uppercut",
-        "button_press": "Wielding Beowulf + Press and Hold Jump",
+        "name": "Trigger Heart - Beowulf - Uppercut",
+        "button_press": "With Beowulf + Press and Hold Jump",
         "switch_in": "no",
-        "description": "Unleashes a Divine Dragon with Beowulf. Activates one of the following when charged to Lv. 0~3: Bestial Uppercut/Soaring Dragon/Twin Dragon Breaker/Enhanced Twin Dragon Breaker, dealing **{0}%/{1}%/{2}%/{3}%** Physical DMG (**{4}%/{5}%/{6}%/{7}%** Physical DMG in Sin Devil Trigger). In Sin Devil Trigger, Twin Dragon Breaker/Enhanced Twin Dragon Breaker are upgraded to Twin Dragon Breaker 2/Enhanced Twin Dragon Breaker 2, dealing **{8}%/{9}%** Physical DMG and granting resistance to interruption. If Sin Devil Trigger ends during this skill, deals **{10}%/{11}%** Physical DMG.",
+        "description": "Casts a Rising Attack with Beowulf. Launches Beast Uppercut/Rising Dragon/Dragon Breaker/Enhanced Dragon Breaker respectively based on Charge Level 0-3, dealing **{0}%/{1}%/{2}%/{3}%** Physical DMG (**{4}%/{5}%/{6}%/{7}%** Physical DMG when in SDT Form). When casting Dragon Breaker/Enhanced Dragon Breaker in SDT Form, casts Dragon Breaker 2/Enhanced Dragon Breaker 2 instead, dealing **{8}%/{9}%** Physical DMG, which cannot be interrupted. If SDT Form ends during the process, then deals **{10}%/{11}%** Physical DMG instead.",
         "desc_lv18": [
           80, 100, 240, 340, 100, 160, 340, 480, 580, 880, 400, 500
         ],
         "result": [
-          "- In Sin Devil Trigger, casting Twin Dragon Breaker 2/Enhanced Twin Dragon Breaker 2 restores 24 Signature Energy and 40/80 Blade Resolve and consumes up to 7 Magic Orbs (casting the skill in Matrix returns 3 Magic Orbs). Each Magic Orb consumed increases the Base DMG by 100% and restores an additional 6 Signature Energy and 10 Blade Resolve."
+          "- Casting Dragon Breaker 2/Enhanced Dragon Breaker 2 in SDT Form will restore 24 Signature Energy and 40/80 JCE Points and consume up to 7 Devil Souls (and restore 3 Devil Souls in Matrix), with each Devil Soul consumed increasing Base DMG by 100% and restoring 6 Signature Energy and 10 JCE Points."
         ]
       },
       {
-        "name": "Trigger Heart - Meteoric Strike",
+        "name": "Trigger Heart - Plunge Strike",
         "button_press": "Midair + Tap Jump",
         "switch_in": "no",
-        "description": "Vergil performs a downward strike. Yamato: Aerial Cleave deals **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG in Sin Devil Trigger). Beowulf: Starfall deals **{2}%** Physical DMG (**{3}%** Physical DMG DMG in Sin Devil Trigger). Mirage Edge: Helm Breaker Finisher deals **{4}%** Ultima Slash DMG (**{5}%** Ultima Slash DMG in Sin Devil Trigger).",
+        "description": "Vergil casts a plunge attack. Yamato - Aerial Cleave deals **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG when in SDT Form). Beowulf - Starfall deals **{2}%** Physical DMG (**{3}%** Physical DMG when in SDT Form). Mirage Edge - Helm Breaker Cleave deals **{4}%** Ultima Slash DMG (**{5}%** Ultima Slash DMG when in SDT Form).",
         "desc_lv18": [200, 320, 160, 200, 160, 200]
       }
     ],
     "red_orb": [
       {
         "name": "Yamato - Void Slash",
-        "button_press": "Wielding Yamato + Tap Red Orb",
+        "button_press": "With Yamato + Tap Red Orb",
         "switch_in": "no",
-        "description": "Vergil slashes with Yamato and slows down enemies. Deals **{0}%/{1}%/{2}%** Ultima Slash DMG (**{3}%/{4}%/{5}%** Ultima Slash DMG in Sin Devil Trigger), continuously restoring a total of 100/200/300 Sin Devil Trigger Gauge. Gains Super Armor while a 3-Ping skill is cast.",
+        "description": "Vergil slashes with Yamato and slows enemy unit down, dealing **{0}%/{1}%/{2}%** Ultima Slash DMG (**{3}%/{4}%/{5}%** Ultima Slash DMG when in SDT Form). Recovers a total of 100/200/300 points of SDT over time. Gains Super Armor during 3-Pings.",
         "desc_lv18": [260, 520, 780, 400, 800, 1200],
         "result": [
-          "- During the attack recovery, tap Basic Attack to unleash a Rapid Slash (regarded as Basic Attack), dealing **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG in Sin Devil Trigger) and continuously restoring a total of 150 Sin Devil Trigger Gauge. Gains Super Armor while this skill is cast.",
-          "- Casting this skill without Magic Orbs will not grant Signature Energy/Sin Devil Trigger Gauge."
+          "- During end lag, tap Basic Attack to make Vergil cast Rapid Slash (regarded as a Basic Attack), dealing **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG when in SDT Form) and restoring a total of 150 points of SDT over time. Vergil gains Super Armor meanwhile.",
+          "- When cast with no Devil Soul owned, Vergil cannot gain Signature Energy/SDT."
         ],
         "res_lv18": [960, 1440]
       },
       {
-        "name": "Yamato - Weapon Switch",
-        "button_press": "Not wielding Yamato + Tap Red Orb",
+        "name": "Yamato - Weapon Switching",
+        "button_press": "Without Yamato + Tap Red Orb",
         "switch_in": "no",
         "description": "Vergil switches his weapon to Yamato.",
-        "result": ["- Vergil enters the battlefield with Yamato equipped."]
+        "result": ["- Vergil enters the battlefield with Yamato."]
       }
     ],
     "yellow_orb": [
       {
         "name": "Beowulf - Kick 13",
-        "button_press": " Wielding Beowulf + Tap Yellow Orb",
+        "button_press": "With Beowulf + Tap Yellow Orb",
         "switch_in": "no",
-        "description": "Vergil delivers a kick. Deals **{0}%/{1}%/{2}%** Physical DMG (**{3}%/{4}%/{5}%** Physical DMG in Sin Devil Trigger), and continuously restores a total of 50/100/150 Sin Devil Trigger Gauge. Gains Super Armor while a 3-Ping skill is cast.",
+        "description": "Vergil kicks and deals **{0}%/{1}%/{2}%** Physical DMG (**{3}%/{4}%/{5}%** Physical DMG when in SDT form). Recovers a total of 50/100/150 points of SDT over time. Gains Super Armor during 3-Pings.",
         "desc_lv18": [400, 800, 1200, 600, 1200, 1800],
         "result": [
-          "- During the attack recovery, press and hold Basic Attack to perform Rising Sun (regarded as Basic Attack), dealing **{0}%** Physical DMG (**{1}%** Physical DMG in Sin Devil Trigger) and restoring 150 Sin Devil Trigger Gauge. Gains Super Armor while this skill is cast.",
-          "- Casting Rising Sun will convert the next Judgement Cut End to Physical DMG.",
-          "- Casting this skill without Magic Orbs will not grant Signature Energy/Sin Devil Trigger Gauge."
+          "- During end lag, press and hold Basic Attack to make Vergil cast Rising Sun (regarded as a Basic Attack), dealing **{0}%** Physical DMG (**{1}%** Physical DMG when in SDT Form) and restoring 150 points of SDT. Vergil gains Super Armor meanwhile.",
+          "- Casting Rising Sun will make the next Judgment Cut End deal Physical DMG instead.",
+          "- When cast with no Devil Soul owned, Vergil cannot gain Signature Energy/SDT."
         ],
         "res_lv18": [1600, 2400]
       },
       {
-        "name": "Beowulf - Weapon Switch",
-        "button_press": "Not wielding Beowulf + Tap Yellow Orb",
+        "name": "Beowulf - Weapon Switching",
+        "button_press": "Without Beowulf + Tap Yellow Orb",
         "switch_in": "no",
         "description": "Vergil switches his weapon to Beowulf."
       }
@@ -14159,113 +14161,111 @@
     "blue_orb": [
       {
         "name": "Mirage Edge - Drive",
-        "button_press": "Tap Blue Orb",
+        "button_press": "With Mirage Edge + Tap Blue Orb",
         "switch_in": "no",
-        "description": "Vergil performs a backhanded slash. Deals **{0}%/{1}%/{2}%** Ultima Slash DMG (**{3}%/{4}%/{5}%** Ultima Slash DMG in Sin Devil Trigger) and continuously recovers a total of 50/100/150 Sin Devil Trigger Gauge. Gains Super Armor while a 3-Ping skill is cast.",
+        "description": "Vergil launches a reverse grip slash, dealing **{0}%/{1}%/{2}%** Ultima Slash DMG (**{3}%/{4}%/{5}%** Ultima Slash DMG when in SDT Form) and restoring a total of 50/100/150 points of SDT. Gains Super Armor during 3-Pings.",
         "desc_lv18": [240, 480, 720, 340, 680, 1020],
         "result": [
-          "- During the attack recovery, press and hold Basic Attack to charge and unleash Full Drive (regarded as Basic Attack), restoring 150 Sin Devil Trigger Gauge, dealing **{0}%/{1}%/{2}%/{3}%** Ultima Slash DMG (**{4}%/{5}%/{6}%/{7}%** Ultima Slash DMG in Sin Devil Trigger) when charged to Lv. 0~3, and granting the team 100/300/400/600 Sharp Reserve. Gains Super Armor while this skill is cast.",
-          "- Casting this skill without Magic Orbs will not grant Signature Energy/Sin Devil Trigger Gauge/Sharp Reserve."
+          "- During end lag, press and hold Basic Attack to charge and cast Over Drive (regarded as a Basic Attack), restoring 150 points of SDT, dealing **{0}%/{1}%/{2}%/{3}%** Ultima Slash DMG (**{4}%/{5}%/{6}%/{7}%** Ultima Slash DMG when in SDT Form) based on Charge Level 0-3 and accumulating 100/300/400/600 Sharp Reserve for the team. Vergil gains Super Armor meanwhile.",
+          "- When cast with no Devil Soul owned, Vergil cannot gain Signature Energy/SDT."
         ],
         "res_lv18": [480, 640, 800, 1280, 720, 960, 1200, 1920]
       },
       {
-        "name": "Mirage Edge - Weapon Switch",
-        "button_press": "Not Wielding Mirage Edge + Tap Blue Orb",
+        "name": "Mirage Edge - Weapon Switching",
+        "button_press": "Without Mirage Edge + Tap Blue Orb",
         "switch_in": "no",
         "description": "Vergil switches his weapon to Mirage Edge."
       }
     ],
     "core_passive": {
-      "name": "Devil Hunting Expertise",
+      "name": "Devil Hunter Skill",
       "skills": [
         {
           "name": "Judgement Cut",
-          "button_press": "Wielding Yamato + Hold and Press Red Orb/Basic Attack/Jump + Release",
+          "button_press": "With Yamato + Press and Hold Red Orb/Basic Attack/Jump + Release Button",
           "description": [
-            "Release to cast Judgement Cut, dealing **{0}%** Ultima Slash DMG.\nIn Sin Devil Trigger, Judgement Cut has increased range, deals **{1}%** Ultima Slash DMG, and can consume up to 3 Magic Orbs. Each Magic Orb restores 7 Signature Energy and 5 Blade Resolve."
+            "Casts judgment Cut after performing the corresponding action, dealing **{0}%** Ultima Slash DMG.\nWhen Vergil is in SDT Form, judgment Cut has a bigger range and deals **{1}%** Ultima Slash DMG. Meanwhile, he can spend up to 3 Devil Souls and restore 7 Signature Energy and 5 JCE Points per Devil Soul consumed."
           ],
           "desc_lv18": [960, 1440],
           "result": [
-            "- If the team has at least 3 points of Truewill, in Sin Devil Trigger, Judgement Cut will consume 3 Truewill to increase its Base DMG by 30%, add a fixed **{0}%** Ultima Slash DMG, and restore 25 Blade Resolve.",
-            "- Release when Vergil's weapon flashes to cast Perfect Judgement Cut, up to three consecutive times. In Sin Devil Trigger, keep holding Basic Attack to continue casting Judgement Cut; when Magic Orb is consumed, it is regarded as a Perfect Judgement Cut. Perfect Judgement Cut has a faster casting speed."
-          ],
-          "res_lv18": [600]
-        },
-        {
-          "name": "Round Trip",
-          "button_press": "Wielding Mirage Edge + Hold and Press Blue Orb/Basic Attack/Jump until Weapon Glows + Release",
-          "description": [
-            "Performs the corresponding attack, then hurls Mirage Edge, dealing **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG in Sin Devil Trigger)."
-          ],
-          "desc_lv18": [520, 780],
-          "result": [
-            "- After hurling Mirage Edge, skills that use Mirage Edge will prioritize recalling Mirage Edge first."
+            "- When team has more than 3 Truewill and Vergil is in SDT Form, judgment Cut will consume 3 Truewill, have 30% higher Base DMG, deal fixed 600% Ultima Slash DMG, and restore 25 JCE Points.",
+            "- Release the corresponding button when the weapon glows to cast Precise judgment Cut, up to 3 times. If Vergil is in SDT Form, keep pressing Basic Attack to cast judgment Cut continuously. If Devil Souls are consumed, it will be regarded as Precise judgment Cut. Precise judgment Cuts can be cast at a faster speed."
           ]
         },
         {
-          "name": "Devil Clone",
+          "name": "Round Trip",
+          "button_press": "With Mirage Edge + Press and Hold Blue Orb/Basic Attack/Jump until Weapon Glows + Release Button",
+          "description": [
+            "Throws out Mirage Edge after the corresponding action, dealing **{0}%** Ultima Slash DMG (or **{1}%** Ultima Slash DMG in SDT Form)."
+          ],
+          "desc_lv18": [520, 780],
+          "result": [
+            "- Casting a Mirage Edge skill after throwing the blade out will call it back in priority."
+          ]
+        },
+        {
+          "name": "Doppelganger",
           "button_press": "",
           "description": [
-            "In Sin Devil Trigger, a copy of Vergi's True Devil form will assist him with attacks. Each joint attack deals **{0}%** Ultima Slash DMG."
+            "In SDT Form, Vergil will launch joint attacks with his Doppelganger. Each joint attack deals **{0}%** Ultima Slash DMG."
           ],
           "desc_lv18": [160]
         },
         {
           "name": "Air Trick",
-          "button_press": "Ground + Lock-On an Enemy + Not moving Joystick + Press and Hold Dodge",
-          "description": ["Vergil swiftly approaches the locked-on enemy."]
+          "button_press": "Ground + Locked-on Enemy + Do Not Move Joystick + Dodge + Press and Hold Dodge",
+          "description": ["Vergil quickly approaches the locked-on enemy."]
         },
         {
-          "name": "Taunt",
-          "button_press": "Tap Core Passive Gauge",
+          "name": "Provocation",
+          "button_press": "Tap Core Passive Bar",
           "description": [
-            "Vergil taunts the enemy, dealing **{0}%** Ultima Slash DMG."
-          ],
-          "desc_lv18": [1]
+            "Vergil taunts the enemy, dealing **1%** Ultima Slash DMG."
+          ]
         },
         {
-          "name": "Mirage Blade",
-          "button_press": "Otherworld Summon not charged + Tap Otherworld Summon",
+          "name": "Mirage Blades",
+          "button_press": "Netherworld Arm Not Charged + Tap Netherworld Arm",
           "description": [
-            "Uses a Mirage Blade to deal **{0}%** Ultima Slash DMG."
+            "Deals **{0}%** Ultima Slash DMG with Mirage Blades."
           ],
           "desc_lv18": [2],
           "result": [
-            "- This skill can be used even when an Otherworld Summon is not set."
+            "- This skill can be cast without any Netherworld Arm equipped."
           ]
         },
         {
-          "name": "Blister/Heavy Rain Mirage Blade",
-          "button_press": "Otherworld Summon charged + Move/Not moving Joystick + Tap Otherworld Summon",
+          "name": "Blistering/Heavy Rain Blades",
+          "button_press": "Netherworld Arm Charged + Push/Do Not Move Joystick + Dodge + Tap Netherworld Arm",
           "description": [
-            "Blister: Deals **{0}%** Ultima Slash DMG. When Mirage Blade is equipped to Otherworld Summon, deals **{1}%** Ultima Slash DMG.\nHeavy Rain: Deals **{2}%** Ultima Slash DMG and applies a slowing effect to enemies. When Mirage Blade is equipped to Otherworld Summon, deals **{3}%** Ultima Slash DMG."
+            "Blistering: Deals **{0}%** Ultima Slash DMG. Deals **{1}%** Ultima Slash DMG when carrying Netherworld Arm - Mirage Blades.\nHeavy Rain: Deals **{2}%** Ultima Slash DMG and slows the enemy unit down. Deals **{3}%** Ultima Slash DMG when carrying Netherworld Arm - Mirage Blades."
           ],
           "desc_lv18": [200, 320, 200, 320],
           "result": [
-            "- If an Otherworld Summon other than Mirage Blade is equipped, the respective Otherworld Summon's Active Skill will be triggered simultaneously."
+            "- Equipping a Netherworld Arm that is not Mirage Blades will trigger the Netherworld Arm's Active Skill."
           ]
         },
         {
-          "name": "Storm/Spiral Mirage Blade",
-          "button_press": "Otherworld Summon charged + Move/Not moving Joystick + Press and Hold Otherworld Summon",
+          "name": "Storm/Spiral Blades",
+          "button_press": "Netherworld Arm Charged + Push/Do Not Move Joystick + Dodge + Press and Hold Netherworld Arm",
           "description": [
-            "Storm: Deals **{0}%** Ultima Slash DMG. When Mirage Blade is equipped to Otherworld Summon, deals **{1}%** Ultima Slash DMG.\nSpiral: Deals **{2}%** Ultima Slash DMG. When Mirage Blade is equipped to Otherworld Summon, deals **{3}%** Ultima Slash DMG."
+            "Storm: Deals **{0}%** Ultima Slash DMG. Deals **{1}%** Ultima Slash DMG when carrying Netherworld Arm - Mirage Blades.\nSpiral: Deals **{2}%** Ultima Slash DMG. Deals **{3}%** Ultima Slash DMG when carrying Netherworld Arm - Mirage Blades."
           ],
           "desc_lv18": [200, 320, 200, 320],
           "result": [
-            "- If an Otherworld Summon other than Mirage Blade is equipped, the respective Otherworld Summon's Active Skill will be triggered simultaneously."
+            "- Equipping a Netherworld Arm that is not Mirage Blades will trigger the Netherworld Arm's Active Skill."
           ]
         },
         {
           "name": "Effect: Ultima Slash",
           "button_press": "",
           "description": [
-            "Certain skills build up Sharp Reserve. Sharp Reserve can be passed on to the next character affected by Ultima Slash effect, up to a maximum of 999 points."
+            "Certain skills build up Sharp Reserve. Sharp Reserve can be passed on to the next character affected by Ultima Slash effect, up to 999 points."
           ],
           "result": [
-            "- When Sharp Reserve reaches 100 points, the next skill with a Ultima Slash effect that hits an enemy will consume 100 points of Sharp Reserve to trigger a Ultima Slash, dealing 400% Slash DMG.",
-            "- Gains 1 point of Truewill each time it triggers, up to a maximum of 90 points."
+            "- When Sharp Reserve reaches 100 points, the next skill with a Ultima Slash effect that hits an enemy will consume 100 points of Sharp Reserve to trigger a Ultima Slash, dealing 400% Ultima Slash DMG.",
+            "- Gains 1 point of Truewill each time it triggers, up to 90 points."
           ]
         }
       ]
@@ -14275,68 +14275,68 @@
       "skills": [
         {
           "name": "Sin Devil Trigger",
-          "button_press": "Not in Sin Devil Trigger + 300 Sin Devil Trigger Gauge + Tap Signature",
+          "button_press": "Not in SDT Form + 300 Points of SDT + Tap Signature",
           "description": [
-            "Vergil embraces his demonic bloodline and undergoes Sin Devil Trigger transformation, generating a magic explosion that deals **{0}%** Ultima Slash DMG. Triggers Time Lag Calculation while this skill is cast. In Sin Devil Trigger, Vergil's strength, speed, and special abilities are significantly enhanced, he gains Super Armor, and all skills deal greater damage. In exchange, Vergil cannot recover Magic Orbs or Signature Energy through Basic Attacks during Sin Devil Trigger."
+            "Vergil unleashes the power of the devil blood and enters SDT Form, causing a DT Burst, dealing **{0}%** Ultima Slash DMG, and triggering Time Lag Calculation. In SDT Form, Vergil will have greatly enhanced strength, speed, special abilities, gain Super Armor, and deal more damage through all skills. However, he will not be able to restore Devil Souls or Signature Energy through Basic Attacks or pinging orbs in SDT Form."
           ],
           "desc_lv18": [1080],
           "result": [
-            "- In Sin Devil Trigger, Vergil consumes 20 Sin Devil Trigger Gauge per second. Sin Devil Trigger Gauge cannot be restored, and Vergil will automatically exit Sin Devil Trigger state when the gauge reaches 0.",
-            "- Casting this skill does not interrupt Basic Attack."
+            "- n SDT Form, Vergil consumes 20 points of SDT every second and cannot restore SDT. He will automatically exit SDT Form at 0 SDT.",
+            "- Casting this skill will not interrupt any Basic Attack."
           ]
         },
         {
           "name": "Judgement Cut End",
-          "button_press": "90 Signature Energy + Not in Sin Devil Trigger & Press and Hold Signature/Sin Devil Trigger & Tap Signature",
+          "button_press": "90 Signature Energy + Not in SDT Form, Press and hold Signature/In SDT Form, tap Signature",
           "description": [
-            "Vergil unleashes his ultimate technique, simultaneously shattering the spatial and temporal dimensions, clearing the Sin Devil Trigger Gauge and dealing **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG in Sin Devil Trigger). Triggers Time Lag Calculation while this skill is cast."
+            "Vergil casts his Ultimate Ability, shattering space and time, clearing all SDT, and dealing **{0}%** Ultima Slash DMG (**{1}%** Ultima Slash DMG when in SDT Form). Triggers Time Lag Calculation meanwhile."
           ],
           "desc_lv18": [1280, 1920],
           "result": [
-            "- Every point of Blade Resolve increases the Base DMG of Judgement Cut End by 0.6%, up to 300 points.",
-            "- Judgement Cut End consumes all remaining Truewill, dealing an additional {0}% Ultima Slash DMG per 1 Truewill consumed."
+            "- Each JCE Point will increase Judgment Cut End's Base DMG by **0.6%**, up to 300 Points.",
+            "- Judgment Cut End will always consume the remaining Truewill and deal bonus **360%** Ultima Slash DMG per Truewill consumed."
           ],
           "res_lv18": [360]
         }
       ]
     },
     "qte": {
-      "name": "Judgement Cut - Sunder",
-      "description": "Vergil performs a Judgement Cut. Deals {0}% Physical DMG.",
+      "name": "Judgement Cut Fall",
+      "description": "Vergil casts judgment Cut, dealing **{0}%** Physical DMG.",
       "desc_lv18": [600]
     },
     "leader": {
       "name": "The Alpha and the Omega",
-      "description": "Increases Physical DMG and Ultima Slash DMG of all members by **10%**, Increases ATK of all Attacker Omniframes by **10%**."
+      "description": "Increases Physical DMG and Ultima Slash DMG of all members by **10%**. Attackers gain **10%** ATK."
     },
     "class": {
       "name": "Attacker",
-      "description": "Extra DMG Bonus increases by {0}%.",
+      "description": "Extra DMG Bonus increases by **{0}%**.",
       "desc_lv18": [20]
     },
     "ss_rank": {
-      "name": "Bury The Light Deep Within",
+      "name": "Bury the Light within the Blade",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at S5",
-          "desc": "Casting **Sin Devil Trigger** and **Judgement Cut End** triggers all available QTEs."
+          "desc": "Casting Sin Devil Trigger and Judgment Cut End will activate all available QTEs."
         },
         {
           "rank": "Level 2 - Unlocked at SS",
-          "desc": "Recover 3 Magic Orbs when switching into the battlefield.\nIn Sin Devil Trigger, Vergil gains **20%** CRIT DMG.\nAfter casting **Judgement Cut End** and exiting the battlefield, Vergil launches an attack on surrounding enemies every 2s (up to 4 times), dealing **4000%** Physical DMG."
+          "desc": "Restores 3 Devil Souls when switched in.\nVergil gains 20% CRIT DMG in SDT Form.\nAfter casting Judgment Cut End and exiting the battlefield, launches an attack at nearby enemies once every 2s (up to 4 times), dealing 4000% Physical DMG."
         }
       ]
     },
     "sss_rank": {
-      "name": "I Am The Storm That Is Approaching",
+      "name": "I Am The Approaching Storm",
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SS3",
-          "desc": "The Devil Clone's joint attacks gains **200%** Extra DMG Bonus.\nAfter casting **Judgement Cut End**, Base DMG of **QTE: Judgement Cut - Sunder** increases by **1000%** throughout the battle."
+          "desc": "Doppelganger's joint attacks gain a 200% Extra DMG Bonus.\nAfter Judgment Cut End is cast, QTE: Judgment Cut Fall's Base DMG will increase by 1000% throughout the battle."
         },
         {
           "rank": "Level 2 - Unlocked at SSS",
-          "desc": "Every point of Blade Resolve increases the Base DMG of **Judgement Cut End** by an additional **0.6%**. Every 1 Truewill consumed by **Judgement Cut End** adds an additional **120%** Ultima Slash DMG."
+          "desc": "Each JCE Point will increase Judgment Cut End's Base DMG by 0.6%. Judgment Cut End will deal an additional 120% Ultima Slash DMG per Truewill consumed."
         }
       ]
     },
@@ -14345,15 +14345,15 @@
       "levels": [
         {
           "rank": "Level 1 - Unlocked at SSS3",
-          "desc": "**Signature Move - Judgement Cut End**'s damage bonuses from consuming Truewill gains **30%** Extra DMG Bonus."
+          "desc": "Signature Moves and additional damage dealt by Dudgment Cut End at the cost of Truewill gain a 30% Extra DMG Bonus."
         },
         {
           "rank": "Level 2 - Unlocked at SSS6",
-          "desc": "Basic Attacks, Judgement Cut, and Judgement Cut End's added damage from consuming Truewill gains **50%** Extra DMG Bonus."
+          "desc": "Basic Attacks, Judgment Cuts, and follow-up damage dealt by Judgment Cuts at the cost of Truewill gain a 50% Extra DMG Bonus."
         },
         {
           "rank": "Level 3 - Unlocked at SSS+",
-          "desc": "In Sin Devil Trigger, Vergil gains **20**% Extra DMG Bonus."
+          "desc": "In SDT Form, Vergil gains a 20% Extra DMG Bonus."
         }
       ]
     }
@@ -14370,7 +14370,7 @@
           "- Repeatedly tap Basic Attack after the third attack to loop through the fourth and fifth attack. During this time, orb regeneration rate is increased by 100%.",
           "- During the recoil animation of the third, fourth and fifth attacks, press basic attack again to use Whipweave - Precision Sting, dealing **{1}%** Dark DMG."
         ],
-        "res_lv18": [700, 100]
+        "res_lv18": [700,100]
       },
       {
         "name": "Serpent Whipblade - Whirlwhip",
@@ -14382,7 +14382,7 @@
           "- If Basic Attack is released during casting, Whirlwhip - Shadestrike will be used, dealing **{2}%** Dark DMG. The joystick can be moved to control the casting direction.",
           "- When Whirlwhip - Backleap Shadestrike or Whirlwhip - Shadestrike is used, consume 250 Dodge Gauge and attacks can be dodged during casttime. If a successful dodge occurs, obtain 2s of super armor, 80% Damage Reduction and 250 Dodge Gauge."
         ],
-        "res_lv18": [420, 160, 120]
+        "res_lv18": [420,160,120]
       },
       {
         "name": "Serpent Whipblade - Chain Erosion",
@@ -14400,7 +14400,9 @@
         "button_press": "Sunset Mode + Red Orb 3-Ping + Tap Basic Attack",
         "switch_in": "no",
         "description": "Use the whip to stab enemies before pulling out, dealing Dark DMG.",
-        "result": ["- Deals **{0}%** Dark DMG."],
+        "result": [
+          "- Deals **{0}%** Dark DMG."
+        ],
         "res_lv18": [280]
       },
       {
@@ -14408,7 +14410,9 @@
         "button_press": "Shine Mode + Tap Basic Attack",
         "switch_in": "no",
         "description": "Use the sword to attack enemies, dealing Glow DMG.",
-        "result": ["- Deals a total of **{0}%** Glow DMG."],
+        "result": [
+          "- Deals a total of **{0}%** Glow DMG."
+        ],
         "res_lv18": [740]
       }
     ],
@@ -14421,7 +14425,7 @@
         "result": [
           "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged, and grants 1/2/3 Commandment Points and 1/2/5 Prayer stacks."
         ],
-        "res_lv18": [200, 400, 600]
+        "res_lv18": [200,400,600]
       },
       {
         "name": "Sunset Judgement - Continuous Whipping",
@@ -14431,7 +14435,7 @@
         "result": [
           "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged, and grants 1/2/3 Commandment Points and 1/2/5 Prayer stacks."
         ],
-        "res_lv18": [200, 400, 600]
+        "res_lv18": [200,400,600]
       },
       {
         "name": "Sunset Judgement - Piling Sin",
@@ -14441,7 +14445,7 @@
         "result": [
           "- Deals **{0}%/{1}%/{2}%** Dark DMG based on the number of orbs pinged, and grants 1/2/3 Commandment Points and 1/2/5 Prayer stacks."
         ],
-        "res_lv18": [250, 500, 750]
+        "res_lv18": [250,500,750]
       }
     ],
     "yellow_orb": [
@@ -14454,17 +14458,16 @@
           "- Deals **{0}%/{1}%/{2}%** Glow DMG, and grants 1/2/3 Commandment Points and 30/60/100 Glow Gauge.",
           "- Cast Shining Punishment again and enter Broken Brilliance Combo by immediately tapping Yellow Orb when Bianca - Crepuscule lands on the ground."
         ],
-        "res_lv18": [350, 700, 1050]
+        "res_lv18": [350,700,1050]
       },
-      {
-        "name": "Shining Punishment - Luminous Stride",
+      {        "name": "Shining Punishment - Luminous Stride",
         "button_press": "Broken Brilliance Combo + Tap Yellow Orb",
         "switch_in": "no",
         "description": "Stride and deal a horizontal slash, dealing Glow DMG while obtaining Commandment and Glow Gauge. Gain Super Armor while casting.",
         "result": [
           "- Deals **{0}%/{1}%/{2}%** Glow DMG, and grants 1/2/3 Commandment Points and 30/60/100 Glow Gauge."
         ],
-        "res_lv18": [350, 700, 1050]
+        "res_lv18": [350,700,1050]
       }
     ],
     "blue_orb": [
@@ -14480,7 +14483,7 @@
           "- Incoming attacks can be dodged while casting Whipdance - Barbed Streak. Obtain 2s of Super Armor and invincibility if a dodge is successful.",
           "- Oceanic Verdict can stack up to 9 times. When max stacks is reached, the Blue Orb will transform into an Engulfing Sea Orb."
         ],
-        "res_lv18": [2800, 800]
+        "res_lv18": [2800,800]
       },
       {
         "name": "Oceanic Verdict - Sky Devourer",
@@ -14490,7 +14493,7 @@
         "result": [
           "- Deals **{0}%** Dark DMG. Casts Sky Devourer - Crashing Darkness afterwards, dealing **{1}%** Dark DMG and granting an Engulfing Sea Mark, as well as 54 Signature Energy and 55 Prayer."
         ],
-        "res_lv18": [400, 3500]
+        "res_lv18": [400,3500]
       },
       {
         "name": "Oceanic Verdict - Sword Dance",
@@ -14498,14 +14501,14 @@
         "switch_in": "no",
         "description": "Brandishes the sword to attack enemies, continuously consuming Commandment while dealing Glow DMG and gathering enemies. While casting, obtain 80% Damage Reduction and Super Armor, and obtain Signature Energy, Oceanic Verdict stacks and Glow Gauge.",
         "result": [
-          " - When Commandment is full, cast Sworddance - Leap Slash, which triggers Matrix if it is not on cooldown and deals **{0}%** Glow DMG while granting 200 Glow Gauge. Afterwards, cast Sworddance - Thousand Flash. After a complete cast, deals a total of **{1}%** Glow DMG and grants 300 Glow Gauge.",
+         " - When Commandment is full, cast Sworddance - Leap Slash, which triggers Matrix if it is not on cooldown and deals **{0}%** Glow DMG while granting 200 Glow Gauge. Afterwards, cast Sworddance - Thousand Flash. After a complete cast, deals a total of **{1}%** Glow DMG and grants 300 Glow Gauge.",
           "- While casting Sworddance - Leap Slash, if the Glow Gauge is full, enter Sacred Rite Mode. ",
           "- If Sworddance - Leap Slash is cast with Halo stacks, consume up to 2 Halo stacks and deal **{2}%** additional Glow DMG for every stack used, and obtain 15 Prayer stacks.",
           "- If Sworddance is used with Halo stacks, consume up to 5 Halo stacks and deal **{3}%** additional Glow DMG for every stack used, and obtain 15 Prayer stacks.",
           "- Sworddance will continuously consume Commandment Points. For every stack used, obtain 2 Signature Energy and 1 Oceanic Verdict stack.",
           "- Oceanic Verdict can stack up to 9 times. When max stacks is reached, the Blue Orb will transform into a Engulfing Sea Orb."
         ],
-        "res_lv18": [800, 3030, 320, 320]
+        "res_lv18": [800,3030,320,320]
       },
       {
         "name": "Oceanic Verdict - Sky Shatterer",
@@ -14516,7 +14519,7 @@
           "- Deals **{0}%** Glow DMG. Afterwards, cast Sky Shatterer - Crashing Radiance, dealing **{1}%** Glow DMG and granting an Engulfing Sea Mark, as well as obtaining 54 Signature Energy and 200 Glow Gauge.",
           "- If Sky Shatterer is cast with Halo stacks, consume up to 3 Halo stacks to deal **{2}%** additional Glow DMG and obtain 15 Prayer stacks for every stack used."
         ],
-        "res_lv18": [350, 2940, 600]
+        "res_lv18": [350,2940,600]
       }
     ],
     "core_passive": {
@@ -14534,7 +14537,7 @@
             "- When swapping modes, clear Commandment Points, Oceanic Verdict stacks, Engulfing Sea Mark and Prayer stacks.",
             "- When Bianca - Crepuscule consumes Halo stacks, gather surrounding enemies."
           ],
-          "res_lv18": [120, 120, 300, 300]
+          "res_lv18": [120,120,300,300]
         },
         {
           "name": "Commandment",
@@ -14542,7 +14545,9 @@
           "description": [
             "Obtain Commandment Points when casting certain skills. When Commandment is full, activate Blue Orb."
           ],
-          "result": ["- The maximum amount of Commandment Points is 9."]
+          "result": [
+            "- The maximum amount of Commandment Points is 9."
+          ]
         },
         {
           "name": "Unfurled Abyss",
@@ -14556,7 +14561,7 @@
             "- During Unfurled Abyss Domain, Red Orbs can be consumed up to 3 times; every time red orbs are consumed, deals **{2}%/{3}%/{4}%** Dark DMG based on the number of orbs pinged, and obtain 1/2/3 Unfurled Abyss Points, 1/2/3 Commandment Points and 1/2/5 Prayer stacks.",
             "- The maximum amount of Unfurled Abyss Points is 9. When casting Unfurled Abyss - Collapsing Night, consume all Unfurled Abyss Points. For every point consumed, obtain 1 Signature Energy and 3 Prayer stacks, and increase its Base DMG by 8% up to a maximum of 72%. If cast with 9 Unfurled Abyss Points, obtain 3 additional Signature Energy and 8 Prayer stacks."
           ],
-          "res_lv18": [600, 2400, 200, 400, 600]
+          "res_lv18": [600,2400,200,400,600]
         },
         {
           "name": "Counterguard",
@@ -14569,14 +14574,12 @@
             "- If the Glow Gauge is full while casting Counterguard - Flickering Rift or Counterguard - Spiral Blade, activate Sacred Rite Mode.",
             "- During Counterguard - Flickering Rift and Counterguard - Spiral Blade, attacks can be dodged. If a dodge is successful, gain 2s of super armor and 80% Damage Reduction, and obtain 250 dodge gauge."
           ],
-          "res_lv18": [360, 480]
+          "res_lv18": [360,480]
         },
         {
           "name": "Effect: Glow",
           "button_press": "",
-          "description": [
-            "Accumulate Glow Gauge. When it is full, a portion of skills can be used to enter Sacred Rite Mode, and obtain 10 Halo stacks. Select skills can consume Halo to strengthen them, and at the same time, cast Ember Embrace to deal Glow DMG."
-          ],
+          "description": ["Accumulate Glow Gauge. When it is full, a portion of skills can be used to enter Sacred Rite Mode, and obtain 10 Halo stacks. Select skills can consume Halo to strengthen them, and at the same time, cast Ember Embrace to deal Glow DMG."],
           "result": [
             "- The maximum amount of Glow Gauge is 1000.",
             "- Ember Embrace deals 330% Glow DMG."
@@ -14596,7 +14599,7 @@
           "result": [
             "- Deals **{0}%** Dark DMG; if cast with an Engulfing Sea Mark, consume it and deal **{1}%** additional Dark DMG."
           ],
-          "res_lv18": [3500, 650]
+          "res_lv18": [3500,650]
         },
         {
           "name": "Cindery Ruination",
@@ -14607,7 +14610,7 @@
           "result": [
             "- Deals **{0}%** Dark DMG; if cast with an Engulfing Sea Mark, consume it and deal **{1}%** additional Dark DMG."
           ],
-          "res_lv18": [3500, 650]
+          "res_lv18": [3500,650]
         },
         {
           "name": "Unified Howl",
@@ -14630,7 +14633,7 @@
           "result": [
             "- While in Sacred Rite Mode, when Bianca - Crepuscule is swapped in, immediately use Glow - Judgement, dealing **{0}%** Glow DMG. When some enemies meet a certain condition, tap Basic Attack to use Empowered Glow - Judgement, dealing **{1}%** additional Glow DMG."
           ],
-          "res_lv18": [800, 800]
+          "res_lv18": [800,800]
         }
       ]
     },
@@ -14641,7 +14644,7 @@
         "- While in Sunset Mode, deals **{0}%** Dark DMG.",
         "- While in Shine Mode, deals **{1}%** Glow DMG."
       ],
-      "res_lv18": [600, 600]
+      "res_lv18": [600,600]
     },
     "leader": {
       "name": "Day-Night Commandment",

@@ -1739,40 +1739,53 @@
     "unit_name": "Watanabe",
     "frame_name": "Epitaph\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:fire_element:1290613867365273630>",
     "set_list": [
-      { "name": "Main Tank/Sub-DPS Set", "memos": "4 Alphonse 4 Shakespeare" },
       {
-        "name": "Alternative DPS Set",
-        "memos": "4 Alphonse 2 Cottie"
+        "name": "Main Tank Set",
+        "memos": "4 Alphonse 4 Da Vinci"
       },
       {
         "name": "Alternative Tank Set",
         "memos": "4 Alphonse 2 Einsteina"
       },
       {
-        "name": "Alternative Sub-DPS Set",
-        "memos": "4 Alphonse 4 Da Vinci"
+        "name": "Alternative Dps Set",
+        "memos": "4 Alphonse 2 Cottie"
       }
     ],
     "builds": [
       {
-        "set_name": "Main Tank/Sub-DPS Set",
+        "set_name": "Main Tank Set",
         "set_type": "Main Tank",
-        "usage": "Main Tank/Sub-DPS",
+        "usage": "Main Tank",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
+          "Main Tank build",
           "Recommended for all ranks",
-          "Requires DLT weapon resonance and Harmony.",
-          "Harmony Set **(Requires Harmony on Signature 6* Weapon)**"
+          "Used as QTE support in Geiravor main DPS teams"
         ],
-        "memories": [
-          "4x Alphonse",
-          "2x Shakespeare",
-          "2x Shakespeare (Harmony)"
-        ],
+        "memories": ["4x Alphonse", "2x Da Vinci"],
         "memory_resonance": [
           "Top Slot   : 6x Red Orb",
           "Bottom Slot: 6x Class Skill"
-        ]
+        ],
+        "harmony_rec": "Da Vinci"
+      },
+      {
+        "set_name": "Alternative Tank Set",
+        "set_type": "Alternative Tank",
+        "usage": "Alternative Tank",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Alternative Tank Set",
+          "Recommended for all ranks",
+          "Used when lacking 6* Signature Weapon"
+        ],
+        "memories": ["4x Alphonse", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Red Orb",
+          "Bottom Slot: 6x Class Skill"
+        ],
+        "harmony_rec": "None"
       },
       {
         "set_name": "Alternative DPS Set",
@@ -1786,40 +1799,6 @@
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "Cottie"
-      },
-      {
-        "set_name": "Alternative Tank Set",
-        "set_type": "Alternative Tank Set",
-        "usage": "Alternative Tank",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Alternative Tank Set",
-          "Recommended for all ranks",
-          "Used as QTE support in solo DPS teams"
-        ],
-        "memories": ["4x Alphonse", "2x Einsteina"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Skill"
-        ],
-        "harmony_rec": "None"
-      },
-      {
-        "set_name": "Alternative Sub-DPS Set",
-        "set_type": "Main Tank",
-        "usage": "Main Tank",
-        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": [
-          "Alternative Sub-DPS Set",
-          "Recommended for all ranks",
-          "Used as QTE support in Geiravor main DPS teams"
-        ],
-        "memories": ["4x Alphonse", "2x Da Vinci"],
-        "memory_resonance": [
-          "Top Slot   : 6x Red Orb",
-          "Bottom Slot: 6x Class Skill"
-        ],
-        "harmony_rec": "Da Vinci"
       }
     ]
   },
@@ -1927,7 +1906,10 @@
   "oblivion": {
     "unit_name": "Luna",
     "frame_name": "Oblivion\n<:s_rank:1287636749052412026><:annihilator:1285900128489701436><:void_element:1285900049909284864><:disorder:1288089672718876787>",
-    "set_list": [{ "name": "Main DPS Set", "memos": "4 Cleopatra 2 Cottie" }],
+    "set_list": [
+      { "name": "Main DPS Set", "memos": "4 Cleopatra 2 Cottie" },
+      { "name": "Off-Element Support Set", "memos": "4 Da Vinci 2 Einsteina 2 Gloria" }
+    ],
     "builds": [
       {
         "set_name": "Main DPS Set",
@@ -1941,6 +1923,23 @@
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "Off-Element Support Set",
+        "set_type": "Off-Element Support",
+        "usage": "Off-Element Support Set",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks", 
+          "Used as Off-Element support for Tmplifier/Tank solo",
+          "**if no 6* weapon,put Einsteina on memory slot instead**"
+        ],
+        "memories": ["4x Da Vinci", "2x Gloria"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Skill"
+        ],
+        "harmony_rec": "Einsteina"
       }
     ]
   },
@@ -1984,15 +1983,16 @@
     "unit_name": "Hanying",
     "frame_name": "Solacetune\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:physical_element:1290613978057146379><:trueslash:1288090116790812712>",
     "set_list": [
-      { "name": "Main Sub-DPS Set", "memos": "4 Chang Wuzi 4 Patton" },
+      { "name": "Main Tank Set", "memos": "4 Chang Wuzi 4 Patton" },
       { "name": "Alternative Sub-DPS Set", "memos": "4 Chang Wuzi 2 Cottie" },
-      { "name": "Slash Affix Set", "memos": "4 Chang Wuzi 2 Patton" }
+      { "name": "Slash Affix Set", "memos": "4 Chang Wuzi 2 Darwin 2 Catherine" },
+      { "name": "Alternative Slash Affix Set", "memos": "4 Chang Wuzi 4 Patton" }
     ],
     "builds": [
       {
-        "set_name": "Main Sub-DPS Set",
-        "set_type": "Sub-DPS",
-        "usage": "Sub-DPS",
+        "set_name": "Main Tank Set",
+        "set_type": "Main Tank",
+        "usage": "Main Tank Set",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
@@ -2013,8 +2013,7 @@
         "description": [
           "Recommended for all ranks",
           "Alternative DPS Set",
-          "Used if you lack Solacetune's signature weapon",
-          "Preferred build for Solacetune solo."
+          "Used if you lack Solacetune's signature weapon"
         ],
         "memories": ["4x Chang Wuzi", "2x Cottie"],
         "memory_resonance": [
@@ -2025,19 +2024,36 @@
       },
       {
         "set_name": "Slash Affix Set",
-        "set_type": "Slash Main DPS",
-        "usage": "Harmony Tank/Sub-DPS",
+        "set_type": "Slash Affix",
+        "usage": "Sub-DPS",
         "game_modes": "Intensive Battle, Warzone",
         "description": [
           "Recommended for all ranks",
           "Slash Affix set",
-          "If doing Solacetune solo TS/Ultima Slash (3S0 required), bottom resonance slot can be Core Passive",
-          "Advised to have 2S3 with Solacetune before attempting TS/Ultima Slash content"
+          "Used together with vergil",
+          "**If you don't have vergil,refer to Alternative Slash Affix Set**"
+        ],
+        "memories": ["4x Chang Wuzi", "2x Catherine"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class Skill"
+        ],
+        "harmony_rec":"Darwin"
+      },
+       {
+        "set_name": "Alternative Slash Affix Set",
+        "set_type": "Slash Affix",
+        "usage": "Slash DPS",
+        "game_modes": "Intensive Battle, Warzone",
+        "description": [
+          "Recommended for all ranks",
+          "Slash Affix set",
+          "Used when you don't have Vergil in the team"
         ],
         "memories": ["4x Chang Wuzi", "2x Patton", "2x Patton (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Skill"
+          "Bottom Slot: 6x Core Passive"
         ]
       }
     ]
@@ -2205,7 +2221,7 @@
     "frame_name": "Startrail\n<:s_rank:1287636749052412026><:tank:1290614106520555571><:lightning_element:1287636531321765959><:combustion:1288089747952107581>",
     "set_list": [
       { "name": "Main DPS Set", "memos": "4 Herschell 2 Heisen" },
-      { "name": "Void Sub-DPS Set", "memos": "4 Herschell 4 Heisen" },
+      { "name": "Plasma Affix Support Set", "memos": "4 Herschell 4 Heisen" },
       { "name": "Ignition Affix Set", "memos": "4 Herschell 4 Cottie" }
     ],
     "builds": [
@@ -2223,11 +2239,14 @@
         "harmony_rec": "Heisen"
       },
       {
-        "set_name": "Void Sub-DPS Set",
-        "set_type": "Alternative Sub-DPS",
-        "usage": "Void Sub-DPS",
-        "game_modes": "Void Warzone",
-        "description": ["Only used for Void Warzone."],
+        "set_name": "Plasma Affix Support Set",
+        "set_type": "Plasma Affix Support",
+        "usage": "Plasma Affix Support Set ",
+        "game_modes": "Pain Cage, Warzone, Intensive Battle",
+        "description": [
+          "Recommended for all ranks",
+          "Only used for Plasma Content."
+        ],
         "memories": ["4x Herschell", "2x Heisen", "2x Heisen (Harmony)"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2241,13 +2260,13 @@
         "game_modes": "PPC, Intensive Battle, Warzone",
         "description": [
           "Recommended for all ranks",
-          "Plasma Affix Support Set",
-          "If doing Startrail solo Burn/Ignition, bottom resonance slot can be Signature"
+          "Ignition Affix Set",
+          "**If doing Startrail solo Burn/Ignition, bottom resonance slot can be Signature Move**"
         ],
         "memories": ["4x Herschell", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Skill"
+          "Bottom Slot: 6x Class Skill/6x Signature Move"
         ],
         "harmony_rec": "Cottie"
       }
@@ -2407,7 +2426,10 @@
         "set_type": "Glaciation Affix",
         "usage": "Glaciation Affix Content",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
-        "description": ["Recommended for all ranks", "Glaciation Affix Set"],
+        "description": [
+          "Recommended for SS0-SS3 ranks",
+          "Glaciation Affix Set"
+        ],
         "memories": ["4x Burana", "2x Klenova"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -2457,27 +2479,27 @@
     "unit_name": "Vera",
     "frame_name": "Geiravor\n<:s_rank:1287636749052412026><:amplifier:1290613387197415467><:fire_element:1290613867365273630><:umbrasurge:1288090169303371828>",
     "set_list": [
-      { "name": "Main Support Sub-DPS Set", "memos": "4 Da Vinci 2 Guinevere" },
+      { "name": "Main DPS Set", "memos": "4 Shakespeare 2 Cottie" },
       { "name": "Alternative DPS Set", "memos": "4 Hervor 2 Cottie" },
-      { "name": "Alternative Main DPS Set", "memos": "4 Shakespeare 2 Cottie" }
+      { "name": "Main Support Sub-DPS Set", "memos": "4 Da Vinci 2 Guinevere" }
     ],
     "builds": [
       {
-        "set_name": "Main Support Sub-DPS Set",
-        "set_type": "Main Support Sub-DPS",
-        "usage": "Main Support Sub-DPS",
+        "set_name": "Main DPS Set",
+        "set_type": "Main DPS",
+        "usage": "Main DPS Set",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "General Sub-DPS set",
-          "Can swap Harmony between Guinevere and Einsteina depending on situation"
+          "Alternative Main-DPS Set",
+          "Requires DLT weapon resonance."
         ],
-        "memories": ["4x Da Vinci", "2x Guinevere"],
+        "memories": ["4x Shakespeare", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Class Skill"
+          "Bottom Slot: 6x Signature"
         ],
-        "harmony_rec": "Guinevere"
+        "harmony_rec": "Cottie"
       },
       {
         "set_name": "Alternative DPS Set",
@@ -2497,22 +2519,21 @@
         "harmony_rec": "Cottie"
       },
       {
-        "set_name": "Alternative Main DPS Set",
-        "set_type": "Main DPS",
-        "usage": "Main DPS Set",
+        "set_name": "Main Support Sub-DPS Set",
+        "set_type": "Main Support Sub-DPS",
+        "usage": "Main Support Sub-DPS",
         "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
-          "Alternative Main-DPS Set",
-          "Requires DLT weapon resonance.",
-          "Used as an alternative set in case Geiravor is the Main DPS"
+          "General Sub-DPS set",
+          "Can swap Harmony between Guinevere and Einsteina depending on situation"
         ],
-        "memories": ["4x Shakespeare", "2x Cottie"],
+        "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
+          "Bottom Slot: 6x Class Skill"
         ],
-        "harmony_rec": "Cottie"
+        "harmony_rec": "Guinevere"
       }
     ]
   },

@@ -113,8 +113,8 @@
     "crowned laurel",
     "lethal shadow",
     "fiery twilight",
-    "devil hunter greatsword",
-    "yamato - replica",
+    "devil hunter sword",
+    "yamato - kageuchi",
     "nightrender",
     "glimpse",
     "guiyun",
@@ -566,11 +566,11 @@
     },
     {
       "name": "Devil Swords",
-      "list": ["Devil Sword Dante ######", "Devil Hunter Greatsword #####"]
+      "list": ["Devil Sword Dante ######", "Devil Hunter Sword #####"]
     },
     {
       "name": "Yamatos",
-      "list": ["Yamato ######", "Yamato - Replica #####"]
+      "list": ["Yamato ######", "Yamato - Kageuchi #####"]
     }
   ]
 }
